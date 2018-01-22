@@ -2,10 +2,6 @@
   "id": "French Tyranids",
   "version": "1.0",
   "by": "Argol",
-  "notes":[
-    "Be aware that the Dominatrix (400 points) counts towards the 33% Independent swarms limit",
-    "Mycetic Spore is not allowed in formations where the Hive Tyrant and/or Tyranid Warriors are equipped with wings"
-  ],
   "sections": [
     {
       "name": "Synapse Swarms",
@@ -96,7 +92,7 @@
       "name": "Independent Swarms",
       "formations": [
         {
-          "id": 511,
+          "id": 506,
           "name": "Genestealer Swarm",
           "pts": 0,
           "upgrades": [
@@ -105,9 +101,9 @@
           ]
         },
         {
-          "id": 512,
+          "id": 507,
           "name": "Lictor Swarm",
-          "pts": -25,
+          "pts": 25,
           "upgrades": [
             142
           ]
@@ -118,7 +114,7 @@
       "name": "Rare Independent Swarms",
       "formations": [
         {
-          "id": 521,
+          "id": 508,
           "name": "Bio-Bombers",
           "pts": 25,
           "upgrades": [
@@ -126,22 +122,22 @@
           ]
         },
         {
-          "id": 522,
+          "id": 509,
           "name": "Siege breakers",
-          "pts": -50,
+          "pts": 475,
           "upgrades": [
           ]
         },
         {
-          "id": 523,
+          "id": 510,
           "name": "Bio-Titan",
           "pts": 0,
           "upgrades": [
           ]
         },
         {
-          "id": 524,
-          "name": "Bio-Vessel",
+          "id": 511,
+          "name": "Bio-Vessle",
           "pts": 0,
           "upgrades": [
           ]
@@ -262,7 +258,7 @@
     },
     {
       "id": 201,
-      "name": "Tyranid Warriors",
+      "name": "Tyranid Warrios",
       "pts": 0
     },
     {
@@ -282,7 +278,7 @@
     },
     {
       "id": 211,
-      "name": "Winged Tyranid Warriors",
+      "name": "Winged Tyranid Warrios",
       "pts": 0
     },
     {
@@ -294,6 +290,16 @@
       "id": 214,
       "name": "Winged Swarm Master Hive Tyrant",
       "pts": 25
+    },
+    {
+      "id": 209,
+      "name": "Barbed Hierodule",
+      "pts": 0
+    },
+    {
+      "id": 210,
+      "name": "Scythed Hierodule",
+      "pts": 0
     }
   ],
   "formationConstraints": [
@@ -306,57 +312,37 @@
     {
       "max": 2,
       "from": [
-        512
+        507
       ]
     },
     {
       "max": 1,
       "from": [
-        524
+        511
       ]
     },
     {
       "maxPercent": 33,
       "name": "Independent Swarms",
       "from": [
-        511,
-        512
-      ]
-    },
-    {
-      "maxPercent": 33,
-      "name": "Rare Independent Swarms",
-      "from": [
-        521,
-        522,
-        523,
-        524
+        506,
+        507,
+        508,
+        509,
+        510,
+        511
       ]
     },
     {
       "max": 1,
       "name": "Independant Swarm",
       "from": [
-        511,
-        512
-      ],
-      "forEach": [
-        501,
-        502,
-        503,
-        504,
-        505
-      ],
-      "name2": "Synapse Swarm"
-    },
-    {
-      "max": 1,
-      "name": "Rare Independant Swarm",
-      "from": [
-        521,
-        522,
-        523,
-        524
+        506,
+        507,
+        508,
+        509,
+        510,
+        511
       ],
       "forEach": [
         501,
@@ -527,7 +513,7 @@
         140
       ],
       "appliesTo": [
-        511
+        506
       ]
     },
     {
@@ -537,7 +523,7 @@
         141
       ],
       "appliesTo": [
-        511
+        506
       ]
     },
     {
@@ -547,7 +533,7 @@
         142
       ],
       "appliesTo": [
-        512
+        507
       ]
     },
     {
@@ -557,18 +543,18 @@
         150
       ],
       "appliesTo": [
-        521
+        508
       ]
     },
     {
       "max": 3,
       "min": 3,
       "from": [
-        109,
-        110
+        209,
+        210
       ],
       "appliesTo": [
-        522
+        509
       ]
     },
     {
@@ -579,7 +565,7 @@
         161
       ],
       "appliesTo": [
-        523
+        510
       ]
     },
     {
@@ -590,7 +576,7 @@
         171
       ],
       "appliesTo": [
-        524
+        511
       ]
     }
   ]
