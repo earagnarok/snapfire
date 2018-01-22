@@ -1,0 +1,583 @@
+{
+  "id": "French Tyranids",
+  "version": "1.0",
+  "by": "Argol",
+  "sections": [
+    {
+      "name": "Synapse Swarms",
+      "formations": [
+        {
+          "id": 501,
+          "name": "Nexus Synapse",
+          "pts": 400,
+          "units": "Dominatrix",
+          "upgrades": [
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112
+          ]
+        },
+        {
+          "id": 502,
+          "name": "Secondary Synapse",
+          "pts": 125,
+          "upgrades": [
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            120
+          ]
+        },
+        {
+          "id": 503,
+          "name": "Tertiary Synapse",
+          "pts": 100,
+          "upgrades": [
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            120
+          ]
+        },
+        {
+          "id": 504,
+          "name": "Infestation Synapse",
+          "pts": 125,
+          "units": "Trygon Prime",
+          "upgrades": [
+            101,
+            111,
+            112
+          ]
+        },
+        {
+          "id": 505,
+          "name": "Harrasser Synapse",
+          "pts": 0,
+          "upgrades": [
+            103,
+            130
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Independent Swarms",
+      "formations": [
+        {
+          "id": 506,
+          "name": "Genestealer Swarm",
+          "pts": 0,
+          "upgrades": [
+            140,
+            141
+          ]
+        },
+        {
+          "id": 507,
+          "name": "Lictor Swarm",
+          "pts": 25,
+          "upgrades": [
+            142
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rare Independent Swarms",
+      "formations": [
+        {
+          "id": 508,
+          "name": "Bio-Bombers",
+          "pts": 25,
+          "upgrades": [
+            150
+          ]
+        },
+        {
+          "id": 509,
+          "name": "Siege breakers",
+          "pts": 475,
+          "upgrades": [
+          ]
+        },
+        {
+          "id": 510,
+          "name": "Bio-Titan",
+          "pts": 0,
+          "upgrades": [
+          ]
+        },
+        {
+          "id": 511,
+          "name": "Bio-Vessle",
+          "pts": 0,
+          "upgrades": [
+          ]
+        }
+      ]
+    }
+  ],
+  "upgrades": [
+    {
+      "id": 101,
+      "name": "Gaunts (6 Term/Hormagaunts)",
+      "pts": 75
+    },
+    {
+      "id": 102,
+      "name": "Bio-Artillery (3 Biovores)",
+      "pts": 75
+    },
+    {
+      "id": 103,
+      "name": "4 Garoyles",
+      "pts": 75
+    },
+    {
+      "id": 104,
+      "name": "3 Carnifex",
+      "pts": 125
+    },
+    {
+      "id": 105,
+      "name": "Bio-Support (3 Dactylis)",
+      "pts": 150
+    },
+    {
+      "id": 106,
+      "name": "Bio-Support (3 Exocrines)",
+      "pts": 150
+    },
+    {
+      "id": 107,
+      "name": "Bio-Attack (3 Haruspex)",
+      "pts": 150
+    },
+    {
+      "id": 108,
+      "name": "Bio-Attack (3 Malefactors)",
+      "pts": 150
+    },
+    {
+      "id": 109,
+      "name": "Barbed Hierodule",
+      "pts": 175
+    },
+    {
+      "id": 110,
+      "name": "Scythed Hierodule",
+      "pts": 175
+    },
+    {
+      "id": 111,
+      "name": "Burrower (Trygon Drone)",
+      "pts": 100
+    },
+    {
+      "id": 112,
+      "name": "Burrower (3 Raveners)",
+      "pts": 100
+    },
+    {
+      "id": 120,
+      "name": "Mycetic Spore",
+      "pts": 50
+    },
+    {
+      "id": 130,
+      "name": "Harridan",
+      "pts": 150
+    },
+    {
+      "id": 140,
+      "name": "Genestealers",
+      "pts": 25
+    },
+    {
+      "id": 141,
+      "name": "Brood Lord",
+      "pts": 50
+    },
+    {
+      "id": 142,
+      "name": "Lictor",
+      "pts": 50
+    },
+    {
+      "id": 150,
+      "name": "Harpies",
+      "pts": 75
+    },
+    {
+      "id": 160,
+      "name": "Hierophant",
+      "pts": 350
+    },
+    {
+      "id": 161,
+      "name": "Hydraphant",
+      "pts": 550
+    },
+    {
+      "id": 170,
+      "name": "Razorfiend",
+      "pts": 150
+    },
+    {
+      "id": 171,
+      "name": "Hive Ship",
+      "pts": 250
+    },
+    {
+      "id": 201,
+      "name": "Tyranid Warrios",
+      "pts": 0
+    },
+    {
+      "id": 202,
+      "name": "Zoantrope",
+      "pts": 0
+    },
+    {
+      "id": 203,
+      "name": "Hive Tyrant",
+      "pts": 0
+    },
+    {
+      "id": 204,
+      "name": "Swarm Master Hive Tyrant",
+      "pts": 25
+    },
+    {
+      "id": 211,
+      "name": "Winged Tyranid Warrios",
+      "pts": 0
+    },
+    {
+      "id": 213,
+      "name": "Winged Hive Tyrant",
+      "pts": 0
+    },
+    {
+      "id": 214,
+      "name": "Winged Swarm Master Hive Tyrant",
+      "pts": 25
+    },
+    {
+      "id": 209,
+      "name": "Barbed Hierodule",
+      "pts": 0
+    },
+    {
+      "id": 210,
+      "name": "Scythed Hierodule",
+      "pts": 0
+    }
+  ],
+  "formationConstraints": [
+    {
+      "max": 1,
+      "from": [
+        501
+      ]
+    },
+    {
+      "max": 2,
+      "from": [
+        507
+      ]
+    },
+    {
+      "max": 1,
+      "from": [
+        511
+      ]
+    },
+    {
+      "maxPercent": 33,
+      "name": "Independent Swarms",
+      "from": [
+        506,
+        507,
+        508,
+        509,
+        510,
+        511
+      ]
+    },
+    {
+      "max": 1,
+      "name": "Independant Swarm",
+      "from": [
+        506,
+        507,
+        508,
+        509,
+        510,
+        511
+      ],
+      "forEach": [
+        501,
+        502,
+        503,
+        504,
+        505
+      ],
+      "name2": "Synapse Swarm"
+    }
+  ],
+  "upgradeConstraints": [
+    {
+      "max": 6,
+      "min": 2,
+      "from": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112
+      ],
+      "appliesTo": [
+        501
+      ]
+    },
+    {
+      "max": 1,
+      "perArmy": true,
+      "from": [
+        204,
+        214
+      ]
+    },
+    {
+      "max": 1,
+      "min": 1,
+      "from": [
+        203,
+        204,
+        213,
+        214
+      ],
+      "appliesTo": [
+        502
+      ]
+    },
+    {
+      "max": 2,
+      "min": 2,
+      "from": [
+        201,
+        202,
+        211
+      ],
+      "appliesTo": [
+        502
+      ]
+    },
+    {
+      "max": 5,
+      "min": 2,
+      "from": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        120
+      ],
+      "appliesTo": [
+        502
+      ]
+    },
+    {
+      "max": 3,
+      "min": 3,
+      "from": [
+        201,
+        202,
+        211
+      ],
+      "appliesTo": [
+        503
+      ]
+    },
+    {
+      "max": 2,
+      "from": [
+        202
+      ],
+      "appliesTo": [
+        503
+      ]
+    },
+    {
+      "max": 4,
+      "min": 2,
+      "from": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        120
+      ],
+      "appliesTo": [
+        503
+      ]
+    },
+    {
+      "max": 2,
+      "min": 1,
+      "from": [
+        101,
+        111,
+        112
+      ],
+      "appliesTo": [
+        504
+      ]
+    },
+    {
+      "max": 2,
+      "min": 1,
+      "from": [
+        130
+      ],
+      "appliesTo": [
+        505
+      ]
+    },
+    {
+      "max": 2,
+      "min": 1,
+      "from": [
+        103
+      ],
+      "appliesTo": [
+        505
+      ]
+    },
+    {
+      "max": 9,
+      "min": 6,
+      "from": [
+        140
+      ],
+      "appliesTo": [
+        506
+      ]
+    },
+    {
+      "max": 1,
+      "min": 0,
+      "from": [
+        141
+      ],
+      "appliesTo": [
+        506
+      ]
+    },
+    {
+      "max": 6,
+      "min": 4,
+      "from": [
+        142
+      ],
+      "appliesTo": [
+        507
+      ]
+    },
+    {
+      "max": 4,
+      "min": 2,
+      "from": [
+        150
+      ],
+      "appliesTo": [
+        508
+      ]
+    },
+    {
+      "max": 3,
+      "min": 3,
+      "from": [
+        209,
+        210
+      ],
+      "appliesTo": [
+        509
+      ]
+    },
+    {
+      "max": 1,
+      "min": 1,
+      "from": [
+        160,
+        161
+      ],
+      "appliesTo": [
+        510
+      ]
+    },
+    {
+      "max": 1,
+      "min": 1,
+      "from": [
+        170,
+        171
+      ],
+      "appliesTo": [
+        511
+      ]
+    }
+  ]
+}
