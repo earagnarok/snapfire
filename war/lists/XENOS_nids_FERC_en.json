@@ -2,6 +2,10 @@
   "id": "French Tyranids",
   "version": "1.0",
   "by": "Argol",
+  "notes":[
+    "Be aware that the Dominatrix (400 points) counts towards the 33% Independent swarms limit",
+    "Mycetic Spore is not allowed in formations where the Hive Tyrant and/or Tyranid Warriors are equipped with wings"
+  ],
   "sections": [
     {
       "name": "Synapse Swarms",
@@ -92,7 +96,7 @@
       "name": "Independent Swarms",
       "formations": [
         {
-          "id": 506,
+          "id": 511,
           "name": "Genestealer Swarm",
           "pts": 0,
           "upgrades": [
@@ -101,9 +105,9 @@
           ]
         },
         {
-          "id": 507,
+          "id": 512,
           "name": "Lictor Swarm",
-          "pts": 25,
+          "pts": -25,
           "upgrades": [
             142
           ]
@@ -114,7 +118,7 @@
       "name": "Rare Independent Swarms",
       "formations": [
         {
-          "id": 508,
+          "id": 521,
           "name": "Bio-Bombers",
           "pts": 25,
           "upgrades": [
@@ -122,22 +126,22 @@
           ]
         },
         {
-          "id": 509,
+          "id": 522,
           "name": "Siege breakers",
-          "pts": 475,
+          "pts": -50,
           "upgrades": [
           ]
         },
         {
-          "id": 510,
+          "id": 523,
           "name": "Bio-Titan",
           "pts": 0,
           "upgrades": [
           ]
         },
         {
-          "id": 511,
-          "name": "Bio-Vessle",
+          "id": 524,
+          "name": "Bio-Vessel",
           "pts": 0,
           "upgrades": [
           ]
@@ -290,16 +294,6 @@
       "id": 214,
       "name": "Winged Swarm Master Hive Tyrant",
       "pts": 25
-    },
-    {
-      "id": 209,
-      "name": "Barbed Hierodule",
-      "pts": 0
-    },
-    {
-      "id": 210,
-      "name": "Scythed Hierodule",
-      "pts": 0
     }
   ],
   "formationConstraints": [
@@ -312,37 +306,57 @@
     {
       "max": 2,
       "from": [
-        507
+        512
       ]
     },
     {
       "max": 1,
       "from": [
-        511
+        524
       ]
     },
     {
       "maxPercent": 33,
       "name": "Independent Swarms",
       "from": [
-        506,
-        507,
-        508,
-        509,
-        510,
-        511
+        511,
+        512
+      ]
+    },
+    {
+      "maxPercent": 33,
+      "name": "Rare Independent Swarms",
+      "from": [
+        521,
+        522,
+        523,
+        524
       ]
     },
     {
       "max": 1,
       "name": "Independant Swarm",
       "from": [
-        506,
-        507,
-        508,
-        509,
-        510,
-        511
+        511,
+        512
+      ],
+      "forEach": [
+        501,
+        502,
+        503,
+        504,
+        505
+      ],
+      "name2": "Synapse Swarm"
+    },
+    {
+      "max": 1,
+      "name": "Rare Independant Swarm",
+      "from": [
+        521,
+        522,
+        523,
+        524
       ],
       "forEach": [
         501,
@@ -513,7 +527,7 @@
         140
       ],
       "appliesTo": [
-        506
+        511
       ]
     },
     {
@@ -523,7 +537,7 @@
         141
       ],
       "appliesTo": [
-        506
+        511
       ]
     },
     {
@@ -533,7 +547,7 @@
         142
       ],
       "appliesTo": [
-        507
+        512
       ]
     },
     {
@@ -543,18 +557,18 @@
         150
       ],
       "appliesTo": [
-        508
+        521
       ]
     },
     {
       "max": 3,
       "min": 3,
       "from": [
-        209,
-        210
+        109,
+        110
       ],
       "appliesTo": [
-        509
+        522
       ]
     },
     {
@@ -565,7 +579,7 @@
         161
       ],
       "appliesTo": [
-        510
+        523
       ]
     },
     {
@@ -576,7 +590,7 @@
         171
       ],
       "appliesTo": [
-        511
+        524
       ]
     }
   ]
