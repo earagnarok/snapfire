@@ -179,32 +179,32 @@
     },
 	    {
       "id": 102,
-      "name": "Gaunts (5 Termagaunts, 1 Razorgaunt)",
+      "name": "Gaunts (5 Termagaunts, 1 Hormagaunt)",
       "pts": 75
     },
 	    {
       "id": 103,
-      "name": "Gaunts (4 Termagaunts, 2 Razorgaunts)",
+      "name": "Gaunts (4 Termagaunts, 2 Hormagaunts)",
       "pts": 75
     },
 	    {
       "id": 104,
-      "name": "Gaunts (3 Termagaunts, 3 Razorgaunts)",
+      "name": "Gaunts (3 Termagaunts, 3 Hormagaunts)",
       "pts": 75
     },
 	    {
       "id": 105,
-      "name": "Gaunts (2 Termagaunts, 4 Razorgaunts)",
+      "name": "Gaunts (2 Termagaunts, 4 Hormagaunts)",
       "pts": 75
     },
 	    {
       "id": 106,
-      "name": "Gaunts (1 Termagaunt, 5 Razorgaunts)",
+      "name": "Gaunts (1 Termagaunt, 5 Hormagaunts)",
       "pts": 75
     },
 	    {
       "id": 107,
-      "name": "Gaunts (6 Razorgaunts)",
+      "name": "Gaunts (6 Hormagaunts)",
       "pts": 75
     },
     {
@@ -269,12 +269,12 @@
     },
     {
       "id": 140,
-      "name": "Purestrain",
+      "name": "Genestealers",
       "pts": 25
     },
     {
       "id": 141,
-      "name": "Purestrain Alpha",
+      "name": "Genestealer Alpha",
       "pts": 50
     },
     {
