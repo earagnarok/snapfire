@@ -105,7 +105,7 @@
         },
         {
           "id": 505,
-          "name": "Harrasser Swarm",
+          "name": "Harasser Swarm",
           "pts": 0,
           "upgrades": [
             109,
@@ -234,7 +234,7 @@
     },
     {
       "id": 113,
-      "name": "Bio-Attack (3 Assault Cerebores)",
+      "name": "Bio-Attack (3 Pincer Cerebores)",
       "pts": 150
     },
     {
@@ -264,7 +264,7 @@
     },
     {
       "id": 130,
-      "name": "Assault Harridan",
+      "name": "Clawed Harridan",
       "pts": 150
     },
     {
@@ -290,7 +290,7 @@
     {
       "id": 160,
       "name": "Siege Hierodule",
-      "pts": 350
+      "pts": 375
     },
     {
       "id": 161,
@@ -299,12 +299,12 @@
     },
     {
       "id": 170,
-      "name": "Razorfiend",
+      "name": "Razorfiend (May carry 2 Mycetic Spores including cargo)",
       "pts": 150
     },
     {
       "id": 171,
-      "name": "Hive Ship",
+      "name": "Hive Ship (May carry 5 Mycetic Spores including cargo)",
       "pts": 250
     },
     {
@@ -455,7 +455,7 @@
       ]
     },
     {
-      "max": 2,
+      "max": 5,
 	  "perArmy": true,
       "name": "Mycetic Spore",
       "from": [
