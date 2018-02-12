@@ -6,7 +6,7 @@
 		{"name":"Dark Angles Core Detachments", "formations": [
             { "id":501, "name":"Tacticals ", "units":"6 Dark Angel Tacticals plus Transport",        "pts":300, "upgrades":[13,14,15,16,17,18,19,20] }
 	 ]},
-	 		{"name":"Dark Angles Line Detachments", "formations": [
+	 		{"name":"Dark Angles Line Detachments (Max two for each Dark Angels Core Detachment)", "formations": [
             { "id":502, "name":"Scouts", "units":"4 Space Marine Scouts plus Transport",        "pts":175, "upgrades":[13,14,15,17,18,19,20,21] },
             { "id":503, "name":"Assault", "units":"4 Assault Marines",        "pts":175, "upgrades":[13,14,15] },
             { "id":504, "name":"Devastators", "units":"4 Dark Angel Devastators plus Transport",        "pts":250, "upgrades":[13,14,15,16,17,18,19,20] }
@@ -14,7 +14,7 @@
 	 		{"name":"Deathwing Core Detachments", "formations": [
             { "id":511, "name":"Deathwing Terminators", "units":"4 Deathwing Tactical Terminators",        "pts":375, "upgrades":[13,14,15,16,22,23] }
      ]},
-	 		{"name":"Deathwing Specialist Detachments", "formations": [
+	 		{"name":"Deathwing Specialist Detachments (Max one for each Deathwing Core Detachment)", "formations": [
             { "id":512, "name":"Deathwing Overwatch", "units":"4 Deathwing Cyclone Terminators",        "pts":400, "upgrades":[13,14,15,16,22,23] },
 			{ "id":513, "name":"Deathwing Knights", "units":"4 Deathwing Boarding Knights",        "pts":400, "upgrades":[13,14,15,16,22,23] },
 			{ "id":514, "name":"Deathwing Dreadnoughts", "units":"4 Deathwing Dreadnoughts plus Transport",        "pts":250, "upgrades":[] }
@@ -22,7 +22,7 @@
 	 		{"name":"Ravenwing Core Detachments", "formations": [
             { "id":521, "name":"Ravenwing", "units":"4x Ravenwing Land Speeders",        "pts":325, "upgrades":[13,14,15,16] }
      ]},
-	 		{"name":"Ravenwing Strike Detachments", "formations": [
+	 		{"name":"Ravenwing Strike Detachments (Max two for each Ravenwing Core Detachment)", "formations": [
 		    { "id":522, "name":"Ravenwing Auxilia",       "pts":200, "upgrades":[] },
             { "id":523, "name":"Ravenwing Nephilim", "units":"2 Ravenwing Nephilim Interceptors",        "pts":200, "upgrades":[] },
 		    { "id":524, "name":"Ravenwing Dark Talon", "units":"2 Ravenwing Dark Talons",        "pts":225, "upgrades":[] },
@@ -76,11 +76,11 @@
 	],
 	"formationConstraints":[
 	
-	{"max": 3, "name": "Dark Angels Line Detachment", "from": [502,503,504], "forEach": [501], "name2": "Dark Angels Core Detachment"},
+	{"max": 2, "name": "Dark Angels Line Detachment", "from": [502,503,504], "forEach": [501], "name2": "Dark Angels Core Detachment"},
 	
-	{"max": 2, "name": "Deathwing Specialist Detachment", "from": [512,513,514], "forEach": [511], "name2": "Deathwing Core Detachment"},
+	{"max": 1, "name": "Deathwing Specialist Detachment", "from": [512,513,514], "forEach": [511], "name2": "Deathwing Core Detachment"},
 		
-	{"max": 3, "name": "Ravenwing Strike Detachment", "from": [522,523,524,525], "forEach": [521], "name2": "Ravenwing Core Detachment"},
+	{"max": 2, "name": "Ravenwing Strike Detachment", "from": [522,523,524,525], "forEach": [521], "name2": "Ravenwing Core Detachment"},
 	
 	{"maxPercent":33, "name":"Dark Angels Navy", "from":[523,524,541,542,543]}
 	
