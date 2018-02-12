@@ -34,7 +34,7 @@
             { "id":533, "name":"Ironwing Siege Breachers", "units":"3 Land Raider Ares", "pts":275, "upgrades":[13,14,15,20,29] },
 			{ "id":534, "name":"Ironwing Whirlwinds", "units":"4 Whirlwinds", "pts":250, "upgrades":[29] }
      ]},
-	 		{"name":"Ironwing Relic Detachments (Max 1 for each 3 Ironwing Core Detachments)", "formations": [
+	 		{"name":"Ironwing Relic Detachments (Max one for each three Ironwing Core Detachments)", "formations": [
             { "id":535, "name":"Relic Deimos Predator Executioners",        "pts":325, "upgrades":[29,34] },
 		    { "id":536, "name":"Relic Fellglaive", "units":"1 Fellglaive",        "pts":325, "upgrades":[] }
      ]},
