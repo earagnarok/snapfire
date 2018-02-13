@@ -1,23 +1,22 @@
 {
 	"id":"Dark Angels",
-	"version":"NetEA Dark Angels 1.2",
-	"by":"MrDieAlot",
+	"version":"NetEA Dark Angels 1.3",
+	"by":"Mrdiealot",
 "sections":[
 		{"name":"Dark Angles Core Detachments", "formations": [
-            { "id":501, "name":"Tacticals ", "units":"6 Dark Angel Tacticals plus Transport",        "pts":300, "upgrades":[13,14,15,16,17,18,19,20] }
+            { "id":501, "name":"Tacticals ", "units":"6 Tacticals plus Transport",        "pts":300, "upgrades":[13,14,15,16,17,18,19] }
 	 ]},
 	 		{"name":"Dark Angles Line Detachments (Max two for each Dark Angels Core Detachment)", "formations": [
-            { "id":502, "name":"Scouts", "units":"4 Space Marine Scouts plus Transport",        "pts":175, "upgrades":[13,14,15,17,18,19,20,21] },
-            { "id":503, "name":"Assault", "units":"4 Assault Marines",        "pts":175, "upgrades":[13,14,15] },
-            { "id":504, "name":"Devastators", "units":"4 Dark Angel Devastators plus Transport",        "pts":250, "upgrades":[13,14,15,16,17,18,19,20] }
+            { "id":502, "name":"Scouts", "units":"4 Space Marine Scouts plus Transport",        "pts":175, "upgrades":[13,14,15,17,18,19,21] },
+            { "id":503, "name":"Interrogators", "units":"1 Interrogator Chaplain and 6 Assault Marines",        "pts":250, "upgrades":[] },
+            { "id":504, "name":"Devastators", "units":"4 Dark Angels Devastators plus Transport",        "pts":250, "upgrades":[13,14,15,16,17,18,19] }
      ]},
 	 		{"name":"Deathwing Core Detachments", "formations": [
-            { "id":511, "name":"Deathwing Terminators", "units":"4 Deathwing Tactical Terminators",        "pts":375, "upgrades":[13,14,15,16,22,23] }
+            { "id":511, "name":"Deathwing Terminators", "units":"4 Deathwing Terminators",        "pts":375, "upgrades":[13,14,15,16,22,23] }
      ]},
-	 		{"name":"Deathwing Specialist Detachments (Max one for each Deathwing Core Detachment)", "formations": [
-            { "id":512, "name":"Deathwing Overwatch", "units":"4 Deathwing Cyclone Terminators",        "pts":400, "upgrades":[13,14,15,16,22,23] },
-			{ "id":513, "name":"Deathwing Knights", "units":"4 Deathwing Boarding Knights",        "pts":400, "upgrades":[13,14,15,16,22,23] },
-			{ "id":514, "name":"Deathwing Dreadnoughts", "units":"4 Deathwing Dreadnoughts plus Transport",        "pts":250, "upgrades":[] }
+	 		{"name":"Deathwing Inner Circle Detachments (Max one for each Deathwing Core Detachment)", "formations": [
+			{ "id":513, "name":"Deathwing Knights", "units":"4 Deathwing Knights",        "pts":375, "upgrades":[13,14,15,16,22,23] },
+			{ "id":514, "name":"Deathwing Dreadnoughts", "units":"6 Deathwing Dreadnoughts plus Transport",        "pts":325, "upgrades":[] }
      ]},
 	 		{"name":"Ravenwing Core Detachments", "formations": [
             { "id":521, "name":"Ravenwing", "units":"4x Ravenwing Land Speeders",        "pts":325, "upgrades":[13,14,15,16] }
@@ -25,17 +24,16 @@
 	 		{"name":"Ravenwing Strike Detachments (Max two for each Ravenwing Core Detachment)", "formations": [
 		    { "id":522, "name":"Ravenwing Auxilia",       "pts":200, "upgrades":[] },
             { "id":523, "name":"Ravenwing Nephilim", "units":"2 Ravenwing Nephilim Interceptors",        "pts":200, "upgrades":[] },
-		    { "id":524, "name":"Ravenwing Dark Talon", "units":"2 Ravenwing Dark Talons",        "pts":225, "upgrades":[] },
-		    { "id":525, "name":"Ravenwing Venegance", "units":"5 Ravenwing Land Speeder Venegance",        "pts":275, "upgrades":[] }
-     ]},
+		    { "id":524, "name":"Ravenwing Dark Talon", "units":"2 Ravenwing Dark Talons",        "pts":225, "upgrades":[] }
+	 ]},
 	 		{"name":"Ironwing Core Detachments", "formations": [
             { "id":531, "name":"Ironwing Predators", "pts":275, "upgrades":[29] },
-            { "id":532, "name":"Ironwing Land Raiders", "units":"3 Land Raiders", "pts":250, "upgrades":[13,14,15,29,30,31] },
+            { "id":532, "name":"Ironwing Land Raiders", "units":"3 Land Raiders", "pts":250, "upgrades":[13,14,15,29,30] },
             { "id":533, "name":"Ironwing Siege Breachers", "units":"3 Land Raider Ares", "pts":275, "upgrades":[13,14,15,20,29] },
 			{ "id":534, "name":"Ironwing Whirlwinds", "units":"4 Whirlwinds", "pts":250, "upgrades":[29] }
      ]},
 	 		{"name":"Ironwing Relic Detachments (Max one for each three Ironwing Core Detachments)", "formations": [
-            { "id":535, "name":"Relic Deimos Predator Executioners",        "pts":325, "upgrades":[29,34] },
+            { "id":535, "name":"Relic Deimos", "units":"3 Deimos Vindicators",  "pts":425, "upgrades":[29] },
 		    { "id":536, "name":"Relic Fellglaive", "units":"1 Fellglaive",        "pts":325, "upgrades":[] }
      ]},
 	 		{"name":"Dark Angels Navy (Max 33%. Ravenwing Nephilim and Ravenwing Dark Talons are also included in this limit.)", "formations": [
@@ -45,8 +43,6 @@
      ]}
   ],
 	"upgrades":[
-		{"id":11, "name":"Missile Launchers",			"pts":0},
-		{"id":12, "name":"Plasma Cannons",			"pts":0},
 		{"id":13, "name":"Captain",		"pts":50},
 		{"id":14, "name":"Librarian",	"pts":50},
 		{"id":15, "name":"Interrogator Chaplain",		"pts":50},
@@ -54,21 +50,18 @@
 		{"id":17, "name":"Razorback w Twin Lascannon", 	"pts":20},
 		{"id":18, "name":"Razorback w Twin Heavy Bolters",		"pts":20},
 		{"id":19, "name":"2 Mortis Dreadnoughts", 		"pts":75},
-		{"id":20, "name":"2 Vindicators", 			"pts":75},
+		{"id":20, "name":"3 Vindicators", 			"pts":100},
 		{"id":21, "name":"Sniper x 4", 		"pts":40},
 		{"id":22, "name":"4 Land Raiders", 			"pts":200},
 		{"id":23, "name":"2 Land Raider Crusaders",			"pts":100},
-		{"id":24, "name":"Black Knights",	"pts":25},
 		{"id":25, "name":"Ravenwing Bikes",		"pts":0},
 		{"id":26, "name":"Ravenwing Attack Bike",	"pts":0},
 		{"id":27, "name":"Ravenwing Tornado",		"pts":0},
-		{"id":28, "name":"Ravenwing Typhoon",	"pts":10},
+		{"id":28, "name":"Ravenwing Venegance",	"pts":15},
 		{"id":29, "name":"2 Hunters","pts":125},
-		{"id":30, "name":"6 Dark Angels Tacticals w Missile Launcher",		"pts":200},
-		{"id":31, "name":"6 Dark Angels Tacticals w Plasma Cannon",		"pts":200},
+		{"id":30, "name":"6 Tacticals",		"pts":200},
 		{"id":32, "name":"4 Deimos Predators with Plasma Destroyers",		"pts":0},
 		{"id":33, "name":"4 Deimos Predators with Heavy Conversion Beamers",		"pts":0},
-		{"id":34, "name":"2 Deimos Vindicator Laser Destroyers",		"pts":75},
 		{"id":35, "name":"Strike Cruiser",		"pts":200},
 		{"id":36, "name":"Battle Barge",		"pts":350},
 		{"id":37, "name":"6 Predator Destructors",		"pts":0},
@@ -89,7 +82,6 @@
 	"upgradeConstraints":[
 	{"max":1, "perArmy":true, "from":[16]},
 	
-	{"min":1, "max":1, "from":[11,12], "appliesTo":[501,504]},
 	{"min":4, "max":4, "from":[25,26,24], "appliesTo":[521]},
 	{"min":5, "max":5, "from":[27,28], "appliesTo":[522]},
 	
