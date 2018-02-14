@@ -1,15 +1,15 @@
 {
 	"id":"Dark Angels",
-	"version":"NetEA Dark Angels 1.5",
+	"version":"NetEA Dark Angels 1.51",
 	"by":"Mrdiealot",
 "sections":[
 		{"name":"Dark Angles Core Detachments", "formations": [
-            { "id":501, "name":"Tacticals", "units":"6 Tacticals plus Transport",        "pts":300, "upgrades":[13,14,16,17,18,19] }
+            { "id":501, "name":"Tacticals", "units":"6 Tacticals plus Transport",        "pts":300, "upgrades":[13,14,16,17,19] }
 	 ]},
 	 		{"name":"Dark Angles Line Detachments (Two Line Detachments may be taken for each Tacticals Core Detachment)", "formations": [
             { "id":502, "name":"Scout Vanguard", "units":"4 Space Marine Sniper Scouts",        "pts":150, "upgrades":[13,14] },
             { "id":503, "name":"Assaults", "units":"6 Assault Marines",        "pts":225, "upgrades":[13,14] },
-            { "id":504, "name":"Devastators", "units":"4 Dark Angels Devastators plus Transport",        "pts":250, "upgrades":[13,14,17,18,19] }
+            { "id":504, "name":"Devastators", "units":"4 Dark Angels Devastators plus Transport",        "pts":250, "upgrades":[13,14,17,19] }
      ]},
 	 		{"name":"Deathwing Core Detachments", "formations": [
 		    { "id":511, "name":"Deathwing Tacticals", "units":"4 Deathwing Tactical Terminators",        "pts":350, "upgrades":[13,14,16,22,23] },
@@ -22,7 +22,7 @@
 	 		{"name":"Ravenwing Core Detachments", "formations": [
 			{ "id":521, "name":"Ravenwing", "units":"4x Ravenwing Land Speeders",        "pts":325, "upgrades":[13,14,15,16] }
      ]},
-	 		{"name":"Ravenwing Strike Detachments (Two extra Ravenwing Strike Detachment may be taken for each Ravenwing Core Detachment)", "formations": [
+	 		{"name":"Ravenwing Strike Detachments (Two Ravenwing Strike Detachment may be taken for each Ravenwing Core Detachment)", "formations": [
 		    { "id":522, "name":"Ravenwing Auxilia",       "pts":200, "upgrades":[] },
 		    { "id":522, "name":"Ravenwing Venegance",       "pts":275, "upgrades":[] }
 	 ]},
@@ -50,7 +50,7 @@
 		{"id":14, "name":"Librarian",	"pts":50},
 		{"id":15, "name":"Interrogator Chaplain",		"pts":50},
 		{"id":16, "name":"Grand Master", 	"pts":100},
-		{"id":17, "name":"Dark Angels Razorback w Lascannon and Twin Plasma Guns", 	"pts":30},
+		{"id":17, "name":"Dark Angels Razorback w Lascannon and Twin Plasma Guns", 	"pts":20},
 		{"id":19, "name":"2 Mortis Dreadnoughts", 		"pts":75},
 		{"id":20, "name":"3 Vindicators", 			"pts":100},
 		{"id":22, "name":"4 Land Raiders", 			"pts":200},
@@ -91,8 +91,7 @@
 	{"min":0, "max":1, "from":[29], "appliesTo":[531,532,533,534,535]},
 	{"min":0, "max":1, "from":[30,31], "appliesTo":[532]},
 	{"min":1, "max":1, "from":[32,33], "appliesTo":[535]},
-	{"min":1, "max":1, "from":[35,36], "appliesTo":[543]},
-    {"min":1, "max":1, "from":[37,38], "appliesTo":[531]}
+	{"min":1, "max":1, "from":[35,36], "appliesTo":[543]}
 
 	]
 }
