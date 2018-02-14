@@ -1,42 +1,38 @@
 {
 	"id":"Dark Angels",
-	"version":"NetEA Dark Angels 1.3",
+	"version":"NetEA Dark Angels 1.4",
 	"by":"Mrdiealot",
 "sections":[
 		{"name":"Dark Angles Core Detachments", "formations": [
-            { "id":501, "name":"Tacticals ", "units":"6 Tacticals plus Transport",        "pts":300, "upgrades":[13,14,15,16,17,18,19] }
+            { "id":501, "name":"Tacticals", "units":"6 Tacticals plus Transport",        "pts":300, "upgrades":[13,14,16,17,18,19] },
+			{ "id":521, "name":"Ravenwing", "units":"4x Ravenwing Land Speeders",        "pts":325, "upgrades":[13,14,15,16] },
+			{ "id":531, "name":"Ironwing Predators", "pts":275, "upgrades":[29] },
+			{ "id":532, "name":"Ironwing Land Raiders", "units":"3 Land Raiders", "pts":250, "upgrades":[13,14,16,29,30] }
 	 ]},
-	 		{"name":"Dark Angles Line Detachments (Max two for each Dark Angels Core Detachment)", "formations": [
-            { "id":502, "name":"Scouts", "units":"4 Space Marine Scouts plus Transport",        "pts":175, "upgrades":[13,14,15,17,18,19,21] },
-            { "id":503, "name":"Interrogators", "units":"1 Interrogator Chaplain and 6 Assault Marines",        "pts":250, "upgrades":[] },
-            { "id":504, "name":"Devastators", "units":"4 Dark Angels Devastators plus Transport",        "pts":250, "upgrades":[13,14,15,16,17,18,19] }
+	 		{"name":"Dark Angles Line Detachments (Max one for each Dark Angels Core Detachment, or two if it is a Tacticals Core Detachment)", "formations": [
+            { "id":502, "name":"Scouts", "units":"4 Space Marine Scouts plus Transport",        "pts":175, "upgrades":[13,14,17,18,19,21] },
+            { "id":503, "name":"Assault", "units":"6 Assault Marines",        "pts":225, "upgrades":[13,14,15] },
+            { "id":504, "name":"Devastators", "units":"4 Dark Angels Devastators plus Transport",        "pts":250, "upgrades":[13,14,17,18,19] }
      ]},
-	 		{"name":"Deathwing Core Detachments", "formations": [
-            { "id":511, "name":"Deathwing Terminators", "units":"4 Deathwing Terminators",        "pts":375, "upgrades":[13,14,15,16,22,23] }
-     ]},
-	 		{"name":"Deathwing Inner Circle Detachments (Max one for each Deathwing Core Detachment)", "formations": [
+	 		{"name":"Deathwing Detachments (Max one for each Dark Angels Core Detachment)", "formations": [
+		    { "id":511, "name":"Deathwing Terminators", "units":"4 Deathwing Terminators",        "pts":375, "upgrades":[13,14,15,16,22,23] },
 			{ "id":513, "name":"Deathwing Knights", "units":"4 Deathwing Knights",        "pts":375, "upgrades":[13,14,15,16,22,23] },
 			{ "id":514, "name":"Deathwing Dreadnoughts", "units":"6 Deathwing Dreadnoughts plus Transport",        "pts":325, "upgrades":[] }
      ]},
-	 		{"name":"Ravenwing Core Detachments", "formations": [
-            { "id":521, "name":"Ravenwing", "units":"4x Ravenwing Land Speeders",        "pts":325, "upgrades":[13,14,15,16] }
-     ]},
-	 		{"name":"Ravenwing Strike Detachments (Max two for each Ravenwing Core Detachment)", "formations": [
+	 		{"name":"Ravenwing Strike Detachments (Max one for each Dark Angels Core Detachment, or two if it is a Ravenwing Core Detachment)", "formations": [
 		    { "id":522, "name":"Ravenwing Auxilia",       "pts":200, "upgrades":[] },
             { "id":523, "name":"Ravenwing Nephilim", "units":"2 Ravenwing Nephilim Interceptors",        "pts":200, "upgrades":[] },
 		    { "id":524, "name":"Ravenwing Dark Talon", "units":"2 Ravenwing Dark Talons",        "pts":225, "upgrades":[] }
 	 ]},
-	 		{"name":"Ironwing Core Detachments", "formations": [
-            { "id":531, "name":"Ironwing Predators", "pts":275, "upgrades":[29] },
-            { "id":532, "name":"Ironwing Land Raiders", "units":"3 Land Raiders", "pts":250, "upgrades":[13,14,15,29,30] },
-            { "id":533, "name":"Ironwing Siege Breachers", "units":"3 Land Raider Ares", "pts":275, "upgrades":[13,14,15,20,29] },
+	 		{"name":"Ironwing Support Detachments (Max one for each Dark Angels Core Detachment, or two if it is an Ironwing Land Raiders or Predators Core Detachment)", "formations": [
+            { "id":533, "name":"Ironwing Siege Breachers", "units":"3 Land Raider Ares", "pts":275, "upgrades":[13,14,16,20,29] },
 			{ "id":534, "name":"Ironwing Whirlwinds", "units":"4 Whirlwinds", "pts":250, "upgrades":[29] }
      ]},
-	 		{"name":"Ironwing Relic Detachments (Max one for each three Ironwing Core Detachments)", "formations": [
+	 		{"name":"Ironwing Relic Detachments (Max one for each three Dark Angels Core or Ironwing Support Detachments)", "formations": [
             { "id":535, "name":"Relic Deimos", "units":"3 Deimos Vindicators",  "pts":425, "upgrades":[29] },
 		    { "id":536, "name":"Relic Fellglaive", "units":"1 Fellglaive",        "pts":325, "upgrades":[] }
      ]},
-	 		{"name":"Dark Angels Navy (Max 33%. Ravenwing Nephilim and Ravenwing Dark Talons are also included in this limit.)", "formations": [
+	 		{"name":"Dark Angels Navy (Max 33%)", "formations": [
             { "id":541, "name":"Thunderhawk", "units":"1 Thunderhawk Gunship",        "pts":225, "upgrades":[] },
 	        { "id":542, "name":"Landing Craft", "units":"1 Landing Craft",        "pts":350, "upgrades":[] },
             { "id":543, "name":"Strike Cruiser",        "pts":0, "upgrades":[35,36] }
@@ -69,13 +65,7 @@
 	],
 	"formationConstraints":[
 	
-	{"max": 2, "name": "Dark Angels Line Detachment", "from": [502,503,504], "forEach": [501], "name2": "Dark Angels Core Detachment"},
-	
-	{"max": 1, "name": "Deathwing Specialist Detachment", "from": [512,513,514], "forEach": [511], "name2": "Deathwing Core Detachment"},
-		
-	{"max": 2, "name": "Ravenwing Strike Detachment", "from": [522,523,524,525], "forEach": [521], "name2": "Ravenwing Core Detachment"},
-	
-	{"maxPercent":33, "name":"Dark Angels Navy", "from":[523,524,541,542,543]}
+	{"maxPercent":33, "name":"Dark Angels Navy", "from":[541,542,543]}
 	
 	],
 	
@@ -91,14 +81,13 @@
 	{"min":0, "max":6, "from":[17,18], "appliesTo":[501]},
 	{"min":0, "max":4, "from":[17,18], "appliesTo":[502,504]},
 	{"min":0, "max":1, "from":[19], "appliesTo":[501,502,504]},
-	{"min":0, "max":1, "from":[20], "appliesTo":[501,502,504]},
+	{"min":0, "max":1, "from":[20], "appliesTo":[533]},
 	{"min":0, "max":1, "from":[21], "appliesTo":[502]},
 	
 	{"min":0, "max":1, "from":[22,23], "appliesTo":[511,512,513]},
 	{"min":0, "max":1, "from":[29], "appliesTo":[531,532,533,534,535]},
 	{"min":0, "max":1, "from":[30,31], "appliesTo":[532]},
 	{"min":1, "max":1, "from":[32,33], "appliesTo":[535]},
-	{"min":0, "max":1, "from":[34], "appliesTo":[535]},
 	{"min":1, "max":1, "from":[35,36], "appliesTo":[543]},
     {"min":1, "max":1, "from":[37,38], "appliesTo":[531]}
 
