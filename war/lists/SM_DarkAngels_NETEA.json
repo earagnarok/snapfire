@@ -16,7 +16,7 @@
 			{ "id":513, "name":"Deathwing Overwatch", "units":"4 Deathwing Cyclone Terminators",        "pts":350, "upgrades":[13,14,16,22,23] }
 	 ]},
 	 		{"name":"Deathwing Inner Circle Detachments (One Inner Circle Detachment may be taken for each Deathwing Core Detachment / Deathwing Grand Master Upgrade)", "formations": [
-			{ "id":513, "name":"Deathwing Knights", "units":"4 Deathwing Knights, 1 Interrogator Chaplain",        "pts":375, "upgrades":[] },
+			{ "id":513, "name":"Deathwing Knights", "units":"4 Deathwing Knights, 1 Interrogator Chaplain",        "pts":350, "upgrades":[] },
 			{ "id":514, "name":"Deathwing Dreadnoughts", "units":"6 Deathwing Dreadnoughts plus Transport",        "pts":300, "upgrades":[] }
      ]},
 	 		{"name":"Ravenwing Core Detachments", "formations": [
@@ -50,7 +50,7 @@
 		{"id":14, "name":"Librarian",	"pts":50},
 		{"id":15, "name":"Interrogator Chaplain",		"pts":50},
 		{"id":16, "name":"Grand Master", 	"pts":100},
-		{"id":17, "name":"Dark Angels Razorback w Lascannon and Twin Plasma Guns", 	"pts":20},
+		{"id":17, "name":"Dark Angels Razorback w Lascannon and Twin Plasma Guns", 	"pts":25},
 		{"id":19, "name":"2 Mortis Dreadnoughts", 		"pts":75},
 		{"id":20, "name":"3 Vindicators", 			"pts":100},
 		{"id":22, "name":"4 Land Raiders", 			"pts":200},
