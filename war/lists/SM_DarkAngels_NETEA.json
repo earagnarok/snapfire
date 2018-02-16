@@ -34,7 +34,7 @@
             { "id":533, "name":"Ironwing Siege Breachers", "units":"3 Land Raider Ares", "pts":275, "upgrades":[13,14,16,20,29] },
 			{ "id":534, "name":"Ironwing Whirlwinds", "units":"4 Whirlwinds", "pts":250, "upgrades":[29] }
      ]},
-	 		{"name":"Dreadwing Relic Detachments (One Dreadwing Relic may be taken for each four Core / Ironwing Support Detachments. One Relic may be taken for each Ironwing Grand Master.)", "formations": [
+	 		{"name":"Dreadwing Relic Detachments (One Dreadwing Relic Detachment may be taken for any four Core Detachments / Ironwing Support Detachments. One Relic may be taken for each Ironwing Grand Master.)", "formations": [
             { "id":535, "name":"Relic Deimos", "units":"3 Deimos Vindicator Laser Destroyers",  "pts":400, "upgrades":[29] },
 		    { "id":536, "name":"Relic Fellglaive", "units":"1 Fellglaive",        "pts":325, "upgrades":[] }
      ]},
