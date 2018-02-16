@@ -1,21 +1,21 @@
 {
 	"id":"Dark Angels",
-	"version":"NetEA Dark Angels 1.6",
+	"version":"NetEA Dark Angels 1.65",
 	"by":"Mrdiealot",
 "sections":[
 		{"name":"Dark Angles Core Detachments", "formations": [
             { "id":501, "name":"Tacticals", "units":"6 Tacticals plus Transport",        "pts":300, "upgrades":[13,14,16,17,19] }
 	 ]},
-	 		{"name":"Dark Angles Line Detachments (Two Line Detachments may be taken for each Dark Angels Core Detachment / Dark Angels Grand Master Upgrade)", "formations": [
+	 		{"name":"Dark Angles Line Detachments (Two Dark Angels Line Detachments may be taken for each Dark Angels Core Detachment / Dark Angels Grand Master Upgrade)", "formations": [
             { "id":502, "name":"Scout Vanguard", "units":"4 Space Marine Sniper Scouts",        "pts":175, "upgrades":[13,14] },
             { "id":503, "name":"Assaults", "units":"6 Assault Marines",        "pts":225, "upgrades":[13,14] },
             { "id":504, "name":"Devastators", "units":"4 Dark Angels Devastators plus Transport",        "pts":250, "upgrades":[13,14,17,19] }
      ]},
 	 		{"name":"Deathwing Core Detachments", "formations": [
-		    { "id":511, "name":"Deathwing Tacticals", "units":"4 Deathwing Tactical Terminators",        "pts":350, "upgrades":[13,14,16,22,23] },
-			{ "id":513, "name":"Deathwing Overwatch", "units":"4 Deathwing Cyclone Terminators",        "pts":350, "upgrades":[13,14,16,22,23] }
+		    { "id":511, "name":"Deathwing Tacticals", "units":"4 Deathwing Tactical Terminators",        "pts":350, "upgrades":[13,14,16,22] },
+			{ "id":513, "name":"Deathwing Overwatch", "units":"4 Deathwing Cyclone Terminators",        "pts":350, "upgrades":[13,14] }
 	 ]},
-	 		{"name":"Deathwing Inner Circle Detachments (One Inner Circle Detachment may be taken for each Deathwing Core Detachment / Deathwing Grand Master Upgrade)", "formations": [
+	 		{"name":"Deathwing Inner Circle Detachments (One Deathwing Inner Circle Detachment may be taken for each Deathwing Core Detachment / Deathwing Grand Master Upgrade)", "formations": [
 			{ "id":513, "name":"Deathwing Knights", "units":"4 Deathwing Knights, 1 Interrogator Chaplain",        "pts":350, "upgrades":[] },
 			{ "id":514, "name":"Deathwing Dreadnoughts", "units":"6 Deathwing Dreadnoughts plus Transport",        "pts":300, "upgrades":[] }
      ]},
@@ -24,7 +24,7 @@
      ]},
 	 		{"name":"Ravenwing Scout Detachments (Two Ravenwing Scout Detachments may be taken for each Ravenwing Core Detachment / Ravenwing Grand Master Upgrade)", "formations": [
 		    { "id":522, "name":"Ravenwing Auxilia",       "pts":200, "upgrades":[] },
-		    { "id":522, "name":"Ravenwing Venegance",       "pts":250, "upgrades":[] }
+		    { "id":522, "name":"Ravenwing Venegance", "units":"5 Ravenwing Land Speeder Venegance",       "pts":275, "upgrades":[] }
 	 ]},
 	 		{"name":"Ironwing Core Detachments", "formations": [
 			{ "id":531, "name":"Ironwing Predators", "units":"6 Predator Destructors", "pts":275, "upgrades":[13,14,29] },
@@ -34,8 +34,8 @@
             { "id":533, "name":"Ironwing Siege Breachers", "units":"3 Land Raider Ares", "pts":275, "upgrades":[13,14,16,20,29] },
 			{ "id":534, "name":"Ironwing Whirlwinds", "units":"4 Whirlwinds", "pts":250, "upgrades":[29] }
      ]},
-	 		{"name":"Ironwing Relic Detachments (One Ironwing Relic may be taken for each four Core / Ironwing Support Detachments. An Ironwing Grand Master allows one Relic to be taken.)", "formations": [
-            { "id":535, "name":"Relic Deimos", "units":"3 Deimos Vindicators",  "pts":400, "upgrades":[29] },
+	 		{"name":"Dreadwing Relic Detachments (One Dreadwing Relic may be taken for each four Core / Ironwing Support Detachments. One Relic may be taken for each Ironwing Grand Master.)", "formations": [
+            { "id":535, "name":"Relic Deimos", "units":"3 Deimos Vindicator Laser Destroyers",  "pts":400, "upgrades":[29] },
 		    { "id":536, "name":"Relic Fellglaive", "units":"1 Fellglaive",        "pts":325, "upgrades":[] }
      ]},
 	 		{"name":"Dark Angels Navy (Max 33%)", "formations": [
@@ -53,8 +53,7 @@
 		{"id":17, "name":"Dark Angels Razorback w Lascannon and Twin Plasma Guns", 	"pts":25},
 		{"id":19, "name":"2 Mortis Dreadnoughts", 		"pts":75},
 		{"id":20, "name":"3 Vindicators", 			"pts":100},
-		{"id":22, "name":"4 Land Raiders", 			"pts":200},
-		{"id":23, "name":"2 Land Raider Crusaders",			"pts":100},
+		{"id":22, "name":"4 Land Raiders", 			"pts":225},
 		{"id":25, "name":"Ravenwing Bikes",		"pts":0},
 		{"id":26, "name":"Ravenwing Attack Bike",	"pts":0},
 		{"id":27, "name":"Ravenwing Tornado",		"pts":0},
@@ -69,7 +68,9 @@
 	],
 	"formationConstraints":[
 	
-	{"maxPercent":33, "name":"Dark Angels Navy", "from":[541,542,543]}
+	{"maxPercent":33, "name":"Dark Angels Navy", "from":[541,542,543]},
+	
+	{"max":1, "perArmy":true, "from":[543]}
 	
 	],
 	
@@ -88,7 +89,7 @@
 	{"min":0, "max":1, "from":[20], "appliesTo":[533]},
 	{"min":0, "max":1, "from":[21], "appliesTo":[502]},
 	
-	{"min":0, "max":1, "from":[22,23], "appliesTo":[511,512,513]},
+	{"min":0, "max":1, "from":[22], "appliesTo":[511]},
 	{"min":0, "max":1, "from":[29], "appliesTo":[531,532,533,534,535]},
 	{"min":0, "max":1, "from":[30,31], "appliesTo":[532]},
 	{"min":1, "max":1, "from":[32,33], "appliesTo":[535]},
