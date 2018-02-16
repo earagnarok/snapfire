@@ -1,6 +1,6 @@
 {
 	"id":"Dark Angels",
-	"version":"NetEA Dark Angels 1.65",
+	"version":"NetEA Dark Angels 1.66",
 	"by":"Mrdiealot",
 "sections":[
 		{"name":"Dark Angles Core Detachments", "formations": [
@@ -27,16 +27,16 @@
 		    { "id":522, "name":"Ravenwing Venegance", "units":"5 Ravenwing Land Speeder Venegance",       "pts":275, "upgrades":[] }
 	 ]},
 	 		{"name":"Ironwing Core Detachments", "formations": [
-			{ "id":531, "name":"Ironwing Predators", "units":"6 Predator Destructors", "pts":275, "upgrades":[13,14,29] },
+			{ "id":531, "name":"Ironwing Predators", "units":"6 Predator Destructors", "pts":275, "upgrades":[13,14] },
 			{ "id":532, "name":"Ironwing Land Raiders", "units":"3 Land Raiders", "pts":250, "upgrades":[13,14,16,29,30] }
 	 ]},
 	 		{"name":"Ironwing Support Detachments (Two Ironwing Support Detachments may be taken for each Ironwing Core Detachment / Ironwing Grand Master Upgrade)", "formations": [
-            { "id":533, "name":"Ironwing Siege Breachers", "units":"3 Land Raider Ares", "pts":275, "upgrades":[13,14,16,20,29] },
+            { "id":533, "name":"Ironwing Siege Breachers", "units":"3 Land Raider Ares", "pts":275, "upgrades":[13,14,16,20] },
 			{ "id":534, "name":"Ironwing Whirlwinds", "units":"4 Whirlwinds", "pts":250, "upgrades":[29] }
      ]},
 	 		{"name":"Dreadwing Relic Detachments (One Dreadwing Relic Detachment may be taken for any four Core Detachments / Ironwing Support Detachments. One Relic may be taken for each Ironwing Grand Master.)", "formations": [
-            { "id":535, "name":"Relic Deimos", "units":"3 Deimos Vindicator Laser Destroyers",  "pts":400, "upgrades":[29] },
-		    { "id":536, "name":"Relic Fellglaive", "units":"1 Fellglaive",        "pts":325, "upgrades":[] }
+            { "id":535, "name":"Relic Deimos", "units":"3 Deimos Vindicator Laser Destroyers",  "pts":375, "upgrades":[29] },
+		    { "id":536, "name":"Relic Fellglaive", "units":"1 Fellglaive",        "pts":300, "upgrades":[] }
      ]},
 	 		{"name":"Dark Angels Navy (Max 33%)", "formations": [
 	        { "id":523, "name":"Ravenwing Nephilim", "units":"2 Ravenwing Nephilim Interceptors",        "pts":200, "upgrades":[] },
@@ -60,7 +60,7 @@
 		{"id":28, "name":"Ravenwing Typhoon",	"pts":10},
 		{"id":29, "name":"2 Hunters","pts":125},
 		{"id":30, "name":"6 Tacticals",		"pts":200},
-		{"id":32, "name":"4 Deimos Predators with Plasma Destroyers",		"pts":0},
+		{"id":32, "name":"4 Deimos Predators with Plasma Destroyers",		"pts":25},
 		{"id":33, "name":"4 Deimos Predators with Heavy Conversion Beamers",		"pts":0},
 		{"id":35, "name":"Strike Cruiser",		"pts":200},
 		{"id":36, "name":"Battle Barge",		"pts":350},
@@ -90,7 +90,7 @@
 	{"min":0, "max":1, "from":[21], "appliesTo":[502]},
 	
 	{"min":0, "max":1, "from":[22], "appliesTo":[511]},
-	{"min":0, "max":1, "from":[29], "appliesTo":[531,532,533,534,535]},
+	{"min":0, "max":1, "from":[29], "appliesTo":[532,534,535]},
 	{"min":0, "max":1, "from":[30,31], "appliesTo":[532]},
 	{"min":1, "max":1, "from":[32,33], "appliesTo":[535]},
 	{"min":1, "max":1, "from":[35,36], "appliesTo":[543]}
