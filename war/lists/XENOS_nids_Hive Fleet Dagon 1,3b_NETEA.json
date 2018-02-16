@@ -1,6 +1,6 @@
 {
   "id": "Hive Fleet Dagon NetEA",
-  "version": "1.3b",
+  "version": "1.31b",
   "by": "Argol & MrDieAlot",
   "sections": [
     {
@@ -250,7 +250,7 @@
     },
     {
       "id": 120,
-      "name": "Mycetic Spore // May transport Termagaunts, Hormagaunts, Acid Biovores, Burster Carnifex, Acri-Raveners, Hive Tyrant, Dagon Overlord, Tyranid Warrior Alpha, Nexus Zoanthropes // Transported units may not have wings",
+      "name": "Mycetic Spore // May transport Termagaunts, Hormagaunts, Acid Biovores, Burner Carnifex, Acri-Raveners, Hive Tyrant, Dagon Overlord, Tyranid Warrior Alpha, Nexus Zoanthropes // Transported units may not have wings",
       "pts": 50
     },
     {
