@@ -1,6 +1,6 @@
 {
 	"id":"Dark Angels",
-	"version":"NetEA Dark Angels 1.7",
+	"version":"NetEA Dark Angels 1.8",
 	"by":"Mrdiealot",
 "sections":[
 		{"name":"Dark Angles Core Detachments", "formations": [
@@ -16,23 +16,23 @@
 			{ "id":534, "name":"Whirlwinds", "units":"4 Whirlwinds", "pts":275, "upgrades":[29] }
      ]},
 	 		{"name":"Deathwing & Ravenwing Strike Detachments", "formations": [
-		    { "id":511, "name":"Deathwing Tacticals", "units":"4 Deathwing Tactical Terminators",        "pts":350, "upgrades":[13,14,16,22] },
+		    { "id":511, "name":"Deathwing Terminators", "units":"4 Deathwing Terminators",        "pts":350, "upgrades":[13,14,16,22] },
 			{ "id":521, "name":"Ravenwing", "units":"4x Ravenwing Land Speeders",        "pts":325, "upgrades":[13,14,15,16] }
      ]},
 	 		{"name":"Deathwing & Ravenwing Specialist Detachments (Two Specialist Detachments may be taken for each Strike Detachment // if any Strike Detachment countains a Grand Master)", "formations": [
-			{ "id":513, "name":"Deathwing Overwatch", "units":"4 Deathwing Cyclone Terminators",        "pts":350, "upgrades":[13,14] },
-			{ "id":513, "name":"Deathwing Knights", "units":"4 Deathwing Knights, 1 Interrogator Chaplain",        "pts":350, "upgrades":[] },
+			{ "id":513, "name":"Deathwing Overwatch", "units":"4 Deathwing Cyclone Terminators",        "pts":375, "upgrades":[13,14] },
+			{ "id":513, "name":"Deathwing Knights", "units":"4 Deathwing Knights, 1 Interrogator Chaplain",        "pts":375, "upgrades":[] },
 			{ "id":514, "name":"Deathwing Dreadnoughts", "units":"5 Deathwing Dreadnoughts plus Transport",        "pts":325, "upgrades":[] },	  
 			{ "id":522, "name":"Ravenwing Auxilia",       "pts":200, "upgrades":[] }
      ]},
 	 		{"name":"Dreadwing Relic Detachments (One Relic may be taken for each 3 Core or Strike Detachments. One Relic may be taken if the army contains a Grand Master. )", "formations": [
-            { "id":535, "name":"Relic Deimos", "units":"3 Deimos Vindicator Laser Destroyers",  "pts":400, "upgrades":[29] },
+            { "id":535, "name":"Relic Deimos", "units":"3 Deimos Vindicator Laser Destroyers",  "pts":400, "upgrades":[] },
 		    { "id":536, "name":"Relic Fellglaive",      "pts":50, "upgrades":[34] }
      ]},
 	 		{"name":"Dark Angels Navy (Max 33%)", "formations": [
 	        { "id":523, "name":"Ravenwing Nephilim", "units":"2 Ravenwing Nephilim Interceptors",        "pts":200, "upgrades":[] },
 		    { "id":524, "name":"Ravenwing Dark Talon", "units":"2 Ravenwing Dark Talons",        "pts":225, "upgrades":[] },
-	        { "id":542, "name":"Landing Craft", "units":"1 Landing Craft",        "pts":350, "upgrades":[] },
+	        { "id":542, "name":"Thunderhawk Transporters",        "pts":25, "upgrades":[21] },
             { "id":543, "name":"Strike Cruiser",        "pts":0, "upgrades":[35,36] }
      ]}
   ],
@@ -44,13 +44,14 @@
 		{"id":17, "name":"Dark Angels Razorback w Lascannon and Twin Plasma Guns", 	"pts":30},
 		{"id":19, "name":"2 Mortis Dreadnoughts", 		"pts":75},
 		{"id":20, "name":"3 Vindicators", 			"pts":100},
-		{"id":22, "name":"4 Deathwing Land Raiders", 			"pts":200},	
+		{"id":21, "name":"Thunderhawk Transport", 			"pts":125},
+		{"id":22, "name":"4 Deathwing Land Raiders", 			"pts":225},	
 		{"id":25, "name":"Ravenwing Bikes",		"pts":0},
 		{"id":26, "name":"Ravenwing Attack Bike",	"pts":0},
 		{"id":27, "name":"Ravenwing Tornado",		"pts":0},
 		{"id":28, "name":"Ravenwing Venegance",	"pts":15},
 		{"id":29, "name":"2 Hunters","pts":125},
-		{"id":30, "name":"6 Tacticals",		"pts":200},
+		{"id":30, "name":"6 Tacticals",		"pts":175},
 		{"id":31, "name":"2 Stalkers",		"pts":75},
 		{"id":32, "name":"4 Deimos Predators with Plasma Destroyers",		"pts":25},
 		{"id":33, "name":"4 Deimos Predators with Heavy Conversion Beamers",		"pts":0},
@@ -80,14 +81,14 @@
 	{"min":0, "max":4, "from":[17,18], "appliesTo":[504]},
 	{"min":0, "max":1, "from":[19], "appliesTo":[501,504]},
 	{"min":0, "max":1, "from":[20], "appliesTo":[533]},
-	{"min":0, "max":1, "from":[21], "appliesTo":[502]},
-	
+		
 	{"min":0, "max":1, "from":[22], "appliesTo":[511]},
 	{"min":0, "max":1, "from":[29], "appliesTo":[534,535]},
 	{"min":0, "max":1, "from":[31], "appliesTo":[501,504,531]},
 	{"min":0, "max":1, "from":[30], "appliesTo":[532]},
 	{"min":1, "max":1, "from":[33,32], "appliesTo":[535]},
 	{"min":1, "max":2, "from":[34], "appliesTo":[536]},
+	{"min":2, "max":3, "from":[21], "appliesTo":[542]},
 	{"min":1, "max":1, "from":[35,36], "appliesTo":[543]}
 
 	]
