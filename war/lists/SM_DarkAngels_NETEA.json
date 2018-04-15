@@ -1,6 +1,6 @@
 {
 	"id":"Dark Angels",
-	"version":"NetEA Dark Angels 1.8",
+	"version":"NetEA Dark Angels 1.81",
 	"by":"Mrdiealot",
 "sections":[
 		{"name":"Dark Angles Core Detachments", "formations": [
@@ -22,7 +22,7 @@
 	 		{"name":"Deathwing & Ravenwing Specialist Detachments (Two Specialist Detachments may be taken for each Strike Detachment // if any Strike Detachment countains a Grand Master)", "formations": [
 			{ "id":513, "name":"Deathwing Overwatch", "units":"4 Deathwing Cyclone Terminators",        "pts":375, "upgrades":[13,14] },
 			{ "id":513, "name":"Deathwing Knights", "units":"4 Deathwing Knights, 1 Interrogator Chaplain",        "pts":375, "upgrades":[] },
-			{ "id":514, "name":"Deathwing Dreadnoughts", "units":"5 Deathwing Dreadnoughts plus Transport",        "pts":325, "upgrades":[] },	  
+			{ "id":514, "name":"Deathwing Dreadnoughts", "units":"5 Deathwing Dreadnoughts plus Transport",        "pts":325, "upgrades":[] },
 			{ "id":522, "name":"Ravenwing Auxilia",       "pts":200, "upgrades":[] }
      ]},
 	 		{"name":"Dreadwing Relic Detachments (One Relic may be taken for each 3 Core or Strike Detachments. One Relic may be taken if the army contains a Grand Master. )", "formations": [
@@ -45,7 +45,7 @@
 		{"id":19, "name":"2 Mortis Dreadnoughts", 		"pts":75},
 		{"id":20, "name":"3 Vindicators", 			"pts":100},
 		{"id":21, "name":"Thunderhawk Transport", 			"pts":125},
-		{"id":22, "name":"4 Deathwing Land Raiders", 			"pts":225},	
+		{"id":22, "name":"4 Deathwing Land Raiders", 			"pts":225},
 		{"id":25, "name":"Ravenwing Bikes",		"pts":0},
 		{"id":26, "name":"Ravenwing Attack Bike",	"pts":0},
 		{"id":27, "name":"Ravenwing Tornado",		"pts":0},
@@ -59,29 +59,29 @@
 		{"id":35, "name":"Strike Cruiser",		"pts":200},
 		{"id":36, "name":"Battle Barge",		"pts":350}
 
-		
+
 	],
 	"formationConstraints":[
-	
+
 	{"maxPercent":33, "name":"Dark Angels Navy", "from":[523,524,542,543]},
-	
+
 	{"max":1, "perArmy":true, "from":[543]}
-	
+
 	],
-	
+
 	"upgradeConstraints":[
 	{"max":1, "perArmy":true, "from":[16]},
-	
+
 	{"min":4, "max":4, "from":[25,26], "appliesTo":[521]},
 	{"min":5, "max":5, "from":[27,28], "appliesTo":[522]},
-	
+
 	{"min":0, "max":1, "from":[24], "appliesTo":[521]},
 	{"min":0, "max":1, "from":[13,14,15,16], "appliesTo":[501,502,503,504,511,512,513,521,532,533]},
 	{"min":0, "max":6, "from":[17,18], "appliesTo":[501]},
 	{"min":0, "max":4, "from":[17,18], "appliesTo":[504]},
 	{"min":0, "max":1, "from":[19], "appliesTo":[501,504]},
 	{"min":0, "max":1, "from":[20], "appliesTo":[533]},
-		
+
 	{"min":0, "max":1, "from":[22], "appliesTo":[511]},
 	{"min":0, "max":1, "from":[29], "appliesTo":[534,535]},
 	{"min":0, "max":1, "from":[31], "appliesTo":[501,504,531]},
