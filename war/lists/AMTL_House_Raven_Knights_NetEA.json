@@ -1,6 +1,6 @@
 {
 	"id":"House Raven Knights",
-	"version":"1.11",
+	"version":"1.12",
 	"by":"MrDieAlot",
 	"notes":[" "],
 	"sections":[
@@ -11,15 +11,15 @@
 			{"id":501, "name":"Armiger",			"pts":200, "upgrades":[], "units":"5 Armiger Knights"}
 		]},
 		{"name":"Cerastus Households", "formations":[
-			{"id":502, "name":"Cerastus",	"pts":65,  "upgrades":[105,110,111,112]}
+			{"id":502, "name":"Cerastus",	"pts":50,  "upgrades":[105,110,111,112]}
 		]},
 		{"name":"Relic Households / / Max 1 Relic Household per each 3 Noble Households, and 1 per Baron", "formations":[
-			{"id":503, "name":"Questoris",	"pts":20,  "upgrades":[105,120,121]},
+			{"id":503, "name":"Questoris",	"pts":30,  "upgrades":[105,120,121]},
 			{"id":504, "name":"Acastus",	"pts":50,  "upgrades":[105,130]}
 		]},
 		{"name":"Mechanicus Allies", "formations":[
 			{"id":510, "name":"Skitarii",		"pts":275,  "upgrades":[140], "units":"1 Secutor, 9 Hypaspists, 1 Gorgon"},	
-			{"id":511, "name":"Warhound Scout Pack",		"pts":500,  "upgrades":[], "units":"2 Warhound Scout Titans"},
+			{"id":511, "name":"Warhound Scout Titan Pack",		"pts":500,  "upgrades":[], "units":"2 Warhound Scout Titans"},
             {"id":512, "name":"Reaver Titan",				"pts":650,  "upgrades":[], "units":"1 Reaver Titan"},
 			{"id":513, "name":"Warlord Titan",				"pts":825,  "upgrades":[], "units":"1 Warlord Titan"},
 		 	{"id":514, "name":"Lightning Squadron",		"pts":150, "upgrades":[], "units":"2 Lightnings"},
@@ -37,12 +37,12 @@
 		{"id":105, "name":"Seneschal",							"pts":25},
 		{"id":106, "name":"Baron",								"pts":175},
 		
-		{"id":110, "name":"Cerastus Knight-Lancer",			"pts":70},
-		{"id":111, "name":"Cerastus Knight-Castigator",		"pts":70},
-		{"id":112, "name":"Cerastus Knight-Acheron",			"pts":70},
+		{"id":110, "name":"Cerastus Knight-Lancer",			"pts":75},
+		{"id":111, "name":"Cerastus Knight-Castigator",		"pts":75},
+		{"id":112, "name":"Cerastus Knight-Acheron",			"pts":75},
 		
-		{"id":120, "name":"Questoris Knight-Styrix",						"pts":115},
-		{"id":121, "name":"Questoris Knight-Magaera",						"pts":115},
+		{"id":120, "name":"Questoris Knight-Styrix",						"pts":110},
+		{"id":121, "name":"Questoris Knight-Magaera",						"pts":110},
 	
 		{"id":130, "name":"Acastus Knight Porphyrion",			"pts":200},
 		
