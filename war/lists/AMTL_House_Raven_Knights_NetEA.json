@@ -54,7 +54,7 @@
 		{"max":1, "name":"", "from":[501], "forEach":[500], "name2":"Noble Household"},
 		{"max":1, "name":"", "from":[502], "forEach":[500], "name2":"Noble Household"},
 		{"max":1, "name":"", "from":[503,504], "forEach":[500], "name2":"Noble Household"},
-		{"maxPercent":33, "name":"Mechanicus Allies", "from":[510,511,512,513,514,515,516]}
+		{"maxPercent":33, "name":"Mechanicus Allies", "from":[510,511,512,513,515,516]}
 		
 	],
 	"upgradeConstraints":[
