@@ -23,7 +23,7 @@
             {"id":512, "name":"Reaver Titan",				"pts":650,  "upgrades":[], "units":"1 Reaver Titan"},
 			{"id":513, "name":"Warlord Titan",				"pts":800,  "upgrades":[], "units":"1 Warlord Titan"},			
 		 	{"id":515, "name":"Avenger Squadron",		"pts":200, "upgrades":[], "units":"2 Avengers"},
-		 	{"id":516, "name":"Arc Mechanicus",		"pts":200, "upgrades":[], "units":"1 Arc Mechanicus Battleship"}
+		 	{"id":516, "name":"Lunar Class Cruiser",		"pts":150, "upgrades":[], "units":"1 Lunar Class Cruiser"}
 	    ]}
 	],	
 	
