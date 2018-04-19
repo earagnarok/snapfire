@@ -34,7 +34,7 @@
 		{"id":103, "name":"Knight-Crusader",					"pts":85},
 		{"id":104, "name":"Knight-Warden",						"pts":85},
 		{"id":105, "name":"Seneschal",							"pts":25},
-		{"id":106, "name":"Baron",								"pts":175},
+		{"id":106, "name":"Knight-Baron",								"pts":175},
 		
 		{"id":110, "name":"Cerastus Knight-Lancer",			"pts":75},
 		{"id":111, "name":"Cerastus Knight-Castigator",		"pts":75},
@@ -43,7 +43,7 @@
 		{"id":120, "name":"Questoris Knight-Styrix",						"pts":110},
 		{"id":121, "name":"Questoris Knight-Magaera",						"pts":110},
 	
-		{"id":130, "name":"Acastus Knight Porphyrion",			"pts":175},
+		{"id":130, "name":"Acastus Knight-Porphyrion",			"pts":175},
 		
 		{"id":140, "name":"Hydra",								"pts":50}
 		
