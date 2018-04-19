@@ -13,7 +13,7 @@
 		{"name":"Cerastus Lances", "formations":[
 			{"id":502, "name":"Cerastus",	"pts":50,  "upgrades":[105,110,111,112]}
 		]},
-		{"name":"Relic Lances / / Max 1 Relic Lance per each 3 Noble Lances, and 1 per Baron", "formations":[
+		{"name":"Relic Lances / / Max 1 Relic Lance per each 3 Noble Lances, and 1 per Knight-Baron", "formations":[
 			{"id":503, "name":"Questoris",	"pts":30,  "upgrades":[105,120,121]},
 			{"id":504, "name":"Acastus",	"pts":50,  "upgrades":[105,130]}
 		]},
