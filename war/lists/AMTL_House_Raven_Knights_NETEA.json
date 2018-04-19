@@ -1,29 +1,29 @@
 {
 	"id":"House Raven Knights",
-	"version":"1.2",
+	"version":"1.21",
 	"by":"MrDieAlot",
-	"notes":[" "],
+	"notes":[],
 	"sections":[
-		{"name":"Noble Household", "formations":[
+		{"name":"Noble Lances", "formations":[
 			{"id":500, "name":"Nobles", 		"pts":35, "upgrades":[100,101,102,103,104]}
          ]},
-		{"name":"Aspiring Households", "formations":[
+		{"name":"Aspiring Lances", "formations":[
 			{"id":501, "name":"Armiger",			"pts":200, "upgrades":[], "units":"5 Armiger Knights"}
 		]},
-		{"name":"Cerastus Households", "formations":[
+		{"name":"Cerastus Lances", "formations":[
 			{"id":502, "name":"Cerastus",	"pts":50,  "upgrades":[105,110,111,112]}
 		]},
-		{"name":"Relic Households / / Max 1 Relic Household per each 3 Noble Households, and 1 per Baron", "formations":[
+		{"name":"Relic Lances / / Max 1 Relic Lance per each 3 Noble Lances, and 1 per Baron", "formations":[
 			{"id":503, "name":"Questoris",	"pts":30,  "upgrades":[105,120,121]},
 			{"id":504, "name":"Acastus",	"pts":50,  "upgrades":[105,130]}
 		]},
 		{"name":"Mechanicus Allies", "formations":[
-			{"id":510, "name":"Skitarii",		"pts":300,  "upgrades":[140], "units":"2 Secutor, 8 Hypaspists, 1 Gorgon"},	
+			{"id":510, "name":"Skitarii",		"pts":275,  "upgrades":[140], "units":"2 Secutor, 8 Hypaspists, 1 Gorgon"},	
 			{"id":511, "name":"Warhound Scout Titan Pack",		"pts":500,  "upgrades":[], "units":"2 Warhound Scout Titans"},
             {"id":512, "name":"Reaver Titan",				"pts":650,  "upgrades":[], "units":"1 Reaver Titan"},
-			{"id":513, "name":"Warlord Titan",				"pts":800,  "upgrades":[], "units":"1 Warlord Titan"},
+			{"id":513, "name":"Warlord Titan",				"pts":800,  "upgrades":[], "units":"1 Warlord Titan"},			
 		 	{"id":515, "name":"Avenger Squadron",		"pts":200, "upgrades":[], "units":"2 Avengers"},
-		 	{"id":516, "name":"Lunar Class Cruiser",		"pts":150, "upgrades":[], "units":"1 Lunar Class Cruiser"}
+		 	{"id":516, "name":"Arc Mechanicus",		"pts":200, "upgrades":[], "units":"1 Arc Mechanicus Battleship"}
 	    ]}
 	],	
 	
@@ -43,7 +43,7 @@
 		{"id":120, "name":"Questoris Knight-Styrix",						"pts":110},
 		{"id":121, "name":"Questoris Knight-Magaera",						"pts":110},
 	
-		{"id":130, "name":"Acastus Knight Porphyrion",			"pts":200},
+		{"id":130, "name":"Acastus Knight Porphyrion",			"pts":175},
 		
 		{"id":140, "name":"Hydra",								"pts":50}
 		
@@ -51,10 +51,10 @@
 		
     ],
 	"formationConstraints":[
-		{"max":1, "name":"", "from":[501], "forEach":[500], "name2":"Noble Household"},
-		{"max":1, "name":"", "from":[502], "forEach":[500], "name2":"Noble Household"},
-		{"max":1, "name":"", "from":[503,504], "forEach":[500], "name2":"Noble Household"},
-		{"maxPercent":34, "name":"Mechanicus Allies", "from":[510,511,512,513,515,516]},
+		{"max":1, "name":"", "from":[501], "forEach":[500], "name2":"Noble Lance"},
+		{"max":1, "name":"", "from":[502], "forEach":[500], "name2":"Noble Lance"},
+		{"max":1, "name":"", "from":[503,504], "forEach":[500], "name2":"Noble Lance"},
+		{"maxPercent":34, "name":"Mechanicus Allies", "from":[510,511,512,513,514,515,516]},
 		{"max":1, "perArmy":true, "from":[516]}
 		
 	],
