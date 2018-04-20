@@ -17,7 +17,7 @@
 			{"id":503, "name":"Questoris",	"pts":30,  "upgrades":[105,120,121]},
 			{"id":504, "name":"Acastus",	"pts":50,  "upgrades":[105,130]}
 		]},
-		{"name":"Mechanicus Allies", "formations":[
+		{"name":"Mechanicus Allies / / Max 33%", "formations":[
 			{"id":510, "name":"Skitarii",		"pts":300,  "upgrades":[140], "units":"2 Secutor, 8 Hypaspists, 1 Gorgon"},
 			{"id":517, "name":"Sagitarii",		"pts":250,  "upgrades":[140], "units":"5 Sagitarii, 3 Chimeras"},
 			{"id":511, "name":"Warhound Scout Titan Pack",		"pts":500,  "upgrades":[], "units":"2 Warhound Scout Titans"},
