@@ -8,7 +8,7 @@
 			{"id":500, "name":"Nobles", 		"pts":35, "upgrades":[100,101,102,103,104]}
          ]},
 		{"name":"Aspiring Lances / / Max 1 per Noble Lance", "formations":[
-			{"id":501, "name":"Armiger",			"pts":200, "upgrades":[], "units":"5 Armiger Knights"}
+			{"id":501, "name":"Aspirants",			"pts":200, "upgrades":[], "units":"5 Armiger Knights"}
 		]},
 		{"name":"Cerastus Lances / / Max 1 per Noble Lance", "formations":[
 			{"id":502, "name":"Cerastus",	"pts":50,  "upgrades":[105,110,111,112]}
