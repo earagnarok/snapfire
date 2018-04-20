@@ -1,6 +1,6 @@
 {
 	"id":"House Raven Knights",
-	"version":"1.22",
+	"version":"1.25",
 	"by":"MrDieAlot",
 	"notes":[],
 	"sections":[
@@ -17,8 +17,9 @@
 			{"id":503, "name":"Questoris",	"pts":30,  "upgrades":[105,120,121]},
 			{"id":504, "name":"Acastus",	"pts":50,  "upgrades":[105,130]}
 		]},
-		{"name":"Mechanicus Allies / / Max 33%", "formations":[
-			{"id":510, "name":"Skitarii",		"pts":300,  "upgrades":[140], "units":"2 Secutor, 8 Hypaspists, 1 Gorgon"},	
+		{"name":"Mechanicus Allies", "formations":[
+			{"id":510, "name":"Skitarii",		"pts":300,  "upgrades":[140], "units":"2 Secutor, 8 Hypaspists, 1 Gorgon"},
+			{"id":517, "name":"Sagitarii",		"pts":250,  "upgrades":[140], "units":"5 Sagitarii, 3 Chimeras"},
 			{"id":511, "name":"Warhound Scout Titan Pack",		"pts":500,  "upgrades":[], "units":"2 Warhound Scout Titans"},
             {"id":512, "name":"Reaver Titan",				"pts":650,  "upgrades":[], "units":"1 Reaver Titan"},
 			{"id":513, "name":"Warlord Titan",				"pts":800,  "upgrades":[], "units":"1 Warlord Titan"},			
@@ -34,16 +35,16 @@
 		{"id":103, "name":"Knight-Crusader",					"pts":85},
 		{"id":104, "name":"Knight-Warden",						"pts":85},
 		{"id":105, "name":"Seneschal",							"pts":25},
-		{"id":106, "name":"Knight-Baron",								"pts":175},
+		{"id":106, "name":"Knight-Baron",						"pts":200},
 		
-		{"id":110, "name":"Cerastus Knight-Lancer",			"pts":75},
-		{"id":111, "name":"Cerastus Knight-Castigator",		"pts":75},
+		{"id":110, "name":"Cerastus Knight-Lancer",				"pts":75},
+		{"id":111, "name":"Cerastus Knight-Castigator",			"pts":75},
 		{"id":112, "name":"Cerastus Knight-Acheron",			"pts":75},
 		
-		{"id":120, "name":"Questoris Knight-Styrix",						"pts":110},
-		{"id":121, "name":"Questoris Knight-Magaera",						"pts":110},
+		{"id":120, "name":"Questoris Knight-Styrix",			"pts":110},
+		{"id":121, "name":"Questoris Knight-Magaera",			"pts":110},
 	
-		{"id":130, "name":"Acastus Knight-Porphyrion",			"pts":175},
+		{"id":130, "name":"Acastus Knight Porphyrion",			"pts":175},
 		
 		{"id":140, "name":"Hydra",								"pts":50}
 		
@@ -54,7 +55,7 @@
 		{"max":1, "name":"", "from":[501], "forEach":[500], "name2":"Noble Lance"},
 		{"max":1, "name":"", "from":[502], "forEach":[500], "name2":"Noble Lance"},
 		{"max":1, "name":"", "from":[503,504], "forEach":[500], "name2":"Noble Lance"},
-		{"maxPercent":34, "name":"Mechanicus Allies", "from":[510,511,512,513,514,515,516]},
+		{"maxPercent":34, "name":"Mechanicus Allies", "from":[510,511,512,513,514,515,516,517]},
 		{"max":1, "perArmy":true, "from":[516]}
 		
 	],
@@ -69,7 +70,7 @@
 		{"min":2, "max":4, "from":[120,121], "appliesTo":[503]},
 		{"min":1, "max":2, "from":[130], "appliesTo":[504]},
 		
-		{"min":0, "max":1, "from":[140], "appliesTo":[510]},
+		{"min":0, "max":1, "from":[140], "appliesTo":[510,517]},
 		
 		{"max":1, "perArmy":true, "from":[106]}
 	
