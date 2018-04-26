@@ -1,7 +1,7 @@
 {
 	"id":"Alpha XX Legion",
 	"by":"MrDieAlot",
-	"version":"v1.15",
+	"version":"v1.2",
 	"notes":[],
 	"sections":[
 		{"name":"Alpha Legion Core formations", "formations": [
@@ -53,7 +53,7 @@
 		{ "id":40, "name":"6 Light Transports", "pts":30 },
 		{ "id":44, "name":"9 Light Transports", "pts":45 },
 		{ "id":41, "name":"3 Chaos Hounds", "pts":25 },
-		{ "id":42, "name":"Alpha Legion Mastodon", "pts":200 }
+		{ "id":42, "name":"Alpha Legion Mastodon", "pts":175 }
 
 								
 	],
