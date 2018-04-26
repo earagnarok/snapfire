@@ -22,7 +22,7 @@
 		]},
 		{"name":"Alpha Legion Support Formations / / Max 33%", "formations":[
 			{ "id":541, "name":"Strike Cruiser", "pts":200, "units":"1 Strike Cruiser", "upgrades":[] },
-			{ "id":542, "name":"Super Heavy Tank Company", "pts":600, "upgrades":[50,51,52] },
+			{ "id":542, "name":"Super Heavy Tank Company", "pts":550, "upgrades":[50,51,52] },
 			{ "id":543, "name":"Thunderhawk", "pts":225, "units":"1 Thunderhawk", "upgrades":[] },
 			{ "id":544, "name":"Fire Raptors", "pts":275, "units":"2 Fire Raptors", "upgrades":[] }
 		]},
