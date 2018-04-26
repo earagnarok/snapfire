@@ -70,8 +70,8 @@
    "formationConstraints": [
       {"max": 3, "from": [502]},
       {"max": 1, "from": [606]},
-      {"maxPercent": 33.34, "name": "Restricted Support Formations", "from": [700,603,604]},
-      {"max": 2, "name": "Support Formations", "from": [600,601,602,603,604,605,606,607], "forEach": [500,501,502], "name2": "Core Formation" }
+      {"maxPercent": 33.34, "name": "Restricted Support Formations", "from": [700,604]},
+      {"max": 2, "name": "Support Formations", "from": [600,601,602,603,605,606,607], "forEach": [500,501,502], "name2": "Core Formation" }
    ],
    "upgradeConstraints": [
       	  {"max": 1, "perArmy": true, "from": [1,4,29]},
