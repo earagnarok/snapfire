@@ -16,7 +16,7 @@
 		]},
 			{"name":"Alpha Legion Cultist Formatons / / One Alpha Legion Cultist formation may be taken per Chaos Cultist formation", "formations": [
 			{ "id":531, "name":"Cult Rough Riders", "pts":175, "units":"6 Rough Riders, 1 Daemonic Icon", "upgrades":[41] },
-			{ "id":532, "name":"Cult Mutants", "pts":175, "units":"6 Mutants, 3 Chaos Spawn, 1 Daemonic Icon", "upgrades":[40,41] },
+			{ "id":532, "name":"Cult Mutants", "pts":150, "units":"6 Mutants, 3 Chaos Spawn, 1 Daemonic Icon", "upgrades":[40,41] },
 			{ "id":533, "name":"Cult Macharius", "pts":225, "units":"2 Macharius", "upgrades":[] },
 			{ "id":534, "name":"Cult Light Artillery", "pts":200, "units":"6 Thudd Guns", "upgrades":[40,41] }
 		]},
