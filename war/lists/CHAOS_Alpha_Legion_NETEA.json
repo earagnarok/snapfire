@@ -11,7 +11,7 @@
 		{"name":"Alpha Legion Elite Formatons / / One Alpha Legion Elite formation may be taken per Chaos Cultist formation", "formations": [
 			{ "id":521, "name":"Alpha Legion Headhunter Kill Team", "pts":225, "units":"4 Headhunter units w. Transport", "upgrades":[36,31] },
 			{ "id":522, "name":"Alpha Legion Destroyers", "pts":225,"units":"4 Alpha Legion Destroyers", "upgrades":[] },
-			{ "id":523, "name":"Lernaean Terminators", "pts":300,"units":"4 Lernaean Terminators", "upgrades":[30,37,38,43] },
+			{ "id":523, "name":"Lernaean Terminators", "pts":300,"units":"4 Lernaean Terminators", "upgrades":[30,37,38] },
 			{ "id":524, "name":"Alpha Legion Predators", "pts":300, "units":"6 Alpha Legion Predators", "upgrades":[30,37] }
 		]},
 			{"name":"Alpha Legion Cultist Formatons / / One Alpha Legion Cultist formation may be taken per Chaos Cultist formation", "formations": [
@@ -48,7 +48,6 @@
 		{ "id":31, "name":"2 Alpha Legion Dreadnoughts", "pts":75 },		
 		{ "id":37, "name":"1 Hydra", "pts":50 },
 		{ "id":38, "name":"2 Spartan Assault Tanks", "pts":150 },
-		{ "id":43, "name":"3 Spartan Assault Tanks", "pts":225 },
 		{ "id":39, "name":"3 Rapiers", "pts":50 },
 		{ "id":40, "name":"6 Light Transports", "pts":30 },
 		{ "id":44, "name":"9 Light Transports", "pts":45 },
@@ -75,7 +74,7 @@
 		{"min":0, "max":1, "from":[31, 36], "appliesTo":[512,521]},
 		
 		{"min":0, "max":1, "from":[37], "appliesTo":[511,512,523,524]},
-		{"min":0, "max":1, "from":[38,43], "appliesTo":[523]},
+		{"min":0, "max":1, "from":[38], "appliesTo":[523]},
 		{"min":0, "max":1, "from":[39], "appliesTo":[511]},
 		{"min":0, "max":1, "from":[41], "appliesTo":[511,531,532]},
 		
