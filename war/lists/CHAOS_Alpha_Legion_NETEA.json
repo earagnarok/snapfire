@@ -22,7 +22,7 @@
 		]},
 		{"name":"Alpha Legion Support Formations / / Max 33%", "formations":[
 			{ "id":541, "name":"Strike Cruiser", "pts":200, "units":"1 Strike Cruiser", "upgrades":[] },
-			{ "id":542, "name":"Glaive Company", "pts":600, "units":"2 Glaives", "upgrades":[] },
+			{ "id":542, "name":"Super Heavy Tank Company", "pts":600, "upgrades":[50,51,52] },
 			{ "id":543, "name":"Thunderhawk", "pts":225, "units":"1 Thunderhawk", "upgrades":[] },
 			{ "id":544, "name":"Fire Raptors", "pts":275, "units":"2 Fire Raptors", "upgrades":[] }
 		]},
@@ -50,7 +50,11 @@
 		{ "id":39, "name":"3 Rapiers", "pts":50 },
 		{ "id":40, "name":"6 Light Transports", "pts":30 },
 		{ "id":44, "name":"9 Light Transports", "pts":45 },
-		{ "id":41, "name":"3 Chaos Hounds", "pts":25 }
+		{ "id":41, "name":"3 Chaos Hounds", "pts":25 },
+		
+		{ "id":50, "name":"2 Glaives", "pts":0 },
+		{ "id":51, "name":"2 Fellblades", "pts":0 },
+		{ "id":52, "name":"2 Falchions", "pts":0 }
 
 								
 	],
@@ -77,6 +81,8 @@
 		
 		{"min":0, "max":1, "from":[40,44], "appliesTo":[511]},
 		{"min":0, "max":1, "from":[40], "appliesTo":[532,534]},
+		
+		{"min":1, "max":1, "from":[50,51,52], "appliesTo":[542]},
 	
 		{"max":1, "perArmy":true, "from":[23,24,25]}
 	]
