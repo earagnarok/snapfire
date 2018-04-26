@@ -5,7 +5,7 @@
 	"notes":[],
 	"sections":[
 		{"name":"Alpha Legion Core formations", "formations": [
-			{ "id":511, "name":"Chaos Cultists", "pts":225, "units":"11 Alpha Legion Cultists, 1 Alpha Legion Aspiring Champion w. Daemonic Icon", "upgrades":[39,40,44,41,37] },
+			{ "id":511, "name":"Chaos Cultists", "pts":225, "units":"1 Alpha Legion Aspiring Champion w. Daemonic Icon, 11 Alpha Legion Cultists", "upgrades":[39,40,44,41,37] },
 			{ "id":512, "name":"Alpha Legion Marines", "pts":0, "upgrades":[30,34,35,36,31,37] }
 		]},
 		{"name":"Alpha Legion Elite Formatons / / One Alpha Legion Elite formation may be taken per Chaos Cultist formation", "formations": [
