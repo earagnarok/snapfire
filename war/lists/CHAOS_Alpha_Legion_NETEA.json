@@ -1,7 +1,7 @@
 {
 	"id":"Alpha XX Legion",
 	"by":"MrDieAlot",
-	"version":"v1.35",
+	"version":"v1.4",
 	"notes":[],
 	"sections":[
 		{"name":"Alpha Legion Core formations", "formations": [
@@ -43,7 +43,7 @@
 		{ "id":32, "name":"6 Alpha Legion Marines w. Transport", "pts":250 },
 		{ "id":33, "name":"4 Alpha Legion Marines, 2 Alpha Legion Havocs w. Transport", "pts":275 },
 		{ "id":34, "name":"3 Land Raiders", "pts":175 },
-		{ "id":35, "name":"2 Land Raiders, 1 Alpha Legion Land Raider Proteus", "pts":200 },
+		{ "id":35, "name":"3 Land Raider Proteus", "pts":175 },
 		{ "id":31, "name":"2 Alpha Legion Dreadnoughts", "pts":75 },		
 		{ "id":37, "name":"1 Hydra", "pts":50 },
 		{ "id":38, "name":"2 Alpha Legion Spartan Assault Tanks", "pts":150 },
