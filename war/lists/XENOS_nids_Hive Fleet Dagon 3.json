@@ -1,6 +1,6 @@
 {
   "id": "Hive Fleet Dagon",
-  "version": "3.1",
+  "version": "3.2",
   "by": "Argol & MrDieAlot",
   "sections": [
     {
@@ -331,12 +331,12 @@
     {
       "id": 204,
       "name": "Dagon Overlord",
-      "pts": 75
+      "pts": 100
     },
 	{
       "id": 205,
       "name": "Dagon Overlord Shrike (Wings)",
-      "pts": 75
+      "pts": 100
     },
 	{
       "id": 209,
