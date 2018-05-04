@@ -17,7 +17,7 @@
 			{"name":"Alpha Legion Cultist Formatons / / One Alpha Legion Cultist formation may be taken per Chaos Cultist formation", "formations": [
 			{ "id":531, "name":"Cult Rough Riders", "pts":175, "units":"6 Rough Riders, 1 Daemonic Icon", "upgrades":[41] },
 			{ "id":532, "name":"Cult Mutants", "pts":150, "units":"6 Mutants, 3 Chaos Spawn, 1 Daemonic Icon", "upgrades":[40,41] },
-			{ "id":533, "name":"Cult Macharius", "pts":225, "units":"2 Macharius", "upgrades":[] },
+			{ "id":533, "name":"Cult Macharius", "pts":200, "units":"2 Macharius", "upgrades":[] },
 			{ "id":534, "name":"Cult Light Artillery", "pts":200, "units":"6 Thudd Guns", "upgrades":[40,41] }
 		]},
 		{"name":"Alpha Legion Support Formations / / One Alpha Legion Support formation may be taken per Alpha Legion Core formation / / Max 33%", "formations":[
@@ -34,7 +34,7 @@
 	"upgrades":[
 		{ "id":11, "name":"Lesser Daemon", "pts":15 },
 
-		{ "id":21, "name":"Chaos Lord", "pts":0 },
+		{ "id":21, "name":"Alpha Legion Lord", "pts":0 },
 		{ "id":22, "name":"Supreme Commander", "pts":75 },
 		{ "id":23, "name":"1 Alpha Legion Aspiring Champion w. Daemonic Icon", "pts":0 },
 		{ "id":24, "name":"1 Alpha Legion Daemon Prince w. Daemonic Icon", "pts":50},
