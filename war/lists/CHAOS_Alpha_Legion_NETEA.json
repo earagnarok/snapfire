@@ -5,12 +5,12 @@
 	"notes":[],
 	"sections":[
 		{"name":"Alpha Legion Core formations", "formations": [
-			{ "id":511, "name":"Chaos Cultists", "pts":225, "units":"1 Alpha Legion Aspiring Champion w. Daemonic Icon, 11 Alpha Legion Cultists", "upgrades":[39,40,44,41,37,24,25] },
+			{ "id":511, "name":"Chaos Cultists", "pts":225, "units":"11 Alpha Legion Cultists", "upgrades":[39,40,44,41,37] },
 			{ "id":512, "name":"Alpha Legion Marines", "pts":0, "upgrades":[22,30,34,35,31,37] }
 		]},
 		{"name":"Alpha Legion Elite Formatons / / One Alpha Legion Elite formation may be taken per Chaos Cultist formation", "formations": [
-			{ "id":521, "name":"Alpha Legion Headhunter Kill Team", "pts":225, "units":"4 Headhunter units w. Transport", "upgrades":[22,31] },
-			{ "id":522, "name":"Alpha Legion Destroyers", "pts":225,"units":"4 Alpha Legion Destroyers", "upgrades":[22] },
+			{ "id":521, "name":"Alpha Legion Headhunter Kill Team", "pts":200, "units":"4 Headhunter units w. Transport", "upgrades":[22,31] },
+			{ "id":522, "name":"Alpha Legion Destroyers", "pts":200,"units":"4 Alpha Legion Destroyers", "upgrades":[22] },
 			{ "id":523, "name":"Lernaean Terminators", "pts":275,"units":"4 Lernaean Terminators", "upgrades":[22,30,37,38] },
 			{ "id":524, "name":"Alpha Legion Predators", "pts":300, "units":"6 Alpha Legion Predators", "upgrades":[30,37] }
 		]},
@@ -36,8 +36,9 @@
 
 		{ "id":21, "name":"Chaos Lord", "pts":0 },
 		{ "id":22, "name":"Supreme Commander", "pts":75 },
-		{ "id":24, "name":"1 Alpha Legion Daemon Prince", "pts":50},
-		{ "id":25, "name":"1 Alpha Legion Daemon Prince w. Wings", "pts":50},
+		{ "id":23, "name":"1 Alpha Legion Aspiring Champion w. Daemonic Icon", "pts":0 },
+		{ "id":24, "name":"1 Alpha Legion Daemon Prince w. Daemonic Icon", "pts":50},
+		{ "id":25, "name":"1 Alpha Legion Daemon Prince w. Wings, Daemonic Icon", "pts":50},
 
 		{ "id":30, "name":"2 Vindicators", "pts":50 },
 		{ "id":32, "name":"6 Alpha Legion Marines w. Transport", "pts":250 },
@@ -66,6 +67,7 @@
 		{"max":1, "perArmy":true, "from":[541]}
 	],
 	"upgradeConstraints":[
+		{"min":1, "max":1, "from":[23,24,25], "appliesTo":[511]},
 		{"min":1, "max":1, "from":[32,33], "appliesTo":[512]},
 		{"min":1, "max":1, "from":[21], "appliesTo":[512,521,522,523]},
 		{"min":0, "max":1, "from":[22], "appliesTo":[512,521,522,523]},
