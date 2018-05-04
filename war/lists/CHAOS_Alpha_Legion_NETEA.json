@@ -1,17 +1,17 @@
 {
 	"id":"Alpha XX Legion",
 	"by":"MrDieAlot",
-	"version":"v1.4",
+	"version":"v1.5",
 	"notes":[],
 	"sections":[
 		{"name":"Alpha Legion Core formations", "formations": [
-			{ "id":511, "name":"Chaos Cultists", "pts":225, "units":"1 Alpha Legion Aspiring Champion w. Daemonic Icon, 11 Alpha Legion Cultists", "upgrades":[39,40,44,41,37] },
-			{ "id":512, "name":"Alpha Legion Marines", "pts":0, "upgrades":[30,34,35,31,37] }
+			{ "id":511, "name":"Chaos Cultists", "pts":225, "units":"1 Alpha Legion Aspiring Champion w. Daemonic Icon, 11 Alpha Legion Cultists", "upgrades":[39,40,44,41,37,24,25] },
+			{ "id":512, "name":"Alpha Legion Marines", "pts":0, "upgrades":[22,30,34,35,31,37] }
 		]},
 		{"name":"Alpha Legion Elite Formatons / / One Alpha Legion Elite formation may be taken per Chaos Cultist formation", "formations": [
-			{ "id":521, "name":"Alpha Legion Headhunter Kill Team", "pts":225, "units":"4 Headhunter units w. Transport", "upgrades":[31] },
-			{ "id":522, "name":"Alpha Legion Destroyers", "pts":225,"units":"4 Alpha Legion Destroyers", "upgrades":[] },
-			{ "id":523, "name":"Lernaean Terminators", "pts":275,"units":"4 Lernaean Terminators", "upgrades":[30,37,38] },
+			{ "id":521, "name":"Alpha Legion Headhunter Kill Team", "pts":225, "units":"4 Headhunter units w. Transport", "upgrades":[22,31] },
+			{ "id":522, "name":"Alpha Legion Destroyers", "pts":225,"units":"4 Alpha Legion Destroyers", "upgrades":[22] },
+			{ "id":523, "name":"Lernaean Terminators", "pts":275,"units":"4 Lernaean Terminators", "upgrades":[22,30,37,38] },
 			{ "id":524, "name":"Alpha Legion Predators", "pts":300, "units":"6 Alpha Legion Predators", "upgrades":[30,37] }
 		]},
 			{"name":"Alpha Legion Cultist Formatons / / One Alpha Legion Cultist formation may be taken per Chaos Cultist formation", "formations": [
@@ -20,11 +20,12 @@
 			{ "id":533, "name":"Cult Macharius", "pts":225, "units":"2 Macharius", "upgrades":[] },
 			{ "id":534, "name":"Cult Light Artillery", "pts":200, "units":"6 Thudd Guns", "upgrades":[40,41] }
 		]},
-		{"name":"Alpha Legion Support Formations / / Max 33%", "formations":[
-			{ "id":541, "name":"Strike Cruiser", "pts":200, "units":"1 Strike Cruiser", "upgrades":[] },
-			{ "id":542, "name":"Super Heavy Tank Company", "pts":550, "upgrades":[50,51,52] },
+		{"name":"Alpha Legion Support Formations / / One Alpha Legion Support formation may be taken per Alpha Legion Core formation / / Max 33%", "formations":[
+			{ "id":541, "name":"Strike Cruiser", "pts":150, "units":"1 Strike Cruiser", "upgrades":[] },
+			{ "id":542, "name":"Super Heavy Tank Company", "pts":600, "upgrades":[50,51,52] },
 			{ "id":543, "name":"Thunderhawk", "pts":225, "units":"1 Thunderhawk", "upgrades":[] },
-			{ "id":544, "name":"Fire Raptors", "pts":275, "units":"2 Fire Raptors", "upgrades":[] }
+			{ "id":544, "name":"Fire Raptors", "pts":250, "units":"2 Fire Raptors", "upgrades":[] },
+			{ "id":545, "name":"Lightning Interceptors", "pts":150, "units":"2 Lightning Interceptors", "upgrades":[] }
 		]},
 			{"name":"Daemon Pool", "formations": [
 			{ "id":500, "name":"Lesser Daemon Pool", "pts":0, "upgrades":[11] }
@@ -34,23 +35,22 @@
 		{ "id":11, "name":"Lesser Daemon", "pts":15 },
 
 		{ "id":21, "name":"Chaos Lord", "pts":0 },
-		{ "id":22, "name":"Alpha Legion Sorcerer", "pts":0 },
-		{ "id":23, "name":"Chaos Warlord", "pts":50 },
-		{ "id":24, "name":"Supreme Daemon Prince", "pts":100 },
-		{ "id":25, "name":"Supreme Daemon Prince w. Wings", "pts":100 },
+		{ "id":22, "name":"Supreme Commander", "pts":75 },
+		{ "id":24, "name":"1 Alpha Legion Daemon Prince", "pts":50},
+		{ "id":25, "name":"1 Alpha Legion Daemon Prince w. Wings", "pts":50},
 
 		{ "id":30, "name":"2 Vindicators", "pts":50 },
 		{ "id":32, "name":"6 Alpha Legion Marines w. Transport", "pts":250 },
-		{ "id":33, "name":"4 Alpha Legion Marines, 2 Alpha Legion Havocs w. Transport", "pts":275 },
+		{ "id":33, "name":"3 Alpha Legion Marines, 3 Alpha Legion Havocs w. Transport", "pts":275 },
 		{ "id":34, "name":"3 Land Raiders", "pts":175 },
 		{ "id":35, "name":"3 Land Raider Proteus", "pts":175 },
-		{ "id":31, "name":"2 Alpha Legion Dreadnoughts", "pts":75 },		
+		{ "id":31, "name":"3 Alpha Legion Dreadnoughts", "pts":100 },		
 		{ "id":37, "name":"1 Hydra", "pts":50 },
 		{ "id":38, "name":"2 Alpha Legion Spartan Assault Tanks", "pts":150 },
 		{ "id":39, "name":"3 Rapiers", "pts":50 },
 		{ "id":40, "name":"6 Light Transports", "pts":30 },
 		{ "id":44, "name":"9 Light Transports", "pts":45 },
-		{ "id":41, "name":"3 Chaos Hounds", "pts":25 },
+		{ "id":41, "name":"3 Chaos Hounds", "pts":15 },
 		
 		{ "id":50, "name":"2 Glaives", "pts":0 },
 		{ "id":51, "name":"2 Fellblades", "pts":0 },
@@ -61,13 +61,14 @@
 	"formationConstraints":[
 		{"max":1, "name":"Alpha Legion Elite Formation", "from":[521,522,523,524], "forEach":[511], "name2":"Chaos Cultists Formation"},
 		{"max":1, "name":"Alpha Legion Cultist Formation", "from":[531,532,533,534], "forEach":[511], "name2":"Chaos Cultists Formation"},
+		{"max":1, "name":"Alpha Legion Support Formation", "from":[541,542,543,544,545], "forEach":[511,512], "name2":"Alpha Legion Core Formation"},
 		{"maxPercent":34, "name":"Alpha Legion Support Formations", "from":[541,542,543,544,545]},
 		{"max":1, "perArmy":true, "from":[541]}
 	],
 	"upgradeConstraints":[
 		{"min":1, "max":1, "from":[32,33], "appliesTo":[512]},
-		{"min":1, "max":1, "from":[21,22,23,24,25], "appliesTo":[512,521,523]},
-		{"min":1, "max":1, "from":[21,22], "appliesTo":[522]},
+		{"min":1, "max":1, "from":[21], "appliesTo":[512,521,522,523]},
+		{"min":0, "max":1, "from":[22], "appliesTo":[512,521,522,523]},
 		
 		{"min":0, "max":1, "from":[30], "appliesTo":[512,523,524]},
 		{"min":0, "max":1, "from":[34,35], "appliesTo":[512]},
@@ -84,6 +85,6 @@
 		
 		{"min":1, "max":1, "from":[50,51,52], "appliesTo":[542]},
 	
-		{"max":1, "perArmy":true, "from":[23,24,25]}
+		{"max":1, "perArmy":true, "from":[22,24,25]}
 	]
 }
