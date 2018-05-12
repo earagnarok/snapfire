@@ -1,28 +1,28 @@
 {
 	"id":"House Raven Knights",
-	"version":"1.25",
+	"version":"1.3",
 	"by":"MrDieAlot",
 	"notes":[],
 	"sections":[
 		{"name":"Noble Lances", "formations":[
 			{"id":500, "name":"Nobles", 		"pts":35, "upgrades":[100,101,102,103,104]}
-         ]},
-		{"name":"Aspiring Lances / / Max 1 Aspiring Lance per Noble Lance", "formations":[
-			{"id":501, "name":"Aspirants",			"pts":200, "upgrades":[], "units":"5 Knight-Armiger"}
 		]},
 		{"name":"Cerastus Lances / / Max 1 Cerastus Lance per Noble Lance", "formations":[
 			{"id":502, "name":"Cerastus",	"pts":50,  "upgrades":[105,110,111,112]}
+	    ]},
+		{"name":"Aspiring Lances / / Max 1 Aspiring Lance per Noble or Cerastus Lance", "formations":[
+			{"id":501, "name":"Aspirants",			"pts":200, "upgrades":[], "units":"5 Knight-Armiger"}
 		]},
 		{"name":"Relic Lances / / Max 1 Relic Lance per each 2 Noble Lances, and 1 per Knight-Baron", "formations":[
 			{"id":503, "name":"Questoris",	"pts":30,  "upgrades":[105,120,121]},
 			{"id":504, "name":"Acastus",	"pts":50,  "upgrades":[105,130]}
 		]},
-		{"name":"Mechanicus Allies / / Max 33%", "formations":[
+		{"name":"Mechanicus Allies / / Max 40%", "formations":[
 			{"id":510, "name":"Skitarii",		"pts":300,  "upgrades":[140], "units":"2 Secutor, 8 Hypaspists, 1 Gorgon"},
 			{"id":517, "name":"Sagitarii",		"pts":250,  "upgrades":[140], "units":"5 Sagitarii, 3 Chimeras"},
 			{"id":511, "name":"Warhound Scout Titan Pack",		"pts":500,  "upgrades":[], "units":"2 Warhound Scout Titans"},
             {"id":512, "name":"Reaver Titan",				"pts":650,  "upgrades":[], "units":"1 Reaver Titan"},
-			{"id":513, "name":"Warlord Titan",				"pts":800,  "upgrades":[], "units":"1 Warlord Titan"},			
+			{"id":513, "name":"Warlord Titan",				"pts":825,  "upgrades":[], "units":"1 Warlord Titan"},			
 		 	{"id":515, "name":"Avenger Squadron",		"pts":200, "upgrades":[], "units":"2 Avengers"},
 		 	{"id":516, "name":"Lunar Class Cruiser",		"pts":150, "upgrades":[], "units":"1 Lunar Class Cruiser"}
 	    ]}
@@ -52,10 +52,10 @@
 		
     ],
 	"formationConstraints":[
-		{"max":1, "name":"", "from":[501], "forEach":[500], "name2":"Noble Lance"},
+		{"max":1, "name":"", "from":[501], "forEach":[500,502], "name2":"Noble or Cerastus Lance"},
 		{"max":1, "name":"", "from":[502], "forEach":[500], "name2":"Noble Lance"},
 		{"max":1, "name":"", "from":[503,504], "forEach":[500], "name2":"Noble Lance"},
-		{"maxPercent":34, "name":"Mechanicus Allies", "from":[510,511,512,513,514,515,516,517]},
+		{"maxPercent":41, "name":"Mechanicus Allies", "from":[510,511,512,513,514,515,516,517]},
 		{"max":1, "perArmy":true, "from":[516]}
 		
 	],
