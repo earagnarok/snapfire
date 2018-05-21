@@ -22,6 +22,7 @@
       {"id":522, "name":"Strike Cruiser", "pts":200, "units": "One Strike Cruiser", "upgrades":[16]}
     ]},
     {"name":"Raven Guard Aircraft", "formations":[
+      {"id":532, "name":"Storm Talon Squadron", "pts":200, "units": "Two Storm Talons"},
       {"id":530, "name":"Storm Eagle", "pts":150, "units": "One Storm Eagle"},
       {"id":531, "name":"Thunderhawk Gunship", "pts":200, "units": "One Thunderhawk Gunship"}
     ]},
@@ -53,7 +54,7 @@
     {"id":12, "name":"Bike", "pts":0},
     {"id":13, "name":"Attack Bike", "pts":0},
 
-    {"id":14, "name":"Land Speeder Tempest", "pts":15},
+    {"id":14, "name":"Land Speeder Tempest", "pts":50},
     {"id":15, "name":"Planetfall", "pts":25},
 
     {"id":16, "name":"Battle Barge", "pts":150},
@@ -70,7 +71,7 @@
     {"max":1, "name":"Support Detachment", "from":[520,521,522], "forEach":[500,501,502,503], "name2":"Detachment"},
     {"max":1, "name":"Aircraft", "from":[530,531], "forEach":[500,501,502,503,510,511,512,513,520,521,522], "name2":"Detachment, Elite Detachment or Support Detachment"},
 
-    {"maxPercent":33.334, "name":"Imperial Ally Formations", "from":[540,541,550,551]}
+    {"maxPercent":33.334, "name":"Imperial Ally and Ravenguard Aircraft Formations", "from":[530,531,532,540,541,550,551]}
   ],
   "upgradeConstraints":[
     {"max":1, "perArmy":true, "from":[1]},
