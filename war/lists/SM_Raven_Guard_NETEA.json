@@ -1,13 +1,13 @@
 {
   "id":"Raven Guard",
-  "version":"NetEA 2015-05-26 *UNDER DEVELOPMENT*",
+  "version":"NetEA 2018-04-23 *UNDER DEVELOPMENT*",
   "by":"Dave",
   "notes":["Up to a third of the points available may be spent on Imperial Navy Aircraft and Titan Legion Battlegroup formations."],
   "sections":[
     {"name":"Raven Guard Detachments", "formations":[
       {"id":500, "name":"Assault", "pts":175, "units": "Four Assault units", "upgrades":[1,2,3,4,5,6,7]},
       {"id":501, "name":"Devastator", "pts":250, "units": "Four Devastator units", "upgrades":[1,2,3,4,5,6,7,8,9,10]},
-      {"id":502, "name":"Scout", "pts":150, "units": "Four Scout units", "upgrades":[1,2,3,4,17,18,19,5,6,7]},
+      {"id":502, "name":"Scout", "pts":150, "units": "Four Scout units", "upgrades":[1,2,3,4,17,19,5,6,7]},
       {"id":503, "name":"Tactical", "pts":200, "units": "Four Tactical units", "upgrades":[1,2,3,4,5,6,7,8,9,10]}
     ]},
     {"name":"Raven Guard Elite Detachments", "formations":[
@@ -59,8 +59,7 @@
 
     {"id":16, "name":"Battle Barge", "pts":150},
 
-    {"id":17, "name":"(up to two Scout units with Sniper)", "pts":25},
-    {"id":18, "name":"(up to four Scout units with Sniper)", "pts":50},
+    {"id":17, "name":"Sniper", "pts":10},
     {"id":19, "name":"Land Speeder Storm", "pts":25}
   ],
   "formationConstraints":[
@@ -92,7 +91,7 @@
 
     {"max":1, "from":[16], "appliesTo":[522]},
 
-    {"max":1, "from":[17,18], "appliesTo":[502]},
+    {"max":4, "from":[17], "appliesTo":[502]},
 
     {"max":4, "from":[19], "appliesTo":[502]}
   ]
