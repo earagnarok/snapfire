@@ -22,10 +22,10 @@
 		]},
 		{"name":"Alpha Legion Support Formations / / One Alpha Legion Support formation may be taken per ALPHA LEGION CORE formation / / Max 33%", "formations":[
 			{ "id":541, "name":"Strike Cruiser", "pts":150, "units":"1 Strike Cruiser", "upgrades":[] },
-			{ "id":542, "name":"Super Heavy Tank Company", "pts":600, "upgrades":[50,51,52] },
+			{ "id":542, "name":"Super Heavy Tank Company", "pts":850, "upgrades":[50,51,52] },
 			{ "id":543, "name":"Thunderhawk", "pts":225, "units":"1 Thunderhawk", "upgrades":[] },
 			{ "id":544, "name":"Fire Raptors", "pts":200, "units":"2 Fire Raptors", "upgrades":[] },
-			{ "id":545, "name":"Lightning Interceptors", "pts":175, "units":"2 Lightning Interceptors", "upgrades":[] }
+			{ "id":545, "name":"Lightning Interceptors", "pts":150, "units":"2 Lightning Interceptors", "upgrades":[] }
 		]},
 			{"name":"Daemon Pool", "formations": [
 			{ "id":500, "name":"Lesser Daemon Pool", "pts":0, "upgrades":[11] }
@@ -55,9 +55,10 @@
 		{ "id":44, "name":"9 Light Transports", "pts":45 },
 		{ "id":41, "name":"3 Chaos Hounds", "pts":25 },
 		
-		{ "id":50, "name":"2 Glaives", "pts":0 },
-		{ "id":51, "name":"2 Fellblades", "pts":0 },
-		{ "id":52, "name":"2 Falchions", "pts":0 }
+		{ "id":50, "name":"3 Glaives", "pts":0 },
+		{ "id":51, "name":"3 Fellblades", "pts":0 },
+		{ "id":52, "name":"3 Falchions", "pts":0 }
+
 
 								
 	],
