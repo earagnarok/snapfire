@@ -9,7 +9,7 @@
 			{ "id":512, "name":"Alpha Legion Marines", "pts":0, "upgrades":[22,30,34,35,31,37] }
 		]},
 		{"name":"Alpha Legion Elite Formatons / / One Alpha Legion Elite formation may be taken per CHAOS CULTIST formation", "formations": [
-			{ "id":521, "name":"Alpha Legion Headhunter Kill Team", "pts":225, "units":"4 Headhunter units w. Transport", "upgrades":[31] },
+			{ "id":521, "name":"Alpha Legion Headhunter Kill Team", "pts":225, "units":"4 Headhunter units w. Transport", "upgrades":[22,31] },
 			{ "id":522, "name":"Alpha Legion Destroyers", "pts":250,"units":"4 Alpha Legion Destroyers", "upgrades":[22] },
 			{ "id":523, "name":"Lernaean Terminators", "pts":300,"units":"4 Lernaean Terminators", "upgrades":[22,38] },
 			{ "id":524, "name":"Alpha Legion Predators", "pts":250, "units":"4 Alpha Legion Predators", "upgrades":[30,37] }
