@@ -40,6 +40,8 @@
 		{ "id":23, "name":"1 Alpha Legion Cultist w. Daemonic Icon", "pts":0 },
 		{ "id":24, "name":"1 Alpha Legion Daemon Prince w. Daemonic Icon", "pts":50},
 		{ "id":25, "name":"1 Alpha Legion Daemon Prince w. Wings, Daemonic Icon", "pts":50},
+		{ "id":26, "name":"1 Alpha Legion Aspiring Champion, Daemonic Icon", "pts":25},
+		
 
 		{ "id":30, "name":"2 Vindicators", "pts":50 },
 		{ "id":31, "name":"3 Alpha Legion Dreadnoughts", "pts":100 },
@@ -70,7 +72,7 @@
 		{"max":1, "perArmy":true, "from":[541]}
 	],
 	"upgradeConstraints":[
-		{"min":1, "max":1, "from":[23,24,25], "appliesTo":[511]},
+		{"min":1, "max":1, "from":[23,26,24,25], "appliesTo":[511]},
 		{"min":1, "max":1, "from":[32,33], "appliesTo":[512]},
 		{"min":1, "max":1, "from":[21,20], "appliesTo":[512,521,522,523]},
 		{"min":0, "max":1, "from":[22], "appliesTo":[512,521,522,523]},
