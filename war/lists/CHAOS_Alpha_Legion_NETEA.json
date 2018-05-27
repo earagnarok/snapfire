@@ -1,7 +1,7 @@
 {
 	"id":"Alpha XX Legion",
 	"by":"MrDieAlot",
-	"version":"v1.61",
+	"version":"v1.62",
 	"notes":[],
 	"sections":[
 		{"name":"Alpha Legion Core formations", "formations": [
@@ -22,7 +22,7 @@
 		]},
 		{"name":"Alpha Legion Support Formations / / One Alpha Legion Support formation may be taken per ALPHA LEGION CORE formation / / Max 33%", "formations":[
 			{ "id":541, "name":"Strike Cruiser", "pts":150, "units":"1 Strike Cruiser", "upgrades":[] },
-			{ "id":542, "name":"Super Heavy Tank Company", "pts":850, "upgrades":[50,51,52] },
+			{ "id":542, "name":"Super Heavy Tank Company", "pts":800, "upgrades":[50,51,52] },
 			{ "id":543, "name":"Thunderhawk", "pts":225, "units":"1 Thunderhawk", "upgrades":[] },
 			{ "id":544, "name":"Fire Raptors", "pts":225, "units":"2 Fire Raptors", "upgrades":[] },
 			{ "id":545, "name":"Lightning Interceptors", "pts":150, "units":"2 Lightning Interceptors", "upgrades":[] }
@@ -34,19 +34,19 @@
 	"upgrades":[
 		{ "id":11, "name":"Lesser Daemon", "pts":15 },
 
-		{ "id":20, "name":"Alpha Legion Librarian", "pts":0 },
+		{ "id":20, "name":"Alpha Legion Sorcerer", "pts":0 },
 		{ "id":21, "name":"Alpha Legion Lord", "pts":0 },
-		{ "id":22, "name":"Supreme Commander", "pts":75 },
+		{ "id":22, "name":"''I'm Alpharius!''", "pts":75 },
 		{ "id":23, "name":"1 Alpha Legion Cultist w. Daemonic Icon", "pts":0 },
-		{ "id":24, "name":"1 Alpha Legion Daemon Prince w. Daemonic Icon", "pts":50},
-		{ "id":25, "name":"1 Alpha Legion Daemon Prince w. Wings, Daemonic Icon", "pts":50},
 		{ "id":26, "name":"1 Alpha Legion Aspiring Champion w. Daemonic Icon", "pts":25},
+		{ "id":27, "name":"1 Alpha Legion Daemon Prince w. Daemonic Icon", "pts":100},
+		{ "id":28, "name":"1 Alpha Legion Daemon Prince w. Wings, Daemonic Icon", "pts":100},
 		
 
 		{ "id":30, "name":"2 Vindicators", "pts":50 },
-		{ "id":31, "name":"3 Alpha Legion Dreadnoughts", "pts":100 },
+		{ "id":31, "name":"2 Alpha Legion Dreadnoughts", "pts":75 },
 		{ "id":32, "name":"8 Alpha Legion Marines w. Transport", "pts":325 },
-		{ "id":33, "name":"4 Alpha Legion Marines, 4 Alpha Legion Heavy Support w. Transport", "pts":375 },
+		{ "id":33, "name":"4 Alpha Legion Marines, 4 Alpha Legion Havocs w. Transport", "pts":375 },
 		{ "id":34, "name":"4 Land Raiders", "pts":200 },
 		{ "id":35, "name":"3 Land Raiders and 1 Land Raider Proteus", "pts":225 },
 
@@ -72,7 +72,7 @@
 		{"max":1, "perArmy":true, "from":[541]}
 	],
 	"upgradeConstraints":[
-		{"min":1, "max":1, "from":[23,26,24,25], "appliesTo":[511]},
+		{"min":1, "max":1, "from":[23,26,27,28], "appliesTo":[511]},
 		{"min":1, "max":1, "from":[32,33], "appliesTo":[512]},
 		{"min":1, "max":1, "from":[21,20], "appliesTo":[512,521,522,523]},
 		{"min":0, "max":1, "from":[22], "appliesTo":[512,521,522,523]},
@@ -92,7 +92,6 @@
 		
 		{"min":1, "max":1, "from":[50,51,52], "appliesTo":[542]},
 	
-		{"max":1, "perArmy":true, "from":[22]},
-		{"max":1, "perArmy":true, "from":[24,25]}
+		{"max":1, "perArmy":true, "from":[22,27,28]}
 	]
 }
