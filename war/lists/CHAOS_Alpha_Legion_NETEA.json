@@ -73,7 +73,7 @@
 		{"max":1, "name":"Alpha Legion Cultist Formation", "from":[531,532,533,534], "forEach":[511], "name2":"Chaos Cultists Formation"},
 		{"max":1, "name":"Alpha Legion Support Formation", "from":[541,543,544,545,546,547,548], "forEach":[511,512], "name2":"Alpha Legion Core Formation"},
 		{"maxPercent":34, "name":"Alpha Legion Support Formations", "from":[541,543,544,545,546,547,548]},
-		{"max":1, "perArmy":true, "from":[541]}
+		{"max":1, "perArmy":true, "from":[411,541,500]}
 	],
 	"upgradeConstraints":[
 		{"min":0, "max":1, "from":[22], "appliesTo":[411]},
