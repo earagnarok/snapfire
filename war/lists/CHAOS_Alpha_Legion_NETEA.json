@@ -1,7 +1,7 @@
 {
 	"id":"Alpha XX Legion",
 	"by":"MrDieAlot",
-	"version":"v1.63",
+	"version":"v1.65",
 	"notes":[],
 	"sections":[
 		{"name":"Alpha Legion Core formations", "formations": [
@@ -22,10 +22,12 @@
 		]},
 		{"name":"Alpha Legion Support Formations / / One Alpha Legion Support formation may be taken per ALPHA LEGION CORE formation / / Max 33%", "formations":[
 			{ "id":541, "name":"Strike Cruiser", "pts":150, "units":"1 Strike Cruiser", "upgrades":[] },
-			{ "id":542, "name":"Super Heavy Tank Company", "pts":800, "upgrades":[50,51,52] },
-			{ "id":543, "name":"Thunderhawk", "pts":225, "units":"1 Thunderhawk", "upgrades":[] },
+			{ "id":543, "name":"Thunderhawk", "pts":250, "units":"1 Thunderhawk", "upgrades":[] },
 			{ "id":544, "name":"Fire Raptors", "pts":225, "units":"2 Fire Raptors", "upgrades":[] },
-			{ "id":545, "name":"Lightning Interceptors", "pts":150, "units":"2 Lightning Interceptors", "upgrades":[] }
+			{ "id":545, "name":"Lightning Interceptors", "pts":150, "units":"2 Lightning Interceptors", "upgrades":[] },
+			{ "id":546, "name":"Super Heavy Tank Company (Glaive)", "pts":50, "upgrades":[50] },
+			{ "id":547, "name":"Super Heavy Tank Company (Fellblade)", "pts":50, "upgrades":[51] },
+			{ "id":548, "name":"Super Heavy Tank Company (Falchion)", "pts":50, "upgrades":[52] }		
 		]},
 			{"name":"Daemon Pool", "formations": [
 			{ "id":500, "name":"Lesser Daemon Pool", "pts":0, "upgrades":[11] }
@@ -57,9 +59,9 @@
 		{ "id":44, "name":"9 Light Transports", "pts":45 },
 		{ "id":41, "name":"3 Chaos Hounds", "pts":25 },
 		
-		{ "id":50, "name":"3 Glaives", "pts":0 },
-		{ "id":51, "name":"3 Fellblades", "pts":0 },
-		{ "id":52, "name":"3 Falchions", "pts":0 }
+		{ "id":50, "name":"Glaive", "pts":250 },
+		{ "id":51, "name":"Fellblade", "pts":250 },
+		{ "id":52, "name":"Falchion", "pts":250 }
 
 
 								
@@ -90,8 +92,10 @@
 		{"min":0, "max":1, "from":[40,44], "appliesTo":[511]},
 		{"min":0, "max":1, "from":[40], "appliesTo":[532,534]},
 		
-		{"min":1, "max":1, "from":[50,51,52], "appliesTo":[542]},
-	
+		{"min":2, "max":3, "from":[50], "appliesTo":[546]},
+		{"min":2, "max":3, "from":[51], "appliesTo":[547]},
+		{"min":2, "max":3, "from":[52], "appliesTo":[548]},
+		
 		{"max":1, "perArmy":true, "from":[22,27,28]}
 	]
 }
