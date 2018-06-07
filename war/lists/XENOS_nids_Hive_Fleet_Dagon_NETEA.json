@@ -1,6 +1,6 @@
 {
   "id": "Hive Fleet Dagon",
-  "version": "3.2",
+  "version": "3.3",
   "by": "Argol & MrDieAlot",
   "sections": [
     {
@@ -17,6 +17,7 @@
 			103,
 			104,
 			105,
+			107,
 			108,
 			109,
 			110,
@@ -41,6 +42,7 @@
 			103,
 			104,
 			105,
+			107,
 			108,
 			109,
 			110,
@@ -66,6 +68,7 @@
 			103,
 			104,
 			105,
+			107,
 			108,
 			109,
 			110,
@@ -95,6 +98,7 @@
 			103,
 			104,
 			105,
+			107,
 			108,
 			109,
 			110,
@@ -127,6 +131,7 @@
           "pts": 0,
           "upgrades": [
             109,
+			107,
             130
           ]
         }
@@ -147,7 +152,7 @@
     {
           "id": 507,
           "name": "Lictor Swarm",
-          "pts": 35,
+          "pts": 100,
           "upgrades": [
             142
           ]
@@ -157,14 +162,6 @@
     {
       "name": "Rare Independent Swarms (One Rare Independent Swarm may be taken for each Primary Nexus Swarm. // Max 33% of the list may be taken from this section)",
       "formations": [
-        {
-          "id": 508,
-          "name": "Bio-Bombers",
-          "pts": 50,
-          "upgrades": [
-			150
-          ]
-    },
     {
           "id": 510,
           "name": "Bio-Titan",
@@ -207,6 +204,11 @@
       "id": 105,
       "name": "Gaunts (4 Hormagaunts)",
       "pts": 50
+    },
+    {
+      "id": 107,
+      "name": "Bio-Bomber (2 Harpies)",
+      "pts": 100
     },
     {
       "id": 108,
@@ -286,7 +288,7 @@
     {
       "id": 142,
       "name": "Lictors",
-      "pts": 35
+      "pts": 25
     },
     {
       "id": 150,
@@ -384,12 +386,6 @@
       "max": 1,
       "from": [
         501
-      ]
-    },
-    {
-      "max": 2,
-      "from": [
-        507
       ]
     },
     {
@@ -508,6 +504,7 @@
         103,
         104,
         105,
+		107,
         108,
         109,
         110,
@@ -558,6 +555,7 @@
         103,
         104,
         105,
+		107,
         108,
         109,
         110,
@@ -605,6 +603,7 @@
         103,
         104,
         105,
+		107,
         108,
         109,
         110,
@@ -642,6 +641,7 @@
         103,
         104,
         105,
+		107,
         108,
         109,
         110,
@@ -697,7 +697,8 @@
       "max": 2,
       "min": 1,
       "from": [
-        109
+        109,
+		107
       ],
       "appliesTo": [
         505
@@ -725,7 +726,7 @@
     },
     {
       "max": 7,
-      "min": 4,
+      "min": 5,
       "from": [
         142
       ],
