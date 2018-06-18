@@ -18,9 +18,9 @@
 			{ "id":524, "name":"Alpha Legion Predators", "pts":250, "units":"4 Alpha Legion Predators", "upgrades":[30] }
 		]},
 			{"name":"Alpha Legion Cultist Formatons / / One Alpha Legion Cultist formation may be taken per Alpha Legion Core formation", "formations": [
-			{ "id":531, "name":"Cult Cavalry", "pts":175, "units":"6 Rough Riders, 1 Daemonic Icon", "upgrades":[41] },
+			{ "id":531, "name":"Cult Riders", "pts":175, "units":"6 Rough Riders, 1 Daemonic Icon", "upgrades":[41] },
 			{ "id":532, "name":"Cult Mutants", "pts":150, "units":"6 Mutants, 2 Chaos Spawn, 1 Daemonic Icon", "upgrades":[41] },
-			{ "id":533, "name":"Cult Armour", "pts":325, "units":"3 Macharius", "upgrades":[41] },
+			{ "id":533, "name":"Cult Macharius", "pts":325, "units":"3 Macharius", "upgrades":[41] },
 			{ "id":534, "name":"Cult Artillery", "pts":150, "units":"4 Thudd Guns, 4 Light Transporters", "upgrades":[41,37] },
 			{ "id":535, "name":"Cult Hydras", "pts":150, "units":"3 Hydras", "upgrades":[41] }
 		]},
