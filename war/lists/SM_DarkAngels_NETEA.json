@@ -32,7 +32,7 @@
 	 		{"name":"Dark Angels Navy (Max 33%)", "formations": [
 	        { "id":523, "name":"Ravenwing Nephilim", "units":"2 Ravenwing Nephilim Interceptors",        "pts":200, "upgrades":[] },
 		    { "id":524, "name":"Ravenwing Dark Talon", "units":"2 Ravenwing Dark Talons",        "pts":225, "upgrades":[] },
-	        { "id":542, "name":"Thunderhawk Transporters",        "pts":25, "upgrades":[21] },
+	        { "id":542, "name":"Thunderhawk Transporters",        "pts":50, "upgrades":[21] },
             { "id":543, "name":"Strike Cruiser",        "pts":0, "upgrades":[35,36] }
      ]}
   ],
@@ -44,7 +44,7 @@
 		{"id":17, "name":"Dark Angels Razorback w Lascannon and Twin Plasma Guns", 	"pts":30},
 		{"id":19, "name":"2 Mortis Dreadnoughts", 		"pts":75},
 		{"id":20, "name":"3 Vindicators", 			"pts":100},
-		{"id":21, "name":"Thunderhawk Transport", 			"pts":125},
+		{"id":21, "name":"Thunderhawk Transport", 			"pts":100},
 		{"id":22, "name":"4 Deathwing Land Raiders", 			"pts":225},	
 		{"id":25, "name":"Ravenwing Bikes",		"pts":0},
 		{"id":26, "name":"Ravenwing Attack Bike",	"pts":0},
