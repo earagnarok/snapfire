@@ -23,7 +23,7 @@
 			{"id":514, "name":"REPUGNANT (Chaos Reaver Titan of Nurgle)",			"pts":600, "upgrades":[31,32,33,34,35,44,45,46,47,64,65,66,67,300,301,302,303,304,309]},
 			{"id":515, "name":"MUTATOR (Chaos Reaver Titan of Tzeentch)",			"pts":600, "upgrades":[31,32,33,34,35,41,42,43,60,61,62,63,300,301,302,303,304,308]}
 		]},
-		{"name":"GREATER DAEMON ENGINES One Greater Daemon Engine formation may be taken for each Battle Titan and Greater Daemon Possession", "formations":[
+		{"name":"GREATER DAEMON ENGINES / / One Greater Daemon Engine formation may be taken for each Battle Titan and Greater Daemon Possession", "formations":[
 			{"id":551, "name":"FORGEHOUND (Chaos Warhound of Chaos Undivided)",		"pts":300, "units":"One Forgehound Chaos Warhound", "upgrades":[]},
 			{"id":552, "name":"FORGEHOUND Pack (Chaos Warhounds of Chaos Undivided)",	"pts":550, "units": "Two Forgehound Chaos Warhounds", "upgrades":[]},
 			
@@ -36,31 +36,35 @@
 			{"id":557, "name":"WARPHOUND Pack (Chaos Warhounds of Tzeentch)",	"pts":550, "units": "Two Warphound Chaos Warhounds", "upgrades":[]},
 
 			{"id":558, "name":"DEATH WHEEL (Chaos Undivided)",	"pts":50,  "upgrades":[400]},
-			{"id":559, "name":"LORD OF BATTLES (Khorne)",	"pts":400,  "units":"One Lord of Battles",  "upgrades":[402]},
-			{"id":560, "name":"GREATER BRASS SCORPION (Khorne)",  "units":"One Greater Brass Scorpion", 	"pts":200, "upgrades":[403,404]},
-			{"id":561, "name":"SUBJUGATOR (Slaanesh)",	"pts":225,  "units":"One Subjugator Scout Titan",  "upgrades":[405]},
-			{"id":562, "name":"QUESTOR (Slaanesh)",	"pts":275,  "units":"One Questor Scout Titan",  "upgrades":[406]}
+			{"id":559, "name":"LORD OF BATTLES (Khorne)",	"pts":75,  "upgrades":[401]},
+			{"id":560, "name":"GREATER BRASS SCORPION (Khorne)", 	"pts":50, "upgrades":[402]},
+			{"id":561, "name":"SUBJUGATOR (Slaanesh)",	"pts":50,  "upgrades":[403]},
+			{"id":562, "name":"QUESTOR (Slaanesh)",	"pts":50,  "upgrades":[404]}
 		]},
 		
-		{"name":"LESSER DAEMON ENGINES One Lesser Daemon Engine formation may be taken for each Battle Titan, Greater Daemon Possession and Greater Daemon Engine Model", "formations":[
-			{"id":570, "name":"DAEMON KNIGHTS Hell-Scourges (Slaanesh)",			"pts":225, "units":"Two Hell-Scourges", "upgrades":[407,408]},
-			{"id":571, "name":"DAEMON KNIGHTS Hell-Knights (Slaanesh)",			"pts":225, "units":"Three Hell-Knights", "upgrades":[409,410]},
-			{"id":572, "name":"DAEMON KNIGHTS Hell-Striders (Slaanesh)",			"pts":225, "units":"Four Hell-Striders", "upgrades":[411,412]},
-			{"id":573, "name":"CHAOS KNIGHTS (Chaos Undivided)",	"pts":225, "units":"Two Renegade Knights", "upgrades":[413,414]},
-			{"id":574, "name":"CHAOS KNIGHTS (Khorne)",	"pts":225, "units":"Two Mauler Knights", "upgrades":[415,416]},
-			{"id":575, "name":"CHAOS KNIGHTS (Nurgle)",	"pts":225, "units":"Two Decay Knights", "upgrades":[417,418]},
-			{"id":576, "name":"CHAOS KNIGHTS (Tzeentch)",	"pts":225, "units":"Two Change Knights", "upgrades":[419,420]},
-			{"id":577, "name":"DAEMON ASSAULT ENGINES (Khorne)",			"pts":225, "units":"Four Daemon Assault Engines", "upgrades":[421,422]},
-			{"id":578, "name":"DEFILERS (Chaos Undivided)",		"pts":200, "units":"Four Retlaxi-Pattern Defilers with Mark of Chaos Undivided", "upgrades":[423,424]},
-			{"id":579, "name":"DEFILERS (Nurgle)",		"pts":200, "units":"Four Retlaxi-Pattern Defilers with Trappings of Nurgle", "upgrades":[425,426]},
-			{"id":580, "name":"DEFILERS (Tzeentch)",		"pts":200, "units":"Four Retlaxi-Pattern Defilers with Gifts of Tzeentch", "upgrades":[427,428]},
-			{"id":581, "name":"DAEMONIC ARTILLERY (Khorne)",			"pts":200, "units":"Four Cannons of Khorne", "upgrades":[429,430]}
+		{"name":"LESSER DAEMON ENGINES / / One Lesser Daemon Engine formation may be taken for each Battle Titan, Greater Daemon Possession and Greater Daemon Engine Model", "formations":[
+			{"id":570, "name":"DAEMON KNIGHTS Hell-Scourges (Slaanesh)",			"pts":75, "upgrades":[405]},
+			{"id":571, "name":"DAEMON KNIGHTS Hell-Knights (Slaanesh)",			"pts":30, "upgrades":[406]},
+			{"id":572, "name":"DAEMON KNIGHTS Hell-Striders (Slaanesh)",			"pts":5, "upgrades":[407]},
+			
+			{"id":573, "name":"CHAOS KNIGHTS (Chaos Undivided)",	"pts":75, "upgrades":[408]},
+			{"id":574, "name":"CHAOS KNIGHTS (Khorne)",	"pts":75, "upgrades":[409]},
+			{"id":575, "name":"CHAOS KNIGHTS (Nurgle)",	"pts":75, "upgrades":[410]},
+			{"id":576, "name":"CHAOS KNIGHTS (Tzeentch)",	"pts":75, "upgrades":[411]},
+			
+			{"id":577, "name":"DAEMON ASSAULT ENGINES (Khorne)", "pts":5, "upgrades":[412]},
+			
+			{"id":578, "name":"DEFILERS (Chaos Undivided)",		"pts":20, "upgrades":[413]},
+			{"id":579, "name":"DEFILERS (Nurgle)",		"pts":20, "upgrades":[414]},
+			{"id":580, "name":"DEFILERS (Tzeentch)",		"pts":20, "upgrades":[415]},
+			
+			{"id":581, "name":"DAEMONIC ARTILLERY (Khorne)",			"pts":20, "upgrades":[416]}
 		]},
 		{"name":"DAEMON POOL", "formations":[
       		{"id": 600, "name": "LESSER DAEMON POOL", "pts": 0, "upgrades": [450]}
 			
 		]},
-		{"name": "CHAOS NAVY", "formations": [
+		{"name": "CHAOS NAVY / / Max 25%", "formations": [
 			{"id": 530, "name": "HELL BLADE SQUADRON", "pts": 200, "units": "Three Hell Blade Fighters", "upgrades": []},
 			{"id": 531, "name": "HELL TALON SQUADRON", "pts": 225, "units": "Two Hell Talon Fighter-Bombers", "upgrades": []},
 			{"id": 532, "name": "HARBRINGER BOMBER", "pts": 375, "units": "One Harbinger Bomber", "upgrades": []},
@@ -277,40 +281,28 @@
 		
 		
 		{"id":400,	"name":"Death Wheel",	"pts":225},
-		{"id":402,	"name":"One additional Lord of Battles",	"pts":325},
-		{"id":403,	"name":"One additional Greater Brass Scorpion",	"pts":150},
-		{"id":404,	"name":"Two additional Greater Brass Scorpions",	"pts":300},
-		{"id":405,	"name":"One additional Subjugator Scout Titan",	"pts":175},
-		{"id":406,	"name":"One additional Questor Scout Titan",	"pts":225},
+		{"id":401,	"name":"Lord of Battles",	"pts":325},
+		{"id":402,	"name":"Greater Brass Scorpion",	"pts":150},
+		{"id":403,	"name":"Subjugator Scout Titan",	"pts":175},
+		{"id":404,	"name":"Questor Scout Titan",	"pts":225},
 		
-		{"id":407,	"name":"One additional Hell-Scourge",	"pts":75},
-		{"id":408,	"name":"Two additional Hell-Scourges",	"pts":150},
-		{"id":409,	"name":"One additional Hell-Knight",	"pts":65},
-		{"id":410,	"name":"Two additional Hell-Knights",	"pts":130},
-		{"id":411,	"name":"One additional Hell-Strider",	"pts":55},
-		{"id":412,	"name":"Two additional Hell-Striders",	"pts":110},
+		{"id":405,	"name":"Hell-Scourge",	"pts":75},
+		{"id":406,	"name":"Hell-Knight",	"pts":65},
+		{"id":407,	"name":"Hell-Strider",	"pts":55},
 		
-		{"id":413,	"name":"One additional Renegade Knight",	"pts":75},
-		{"id":414,	"name":"Two additional Renegade Knights",	"pts":150},
-		{"id":415,	"name":"One additional Mauler Knight",	"pts":75},
-		{"id":416,	"name":"Two additional Mauler Knights",	"pts":150},
-		{"id":417,	"name":"One additional Decay Knight",	"pts":75},
-		{"id":418,	"name":"Two additional Decay Knights",	"pts":150},
-		{"id":419,	"name":"One additional Change Knight",	"pts":75},
-		{"id":420,	"name":"Two additional Change Knights",	"pts":150},
+		{"id":408,	"name":"Renegade Knight of Chaos Undivided",	"pts":75},
+		{"id":409,	"name":"Mauler Knight of Khorne",	"pts":75},
+		{"id":410,	"name":"Decay Knight of Nurgle",	"pts":75},
+		{"id":411,	"name":"Change Knight of Tzeentch",	"pts":75},
 		
-		{"id":421,	"name":"One additional Daemonic Assault Engine",	"pts":55},
-		{"id":422,	"name":"Two additional Daemonic Assault Engines",	"pts":110},
+		{"id":412,	"name":"Daemonic Assault Engine",	"pts":55},
 		
-		{"id":423,	"name":"One additional Retlaxi-Pattern Defiler with Mark of Chaos Undivided",	"pts":45},
-		{"id":424,	"name":"Two additional Retlaxi-Pattern Defilers with Mark of Chaos Undivided",	"pts":90},
-		{"id":425,	"name":"One additional Retlaxi-Pattern Defiler with Trappings of Nurgle",	"pts":45},
-		{"id":426,	"name":"Two additional Retlaxi-Pattern Defilers with Trappings of Nurgle",	"pts":90},
-		{"id":427,	"name":"One additional Retlaxi-Pattern Defiler with Gifts of Tzeentch",	"pts":45},
-		{"id":428,	"name":"Two additional Retlaxi-Pattern Defilers with Gifts of Tzeentch",	"pts":90},
+		{"id":413,	"name":"Retlaxi-Pattern Defiler with Mark of Chaos Undivided",	"pts":45},
+		{"id":414,	"name":"Retlaxi-Pattern Defiler with Trappings of Nurgle",	"pts":45},
+		{"id":415,	"name":"Retlaxi-Pattern Defiler with Gifts of Tzeentch",	"pts":45},
 		
-		{"id":429,	"name":"One additional Cannon of Khorne",	"pts":45},
-		{"id":430,	"name":"Two additional Cannons of Khorne",	"pts":90},
+		{"id":416,	"name":"Cannon of Khorne",	"pts":45},
+		
 		
 		
 		{"id":450,	"name":"Lesser Daemons",	"pts":15}
@@ -321,6 +313,7 @@
 	"formationConstraints":[
 		{"max": 1, "from": [501,502,503,504,505]},
 		{"max": 1, "from": [533]},
+		{"max": 1, "from": [600]},
 		{"maxPercent": 25, "name": "Chaos Navy", "from": [530,531,532,533]}
 	],
 	"upgradeConstraints":[
@@ -437,14 +430,31 @@
 		{"min":1, "max":1, "from":[100,101,103,120,121,122,123,124,125,126], "appliesTo":[556]},
 		{"min":2, "max":2, "from":[353,352], "appliesTo":[557]},	
 		{"min":2, "max":2, "from":[100,101,103,120,121,122,123,124,125,126], "appliesTo":[557]},
+	
+		
 		{"min":1, "max":3, "from":[400], "appliesTo":[558]},
+		{"min":1, "max":2, "from":[401], "appliesTo":[559]},
+		{"min":1, "max":3, "from":[402], "appliesTo":[560]},
+		{"min":1, "max":2, "from":[403], "appliesTo":[561]},
+		{"min":1, "max":2, "from":[404], "appliesTo":[562]},
 		
-		
-		
-		{"max":1, "from":[400,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415,416,417,418,419,420,421,422,423,424,425,426,427,428,429,430], "appliesTo":[559,560,561,562,570,571,572,573,574,575,576,577,578,579,580,581]}
-		
+		{"min":2, "max":4, "from":[405], "appliesTo":[570]},
+		{"min":3, "max":5, "from":[406], "appliesTo":[571]},		
+		{"min":4, "max":6, "from":[407], "appliesTo":[572]},	
+	
+		{"min":2, "max":4, "from":[408], "appliesTo":[573]},	
+		{"min":2, "max":4, "from":[409], "appliesTo":[574]},	
+		{"min":2, "max":4, "from":[410], "appliesTo":[575]},
+		{"min":2, "max":4, "from":[411], "appliesTo":[576]},
 
-		
+		{"min":4, "max":6, "from":[412], "appliesTo":[577]},
+	
+		{"min":4, "max":6, "from":[413], "appliesTo":[578]},
+		{"min":4, "max":6, "from":[414], "appliesTo":[579]},
+		{"min":4, "max":6, "from":[415], "appliesTo":[580]},
+
+		{"min":4, "max":6, "from":[416], "appliesTo":[581]}
+	
 	]
 }
 
