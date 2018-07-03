@@ -1,39 +1,39 @@
 {
 	"id":"Traitor Titan Legions",
-	"version":"NetEA v1.96",
+	"version":"NetEA v2.0",
 	"notes":[],
 	"by":"IJW Wartrader and MrDieAlot",
 	"sections":[
 		{"name":"BATTLE TITANS", "formations":[
-			{"id":501, "name":"CARRION LORD   (Chaos Emperor Titan of Chaos Undivided)", 		"pts":1125,"upgrades":[10,11,12,13,14,15,31,32,33,34,35,36,51,52,53,54,55,56]},
-			{"id":502, "name":"SKULLHOARDER   (Chaos Emperor Titan of Khorne)", 		"pts":1125,"upgrades":[10,11,12,13,14,16,17,31,32,33,34,35,37,38,39,40,51,52,53,54,57,58]},
-			{"id":503, "name":"VICEKEEPER   (Chaos Emperor Titan of Slaanesh)", 		"pts":1125,"upgrades":[10,11,12,13,14,20,31,32,33,34,35,48,49,50,51,52,53,54,68,69]},
-			{"id":504, "name":"BLIGHTSPREADER   (Chaos Emperor Titan of Nurgle)", 		"pts":1125,"upgrades":[10,11,12,13,14,19,31,32,33,34,35,44,45,46,47,51,52,53,54,64,65,66,67]},
-			{"id":505, "name":"GIFTGRANTER   (Chaos Emperor Titan of Tzeentch)", 		"pts":1125,"upgrades":[10,11,12,13,14,18,31,32,33,34,35,41,42,43,51,52,53,54,60,61,62,63]},
+			{"id":501, "name":"CARRION LORD   (Chaos Emperor Titan of Chaos Undivided)", 		"pts":1000,"upgrades":[10,11,12,13,14,15,31,32,33,34,35,36,51,52,53,54,55,56]},
+			{"id":502, "name":"SKULLHOARDER   (Chaos Emperor Titan of Khorne)", 		"pts":1000,"upgrades":[10,11,12,13,14,16,17,31,32,33,34,35,37,38,39,40,51,52,53,54,57,58]},
+			{"id":503, "name":"VICEKEEPER   (Chaos Emperor Titan of Slaanesh)", 		"pts":1000,"upgrades":[10,11,12,13,14,20,31,32,33,34,35,48,49,50,51,52,53,54,68,69]},
+			{"id":504, "name":"BLIGHTSPREADER   (Chaos Emperor Titan of Nurgle)", 		"pts":1000,"upgrades":[10,11,12,13,14,19,31,32,33,34,35,44,45,46,47,51,52,53,54,64,65,66,67]},
+			{"id":505, "name":"GIFTGRANTER   (Chaos Emperor Titan of Tzeentch)", 		"pts":1000,"upgrades":[10,11,12,13,14,18,31,32,33,34,35,41,42,43,51,52,53,54,60,61,62,63]},
 			
-			{"id":506, "name":"FORGELORD   (Chaos Warlord Titan of Chaos Undivided)", 		"pts":800, "upgrades":[10,11,12,13,14,15,31,32,33,34,35,36,51,52,53,54,55,56,200,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235]},
-			{"id":507, "name":"BANELORD (Chaos Warlord Titan of Khorne)", 		"pts":800, "upgrades":[10,11,12,13,14,16,17,31,32,33,34,35,39,40,51,52,53,54,57,58,200,201,202,203,204]},
-			{"id":508, "name":"PAINLORD  (Chaos Warlord Titan of Slaanesh)", 		"pts":800, "upgrades":[10,11,12,13,14,20,31,32,33,34,35,48,49,50,68,69,200,201,202,203,204]},
-			{"id":509, "name":"PLAGUELORD (Chaos Warlord Titan of Nurgle)", 		"pts":800, "upgrades":[10,11,12,13,14,19,31,32,33,34,35,44,45,46,47,64,65,66,67,200,201,202,203,204]},
-			{"id":510, "name":"WARPLORD  (Chaos Warlord Titan of Tzeentch)", 		"pts":800, "upgrades":[10,11,12,13,14,18,31,32,33,34,35,41,42,43,60,61,62,63,200,201,202,203,204]},
+			{"id":506, "name":"FORGELORD   (Chaos Warlord Titan of Chaos Undivided)", 		"pts":700, "upgrades":[10,11,12,13,14,15,31,32,33,34,35,36,51,52,53,54,55,56,200,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235]},
+			{"id":507, "name":"BANELORD (Chaos Warlord Titan of Khorne)", 		"pts":700, "upgrades":[10,11,12,13,14,16,17,31,32,33,34,35,39,40,51,52,53,54,57,58,200,201,202,203,204]},
+			{"id":508, "name":"PAINLORD  (Chaos Warlord Titan of Slaanesh)", 		"pts":700, "upgrades":[10,11,12,13,14,20,31,32,33,34,35,48,49,50,68,69,200,201,202,203,204]},
+			{"id":509, "name":"PLAGUELORD (Chaos Warlord Titan of Nurgle)", 		"pts":700, "upgrades":[10,11,12,13,14,19,31,32,33,34,35,44,45,46,47,64,65,66,67,200,201,202,203,204]},
+			{"id":510, "name":"WARPLORD  (Chaos Warlord Titan of Tzeentch)", 		"pts":700, "upgrades":[10,11,12,13,14,18,31,32,33,34,35,41,42,43,60,61,62,63,200,201,202,203,204]},
 			
-			{"id":511, "name":"HERALD (Chaos Reaver Titan of Chaos Undivided)",			"pts":600, "upgrades":[31,32,33,34,35,36,51,52,53,54,55,56,300,301,302,303,304,305]},
-			{"id":512, "name":"RAVAGER (Chaos Reaver Titan of Khorne)",			"pts":600, "upgrades":[31,32,33,34,35,38,39,40,51,52,53,54,57,58,300,301,302,303,304,306,307]},
-			{"id":513, "name":"REVILER (Chaos Reaver Titan of Slaanesh)",			"pts":600, "upgrades":[31,32,33,34,35,48,49,50,68,69,300,301,302,303,304,310]},
-			{"id":514, "name":"REPUGNANT (Chaos Reaver Titan of Nurgle)",			"pts":600, "upgrades":[31,32,33,34,35,44,45,46,47,64,65,66,67,300,301,302,303,304,309]},
-			{"id":515, "name":"MUTATOR (Chaos Reaver Titan of Tzeentch)",			"pts":600, "upgrades":[31,32,33,34,35,41,42,43,60,61,62,63,300,301,302,303,304,308]}
+			{"id":511, "name":"HERALD (Chaos Reaver Titan of Chaos Undivided)",			"pts":550, "upgrades":[31,32,33,34,35,36,51,52,53,54,55,56,300,301,302,303,304,305]},
+			{"id":512, "name":"RAVAGER (Chaos Reaver Titan of Khorne)",			"pts":550, "upgrades":[31,32,33,34,35,38,39,40,51,52,53,54,57,58,300,301,302,303,304,306,307]},
+			{"id":513, "name":"REVILER (Chaos Reaver Titan of Slaanesh)",			"pts":550, "upgrades":[31,32,33,34,35,48,49,50,68,69,300,301,302,303,304,310]},
+			{"id":514, "name":"REPUGNANT (Chaos Reaver Titan of Nurgle)",			"pts":550, "upgrades":[31,32,33,34,35,44,45,46,47,64,65,66,67,300,301,302,303,304,309]},
+			{"id":515, "name":"MUTATOR (Chaos Reaver Titan of Tzeentch)",			"pts":550, "upgrades":[31,32,33,34,35,41,42,43,60,61,62,63,300,301,302,303,304,308]}
 		]},
 		{"name":"GREATER DAEMON ENGINES / / One Greater Daemon Engine formation may be taken for each Battle Titan and Greater Daemon Possession", "formations":[
 			{"id":551, "name":"FORGEHOUND (Chaos Warhound of Chaos Undivided)",		"pts":300, "units":"One Forgehound Chaos Warhound", "upgrades":[]},
-			{"id":552, "name":"FORGEHOUND Pack (Chaos Warhounds of Chaos Undivided)",	"pts":550, "units": "Two Forgehound Chaos Warhounds", "upgrades":[]},
+			{"id":552, "name":"FORGEHOUND Pack (Chaos Warhounds of Chaos Undivided)",	"pts":525, "units": "Two Forgehound Chaos Warhounds", "upgrades":[]},
 			
-			{"id":553, "name":"FERAL WARHOUND Pack (Chaos Warhounds of Khorne)",	"pts":550, "units": "Two Feral Warhounds", "upgrades":[]},
+			{"id":553, "name":"FERAL WARHOUND Pack (Chaos Warhounds of Khorne)",	"pts":525, "units": "Two Feral Warhounds", "upgrades":[]},
 			
 			{"id":554, "name":"PLAGUEHOUND (Chaos Warhound of Nurgle)",		"pts":300, "units":"One Plaguehound Chaos Warhound",  "upgrades":[]},
-			{"id":555, "name":"PLAGUEHOUND Pack (Chaos Warhounds of Nurgle)",	"pts":550, "units": "Two Plaguehound Chaos Warhounds", "upgrades":[]},
+			{"id":555, "name":"PLAGUEHOUND Pack (Chaos Warhounds of Nurgle)",	"pts":525, "units": "Two Plaguehound Chaos Warhounds", "upgrades":[]},
 			
 			{"id":556, "name":"WARPHOUND (Chaos Warhound of Tzeentch)",		"pts":300, "units":"One Warphound Chaos Warhound",  "upgrades":[]},
-			{"id":557, "name":"WARPHOUND Pack (Chaos Warhounds of Tzeentch)",	"pts":550, "units": "Two Warphound Chaos Warhounds", "upgrades":[]},
+			{"id":557, "name":"WARPHOUND Pack (Chaos Warhounds of Tzeentch)",	"pts":525, "units": "Two Warphound Chaos Warhounds", "upgrades":[]},
 
 			{"id":558, "name":"DEATH WHEEL (Chaos Undivided)",	"pts":50,  "upgrades":[400]},
 			{"id":559, "name":"LORD OF BATTLES (Khorne)",	"pts":75,  "upgrades":[401]},
