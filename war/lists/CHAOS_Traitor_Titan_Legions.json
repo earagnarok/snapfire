@@ -12,13 +12,13 @@
 			{"id":505, "name":"GIFTGRANTER   (Chaos Emperor Titan of Tzeentch)", 		"pts":1000,"upgrades":[10,11,12,13,14,18,31,32,33,34,35,41,42,43,51,52,53,54,60,61,62,63]},
 			
 			{"id":506, "name":"FORGELORD   (Chaos Warlord Titan of Chaos Undivided)", 		"pts":700, "upgrades":[10,11,12,13,14,15,31,32,33,34,35,36,51,52,53,54,55,56,200,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235]},
-			{"id":507, "name":"BANELORD (Chaos Warlord Titan of Khorne)", 		"pts":700, "upgrades":[10,11,12,13,14,16,17,31,32,33,34,35,39,40,51,52,53,54,57,58,200,201,202,203,204]},
+			{"id":507, "name":"BANELORD (Chaos Warlord Titan of Khorne)", 		"pts":700, "upgrades":[10,11,12,13,14,16,17,31,32,33,34,35,37,38,39,40,51,52,53,54,57,58,200,201,202,203,204]},
 			{"id":508, "name":"PAINLORD  (Chaos Warlord Titan of Slaanesh)", 		"pts":700, "upgrades":[10,11,12,13,14,20,31,32,33,34,35,48,49,50,68,69,200,201,202,203,204]},
 			{"id":509, "name":"PLAGUELORD (Chaos Warlord Titan of Nurgle)", 		"pts":700, "upgrades":[10,11,12,13,14,19,31,32,33,34,35,44,45,46,47,64,65,66,67,200,201,202,203,204]},
 			{"id":510, "name":"WARPLORD  (Chaos Warlord Titan of Tzeentch)", 		"pts":700, "upgrades":[10,11,12,13,14,18,31,32,33,34,35,41,42,43,60,61,62,63,200,201,202,203,204]},
 			
 			{"id":511, "name":"HERALD (Chaos Reaver Titan of Chaos Undivided)",			"pts":550, "upgrades":[31,32,33,34,35,36,51,52,53,54,55,56,300,301,302,303,304,305]},
-			{"id":512, "name":"RAVAGER (Chaos Reaver Titan of Khorne)",			"pts":550, "upgrades":[31,32,33,34,35,38,39,40,51,52,53,54,57,58,300,301,302,303,304,306,307]},
+			{"id":512, "name":"RAVAGER (Chaos Reaver Titan of Khorne)",			"pts":550, "upgrades":[31,32,33,34,35,37,38,39,40,51,52,53,54,57,58,300,301,302,303,304,306,307]},
 			{"id":513, "name":"REVILER (Chaos Reaver Titan of Slaanesh)",			"pts":550, "upgrades":[31,32,33,34,35,48,49,50,68,69,300,301,302,303,304,310]},
 			{"id":514, "name":"REPUGNANT (Chaos Reaver Titan of Nurgle)",			"pts":550, "upgrades":[31,32,33,34,35,44,45,46,47,64,65,66,67,300,301,302,303,304,309]},
 			{"id":515, "name":"MUTATOR (Chaos Reaver Titan of Tzeentch)",			"pts":550, "upgrades":[31,32,33,34,35,41,42,43,60,61,62,63,300,301,302,303,304,308]}
@@ -362,7 +362,7 @@
 		{"min":1, "max":1, "from":[355,356,358], "appliesTo":[507]},
 		{"min":1, "from":[34,39,40,51,52,53,54,57,58,203,204], "appliesTo":[507]},
 		{"max":2, "from":[11,13,14,17,32,33,35,38,40,52,54,58,204], "appliesTo":[507]},
-		{"max":2, "from":[10,12,16,31,34,39,51,53,57,201,202,203], "appliesTo":[507]},
+		{"max":2, "from":[10,12,16,31,34,37,39,51,53,57,201,202,203], "appliesTo":[507]},
 		
 		{"min":1, "max":1, "from":[351,352], "appliesTo":[508]},
 		{"min":1, "max":1, "from":[355,356,359], "appliesTo":[508]},		
@@ -394,7 +394,7 @@
 		{"min":1, "max":1, "from":[355,356,358], "appliesTo":[512]},
 		{"min":1, "from":[34,39,40,51,52,53,54,57,58], "appliesTo":[512]},
 		{"max":1, "from":[32,33,35,38,40,52,54,58,301,303,304,307], "appliesTo":[512]},
-		{"max":2, "from":[31,34,39,51,53,57,300,302,306], "appliesTo":[512]},
+		{"max":2, "from":[31,34,37,39,51,53,57,300,302,306], "appliesTo":[512]},
 		
 		{"min":1, "max":1, "from":[351,352], "appliesTo":[513]},
 		{"min":1, "max":1, "from":[355,356,359], "appliesTo":[513]},
