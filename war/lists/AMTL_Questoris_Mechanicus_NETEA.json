@@ -16,18 +16,17 @@
 		{"name":"Relic Lances / / Max 1 per Army", "formations":[
 			{"id":503, "name":"Questoris Reliquae",	"pts":50,  "upgrades":[160,161,162,163]}
 		]},
-		{"name":"Legio Gryphonicus and Imperial Navy Allies / / Max 1 per Noble or Cerastrus Lance / / Max 33%", "formations":[
+		{"name":"Mechanicus Allies / / Max 1 per Noble or Cerastrus Lance / / Max 40%", "formations":[
 			{"id":510, "name":"Skitarii",		"pts":325,  "upgrades":[], "units":"2 Secutor, 8 Hypaspists, 1 Ordinatus Minorus-Corvus"},
 		
-			{"id":511, "name":"Crusader Scout Maniple",		"pts":150,  "upgrades":[], "units":"4 Crusader Robots"},
-			{"id":512, "name":"Conqueror Sentry Maniple",		"pts":150,  "upgrades":[170], "units":"4 Conqueror Robots"},
-			{"id":513, "name":"Colossus Assault Maniple",		"pts":250,  "upgrades":[], "units":"4 Colossus Robots"},
+			{"id":512, "name":"Conqueror Maniple",		"pts":150,  "upgrades":[], "units":"4 Conqueror Robots"},
+			{"id":513, "name":"Colossus Maniple",		"pts":250,  "upgrades":[], "units":"4 Colossus Robots"},
 			
             {"id":514, "name":"Avenger Squadron",				"pts":200,  "upgrades":[], "units":"2 Avenger Strike Fighters"},
 			
-			{"id":520, "name":"Warhound Scout Titan Pack",	"pts":500, "upgrades":[], "units":"2 Legio Metalica Warhound Titans"},
-			{"id":521, "name":"Reaver Titan",			"pts":550, "upgrades":[], "units":"1 Legio Metalica Reaver Titan"},
-			{"id":522, "name":"Warlord Titan", 		"pts":675, "upgrades":[],"units":"1 Legio Metalica Warlord"},
+			{"id":520, "name":"Warhound Scout Titan Pack",	"pts":500, "upgrades":[], "units":"2 Warhound Titans"},
+			{"id":521, "name":"Reaver Titan",			"pts":625, "upgrades":[], "units":"1 Reaver Titan"},
+			{"id":522, "name":"Warlord Titan", 		"pts":800, "upgrades":[],"units":"1 Warlord"},
 			
 		 	{"id":530, "name":"Lunar Class Cruiser",		"pts":125, "upgrades":[], "units":"1 Lunar Class Cruiser"}
 			
@@ -47,8 +46,8 @@
 		{"id":111, "name":"Cerastus Knight-Castigator",			"pts":0},
 		{"id":112, "name":"Cerastus Knight-Acheron",			"pts":0},
 		{"id":113, "name":"Cerastus Knight-Lancer w. Seneschal",		"pts":25},
-		{"id":114, "name":"Cerastus Knight-Castigator, w. Seneschal",	"pts":25},
-		{"id":115, "name":"Cerastus Knight-Acheron, w. Seneschal",		"pts":25},
+		{"id":114, "name":"Cerastus Knight-Castigator w. Seneschal",	"pts":25},
+		{"id":115, "name":"Cerastus Knight-Acheron w. Seneschal",		"pts":25},
 
 		{"id":120, "name":"5 Knight-Warglaive",			 		"pts":0},	
 		{"id":121, "name":"5 Knight-Helverin",					"pts":0},
@@ -76,9 +75,7 @@
 		{"id":160, "name":"Questoris Knight-Styrix",			"pts":100},
 		{"id":161, "name":"Questoris Knight-Magaera",			"pts":100},
 		{"id":162, "name":"Knight-Porphorion w. Seneschal",		"pts":175},
-		{"id":163, "name":"Knight-Mechanicum w. Seneschal",		"pts":175},
-		
-		{"id":170, "name":"3 Rapiers",							"pts":25}
+		{"id":163, "name":"Knight-Mechanicum w. Seneschal",		"pts":175}
 		
     ],
 	"formationConstraints":[
@@ -91,11 +88,13 @@
 		
 	],
 	"upgradeConstraints":[
-		{"min":1, "max":1, "from":[140,141,142,143,144,145,146,147,148,150,151,152,153,154,155,156,157,158], "appliesTo":[500]},	
+		{"min":1, "max":1, "from":[140,141,142,143,144,145,146,147,148,150,151,152,153,154,155,156,157,158], "appliesTo":[500]},
+
+		{"min":2, "max":4, "from":[100,101,102,103,104], "appliesTo":[500]},		
 		
 		{"max":1, "perArmy":true, "from":[150,151,152,153,154,155,156,157,158]},
 		
-		
+	
 		{"min":3, "max":3, "from":[110,111,112,113,114,115], "appliesTo":[501]},
 
 		{"min":0, "max":1, "from":[113,114,115], "appliesTo":[501]},
@@ -106,10 +105,7 @@
 	
 		{"min":2, "max":4, "from":[160,161], "appliesTo":[503]},	
 		
-		{"min":0, "max":1, "from":[162,163], "appliesTo":[503]},
-		
-		
-		{"min":0, "max":1, "from":[170], "appliesTo":[512]}
+		{"min":0, "max":1, "from":[162,163], "appliesTo":[503]}
 	
 				
 	]
