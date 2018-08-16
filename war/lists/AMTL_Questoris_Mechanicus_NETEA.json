@@ -13,11 +13,11 @@
 		{"name":"Aspiring Lances / / Max 1 Aspiring Lance per Noble or Cerastus Lance", "formations":[
 			{"id":502, "name":"Aspirants",			"pts":200, "upgrades":[]}
 		]},
-		{"name":"Relic Lances / / Max 1 of each formation per Army", "formations":[
+		{"name":"Relic Lances / / Max 1 of each Relic Lance per Army", "formations":[
 			{"id":503, "name":"Questoris Reliquae",	"pts":50,  "upgrades":[160,161,163,164]},
 			{"id":504, "name":"Acastus Reliquae",	"pts":50,  "upgrades":[163,164]}
 		]},
-		{"name":"Mechanicus Allies / / Max 1 per Noble or Cerastrus Lance / / Max 33%", "formations":[
+		{"name":"Allies / / Max 1 per Noble or Cerastrus Lance / / Max 33%", "formations":[
 			{"id":510, "name":"Skitarii",		"pts":300,  "upgrades":[], "units":"2 Secutors, 8 Hypaspists, 1 Ordinatus Minorus-Corvus"},
 
 			{"id":512, "name":"Armoured Sentinels",		"pts":100,  "upgrades":[], "units":"4 Armageddon Pattern Sentinels"},
