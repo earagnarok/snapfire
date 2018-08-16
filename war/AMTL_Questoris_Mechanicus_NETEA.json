@@ -1,6 +1,6 @@
 {
 	"id":"Questoris Mechanicus",
-	"version":"v1.25",
+	"version":"v1.3",
 	"by":"MrDieAlot",
 	"notes":[],
 	"sections":[
@@ -20,14 +20,14 @@
 		{"name":"Allies / / Max 1 per Noble or Cerastrus Lance / / Max 33%", "formations":[
 			{"id":510, "name":"Skitarii",		"pts":300,  "upgrades":[], "units":"2 Secutors, 8 Hypaspists, 1 Ordinatus Minorus-Corvus"},
 
-			{"id":512, "name":"Armoured Sentinels",		"pts":100,  "upgrades":[], "units":"4 Armageddon Pattern Sentinels"},
+			{"id":512, "name":"Armoured Sentinels",		"pts":125,  "upgrades":[], "units":"5 Sentinels (Armageddon Pattern)"},
 			
             {"id":514, "name":"Thunderbolt Squadron",				"pts":175,  "upgrades":[], "units":"2 Thunderbolts"},
             {"id":515, "name":"Maruder Squadron",				"pts":250,  "upgrades":[], "units":"2 Maruder Bombers"},
 			
 			{"id":520, "name":"Warhound Scout Titan Pack",	"pts":500, "upgrades":[], "units":"2 Warhound Titans"},
-			{"id":521, "name":"Reaver Titan",			"pts":625, "upgrades":[], "units":"1 Reaver Titan"},
-			{"id":522, "name":"Warlord Titan", 		"pts":800, "upgrades":[],"units":"1 Warlord"}
+			{"id":521, "name":"Legio Metalica Reaver Titan",			"pts":600, "upgrades":[], "units":"1 Legio Metalica Reaver Titan"},
+			{"id":522, "name":"Legio Metalica Warlord Titan", 		"pts":750, "upgrades":[],"units":"1 Legio Metalica Warlord"}
 			
 			]}
 	],	
