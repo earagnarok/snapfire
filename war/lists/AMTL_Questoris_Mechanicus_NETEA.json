@@ -17,7 +17,7 @@
 			{"id":503, "name":"Questoris Reliquae",	"pts":50,  "upgrades":[160,161,163,164]},
 			{"id":504, "name":"Acastus Reliquae",	"pts":50,  "upgrades":[163,164]}
 		]},
-		{"name":"Allies / / Max 1 per Noble or Cerastrus Lance / / Max 33%", "formations":[
+		{"name":"Allies / / Max 1 per Noble or Cerastus Lance / / Max 33%", "formations":[
 			{"id":510, "name":"Skitarii",		"pts":300,  "upgrades":[], "units":"2 Secutors, 8 Hypaspists, 1 Ordinatus Minorus-Corvus"},
 
 			{"id":512, "name":"Armoured Sentinels",		"pts":125,  "upgrades":[], "units":"5 Sentinels (Armageddon Pattern)"},
@@ -56,7 +56,7 @@
 		{"id":142, "name":"Knight-Crusader w. Seneschal (Battle Cannon, Gatling Cannon, Icarus Autocannon)",						"pts":100},
 		{"id":143, "name":"Knight-Gallant w. Seneschal (Stormspear Pod, Shock Lance, Thunderstrike Gauntlet, Reaper Chainsword)",	"pts":100},
 		{"id":144, "name":"Knight-Warden w. Seneschal (Gatling Cannon, Ironstorm Missiles, Reaper Chainsword)",						"pts":100},		
-		{"id":145, "name":"Knight-Valiant w. Seneschal (Conflagration C, Siegebreaker C, 4xShieldbreaker M, Thundercoil H, Ion A)",	"pts":175},
+		{"id":145, "name":"Knight-Valiant w. Seneschal (Conflagration C, Thundercoil H, Siegebreaker C, 4xShieldbreaker M, Ion A)",	"pts":175},
 		{"id":146, "name":"Knight-Castellan w. Seneschal (Vulcano Lance, Plasma Decimator, 2xSiegebreaker C, 2xShieldbreaker M)",	"pts":175},	
 		{"id":149, "name":"Knight-Preceptor w Seneschal (Las-Impulsor, Reaper Chainsword)",											"pts":100},
 
@@ -65,7 +65,7 @@
 		{"id":152, "name":"Knight-Crusader w. Baron (Battle Cannon, Gatling Cannon, Icarus Autocannon)", 							"pts":175},
 		{"id":153, "name":"Knight-Gallant w. Baron (Stormspear Pod, Shock Lance, Thunderstrike Gauntlet, Reaper Chainsword)",		"pts":175},
 		{"id":154, "name":"Knight-Warden w. Baron (Gatling Cannon, Ironstorm Missiles, Reaper Chainsword)",							"pts":175},	
-		{"id":155, "name":"Knight-Valiant w. Baron (Conflagration C, Siegebreaker C, 4xShieldbreaker M, Thundercoil H, Ion A)",		"pts":250},
+		{"id":155, "name":"Knight-Valiant w. Baron (Conflagration C, Thundercoil H, Siegebreaker C, 4xShieldbreaker, Ion A)",		"pts":250},
 		{"id":156, "name":"Knight-Castellan w. Baron  (Vulcano Lance, Plasma Decimator, 2xSiegebreaker C, 2xShieldbreaker M)",		"pts":250},
 		{"id":159, "name":"Knight-Preceptor w Baron (Las-Impulsor, Reaper Chainsword)",												"pts":175},
 		
