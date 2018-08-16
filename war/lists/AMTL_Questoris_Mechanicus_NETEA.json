@@ -39,7 +39,7 @@
 		{"id":102, "name":"Knight-Crusader (Battle Cannon, Gatling Cannon, Icarus Autocannon)",										"pts":75},
 		{"id":103, "name":"Knight-Gallant (Stormspear Pod, Shock Lance, Thunderstrike Gauntlet, Reaper Chainsword)",				"pts":75},
 		{"id":104, "name":"Knight-Warden (Gatling Cannon, Ironstorm Missiles, Reaper Chainsword)",									"pts":75},	
-		{"id":105, "name":"Knight-Preceptor (Las-Impulsor, Thunderstrike Gauntlet)",												"pts":75},	
+		{"id":105, "name":"Knight-Preceptor (Las-Impulsor, Reaper Chainsword)",														"pts":75},	
 				
 		{"id":110, "name":"Cerastus Knight-Lancer (Power Lance, Shock Lance, Ion Gauntlet Shield)",									"pts":0},
 		{"id":111, "name":"Cerastus Knight-Castigator (Castigator Cannon, Tempest Warblade)",										"pts":0},
@@ -58,7 +58,7 @@
 		{"id":144, "name":"Knight-Warden w. Seneschal (Gatling Cannon, Ironstorm Missiles, Reaper Chainsword)",						"pts":100},		
 		{"id":145, "name":"Knight-Valiant w. Seneschal (Conflagration C, Siegebreaker C, 4xShieldbreaker M, Thundercoil H, Ion A)",	"pts":175},
 		{"id":146, "name":"Knight-Castellan w. Seneschal (Vulcano Lance, Plasma Decimator, 2xSiegebreaker C, 2xShieldbreaker M)",	"pts":175},	
-		{"id":149, "name":"Knight-Preceptor w Seneschal (Las-Impulsor, Thunderstrike Gauntlet)",									"pts":100},
+		{"id":149, "name":"Knight-Preceptor w Seneschal (Las-Impulsor, Reaper Chainsword)",											"pts":100},
 
 		{"id":150, "name":"Knight-Paladin w. Baron (Battle Cannon, Reaper Chainsword)",												"pts":175},
 		{"id":151, "name":"Knight-Errant w. Baron (Thermal Cannon, Thunderstrike Gauntlet)",										"pts":175},
@@ -67,7 +67,7 @@
 		{"id":154, "name":"Knight-Warden w. Baron (Gatling Cannon, Ironstorm Missiles, Reaper Chainsword)",							"pts":175},	
 		{"id":155, "name":"Knight-Valiant w. Baron (Conflagration C, Siegebreaker C, 4xShieldbreaker M, Thundercoil H, Ion A)",		"pts":250},
 		{"id":156, "name":"Knight-Castellan w. Baron  (Vulcano Lance, Plasma Decimator, 2xSiegebreaker C, 2xShieldbreaker M)",		"pts":250},
-		{"id":159, "name":"Knight-Preceptor w Baron (Las-Impulsor, Thunderstrike Gauntlet)",										"pts":175},
+		{"id":159, "name":"Knight-Preceptor w Baron (Las-Impulsor, Reaper Chainsword)",												"pts":175},
 		
 		{"id":160, "name":"Questoris Knight-Styrix (Volkite Chieroville, Rad Cleanser, Siege Claw)",								"pts":100},
 		{"id":161, "name":"Questoris Knight-Magaera (Lightning C, Rad Cleanser, Siege Claw, Ionic Shield)",							"pts":100},
