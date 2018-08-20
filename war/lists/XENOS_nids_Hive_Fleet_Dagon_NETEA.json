@@ -1,6 +1,6 @@
 {
   "id": "Hive Fleet Dagon",
-  "version": "3.5",
+  "version": "4.0",
   "by": "Argol & MrDieAlot",
   "sections": [
     {
@@ -217,33 +217,33 @@
     },
     {
       "id": 109,
-      "name": "Gargoyles (4 Gargoyles)",
+      "name": "Gargoyles (4 Dagon Gargoyles)",
       "pts": 50
     },
     {
       "id": 110,
-      "name": "Carnifex (4 Carnifex)",
+      "name": "Carnifex (4 Dagon Carnifex)",
       "pts": 125
     },
     {
       "id": 111,
-      "name": "Bio-Support (3 Dactylis)",
+      "name": "Bio-Support (3 Dagon Dactylis)",
       "pts": 125
     },
     {
       "id": 112,
-      "name": "Bio-Support (3 Exocrine)",
+      "name": "Bio-Support (3 Dagon Exocrine)",
       "pts": 125
     },
     {
       "id": 113,
-      "name": "Bio-Attack (3 Haruspex)",
-      "pts": 125
+      "name": "Bio-Attack (3 Dagon Haruspex)",
+      "pts": 150
     },
     {
       "id": 114,
       "name": "Bio-Attack (3 Malefactors)",
-      "pts": 125
+      "pts": 150
     },
     {
       "id": 115,
@@ -257,12 +257,12 @@
     },
     {
       "id": 117,
-      "name": "Burrower (1 Trygon)",
+      "name": "Burrower (1 Dagon Trygon)",
       "pts": 75
     },
 		{
       "id": 118,
-      "name": "Burrower (4 Raveners)",
+      "name": "Burrower (4 Dagon Raveners)",
       "pts": 75
     },
     {
@@ -273,7 +273,7 @@
     {
       "id": 130,
       "name": "Harridan",
-      "pts": 125
+      "pts": 150
     },
     {
       "id": 140,
@@ -287,7 +287,7 @@
     },
     {
       "id": 142,
-      "name": "Lictors",
+      "name": "Dagon Lictors",
       "pts": 25
     },
     {
@@ -297,7 +297,7 @@
     },
     {
       "id": 160,
-      "name": "Hierophant",
+      "name": "Dagon Hierophant",
       "pts": 350
     },
     {
@@ -586,7 +586,7 @@
       ]
     },
     {
-      "max": 2,
+      "max": 3,
       "from": [
         202
       ],
