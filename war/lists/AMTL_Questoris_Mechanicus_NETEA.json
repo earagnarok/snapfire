@@ -47,6 +47,7 @@
 		{"id":113, "name":"Cerastus Knight-Lancer w. Seneschal (Power Lance, Shock Lance, Ion Gauntlet Shield)",					"pts":25},
 		{"id":114, "name":"Cerastus Knight-Castigator w. Seneschal (Castigator Cannon, Tempest Warblade)",							"pts":25},
 		{"id":115, "name":"Cerastus Knight-Acheron w. Seneschal (Flame Cannon, Reaper Chainsword)",									"pts":25},
+		{"id":116, "name":"Cerastus Knight-Atrapos w. Seneschal (Atrapos Lascutter, Graviton Singularity Cannon, Ionic Shield)",	"pts":75},
 
 		{"id":120, "name":"4 Knight-Warglaive (Thermal Spear, Reaper Chain-Cleaver)",			 									"pts":0},	
 		{"id":121, "name":"4 Knight-Helverin (2x Autocannons)",																		"pts":0},
@@ -96,9 +97,11 @@
 		{"max":1, "perArmy":true, "from":[150,151,152,153,154,155,156,157,158,159]},
 		
 	
-		{"min":3, "max":3, "from":[110,111,112,113,114,115], "appliesTo":[501]},
+		{"min":3, "max":3, "from":[110,111,112,113,114,115,116], "appliesTo":[501]},
 
-		{"min":0, "max":1, "from":[113,114,115], "appliesTo":[501]},
+		{"min":0, "max":1, "from":[113,114,115,116], "appliesTo":[501]},
+		
+		{"max":1, "perArmy":true, "from":[116]},
 		
 		
 		{"min":1, "max":1, "from":[120,121], "appliesTo":[502]},
