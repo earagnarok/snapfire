@@ -1,6 +1,6 @@
 {
 	"id":"Questoris Mechanicus",
-	"version":"v1.4",
+	"version":"v1.41",
 	"by":"MrDieAlot",
 	"notes":[],
 	"sections":[
@@ -27,7 +27,7 @@
 			
 			{"id":520, "name":"Warhound Scout Titan Pack",	"pts":500, "upgrades":[], "units":"2 Warhound Titans"},
 			{"id":521, "name":"Legio Metalica Reaver Titan",			"pts":600, "upgrades":[], "units":"1 Legio Metalica Reaver Titan"},
-			{"id":522, "name":"Legio Metalica Warlord Titan", 		"pts":750, "upgrades":[],"units":"1 Legio Metalica Warlord"}
+			{"id":522, "name":"Legio Metalica Warlord Titan", 		"pts":775, "upgrades":[],"units":"1 Legio Metalica Warlord"}
 			
 		]}
 	],	
