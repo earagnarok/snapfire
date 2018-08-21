@@ -29,7 +29,7 @@
 			{"id":521, "name":"Legio Metalica Reaver Titan",			"pts":600, "upgrades":[], "units":"1 Legio Metalica Reaver Titan"},
 			{"id":522, "name":"Legio Metalica Warlord Titan", 		"pts":750, "upgrades":[],"units":"1 Legio Metalica Warlord"}
 			
-			]}
+		]}
 	],	
 	
 	"upgrades":[
@@ -41,10 +41,10 @@
 		{"id":104, "name":"Knight-Warden (Gatling Cannon, Ironstorm Missiles, Reaper Chainsword)",									"pts":75},	
 		{"id":105, "name":"Knight-Preceptor (Las-Impulsor, Reaper Chainsword)",														"pts":75},	
 				
-		{"id":110, "name":"Cerastus Knight-Lancer (Power Lance, Shock Lance, Ion Gauntlet Shield)",									"pts":0},
+		{"id":110, "name":"Cerastus Knight-Lancer (Power Lance, Ion Gauntlet Shield)",												"pts":0},
 		{"id":111, "name":"Cerastus Knight-Castigator (Castigator Cannon, Tempest Warblade)",										"pts":0},
 		{"id":112, "name":"Cerastus Knight-Acheron (Flame Cannon, Reaper Chainsword)",												"pts":0},
-		{"id":113, "name":"Cerastus Knight-Lancer w. Seneschal (Power Lance, Shock Lance, Ion Gauntlet Shield)",					"pts":25},
+		{"id":113, "name":"Cerastus Knight-Lancer w. Seneschal (Power Lance, Ion Gauntlet Shield)",									"pts":25},
 		{"id":114, "name":"Cerastus Knight-Castigator w. Seneschal (Castigator Cannon, Tempest Warblade)",							"pts":25},
 		{"id":115, "name":"Cerastus Knight-Acheron w. Seneschal (Flame Cannon, Reaper Chainsword)",									"pts":25},
 		{"id":116, "name":"Cerastus Knight-Atrapos w. Seneschal (Atrapos Lascutter, Graviton Singularity Cannon, Ionic Shield)",	"pts":75},
