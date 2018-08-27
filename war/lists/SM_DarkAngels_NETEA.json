@@ -41,7 +41,7 @@
 		{"id":14, "name":"Librarian",	"pts":50},
 		{"id":15, "name":"Interrogator Chaplain",		"pts":50},
 		{"id":16, "name":"Grand Master", 	"pts":100},
-		{"id":17, "name":"Dark Angels Razorback w Lascannon and Twin Plasma Guns", 	"pts":30},
+		{"id":17, "name":"Dark Angels Razorback w Lascannon and Twin Plasma Guns", 	"pts":25},
 		{"id":19, "name":"2 Mortis Dreadnoughts", 		"pts":75},
 		{"id":20, "name":"3 Vindicators", 			"pts":100},
 		{"id":21, "name":"Dark Angels Thunderhawk Transport", 			"pts":150},
