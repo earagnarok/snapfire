@@ -1,6 +1,6 @@
 {
 	"id":"Questoris Mechanicus",
-	"version":"v1.42",
+	"version":"v1.43",
 	"by":"MrDieAlot",
 	"notes":[],
 	"sections":[
@@ -8,7 +8,7 @@
 			{"id":500, "name":"Nobles", 		"pts":75, "upgrades":[100,101,102,103,104,105,140,141,142,143,144,149,145,146,150,151,152,153,154,159,155,156]}
 		]},
 		{"name":"Cerastus Lances / / Max 1 Cerastus Lance per Noble Lance", "formations":[
-			{"id":501, "name":"Cerastus",	"pts":300,  "upgrades":[113,114,115,116]}
+			{"id":501, "name":"Cerastus",	"pts":325,  "upgrades":[113,114,115,116]}
 	    ]},
 		{"name":"Aspiring Lances / / Max 1 Aspiring Lance per Noble or Cerastus Lance", "formations":[
 			{"id":502, "name":"Aspirants",			"pts":175, "upgrades":[]}
@@ -99,7 +99,9 @@
 		{"max":1, "perArmy":true, "from":[150,151,152,153,154,155,156,157,158,159]},
 		
 	
-		{"min":3, "max":3, "from":[110,111,112,113,114,115,116], "appliesTo":[501]},
+		{"min":2, "max":2, "from":[110,111,112], "appliesTo":[501]},
+		
+		{"min":1, "max":1, "from":[113,114,115,116], "appliesTo":[501]},
 
 		{"min":0, "max":1, "from":[113,114,115,116], "appliesTo":[501]},
 		
