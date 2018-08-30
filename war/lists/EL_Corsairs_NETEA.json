@@ -9,10 +9,10 @@
 		]},	
 		{"name":"Eldar Corsairs Support Formations", "formations":[
 			{"id":510, "name":"Ghost Walkers",			"pts":125, "units":"Four Ghost Walkers", "upgrades":[20]},
-			{"id":511, "name":"Cloud Dancer",			"pts":225, 	"units":"1 Felarch Character and 6 Cloud Dancers", "upgrades":[22]},
+			{"id":511, "name":"Cloud Dancer",			"pts":225, 	"units":"1 Felarch Character and 5 Cloud Dancers", "upgrades":[22]},
 			{"id":512, "name":"Wasp Squadron",				"pts":200,  "units":"4 Wasp Walkers", "upgrades":[22]},
 			{"id":513, "name":"Hornet Squadron",			"pts":225,  "units":"5 Hornet Skimmers", "upgrades":[22]},
-			{"id":514, "name":"Balestrike Band",				"pts":250,  "units":"4 Balestrikes", "upgrades":[30]},
+			{"id":514, "name":"Balestrike Band",				"pts":250,  "units":"3 Balestrikes", "upgrades":[30]},
 			{"id":515, "name":"Falcon Formation",				"pts":225, "upgrades":[22]}
 		]},
 		
