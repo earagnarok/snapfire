@@ -4,7 +4,7 @@
 	"by":"Mrdiealot",
 	"sections":[
 		{"name":"Eldar Corsairs Core Formations", "formations":[
-			{"id":500, "name":"Corsair Warband",		"pts":250,	"units":"8 Corsairs", "upgrades":[21,30,31,33]},
+			{"id":500, "name":"Corsair Warband",		"pts":250,	"units":"7 Corsairs", "upgrades":[21,30,31,33]},
 			{"id":501, "name":"Voidstorm Warband",			"pts":300, "units":"4 Voidstorm Squads", "upgrades":[30]}
 		]},	
 		{"name":"Eldar Corsairs Support Formations", "formations":[
@@ -31,10 +31,19 @@
 		]}
 	],
 	"upgrades":[
-		{"id":10, "name":"Felarch Character",		"pts":0},
-		{"id":11, "name":"Void Dreamer Character",	"pts":50},
-		{"id":12, "name":"Corsair Prince Character",		"pts":100},
+		{"id":10, "name":"Corsairs w/ Felarch Character",		"pts":0},
+		{"id":11, "name":"Void Dreamer",	"pts":50},
+		{"id":12, "name":"Corsairs w/ Corsair Prince Character",		"pts":100},	
+
+		{"id":13, "name":"Voidstorms w/ Felarch Character",		"pts":0},
+		{"id":14, "name":"Void Dreamer",	"pts":50},
+		{"id":15, "name":"Voidstorms w/ Corsair Prince Character",		"pts":100},
 		
+		{"id":16, "name":"Balestrikes w/ Felarch Character",		"pts":0},
+		{"id":17, "name":"Void Dreamer",	"pts":50},
+		{"id":18, "name":"Balestrikes w/ Corsair Prince Character",		"pts":100},
+		
+	
 		{"id":20, "name":"All units in the formation gain Sniper",	"pts":50},
 		{"id":21, "name":"Shimmershield, the formation gains Invulnerable Save and counts as being in cover as long as the Character is alive",		"pts":50},
 		{"id":22, "name":"Spirit Stones",		"pts":25},
@@ -73,8 +82,10 @@
 		{"maxPercent":33, "name":"Corsairs Aircraft / Spacecraft", "from":[530,531,532,533,534]}
 	],
 	"upgradeConstraints":[
-	
-		{"min":1, "max":1, "from":[10,11,12], "appliesTo":[500,501,514]},	
+
+		{"min":1, "max":1, "from":[10,11,12], "appliesTo":[500]},	
+		{"min":1, "max":1, "from":[13,14,15], "appliesTo":[501]},			
+		{"min":1, "max":1, "from":[16,17,18], "appliesTo":[514]},
 		{"max":1, "perArmy":true, "name":"Corsair Prince", "from":[12]},
 
 		{"max":1, "from":[20], "appliesTo":[510]},	
