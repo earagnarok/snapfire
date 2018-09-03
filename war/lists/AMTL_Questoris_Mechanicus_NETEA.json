@@ -34,19 +34,19 @@
 	
 	"upgrades":[
 	
-		{"id":100, "name":"Knight-Paladin (Battle Cannon, Shock Lance, Reaper Chainsword)",											"pts":75},
+		{"id":100, "name":"Knight-Paladin (Battle Cannon, Questoris Shock Lance, Reaper Chainsword)",								"pts":75},
 		{"id":101, "name":"Knight-Errant (Thermal Cannon, Thunderstrike Gauntlet)",													"pts":75},
 		{"id":102, "name":"Knight-Crusader (Battle Cannon, Gatling Cannon, Icarus Autocannon)",										"pts":75},
-		{"id":103, "name":"Knight-Gallant (Stormspear Pod, Shock Lance, Thunderstrike Gauntlet, Reaper Chainsword)",				"pts":75},
+		{"id":103, "name":"Knight-Gallant (Stormspear Pod, Questoris Shock Lance, Thunderstrike Gauntlet, Reaper Chainsword)",		"pts":75},
 		{"id":104, "name":"Knight-Warden (Gatling Cannon, Ironstorm Missiles, Reaper Chainsword)",									"pts":75},	
 		{"id":105, "name":"Knight-Preceptor (Las-Impulsor, Thunderstrike Gauntlet)",												"pts":75},	
 				
-		{"id":110, "name":"Cerastus Knight-Lancer (Power Lance, Ion Gauntlet Shield)",												"pts":0},
+		{"id":110, "name":"Cerastus Knight-Lancer (Cerastrus Shock Lance, Ion Gauntlet Shield)",									"pts":0},
 		{"id":111, "name":"Cerastus Knight-Castigator (Castigator Cannon, Tempest Warblade)",										"pts":0},
-		{"id":112, "name":"Cerastus Knight-Acheron (Flame Cannon, Reaper Chainsword)",												"pts":0},
-		{"id":113, "name":"Cerastus Knight-Lancer w. Seneschal (Power Lance, Ion Gauntlet Shield)",									"pts":25},
+		{"id":112, "name":"Cerastus Knight-Acheron (Flame Cannon, Reaper Chainfist)",												"pts":0},
+		{"id":113, "name":"Cerastus Knight-Lancer w. Seneschal (Cerastrus Shock Lance, Ion Gauntlet Shield)",						"pts":25},
 		{"id":114, "name":"Cerastus Knight-Castigator w. Seneschal (Castigator Cannon, Tempest Warblade)",							"pts":25},
-		{"id":115, "name":"Cerastus Knight-Acheron w. Seneschal (Flame Cannon, Reaper Chainsword)",									"pts":25},
+		{"id":115, "name":"Cerastus Knight-Acheron w. Seneschal (Flame Cannon, Reaper Chainfist)",									"pts":25},
 		{"id":116, "name":"Cerastus Knight-Atrapos w. Seneschal (Atrapos Lascutter, Graviton Singularity Cannon, Ionic Shield)",	"pts":75},
 
 		{"id":120, "name":"4 Knight-Warglaive (Thermal Spear, Reaper Chain-Cleaver)",			 									"pts":0},	
