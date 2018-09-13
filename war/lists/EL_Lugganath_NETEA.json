@@ -4,7 +4,7 @@
 	"by":"Mrdiealot",
 	"sections":[
 		{"name":"Webway Portal and Avatar of Khaine", "formations":[
-			{"id":500, "name":"Webway Portal",	"pts":50, "units":"1 Webway Portal",		"upgrades":[]},
+			{"id":500, "name":"Wraithgate",	"pts":50, "units":"1 Wraithgate",		"upgrades":[]},
 			{"id":501, "name":"Avatar",		"pts":0, "units":"1 Avatar of Khaine",		"upgrades":[]}
 		]},
 		
@@ -23,11 +23,11 @@
 		]},
 		
 			{"name":"Harlequin Saedaths (Max 1 Harlequin Saedath for each Warhost)", "formations":[
-			{"id":531, "name":"Cegorath's Revenge",			"pts":225, "units":"1 Harlequin Avatar character, 4 Harlequins Troupes, 2 Death Jesters", "upgrades":[60]},
-			{"id":530, "name":"Cegorath's Summons",			"pts":275, "units":"1 Master Mime character, 6 Mimes", "upgrades":[]},
-			{"id":532, "name":"Serpent's Blood",			"pts":300, 	"units":"1 Harlequin Avatar character, 4 Harlequin Skyweavers, 2 Voidweavers", "upgrades":[]},
-			{"id":533, "name":"Isha's Tears",				"pts":300, "units":"1 Harlequin Avatar character, 1 Shadowseer character, 4 Death Jesters, 2 Harlequins Troupes", "upgrades":[60]},
-			{"id":534, "name":"Heroes' Path",				"pts":300, "units":"1 Shadowseer, 1 Solitaire, 1 Death Jesters, 1 Mimes, 3 Harlequins Troupes", "upgrades":[60]}
+			{"id":531, "name":"Cegorath's Revenge",			"pts":225, "units":"1 Harlequin Avatar, 4 Harlequins Troupes, 2 Death Jesters", "upgrades":[60]},
+			{"id":530, "name":"Cegorath's Summons",			"pts":275, "units":"1 Master Mime, 6 Mimes", "upgrades":[]},
+			{"id":532, "name":"Serpent's Blood",			"pts":300, 	"units":"1 Harlequin Avatar, 4 Harlequin Skyweavers, 2 Voidweavers", "upgrades":[]},
+			{"id":533, "name":"Isha's Tears",				"pts":300, "units":"1 Harlequin Avatar, 1 Shadowseer, 4 Death Jesters, 2 Harlequin Troupes", "upgrades":[60]},
+			{"id":534, "name":"Heroes' Path",				"pts":300, "units":"1 Harlequin Avatar, 1 Shadowseer, 1 Solitaire, 1 Death Jesters, 1 Mimes, 3 Harlequin Troupes", "upgrades":[60]}
 		]},
 		
 		{"name":"Fir-Iolarion Titans, Wraithknights and Eldar Navy (Max 33%)", "formations":[
