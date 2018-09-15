@@ -4,13 +4,13 @@
 	"by":"MrDieAlot",
 	"notes":[],
 	"sections":[
-		{"name":"Noble Lances", "formations":[
+		{"name":"Questoris Lances", "formations":[
 			{"id":500, "name":"Nobles", 		"pts":75, "upgrades":[100,101,102,103,104,105,140,141,142,143,144,149,145,146,150,151,152,153,154,159,155,156]}
 		]},
 		{"name":"Cerastus Lances / / Max 1 Cerastus Lance per Noble Lance", "formations":[
 			{"id":501, "name":"Cerastus",	"pts":300,  "upgrades":[113,114,115,116]}
 	    ]},
-		{"name":"Aspiring Lances / / Max 1 Aspiring Lance per Noble or Cerastus Lance", "formations":[
+		{"name":"Arminger Lances / / Max 1 Aspiring Lance per Noble or Cerastus Lance", "formations":[
 			{"id":502, "name":"Armingers",			"pts":175, "upgrades":[]}
 		]},
 		{"name":"Relic Lances / / Max 1 of each Relic Lance per Army", "formations":[
