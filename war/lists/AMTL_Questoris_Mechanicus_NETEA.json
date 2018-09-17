@@ -11,7 +11,7 @@
 			{"id":501, "name":"Cerastus",	"pts":300,  "upgrades":[113,114,115,116]}
 	    ]},
 		{"name":"Arminger Lances / / Max 1 Arminger Lance per Questoris or Cerastus Lance", "formations":[
-			{"id":502, "name":"Armingers",			"pts":175, "upgrades":[]}
+			{"id":502, "name":"Arminger",			"pts":175, "upgrades":[]}
 		]},
 		{"name":"Relic Lances / / Max 1 of each Relic Lance per Army", "formations":[
 			{"id":503, "name":"Questoris Reliquae",	"pts":50,  "upgrades":[160,161,165,166,163,164]},
