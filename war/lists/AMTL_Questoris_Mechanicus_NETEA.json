@@ -15,7 +15,7 @@
 		]},
 		{"name":"Relic Lances / / Max 1 of each Relic Lance per Army", "formations":[
 			{"id":503, "name":"Questoris Reliquae",	"pts":50,  "upgrades":[160,161,165,166,163,164]},
-			{"id":504, "name":"Acastus Reliquae",	"pts":25,  "upgrades":[164,163]}
+			{"id":504, "name":"Acastus Reliquae",	"pts":25,  "upgrades":[]}
 		]},
 		{"name":"Allies / / Max 1 per Questoris Lance / / Max 33%", "formations":[
 			{"id":510, "name":"Skitarii",		"pts":300,  "upgrades":[], "units":"2 Secutors, 8 Hypaspists, 1 Ordinatus Minorus-Corvus"},
@@ -119,7 +119,7 @@
 		{"min":4, "max":4, "from":[170,171], "appliesTo":[512]},
 		
 		
-		{"min":2, "max":2, "from":[163,164], "appliesTo":[504]}
+		{"min":2, "max":2, "from":[164,163], "appliesTo":[504]}
 	
 				
 	]
