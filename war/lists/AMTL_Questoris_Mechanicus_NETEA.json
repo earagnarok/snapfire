@@ -17,7 +17,7 @@
 			{"id":503, "name":"Questoris Reliquae",	"pts":50,  "upgrades":[160,161,165,166,163,164]},
 			{"id":504, "name":"Acastus Reliquae",	"pts":25,  "upgrades":[164,163]}
 		]},
-		{"name":"Allies / / Max 1 per Noble Lance / / Max 33%", "formations":[
+		{"name":"Allies / / Max 1 per Questoris Lance / / Max 33%", "formations":[
 			{"id":510, "name":"Skitarii",		"pts":300,  "upgrades":[], "units":"2 Secutors, 8 Hypaspists, 1 Ordinatus Minorus-Corvus"},
 
 			{"id":512, "name":"Dune Crawlers",		"pts":200,  "upgrades":[]},
