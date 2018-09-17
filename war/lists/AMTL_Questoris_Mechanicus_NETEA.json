@@ -1,16 +1,16 @@
 {
 	"id":"Questoris Mechanicus",
-	"version":"v1.46",
+	"version":"v1.47",
 	"by":"MrDieAlot",
 	"notes":[],
 	"sections":[
 		{"name":"Questoris Lances", "formations":[
 			{"id":500, "name":"Questoris", 		"pts":75, "upgrades":[100,101,102,103,104,105,140,141,142,143,144,149,145,146,150,151,152,153,154,159,155,156]}
 		]},
-		{"name":"Cerastus Lances / / Max 1 Cerastus Lance per Noble Lance", "formations":[
+		{"name":"Cerastus Lances / / Max 1 Cerastus Lance per Questoris Lance", "formations":[
 			{"id":501, "name":"Cerastus",	"pts":300,  "upgrades":[113,114,115,116]}
 	    ]},
-		{"name":"Arminger Lances / / Max 1 Aspiring Lance per Noble or Cerastus Lance", "formations":[
+		{"name":"Arminger Lances / / Max 1 Aspiring Lance per Questoris or Cerastus Lance", "formations":[
 			{"id":502, "name":"Armingers",			"pts":175, "upgrades":[]}
 		]},
 		{"name":"Relic Lances / / Max 1 of each Relic Lance per Army", "formations":[
@@ -34,9 +34,9 @@
 	
 	"upgrades":[
 	
-		{"id":100, "name":"Knight-Paladin (Rapid Fire Battle Cannon, 2 Hvy Stubbers, Reaper Chainsword)",								"pts":75},
+		{"id":100, "name":"Knight-Paladin (Questoris Battle Cannon, 2 Hvy Stubbers, Reaper Chainsword)",								"pts":75},
 		{"id":101, "name":"Knight-Errant (Thermal Cannon, Hvy Stubber, Thunderstrike Gauntlet)",										"pts":75},
-		{"id":102, "name":"Knight-Crusader (Rapid Fire Battle Cannon, Gatling Cannon, 2 Hvy Stubbers, Icarus Autocannon)",				"pts":75},
+		{"id":102, "name":"Knight-Crusader (Questoris Battle Cannon, Gatling Cannon, 2 Hvy Stubbers, Icarus Autocannon)",				"pts":75},
 		{"id":103, "name":"Knight-Gallant (Ironstorm Missiles, Hvy Stubber, Thunderstrike Gauntlet, Reaper Chainsword)",				"pts":75},
 		{"id":104, "name":"Knight-Warden (Gatling Cannon, Ironstorm Missiles, Hvy Stubber, Reaper Chainsword)",							"pts":75},	
 		{"id":105, "name":"Knight-Preceptor (Las-Impulsor, Hvy Stubber, Thunderstrike Gauntlet)",										"pts":75},	
@@ -52,18 +52,18 @@
 		{"id":120, "name":"4 Knight-Warglaive (Thermal Spear, Reaper Chain-Cleaver)",			 										"pts":0},	
 		{"id":121, "name":"4 Knight-Helverin (2 Autocannons)",																			"pts":0},
 		
-		{"id":140, "name":"Knight-Paladin w. Seneschal (Rapid Fire Battle Cannon, 2 Hvy Stubbers, Reaper Chainsword)",					"pts":100},
+		{"id":140, "name":"Knight-Paladin w. Seneschal (Questoris Battle Cannon, 2 Hvy Stubbers, Reaper Chainsword)",					"pts":100},
 		{"id":141, "name":"Knight-Errant w. Seneschal (Thermal Cannon, Hvy Stubber, Thunderstrike Gauntlet)",							"pts":100},
-		{"id":142, "name":"Knight-Crusader w. Seneschal (Rapid Fire Battle Cannon, Gatling Cannon, 2 Hvy Stubbers, Icarus Autocannon)",	"pts":100},
+		{"id":142, "name":"Knight-Crusader w. Seneschal (Questoris Battle Cannon, Gatling Cannon, 2 Hvy Stubbers, Icarus Autocannon)",	"pts":100},
 		{"id":143, "name":"Knight-Gallant (Ironstorm Missiles, Hvy Stubber, Thunderstrike Gauntlet, Reaper Chainsword)",				"pts":100},
 		{"id":144, "name":"Knight-Warden w. Seneschal (Gatling Cannon, Ironstorm Missiles, Hvy Stubber, Reaper Chainsword)",			"pts":100},		
 		{"id":145, "name":"Knight-Valiant w. Seneschal (Conflagration C., Thundercoil H., Siegebreaker C., 4xShieldbreaker M., Ion A.)","pts":175},
 		{"id":146, "name":"Knight-Castellan w. Seneschal (Vulcano Lance, Plasma Decimator, 2 Siegebreaker C., 2 Shieldbreaker M.)",		"pts":175},	
 		{"id":149, "name":"Knight-Preceptor w Seneschal (Las-Impulsor, Hvy Stubber, Thunderstrike Gauntlet)",							"pts":100},
 
-		{"id":150, "name":"Knight-Paladin w. Baron (Rapid Fire Battle Cannon, 2 Hvy Stubbers, Reaper Chainsword)",						"pts":175},
+		{"id":150, "name":"Knight-Paladin w. Baron (Questoris Battle Cannon, 2 Hvy Stubbers, Reaper Chainsword)",						"pts":175},
 		{"id":151, "name":"Knight-Errant w. Baron (Thermal Cannon, Hvy Stubber, Thunderstrike Gauntlet)",								"pts":175},
-		{"id":152, "name":"Knight-Crusader w. Baron (Rapid Fire Battle Cannon, Gatling Cannon, 2 Hvy Stubbers, Icarus Autocannon)", 	"pts":175},
+		{"id":152, "name":"Knight-Crusader w. Baron (Questoris Battle Cannon, Gatling Cannon, 2 Hvy Stubbers, Icarus Autocannon)", 	"pts":175},
 		{"id":153, "name":"Knight-Gallant w. Baron (Ironstorm Missiles, Hvy Stubber, Thunderstrike Gauntlet, Reaper Chainsword)",		"pts":175},
 		{"id":154, "name":"Knight-Warden w. Baron (Gatling Cannon, Ironstorm Missiles, Hvy Stubber, Reaper Chainsword)",				"pts":175},	
 		{"id":155, "name":"Knight-Valiant w. Baron (Conflagration C., Thundercoil H., Siegebreaker C., 4 Shieldbreaker M., Ion A.)",	"pts":250},
@@ -82,9 +82,9 @@
 		
     ],
 	"formationConstraints":[
-		{"max":1, "name":"", "from":[501], "forEach":[500], "name2":"Noble Lance"},
-		{"max":1, "name":"", "from":[502], "forEach":[500,501], "name2":"Noble or Cerastus Lance"},
-		{"max":1, "name":"", "from":[510,512,513,514,515,520,521,522,530], "forEach":[500], "name2":"Noble Lance"},
+		{"max":1, "name":"", "from":[501], "forEach":[500], "name2":"Questoris Lance"},
+		{"max":1, "name":"", "from":[502], "forEach":[500,501], "name2":"Questoris or Cerastus Lance"},
+		{"max":1, "name":"", "from":[510,512,513,514,515,520,521,522,530], "forEach":[500], "name2":"Questoris Lance"},
 		{"maxPercent":34, "name":"Mechanicus Allies", "from":[510,512,513,514,515,520,521,522,530]},
 		{"max":1, "perArmy":true, "from":[503]},
 		{"max":1, "perArmy":true, "from":[504]},
