@@ -1,6 +1,6 @@
 {
   "id": "Hive Fleet Dagon",
-  "version": "4.1",
+  "version": "4.2",
   "by": "Argol & MrDieAlot",
   "sections": [
     {
@@ -212,7 +212,7 @@
     },
     {
       "id": 108,
-      "name": "Bio-Artillery (3 Biovores)",
+      "name": "Bio-Artillery (4 Biovores)",
       "pts": 75
     },
     {
