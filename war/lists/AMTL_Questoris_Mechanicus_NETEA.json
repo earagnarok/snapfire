@@ -1,6 +1,6 @@
 {
 	"id":"Questoris Mechanicus",
-	"version":"v1.52",
+	"version":"v1.53 <a href=\"http://www.taccmd.tacticalwargames.net/viewtopic.php?f=22&t=33209\">TCMD forum</a>",
 	"by":"MrDieAlot",
 	"notes":[],
 	"sections":[
@@ -14,8 +14,8 @@
 			{"id":502, "name":"Arminger",			"pts":150, "upgrades":[]}
 		]},
 		{"name":"Relic Lances / / Max 1 of each Relic Lance per Army", "formations":[
-			{"id":503, "name":"Questoris Reliquae",	"pts":50,  "upgrades":[160,161,165,166,163,164]},
-			{"id":504, "name":"Acastus Reliquae",	"pts":50,  "upgrades":[]}
+			{"id":503, "name":"Questoris Reliquae",	"pts":75,  "upgrades":[160,161,165,166,163,164]},
+			{"id":504, "name":"Acastus Reliquae",	"pts":75,  "upgrades":[]}
 		]},
 		{"name":"Allies / / Max 1 per Questoris Lance / / Max 33%", "formations":[
 			{"id":510, "name":"Skitarii",		"pts":325,  "upgrades":[], "units":"2 Secutors, 8 Hypaspists, 1 Ordinatus Minorus-Corvus"},
@@ -37,7 +37,7 @@
 		{"id":100, "name":"Knight-Paladin (Questoris Battle Cannon, 2 Hvy Stubbers, Questoris Shock Lance, Reaper Chainsword)",								"pts":75},
 		{"id":101, "name":"Knight-Errant (Thermal Cannon, Hvy Stubber, Thunderstrike Gauntlet)",															"pts":75},
 		{"id":102, "name":"Knight-Crusader (Questoris Battle Cannon, Gatling Cannon, 2 Hvy Stubbers, Icarus Autocannon)",									"pts":75},
-		{"id":103, "name":"Knight-Gallant (Ironstorm Missiles, Hvy Stubber, Questoris Shock Lance, Thunderstrike Gauntlet, Reaper Chainsword)",				"pts":75},
+		{"id":103, "name":"Knight-Gallant (Icarus Autocannon, Hvy Stubber, Questoris Shock Lance, Thunderstrike Gauntlet, Reaper Chainsword)",				"pts":75},
 		{"id":104, "name":"Knight-Warden (Gatling Cannon, Ironstorm Missiles, Hvy Stubber, Reaper Chainsword)",												"pts":75},	
 		{"id":105, "name":"Knight-Preceptor (Las-Impulsor, Hvy Stubber, Thunderstrike Gauntlet)",															"pts":75},	
 				
@@ -55,27 +55,27 @@
 		{"id":140, "name":"Knight-Paladin w. Seneschal (Questoris Battle Cannon, 2 Hvy Stubbers, Questoris Shock Lance, Reaper Chainsword)",				"pts":100},
 		{"id":141, "name":"Knight-Errant w. Seneschal (Thermal Cannon, Hvy Stubber, Thunderstrike Gauntlet)",												"pts":100},
 		{"id":142, "name":"Knight-Crusader w. Seneschal (Questoris Battle Cannon, Gatling Cannon, 2 Hvy Stubbers, Icarus Autocannon)",						"pts":100},
-		{"id":143, "name":"Knight-Gallant w. Seneschal (Ironstorm Missiles, Hvy Stubber, Questoris Shock Lance, Thunderstrike Gauntlet, Reaper Chainsword)","pts":100},
+		{"id":143, "name":"Knight-Gallant w. Seneschal (Icarus Autocannon, Hvy Stubber, Questoris Shock Lance, Thunderstrike Gauntlet, Reaper Chainsword)","pts":100},
 		{"id":144, "name":"Knight-Warden w. Seneschal (Gatling Cannon, Ironstorm Missiles, Hvy Stubber, Reaper Chainsword)",								"pts":100},		
-		{"id":145, "name":"Knight-Valiant w. Seneschal (Conflagration C., Thundercoil H., Siegebreaker C., 4 Shieldbreaker M., Melta Guns, Ion A.)",		"pts":200},
-		{"id":146, "name":"Knight-Castellan w. Seneschal (Vulcano Lance, Plasma Decimator, 2 Siegebreaker C., 2 Shieldbreaker M., Melta Guns)",				"pts":200},	
+		{"id":145, "name":"Knight-Valiant w. Seneschal (Conflagration C., Thundercoil H., Siegebreaker C., 4 Shieldbreaker M., Melta Guns, Ion A.)",		"pts":150},
+		{"id":146, "name":"Knight-Castellan w. Seneschal (Vulcano Lance, Plasma Decimator, 2 Siegebreaker C., 2 Shieldbreaker M., Melta Guns)",				"pts":150},	
 		{"id":149, "name":"Knight-Preceptor w Seneschal (Las-Impulsor, Hvy Stubber, Thunderstrike Gauntlet)",												"pts":100},
 
 		{"id":150, "name":"Knight-Paladin w. Baron (Questoris Battle Cannon, 2 Hvy Stubbers, Questoris Shock Lance, Reaper Chainsword)",					"pts":150},
 		{"id":151, "name":"Knight-Errant w. Baron (Thermal Cannon, Hvy Stubber, Thunderstrike Gauntlet)",													"pts":150},
 		{"id":152, "name":"Knight-Crusader w. Baron (Questoris Battle Cannon, Gatling Cannon, 2 Hvy Stubbers, Icarus Autocannon)", 							"pts":150},
-		{"id":153, "name":"Knight-Gallant w. Baron (Ironstorm Missiles, Hvy Stubber, Questoris Shock Lance, Thunderstrike Gauntlet, Reaper Chainsword)",	"pts":150},
+		{"id":153, "name":"Knight-Gallant w. Baron (Icarus Autocannon, Hvy Stubber, Questoris Shock Lance, Thunderstrike Gauntlet, Reaper Chainsword)",	"pts":150},
 		{"id":154, "name":"Knight-Warden w. Baron (Gatling Cannon, Ironstorm Missiles, Hvy Stubber, Reaper Chainsword)",									"pts":150},	
-		{"id":155, "name":"Knight-Valiant w. Baron (Conflagration C., Thundercoil H., Siegebreaker C., 4 Shieldbreaker M., Melta Guns, Ion A.)",			"pts":250},
-		{"id":156, "name":"Knight-Castellan w. Baron  (Vulcano Lance, Plasma Decimator, 2 Siegebreaker C., 2 Shieldbreaker M., Melta Guns)",				"pts":250},
+		{"id":155, "name":"Knight-Valiant w. Baron (Conflagration C., Thundercoil H., Siegebreaker C., 4 Shieldbreaker M., Melta Guns, Ion A.)",			"pts":200},
+		{"id":156, "name":"Knight-Castellan w. Baron  (Vulcano Lance, Plasma Decimator, 2 Siegebreaker C., 2 Shieldbreaker M., Melta Guns)",				"pts":200},
 		{"id":159, "name":"Knight-Preceptor w Baron (Las-Impulsor, Hvy Stubber, Thunderstrike Gauntlet)",													"pts":150},
 		
-		{"id":160, "name":"Questoris Relic Knight-Styrix (Volkite Chieroville, Rad Cleanser, Siege Claw)",													"pts":100},
-		{"id":161, "name":"Questoris Relic Knight-Magaera (Lightning C, Rad Cleanser, Siege Claw, Ionic Shield)",											"pts":100},
-		{"id":163, "name":"Acastus Knight-Mechanicum w. Seneschal (2 Acastus Conversion Beamers, Rad Cleanser, Ionic Shield)",								"pts":175},
-		{"id":164, "name":"Acastus Knight-Porphyrion w. Seneschal (2 Manga Lascannons, 2 Lascannons, Hyperios Missiles)",									"pts":175},
-		{"id":165, "name":"Questoris Relic Knight-Styrix w. Seneschal (Volkite Chieroville, Rad Cleanser, Siege Claw)",										"pts":125},
-		{"id":166, "name":"Questoris Relic Knight-Magaera w. Seneschal (Lightning C, Rad Cleanser, Siege Claw, Ionic Shield)",								"pts":125},
+		{"id":160, "name":"Questoris Relic Knight-Styrix (Volkite Chieroville, Rad Cleanser, Siege Claw)",													"pts":75},
+		{"id":161, "name":"Questoris Relic Knight-Magaera (Lightning C, Rad Cleanser, Siege Claw, Ionic Shield)",											"pts":75},
+		{"id":163, "name":"Acastus Knight-Mechanicum w. Seneschal (2 Acastus Conversion Beamers, Rad Cleanser, Ionic Shield)",								"pts":150},
+		{"id":164, "name":"Acastus Knight-Porphyrion w. Seneschal (2 Magna Lascannons, 2 Autocannons, Helios Defense Missiles)",							"pts":150},
+		{"id":165, "name":"Questoris Relic Knight-Styrix w. Seneschal (Volkite Chieroville, Rad Cleanser, Siege Claw)",										"pts":100},
+		{"id":166, "name":"Questoris Relic Knight-Magaera w. Seneschal (Lightning C, Rad Cleanser, Siege Claw, Ionic Shield)",								"pts":100},
 		
 		{"id":170, "name":"Onager Dune Crawler with Eradication Beamer",			 																		"pts":0},	
 		{"id":171, "name":"Onager Dune Crawler with Icarus Array",																							"pts":0}
@@ -111,7 +111,7 @@
 		{"min":1, "max":1, "from":[120,121], "appliesTo":[502]},
 		
 	
-		{"min":2, "max":4, "from":[160,161,165,166,163,164], "appliesTo":[503]},	
+		{"min":3, "max":5, "from":[160,161,165,166,163,164], "appliesTo":[503]},	
 		
 		{"min":0, "max":1, "from":[165,166,163,164], "appliesTo":[503]},
 		
