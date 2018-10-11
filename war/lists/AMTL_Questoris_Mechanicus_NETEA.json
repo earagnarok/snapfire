@@ -14,7 +14,7 @@
 			{"id":502, "name":"Arminger",			"pts":150, "upgrades":[]}
 		]},
 		{"name":"Relic Lances / / Max 1 of each Relic Lance per Army", "formations":[
-			{"id":503, "name":"Questoris Reliquae",	"pts":75,  "upgrades":[160,161,165,166,163,164]},
+			{"id":503, "name":"Questoris Reliquae",	"pts":100,  "upgrades":[160,161,165,166,163,164]},
 			{"id":504, "name":"Acastus Reliquae",	"pts":75,  "upgrades":[]}
 		]},
 		{"name":"Allies / / Max 1 per Questoris Lance / / Max 33%", "formations":[
