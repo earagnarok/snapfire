@@ -1,6 +1,6 @@
 {
   "id": "Hive Fleet Dagon",
-  "version": "4.2",
+  "version": "4.5 <a href=\"http://www.taccmd.tacticalwargames.net/viewtopic.php?f=21&t=32946\">TCMD forum</a>",
   "by": "Argol & MrDieAlot",
   "sections": [
     {
@@ -8,7 +8,7 @@
       "formations": [
         {
           "id": 501,
-          "name": "Hive Nexus Swarm (2-6 Instinctive Swarms)",
+          "name": "Hive Nexus Swarm (3-5 Instinctive Swarms)",
           "pts": 400,
 		  "units": "Dagon Dominatrix",
           "upgrades": [
@@ -34,7 +34,7 @@
         },
         {
           "id": 502,
-          "name": "Major Swarm (2-5 Instinctive Swarms)",
+          "name": "Major Swarm (3-5 Instinctive Swarms)",
           "pts": 150,
           "upgrades": [
 		  	101,
@@ -90,7 +90,7 @@
       "formations": [
 	    {
           "id": 509,
-          "name": "Attack Swarm (2-4 Instinctive Swarms)",
+          "name": "Attack Swarm (1-2 Instinctive Swarms)",
           "pts": 0,
           "upgrades": [
 			101,
@@ -98,9 +98,6 @@
 			103,
 			104,
 			105,
-			107,
-			108,
-			109,
 			110,
 			111,
 			112,
@@ -212,7 +209,7 @@
     },
     {
       "id": 108,
-      "name": "Bio-Artillery (4 Biovores)",
+      "name": "Biovores (4 Biovores)",
       "pts": 75
     },
     {
@@ -222,28 +219,28 @@
     },
     {
       "id": 110,
-      "name": "Carnifex (4 Dagon Carnifex)",
-      "pts": 125
+      "name": "Carnifex (3 Carnifex)",
+      "pts": 100
     },
     {
       "id": 111,
       "name": "Bio-Support (3 Dagon Dactylis)",
-      "pts": 125
+      "pts": 100
     },
     {
       "id": 112,
       "name": "Bio-Support (3 Dagon Exocrine)",
-      "pts": 125
+      "pts": 100
     },
     {
       "id": 113,
-      "name": "Bio-Attack (3 Dagon Haruspex)",
-      "pts": 150
+      "name": "Bio-Attack (2 Dagon Haruspex)",
+      "pts": 75
     },
     {
       "id": 114,
-      "name": "Bio-Attack (3 Malefactors)",
-      "pts": 150
+      "name": "Bio-Attack (2 Malefactors)",
+      "pts": 75
     },
     {
       "id": 115,
@@ -257,13 +254,13 @@
     },
     {
       "id": 117,
-      "name": "Burrower (1 Dagon Trygon)",
-      "pts": 75
+      "name": "Burrower (1 Trygon)",
+      "pts": 50
     },
 		{
       "id": 118,
-      "name": "Burrower (4 Dagon Raveners)",
-      "pts": 75
+      "name": "Burrower (3 Dagon Raveners)",
+      "pts": 50
     },
     {
       "id": 120,
@@ -363,12 +360,12 @@
 	{
       "id": 214,
       "name": "Trygon Prime",
-      "pts": 125
+      "pts": 150
     },
 	{
       "id": 215,
       "name": "3 Ravener Alphas",
-      "pts": 125
+      "pts": 100
     },
 		{
       "id": 216,
@@ -496,8 +493,8 @@
       ]
     },
 	{
-	  "min": 2,
-      "max": 6,
+	  "min": 3,
+      "max": 5,
       "from": [
         101,
         102,
@@ -548,7 +545,7 @@
     },
     {
       "max": 5,
-      "min": 2,
+      "min": 3,
       "from": [
         101,
         102,
@@ -633,20 +630,17 @@
       ]
     },
 	{
-      "max": 4,
-      "min": 2,
+      "max": 2,
+      "min": 1,
       "from": [
         101,
         102,
         103,
         104,
         105,
-		107,
-        108,
-        109,
-        110,
-        111,
-        112,
+		110,
+		111,
+		112,
 		113,
 		114,
 		115,
@@ -660,8 +654,8 @@
       "max": 1,
       "min": 1,
       "from": [
-        214,
-        215
+        215,
+        214
       ],
       "appliesTo": [
         504
@@ -683,8 +677,22 @@
         504
       ]
     },
+	{
+      "max": 1,
+      "min": 0,
+      "from": [
+        101,
+        102,
+		103,
+		104,
+		105
+      ],
+      "appliesTo": [
+        504
+      ]
+    },
     {
-      "max": 2,
+      "max": 1,
       "min": 1,
       "from": [
         130
