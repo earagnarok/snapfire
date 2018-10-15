@@ -1,51 +1,51 @@
 {
 	"id":"Traitor Titan Legions",
-	"version":"NetEA v2.1",
+	"version":"NetEA v2.2",
 	"notes":[],
 	"by":"IJW Wartrader and MrDieAlot",
 	"sections":[
-		{"name":"BATTLE TITANS", "formations":[
-			{"id":501, "name":"CARRION LORD   (Chaos Emperor Titan of Chaos Undivided)", 		"pts":1000,"upgrades":[10,11,12,13,14,15,31,32,33,34,35,36,51,52,53,54,55,56]},
-			{"id":502, "name":"SKULLHOARDER   (Chaos Emperor Titan of Khorne)", 		"pts":1000,"upgrades":[10,11,12,13,14,16,17,31,32,33,34,35,37,38,39,40,51,52,53,54,57,58]},
-			{"id":503, "name":"VICEKEEPER   (Chaos Emperor Titan of Slaanesh)", 		"pts":1000,"upgrades":[10,11,12,13,14,20,31,32,33,34,35,48,49,50,51,52,53,54,68,69]},
-			{"id":504, "name":"BLIGHTSPREADER   (Chaos Emperor Titan of Nurgle)", 		"pts":1000,"upgrades":[10,11,12,13,14,19,31,32,33,34,35,44,45,46,47,51,52,53,54,64,65,66,67]},
-			{"id":505, "name":"GIFTGRANTER   (Chaos Emperor Titan of Tzeentch)", 		"pts":1000,"upgrades":[10,11,12,13,14,18,31,32,33,34,35,41,42,43,51,52,53,54,60,61,62,63]},
+		{"name":"BATTLE TITANS / / Army may not mix factions that hate each other (Tzeench hates Nurgle & vice-versa, Khorne hates Slaanesh & vice-versa) ", "formations":[
+			{"id":501, "name":"CARRION LORD   (Chaos Emperor Titan of Chaos Undivided)", 		"pts":950,"upgrades":[10,11,12,13,14,15,31,33,34,35,36,51,52,53,54,55,56]},
+			{"id":502, "name":"SKULLHOARDER   (Chaos Emperor Titan of Khorne)", 		"pts":950,"upgrades":[10,11,12,13,14,16,17,33,34,35,37,38,39,40,51,52,53,54,57,58]},
+			{"id":503, "name":"VICEKEEPER   (Chaos Emperor Titan of Slaanesh)", 		"pts":950,"upgrades":[10,11,12,13,14,20,33,34,35,48,49,50,51,52,53,54,68,69]},
+			{"id":504, "name":"BLIGHTSPREADER   (Chaos Emperor Titan of Nurgle)", 		"pts":950,"upgrades":[10,11,12,13,14,19,33,34,35,44,45,46,47,51,52,53,54,64,65,66,67]},
+			{"id":505, "name":"GIFTGRANTER   (Chaos Emperor Titan of Tzeentch)", 		"pts":950,"upgrades":[10,11,12,13,14,18,33,34,35,41,42,43,51,52,53,54,60,61,62,63]},
 			
-			{"id":506, "name":"FORGELORD   (Chaos Warlord Titan of Chaos Undivided)", 		"pts":700, "upgrades":[10,11,12,13,14,15,31,32,33,34,35,36,51,52,53,54,55,56,200,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235]},
-			{"id":507, "name":"BANELORD (Chaos Warlord Titan of Khorne)", 		"pts":700, "upgrades":[10,11,12,13,14,16,17,31,32,33,34,35,37,38,39,40,51,52,53,54,57,58,200,201,202,203,204]},
-			{"id":508, "name":"PAINLORD  (Chaos Warlord Titan of Slaanesh)", 		"pts":700, "upgrades":[10,11,12,13,14,20,31,32,33,34,35,48,49,50,68,69,200,201,202,203,204]},
-			{"id":509, "name":"PLAGUELORD (Chaos Warlord Titan of Nurgle)", 		"pts":700, "upgrades":[10,11,12,13,14,19,31,32,33,34,35,44,45,46,47,64,65,66,67,200,201,202,203,204]},
-			{"id":510, "name":"WARPLORD  (Chaos Warlord Titan of Tzeentch)", 		"pts":700, "upgrades":[10,11,12,13,14,18,31,32,33,34,35,41,42,43,60,61,62,63,200,201,202,203,204]},
+			{"id":506, "name":"FORGELORD   (Chaos Warlord Titan of Chaos Undivided)", 		"pts":700, "upgrades":[10,11,12,13,14,15,31,33,34,35,36,51,52,53,54,55,56,200,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235]},
+			{"id":507, "name":"BANELORD (Chaos Warlord Titan of Khorne)", 		"pts":700, "upgrades":[10,11,12,13,14,16,17,33,34,35,37,38,39,40,51,52,53,54,57,58,200,201,202,203,204,236]},
+			{"id":508, "name":"PAINLORD  (Chaos Warlord Titan of Slaanesh)", 		"pts":700, "upgrades":[10,11,12,13,14,20,33,34,35,48,49,50,68,69,200,201,202,203,204,236]},
+			{"id":509, "name":"PLAGUELORD (Chaos Warlord Titan of Nurgle)", 		"pts":700, "upgrades":[10,11,12,13,14,19,33,34,35,44,45,46,47,64,65,66,67,200,201,202,203,204,236]},
+			{"id":510, "name":"WARPLORD  (Chaos Warlord Titan of Tzeentch)", 		"pts":700, "upgrades":[10,11,12,13,14,18,33,34,35,41,42,43,60,61,62,63,200,201,202,203,204,236]},
 			
-			{"id":511, "name":"HERALD (Chaos Reaver Titan of Chaos Undivided)",			"pts":550, "upgrades":[31,32,33,34,35,36,51,52,53,54,55,56,300,301,302,303,304,305]},
-			{"id":512, "name":"RAVAGER (Chaos Reaver Titan of Khorne)",			"pts":550, "upgrades":[31,32,33,34,35,37,38,39,40,51,52,53,54,57,58,300,301,302,303,304,306,307]},
-			{"id":513, "name":"REVILER (Chaos Reaver Titan of Slaanesh)",			"pts":550, "upgrades":[31,32,33,34,35,48,49,50,68,69,300,301,302,303,304,310]},
-			{"id":514, "name":"REPUGNANT (Chaos Reaver Titan of Nurgle)",			"pts":550, "upgrades":[31,32,33,34,35,44,45,46,47,64,65,66,67,300,301,302,303,304,309]},
-			{"id":515, "name":"MUTATOR (Chaos Reaver Titan of Tzeentch)",			"pts":550, "upgrades":[31,32,33,34,35,41,42,43,60,61,62,63,300,301,302,303,304,308]}
+			{"id":511, "name":"HERALD (Chaos Reaver Titan of Chaos Undivided)",			"pts":525, "upgrades":[31,33,34,35,36,51,52,53,54,55,56,300,301,302,303,304,305]},
+			{"id":512, "name":"RAVAGER (Chaos Reaver Titan of Khorne)",			"pts":525, "upgrades":[33,34,35,37,38,39,40,51,52,53,54,57,58,300,301,302,303,304,306,307]},
+			{"id":513, "name":"REVILER (Chaos Reaver Titan of Slaanesh)",			"pts":525, "upgrades":[33,34,35,48,49,50,68,69,300,301,302,303,304,310]},
+			{"id":514, "name":"REPUGNANT (Chaos Reaver Titan of Nurgle)",			"pts":525, "upgrades":[33,34,35,44,45,46,47,64,65,66,67,300,301,302,303,304,309]},
+			{"id":515, "name":"MUTATOR (Chaos Reaver Titan of Tzeentch)",			"pts":525, "upgrades":[33,34,35,41,42,43,60,61,62,63,300,301,302,303,304,308]}
 		]},
-		{"name":"GREATER DAEMON ENGINES / / One Greater Daemon Engine formation may be taken for each Battle Titan and Greater Daemon Possession", "formations":[
+		{"name":"GREATER DAEMON ENGINES / / One Greater Daemon Engine formation may be taken for each Battle Titan and Greater Daemon Possession upgrade", "formations":[
 			{"id":551, "name":"FORGEHOUND (Chaos Warhound of Chaos Undivided)",		"pts":300, "units":"One Forgehound Chaos Warhound", "upgrades":[]},
-			{"id":552, "name":"FORGEHOUND Pack (Chaos Warhounds of Chaos Undivided)",	"pts":525, "units": "Two Forgehound Chaos Warhounds", "upgrades":[]},
+			{"id":552, "name":"FORGEHOUND Pack (Chaos Warhounds of Chaos Undivided)",	"pts":500, "units": "Two Forgehound Chaos Warhounds", "upgrades":[]},
 			
-			{"id":553, "name":"FERAL WARHOUND Pack (Chaos Warhounds of Khorne)",	"pts":525, "units": "Two Feral Warhounds", "upgrades":[]},
+			{"id":553, "name":"FERAL WARHOUND Pack (Chaos Warhounds of Khorne)",	"pts":500, "units": "Two Feral Warhounds", "upgrades":[]},
 			
 			{"id":554, "name":"PLAGUEHOUND (Chaos Warhound of Nurgle)",		"pts":300, "units":"One Plaguehound Chaos Warhound",  "upgrades":[]},
-			{"id":555, "name":"PLAGUEHOUND Pack (Chaos Warhounds of Nurgle)",	"pts":525, "units": "Two Plaguehound Chaos Warhounds", "upgrades":[]},
+			{"id":555, "name":"PLAGUEHOUND Pack (Chaos Warhounds of Nurgle)",	"pts":500, "units": "Two Plaguehound Chaos Warhounds", "upgrades":[]},
 			
 			{"id":556, "name":"WARPHOUND (Chaos Warhound of Tzeentch)",		"pts":300, "units":"One Warphound Chaos Warhound",  "upgrades":[]},
-			{"id":557, "name":"WARPHOUND Pack (Chaos Warhounds of Tzeentch)",	"pts":525, "units": "Two Warphound Chaos Warhounds", "upgrades":[]},
+			{"id":557, "name":"WARPHOUND Pack (Chaos Warhounds of Tzeentch)",	"pts":500, "units": "Two Warphound Chaos Warhounds", "upgrades":[]},
 
 			{"id":558, "name":"DEATH WHEEL (Chaos Undivided)",	"pts":50,  "upgrades":[400]},
-			{"id":559, "name":"LORD OF BATTLES (Khorne)",	"pts":75,  "upgrades":[401]},
+			{"id":559, "name":"LORD OF BATTLES (Khorne)",	"pts":100,  "upgrades":[401]},
 			{"id":560, "name":"GREATER BRASS SCORPION (Khorne)", 	"pts":50, "upgrades":[402]},
 			{"id":561, "name":"SUBJUGATOR (Slaanesh)",	"pts":50,  "upgrades":[403]},
 			{"id":562, "name":"QUESTOR (Slaanesh)",	"pts":50,  "upgrades":[404]}
 		]},
 		
-		{"name":"LESSER DAEMON ENGINES / / One Lesser Daemon Engine formation may be taken for each Battle Titan, Greater Daemon Possession and Greater Daemon Engine Model", "formations":[
+		{"name":"LESSER DAEMON ENGINES / / One Lesser Daemon Engine formation may be taken for each Battle Titan, Greater Daemon Engine Model and Greater Daemon Possession upgrade", "formations":[
 			{"id":570, "name":"DAEMON KNIGHTS Hell-Scourges (Slaanesh)",			"pts":75, "upgrades":[405]},
-			{"id":571, "name":"DAEMON KNIGHTS Hell-Knights (Slaanesh)",			"pts":30, "upgrades":[406]},
-			{"id":572, "name":"DAEMON KNIGHTS Hell-Striders (Slaanesh)",			"pts":5, "upgrades":[407]},
+			{"id":571, "name":"DAEMON KNIGHTS Hell-Knights (Slaanesh)",			"pts":45, "upgrades":[406]},
+			{"id":572, "name":"DAEMON KNIGHTS Hell-Striders (Slaanesh)",			"pts":225, "upgrades":[407]},
 			
 			{"id":573, "name":"CHAOS KNIGHTS (Chaos Undivided)",	"pts":75, "upgrades":[408]},
 			{"id":574, "name":"CHAOS KNIGHTS (Khorne)",	"pts":75, "upgrades":[409]},
@@ -67,7 +67,7 @@
 		{"name": "CHAOS NAVY / / Max 25%", "formations": [
 			{"id": 530, "name": "HELL BLADE SQUADRON", "pts": 200, "units": "Three Hell Blade Fighters", "upgrades": []},
 			{"id": 531, "name": "HELL TALON SQUADRON", "pts": 225, "units": "Two Hell Talon Fighter-Bombers", "upgrades": []},
-			{"id": 532, "name": "HARBRINGER BOMBER", "pts": 375, "units": "One Harbinger Bomber", "upgrades": []},
+			{"id": 532, "name": "HARBRINGER BOMBER", "pts": 350, "units": "One Harbinger Bomber", "upgrades": []},
 			{"id": 533, "name": "CHAOS BATTLESHIP", "pts": 200, "units": "One Despoiler Class Battleship", "upgrades": []}
       ]}
 
@@ -88,12 +88,12 @@
 		{"id":19, "name":"Heavy Plague Mortar (Nurgle Support Weapon (Carapace Only))",		"pts":0},
 		{"id":20, "name":"Beam of Ecstasy (Slaanesh Support Weapon (Arm Only))",		"pts":0},
 		
-		{"id":31, "name":"Infernal Projector (Chaos Undivided Battle Weapon (Arm))",		"pts":0},
-		{"id":32, "name":"Infernal Projector (Chaos Undivided Battle Weapon (Carapace))",		"pts":0},
+		{"id":31, "name":"Retlaxi Trident (Chaos Undivided Only Battle Weapon (Carapace Only))",		"pts":0},
+
 		{"id":33, "name":"Heretek Shrine (Chaos Undivided Battle Weapon (Carapace Only))",		"pts":0},
 		{"id":34, "name":"Battle Titan Close Combat Weapon (Chaos Undivided Close Combat Battle Weapon (Arm Only))",		"pts":0},
 		{"id":35, "name":"Havoc Barrage Missiles (Chaos Undivided Battle Weapon (Carapace Only))",		"pts":0},
-		{"id":36, "name":"Chaos Plasma Cremator (Chaos Undivided Only (Arm Only))",		"pts":0},
+		{"id":36, "name":"Chaos Plasma Cremator (Chaos Undivided Only Battle Weapon(Arm Only))",		"pts":0},
 
 		{"id":37, "name":"Doom Burner (Khorne Battle Weapon (Arm))",		"pts":0},
 		{"id":38, "name":"Doom Burner (Khorne Battle Weapon (Carapace))",		"pts":0},
@@ -175,6 +175,7 @@
 		{"id":202, "name":"Greater Daemon Possession & Chaos Plasma Cremator (Chaos Undivided Battle Weapon (Arm Only))",			"pts":50},
 		{"id":203, "name":"Greater Daemon Possession & Chaos Plasma Furnace (Chaos Undivided Scout Weapon (Arm))",			"pts":50},
 		{"id":204, "name":"Greater Daemon Possession & Chaos Plasma Furnace (Chaos Undivided Scout Weapon (Carapace))",			"pts":50},
+		{"id":236, "name":"Greater Daemon Possession & Retlaxi Trident (Chaos Undivided Battle Weapon (Carapace Only)",			"pts":50},	
 		
 		{"id":205, "name":"Greater Daemon Possession & Hellstrike Cannon (Khorne Support Weapon(Arm))",			"pts":50},
 		{"id":206, "name":"Greater Daemon Possession & Hellstrike Cannon (Khorne Support Weapon(Carapace))",			"pts":50},
@@ -212,10 +213,11 @@
 		
 		
 		{"id":240, "name":"Greater Daemon Possession",			"pts":0},
-		{"id":241, "name":"Greater Daemon Possession & Chaos Plasma Incinerator (Chaos Undivided Support Weapon (Arm only))",			"pts":0},
-		{"id":242, "name":"Greater Daemon Possession & Chaos Plasma Cremator (Chaos Undivided Battle Weapon (Arm only))",			"pts":0},
+		{"id":241, "name":"Greater Daemon Possession & Chaos Plasma Incinerator (Chaos Undivided Support Weapon (Arm Only))",			"pts":0},
+		{"id":242, "name":"Greater Daemon Possession & Chaos Plasma Cremator (Chaos Undivided Battle Weapon (Arm Only))",			"pts":0},
 		{"id":243, "name":"Greater Daemon Possession & Chaos Plasma Furnace (Chaos Undivided Scout Weapon (Arm))",			"pts":0},
 		{"id":244, "name":"Greater Daemon Possession & Chaos Plasma Furnace (Chaos Undivided Scout Weapon (Carapace))",			"pts":0},
+		{"id":275, "name":"Greater Daemon Possession & Retlaxi Trident (Chaos Undivided Battle Weapon (Carapace Only))",			"pts":0},
 		
 		{"id":245, "name":"Greater Daemon Possession & Hellstrike Cannon (Khorne Support Weapon(Arm))",			"pts":0},
 		{"id":246, "name":"Greater Daemon Possession & Hellstrike Cannon (Khorne Support Weapon(Carapace))",			"pts":0},
@@ -280,15 +282,15 @@
 		
 		
 		
-		{"id":400,	"name":"Death Wheel",	"pts":225},
-		{"id":401,	"name":"Lord of Battles",	"pts":325},
+		{"id":400,	"name":"Retlaxi-Pattern Death Wheel",	"pts":225},
+		{"id":401,	"name":"Lord of Battles",	"pts":250},
 		{"id":402,	"name":"Greater Brass Scorpion",	"pts":150},
 		{"id":403,	"name":"Subjugator Scout Titan",	"pts":175},
 		{"id":404,	"name":"Questor Scout Titan",	"pts":225},
 		
 		{"id":405,	"name":"Hell-Scourge",	"pts":75},
-		{"id":406,	"name":"Hell-Knight",	"pts":65},
-		{"id":407,	"name":"Hell-Strider",	"pts":55},
+		{"id":406,	"name":"Hell-Knight",	"pts":60},
+		{"id":407,	"name":"Hell-Strider",	"pts":0},
 		
 		{"id":408,	"name":"Renegade Knight of Chaos Undivided",	"pts":75},
 		{"id":409,	"name":"Mauler Knight of Khorne",	"pts":75},
@@ -319,66 +321,66 @@
 	"upgradeConstraints":[
 		{"min":1, "from":[240,245,246,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,272,273], "appliesTo":[501]},
 		{"min":1, "from":[240,241,242,243,244], "appliesTo":[502,503,504,505]},
-		{"max":1, "perArmy": true, "from": [240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,272,273], "appliesTo":[501,502,503,504,505]},
+		{"max":1, "perArmy": true, "from": [240,241,242,243,244,275,245,246,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,272,273], "appliesTo":[501,502,503,504,505]},
 		
 		{"max":3, "from":[10,11,12,13,14,15,16,17,18,19,20,241,242,245,246,247,248,249], "appliesTo":[501,502,503,504,505]},
 
 		{"min":1, "max":1, "from":[350,351,352], "appliesTo":[501]},
 		{"min":3, "max":3, "from":[355,356,357], "appliesTo":[501]},
-		{"max":2, "from":[11,13,14,32,33,35,52,54,56,246,247,248,251,253,256,257,260,264,266,268,270,272,274], "appliesTo":[501]},
-		{"max":2, "from":[10,12,15,31,34,36,51,53,55,245,249,250,252,254,255,258,259,261,262,263,265,267,269,271,273], "appliesTo":[501]},
+		{"max":2, "from":[11,13,14,31,33,35,52,54,56,246,247,248,251,253,256,257,260,264,266,268,270,272,274], "appliesTo":[501]},
+		{"max":2, "from":[10,12,15,34,36,51,53,55,245,249,250,252,254,255,258,259,261,262,263,265,267,269,271,273], "appliesTo":[501]},
 		
 		{"min":1, "max":1, "from":[351,352], "appliesTo":[502]},
 		{"min":1, "max":1, "from":[355,356,358], "appliesTo":[502]},
-		{"max":2, "from":[11,13,14,17,32,33,35,38,40,52,54,58,244], "appliesTo":[502]},
-		{"max":2, "from":[10,12,16,31,34,37,39,51,53,57,241,242,243], "appliesTo":[502]},
+		{"max":2, "from":[11,13,14,17,33,35,38,40,52,54,58,244,275], "appliesTo":[502]},
+		{"max":2, "from":[10,12,16,34,37,39,51,53,57,241,242,243], "appliesTo":[502]},
 		
 		{"min":1, "max":1, "from":[351,352], "appliesTo":[503]},
 		{"min":3, "max":3, "from":[355,356,359], "appliesTo":[503]},
-		{"max":2, "from":[11,13,14,32,33,35,49,52,54,69,244], "appliesTo":[503]},
-		{"max":2, "from":[10,12,20,31,34,48,50,51,53,68,241,242,243], "appliesTo":[503]},
+		{"max":2, "from":[11,13,14,33,35,49,52,54,69,244,275], "appliesTo":[503]},
+		{"max":2, "from":[10,12,20,34,48,50,51,53,68,241,242,243], "appliesTo":[503]},
 		
 		{"min":1, "max":1, "from":[354,352], "appliesTo":[504]},
-		{"max":2, "from":[11,13,14,19,32,33,35,44,47,52,54,65,67,244], "appliesTo":[504]},
-		{"max":2, "from":[10,12,31,34,45,46,51,53,64,66,241,242,243], "appliesTo":[504]},
+		{"max":2, "from":[11,13,14,19,33,35,44,47,52,54,65,67,244,275], "appliesTo":[504]},
+		{"max":2, "from":[10,12,34,45,46,51,53,64,66,241,242,243], "appliesTo":[504]},
 		
 		{"min":2, "max":2, "from":[353,352], "appliesTo":[505]},
-		{"max":2, "from":[11,13,14,18,32,33,35,43,52,54,61,63,244], "appliesTo":[505]},
-		{"max":2, "from":[10,12,31,34,41,42,51,53,60,62,241,242,243], "appliesTo":[505]},
+		{"max":2, "from":[11,13,14,18,33,35,43,52,54,61,63,244,275], "appliesTo":[505]},
+		{"max":2, "from":[10,12,34,41,42,51,53,60,62,241,242,243], "appliesTo":[505]},
 		
 
 		
-		{"max":1, "perArmy": true, "from": [200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235], "appliesTo":[506,507,508,509,510]},
+		{"max":1, "perArmy": true, "from": [200,201,202,203,204,236,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235], "appliesTo":[506,507,508,509,510]},
 		
 		{"max":1, "from":[10,11,12,13,14,15,16,17,18,19,20,201,205,206,207,208,209,210], "appliesTo":[506,507,508,509,510]},
 		
 		{"min":1, "max":1, "from":[350,351,352], "appliesTo":[506]},
 		{"min":1, "max":1, "from":[355,356,357], "appliesTo":[506]},
 		{"min":1, "from":[34,51,52,53,54,55,56,224,225,226,227,228,229,230,231,232,233,234,235,212,213,218,223,224,225,226,227,228,229,230,231,232,233,234,235], "appliesTo":[506]},
-		{"max":2, "from":[11,13,14,32,33,35,52,54,56,206,207,208,211,213,216,217,220,222,225,227,229,231,233,235], "appliesTo":[506]},
-		{"max":2, "from":[10,12,15,31,34,36,51,53,55,205,209,210,212,214,215,218,219,221,223,224,226,228,230,232,234], "appliesTo":[506]},
+		{"max":2, "from":[11,13,14,31,33,35,52,54,56,206,207,208,211,213,216,217,220,222,225,227,229,231,233,235], "appliesTo":[506]},
+		{"max":2, "from":[10,12,15,34,36,51,53,55,205,209,210,212,214,215,218,219,221,223,224,226,228,230,232,234], "appliesTo":[506]},
 		
 		{"min":1, "max":1, "from":[351,352], "appliesTo":[507]},
 		{"min":1, "max":1, "from":[355,356,358], "appliesTo":[507]},
 		{"min":1, "from":[34,39,40,51,52,53,54,57,58,203,204], "appliesTo":[507]},
-		{"max":2, "from":[11,13,14,17,32,33,35,38,40,52,54,58,204], "appliesTo":[507]},
-		{"max":2, "from":[10,12,16,31,34,37,39,51,53,57,201,202,203], "appliesTo":[507]},
+		{"max":2, "from":[11,13,14,17,33,35,38,40,52,54,58,204,236], "appliesTo":[507]},
+		{"max":2, "from":[10,12,16,34,37,39,51,53,57,201,202,203], "appliesTo":[507]},
 		
 		{"min":1, "max":1, "from":[351,352], "appliesTo":[508]},
 		{"min":1, "max":1, "from":[355,356,359], "appliesTo":[508]},		
 		{"min":1, "from":[34,51,52,53,54,50,68,69,203,204], "appliesTo":[508]},
-		{"max":2, "from":[11,13,14,32,33,35,49,52,54,69,204], "appliesTo":[508]},
-		{"max":2, "from":[10,12,20,31,34,48,50,51,53,68,201,202,203], "appliesTo":[508]},
+		{"max":2, "from":[11,13,14,33,35,49,52,54,69,204,236], "appliesTo":[508]},
+		{"max":2, "from":[10,12,20,34,48,50,51,53,68,201,202,203], "appliesTo":[508]},
 		
 		{"min":1, "max":1, "from":[354,352], "appliesTo":[509]},
 		{"min":1, "from":[34,45,51,52,53,54,64,65,66,67,203,204], "appliesTo":[509]},
-		{"max":2, "from":[11,13,14,19,32,33,35,44,47,52,54,65,67,204], "appliesTo":[509]},
-		{"max":2, "from":[10,12,31,34,45,46,51,53,64,66,201,202,203], "appliesTo":[509]},
+		{"max":2, "from":[11,13,14,19,33,35,44,47,52,54,65,67,204,236], "appliesTo":[509]},
+		{"max":2, "from":[10,12,34,45,46,51,53,64,66,201,202,203], "appliesTo":[509]},
 		
 		{"min":1, "max":1, "from":[353,352], "appliesTo":[510]},
 		{"min":1, "from":[34,51,52,53,54,60,61,62,63,203,204], "appliesTo":[510]},
-		{"max":2, "from":[11,13,14,18,32,33,35,43,52,54,61,63,204], "appliesTo":[510]},
-		{"max":2, "from":[10,12,31,34,41,42,51,53,60,62,201,202,203], "appliesTo":[510]},
+		{"max":2, "from":[11,13,14,18,33,35,43,52,54,61,63,204,236], "appliesTo":[510]},
+		{"max":2, "from":[10,12,34,41,42,51,53,60,62,201,202,203], "appliesTo":[510]},
 		
 		
 		
@@ -387,30 +389,30 @@
 		{"min":1, "max":1, "from":[350,351,352], "appliesTo":[511]},
 		{"min":1, "max":1, "from":[355,356,357], "appliesTo":[511]},
 		{"min":1, "from":[34,51,52,53,54,55,56], "appliesTo":[511]},
-		{"max":1, "from":[32,33,35,52,54,56,301,303,304], "appliesTo":[511]},
-		{"max":2, "from":[31,34,36,51,53,55,300,302,305], "appliesTo":[511]},
+		{"max":1, "from":[31,33,35,52,54,56,301,303,304], "appliesTo":[511]},
+		{"max":2, "from":[34,36,51,53,55,300,302,305], "appliesTo":[511]},
 		
 		{"min":1, "max":1, "from":[351,352], "appliesTo":[512]},
 		{"min":1, "max":1, "from":[355,356,358], "appliesTo":[512]},
 		{"min":1, "from":[34,39,40,51,52,53,54,57,58], "appliesTo":[512]},
-		{"max":1, "from":[32,33,35,38,40,52,54,58,301,303,304,307], "appliesTo":[512]},
-		{"max":2, "from":[31,34,37,39,51,53,57,300,302,306], "appliesTo":[512]},
+		{"max":1, "from":[33,35,38,40,52,54,58,301,303,304,307], "appliesTo":[512]},
+		{"max":2, "from":[34,37,39,51,53,57,300,302,306], "appliesTo":[512]},
 		
 		{"min":1, "max":1, "from":[351,352], "appliesTo":[513]},
 		{"min":1, "max":1, "from":[355,356,359], "appliesTo":[513]},
 		{"min":1, "from":[34,51,52,53,54,50,68,69], "appliesTo":[513]},
-		{"max":1, "from":[32,33,35,49,52,54,69,301,303,304], "appliesTo":[513]},
-		{"max":2, "from":[31,34,48,50,51,53,68,300,302,310], "appliesTo":[513]},
+		{"max":1, "from":[33,35,49,52,54,69,301,303,304], "appliesTo":[513]},
+		{"max":2, "from":[34,48,50,51,53,68,300,302,310], "appliesTo":[513]},
 		
 		{"min":1, "max":1, "from":[354,352], "appliesTo":[514]},
 		{"min":1, "from":[34,45,51,52,53,54,64,65,66,67], "appliesTo":[514]},
-		{"max":1, "from":[32,33,35,44,47,52,54,65,67,301,303,304,309], "appliesTo":[514]},
-		{"max":2, "from":[31,34,45,46,51,53,64,66,300,302], "appliesTo":[514]},
+		{"max":1, "from":[33,35,44,47,52,54,65,67,301,303,304,309], "appliesTo":[514]},
+		{"max":2, "from":[34,45,46,51,53,64,66,300,302], "appliesTo":[514]},
 		
 		{"min":1, "max":1, "from":[353,352], "appliesTo":[515]},
 		{"min":1, "from":[34,51,52,53,54,60,61,62,63], "appliesTo":[515]},
-		{"max":1, "from":[32,33,35,43,52,54,61,63,301,303,304,308], "appliesTo":[515]},
-		{"max":2, "from":[31,34,41,42,51,53,60,62,300,302], "appliesTo":[515]},
+		{"max":1, "from":[33,35,43,52,54,61,63,301,303,304,308], "appliesTo":[515]},
+		{"max":2, "from":[34,41,42,51,53,60,62,300,302], "appliesTo":[515]},
 		
 		
 		{"min":1, "max":1, "from":[350,351,352], "appliesTo":[551]},
@@ -440,7 +442,7 @@
 		
 		{"min":2, "max":4, "from":[405], "appliesTo":[570]},
 		{"min":3, "max":5, "from":[406], "appliesTo":[571]},		
-		{"min":4, "max":6, "from":[407], "appliesTo":[572]},	
+		{"min":6, "max":6, "from":[407], "appliesTo":[572]},	
 	
 		{"min":2, "max":4, "from":[408], "appliesTo":[573]},	
 		{"min":2, "max":4, "from":[409], "appliesTo":[574]},	
