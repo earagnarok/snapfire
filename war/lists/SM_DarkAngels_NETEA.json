@@ -8,7 +8,7 @@
 			{ "id":532, "name":"Land Raiders", "units":"3 Land Raiders",   "pts":250, "upgrades":[13,14,16,30] }
    	 ]},
 	 		{"name":"Dark Angles Support Detachments (Three Support Detachments may be taken for each Core Detachment)", "formations": [
-            { "id":502, "name":"Scout Infiltrators", "units":"4 Space Marine Sniper Scouts, 2 Rhinos",        "pts":200, "upgrades":[17] },
+            { "id":502, "name":"Scouts", "units":"4 Space Marine Sniper Scouts, 2 Rhinos",        "pts":200, "upgrades":[17] },
             { "id":503, "name":"Assaults", "units":"6 Dark Angels Assault Marines, 1 Dark Angels Captain",        "pts":275, "upgrades":[] },
             { "id":504, "name":"Devastators", "units":"4 Dark Angels Devastators plus Transport",        "pts":250, "upgrades":[13,14,17,19,31] },
 			{ "id":531, "name":"Predators", "units":"4 Predator Destructors", "pts":200, "upgrades":[13,14,31] },
