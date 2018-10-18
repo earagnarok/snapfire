@@ -10,13 +10,13 @@
 		
 		{"name":"Lugganath Warhosts (Max one Aspect Warrior Warhost for each Guardian Warhost)", "formations":[
 			{"id":510, "name":"Guardian Warhost",		 			"pts":250,	"units":"5 Guardians, 5 Lugganath Venoms",	"upgrades":[21,22]},
-			{"id":511, "name":"Aspect Warrior Warhost", 			"pts":250, "upgrades":[10,11,12]}
+			{"id":511, "name":"Aspect Warrior Warhost", 			"pts":250, "upgrades":[10,11]}
 		]},	
 		
 		{"name":"Lugganath Troupes (Max two Troupes for each Warhost)", "formations":[
 			{"id":520, "name":"Corsair Wasp Walkers",			"pts":150, "units":"4 Corsair Wasp Walkers", "upgrades":[]},
 			{"id":521, "name":"Corsair Ghost Walkers",			"pts":150, "units":"4 Corsair Ghost Walkers", "upgrades":[]},
-			{"id":522, "name":"Warp Spiders",			"pts":250, 	"units":"6 Warp Spiders", "upgrades":[10,13]},
+			{"id":522, "name":"Warp Spiders",			"pts":250, 	"units":"6 Warp Spiders", "upgrades":[10,11]},
 			{"id":523, "name":"Lugganath Wraithguard",	"pts":275,	"units":"3 D-Scythe Wraithguard, 3 Wave Serpents", "upgrades":[42]},
 			{"id":524, "name":"Swords of Vaul",			"pts":250, 	"upgrades":[42]},
 			{"id":525, "name":"Engine of Vaul",			"pts":50,	 "upgrades":[50,51]}
@@ -42,10 +42,8 @@
 	],
 	"upgrades":[
 		{"id":10, "name":"Autarch",					"pts":50},
-		{"id":11, "name":"Dire Avenger Exarch",		"pts":25},
-		{"id":12, "name":"Dark Reaper Exarch",		"pts":25},
-		{"id":13, "name":"Warp Spider Exarch",		"pts":25},
-		
+		{"id":11, "name":"Exarch",					"pts":25},
+
 
 		{"id":21, "name":"1 Farseer",				"pts":25},
 		{"id":22, "name":"Lugganath Jetbikes",		"pts":25},
@@ -93,9 +91,7 @@
 
 		{"min":4, "max":4, "from":[30,31], "appliesTo":[511]},
 		{"min":1, "max":1, "from":[33,34], "appliesTo":[511]},
-		{"max":1, "from":[11,12],  "appliesTo":[511]},
-		
-		{"max":1, "from":[13],  "appliesTo":[522]},
+		{"max":1, "from":[11],  "appliesTo":[511,522]},
 	
 		{"min":1, "max":1, "from":[40,41], "appliesTo":[524]},
 		
