@@ -1,6 +1,6 @@
 {
 	"id":"Craftworld Lugganath",
-	"version":"v1.1",
+	"version":"v1.2 <a href=\"http://www.tacticalwargames.net/taccmd/viewtopic.php?f=24&p=628761#p628761\">TCMD forum</a>",
 	"by":"Mrdiealot",
 	"sections":[
 		{"name":"Webway Portal and Avatar of Khaine", "formations":[
@@ -14,8 +14,8 @@
 		]},	
 		
 		{"name":"Lugganath Troupes (Max two Troupes for each Warhost)", "formations":[
-			{"id":520, "name":"Wasp Walkers",			"pts":150, "units":"4 Corsair Wasp Walkers", "upgrades":[]},
-			{"id":521, "name":"Ghost Walkers",			"pts":150, "units":"4 Corsair Ghost Walkers", "upgrades":[]},
+			{"id":520, "name":"Corsair Wasp Walkers",			"pts":150, "units":"4 Corsair Wasp Walkers", "upgrades":[]},
+			{"id":521, "name":"Corsair Ghost Walkers",			"pts":150, "units":"4 Corsair Ghost Walkers", "upgrades":[]},
 			{"id":522, "name":"Warp Spiders",			"pts":250, 	"units":"6 Warp Spiders", "upgrades":[10,13]},
 			{"id":523, "name":"Lugganath Wraithguard",	"pts":275,	"units":"3 D-Scythe Wraithguard, 3 Wave Serpents", "upgrades":[42]},
 			{"id":524, "name":"Swords of Vaul",			"pts":250, 	"upgrades":[42]},
@@ -32,9 +32,9 @@
 		
 		{"name":"Fir-Iolarion Titans, Wraithknights and Eldar Navy (Max 33%)", "formations":[
 			{"id":540, "name":"Nightwings",	"pts":225, "units":"2 Nightwing Interceptors", "upgrades":[]},
-			{"id":541, "name":"Phantom Titan",	"pts":775,  "units":"1 Fir-Iolarion Phantom Titan", "upgrades":[]},
-			{"id":542, "name":"Vampire Hunter","pts":225, "units":"1 Vampire Hunter", "upgrades":[]},
-			{"id":543, "name":"Wraithknights","pts":350, "units":"3 Lugganath Wraithknights", "upgrades":[]},
+			{"id":541, "name":"Fir-Iolarion Phantom Titan",	"pts":775,  "units":"1 Fir-Iolarion Phantom Titan", "upgrades":[]},
+			{"id":542, "name":"Corsair Vampire Hunter","pts":225, "units":"1 Corsair Vampire Hunter", "upgrades":[]},
+			{"id":543, "name":"Lugganath Wraithknights","pts":375, "units":"3 Lugganath Wraithknights", "upgrades":[]},
 			{"id":544, "name":"Hemlock Wraithfighters",	"pts":225, "units":"2 Hemlock Wraithfighters", "upgrades":[]},
 			{"id":545, "name":"Wraithship",	"pts":150, "upgrades":[]},
 			{"id":546, "name":"Dragonship",	"pts":300, "upgrades":[]}
@@ -58,8 +58,8 @@
 		{"id":34, "name":"4 Falcons",				"pts":75},
 
 	
-		{"id":40, "name":"Falcon",					"pts":0},
-		{"id":41, "name":"Warp Hunter",				"pts":0},
+		{"id":40, "name":"5 Falcons",					"pts":0},
+		{"id":41, "name":"5 Fire Prisms",				"pts":50},
 		{"id":42, "name":"Firestorm",				"pts":50},
 		
 
@@ -97,8 +97,7 @@
 		
 		{"max":1, "from":[13],  "appliesTo":[522]},
 	
-		{"min":5, "max":5, "from":[40,41], "appliesTo":[524]},
-		{"max":2, "from":[41], "appliesTo":[524]},
+		{"min":1, "max":1, "from":[40,41], "appliesTo":[524]},
 		
 		{"max":1, "from":[42], "appliesTo":[511,523,524]},
 		
