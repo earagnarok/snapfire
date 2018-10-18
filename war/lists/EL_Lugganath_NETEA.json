@@ -48,7 +48,7 @@
 		
 
 		{"id":21, "name":"1 Farseer",				"pts":25},
-		{"id":22, "name":"Jetbike",					"pts":25},
+		{"id":22, "name":"Lugganath Jetbikes",		"pts":25},
 		
 
 		{"id":30, "name":"Dire Avenger",			"pts":0},
@@ -58,8 +58,8 @@
 		{"id":34, "name":"4 Falcons",				"pts":75},
 
 	
-		{"id":40, "name":"5 Falcons",					"pts":0},
-		{"id":41, "name":"5 Fire Prisms",				"pts":50},
+		{"id":40, "name":"5 Falcons",				"pts":0},
+		{"id":41, "name":"5 Fire Prisms",			"pts":50},
 		{"id":42, "name":"Firestorm",				"pts":50},
 		
 
