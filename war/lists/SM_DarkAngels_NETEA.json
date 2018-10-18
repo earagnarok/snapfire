@@ -1,6 +1,6 @@
 {
 	"id":"Dark Angels",
-	"version":"NetEA Dark Angels v1.9 <a href=\"http://www.taccmd.tacticalwargames.net/viewtopic.php?f=73&t=32991\">TCMD forum</a>",
+	"version":"NetEA Dark Angels v1.91 <a href=\"http://www.taccmd.tacticalwargames.net/viewtopic.php?f=73&t=32991\">TCMD forum</a>",
 	"by":"Mrdiealot",
 "sections":[
 		{"name":"Dark Angles Core Detachments", "formations": [
@@ -21,7 +21,7 @@
      ]},
 	 		{"name":"Deathwing & Ravenwing Specialist Detachments (Three Specialist Detachments may be taken for each Strike Detachment)", "formations": [
 			{ "id":513, "name":"Deathwing Overwatch", "units":"4 Deathwing Cyclone Terminators",        "pts":350, "upgrades":[13,14] },
-			{ "id":514, "name":"Deathwing Knights", "units":"4 Deathwing Knights, 2 Interrogator Chaplains",        "pts":400, "upgrades":[] },
+			{ "id":514, "name":"Deathwing Knights", "units":"3 Deathwing Knights, 1 Deathwing Terminators, 1 Interrogator Chaplain, 1 Librarian",        "pts":400, "upgrades":[] },
 			{ "id":515, "name":"Deathwing Dreadnoughts", "units":"5 Deathwing Dreadnoughts plus Transport",        "pts":300, "upgrades":[] },	  
 			{ "id":522, "name":"Ravenwing Support",       "pts":200, "upgrades":[] }
      ]},
