@@ -1,14 +1,14 @@
 {
   "id": "Hive Fleet Dagon",
-  "version": "4.51 <a href=\"http://www.taccmd.tacticalwargames.net/viewtopic.php?f=21&t=32946\">TCMD forum</a>",
+  "version": "4.61b <a href=\"http://www.taccmd.tacticalwargames.net/viewtopic.php?f=21&t=32946\">TCMD forum</a>",
   "by": "Argol & MrDieAlot",
   "sections": [
     {
-      "name": "Primary Nexus Swarms",
+      "name": "Primary Synapse Swarms",
       "formations": [
         {
           "id": 501,
-          "name": "Hive Nexus Swarm (3-5 Instinctive Swarms)",
+          "name": "Nexus Swarm (2-4 Instinctive Swarms)",
           "pts": 400,
 		  "units": "Dagon Dominatrix",
           "upgrades": [
@@ -34,7 +34,7 @@
         },
         {
           "id": 502,
-          "name": "Major Swarm (3-5 Instinctive Swarms)",
+          "name": "Major Swarm (2-4 Instinctive Swarms)",
           "pts": 150,
           "upgrades": [
 		  	101,
@@ -84,8 +84,24 @@
       ]
     },
 	{
-      "name": "Secondary Nexus Swarms (One Secondary Nexus Swarm may be taken for each Primary Nexus Swarm)",
+      "name": "Secondary Synapse Swarms (One Secondary Synapse Swarm may be taken for each Primary Synapse Swarm)",
       "formations": [
+	  	    {
+          "id": 512,
+          "name": "Hive Swarm (1-2 Instinctive Swarms)",
+          "pts": 0,
+          "upgrades": [
+			101,
+			102,
+			103,
+			104,
+			105,
+			108,
+			111,
+			112
+		  
+          ]
+		},
 	    {
           "id": 509,
           "name": "Attack Swarm (1-2 Instinctive Swarms)",
@@ -111,13 +127,8 @@
           "name": "Infestation Swarm (1-2 Instinctive Swarms)",
           "pts": 0,
            "upgrades": [
-            101,
-			102,
-			103,
-			104,
-			105,
-            117,
-			118
+			118,
+			117
           ]
         },
         {
@@ -133,7 +144,7 @@
       ]
     },
     {
-      "name": "Common Independent Swarms (One Common Independent Swarm may be taken for each Primary Nexus Swarm. // Max 33% of the list may be taken from this section)",
+      "name": "Common Independent Swarms (One Common Independent Swarm may be taken for each Primary Synapse Swarm. // Max 33% of the list may be taken from this section)",
       "formations": [
         {
           "id": 506,
@@ -155,7 +166,7 @@
       ]
     },
     {
-      "name": "Rare Independent Swarms (One Rare Independent Swarm may be taken for each Primary Nexus Swarm. // Max 33% of the list may be taken from this section)",
+      "name": "Rare Independent Swarms (One Rare Independent Swarm may be taken for each Primary Synapse Swarm. // Max 33% of the list may be taken from this section)",
       "formations": [
     {
           "id": 510,
@@ -223,12 +234,12 @@
     {
       "id": 111,
       "name": "Bio-Support (3 Dagon Dactylis)",
-      "pts": 125
+      "pts": 150
     },
     {
       "id": 112,
-      "name": "Bio-Support (3 Dagon Exocrine)",
-      "pts": 125
+      "name": "Bio-Support (4 Dagon Exocrine)",
+      "pts": 150
     },
     {
       "id": 113,
@@ -252,13 +263,13 @@
     },
     {
       "id": 117,
-      "name": "Burrower (1 Trygon)",
-      "pts": 50
+      "name": "Burrower (2 Trygons)",
+      "pts": 100
     },
 		{
       "id": 118,
-      "name": "Burrower (3 Dagon Raveners)",
-      "pts": 50
+      "name": "Burrower (6 Raveners)",
+      "pts": 100
     },
     {
       "id": 120,
@@ -287,8 +298,8 @@
     },
     {
       "id": 150,
-      "name": "Harpies",
-      "pts": 50
+      "name": "2 Harpies",
+      "pts": 100
     },
     {
       "id": 160,
@@ -309,6 +320,41 @@
       "id": 171,
       "name": "Hive Ship (May carry 5 Mycetic Spores including cargo)",
       "pts": 250
+    },
+    {
+	  "id": 180,
+      "name": "Gaunts (4 Termagaunts)",
+      "pts": 50
+    },
+	{
+      "id": 181,
+      "name": "Gaunts (3 Termagaunts, 1 Hormagaunt)",
+      "pts": 50
+    },
+	    {
+      "id": 182,
+      "name": "Gaunts (2 Termagaunts, 2 Hormagaunts)",
+      "pts": 50
+    },
+	    {
+      "id": 183,
+      "name": "Gaunts (1 Termagaunts, 3 Hormagaunts)",
+      "pts": 50
+    },
+	    {
+      "id": 184,
+      "name": "Gaunts (4 Hormagaunts)",
+      "pts": 50
+    },
+	{
+      "id": 185,
+      "name": "Biovores (4 Biovores)",
+      "pts": 75
+    },
+    {
+      "id": 186,
+      "name": "Gargoyles (4 Dagon Gargoyles)",
+      "pts": 50
     },
     {
       "id": 201,
@@ -374,6 +420,11 @@
       "id": 217,
       "name": "Scythed Hierodule Prime",
       "pts": 150
+    },
+		{
+      "id": 218,
+      "name": "Hive Nest",
+      "pts": 125
     }
   ],
   "formationConstraints": [
@@ -403,7 +454,8 @@
       "from": [
         504,
         505,
-		509
+		509,
+		512
       ],
       "forEach": [
         501,
@@ -432,9 +484,7 @@
       "from": [
         508,
         510,
-        511,
-		512,
-		513
+        511
       ]
     },
     {
@@ -491,8 +541,8 @@
       ]
     },
 	{
-	  "min": 3,
-      "max": 5,
+	  "min": 2,
+      "max": 4,
       "from": [
         101,
         102,
@@ -542,8 +592,8 @@
       ]
     },
     {
-      "max": 5,
-      "min": 3,
+      "max": 4,
+      "min": 2,
       "from": [
         101,
         102,
@@ -581,27 +631,20 @@
       ]
     },
     {
-      "max": 2,
+      "max": 3,
+      "min": 1,
       "from": [
-        202
-      ],
-      "appliesTo": [
-        503
-      ]
-    },
-    {
-      "max": 4,
-      "min": 2,
-      "from": [
-        101,
-        102,
-        103,
-        104,
-        105,
+		101,
+		102,
+		103,
+		104,
+		105,
 		107,
-        108,
-        109,
+		108,
+		109,
         110,
+		111,
+		112,
 		113,
 		114,
 		115,
@@ -612,6 +655,59 @@
       ],
       "appliesTo": [
         503
+      ]
+    },
+	{
+	  "max": 1,
+      "min": 1,
+      "from": [
+        180,
+        181,
+        182,
+        183,
+        184,
+		185,
+		186
+      ],
+      "appliesTo": [
+        503
+      ]
+    },
+	{
+      "max": 1,
+      "min": 1,
+      "from": [
+		218
+      ],
+      "appliesTo": [
+        512
+      ]
+    },
+	{
+      "max": 2,
+      "min": 1,
+      "from": [
+        101,
+        102,
+        103,
+        104,
+        105,
+		108,
+		109
+      ],
+      "appliesTo": [
+        512
+      ]
+    },
+	{
+      "max": 1,
+      "min": 0,
+      "from": [
+		111,
+		112
+      ],
+      "appliesTo": [
+        512
       ]
     },
 	{
@@ -661,27 +757,8 @@
       "max": 2,
       "min": 1,
       "from": [
-        101,
-        102,
-		103,
-		104,
-		105,
-        117,
-		118
-      ],
-      "appliesTo": [
-        504
-      ]
-    },
-	{
-      "max": 1,
-      "min": 0,
-      "from": [
-        101,
-        102,
-		103,
-		104,
-		105
+		118,
+		117
       ],
       "appliesTo": [
         504
