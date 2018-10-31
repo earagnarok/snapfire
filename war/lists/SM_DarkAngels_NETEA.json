@@ -1,13 +1,13 @@
 {
 	"id":"Dark Angels",
-	"version":"NetEA Dark Angels v1.91 <a href=\"http://www.taccmd.tacticalwargames.net/viewtopic.php?f=73&t=32991\">TCMD forum</a>",
+	"version":"NetEA Dark Angels v1.93 <a href=\"http://www.taccmd.tacticalwargames.net/viewtopic.php?f=73&t=32991\">TCMD forum</a>",
 	"by":"Mrdiealot",
 "sections":[
 		{"name":"Dark Angles Core Detachments", "formations": [
             { "id":501, "name":"Tacticals", "units":"6 Tacticals plus Transport",        "pts":275, "upgrades":[13,14,16,17,19,31] },
 			{ "id":532, "name":"Land Raiders", "units":"3 Land Raiders",   "pts":250, "upgrades":[13,14,16,30] }
    	 ]},
-	 		{"name":"Dark Angles Support Detachments (Three Support Detachments may be taken for each Core Detachment)", "formations": [
+	 		{"name":"Dark Angles Support Detachments (Four Support Detachments may be taken for each Core Detachment)", "formations": [
             { "id":502, "name":"Scouts", "units":"4 Space Marine Sniper Scouts, 2 Rhinos",        "pts":200, "upgrades":[17] },
             { "id":503, "name":"Assaults", "units":"6 Dark Angels Assault Marines, 1 Dark Angels Captain",        "pts":275, "upgrades":[] },
             { "id":504, "name":"Devastators", "units":"4 Dark Angels Devastators plus Transport",        "pts":250, "upgrades":[13,14,17,19,31] },
@@ -19,8 +19,8 @@
 		    { "id":511, "name":"Deathwing Terminators", "units":"4 Deathwing Terminators",        "pts":350, "upgrades":[13,14,15,16,22] },
 			{ "id":521, "name":"Ravenwing Attack", "units":"1x Ravenwing Black Knights, 3x Ravenwing Land Speeder",        "pts":350, "upgrades":[13,14,15,16] }
      ]},
-	 		{"name":"Deathwing & Ravenwing Specialist Detachments (Three Specialist Detachments may be taken for each Strike Detachment)", "formations": [
-			{ "id":513, "name":"Deathwing Overwatch", "units":"4 Deathwing Cyclone Terminators",        "pts":350, "upgrades":[13,14] },
+	 		{"name":"Deathwing & Ravenwing Specialist Detachments (Four Specialist Detachments may be taken for each Strike Detachment)", "formations": [
+			{ "id":513, "name":"Deathwing Overwatch", "units":"4 Deathwing Cyclone Terminators",        "pts":400, "upgrades":[13,14] },
 			{ "id":514, "name":"Deathwing Knights", "units":"3 Deathwing Knights, 1 Deathwing Terminators, 1 Interrogator Chaplain, 1 Librarian",        "pts":400, "upgrades":[] },
 			{ "id":515, "name":"Deathwing Dreadnoughts", "units":"5 Deathwing Dreadnoughts plus Transport",        "pts":300, "upgrades":[] },	  
 			{ "id":522, "name":"Ravenwing Support",       "pts":200, "upgrades":[] }
@@ -61,9 +61,9 @@
 	],
 	"formationConstraints":[
 	
-	{"max":3, "name":"Dark Angels Support Detachments", "from":[502,503,504,531,533,534], "forEach":[501,532], "name2":"Dark Angels Core Detachments"},
+	{"max":4, "name":"Dark Angels Support Detachments", "from":[502,503,504,531,533,534], "forEach":[501,532], "name2":"Dark Angels Core Detachments"},
 	
-	{"max":3, "name":"Deathwing & Ravenwing Specialist Detachments", "from":[513,514,515,522], "forEach":[511,521], "name2":"Deathwing & Ravenwing Strike Detachments"},
+	{"max":4, "name":"Deathwing & Ravenwing Specialist Detachments", "from":[513,514,515,522], "forEach":[511,521], "name2":"Deathwing & Ravenwing Strike Detachments"},
 	
 	{"maxPercent":34, "name":"Dark Angels Navy", "from":[523,524,542,543]},
 	
