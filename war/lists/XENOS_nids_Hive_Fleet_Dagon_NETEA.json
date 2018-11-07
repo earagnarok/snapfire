@@ -1,6 +1,6 @@
 {
   "id": "Hive Fleet Dagon",
-  "version": "4.62 <a href=\"http://www.taccmd.tacticalwargames.net/viewtopic.php?f=21&t=32946\">TCMD forum</a>",
+  "version": "4.7b <a href=\"http://www.taccmd.tacticalwargames.net/viewtopic.php?f=21&t=32946\">TCMD forum</a>",
   "by": "Argol & MrDieAlot",
   "sections": [
     {
@@ -12,6 +12,7 @@
           "pts": 400,
 		  "units": "Dagon Dominatrix",
           "upgrades": [
+			100,
 			101,
 			102,
 			103,
@@ -35,8 +36,9 @@
         {
           "id": 502,
           "name": "Major Swarm (2-4 Instinctive Swarms)",
-          "pts": 150,
+          "pts": 175,
           "upgrades": [
+			100,
 		  	101,
 			102,
 			103,
@@ -63,6 +65,7 @@
           "name": "Minor Swarm (2-4 Instinctive Swarms)",
           "pts": 100,
           "upgrades": [
+			100,
 			101,
 			102,
 			103,
@@ -110,6 +113,7 @@
           "name": "Attack Swarm (1-2 Instinctive Swarms)",
           "pts": 0,
           "upgrades": [
+			100,
 			101,
 			102,
 			103,
@@ -190,28 +194,33 @@
   ],
   "upgrades": [
     {
+      "id": 100,
+      "name": "Gaunts (5 Termagaunts)",
+      "pts": 50
+    },
+    {
       "id": 101,
-      "name": "Gaunts (4 Termagaunts)",
+      "name": "Gaunts (4 Termagaunts, 1 Hormagaunt)",
       "pts": 50
     },
 	    {
       "id": 102,
-      "name": "Gaunts (3 Termagaunts, 1 Hormagaunt)",
+      "name": "Gaunts (3 Termagaunts, 2 Hormagaunt)",
       "pts": 50
     },
 	    {
       "id": 103,
-      "name": "Gaunts (2 Termagaunts, 2 Hormagaunts)",
+      "name": "Gaunts (2 Termagaunts, 3 Hormagaunts)",
       "pts": 50
     },
 	    {
       "id": 104,
-      "name": "Gaunts (1 Termagaunts, 3 Hormagaunts)",
+      "name": "Gaunts (1 Termagaunts, 4 Hormagaunts)",
       "pts": 50
     },
 	    {
       "id": 105,
-      "name": "Gaunts (4 Hormagaunts)",
+      "name": "Gaunts (5 Hormagaunts)",
       "pts": 50
     },
     {
@@ -232,17 +241,17 @@
     {
       "id": 110,
       "name": "Carnifex (3 Carnifex)",
-      "pts": 100
+      "pts": 125
     },
     {
       "id": 111,
       "name": "Bio-Support (3 Dagon Dactylis)",
-      "pts": 150
+      "pts": 125
     },
     {
       "id": 112,
       "name": "Bio-Support (4 Dagon Exocrine)",
-      "pts": 150
+      "pts": 125
     },
     {
       "id": 113,
@@ -251,7 +260,7 @@
     },
     {
       "id": 114,
-      "name": "Bio-Attack (2 Malefactors)",
+      "name": "Bio-Attack (2 Dagon Malefactors)",
       "pts": 75
     },
     {
@@ -271,7 +280,7 @@
     },
 		{
       "id": 118,
-      "name": "Burrower (6 Raveners)",
+      "name": "Burrower (5 Raveners)",
       "pts": 100
     },
     {
@@ -325,28 +334,33 @@
       "pts": 250
     },
     {
+	  "id": 179,
+      "name": "Gaunts (5 Termagaunts)",
+      "pts": 50
+    },
+    {
 	  "id": 180,
-      "name": "Gaunts (4 Termagaunts)",
+      "name": "Gaunts (4 Termagaunts, 1 Hormagaunt)",
       "pts": 50
     },
 	{
       "id": 181,
-      "name": "Gaunts (3 Termagaunts, 1 Hormagaunt)",
+      "name": "Gaunts (3 Termagaunts, 2 Hormagaunt)",
       "pts": 50
     },
 	    {
       "id": 182,
-      "name": "Gaunts (2 Termagaunts, 2 Hormagaunts)",
+      "name": "Gaunts (2 Termagaunts, 3 Hormagaunts)",
       "pts": 50
     },
 	    {
       "id": 183,
-      "name": "Gaunts (1 Termagaunts, 3 Hormagaunts)",
+      "name": "Gaunts (1 Termagaunts, 4 Hormagaunts)",
       "pts": 50
     },
 	    {
       "id": 184,
-      "name": "Gaunts (4 Hormagaunts)",
+      "name": "Gaunts (5 Hormagaunts)",
       "pts": 50
     },
 	{
@@ -547,6 +561,7 @@
 	  "min": 2,
       "max": 4,
       "from": [
+		100,
         101,
         102,
         103,
@@ -583,8 +598,8 @@
       ]
     },
     {
-      "max": 3,
-      "min": 3,
+      "max": 4,
+      "min": 4,
       "from": [
         201,
         202,
@@ -598,6 +613,7 @@
       "max": 4,
       "min": 2,
       "from": [
+		100,
         101,
         102,
         103,
@@ -637,6 +653,7 @@
       "max": 3,
       "min": 1,
       "from": [
+		100,
 		101,
 		102,
 		103,
@@ -664,6 +681,7 @@
 	  "max": 1,
       "min": 1,
       "from": [
+		179,
         180,
         181,
         182,
@@ -728,6 +746,7 @@
       "max": 2,
       "min": 1,
       "from": [
+		100,
         101,
         102,
         103,
