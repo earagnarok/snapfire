@@ -96,6 +96,7 @@
           "name": "Hive Swarm (1-2 Instinctive Swarms)",
           "pts": 0,
           "upgrades": [
+			100,
 			101,
 			102,
 			103,
