@@ -1,6 +1,6 @@
 {
 	"id":"Questoris Mechanicus",
-	"version":"v1.53 <a href=\"http://www.taccmd.tacticalwargames.net/viewtopic.php?f=22&t=33209\">TCMD forum</a>",
+	"version":"v1.55 <a href=\"http://www.taccmd.tacticalwargames.net/viewtopic.php?f=22&t=33209\">TCMD forum</a>",
 	"by":"MrDieAlot",
 	"notes":[],
 	"sections":[
@@ -26,8 +26,9 @@
             {"id":515, "name":"Maruder Squadron",				"pts":225,  "upgrades":[], "units":"2 Maruder Bombers"},
 			
 			{"id":520, "name":"Warhound Scout Titan Pack",	"pts":500, "upgrades":[], "units":"2 Warhound Titans"},
-			{"id":521, "name":"Legio Metalica Reaver Titan",			"pts":600, "upgrades":[], "units":"1 Legio Metalica Reaver Titan"},
-			{"id":522, "name":"Legio Metalica Warlord Titan", 		"pts":775, "upgrades":[],"units":"1 Legio Metalica Warlord"}
+			{"id":521, "name":"Legio Metalica Reaver Titan",			"pts":650, "upgrades":[], "units":"1 Legio Metalica Reaver Titan"},
+			
+			{"id":522, "name":"Orbital Support", 		"pts":150, "upgrades":[]}
 			
 		]}
 	],	
@@ -78,7 +79,10 @@
 		{"id":166, "name":"Questoris Relic Knight-Magaera w. Seneschal (Lightning C, Rad Cleanser, Siege Claw, Ionic Shield)",								"pts":100},
 		
 		{"id":170, "name":"Onager Dune Crawler with Eradication Beamer",			 																		"pts":0},	
-		{"id":171, "name":"Onager Dune Crawler with Icarus Array",																							"pts":0}
+		{"id":171, "name":"Onager Dune Crawler with Icarus Array",																							"pts":0},
+		
+		{"id":180, "name":"Lunar Class Cruiser",																											"pts":0},
+		{"id":181, "name":"Emperor Class Battleship",																										"pts":25}
 		
     ],
 	"formationConstraints":[
@@ -88,6 +92,7 @@
 		{"maxPercent":34, "name":"Mechanicus Allies", "from":[510,512,513,514,515,520,521,522,530]},
 		{"max":1, "perArmy":true, "from":[503]},
 		{"max":1, "perArmy":true, "from":[504]},
+		{"max":1, "perArmy":true, "from":[522]},
 		{"max":1, "perArmy":true, "from":[530]}
 		
 	],
@@ -119,7 +124,9 @@
 		{"min":4, "max":4, "from":[170,171], "appliesTo":[512]},
 		
 		
-		{"min":2, "max":2, "from":[164,163], "appliesTo":[504]}
+		{"min":2, "max":2, "from":[164,163], "appliesTo":[504]},
+		
+		{"min":1, "max":1, "from":[180,181], "appliesTo":[522]}
 	
 				
 	]
