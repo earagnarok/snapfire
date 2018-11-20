@@ -1,6 +1,6 @@
 {
 	"id":"Questoris Mechanicus",
-	"version":"v1.56 <a href=\"http://www.taccmd.tacticalwargames.net/viewtopic.php?f=22&t=33209\">TCMD forum</a>",
+	"version":"v1.57 <a href=\"http://www.taccmd.tacticalwargames.net/viewtopic.php?f=22&t=33209\">TCMD forum</a>",
 	"by":"MrDieAlot",
 	"notes":[],
 	"sections":[
@@ -11,14 +11,14 @@
 			{"id":501, "name":"Cerastus",	"pts":300,  "upgrades":[113,114,115,116]}
 	    ]},
 		{"name":"Arminger Lances / / Max 1 Arminger Lance per Questoris or Cerastus Lance", "formations":[
-			{"id":502, "name":"Arminger",			"pts":150, "upgrades":[]}
+			{"id":502, "name":"Arminger",			"pts":175, "upgrades":[]}
 		]},
 		{"name":"Relic Lances / / Max 1 of each Relic Lance per Army", "formations":[
 			{"id":503, "name":"Questoris Reliquae",	"pts":100,  "upgrades":[160,161,165,166,163,164]},
-			{"id":504, "name":"Acastus Reliquae",	"pts":75,  "upgrades":[]}
+			{"id":504, "name":"Acastus Reliquae",	"pts":100,  "upgrades":[]}
 		]},
 		{"name":"Allies / / Max 1 per Questoris Lance / / Max 33%", "formations":[
-			{"id":510, "name":"Skitarii",		"pts":325,  "upgrades":[], "units":"2 Secutors, 8 Hypaspists, 1 Ordinatus Minorus-Corvus"},
+			{"id":510, "name":"Skitarii",		"pts":300,  "upgrades":[], "units":"2 Secutors, 8 Hypaspists, 1 Ordinatus Minorus-Corvus"},
 
 			{"id":512, "name":"Dune Crawlers",		"pts":200,  "upgrades":[]},
 			
@@ -121,7 +121,7 @@
 		{"min":0, "max":1, "from":[165,166,163,164], "appliesTo":[503]},
 		
 
-		{"min":4, "max":4, "from":[170,171], "appliesTo":[512]},
+		{"min":5, "max":5, "from":[170,171], "appliesTo":[512]},
 		
 		
 		{"min":2, "max":2, "from":[164,163], "appliesTo":[504]},
