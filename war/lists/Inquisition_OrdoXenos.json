@@ -16,8 +16,8 @@
       },
       {"name": "Imperial Allies ",
          "formations": [
-            {"id": 701, "name": "Imperial Guardsmen", "pts": 250, "units": "1 Commander,1 Commissar, 12 Imperial Guardsmen", "upgrades": [17]},
-            {"id": 702, "name": "Tank Auxiliary ", "pts": 300, "units": "6 Leman Russ Tanks", "upgrades": []},
+            {"id": 701, "name": "Imperial Guardsmen", "pts": 250, "units": "1 Commander,1 Commissar, 12 Imperial Guardsmen", "upgrades": [17,18]},
+            {"id": 702, "name": "Tank Auxiliary ", "pts": 300, "units": "6 Leman Russ Tanks", "upgrades": [18]},
             {"id": 703, "name": "Superheavy Tank", "pts": 0, "upgrades": []},
             {"id": 704, "name": "Vendettas", "pts": 275, "units": "4 Vendettas", "upgrades": []}
          ]
