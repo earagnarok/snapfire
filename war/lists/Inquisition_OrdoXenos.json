@@ -10,7 +10,7 @@
       },
       {"name": "Inquisitorial Forces",
          "formations": [
-            {"id": 601, "name": "Inquisitorial Storm Troopers ", "pts": 225, "units": "Inquisitor, 8 Inquisitorial Storm Troopers ", "upgrades": [15,16]},
+            {"id": 601, "name": "Inquisitorial Storm Troopers ", "pts": 200, "units": "Inquisitor, 8 Inquisitorial Storm Troopers ", "upgrades": [15,16]},
             {"id": 602, "name": "Warrior Acolytes", "pts": 125, "units": "6 Warrior Acolytes", "upgrades": []}
          ]
       },
