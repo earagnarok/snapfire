@@ -19,20 +19,20 @@
 			{"id":504, "name":"Bike Company",	"pts":275, "units":"8 Chaos Space Marines Bikes", "upgrades":[14,70]},
 			{"id":505, "name":"Raptor Cult",	"pts":225, "units":"6 Chaos Raptors", "upgrades":[70,80]},
 			{"id":506, "name":"Predator Company", "units":"4 Chaos Predators", "pts":200, "upgrades":[43,44] },
-			{"id":507, "name":"Havocs",	"pts":225, "units":"4 Havocs", "upgrades":[43,70]}
+			{"id":507, "name":"Havocs",	"pts":225, "units":"4 Havocs", "upgrades":[43,44,70]}
 		]},
 		{"name":"BLACK LEGION DAEMON ENGINES, TITANS AND CHAOS NAVY FORMATIONS", "formations":[
-			{"id":511, "name":"Death Wheels",	"pts":0, "upgrades":[60]},
-			{"id":512, "name":"Decimators", "pts":0, "upgrades":[61]},
-			{"id":513, "name":"Defilers", "pts":0,  "units": "4 Defilers of Chaos Undivided", "upgrades":[]},
-			{"id":514, "name":"Chaos Warhound",	"pts":50, "upgrades":[62]},
+			{"id":511, "name":"Death Wheels",	"pts":50, "upgrades":[60]},
+			{"id":512, "name":"Decimators", "pts":50, "upgrades":[61]},
+			{"id":513, "name":"Defilers", "pts":225,  "units": "4 Defilers of Chaos Undivided", "upgrades":[]},
+			{"id":514, "name":"Chaos Warhounds",	"pts":50, "upgrades":[62]},
 			{"id":515, "name":"Chaos Reaver",		"units": "1 Chaos Reaver Titan", 	"pts":600, "upgrades":[]},
 			{"id":516, "name":"Chaos Warlord",	"units": "1 Chaos Warlord Titan",	"pts":750, "upgrades":[]},
 			{"id":517, "name":"Harbinger", 	"pts":325, "units": "1 Harbinger Bomber", "upgrades":[]},
 			{"id":518, "name":"Hell Blades",	"pts":200, "units":"3 Hell Blade Fighters", "upgrades":[]},
 			{"id":519, "name":"Hell Talons",	"pts":225, "units":"2 Hell Talon Bombers", "upgrades":[]},
-			{"id":520, "name":"Devastation Class Cruiser",	"pts":150, "upgrades":[]}, 
-			{"id":521, "name":"Despoiler Class Battleship","pts":225, "upgrades":[]}
+			{"id":520, "name":"Devastation Class Cruiser",	"pts":150,  "units":"1 Devastation Class Cruiser",  "upgrades":[]}, 
+			{"id":521, "name":"Despoiler Class Battleship","pts":225,   "units":"1 Despoiler Class Battleship", "upgrades":[]}
 			]}
 	],
 	"upgrades":[
@@ -69,7 +69,7 @@
 		
 		{"id":60, "name":"Death Wheel", "pts":225},
 		{"id":61, "name":"Decimator", "pts":150},
-		{"id":62, "name":"Chaos Warhound Scout Titan", "pts":250},
+		{"id":62, "name":"Chaos Warhound Scout Titan", "pts":225},
 
 		{"id":70, "name":"Daemonic Pact", "pts":25},
 		
@@ -83,7 +83,7 @@
 	"formationConstraints":[
 		{"max":1, "name":"Spacecraft", "from":[520,521]},
 		{"max":1, "name":"Black Legion Elite Formation", "from":[502,503], "forEach":[501], "name2":"Black Legion Core Formation"},
-		{"max":2, "name":"Black Legion Support Formations", "from":[504,505,506], "forEach":[501], "name2":"Black Legion Core Formation"},
+		{"max":2, "name":"Black Legion Support Formations", "from":[504,505,506,507], "forEach":[501], "name2":"Black Legion Core Formation"},
 		{"max":1, "from":[500]},
 		{"maxPercent":34, "name":"Daemon Engines, Titans & Chaos Navy", "from":[511,512,513,514,515,516,517,518,519,520,521]}
 	],
@@ -92,7 +92,7 @@
 	
 		{"min":0, "max":1, "from":[70], "appliesTo":[501,502,503,504,505,507]},
 	
-		{"min":1, "max":1, "from":[10,11,12,13], "appliesTo":[501,502]},
+		{"min":1, "max":1, "from":[10,11,12,13], "appliesTo":[501]},
 		{"min":0, "max":1, "from":[14], "appliesTo":[501,502,504]},
 		{"min":0, "max":1, "from":[15], "appliesTo":[501,502]},
 	
@@ -100,7 +100,14 @@
 		{"max":1, "from":[45,46,47,48], "appliesTo":[501]},
 		{"max":1, "from":[49], "appliesTo":[501]},
 		{"min":0, "max":1, "from":[40,41,80], "appliesTo":[501]},
+	
+		{"min":1, "max":1, "from":[10,11,12,16], "appliesTo":[502]},
+		{"min":4, "max":4, "from":[50,51], "appliesTo":[502]},	
+		{"min":0, "max":2, "from":[51], "appliesTo":[502]},	
 		{"min":0, "max":1, "from":[41,80], "appliesTo":[502]},
+		
+		{"min":1, "max":1, "from":[10,11], "appliesTo":[504,505,507]},
+		
 		{"min":0, "max":1, "from":[80], "appliesTo":[505]},
 		
 		{"min":0, "max":1, "from":[42], "appliesTo":[501,502,503]},
