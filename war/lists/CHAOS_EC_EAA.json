@@ -64,6 +64,7 @@
 		
 		{"id":71, "name":"Greater Daemon Pool point", "pts":50},
 		{"id":72, "name":"Lesser Daemon Pool point", "pts":15},
+		{"id":73, "name":"1 Free Greater Daemon Pool point", "pts":0},
 		
 		{"id":80, "name":"Dreadclaw Drop Pods", "pts":35}
 	
@@ -73,11 +74,12 @@
 		{"max":1, "name":"Spacecraft", "from":[520]},
 		{"max":1, "name":"Emperors Children Elite Formation", "from":[502,503], "forEach":[501], "name2":"Emperors Children Core Formation"},
 		{"max":2, "name":"Emperors Children Support Formations", "from":[504,505,506], "forEach":[501], "name2":"Emperors Children Core Formation"},
-		{"max":1, "from":[500]},
+		{"min":1, "max":1, "from":[500]},
 		{"maxPercent":34, "name":"Daemon Engines & Chaos Navy", "from":[511,512,513,514,515,517,518,519,520]}
 	],
 	"upgradeConstraints":[
 		{"max":1, "perArmy":true, "from":[12,13,16]},
+		{"min":1, "max":1, "from":[73], "appliesTo":[500]},
 	
 		{"min":0, "max":1, "from":[70], "appliesTo":[501,502,503,504,505]},
 	
