@@ -47,7 +47,7 @@
 		{"id":21, "name":"3 Noise Marines", "pts":25},
 		{"id":22, "name":"3 Noise Marine Havocs", "pts":50},
 	
-		{"id":30, "name":"3 Chaos Rhinos", 	"pts":200},
+		{"id":30, "name":"3 Chaos Rhinos", 	"pts":25},
 		{"id":31, "name":"3 Emperors Children Land Raiders", 	"pts":150},
 		{"id":32, "name":"4 Emperors Children Land Raiders", 	"pts":200},
 
@@ -59,10 +59,6 @@
 		{"id":44, "name":"1 Chaos Stalker", "pts":50},
 		
 		{"id":50, "name":"Debaser of Slaanesh", "pts":50},
-		{"id":51, "name":"Hell-Knight", "pts":75},
-		{"id":52, "name":"Hell-Scourge", "pts":90},
-		{"id":53, "name":"Questor", "pts":225},
-		{"id":54, "name":"Subjugator", "pts":200},
 
 		{"id":70, "name":"Daemonic Pact", "pts":25},
 		
