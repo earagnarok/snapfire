@@ -67,7 +67,7 @@
 		{"id":50, "name":"Chaos Terminators", "pts":0},
 		{"id":51, "name":"Obliterators", "pts":35},
 		
-		{"id":60, "name":"Death Wheel", "pts":225},
+		{"id":60, "name":"Deathwheel", "pts":225},
 		{"id":61, "name":"Decimator", "pts":150},
 		{"id":62, "name":"Chaos Warhound Scout Titan", "pts":225},
 
