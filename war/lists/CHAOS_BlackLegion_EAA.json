@@ -9,7 +9,7 @@
 			{"id":500, "name":"Daemon Pool", "pts":0, "upgrades":[71,72]}
 		]},
 		{"name":"BLACK LEGION CORE FORMATIONS", "formations":[
-			{"id":501, "name":"Black Legion Retinue", "pts":275, "upgrades":[14,15,40,41,42,43,44,45,46,47,48,49,70,80]}
+			{"id":501, "name":"Black Legion Retinue", "pts":275, "upgrades":[14,15,40,41,42,43,44,70,80]}
 		]},
 		{"name":"BLACK LEGION ELITE FORMATIONS", "formations":[
 			{"id":502, "name":"Chaos Terminators", "pts":275, "upgrades":[14,15,41,42,50,51,70,80]},
@@ -21,8 +21,8 @@
 			{"id":506, "name":"Predator Company", "units":"4 Chaos Predators", "pts":200, "upgrades":[43,44] },
 			{"id":507, "name":"Havocs",	"pts":225, "units":"4 Havocs", "upgrades":[43,44,70]}
 		]},
-		{"name":"BLACK LEGION DAEMON ENGINES, TITANS AND CHAOS NAVY FORMATIONS", "formations":[
-			{"id":511, "name":"Death Wheels",	"pts":50, "upgrades":[60]},
+		{"name":"BLACK LEGION DAEMON ENGINE, TITAN AND CHAOS NAVY FORMATIONS", "formations":[
+			{"id":511, "name":"Deathwheels",	"pts":50, "upgrades":[60]},
 			{"id":512, "name":"Decimators", "pts":50, "upgrades":[61]},
 			{"id":513, "name":"Defilers", "pts":225,  "units": "4 Defilers of Chaos Undivided", "upgrades":[]},
 			{"id":514, "name":"Chaos Warhounds",	"pts":50, "upgrades":[62]},
