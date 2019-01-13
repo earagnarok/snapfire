@@ -62,7 +62,7 @@
 		{"id":47, "name":"4 Khorne Berzerkers", "pts":25},
 		{"id":48, "name":"4 Rubric Marines", "pts":50},
 		
-		{"id":49, "name":"4 Havocs (Replaces 4 Chaos Space Marines)", "pts":50},
+		{"id":49, "name":"4 Havocs", "pts":50},
 
 		{"id":50, "name":"Chaos Terminators", "pts":0},
 		{"id":51, "name":"Obliterators", "pts":35},
