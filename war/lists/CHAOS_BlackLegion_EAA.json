@@ -88,7 +88,7 @@
 		{"maxPercent":34, "name":"Daemon Engines, Titans & Chaos Navy", "from":[511,512,513,514,515,516,517,518,519,520,521]}
 	],
 	"upgradeConstraints":[
-		{"max":1, "perArmy":true, "from":[12,13]},
+		{"max":1, "perArmy":true, "from":[12,13,16]},
 	
 		{"min":0, "max":1, "from":[70], "appliesTo":[501,502,503,504,505,507]},
 	
