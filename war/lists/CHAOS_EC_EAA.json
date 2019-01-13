@@ -9,7 +9,7 @@
 			{"id":500, "name":"Daemon Pool", "pts":0, "upgrades":[71,72]}
 		]},
 			{"name":"EMPERORS CHILDREN CORE FORMATIONS", "formations":[
-			{"id":501, "name":"Emperors Children Retinue", "pts":275, "upgrades":[14,15,30,31,35,44,70,80]}
+			{"id":501, "name":"Emperors Children Retinue", "pts":250, "upgrades":[14,15,30,31,35,44,70,80]}
 		]},
 		{"name":"EMPERORS CHILDREN ELITE FORMATIONS", "formations":[
 			{"id":502, "name":"Emperors Children Terminators", "pts":350, "units": "4 Sirenscream Terminators", "upgrades":[14,15,32,35,70,80]},
