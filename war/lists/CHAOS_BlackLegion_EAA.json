@@ -6,7 +6,7 @@
 		"by":"Mrdiealot",
 	"sections":[
 		{"name":"DAEMONS", "formations":[
-			{"id":500, "name":"Daemon Pool", "pts":0, "upgrades":[71,72]}
+			{"id":500, "name":"Daemon Pool", "pts":0, "upgrades":[71,72,73]}
 		]},
 		{"name":"BLACK LEGION CORE FORMATIONS", "formations":[
 			{"id":501, "name":"Black Legion Retinue", "pts":275, "upgrades":[14,15,40,41,42,43,44,70,80]}
@@ -75,6 +75,7 @@
 		
 		{"id":71, "name":"Greater Daemon Pool point", "pts":50},
 		{"id":72, "name":"Lesser Daemon Pool point", "pts":15},
+		{"id":73, "name":"Lesser Daemon Pool point (Daemonic Pact)", "pts":0},
 		
 		{"id":80, "name":"Dreadclaw Drop Pods", "pts":35}
 	
