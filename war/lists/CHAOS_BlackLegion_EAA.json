@@ -1,6 +1,6 @@
 {
 	"id":"EAA Black Legion",
-	"version":"1.1 Beta",
+	"version":"1.21",
 	"notes":
 		["Add one free Lesser Daemon to Daemon pool per Daemonic Pact"],
 		"by":"Mrdiealot",
@@ -16,10 +16,10 @@
 			{"id":503, "name":"Chosen", "pts":150, "units":"4 Chosen, 2 Chaos Rhinos", "upgrades":[42,70]}
 		]},
 		{"name":"BLACK LEGION SUPPORT FORMATIONS", "formations":[
-			{"id":504, "name":"Bike Company",	"pts":275, "units":"8 Chaos Space Marines Bikes", "upgrades":[14,70]},
-			{"id":505, "name":"Raptor Cult",	"pts":225, "units":"6 Chaos Raptors", "upgrades":[70,80]},
+			{"id":504, "name":"Bike Company",	"pts":300, "units":"8 Chaos Space Marines Bikes", "upgrades":[14,70]},
+			{"id":505, "name":"Raptor Cult",	"pts":225, "units":"6 Chaos Raptors", "upgrades":[70]},
 			{"id":506, "name":"Predator Company", "units":"4 Chaos Predators", "pts":200, "upgrades":[43,44] },
-			{"id":507, "name":"Havocs",	"pts":225, "units":"4 Havocs", "upgrades":[43,44,70]}
+			{"id":507, "name":"Havocs",	"pts":200, "units":"4 Havocs", "upgrades":[43,44,70]}
 		]},
 		{"name":"BLACK LEGION DAEMON ENGINE, TITAN AND CHAOS NAVY FORMATIONS", "formations":[
 			{"id":511, "name":"Deathwheels",	"pts":50, "upgrades":[60]},
@@ -27,7 +27,7 @@
 			{"id":513, "name":"Defilers", "pts":225,  "units": "4 Defilers of Chaos Undivided", "upgrades":[]},
 			{"id":514, "name":"Chaos Warhounds",	"pts":50, "upgrades":[62]},
 			{"id":515, "name":"Chaos Reaver",		"units": "1 Chaos Reaver Titan", 	"pts":600, "upgrades":[]},
-			{"id":516, "name":"Chaos Warlord",	"units": "1 Chaos Warlord Titan",	"pts":750, "upgrades":[]},
+			{"id":516, "name":"Chaos Warlord",	"units": "1 Chaos Warlord Titan",	"pts":725, "upgrades":[]},
 			{"id":517, "name":"Harbinger", 	"pts":325, "units": "1 Harbinger Bomber", "upgrades":[]},
 			{"id":518, "name":"Hell Blades",	"pts":200, "units":"3 Hell Blade Fighters", "upgrades":[]},
 			{"id":519, "name":"Hell Talons",	"pts":225, "units":"2 Hell Talon Bombers", "upgrades":[]},
