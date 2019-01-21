@@ -1,6 +1,6 @@
 {
 	"id":"EAA Black Legion",
-	"version":"1.21",
+	"version":"1.3",
 	"notes":
 		["Add one free Lesser Daemon to Daemon pool per Daemonic Pact"],
 		"by":"Mrdiealot",
@@ -12,7 +12,7 @@
 			{"id":501, "name":"Black Legion Retinue", "pts":275, "upgrades":[14,15,40,41,42,43,44,70,80]}
 		]},
 		{"name":"BLACK LEGION ELITE FORMATIONS", "formations":[
-			{"id":502, "name":"Chaos Terminators", "pts":275, "upgrades":[14,15,41,42,50,51,70,80]},
+			{"id":502, "name":"Chaos Terminators", "pts":275, "upgrades":[14,15,41,42,70,80]},
 			{"id":503, "name":"Chosen", "pts":150, "units":"4 Chosen, 2 Chaos Rhinos", "upgrades":[42,70]}
 		]},
 		{"name":"BLACK LEGION SUPPORT FORMATIONS", "formations":[
@@ -28,7 +28,7 @@
 			{"id":514, "name":"Chaos Warhounds",	"pts":50, "upgrades":[62]},
 			{"id":515, "name":"Chaos Reaver",		"units": "1 Chaos Reaver Titan", 	"pts":600, "upgrades":[]},
 			{"id":516, "name":"Chaos Warlord",	"units": "1 Chaos Warlord Titan",	"pts":725, "upgrades":[]},
-			{"id":517, "name":"Harbinger", 	"pts":325, "units": "1 Harbinger Bomber", "upgrades":[]},
+			{"id":517, "name":"Harbinger", 	"pts":350, "units": "1 Harbinger Bomber", "upgrades":[]},
 			{"id":518, "name":"Hell Blades",	"pts":200, "units":"3 Hell Blade Fighters", "upgrades":[]},
 			{"id":519, "name":"Hell Talons",	"pts":225, "units":"2 Hell Talon Bombers", "upgrades":[]},
 			{"id":520, "name":"Devastation Class Cruiser",	"pts":150,  "units":"1 Devastation Class Cruiser",  "upgrades":[]}, 
@@ -50,8 +50,8 @@
 		{"id":38, "name":"2 Chaos Rhinos", 	"pts":25},
 		{"id":39, "name":"2 Chaos Land Raiders", 	"pts":100},
 		
-		{"id":40, "name":"4 Chaos Rhinos", 	"pts":35},
-		{"id":41, "name":"4 Chaos Land Raiders", 	"pts":200},
+		{"id":40, "name":"Chaos Rhino", 	"pts":10},
+		{"id":41, "name":"Chaos Land Raider", 	"pts":50},
 		
 		{"id":42, "name":"2 Chaos Dreadnoughts", "pts":75},
 		{"id":43, "name":"2 Chaos Vindicators", "pts":50},
@@ -77,7 +77,7 @@
 		{"id":72, "name":"Lesser Daemon Pool point", "pts":15},
 		{"id":73, "name":"Lesser Daemon Pool point (Daemonic Pact)", "pts":0},
 		
-		{"id":80, "name":"Dreadclaw Drop Pods", "pts":35}
+		{"id":80, "name":"Dreadclaw Drop Pod", "pts":5}
 	
 
 	],
@@ -100,12 +100,13 @@
 		{"min":2, "max":2, "from":[20,45,46,47,48,49], "appliesTo":[501]},
 		{"max":1, "from":[45,46,47,48], "appliesTo":[501]},
 		{"max":1, "from":[49], "appliesTo":[501]},
-		{"min":0, "max":1, "from":[40,41,80], "appliesTo":[501]},
+		{"min":0, "max":4, "from":[40,41], "appliesTo":[501]},
+		{"min":0, "max":10, "from":[80], "appliesTo":[501,502]},
 	
 		{"min":1, "max":1, "from":[10,11,12,16], "appliesTo":[502]},
 		{"min":4, "max":4, "from":[50,51], "appliesTo":[502]},	
 		{"min":0, "max":2, "from":[51], "appliesTo":[502]},	
-		{"min":0, "max":1, "from":[41,80], "appliesTo":[502]},
+		{"min":0, "max":4, "from":[41], "appliesTo":[502]},
 		
 		{"min":1, "max":1, "from":[10,11], "appliesTo":[504,505,507]},
 		
