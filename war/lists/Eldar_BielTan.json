@@ -43,7 +43,7 @@
       {"id": 21, "name": "Swooping Hawk", "pts": 0},
       {"id": 22, "name": "Shining Spear", "pts": 0},
       {"id": 39, "name": "Exarch", "pts": 50},
-      {"id": 40, "name": "Autarch", "pts": 100},
+      {"id": 40, "name": "Autarch", "pts": 75},
       {"id": 41, "name": "Wave Serpent", "pts": 50},
       {"id": 42, "name": "2 Falcons", "pts": 125},
       {"id": 24, "name": "Guardians", "pts": 0},
@@ -64,7 +64,7 @@
       {"id": 49, "name": "Scorpion", "pts": 200},
       {"id": 50, "name": "Storm Serpent", "pts": 200},
       {"id": 51, "name": "Warlock", "pts": 0},
-      {"id": 52, "name": "Farseer", "pts": 50},
+      {"id": 52, "name": "Farseer", "pts": 25},
       {"id": 53, "name": "Phoenix Bombers", "pts": 75},
       {"id": 54, "name": "Nightwing Interceptors", "pts": 75}
    ],
