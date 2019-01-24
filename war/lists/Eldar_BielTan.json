@@ -18,7 +18,7 @@
             {"id": 502, "name": "Windrider Troupe", "pts": 200, "upgrades": []},
             {"id": 503, "name": "Falcon Troupe", "pts": 0, "upgrades": []},
             {"id": 504, "name": "Night Spinner Troupe", "pts": 175, "units": "3 Night Spinners", "upgrades": []},
-            {"id": 505, "name": "Engines of Vaul Troupe", "pts": 0, "upgrades": [48,49,50]},
+            {"id": 505, "name": "Engines of Vaul Troupe", "pts": 50, "upgrades": [34,35,36]},
 	    {"id": 506, "name": "Void Spinner", "pts": 300, "upgrades": []},
             {"id": 530, "name": "Fire Prism Troupe", "pts": 250, "units": "3 Fire Prisms", "upgrades": []}
 			]},
@@ -57,12 +57,9 @@
       {"id": 28, "name": "Vyper", "pts": 0},
       {"id": 30, "name": "Falcon", "pts": 50},
       {"id": 31, "name": "Fire Storm", "pts": 50},
-      {"id": 34, "name": "Cobra", "pts": 250},
-      {"id": 35, "name": "Scorpion", "pts": 250},
-      {"id": 36, "name": "Storm Serpent", "pts": 250},
-      {"id": 48, "name": "Cobra", "pts": 200},
-      {"id": 49, "name": "Scorpion", "pts": 200},
-      {"id": 50, "name": "Storm Serpent", "pts": 200},
+      {"id": 34, "name": "Cobra", "pts": 200},
+      {"id": 35, "name": "Scorpion", "pts": 200},
+      {"id": 36, "name": "Storm Serpent", "pts": 200},
       {"id": 51, "name": "Warlock", "pts": 0},
       {"id": 52, "name": "Farseer", "pts": 25},
       {"id": 53, "name": "Phoenix Bombers", "pts": 75},
@@ -95,8 +92,7 @@
       {"max": 3, "min": 2, "from": [53], "appliesTo": [521]},
       {"max": 1, "from": [31], "appliesTo": [503]},
       {"max": 5, "min": 5, "from": [30,31], "appliesTo": [503]},
-      {"max": 1, "min": 1, "from": [34,35,36], "appliesTo": [505]},
-	  {"max": 2, "from": [48,49,50], "appliesTo": [505]}
+      {"max": 3, "min": 1, "from": [34,35,36], "appliesTo": [505]}
 	  
    ]
 }
