@@ -13,7 +13,7 @@
             {"id": 512, "name": "Guardian Warhost (Mounted)", "pts": 350, "units": "4 Wave Serpents", "upgrades": []}
          ]},
       {"name": "TROUPES", "formations": [
-            {"id": 500, "name": "Ranger Troupe", "pts": 25, "upgrades": [11]},
+            {"id": 500, "name": "Ranger Troupe", "pts": 0, "upgrades": [11]},
             {"id": 501, "name": "War Walker Troupe", "pts": 125, "units": "4 Warwalkers", "upgrades": []},
             {"id": 502, "name": "Windrider Troupe", "pts": 200, "upgrades": []},
             {"id": 503, "name": "Falcon Troupe", "pts": 0, "upgrades": []},
@@ -90,7 +90,7 @@
       {"max": 6, "min": 6, "from": [27,28], "appliesTo": [502]},
       {"max": 3, "min": 2, "from": [54], "appliesTo": [520]},
       {"max": 3, "min": 2, "from": [53], "appliesTo": [521]},
-      {"max": 1, "from": [31], "appliesTo": [503]},
+      {"max": 2, "from": [31], "appliesTo": [503]},
       {"max": 5, "min": 5, "from": [30,31], "appliesTo": [503]},
       {"max": 3, "min": 1, "from": [34,35,36], "appliesTo": [505]}
 	  
