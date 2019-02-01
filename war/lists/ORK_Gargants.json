@@ -9,27 +9,27 @@
          "formations": [
             {"id": 501, "name": "Mega Gargant", "pts": 875, "units":"1 Mega Gargant", "upgrades": [10]},
             {"id": 502, "name": "Great Gargant", "pts": 725, "upgrades": [10]},
-            {"id": 503, "name": "Gargant", "pts": 600, "upgrades": []}
+            {"id": 503, "name": "Gargant", "pts": 575, "upgrades": []}
 	       ]
       },
 	  {	
 		 "name": "ORK FORMATIONS (Six for each Mega Gargant, Four for each Great Gargant and Three for each Gargant)",
          "formations": [
             {"id": 510, "name": "Big Boss Stompamob (Normal)", "pts": 125, "units":"2 Stompa", "upgrades": [100,101,102,103,110,111,112,113,114,115]},
-            {"id": 511, "name": "Big Boss Stompamob (Big)", "pts": 200, "units":"4 Stompa",  "upgrades": [100,101,102,103,110,111,112,113,114,115]},
-            {"id": 512, "name": "Big Boss Stompamob ('Uge)", "pts": 275, "units":"6 Stompa", "upgrades": [100,101,102,103,110,111,112,113,114,115]},
+            {"id": 511, "name": "Big Boss Stompamob (Big)", "pts": 225, "units":"4 Stompa",  "upgrades": [100,101,102,103,110,111,112,113,114,115]},
+            {"id": 512, "name": "Big Boss Stompamob ('Uge)", "pts": 300, "units":"6 Stompa", "upgrades": [100,101,102,103,110,111,112,113,114,115]},
 			
             {"id": 513, "name": "Big Boss Dreadhorde (Normal)", "pts": 125, "units":"1 Dreadnought, 3 Killa Kan",  "upgrades": [100,101,102]},
-            {"id": 514, "name": "Big Boss Dreadhorde (Big)", "pts": 200, "units":"2 Dreadnought, 6 Killa Kan", "upgrades": [100,101,102]},
-            {"id": 515, "name": "Big Boss Dreadhorde ('Uge)", "pts": 275, "units":"3 Dreadnought, 9 Killa Kan", "upgrades": [100,101,102]},
+            {"id": 514, "name": "Big Boss Dreadhorde (Big)", "pts": 225, "units":"2 Dreadnought, 6 Killa Kan", "upgrades": [100,101,102]},
+            {"id": 515, "name": "Big Boss Dreadhorde ('Uge)", "pts": 300, "units":"3 Dreadnought, 9 Killa Kan", "upgrades": [100,101,102]},
 			
-            {"id": 516, "name": "Big Boss Loota Warband (Normal)", "pts": 200, "units":"1 Nobs, 3 Boyz, 2 Grots, 1 Gunfortress", "upgrades": [11,12,13,102,104,105]},
+            {"id": 516, "name": "Big Boss Loota Warband (Normal)", "pts": 225, "units":"1 Nobs, 3 Boyz, 2 Grots, 1 Gunfortress", "upgrades": [11,12,13,102,104,105]},
             {"id": 517, "name": "Big Boss Loota Warband (Big)", "pts": 350, "units":"2 Nobs, 6 Boyz, 4 Grots, 2 Gunfortress", "upgrades": [11,12,13,102,104,105]},
-            {"id": 518, "name": "Big Boss Loota Warband ('Uge)", "pts": 500, "units":"3 Nobs, 9 Boyz, 6 Grots, 3 Gunfortress", "upgrades": [11,12,13,102,104,105]},
+            {"id": 518, "name": "Big Boss Loota Warband ('Uge)", "pts": 450, "units":"3 Nobs, 9 Boyz, 6 Grots, 3 Gunfortress", "upgrades": [11,12,13,102,104,105]},
 			
-            {"id": 519, "name": "Big Boss Runn'n Gunz (Normal)", "pts": 200, "units":"4 Big Gun, 2 Grots, 1 Battlefortress", "upgrades": [14,15,102,104,105]},
+            {"id": 519, "name": "Big Boss Runn'n Gunz (Normal)", "pts": 225, "units":"4 Big Gun, 2 Grots, 1 Battlefortress", "upgrades": [14,15,102,104,105]},
             {"id": 520, "name": "Big Boss Runn'n Gunz (Big)", "pts": 350, "units":"8 Big Gun, 4 Grots, 2 Battlefortress", "upgrades": [14,15,102,104,105]},
-            {"id": 521, "name": "Big Boss Runn'n Gunz ('Uge)", "pts": 500, "units":"12 Big Gun, 6 Grots, 3 Battlefortress", "upgrades": [14,15,102,104,105]}
+            {"id": 521, "name": "Big Boss Runn'n Gunz ('Uge)", "pts": 450, "units":"12 Big Gun, 6 Grots, 3 Battlefortress", "upgrades": [14,15,102,104,105]}
          ]
       },
       {
