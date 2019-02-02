@@ -27,7 +27,7 @@
 		{"name":"SPACESHIPS & AIRCRAFT", "formations":[
 			{"id":522, "name":"Torture Class Cruiser", "pts":300, "upgrades":[]},
 			{"id":523, "name":"Slavebringer", "pts":200, "upgrades":[]}, 
-			{"id":525, "name":"Executioner Assault Ship", "pts":600, "upgrades":[]},
+			{"id":525, "name":"Executioner Assault Ship", "pts":400, "upgrades":[]},
 			{"id":526, "name":"Razorwing Fighters", "pts":0, "upgrades":[84]},
 			{"id":527, "name":"Voidraven Bombers", "pts":225, "units":"2 Voidravens", "upgrades":[]},
 			{"id":528, "name":"Tormentor", "pts":350, "units":"1 Tormentor Titan", "upgrades":[]}
