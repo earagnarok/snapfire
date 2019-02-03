@@ -10,7 +10,7 @@
             {"id": 507, "name": "Blitz Brigade", "pts": 10, "upgrades": [53,54,55,62,59,61,68,73]},
             {"id": 508, "name": "Blitz Brigade (Big)", "pts": -30, "upgrades": [53,54,55,62,59,61,68,73]},
             {"id": 509, "name": "Blitz Brigade ('Uge)", "pts": -70, "upgrades": [53,54,55,62,59,61,68,73]},
-            {"id": 520, "name": "Kroozer", "pts": 150, "upgrades": []},
+            {"id": 520, "name": "Kroozer", "pts": 100, "upgrades": []},
             {"id": 504, "name": "Kult of Speed", "pts": 0, "upgrades": [53,54,55,59,61,62,68]},
             {"id": 505, "name": "Kult of Speed (Big)", "pts": -50, "upgrades": [53,54,55,59,61,62,68]},
             {"id": 506, "name": "Kult of Speed ('Uge)", "pts": -100, "upgrades": [53,54,55,59,61,62,68]},
@@ -30,9 +30,9 @@
          "name": "AIRCRAFT, SPACECRAFT &amp; GARGANTS",
          "formations": [
             {"id": 517, "name": "Fighta Skwadron", "pts": 0, "upgrades": [49]},
-            {"id": 518, "name": "Landa", "pts": 200, "upgrades": []},
-            {"id": 522, "name": "Gargant", "pts": 650, "upgrades": [81]},
-            {"id": 523, "name": "Great Gargant", "pts": 850, "upgrades": [81]}
+            {"id": 518, "name": "Landa", "pts": 225, "upgrades": []},
+            {"id": 522, "name": "Gargant", "pts": 600, "upgrades": [81]},
+            {"id": 523, "name": "Great Gargant", "pts": 750, "upgrades": [81]}
          ]
       }
    ],
