@@ -1,6 +1,6 @@
 {
   "id": "Hive Fleet Dagon",
-  "version": "EAA 1.0",
+  "version": "EAA 1.1",
   "by": "Argol & MrDieAlot",
   "sections": [
     {
@@ -281,7 +281,7 @@
     },
 		{
       "id": 118,
-      "name": "Burrower (5 Raveners)",
+      "name": "Burrower (4 Raveners)",
       "pts": 100
     },
     {
@@ -331,8 +331,8 @@
     },
     {
       "id": 171,
-      "name": "Hive Ship (May carry 5 Mycetic Spores including cargo)",
-      "pts": 250
+      "name": "Hive Ship (May carry 3 Mycetic Spores including cargo)",
+      "pts": 200
     },
     {
 	  "id": 179,
