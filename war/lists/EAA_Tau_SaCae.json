@@ -26,7 +26,7 @@
             {"id": 524,"name": "Manta Dropship","pts": 650,"upgrades": []},
             {"id": 526,"name": "Orca Dropship","pts": 150,"upgrades": []},
             {"id": 525,"name": "Spacecraft","pts": 200,"upgrades": []},
-            {"id": 522,"name": "Sun Shark Bombers","pts": 175,"units": "2 Sun Shark Bombers","upgrades": []},
+            {"id": 522,"name": "Sun Shark Bombers","pts": 200,"units": "2 Sun Shark Bombers","upgrades": []},
             {"id": 523,"name": "AX-1-0 Squadron","pts": 350,"units": "2 Tiger Shark AX-1-0","upgrades": []}
          ]
       }
