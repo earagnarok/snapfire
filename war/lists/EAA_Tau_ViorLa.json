@@ -6,7 +6,7 @@
       { "name": "CADRES",
          "formations": [
             {"id": 532,"name": "Crisis Battlesuit Cadre","pts": 25,"upgrades": [17,35]},
-            {"id": 531,"name": "Fire Warrior Cadre","pts": 225,"upgrades": [62,63,60,35,80,81,82,61,54,55]}
+            {"id": 531,"name": "Fire Warrior Cadre","pts": 225,"upgrades": [62,63,60,35,61,54,55]}
          ]
       },
       {"name": "SUPPORT GROUPS",
@@ -16,7 +16,7 @@
             {"id": 513,"name": "Heavy Battle Suits","pts": 300,"units": "2 KX-128 Stormsurge Battle Suits","upgrades": []},
             {"id": 515,"name": "Recon Skimmer Group","pts": 175,"upgrades": [35,54]},
             {"id": 517,"name": "Skysweep Support Group","pts": 250,"units": "3 Skyray Gunships","upgrades": []},
-            {"id": 513,"name": "Stealth Group","pts": 225,"units": "6 XV15 Stealth Units","upgrades": [35]}
+            {"id": 513,"name": "Stealth Group","pts": 250,"units": "4 XV15 Stealth Units, 2 Ghostkeels","upgrades": [35]}
          ]
       },
       { "name": "AIR CASTE",
