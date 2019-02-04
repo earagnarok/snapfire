@@ -4,8 +4,8 @@
 	"by":"EA-Apocalypse",
 	"sections":[
 		{"name":"DEATHWORLD VETERANS COMPANIES", "formations":[
-			{"id":502, "name":"Deathworld Regimental HQ", "pts":325, "upgrades":[10,11,12,14], "units":"1 Catachan Supreme Commander, plus 9 Catachan Jungle Fighter units"},
-			{"id":500, "name":"Deathworld Air Cavalry Company", "pts":275, "upgrades":[10,11,12,14], "units":"1 Catachan Commander, plus 9 Catachan Jungle Fighter units"},
+			{"id":502, "name":"Deathworld Regimental HQ", "pts":275, "upgrades":[10,11,12,14], "units":"1 Catachan Supreme Commander, plus 7 Catachan Jungle Fighter units"},
+			{"id":500, "name":"Deathworld Air Cavalry Company", "pts":225, "upgrades":[10,11,12,14], "units":"1 Catachan Commander, plus 7 Catachan Jungle Fighter units"},
 			{"id":501, "name":"Deathworld Infantry Company", "pts":250, "upgrades":[12,13], "units":"1 Catachan Commander, plus 9 Catachan Jungle Fighter units"}
 
 		]},
@@ -15,12 +15,13 @@
 			{"id":513, "name":"Catachan Devils", "pts":250, "upgrades":[10,11], "units":"6 Catachan Devil units"},
 			{"id":514, "name":"Hellhound Platoon", "pts":250, "upgrades":[], "units":"6 Hellhounds"},
 			{"id":517, "name":"Vulture Squadron", "pts":300, "upgrades":[], "units":"4 Vultures"},
-			{"id":518, "name":"Sniper Team", "pts":100, "upgrades":[10,11], "units":"4 Catachan Snipers"}
+			{"id":518, "name":"Missile Team", "pts":100, "upgrades":[], "units":"4 Catachan Missile Teams and 2 Vendettas"},
+			{"id":519, "name":"Sniper Team", "pts":100, "upgrades":[10,11], "units":"4 Catachan Snipers"}
 		]},
 		{"name":"NAVAL SUPPORT", "formations":[
 			{"id":521, "name":"Thunderbolt Fighters", "pts":150, "upgrades":[], "units":"2 Thunderbolt Fighters"},
 			{"id":522, "name":"Marauder Bombers", "pts":225, "upgrades":[], "units":"2 Marauder Bombers"},
-			{"id":523, "name":"Marauder Collossus Bombers", "pts":300, "upgrades":[], "units":"2 Marauder Collossus Bombers"}
+			{"id":523, "name":"Marauder Collossus Bombers", "pts":275, "upgrades":[], "units":"2 Marauder Collossus Bombers"}
 		]}
 	],
 	"upgrades":[
@@ -42,6 +43,6 @@
 		{"max":4, "from":[14]},
 		{"max":4, "from":[13]},
 		{"max":1, "from":[12]},
-		{"min":5, "max":10, "from":[10,11], "appliesTo":[500,502]}
+		{"min":4, "max":10, "from":[10,11], "appliesTo":[500,502]}
 	]
 }
