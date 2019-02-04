@@ -15,7 +15,7 @@
 			{"id":513, "name":"Catachan Devils", "pts":250, "upgrades":[10,11], "units":"6 Catachan Devil units"},
 			{"id":514, "name":"Hellhound Platoon", "pts":250, "upgrades":[], "units":"6 Hellhounds"},
 			{"id":517, "name":"Vulture Squadron", "pts":300, "upgrades":[], "units":"4 Vultures"},
-			{"id":518, "name":"Missile Team", "pts":100, "upgrades":[], "units":"4 Catachan Missile Teams and 2 Vendettas"},
+			{"id":518, "name":"Missile Team", "pts":200, "upgrades":[], "units":"4 Catachan Missile Teams and 2 Vendettas"},
 			{"id":519, "name":"Sniper Team", "pts":100, "upgrades":[10,11], "units":"4 Catachan Snipers"}
 		]},
 		{"name":"NAVAL SUPPORT", "formations":[
