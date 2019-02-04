@@ -1,6 +1,6 @@
 {
   "id": "Hive Fleet Dagon",
-  "version": "EAA 1.1",
+  "version": "EAA 1.15",
   "by": "Argol & MrDieAlot",
   "sections": [
     {
@@ -10,7 +10,7 @@
           "id": 501,
           "name": "Nexus Swarm (2-4 Instinctive Swarms)",
           "pts": 400,
-		  "units": "Dagon Dominatrix",
+		  "units": "Dominatrix",
           "upgrades": [
 			100,
 			101,
@@ -236,7 +236,7 @@
     },
     {
       "id": 109,
-      "name": "Gargoyles (4 Dagon Gargoyles)",
+      "name": "Gargoyles (4 Gargoyles)",
       "pts": 50
     },
     {
@@ -246,22 +246,22 @@
     },
     {
       "id": 111,
-      "name": "Bio-Support (3 Dagon Dactylis)",
+      "name": "Bio-Support (3 Dactylis)",
       "pts": 125
     },
     {
       "id": 112,
-      "name": "Bio-Support (4 Dagon Exocrine)",
+      "name": "Bio-Support (4 Exocrine)",
       "pts": 125
     },
     {
       "id": 113,
-      "name": "Bio-Attack (2 Dagon Haruspex)",
+      "name": "Bio-Attack (2 Haruspex)",
       "pts": 75
     },
     {
       "id": 114,
-      "name": "Bio-Attack (2 Dagon Malefactors)",
+      "name": "Bio-Attack (2 Malefactors)",
       "pts": 75
     },
     {
@@ -306,7 +306,7 @@
     },
     {
       "id": 142,
-      "name": "Dagon Lictors",
+      "name": "Lictors",
       "pts": 25
     },
     {
@@ -316,13 +316,13 @@
     },
     {
       "id": 160,
-      "name": "Dagon Hierophant",
-      "pts": 350
+      "name": "Hierophant",
+      "pts": 325
     },
     {
       "id": 161,
       "name": "Hydraphant",
-      "pts": 550
+      "pts": 525
     },
     {
       "id": 170,
