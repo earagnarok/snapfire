@@ -119,9 +119,9 @@
 		{"id":85,	"name":"Greater Brass Scorpion of Khorne",	"pts":175},
 		{"id":86,	"name":"Slaughterfiend of Khorne",	"pts":35},
 		
-		{"id":87,	"name":"Hell-Striders",	"pts":35},
-		{"id":88,	"name":"Hell-Knights",	"pts":50},
-		{"id":89,	"name":"Hell-Scourges",	"pts":75},
+		{"id":87,	"name":"Hell-Strider",	"pts":35},
+		{"id":88,	"name":"Hell-Knight",	"pts":50},
+		{"id":89,	"name":"Hell-Scourge",	"pts":75},
 		
 		{"id":450,	"name":"Lesser Daemons",	"pts":15}
 		
