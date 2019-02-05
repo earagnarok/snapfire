@@ -19,9 +19,9 @@
             {"id": 511, "name": "Big Boss Stompamob (Big)", "pts": 225, "units":"4 Stompa",  "upgrades": [100,101,102,103,110,111,112,113,114,115]},
             {"id": 512, "name": "Big Boss Stompamob ('Uge)", "pts": 300, "units":"6 Stompa", "upgrades": [100,101,102,103,110,111,112,113,114,115]},
 			
-            {"id": 513, "name": "Big Boss Dreadhorde (Normal)", "pts": 100, "units":"1 Dreadnought, 3 Killa Kan",  "upgrades": [100,101,102]},
-            {"id": 514, "name": "Big Boss Dreadhorde (Big)", "pts": 175, "units":"2 Dreadnought, 6 Killa Kan", "upgrades": [100,101,102]},
-            {"id": 515, "name": "Big Boss Dreadhorde ('Uge)", "pts": 250, "units":"3 Dreadnought, 9 Killa Kan", "upgrades": [100,101,102]},
+            {"id": 513, "name": "Big Boss Dreadhorde (Normal)", "pts": 100, "units":"1 Dreadnought, 4 Killa Kan",  "upgrades": [100,101,102]},
+            {"id": 514, "name": "Big Boss Dreadhorde (Big)", "pts": 175, "units":"2 Dreadnought, 8 Killa Kan", "upgrades": [100,101,102]},
+            {"id": 515, "name": "Big Boss Dreadhorde ('Uge)", "pts": 250, "units":"3 Dreadnought, 12 Killa Kan", "upgrades": [100,101,102]},
 			
             {"id": 516, "name": "Big Boss Loota Warband (Normal)", "pts": 200, "units":"1 Nobs, 3 Boyz, 2 Grots, 1 Gunfortress", "upgrades": [11,12,13,102,104,105]},
             {"id": 517, "name": "Big Boss Loota Warband (Big)", "pts": 300, "units":"2 Nobs, 6 Boyz, 4 Grots, 2 Gunfortress", "upgrades": [11,12,13,102,104,105]},
