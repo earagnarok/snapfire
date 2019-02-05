@@ -46,7 +46,7 @@
 			{"name":"CHAOS UNDIVIDED ALLIES and CHAOS NAVY / / Max 25% of the army", "formations":[
 			{"id":580, "name":"RENEGADE KNIGHTS of CHAOS UNDIVIDED",			"pts":50, "upgrades":[83]},
 			{"id":581, "name":"DEFILERS of CHAOS UNDIVIDED",				"pts":225, "units": "4 Defilers of Chaos Undivided", "upgrades":[]},
-			{"id":582, "name":"HERETEK ALLIES",				"pts":200, "units": " 1 Heretek, 4 Chaos Squats of Chaos Undivided, 2 Hades Land Raiders of Chaos Undivided", "upgrades":[]},
+			{"id":582, "name":"DARK MECHANICUS",				"pts":225, "units": " 1 Heretek, 4 Chaos Squats of Chaos Undivided, 2 Hades Land Raiders of Chaos Undivided", "upgrades":[]},
 			{"id":583, "name":"HELL BLADES",				"pts":200, "units": "3 Hell Blades", "upgrades":[]},
 			{"id":584, "name":"HELL TALONS",				"pts":225, "units": "2 Hell Talons", "upgrades":[]},
 			{"id":585, "name":"CHAOS BATTLESHIP",				"pts":150, "units": "1 Chaos Battleship", "upgrades":[]}
