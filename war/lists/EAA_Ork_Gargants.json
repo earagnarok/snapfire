@@ -1,6 +1,6 @@
 {
    "id": "EAA Gargants",
-   "version": "1.1b",  
+   "version": "1.2b",  
    "notes": ["If the army includes any Mega Gargants, the Mekboy Big Boss must be in one of them. Otherwise the Mekboy Big Boss has be in a Great Gargant. Note: Limits to the number of units are doubled for Big formations and tripled for 'Uge formations. For example a Big Warband may include two Oddboyz and an 'Uge Warband may include three Oddboyz."],
    "by": "Mrdiealot",
    "sections": [
@@ -15,9 +15,9 @@
 	  {	
 		 "name": "ORK FORMATIONS (Six for each Mega Gargant, Four for each Great Gargant and Three for each Gargant)",
          "formations": [
-            {"id": 510, "name": "Big Boss Stompamob (Normal)", "pts": 125, "units":"2 Stompa", "upgrades": [100,101,102,103,110,111,112,113,114,115]},
-            {"id": 511, "name": "Big Boss Stompamob (Big)", "pts": 225, "units":"4 Stompa",  "upgrades": [100,101,102,103,110,111,112,113,114,115]},
-            {"id": 512, "name": "Big Boss Stompamob ('Uge)", "pts": 300, "units":"6 Stompa", "upgrades": [100,101,102,103,110,111,112,113,114,115]},
+            {"id": 510, "name": "Big Boss Stompamob (Normal)", "pts": 150, "units":"2 Stompa", "upgrades": [100,101,102,103,110,111,112,113,114,115]},
+            {"id": 511, "name": "Big Boss Stompamob (Big)", "pts": 250, "units":"4 Stompa",  "upgrades": [100,101,102,103,110,111,112,113,114,115]},
+            {"id": 512, "name": "Big Boss Stompamob ('Uge)", "pts": 350, "units":"6 Stompa", "upgrades": [100,101,102,103,110,111,112,113,114,115]},
 			
             {"id": 513, "name": "Big Boss Dreadhorde (Normal)", "pts": 125, "units":"1 Dreadnought, 3 Killa Kan",  "upgrades": [100,101,102]},
             {"id": 514, "name": "Big Boss Dreadhorde (Big)", "pts": 225, "units":"2 Dreadnought, 6 Killa Kan", "upgrades": [100,101,102]},
