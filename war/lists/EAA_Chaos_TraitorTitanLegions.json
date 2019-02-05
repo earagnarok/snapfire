@@ -28,7 +28,7 @@
 			{"id":543, "name":"DEBASERS of SLAANESH",				"pts":225, "units": "4 Debasers of Slaanesh", "upgrades":[]},
 			
 			{"id":550, "name":"DECAY KNIGHTS of NURGLE",			"pts":50, "upgrades":[80]},
-			{"id":551, "name":"DESECRATORS of NURGLE",				"pts":225, "units": "4 Desecrators of Nurgle", "upgrades":[]},
+			{"id":551, "name":"DESECRATORS of NURGLE",				"pts":25, "upgrades":[90]},
 			{"id":552, "name":"PLAGUE TOWER of NURGLE",				"pts":300, "units": "1 Plague Tower of Nurgle", "upgrades":[]},
 			{"id":553, "name":"NURGLE PLAGUE ZOMBIE INFESTATION",			"pts":175, "units": "3 + 2D6 Plague Zombies", "upgrades":[]},
 			
@@ -38,14 +38,14 @@
 			{"id":563, "name":"KHORNE LORD OF BATTLES",			"pts":350, "units": "1 Lord of Battles", "upgrades":[]},
 			
 			{"id":570, "name":"CHANGE KNIGHTS of TZEENCH",			"pts":50, "upgrades":[82]},
-			{"id":571, "name":"DECIEVERS of TZEENCH",				"pts":225, "units": "4 Decievers of Tzeench", "upgrades":[]},
+			{"id":571, "name":"DECIEVERS of TZEENCH",				"pts":50, "upgrades":[91]},
 			{"id":572, "name":"DOOMWINGS of TZEENCH",				"pts":150, "units": "3 Doomwings of Tzeench", "upgrades":[]},
 			{"id":573, "name":"FIRELORDS of TZEENCH",				"pts":50, "upgrades":[84]}
 		]},
 		
 			{"name":"CHAOS UNDIVIDED ALLIES and CHAOS NAVY / / Max 25% of the army", "formations":[
 			{"id":580, "name":"RENEGADE KNIGHTS of CHAOS UNDIVIDED",			"pts":50, "upgrades":[83]},
-			{"id":581, "name":"DEFILERS of CHAOS UNDIVIDED",				"pts":225, "units": "4 Defilers of Chaos Undivided", "upgrades":[]},
+			{"id":581, "name":"DEFILERS of CHAOS UNDIVIDED",				"pts":25, "upgrades":[92]},
 			{"id":582, "name":"DARK MECHANICUS",				"pts":225, "units": " 1 Heretek, 4 Chaos Squats of Chaos Undivided, 2 Hades Land Raiders of Chaos Undivided", "upgrades":[]},
 			{"id":583, "name":"HELL BLADES",				"pts":200, "units": "3 Hell Blades", "upgrades":[]},
 			{"id":584, "name":"HELL TALONS",				"pts":225, "units": "2 Hell Talons", "upgrades":[]},
@@ -119,9 +119,13 @@
 		{"id":85,	"name":"Greater Brass Scorpion of Khorne",	"pts":175},
 		{"id":86,	"name":"Slaughterfiend of Khorne",	"pts":35},
 		
-		{"id":87,	"name":"Hell-Strider",	"pts":35},
-		{"id":88,	"name":"Hell-Knight",	"pts":50},
-		{"id":89,	"name":"Hell-Scourge",	"pts":75},
+		{"id":87,	"name":"Hell-Strider of Slaanesh",	"pts":35},
+		{"id":88,	"name":"Hell-Knight of Slaanesh",	"pts":50},
+		{"id":89,	"name":"Hell-Scourge of Slaanesh",	"pts":75},
+		
+		{"id":90,	"name":"Desecrator of Nurgle",	"pts":50},
+		{"id":91,	"name":"Deciever of Tzeench",	"pts":50},
+		{"id":92,	"name":"Defiler of Chaos Undivided",	"pts":50},
 		
 		{"id":450,	"name":"Lesser Daemons",	"pts":15}
 		
@@ -154,11 +158,15 @@
 	  
       {"min": 2, "max": 3, "from": [84], "appliesTo": [573]},
       {"min": 1, "max": 2, "from": [85], "appliesTo": [562]},
-      {"min": 5, "max": 7, "from": [86], "appliesTo": [561]},
 	  
       {"min": 4, "max": 6, "from": [87], "appliesTo": [540]},
       {"min": 3, "max": 5, "from": [88], "appliesTo": [541]},
-      {"min": 2, "max": 4, "from": [89], "appliesTo": [542]}
+      {"min": 2, "max": 4, "from": [89], "appliesTo": [542]},
+	  
+      {"min": 4, "max": 6, "from": [90], "appliesTo": [551]},
+      {"min": 5, "max": 7, "from": [86], "appliesTo": [561]},
+      {"min": 4, "max": 6, "from": [91], "appliesTo": [571]},
+      {"min": 4, "max": 6, "from": [92], "appliesTo": [581]}
 	
 	]
 }
