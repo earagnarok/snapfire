@@ -13,7 +13,7 @@
 	       ]
       },
 	  {	
-		 "name": "ORK FORMATIONS (Six for each Mega Gargant, Four for each Great Gargant and Three for each Gargant)",
+		 "name": "ORK FORMATIONS (Four for each Mega Gargant, Three for each Great Gargant and Two for each Gargant)",
          "formations": [
             {"id": 510, "name": "Big Boss Stompamob (Normal)", "pts": 150, "units":"2 Stompa", "upgrades": [100,101,102,103,110,111,112,113,114,115]},
             {"id": 511, "name": "Big Boss Stompamob (Big)", "pts": 225, "units":"4 Stompa",  "upgrades": [100,101,102,103,110,111,112,113,114,115]},
