@@ -33,7 +33,7 @@
 			{"id":553, "name":"NURGLE PLAGUE ZOMBIE INFESTATION",			"pts":175, "units": "3 + 2D6 Plague Zombies", "upgrades":[]},
 			
 			{"id":560, "name":"MAULER KNIGHTS of KHORNE",			"pts":50, "upgrades":[81]},
-			{"id":561, "name":"SLAUGHTERFIENDS of KHORNE",			"pts":25, "upgrades":[86]},
+			{"id":561, "name":"SLAUGHTERFIENDS of KHORNE",			"pts":50, "upgrades":[86]},
 			{"id":562, "name":"GREATER BRASS SCORPION of KHORNE",	"pts":50, "upgrades":[85]},
 			{"id":563, "name":"KHORNE LORD OF BATTLES",			"pts":350, "units": "1 Lord of Battles", "upgrades":[]},
 			
@@ -46,7 +46,7 @@
 			{"name":"CHAOS UNDIVIDED ALLIES and CHAOS NAVY / / Max 25% of the army", "formations":[
 			{"id":580, "name":"RENEGADE KNIGHTS of CHAOS UNDIVIDED",			"pts":50, "upgrades":[83]},
 			{"id":581, "name":"DEFILERS of CHAOS UNDIVIDED",				"pts":225, "units": "4 Defilers of Chaos Undivided", "upgrades":[]},
-			{"id":582, "name":"HERETEKS",				"pts":200, "units": "4 Hereteks, 1 Cyberspawn, 2 Armoured Conveyers", "upgrades":[]},
+			{"id":582, "name":"HERETEKS",				"pts":200, "units": "1 Arch-Heretek, 4 Hereteks, 2 Macrocarid Explorators", "upgrades":[]},
 			{"id":583, "name":"HELL BLADES",				"pts":200, "units": "3 Hell Blades", "upgrades":[]},
 			{"id":584, "name":"HELL TALONS",				"pts":225, "units": "2 Hell Talons", "upgrades":[]},
 			{"id":585, "name":"CHAOS BATTLESHIP",				"pts":150, "units": "1 Chaos Battleship", "upgrades":[]}
@@ -116,8 +116,8 @@
 		{"id":83,	"name":"Renegade Knight of Chaos Undivided",	"pts":75},
 		
 		{"id":84,	"name":"Firelord of Tzeench",	"pts":75},
-		{"id":85,	"name":"Greater Brass Scorpion of Khorne",	"pts":150},
-		{"id":86,	"name":"Slaughterfiend of Khorne",	"pts":50},
+		{"id":85,	"name":"Greater Brass Scorpion of Khorne",	"pts":175},
+		{"id":86,	"name":"Slaughterfiend of Khorne",	"pts":35},
 		
 		{"id":87,	"name":"Hell-Striders",	"pts":35},
 		{"id":88,	"name":"Hell-Knights",	"pts":50},
@@ -154,7 +154,7 @@
 	  
       {"min": 2, "max": 3, "from": [84], "appliesTo": [573]},
       {"min": 1, "max": 2, "from": [85], "appliesTo": [562]},
-      {"min": 4, "max": 6, "from": [86], "appliesTo": [561]},
+      {"min": 5, "max": 7, "from": [86], "appliesTo": [561]},
 	  
       {"min": 4, "max": 6, "from": [87], "appliesTo": [540]},
       {"min": 3, "max": 5, "from": [88], "appliesTo": [541]},
