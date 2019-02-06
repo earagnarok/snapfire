@@ -1,7 +1,7 @@
 {
    "id": "EAA Gargants",
-   "version": "1.25b",  
-   "notes": ["If the army includes any Mega Gargants, the Mekboy Big Boss must be in one of them. Otherwise the Mekboy Big Boss has be in a Great Gargant. Note: Limits to the number of units are doubled for Big formations and tripled for 'Uge formations. For example a Big Warband may include two Oddboyz and an 'Uge Warband may include three Oddboyz."],
+   "version": "1.3b",  
+   "notes": ["If the army includes any Mega Gargants, the Big Mek must be in one of them. Otherwise the Big Mek has be in a Great Gargant. Note: Limits to the number of units are doubled for Big formations and tripled for 'Uge formations. For example a Big Warband may include two Oddboyz and an 'Uge Warband may include three Oddboyz."],
    "by": "Mrdiealot",
    "sections": [
       {
@@ -9,19 +9,19 @@
          "formations": [
             {"id": 501, "name": "Mega Gargant", "pts": 875, "units":"1 Mega Gargant", "upgrades": [10,16,17,18]},
             {"id": 502, "name": "Great Gargant", "pts": 725, "upgrades": [10,16,17,18]},
-            {"id": 503, "name": "Gargant", "pts": 575, "upgrades": []}
+            {"id": 503, "name": "Gargant", "pts": 575, "upgrades": [16,17,18]}
 	       ]
       },
 	  {	
 		 "name": "ORK FORMATIONS (Five for each Mega Gargant, Four for each Great Gargant and Three for each Gargant)",
          "formations": [
-            {"id": 510, "name": "Big Boss Stompamob (Normal)", "pts": 150, "units":"2 Stompa", "upgrades": [100,101,102,103,110,111,112,113,114,115]},
-            {"id": 511, "name": "Big Boss Stompamob (Big)", "pts": 225, "units":"4 Stompa",  "upgrades": [100,101,102,103,110,111,112,113,114,115]},
-            {"id": 512, "name": "Big Boss Stompamob ('Uge)", "pts": 300, "units":"6 Stompa", "upgrades": [100,101,102,103,110,111,112,113,114,115]},
+            {"id": 510, "name": "Big Boss Stompamob (Normal)", "pts": 175, "units":"2 Stompa", "upgrades": [100,101,102,103,110,111,112,113,114,115]},
+            {"id": 511, "name": "Big Boss Stompamob (Big)", "pts": 250, "units":"4 Stompa",  "upgrades": [100,101,102,103,110,111,112,113,114,115]},
+            {"id": 512, "name": "Big Boss Stompamob ('Uge)", "pts": 325, "units":"6 Stompa", "upgrades": [100,101,102,103,110,111,112,113,114,115]},
 			
-            {"id": 513, "name": "Big Boss Dreadhorde (Normal)", "pts": 125, "units":"1 Dreadnought, 4 Killa Kan",  "upgrades": [100,101,102]},
-            {"id": 514, "name": "Big Boss Dreadhorde (Big)", "pts": 200, "units":"2 Dreadnought, 8 Killa Kan", "upgrades": [100,101,102]},
-            {"id": 515, "name": "Big Boss Dreadhorde ('Uge)", "pts": 275, "units":"3 Dreadnought, 12 Killa Kan", "upgrades": [100,101,102]},
+            {"id": 513, "name": "Big Boss Dreadhorde (Normal)", "pts": 150, "units":"2 Dreadnought, 4 Killa Kan",  "upgrades": [100,101,102]},
+            {"id": 514, "name": "Big Boss Dreadhorde (Big)", "pts": 225, "units":"4 Dreadnought, 8 Killa Kan", "upgrades": [100,101,102]},
+            {"id": 515, "name": "Big Boss Dreadhorde ('Uge)", "pts": 350, "units":"6 Dreadnought, 12 Killa Kan", "upgrades": [100,101,102]},
 			
             {"id": 516, "name": "Big Boss Loota Warband (Normal)", "pts": 200, "units":"1 Nobs, 3 Boyz, 2 Grots, 1 Gunfortress", "upgrades": [11,12,13,102,104,105]},
             {"id": 517, "name": "Big Boss Loota Warband (Big)", "pts": 300, "units":"2 Nobs, 6 Boyz, 4 Grots, 2 Gunfortress", "upgrades": [11,12,13,102,104,105]},
@@ -42,7 +42,7 @@
       }
    ],
    "upgrades": [
-      {"id": 10, "name": "Mekboy Big Boss (Compulsory)", "pts": 25},
+      {"id": 10, "name": "Big Mek (Compulsory)", "pts": 25},
       {"id": 11, "name": "Add 1 Oddboy to a Gunfortress (Supa-Zzap-Gun)", "pts": 50},
       {"id": 12, "name": "Add 1 Oddboy to a Gunfortress (Soopagun)", "pts": 50},
       {"id": 13, "name": "Add 1 Oddboy to a Gunfortress (D3+1 Powerfields)", "pts": 50},
@@ -94,7 +94,7 @@
    "upgradeConstraints": [
       {"max": 1, "from": [10], "perArmy": true},
 	  
-      {"max": 1, "from": [16,17,18], "appliesTo": [501,502]},
+      {"max": 1, "from": [16,17,18], "appliesTo": [501,502,503]},
 	  
       {"max": 1, "from": [11,12,13], "appliesTo": [516]},
       {"max": 2, "from": [11,12,13], "appliesTo": [517]},
