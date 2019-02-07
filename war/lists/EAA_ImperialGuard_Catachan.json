@@ -4,9 +4,9 @@
 	"by":"EA-Apocalypse",
 	"sections":[
 		{"name":"DEATHWORLD VETERANS COMPANIES", "formations":[
-			{"id":502, "name":"Deathworld Regimental HQ", "pts":300, "upgrades":[10,11,12,14], "units":"1 Catachan Supreme Commander, plus 3 Catachan Jungle Fighter units"},
-			{"id":500, "name":"Deathworld Air Cavalry Company", "pts":250, "upgrades":[10,11,12,14], "units":"1 Catachan Commander, plus 3 Catachan Jungle Fighter units"},
-			{"id":501, "name":"Deathworld Infantry Company", "pts":250, "upgrades":[12,13], "units":"1 Catachan Commander, plus 5 Catachan Jungle Fighter units"}
+			{"id":502, "name":"Deathworld Regimental HQ", "pts":250, "upgrades":[10,11,12,14], "units":"1 Catachan Supreme Commander, plus 3 Catachan Jungle Fighter units"},
+			{"id":500, "name":"Deathworld Air Cavalry Company", "pts":200, "upgrades":[10,11,12,14], "units":"1 Catachan Commander, plus 3 Catachan Jungle Fighter units"},
+			{"id":501, "name":"Deathworld Infantry Company", "pts":200, "upgrades":[12,13], "units":"1 Catachan Commander, plus 5 Catachan Jungle Fighter units"}
 
 		]},
 		{"name":"DEATHWORLD VETERANS SUPPORT FORMATIONS", "formations":[
