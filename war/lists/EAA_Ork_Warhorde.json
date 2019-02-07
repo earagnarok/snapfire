@@ -1,6 +1,6 @@
 {
-   "id": "Ghazgkhull Thraka's War Horde",
-   "version": "EA-Apocalypse",  
+   "id": "EA_A Clan Goffs WAAAGH Ghazghull",
+   "version": "v1.2",  
    "notes": ["If the army includes any great gargants, the Warlord must be in one of them. Otherwize the Warlord will join a Nobz or Gargant unit."],
    "by": "EA-Apocalypse",
    "sections": [
@@ -20,9 +20,9 @@
             {"id": 510, "name": "Mekboy Stompamob", "pts": 0, "upgrades": [57,60,61,71,77]},
             {"id": 511, "name": "Mekboy Stompamob (Big)", "pts": -50, "upgrades": [57,60,61,71,77]},
             {"id": 512, "name": "Mekboy Stompamob ('Uge)", "pts": -100, "upgrades": [57,60,61,71,77]},
-            {"id": 566, "name": "Mekboy Dreadmob", "pts": 0, "upgrades": [57,60,61]},
-            {"id": 567, "name": "Mekboy Dreadmob (Big)", "pts": -50, "upgrades": [57,60,61]},
-            {"id": 568, "name": "Mekboy Dreadmob ('Uge)", "pts": -100, "upgrades": [57,60,61]},
+            {"id": 566, "name": "Mekboy Dreadmob", "pts": 15, "upgrades": [57,60,61]},
+            {"id": 567, "name": "Mekboy Dreadmob (Big)", "pts": 5, "upgrades": [57,60,61]},
+            {"id": 568, "name": "Mekboy Dreadmob ('Uge)", "pts": 0, "upgrades": [57,60,61]},
             {"id": 503, "name": "Stormboyz Warhorde", "pts": 0, "upgrades": [52,51,53,54,55,59]},
             {"id": 500, "name": "Warband", "pts": 200, "units": "2 Nobz, 6 Boyz, 2 Grotz", "upgrades": [81,50,82,51,52,53,54,55,56,57,58,59,60,61,62,64,68,71,72,73]},
             {"id": 501, "name": "Warband (Big)", "pts": 350, "units": "4 Nobz, 12 Boyz, 4 Grotz", "upgrades": [81,50,82,51,52,53,54,55,56,57,58,59,60,61,62,64,68,71,72,73]},
@@ -34,8 +34,8 @@
          "formations": [
             {"id": 517, "name": "Fighta Skwadron", "pts": 0, "upgrades": [49]},
             {"id": 518, "name": "Landa", "pts": 225, "upgrades": []},
-            {"id": 522, "name": "Gargant", "pts": 600, "upgrades": [81]},
-            {"id": 523, "name": "Great Gargant", "pts": 750, "upgrades": [81]}
+            {"id": 522, "name": "Gargant", "pts": 575, "upgrades": [81]},
+            {"id": 523, "name": "Great Gargant", "pts": 725, "upgrades": [81]}
          ]
       }
    ],
@@ -73,10 +73,10 @@
    "upgradeConstraints": [
       {"max": 1, "from": [81], "perArmy": true},
       
-      {"min": 2, "from": [60], "appliesTo": [566]},
-      {"min": 3, "from": [60], "appliesTo": [567]},
-      {"min": 6, "from": [60], "appliesTo": [568]},
-      {"min": 4, "from": [57], "appliesTo": [566]},
+      {"min": 1, "from": [60], "appliesTo": [566]},
+      {"min": 2, "from": [60], "appliesTo": [567]},
+      {"min": 3, "from": [60], "appliesTo": [568]},
+      {"min": 3, "from": [57], "appliesTo": [566]},
       {"min": 6, "from": [57], "appliesTo": [567]},
       {"min": 9, "from": [57], "appliesTo": [568]},
       
