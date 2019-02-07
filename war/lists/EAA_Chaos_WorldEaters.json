@@ -1,29 +1,29 @@
 {
-   "id": "Chaos - Death Guard",
-   "version": "EA-Apocalypse",
+   "id": "Chaos - World Eaters",
+   "version": "1.3b",
    "by": "EA-Apocalypse",
    "sections": [
       {"name": "INDIVIDUALS", "formations": [
-	    {"id": 501, "name": "Daemon Pool", "pts": 0, "upgrades": [11]}
+	    {"id": 501, "name": "Daemon Pool", "pts": 0, "upgrades": [71,72,74]}
       ]},
 
       {"name": "WORLD EATER RETINUE", "formations": [
-            {"id": 521, "name": "World Eater Retinue", "pts": 275, "upgrades": [23,24,26,25,39,27,22]}
+            {"id": 521, "name": "World Eater Retinue", "pts": 300, "upgrades": [23,24,26,25,39,27,22]}
        ]},
 
       {"name": "WORLD EATER SUPPORT FORMATIONS", "formations": [
-            {"id": 531, "name": "Juggernauts", "pts": 350, "units": "8 Juggernauts", "upgrades": [26,27]},
-            {"id": 532, "name": "World Eaters Terminators", "pts": 350, "upgrades": [26,33,22,25,27,39]},
-            {"id": 533, "name": "World Eater Bikes", "pts": 325, "units": "8 Khorne Berzerker Bikes", "upgrades": [27,25]},
+            {"id": 531, "name": "Juggernauts", "pts": 375, "units": "8 Juggernauts", "upgrades": [26,27]},
+            {"id": 532, "name": "World Eaters Terminators", "pts": 375, "upgrades": [26,33,22,25,27,39]},
+            {"id": 533, "name": "Berzerker Bikes", "pts": 350, "units": "8 Khorne Berzerker Bikes", "upgrades": [27,25]},
             {"id": 534, "name": "Chaos Space Marines", "pts": 225, "units": "6 Chaos Space Marines, 3 Chaos Rhinos", "upgrades": [25]},
             {"id": 535, "name": "Armoured Company", "pts": 0, "upgrades": [30]}
        ]},
 
       {"name": "WORLD EATER DAEMON ENGINE FORMATIONS", "formations": [
-            {"id": 541, "name": "Defilers", "pts": 200, "units": "4 Slaughterfiends", "upgrades": [35]},
+            {"id": 541, "name": "Defilers", "pts": 225, "units": "5 Slaughterfiends", "upgrades": [35]},
             {"id": 542, "name": "Daemonic Assault Engines", "pts": 300, "units": "6 Daemonic Assault Engines", "upgrades": []},
-            {"id": 543, "name": "Hellfire Cannons", "pts": 200, "units": "4 Hellfire Cannons", "upgrades": [36]},
-            {"id": 544, "name": "Doomblasters", "pts": 200, "units": "4 Doomblasters", "upgrades": [36]}
+            {"id": 543, "name": "Hellfire Cannons", "pts": 225, "units": "4 Hellfire Cannons", "upgrades": [36]},
+            {"id": 544, "name": "Doomblasters", "pts": 225, "units": "4 Doomblasters", "upgrades": [36]}
        ]},
 
       {"name": "SPACESHIPS, AIRCRAFT &amp; TITANS", "formations": [
@@ -31,40 +31,38 @@
             {"id": 552, "name": "Lord of Battles", "pts": 350, "units": "1 Lord of Battles", "upgrades": []},
             {"id": 553, "name": "Tower of Skulls", "pts": 675, "units": "1 Tower of Skulls", "upgrades": []},
             {"id": 554, "name": "Heldrakes", "pts": 200, "units": "2 Heldrakes", "upgrades": []},
-            {"id": 555, "name": "Baledrakes", "pts": 225, "units": "2 Baledrakes", "upgrades": []},
+            {"id": 555, "name": "Baledrakes", "pts": 200, "units": "2 Baledrakes", "upgrades": []},
             {"id": 557, "name": "World Eater Spacecraft", "pts": 150, "upgrades": []}
          ]}
    ],
    "upgrades": [
-      {"id": 11, "name": "Less Daemon", "pts": 15},
-      {"id": 12, "name": "Blood Thirster", "pts": 0},
       {"id": 13, "name": "Blood Lord", "pts": 50},
       {"id": 14, "name": "Daemon Prince of Khorne", "pts": 75},
       {"id": 15, "name": "Skull Lord", "pts": 0},
       {"id": 17, "name": "4 Chaos Space Marines", "pts": 0},
       {"id": 19, "name": "4 Khorne Berzerkers", "pts": 0},
-      {"id": 20, "name": "", "pts": 250},
-      {"id": 21, "name": "Add 2 Desecrators", "pts": 100},
       {"id": 22, "name": "Add 2 World Eater Dreadnoughts", "pts": 75},
-      {"id": 23, "name": "4 Choas Rhinos", "pts": 25},
+      {"id": 23, "name": "4 Chaos Rhinos", "pts": 0},
       {"id": 24, "name": "World Eater Land Raiders", "pts": 200},
       {"id": 25, "name": "Daemonic Pact", "pts": 25},
       {"id": 26, "name": "Champion of Khorne", "pts": 50},
       {"id": 27, "name": "Icon Bearer ", "pts": 25},
-      {"id": 28, "name": "Death Guard Stalker ", "pts": 50},
-      {"id": 29, "name": "3 Plague Marines", "pts": 25},
       {"id": 30, "name": "Add 2 Chaos Vindicators", "pts": 50},
-      {"id": 31, "name": "Stalker", "pts": 50},
-      {"id": 32, "name": "4 Chaos Preditors", "pts": 200},
+      {"id": 32, "name": "4 Chaos Predators", "pts": 200},
       {"id": 33, "name": "4 World Eater Land Raiders", "pts": 300},
-      {"id": 34, "name": "Greater Brass Scorpion", "pts": 150},
+      {"id": 34, "name": "Greater Brass Scorpion", "pts": 175},
       {"id": 35, "name": "Add 2 Slaughterfiends", "pts": 75},
-      {"id": 36, "name": "Add 2 Forgefiends", "pts": 100},
+      {"id": 36, "name": "Add 2 Forgefiends", "pts": 75},
       {"id": 37, "name": "Skullseeker Terminators", "pts": 0},
       {"id": 38, "name": "Mutilators", "pts": 15},
       {"id": 39, "name": "Dreadclaws", "pts": 0},
       {"id": 40, "name": "Devastator Class Cruiser ", "pts": 0},
-      {"id": 41, "name": "Despoiler Class Battleship", "pts": 75}
+      {"id": 41, "name": "Despoiler Class Battleship", "pts": 75},
+	  
+		{"id":71, "name":"Greater Daemon Pool point", "pts":50},
+		{"id":72, "name":"Lesser Daemon Pool point", "pts":15},
+		{"id":73, "name":"Greater Daemon Pool point (Free)", "pts":0},
+		{"id":74, "name":"Lesser Daemon Pool point (Daemonic Pact)", "pts":0}
    ],
    "formationConstraints": [
       {"max": 1, "from": [556]}, 
@@ -76,7 +74,7 @@
    ],
    "upgradeConstraints": [
       {"max": 1, "from": [13,14], "perArmy": true},
-      {"min": 1, "max": 1, "from": [12], "appliesTo": [501]},
+      {"min": 1, "max": 1, "from": [73], "appliesTo": [501]},
       {"max": 1, "from": [23,24], "appliesTo": [521]},
       {"max": 1, "from": [22]},
       {"max": 1, "from": [23]},
