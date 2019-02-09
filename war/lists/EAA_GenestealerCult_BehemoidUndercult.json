@@ -13,7 +13,7 @@
 		]},
 
 		{"name":"Cult Support Forces", "formations": [
-			{ "id":504, "name":"Lictors", "pts":225, "upgrades":[54]},
+			{ "id":504, "name":"Lictors", "pts":100, "upgrades":[54]},
 			{ "id":505, "name":"Purestrain Genestealers", "units":"6 Purestrain Genestealer Units, 1 Broodlord", "pts":250, "upgrades":[]},
 			{ "id":506, "name":"Atalan Jackals", "pts":275,"units":"1 Jackal Alphus", "upgrades":[]},
 			{ "id":507, "name":"Hybrid Metamorphs", "pts":225, "units":"8 Hybrid Metamorphs", "upgrades":[12,13]},
