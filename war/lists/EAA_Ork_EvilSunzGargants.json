@@ -1,15 +1,15 @@
 {
    "id": "EAA Gargants",
-   "version": "1.3b",  
+   "version": "1.35b",  
    "notes": ["If the army includes any Mega Gargants, the Big Mek must be in one of them. Otherwise the Big Mek has be in a Great Gargant. Note: Limits to the number of units are doubled for Big formations and tripled for 'Uge formations. For example a Big Warband may include two Oddboyz and an 'Uge Warband may include three Oddboyz."],
    "by": "Mrdiealot",
    "sections": [
       {
          "name": "GARGANT FORMATIONS (At least one Mega Gargant or Great Gargant)",
          "formations": [
-            {"id": 501, "name": "Mega Gargant", "pts": 875, "units":"1 Mega Gargant", "upgrades": [10,16,17,18]},
-            {"id": 502, "name": "Great Gargant", "pts": 725, "upgrades": [10,16,17,18]},
-            {"id": 503, "name": "Gargant", "pts": 575, "upgrades": [16,17,18]}
+            {"id": 501, "name": "Mega Gargant", "pts": 875, "units":"1 Mega Gargant", "upgrades": [10,11,12,13,14]},
+            {"id": 502, "name": "Great Gargant", "pts": 725, "upgrades": [10,11,12,13,14]},
+            {"id": 503, "name": "Gargant", "pts": 575, "upgrades": [11,12,13,14]}
 	       ]
       },
 	  {	
@@ -23,13 +23,13 @@
             {"id": 514, "name": "Big Boss Dreadhorde (Big)", "pts": 225, "units":"2 Dreadnought, 6 Killa Kan", "upgrades": [100,101,102]},
             {"id": 515, "name": "Big Boss Dreadhorde ('Uge)", "pts": 325, "units":"3 Dreadnought, 9 Killa Kan", "upgrades": [100,101,102]},
 			
-            {"id": 516, "name": "Big Boss Loota Warband (Normal)", "pts": 200, "units":"1 Nobs, 3 Boyz, 2 Grots, 1 Gunfortress", "upgrades": [11,12,13,102,104,105]},
-            {"id": 517, "name": "Big Boss Loota Warband (Big)", "pts": 300, "units":"2 Nobs, 6 Boyz, 4 Grots, 2 Gunfortress", "upgrades": [11,12,13,102,104,105]},
-            {"id": 518, "name": "Big Boss Loota Warband ('Uge)", "pts": 400, "units":"3 Nobs, 9 Boyz, 6 Grots, 3 Gunfortress", "upgrades": [11,12,13,102,104,105]},
+            {"id": 516, "name": "Big Boss Loota Warband (Normal)", "pts": 200, "units":"1 Nobs, 3 Boyz, 2 Grots, 1 Gunfortress", "upgrades": [11,12,13,14,102,104,105]},
+            {"id": 517, "name": "Big Boss Loota Warband (Big)", "pts": 300, "units":"2 Nobs, 6 Boyz, 4 Grots, 2 Gunfortress", "upgrades": [11,12,13,14,102,104,105]},
+            {"id": 518, "name": "Big Boss Loota Warband ('Uge)", "pts": 400, "units":"3 Nobs, 9 Boyz, 6 Grots, 3 Gunfortress", "upgrades": [11,12,13,14,102,104,105]},
 			
-            {"id": 519, "name": "Big Boss Runn'n Gunz (Normal)", "pts": 200, "units":"4 Big Gun, 2 Grots, 1 Battlefortress", "upgrades": [14,15,102,104,105]},
-            {"id": 520, "name": "Big Boss Runn'n Gunz (Big)", "pts": 300, "units":"8 Big Gun, 4 Grots, 2 Battlefortress", "upgrades": [14,15,102,104,105]},
-            {"id": 521, "name": "Big Boss Runn'n Gunz ('Uge)", "pts": 400, "units":"12 Big Gun, 6 Grots, 3 Battlefortress", "upgrades": [14,15,102,104,105]}
+            {"id": 519, "name": "Big Boss Runn'n Gunz (Normal)", "pts": 200, "units":"4 Big Gun, 2 Grots, 1 Battlefortress", "upgrades": [11,12,13,14,102,104,105]},
+            {"id": 520, "name": "Big Boss Runn'n Gunz (Big)", "pts": 300, "units":"8 Big Gun, 4 Grots, 2 Battlefortress", "upgrades": [11,12,13,14,102,104,105]},
+            {"id": 521, "name": "Big Boss Runn'n Gunz ('Uge)", "pts": 400, "units":"12 Big Gun, 6 Grots, 3 Battlefortress", "upgrades": [11,12,13,14,102,104,105]}
          ]
       },
       {
@@ -43,14 +43,10 @@
    ],
    "upgrades": [
       {"id": 10, "name": "Big Mek (Compulsory)", "pts": 25},
-      {"id": 11, "name": "Add 1 Oddboy to a Gunfortress (Supa-Zzap-Gun)", "pts": 50},
-      {"id": 12, "name": "Add 1 Oddboy to a Gunfortress (Soopagun)", "pts": 50},
-      {"id": 13, "name": "Add 1 Oddboy to a Gunfortress (D3+1 Powerfields)", "pts": 50},
-	  {"id": 14, "name": "Add 1 Oddboy to a Big Gun (Supa-Zzap-Gun)", "pts": 50},
-      {"id": 15, "name": "Add 1 Oddboy to a Big Gun (Soopagun)", "pts": 50},
-      {"id": 16, "name": "Add 1 Oddboy (Supa-Zzap-Gun)", "pts": 50},
-      {"id": 17, "name": "Add 1 Oddboy (Soopagun)", "pts": 50},
-      {"id": 18, "name": "Add 1 Oddboy (D3+1 Powerfields)", "pts": 50},
+      {"id": 11, "name": "Add 1 Oddboy (Replace 1 Big Gun with a Supa-Zzap-Gun)", "pts": 50},
+      {"id": 12, "name": "Add 1 Oddboy (Replace 1 Big Gun with a Soopagun)", "pts": 50},
+      {"id": 13, "name": "Add 1 Oddboy (D3+1 Powerfields)", "pts": 50},
+	  {"id": 14, "name": "Add 1 Oddboy ('Uge Banner of Mork (or possibly Gork))", "pts": 50},
 	  
       {"id": 20, "name": "Fighta-Bommer", "pts": 50},
 	  
@@ -94,15 +90,15 @@
    "upgradeConstraints": [
       {"max": 1, "from": [10], "perArmy": true},
 	  
-      {"max": 1, "from": [16,17,18], "appliesTo": [501,502,503]},
+      {"max": 1, "from": [11,12,13,14], "appliesTo": [501,502,503]},
 	  
-      {"max": 1, "from": [11,12,13], "appliesTo": [516]},
-      {"max": 2, "from": [11,12,13], "appliesTo": [517]},
-      {"max": 3, "from": [11,12,13], "appliesTo": [518]},
+      {"max": 1, "from": [11,12,13,14], "appliesTo": [516]},
+      {"max": 2, "from": [11,12,13,14], "appliesTo": [517]},
+      {"max": 3, "from": [11,12,13,14], "appliesTo": [518]},
 	  
-      {"max": 1, "from": [14,15], "appliesTo": [519]},
-      {"max": 2, "from": [14,15], "appliesTo": [520]},
-      {"max": 3, "from": [14,15], "appliesTo": [521]},
+      {"max": 1, "from": [11,12,13,14], "appliesTo": [519]},
+      {"max": 2, "from": [11,12,13,14], "appliesTo": [520]},
+      {"max": 3, "from": [11,12,13,14], "appliesTo": [521]},
 	  
       {"max": 1, "from": [110,111,112,113,114,115], "appliesTo": [510]},
       {"max": 2, "from": [110,111,112,113,114,115], "appliesTo": [511]},
