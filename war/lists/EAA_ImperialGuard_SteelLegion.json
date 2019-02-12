@@ -13,7 +13,7 @@
 		]},
 		{"name":"SUPPORT FORMATIONS", "formations":[
 			{"id":500, "name":"Rough Rider Platoon", 			"pts":150, "upgrades":[38,39], "units":"6 Rough Riders"},
-			{"id":501, "name":"Tempestus Scions",				"pts":200, "upgrades":[36,37,38,39], "units":"8 Tempestus Scions and 1 Tempestor"},
+			{"id":501, "name":"Tempestus Scions",				"pts":200, "upgrades":[36,55,38,39], "units":"8 Tempestus Scions and 1 Tempestor"},
 			{"id":502, "name":"Artillery Battery",				"pts":250, "upgrades":[38,39,40]},
       			{"id":502, "name":"Bombard Battery",				"pts":225, "upgrades":[38,39,40]},
 			{"id":505, "name":"Sentinel Squadron",				"pts":100, "upgrades":[38,39], "units":"4 Sentinels"},
@@ -60,7 +60,7 @@
 		{"id":34, "name":"2 Ogryns",					"pts":50},
 		{"id":35, "name":"Hydra",					"pts":50},
 		{"id":36, "name":"Valkyrie Transport",				"pts":150},
-    {"id":37, "name":"Taurox Transport",				"pts":150},
+    {"id":55, "name":"Taurox Transport",				"pts":150},
     {"id":38, "name":"Commissar",			    	"pts":0},
     {"id":39, "name":"Lord Commissar",				"pts":50},
     {"id":40, "name":"Gun Emplacements",				"pts":25}
