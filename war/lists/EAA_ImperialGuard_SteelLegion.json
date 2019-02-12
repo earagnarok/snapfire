@@ -15,7 +15,7 @@
 			{"id":500, "name":"Rough Rider Platoon", 			"pts":150, "upgrades":[38,39], "units":"6 Rough Riders"},
 			{"id":501, "name":"Tempestus Scions",				"pts":200, "upgrades":[36,55,38,39], "units":"8 Tempestus Scions and 1 Tempestor"},
 			{"id":502, "name":"Artillery Battery",				"pts":250, "upgrades":[38,39,40]},
-      			{"id":502, "name":"Bombard Battery",				"pts":225, "upgrades":[38,39,40]},
+      			{"id":511, "name":"Bombard Battery",				"pts":225, "upgrades":[38,39,40]},
 			{"id":505, "name":"Sentinel Squadron",				"pts":100, "upgrades":[38,39], "units":"4 Sentinels"},
 			{"id":506, "name":"Deathstrike Missile Battery",		"pts":200, "upgrades":[38,39,40], "units":"2 Deathstrike Missile Launchers"},
 			{"id":507, "name":"Super-Heavy Tank Platoon", 			"pts":200, "upgrades":[38,39]},
@@ -76,7 +76,8 @@
 	"upgradeConstraints":[
 		{"min":10, "max":10, "from":[11,12], "appliesTo":[515]},
 		{"min":3, "max":3, "from":[14,15], "appliesTo":[516]},
-    		{"min":1, "max":1, "from":[41,42,43], "appliesTo":[502]},
+    		{"min":1, "max":1, "from":[41,43], "appliesTo":[502]},
+		{"min":1, "max":1, "from":[42], "appliesTo":[511]},
 		{"min":1, "max":1, "from":[14,15], "appliesTo":[507]},
 		{"min":1, "max":1, "from":[20,21], "appliesTo":[517]},
 		{"min":1, "max":1, "from":[23,24], "appliesTo":[508]},
