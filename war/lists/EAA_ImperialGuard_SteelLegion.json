@@ -84,7 +84,7 @@
 		{"max":3, "name":"Upgrades", "from":[27,28,29,30,31,32,33,34,35,37]},
 		{"max":1, "from":[12]},
   		{"max":1, "from":[40]},
-   		{"max":1, "from":[36,37]},
+   		{"max":1, "from":[36,55]},
     		{"max":1, "from":[38,39]},
    		{"max": 6, "perArmy": true, "from": [38,39]},
    		{"max": 1, "perArmy": true, "from": [39]},
