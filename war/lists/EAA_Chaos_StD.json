@@ -1,6 +1,6 @@
 {
 	"id":"EAA Slaves to Darkness",
-	"version":"1.15b",
+	"version":"1.2b",
 	"notes":
 		["Add one free Lesser Daemon to Daemon pool per Daemonic Pact"],
 		"by":"Mrdiealot",
@@ -9,7 +9,7 @@
 			{"id":500, "name":"Daemon Pool", "pts":0, "upgrades":[72,73]}
 		]},
 		{"name":"SLAVES TO DARKNESS CORE FORMATIONS", "formations":[
-			{"id":501, "name":"Traitor Company", "pts":200, "units":"6 Traitor Guard, 2 Mutants, 1 Mutants with Daemonic Icon", "upgrades":[15,16,19,20,21,22,23,24,25,26]}
+			{"id":501, "name":"Traitor Company", "pts":200, "units":"8 Traitor Guard, Daemonic Icon", "upgrades":[15,16,19,20,21,22,23,24,25,26]}
 		]},
 		{"name":"SLAVES TO DARKNESS SUPPORT FORMATIONS", "formations":[
 			{"id":502, "name":"Sentinel Platoon", "pts":100, "units":"4 Sentinels", "upgrades":[]},
