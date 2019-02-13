@@ -1,6 +1,6 @@
 {
    "id": "Biel-Tan Craftworld",
-   "version": "EA-Apocalypse",
+   "version": "1.07",
    "by": "EA-Apocalypse",
    "sections": [
       {"name": "INDIVIDUALS", "formations": [
@@ -90,7 +90,7 @@
       {"max": 6, "min": 6, "from": [27,28], "appliesTo": [502]},
       {"max": 3, "min": 2, "from": [54], "appliesTo": [520]},
       {"max": 3, "min": 2, "from": [53], "appliesTo": [521]},
-      {"max": 2, "from": [31], "appliesTo": [503]},
+      {"max": 1, "from": [31], "appliesTo": [503]},
       {"max": 5, "min": 5, "from": [30,31], "appliesTo": [503]},
       {"max": 3, "min": 1, "from": [34,35,36], "appliesTo": [505]}
 	  
