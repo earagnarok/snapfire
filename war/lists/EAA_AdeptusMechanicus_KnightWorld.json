@@ -1,0 +1,67 @@
+{
+	"id":"Adeptus Mechanicus - Knight World",
+	"version":"1.31b",
+	"notes":[""],
+	"by":"EA-Apocalypse",
+	"sections":[
+		{"name":"Core Households", "formations":[
+			{"id":501, "name":"Protector Household",	"pts":50, "upgrades":[13,12,11]}			
+		]},
+		{"name":"Support Households", "formations":[
+			{"id":511, "name":"Custodian Household",	"pts":25, "upgrades":[14,12]},	
+			{"id":512, "name":"Vanguard Household", 	"pts":100, "upgrades":[15,12]},
+			{"id":513, "name":"Guardian Household",		"pts":125, "upgrades":[16,17,18,12]},
+			{"id":514, "name":"Aggressor Household",	"pts":75, "upgrades":[19,12]}	
+		]},
+		{"name":"Retainer Formations", "formations":[
+			{"id":521, "name":"Planetary Defence Company",	"pts":150, "units":"9 PDF Infantry, 1 Commander", "upgrades":[20,21,23,22]},	
+			{"id":522, "name":"AAA Platoon", 		"pts":125, "units":"3 Heavy AA, 3 Gun Emplacements", "upgrades":[]},
+			{"id":523, "name":"Howitzer Platoon",		"pts":150, "units":"3 Howitzers, 3 Gun Emplacements", "upgrades":[]},
+			{"id":524, "name":"Rough Riders",		"pts":150, "units":"6 Rough Riders", "upgrades":[]},
+			{"id":525, "name":"Light Mech",			"pts":125, "units":"3 Centaurs, 3 PDF Infantry", "upgrades":[20,21]}	
+		]},
+
+
+		{"name":"Imperial Navy", "formations":[
+			{"id":541, "name":"Thunderbolt Fighters", "pts":150, "upgrades":[], "units":"2 Thunderbolt Fighters"},
+			{"id":542, "name":"Marauder Bombers", "pts":225, "upgrades":[], "units":"2 Marauder Bombers"}
+		]}
+		
+			
+	],
+	"upgrades":[	
+		{"id":11, "name":"Knight-Baron",				"pts":100},
+		{"id":12, "name":"Senechal",					"pts":25},
+		{"id":13, "name":"Knight-Protectors",				"pts":75},
+		{"id":14, "name":"Knight-Custodians",				"pts":100},
+		{"id":15, "name":"Knight-Vanguard",				"pts":75},
+		{"id":16, "name":"Knight-Guardian Demolisher",			"pts":50},
+    		{"id":17, "name":"Knight-Guardian Skysweeper",			"pts":50},
+		{"id":18, "name":"Knight-Guardian Vanquisher",			"pts":50},
+		{"id":19, "name":"Knight-Agressors",				"pts":75},
+		{"id":20, "name":"Add 3 Rapiers",				"pts":25},
+		{"id":21, "name":"Add 3 Thudd Gun",				"pts":50},
+		{"id":22, "name":"60cm Razorwire and 60cm Trenches",		"pts":50},
+		{"id":23, "name":"Snipers",					"pts":25}
+		
+	],
+	"formationConstraints":[
+		{"max":2, "name":"Support Households", "from":[511,512,513,514], "forEach":[501], "name2":"Core Households"},
+		{"max":2, "name":"Retainer Formations", "from":[521,522,523,524,525], "forEach":[501], "name2":"Core Households"},
+		{"maxPercent":25, "name":"Imperial Navy", "from":[541,542]}
+	],
+	"upgradeConstraints":[
+		{"max":1, "from":[12]},
+		{"max":1, "from":[12,11]},
+		{"max":1,  "perArmy":true,  "from":[11]},
+		{"min":5, "max":7, "from":[13], "appliesTo":[501]},
+		{"min":2, "max":4, "from":[14], "appliesTo":[511]},
+		{"min":3, "max":5, "from":[15], "appliesTo":[512]},
+		{"min":4, "max":6, "from":[16,17,18], "appliesTo":[513]},
+		{"min":3, "max":5, "from":[19], "appliesTo":[514]},
+		{"max":1, "from":[20]},
+		{"max":1, "from":[22]},
+		{"max":1, "from":[21]},
+		{"max":2, "from":[23]}		
+	]
+}
