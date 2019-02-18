@@ -1,19 +1,19 @@
 {
 	"id":"Adeptus Mechanicus - Knight World",
-	"version":"1.31b",
+	"version":"1.4b",
 	"notes":[""],
 	"by":"EA-Apocalypse",
 	"sections":[
 		{"name":"Core Households", "formations":[
-			{"id":501, "name":"Protector Household",	"pts":50, "upgrades":[13,12,11]}			
+			{"id":501, "name":"Protector Household",	"pts":50, "upgrades":[13,10,11]}			
 		]},
-		{"name":"Support Households", "formations":[
+		{"name":"Support Households (Max 2 per Core Household)", "formations":[
 			{"id":511, "name":"Custodian Household",	"pts":25, "upgrades":[14,12]},	
 			{"id":512, "name":"Vanguard Household", 	"pts":100, "upgrades":[15,12]},
 			{"id":513, "name":"Guardian Household",		"pts":125, "upgrades":[16,17,18,12]},
 			{"id":514, "name":"Aggressor Household",	"pts":75, "upgrades":[19,12]}	
 		]},
-		{"name":"Retainer Formations", "formations":[
+		{"name":"Retainer Formations (Max 2 per Core Household)", "formations":[
 			{"id":521, "name":"Planetary Defence Company",	"pts":150, "units":"9 PDF Infantry, 1 Commander", "upgrades":[20,21,23,22]},	
 			{"id":522, "name":"AAA Platoon", 		"pts":125, "units":"3 Heavy AA, 3 Gun Emplacements", "upgrades":[]},
 			{"id":523, "name":"Howitzer Platoon",		"pts":150, "units":"3 Howitzers, 3 Gun Emplacements", "upgrades":[]},
@@ -22,27 +22,28 @@
 		]},
 
 
-		{"name":"Imperial Navy", "formations":[
-			{"id":541, "name":"Thunderbolt Fighters", "pts":150, "upgrades":[], "units":"2 Thunderbolt Fighters"},
+		{"name":"Imperial Navy (Max 25%)", "formations":[
+			{"id":541, "name":"Thunderbolt Interceptors", "pts":150, "upgrades":[], "units":"2 Thunderbolt Fighters"},
 			{"id":542, "name":"Marauder Bombers", "pts":225, "upgrades":[], "units":"2 Marauder Bombers"}
 		]}
 		
 			
 	],
 	"upgrades":[	
-		{"id":11, "name":"Knight-Baron",				"pts":100},
-		{"id":12, "name":"Seneschal",					"pts":25},
-		{"id":13, "name":"Knight-Protector",				"pts":75},
-		{"id":14, "name":"Knight-Custodian",				"pts":100},
-		{"id":15, "name":"Knight-Vanguard",				"pts":75},
+		{"id":10, "name":"Knight-Protector with Seneschal",		"pts":100},
+		{"id":11, "name":"Knight-Baron",						"pts":150},	
+		{"id":12, "name":"Seneschal",							"pts":25},
+		{"id":13, "name":"Knight-Protector",					"pts":75},
+		{"id":14, "name":"Knight-Custodian",					"pts":100},
+		{"id":15, "name":"Knight-Vanguard",						"pts":75},
 		{"id":16, "name":"Knight-Guardian Demolisher",			"pts":50},
-    		{"id":17, "name":"Knight-Guardian Skysweeper",			"pts":50},
+   		{"id":17, "name":"Knight-Guardian Skysweeper",			"pts":50},
 		{"id":18, "name":"Knight-Guardian Vanquisher",			"pts":50},
-		{"id":19, "name":"Knight-Agressor",				"pts":75},
-		{"id":20, "name":"Add 3 Rapiers",				"pts":25},
-		{"id":21, "name":"Add 3 Thudd Guns",				"pts":50},
-		{"id":22, "name":"60cm Razorwire and 60cm Trenches",		"pts":50},
-		{"id":23, "name":"Sniper",					"pts":25}
+		{"id":19, "name":"Knight-Aggressor",					"pts":75},
+		{"id":20, "name":"Add 3 Rapiers",						"pts":25},
+		{"id":21, "name":"Add 3 Thudd Guns",					"pts":50},
+		{"id":22, "name":"60cm Razorwire and 60cm Trenches",	"pts":50},
+		{"id":23, "name":"Sniper",								"pts":25}
 		
 	],
 	"formationConstraints":[
@@ -52,9 +53,9 @@
 	],
 	"upgradeConstraints":[
 		{"max":1, "from":[12]},
-		{"max":1, "from":[12,11]},
+		{"max":1, "from":[11,10]},
 		{"max":1,  "perArmy":true,  "from":[11]},
-		{"min":5, "max":7, "from":[13], "appliesTo":[501]},
+		{"min":5, "max":7, "from":[13,10,11], "appliesTo":[501]},
 		{"min":2, "max":4, "from":[14], "appliesTo":[511]},
 		{"min":3, "max":5, "from":[15], "appliesTo":[512]},
 		{"min":4, "max":6, "from":[16,17,18], "appliesTo":[513]},
