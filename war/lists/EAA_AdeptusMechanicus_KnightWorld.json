@@ -40,8 +40,8 @@
    		{"id":17, "name":"Knight-Guardian Skysweeper",			"pts":50},
 		{"id":18, "name":"Knight-Guardian Vanquisher",			"pts":50},
 		{"id":19, "name":"Knight-Aggressor",					"pts":75},
-		{"id":20, "name":"Add 2 Rapiers",						"pts":25},
-		{"id":21, "name":"Add 2 Thudd Guns",					"pts":50},
+		{"id":20, "name":"Add 3 Rapiers",						"pts":50},
+		{"id":21, "name":"Add 3 Thudd Guns",					"pts":75},
 		{"id":22, "name":"60cm Razorwire and 60cm Trenches",	"pts":50},
 		{"id":23, "name":"Sniper",								"pts":25}
 		
