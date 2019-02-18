@@ -81,7 +81,7 @@
 		{"min":1, "from":[500]},
 		{"max":1, "from":[500]},
 		{"max":1, "from":[525]},
-		{"max":2, "name":"Cult Support Formations", "from":[521,522,523,524,525,504,505,506,507,508], "forEach":[501,502,503], "name2":"Cult Broods"},
+		{"max":2, "name":"Cult Support Formations", "from":[521,522,523,524,525,504,505,506,507,508], "forEach":[500,501,502,503], "name2":"Cult Broods"},
 		{"max":1, "name":"Genestealer Brood formations", "from":[503], "forEach":[501,502], "name2":"Hybrid Brood and Brood Brother formations"}
 	],
 	"upgradeConstraints":[
