@@ -20,7 +20,7 @@
 			{ "id":507, "name":"Hybrid Metamorphs", "pts":300, "units":"8 Hybrid Metamorphs", "upgrades":[13]},
 			{ "id":508, "name":"Achilles Ridgerunner", "pts":200, "units":"6 Achilles Ridgerunners", "upgrades":[]},
 			{ "id":521, "name":"Super Heavy Tank", "pts":200, "units":"Baneblade", "upgrades":[12] },
-			{ "id":522, "name":"Leman Russ", "pts":325, "upgrades":[48,12] },			
+			{ "id":522, "name":"Leman Russ", "pts":290, "upgrades":[48,12] },			
 			{ "id":523, "name":"Artillery", "pts":225, "units":"3 Bombard Units", "upgrades":[48,12] },
 			{ "id":524, "name":"Sentinels", "pts":100, "units":"4 Sentinels", "upgrades":[12] },
 			{ "id":525, "name":"Deathstrikes", "units":"2 Deathstrike Missiles", "pts":200, "upgrades":[12]}
