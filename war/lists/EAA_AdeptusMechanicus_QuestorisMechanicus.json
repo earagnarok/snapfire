@@ -26,7 +26,7 @@
 			
 			{"id":520, "name":"Warhound Scout Titan Pack",	"pts":500, "upgrades":[13], "units":"2 AMTL Warhound Titans"},
 			
-			{"id":522, "name":"Orbital Support", 		"pts":150, "upgrades":[]}
+			{"id":522, "name":"Orbital Support", 		"pts":200, "upgrades":[]}
 			
 		]}
 	],	
