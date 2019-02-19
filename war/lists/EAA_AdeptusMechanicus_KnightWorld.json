@@ -1,11 +1,11 @@
 {
 	"id":"Adeptus Mechanicus - Knight World",
-	"version":"1.4",
+	"version":"1.5",
 	"notes":[""],
 	"by":"EA-Apocalypse",
 	"sections":[
 		{"name":"Core Households", "formations":[
-			{"id":501, "name":"Protector Household",	"pts":50, "upgrades":[13,10,11]}			
+			{"id":501, "name":"Protector Household",	"pts":75, "upgrades":[13,10,11]}			
 		]},
 		{"name":"Support Households (Max 2 per Core Household)", "formations":[
 			{"id":511, "name":"Custodian Household",	"pts":25, "upgrades":[14,12]},	
