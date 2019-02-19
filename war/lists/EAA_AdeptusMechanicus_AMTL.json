@@ -24,7 +24,7 @@
         "id":520,"name":"Questoris Banner","pts":75, "upgrades":[100,101,102,103,104,105]}
 ]},
 
-{"name":"ADEPTUS MECHANICUS ALLIES (Max 33%. Max 1 Lysander Fighter for each Warmonger or Landing Pad carapace upgrade)",
+{"name":"ADEPTUS MECHANICUS ALLIES (Max 33%. Max 1 Lysander Fighter for each Warmonger Titan or Landing Pad carapace upgrade)",
 "formations":[
         {"id":530,"name":"Skitarii Maniple","pts":300,"units":"9 Vanguard, 1 Tech-Priest Dominus, 1 Gorgon","upgrades":[]},
 		{"id":531,"name":"Kastalan Maniple","pts":175,"units":"5 Kastalan Robots, 1 Cybernetica Datasmith","upgrades":[]},
