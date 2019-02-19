@@ -72,7 +72,8 @@
 		{"id":59, "name":"9 Genestealers",					"pts":75},
 		{"id":61, "name":"Atalan Jackals ",					"pts":0},
 		{"id":62, "name":"Atalan Jackals Quad Bikes",				"pts":0},
-		{"id":63, "name":"Armored Limousines",					"pts":0}
+		{"id":63, "name":"Armored Limousines",					"pts":0},
+		{"id":64, "name":"No Transports",					"pts":0}
 
 
  
@@ -82,7 +83,7 @@
 		{"max":1, "from":[500]},
 		{"max":1, "from":[525]},
 		{"max":2, "name":"Cult Support Formations", "from":[521,522,523,524,525,504,505,506,507,508], "forEach":[500,501,502,503], "name2":"Cult Broods"},
-		{"max":1, "name":"Genestealer Brood formations", "from":[503], "forEach":[501,502], "name2":"Hybrid Brood and Brood Brother formations"}
+		{"max":1, "name":"Genestealer Brood formations", "from":[503], "forEach":[500,501,502], "name2":"Hybrid Brood and Brood Brother formations"}
 	],
 	"upgradeConstraints":[
  		{"max":1, "perArmy":true, "from":[11]}, 
@@ -94,7 +95,7 @@
 		{"min":1, "max":1, "from":[15], "appliesTo":[503]},
 		{"min":10, "max":10, "from":[61,62], "appliesTo":[506]},
 
-
+		{"min":1, "max":1, "from":[63,64], "appliesTo":[507]},
 		{"min":5, "max":7, "from":[54], "appliesTo":[504]},
 		{"min":6, "max":6, "from":[56], "appliesTo":[522]},
 		{"max":1, "from":[12], "appliesTo":[502,521,522,523,524,525]},
