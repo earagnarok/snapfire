@@ -14,7 +14,7 @@
         {"id":505,"name":"Reaver Titan (Goth Class)","pts":600,"upgrades":[11]}
 ]},
 
-{"name":"SCOUT TITAN FORMATIONS (Two for each Emperor Titan, One for each Warlord or Reaver Titan)",
+{"name":"SCOUT TITAN FORMATIONS (Two for each Battle Titan formation)",
 "formations":[{
         "id":510,"name":"Warhound Pack","pts":500,"units":"2 AMTL Warhounds","upgrades":[13]}
 ]},
