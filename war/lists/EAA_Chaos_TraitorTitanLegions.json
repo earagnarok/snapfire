@@ -13,32 +13,32 @@
 		]},
 		
 		{"name": "SCOUT TITAN FORMATIONS / / Three for each Chaos Emperor Titan. Two for each Chaos Warlord. Must belong to the same faction", "formations":[
-			{"id":510, "name":"QUESTOR of SLAANESH",	"pts":50, "upgrades":[70]},
-			{"id":511, "name":"SUBJUGATOR of SLAANESH",	"pts":50, "upgrades":[71]},
+			{"id":510, "name":"QUESTOR of Slaanesh",	"pts":50, "upgrades":[70]},
+			{"id":511, "name":"SUBJUGATOR of Slaanesh",	"pts":50, "upgrades":[71]},
 			
-			{"id":512, "name":"PLAGUEHOUND of NURGLE",	"pts":50, "upgrades":[72]},
-			{"id":513, "name":"FERAL WARHOUND of KHORNE",	"pts":50, "upgrades":[73,74]},
-			{"id":514, "name":"WARPHOUND of TZEENCH",	"pts":50, "upgrades":[75]}
+			{"id":512, "name":"PLAGUEHOUND of Nurgle",	"pts":50, "upgrades":[72]},
+			{"id":513, "name":"FERAL WARHOUND of Khorne",	"pts":50, "upgrades":[73,74]},
+			{"id":514, "name":"WARPHOUND of Tzeench",	"pts":50, "upgrades":[75]}
 		]},
 		
 		{"name":"DAEMON ENGINES / / Two for each Battle Titan Formation, One for each Scout Titan Unit. Must belong to the same faction", "formations":[
-			{"id":540, "name":"HELL-STRIDERS of SLAANESH",			"pts":60, "upgrades":[87]},
-			{"id":541, "name":"HELL-KNIGHTS of SLAANESH",			"pts":50, "upgrades":[88]},
-			{"id":542, "name":"HELL-SCOURGES of SLAANESH",			"pts":50, "upgrades":[89]},
+			{"id":540, "name":"HELL-STRIDERS of Slaanesh",			"pts":60, "upgrades":[87]},
+			{"id":541, "name":"HELL-KNIGHTS of Slaanesh",			"pts":50, "upgrades":[88]},
+			{"id":542, "name":"HELL-SCOURGES of Slaanesh",			"pts":50, "upgrades":[89]},
 			
-			{"id":550, "name":"DECAY KNIGHTS of NURGLE",			"pts":50, "upgrades":[80]},
-			{"id":551, "name":"DESECRATORS of NURGLE",				"pts":25, "upgrades":[90]},
+			{"id":550, "name":"DECAY KNIGHTS of Nurgle",			"pts":50, "upgrades":[80]},
+			{"id":551, "name":"DESECRATORS of Nurgle",				"pts":25, "upgrades":[90]},
 			
-			{"id":560, "name":"MAULER KNIGHTS of KHORNE",			"pts":50, "upgrades":[81]},
-			{"id":561, "name":"SLAUGHTERFIENDS of KHORNE",			"pts":50, "upgrades":[86]},
+			{"id":560, "name":"MAULER KNIGHTS of Khorne",			"pts":50, "upgrades":[81]},
+			{"id":561, "name":"SLAUGHTERFIENDS of Khorne",			"pts":50, "upgrades":[86]},
 			
-			{"id":570, "name":"CHANGE KNIGHTS of TZEENCH",			"pts":50, "upgrades":[82]},
-			{"id":571, "name":"DECIEVERS of TZEENCH",				"pts":50, "upgrades":[91]}
+			{"id":570, "name":"CHANGE KNIGHTS of Tzeench",			"pts":50, "upgrades":[82]},
+			{"id":571, "name":"DECIEVERS of Tzeench",				"pts":50, "upgrades":[91]}
 		]},
 		
 			{"name":"CHAOS UNDIVIDED ALLIES and CHAOS NAVY / / Max 33% of the army", "formations":[
-			{"id":580, "name":"RENEGADE KNIGHTS of CHAOS UNDIVIDED",			"pts":50, "upgrades":[83]},
-			{"id":581, "name":"DEFILERS of CHAOS UNDIVIDED",				"pts":25, "upgrades":[92]},
+			{"id":580, "name":"RENEGADE KNIGHTS of Chaos Undivided",			"pts":50, "upgrades":[83]},
+			{"id":581, "name":"DEFILERS of Chaos Undivided",				"pts":25, "upgrades":[92]},
 			{"id":582, "name":"DARK MECHANICUS",				"pts":225, "units": " 1 Heretek, 4 Chaos Squats of Chaos Undivided, 2 Hades Land Raiders of Chaos Undivided", "upgrades":[]},
 			{"id":583, "name":"HELL BLADES",				"pts":200, "units": "3 Hell Blades", "upgrades":[]},
 			{"id":584, "name":"HELL TALONS",				"pts":225, "units": "2 Hell Talons", "upgrades":[]},
