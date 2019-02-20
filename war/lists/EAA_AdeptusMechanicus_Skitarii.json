@@ -20,7 +20,7 @@
 		{"name":"Adeptus Mechanicus Aircraft, Spacecraft and Titan Support (Max 1 Lysander Fighter per Ordinatus Minoris Landing Pad)", "formations":[
 			
 			{"id":520, "name":"Avengers",			"pts":175, "units":"2 Avenger Strike Fighters", "upgrades":[]},
-			{"id":521, "name":"Lysander Fighter",			"pts":175, "units":"1 Lysander Fighter", "upgrades":[]},
+			{"id":521, "name":"Lysander Fighter",			"pts":75, "units":"1 Lysander Fighter", "upgrades":[]},
 			{"id":522, "name":"Orbital Support",		"pts":200, "units":"1 Ark Mechanicus Battleship", "upgrades":[]},
 			{"id":523, "name":"Warhound Titan Pack",	"pts":500, "units":"2 AMTL Warhound Scout Titans", "upgrades":[107]}
 		]}
@@ -90,6 +90,7 @@
 		{"max":1, "from":[134,135,136,137], "appliesTo":[515]},
     	
 		{"max":1, "min":1, "from":[121,122,120], "appliesTo":[516]},
+   		{"max":1, "from":[107], "appliesTo":[523]},
    		{"max":5, "min":5, "from":[108,109], "appliesTo":[513]}
 		
 	]
