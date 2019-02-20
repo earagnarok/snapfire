@@ -1,13 +1,13 @@
 {
 	"id":"Traitor Titan Legions",
-	"version":"EAA 1.3b",
+	"version":"EAA 1.4b",
 	"notes":[],
-	"by":"MrDieAlot",
+	"by":"EA-Armageddon",
 	"sections":[
 		{"name":"BATTLE TITAN FORMATIONS / / Army must contain at least one Chaos Emperor Titan or Chaos Warlord Titan / / Army may not mix factions that hate each other (Tzeench hates Nurgle & vice-versa, Khorne hates Slaanesh & vice-versa)", "formations":[
-			{"id":500, "name":"CHAOS EMPEROR TITAN", 		"pts":925, "upgrades":[10]},
+			{"id":500, "name":"CHAOS EMPEROR TITAN", 		"pts":900, "upgrades":[10]},
 			
-			{"id":501, "name":"CHAOS WARLORD TITAN", 		"pts":725, "upgrades":[10]},
+			{"id":501, "name":"CHAOS WARLORD TITAN", 		"pts":750, "upgrades":[10]},
 			
 			{"id":502, "name":"CHAOS REAVER TITAN",			"pts":600, "upgrades":[]}
 		]},
@@ -25,22 +25,15 @@
 			{"id":540, "name":"HELL-STRIDERS of SLAANESH",			"pts":60, "upgrades":[87]},
 			{"id":541, "name":"HELL-KNIGHTS of SLAANESH",			"pts":50, "upgrades":[88]},
 			{"id":542, "name":"HELL-SCOURGES of SLAANESH",			"pts":50, "upgrades":[89]},
-			{"id":543, "name":"DEBASERS of SLAANESH",				"pts":225, "units": "4 Debasers of Slaanesh", "upgrades":[]},
 			
 			{"id":550, "name":"DECAY KNIGHTS of NURGLE",			"pts":50, "upgrades":[80]},
 			{"id":551, "name":"DESECRATORS of NURGLE",				"pts":25, "upgrades":[90]},
-			{"id":552, "name":"PLAGUE TOWER of NURGLE",				"pts":300, "units": "1 Plague Tower of Nurgle", "upgrades":[]},
-			{"id":553, "name":"NURGLE PLAGUE ZOMBIE INFESTATION",			"pts":175, "units": "3 + 2D6 Plague Zombies", "upgrades":[]},
 			
 			{"id":560, "name":"MAULER KNIGHTS of KHORNE",			"pts":50, "upgrades":[81]},
 			{"id":561, "name":"SLAUGHTERFIENDS of KHORNE",			"pts":50, "upgrades":[86]},
-			{"id":562, "name":"GREATER BRASS SCORPION of KHORNE",	"pts":50, "upgrades":[85]},
-			{"id":563, "name":"KHORNE LORD OF BATTLES",			"pts":350, "units": "1 Lord of Battles", "upgrades":[]},
 			
 			{"id":570, "name":"CHANGE KNIGHTS of TZEENCH",			"pts":50, "upgrades":[82]},
-			{"id":571, "name":"DECIEVERS of TZEENCH",				"pts":50, "upgrades":[91]},
-			{"id":572, "name":"DOOMWINGS of TZEENCH",				"pts":150, "units": "3 Doomwings of Tzeench", "upgrades":[]},
-			{"id":573, "name":"FIRELORDS of TZEENCH",				"pts":50, "upgrades":[84]}
+			{"id":571, "name":"DECIEVERS of TZEENCH",				"pts":50, "upgrades":[91]}
 		]},
 		
 			{"name":"CHAOS UNDIVIDED ALLIES and CHAOS NAVY / / Max 25% of the army", "formations":[
@@ -60,7 +53,7 @@
 
 	],
 	"upgrades":[	
-		{"id":10,	"name":"Eye of the Gods (Compulsory)",	"pts":25},
+		{"id":10,	"name":"Eye of the Gods (Compulsory)",	"pts":50},
 		
 		{"id":20,	"name":"1 Vicekeeper of Slaanesh",	"pts":0},
 		{"id":21,	"name":"1 Blightspreader of Nurgle",	"pts":0},
