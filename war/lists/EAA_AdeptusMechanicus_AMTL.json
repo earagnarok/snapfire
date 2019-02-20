@@ -57,7 +57,7 @@
 	    {"id":43,"name":"Warp Missile","pts":0},
 	    {"id":44,"name":"Deathstrike Missile","pts":0},
 	    {"id":45,"name":"Carapace Landing Pad","pts":0},
-	    {"id":46,"name":"Hex Hydra Platform","pts":0},
+	    {"id":46,"name":"3x Twin-Hydra Autocannons","pts":0},
 
         {"id":50,"name":"Macro-Gatling Blaster","pts":0},
         {"id":51,"name":"Titan Power Claw","pts":0},
@@ -88,6 +88,10 @@
         {"id":71,"name":"Inferno Gun, Scout Turbo Laser","pts":0},
         {"id":72,"name":"Plasma Blastgun, Inferno Gun","pts":0},
         {"id":73,"name":"Plasma Blastgun, Vulcan Mega Bolter","pts":0},
+        {"id":74,"name":"2 x Vulcan Mega Bolter, Scout Turbo Laser","pts":25},
+        {"id":75,"name":"2 x Inferno Gun, Scout Turbo Laser","pts":25},
+        {"id":76,"name":"2 x Plasma Blastgun, Inferno Gun","pts":25},
+        {"id":77,"name":"2 x Scout Turbo Laser","pts":25},
 		
 		{"id":100, "name":"Knight-Paladin (Rapid Fire Battle Cannon, 2 Hvy Stubbers, Shock Field, Reaper Chainsword)",										"pts":75},
 		{"id":101, "name":"Knight-Errant (Thermal Cannon, Hvy Stubber, Thunderstrike Gauntlet)",															"pts":75},
