@@ -22,7 +22,7 @@
 {"name":"ADEPTUS MECHANICUS ALLIES (Max 40%. Max 1 Lysander Fighter for each Warmonger Titan or Reaver Carapace Landing Pad)",
 "formations":[
         {"id":530,"name":"Skitarii Maniple","pts":300,"units":"9 Vanguard, 1 Tech-Priest Dominus, 1 Gorgon","upgrades":[]},
-		{"id":531,"name":"Kastalan Maniple","pts":175,"units":"5 Kastalan Robots, 1 Cybernetica Datasmith","upgrades":[]},
+		{"id":531,"name":"Kastalan Maniple","pts":50,"units":"1 Cybernetica Datasmith","upgrades":[12,14]},
 		{"id":532,"name":"Avenger Squadron","pts":175,"units":"2 Avenger Fighter-Bombers","upgrades":[]},
         {"id":533,"name":"Lysander Fighter","pts":75,"units":"1 Lysander Fighter","upgrades":[]},
 		{"id":534,"name":"Orbital Support","pts":150,"units":"1 Ark Mechanicus Battleship","upgrades":[]},
@@ -36,7 +36,7 @@
         {"id":11,"name":"Veteran Princeps","pts":25},
         {"id":12,"name":"4 Battle Servitors","pts":50},
         {"id":13,"name":"Independent: Warhound Pack acts as two separate formations during the battle","pts":50},
-		
+        {"id":14,"name":"Kastalan Robot","pts":25},
 		
 	    {"id":20,"name":"Imperator Titan","pts":0},
 	    {"id":21,"name":"Warmonger Titan","pts":0},
@@ -109,7 +109,7 @@
 "upgradeConstraints":[
         {"max":1, "perArmy":true, "from":[10]},  
         {"max":1,"from":[10,11],"appliesTo":[500,501,502,504,505]},
-        {"max":1,"from":[12],"appliesTo":[500]},
+        {"max":1,"from":[12],"appliesTo":[500,531]},
         {"max":1,"from":[13],"appliesTo":[510]},
 		
         {"min":1,"max":1,"from":[20,21],"appliesTo":[500]},		
@@ -131,6 +131,8 @@
         {"min":2,"max":2,"from":[70,71,72,73],"appliesTo":[510]},
 
         {"min":2,"max":3,"from":[100,101,102,103,104,105],"appliesTo":[520]},
+
+        {"min":5,"max":7,"from":[14],"appliesTo":[531]},
 		
         {"min":2,"max":2,"from":[130,131,132,133],"appliesTo":[535]}
 ]
