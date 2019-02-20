@@ -12,7 +12,7 @@
 			{"id":502, "name":"CHAOS REAVER TITAN",			"pts":600, "upgrades":[]}
 		]},
 		
-		{"name": "SCOUT TITAN FORMATIONS / / THREE for each Chaos Emperor Titan. TWO for each Chaos Warlord. Must belong to the same faction", "formations":[
+		{"name": "SCOUT TITAN FORMATIONS / / Three for each Chaos Emperor Titan. Two for each Chaos Warlord. Must belong to the same faction", "formations":[
 			{"id":510, "name":"QUESTOR of SLAANESH",	"pts":50, "upgrades":[70]},
 			{"id":511, "name":"SUBJUGATOR of SLAANESH",	"pts":50, "upgrades":[71]},
 			
