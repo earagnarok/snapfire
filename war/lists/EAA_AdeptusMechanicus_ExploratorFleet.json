@@ -1,26 +1,25 @@
 {
 	"id":"Adeptus Mechanicus - Explorator Fleet",
-	"version":"1.01",
+	"version":"1.03",
 	"by":"EA-Apocalypse",
 	"notes":["If a Titan uses one weapon type only, then a Single Weapon System Surcharge upgrade must be purchased."],
 	"sections":[
 
 		{"name":"Explorator Fleet Core Formations", "formations": [
-			{ "id":501, "name":"Secutarii Guard", "pts":250, "upgrades":[64,63,61,65,69] },
-			{ "id":502, "name":"Vanguard Maniple", "pts":225, "units":"10 Skitarii Vanguard", "upgrades":[64,63,61,65,69] }
+			{ "id":501, "name":"Secutarii Guard", "pts":225, "upgrades":[64,63,61,65,69] },
+			{ "id":502, "name":"Vanguard Maniple", "pts":200, "units":"10 Skitarii Vanguard", "upgrades":[64,63,61,65,69] }
 		]},
 		{"name":"Explorator Fleet Support Formations", "formations": [
 			{ "id":510, "name":"Ranger Centuria", "pts":25, "upgrades":[65] },
 			{ "id":511, "name":"Sicarian Infiltrators", "pts":200, "units":"6 Sicarian Infiltrators", "upgrades":[61,70] },
 			{ "id":512, "name":"Sicarian Rustalkers", "pts":200, "units":"6 Sicarian Rustalkers", "upgrades":[61,70] },
 			{ "id":513, "name":"Fulgurite Electro-Priests", "pts":200, "units":"6 Fulgurite Electro-Priests", "upgrades":[70] },
-			{ "id":514, "name":"Ironstrider Cavaliers", "pts":250, "upgrades":[] },			
+			{ "id":514, "name":"Ironstrider Cavaliers", "pts":200, "upgrades":[] },			
 			{ "id":515, "name":"Sydonian Dragoons", "pts":200, "upgrades":[] },
-			{ "id":516, "name":"Onager Cohort", "pts":0, "upgrades":[56,57] },
-			{ "id":517, "name":"Destroyer Maniple", "pts":225, "units":"6 Kataphron Destroyers", "upgrades":[61,70] },
-			{ "id":518, "name":"Breacher Maniple", "pts":225, "units":"6 Kataphron Breachers", "upgrades":[61,70] },
-			{ "id":519, "name":"Kastelan Maniple", "pts":225, "upgrades":[62]},
-			{ "id":520, "name":"Armiger", "pts":175, "units":"4 Knight-Warglaives or 4 Knight-Helverins", "upgrades":[] }
+			{ "id":516, "name":"Onager Cohort", "pts":-50, "upgrades":[56,57] },
+			{ "id":517, "name":"Destroyer Maniple", "pts":200, "units":"6 Kataphron Destroyers", "upgrades":[61,70] },
+			{ "id":518, "name":"Breacher Maniple", "pts":200, "units":"6 Kataphron Breachers", "upgrades":[61,70] },
+			{ "id":519, "name":"Kastelan Maniple and 1 Tech-Priest Dominus", "pts":175, "upgrades":[]}
 		]},
 
 
@@ -80,7 +79,7 @@
 		{"id":50, "name":"Kastelan Robots - Heavy phosphor blaster",				"pts":0},
 		{"id":51, "name":"Kastelan Robots - Incendine combustor and Kastelan fists",		"pts":0},
 		{"id":52, "name":"Ironstrider Ballistarius - Twin Cognis Autocannon",			"pts":0},
-		{"id":53, "name":"Ironstrider Ballistarius - Twin Cognis Lascannon",			"pts":0},
+		{"id":53, "name":"Ironstrider Ballistarius - Twin Cognis Lascannon",			"pts":10},
 		{"id":54, "name":"Sydonian Dragoon",							"pts":0},
 
 		{"id":56, "name":"Onager Dunecrawler - Icarus Array",					"pts":50},
@@ -129,7 +128,7 @@
 	  	{"max":3, "from": [71], "appliesTo": [531]},
 	  	{"max":1, "from": [71], "appliesTo": [532]},
 	  	{"max":2, "from": [65], "appliesTo": [501,502]},
-		{"min":4, "max":6, "from":[57,56], "appliesTo": [516]},
+		{"min":5, "max":6, "from":[57,56], "appliesTo": [516]},
 		{"max":1, "from":[56], "appliesTo": [516]},
 		{"min":4, "max":6, "from":[65], "appliesTo": [510]},
 		{"max":1, "from":[61,63,64]}
