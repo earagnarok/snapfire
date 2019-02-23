@@ -1,6 +1,6 @@
 {
 	"id":"Questoris Mechanicus",
-	"version":"v2.0b",
+	"version":"v2.1b",
 	"by":"EA Apocalypse",
 	"notes":[],
 	"sections":[
@@ -61,8 +61,8 @@
 		{"id":120, "name":"4 Knight-Warglaive (Thermal Spear, Reaper Chain-Cleaver)",			 															"pts":0},	
 		{"id":121, "name":"4 Knight-Helverin (2 Autocannons)",																								"pts":0},
 		
-		{"id":130, "name":"Knight-Valiant (Conflagration C., Thundercoil H., Siegebreaker C., 4 Shieldbreaker M., Ion A.)",									"pts":200},
-		{"id":131, "name":"Knight-Castellan  (Vulcano Lance, Plasma Decimator, 2 Siegebreaker C., 2 Shieldbreaker M.)",										"pts":200},
+		{"id":130, "name":"Knight-Valiant (Conflagration C., Thundercoil H., Siegebreaker C., 4 Shieldbreaker M., Ion A.)",									"pts":150},
+		{"id":131, "name":"Knight-Castellan  (Vulcano Lance, Plasma Decimator, 2 Siegebreaker C., 2 Shieldbreaker M.)",										"pts":150},
 		
 		{"id":160, "name":"Questoris Relic Knight-Styrix (Volkite Chieroville, Rad Cleanser, Siege Claw)",													"pts":125},
 		{"id":161, "name":"Questoris Relic Knight-Magaera (Lightning C, Rad Cleanser, Siege Claw, Ionic Shield)",											"pts":125},
