@@ -33,7 +33,7 @@
 	
 	"upgrades":[
 	
-        {"id":10,"name":"Baron","pts":50},
+        {"id":10,"name":"Baron","pts":75},
         {"id":11,"name":"Seneschal","pts":25},
 	
         {"id":13,"name":"Independent: Warhound Pack acts as two separate formations during the battle","pts":50},
