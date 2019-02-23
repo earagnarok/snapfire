@@ -1,6 +1,6 @@
 {
 	"id":"EAA Daemonic Incursion",
-	"version":"2.0b",	
+	"version":"2.1b",	
 	"by":"EA-Armageddon",
 	"sections":[
 		{"name":"DAEMONS", "formations":[
@@ -10,13 +10,13 @@
 			{"id":665, "name":"Exalted Greater Daemon", "pts":250, "upgrades":[60]}
 		]},
 		{"name":"Daemon Legions / /  May not Mix Nurgle/Tzeench or Slaanesh/Khorne formations", "formations":[
-			{"id":666, "name":"Daemon Legion of Slaanesh", "pts":200, "units":"4 Lesser Daemon Pool points",  "upgrades":[60]},
-			{"id":667, "name":"Daemon Legion of Nurgle", "pts":200, "units":"4 Lesser Daemon Pool points", "upgrades":[60]},
-			{"id":668, "name":"Daemon Legion of Khorne", "pts":200, "units":"4 Lesser Daemon Pool points", "upgrades":[60]},
-			{"id":669, "name":"Daemon Legion of Tzeench", "pts":200, "units":"4 Lesser Daemon Pool points", "upgrades":[60]}
+			{"id":666, "name":"Daemon Legion of Slaanesh", "pts":175, "units":"3 Lesser Daemon Pool points",  "upgrades":[60]},
+			{"id":667, "name":"Daemon Legion of Nurgle", "pts":175, "units":"3 Lesser Daemon Pool points", "upgrades":[60]},
+			{"id":668, "name":"Daemon Legion of Khorne", "pts":175, "units":"3 Lesser Daemon Pool points", "upgrades":[60]},
+			{"id":669, "name":"Daemon Legion of Tzeench", "pts":175, "units":"3 Lesser Daemon Pool points", "upgrades":[60]}
 		]},
 		{"name":"MORTALS (Max 25%)", "formations":[
-			{"id":501, "name":"Cultist Coven of Chaos Undivided", "pts":225, "upgrades":[]}
+			{"id":501, "name":"Cultist Coven of Chaos Undivided", "pts":200, "upgrades":[]}
         ]}
    ],
 	"upgrades":[
@@ -52,7 +52,7 @@
 		{"id":60, "name":"Soul Grinder", "pts":50},
 		
 		{"id":72, "name":"Lesser Daemon Pool point", "pts":15},
-		{"id":73, "name":"4 Lesser Daemon Pool points (Daemon Legions)", "pts":0}
+		{"id":73, "name":"3 Lesser Daemon Pool points (Daemon Legions)", "pts":0}
 	
 	],
 	"formationConstraints":[
