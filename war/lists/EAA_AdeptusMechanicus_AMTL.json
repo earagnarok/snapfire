@@ -1,6 +1,6 @@
 {
 "id":"AMTL",
-"version":"1.2b",
+"version":"1.3b",
 "by":"EA Apocalypse",
 "sections":[
 {
@@ -27,7 +27,7 @@
         {"id":533,"name":"Lysander Fighter","pts":75,"units":"1 Lysander Fighter","upgrades":[]},
 		{"id":534,"name":"Orbital Support","pts":150,"units":"1 Ark Mechanicus Battleship","upgrades":[]},
         {"id":535,"name":"Minoris Maniple","pts":300, "upgrades":[]},
-		{"id":520,"name":"Questoris Banner","pts":75, "upgrades":[100,101,102,103,104,105]}
+		{"id":520,"name":"Questoris Banner","pts":250, "upgrades":[100,101,102,103,104,105]}
 ]}
 
 ],
@@ -93,12 +93,12 @@
         {"id":76,"name":"2 x Plasma Blastgun, Inferno Gun","pts":25},
         {"id":77,"name":"2 x Scout Turbo Laser","pts":25},
 		
-		{"id":100, "name":"Knight-Paladin (Rapid Fire Battle Cannon, 2 Hvy Stubbers, Shock Field, Reaper Chainsword)",										"pts":75},
-		{"id":101, "name":"Knight-Errant (Thermal Cannon, Hvy Stubber, Thunderstrike Gauntlet)",															"pts":75},
-		{"id":102, "name":"Knight-Crusader (Rapid Fire Battle Cannon, Gatling Cannon, 2 Hvy Stubbers, Icarus Autocannon)",									"pts":75},
-		{"id":103, "name":"Knight-Gallant (Icarus Autocannon, Hvy Stubber, Questoris Shock Lance, Thunderstrike Gauntlet, Reaper Chainsword)",				"pts":75},
-		{"id":104, "name":"Knight-Warden (Gatling Cannon, Ironstorm Missiles, Hvy Stubber, Reaper Chainsword)",												"pts":75},	
-		{"id":105, "name":"Knight-Preceptor (Las-Impulsor, Hvy Stubber, Thunderstrike Gauntlet)",															"pts":75},
+		{"id":100, "name":"Knight-Paladin (Rapid Fire Battle Cannon, 2 Hvy Stubbers, Reaper Chainsword)",													"pts":0},
+		{"id":101, "name":"Knight-Errant (Thermal Cannon, Hvy Stubber, Thunderstrike Gauntlet)",															"pts":0},
+		{"id":102, "name":"Knight-Crusader (Rapid Fire Battle Cannon, Gatling Cannon, 2 Hvy Stubbers, Icarus Autocannon)",									"pts":0},
+		{"id":103, "name":"Knight-Gallant (Icarus Autocannon, Hvy Stubber, Thunderstrike Gauntlet, Reaper Chainsword)",										"pts":0},
+		{"id":104, "name":"Knight-Warden (Gatling Cannon, Ironstorm Missiles, Hvy Stubber, Reaper Chainsword)",												"pts":0},	
+		{"id":105, "name":"Knight-Preceptor (Las-Impulsor, Hvy Stubber, Thunderstrike Gauntlet)",															"pts":0},
 		
 		{"id":130, "name":"Ordinatus Minoris (3x Twin-Hydra Autocannons)",	"pts":0},
 		{"id":131, "name":"Ordinatus Minoris (Plasma Cannon)",			"pts":0},
@@ -134,7 +134,7 @@
 
         {"min":2,"max":2,"from":[70,71,72,73],"appliesTo":[510]},
 
-        {"min":2,"max":3,"from":[100,101,102,103,104,105],"appliesTo":[520]},
+        {"min":2,"max":2,"from":[100,101,102,103,104,105],"appliesTo":[520]},
 
         {"min":5,"max":7,"from":[14],"appliesTo":[531]},
 		
