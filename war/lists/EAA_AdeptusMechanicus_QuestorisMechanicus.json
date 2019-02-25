@@ -62,8 +62,8 @@
 		
 		{"id":130, "name":"Knight-Valiant with Seneschal (Conflagration C., Thundercoil H., Siegebreaker C., 4 Shieldbreaker M., Ion A.)",					"pts":175},
 		{"id":131, "name":"Knight-Castellan with Seneschal (Vulcano Lance, Plasma Decimator, 2 Siegebreaker C., 2 Shieldbreaker M.)",						"pts":175},
-		{"id":132, "name":"Knight-Valiant with Baron (Conflagration C., Thundercoil H., Siegebreaker C., 4 Shieldbreaker M., Ion A.)",						"pts":250},
-		{"id":133, "name":"Knight-Castellan with Baron (Vulcano Lance, Plasma Decimator, 2 Siegebreaker C., 2 Shieldbreaker M.)",							"pts":250},
+		{"id":132, "name":"Knight-Valiant with Baron (Conflagration C., Thundercoil H., Siegebreaker C., 4 Shieldbreaker M., Ion A.)",						"pts":225},
+		{"id":133, "name":"Knight-Castellan with Baron (Vulcano Lance, Plasma Decimator, 2 Siegebreaker C., 2 Shieldbreaker M.)",							"pts":225},
 		
 		{"id":160, "name":"Questoris Relic Knight-Styrix (Volkite Chieroville, Rad Cleanser, Siege Claw)",													"pts":125},
 		{"id":161, "name":"Questoris Relic Knight-Magaera (Lightning C, Rad Cleanser, Siege Claw, Ionic Shield)",											"pts":125},
