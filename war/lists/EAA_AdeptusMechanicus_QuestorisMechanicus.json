@@ -1,6 +1,6 @@
 {
 	"id":"Questoris Mechanicus",
-	"version":"v2.1b",
+	"version":"v2.2",
 	"by":"EA Apocalypse",
 	"notes":[],
 	"sections":[
@@ -18,13 +18,13 @@
 			{"id":504, "name":"Acastus Reliquae",	"pts":25,  "upgrades":[163,164]}
 		]},
 		{"name":"Allies / / Max 1 per Questoris Lance / / Max 33%", "formations":[
-			{"id":510, "name":"Skitarii Maniple",		"pts":300,  "upgrades":[], "units":"9 Skitarii Vanguard, 1 Tech-Priest Dominus, 1 Gorgon"},
+			{"id":510, "name":"Skitarii Maniple",		"pts":300,  "upgrades":[], "units":"9 Skitarii Vanguard, 1 Tech-Priest, 1 Gorgon"},
 
 			{"id":512, "name":"Dune Crawlers",		"pts":200,  "upgrades":[]},
 			
             {"id":514, "name":"Avenger Squadron",				"pts":175,  "upgrades":[], "units":"2 Avenger Fighter Bombers"},
 			
-			{"id":520, "name":"Warhound Scout Titan Pack",	"pts":500, "upgrades":[13], "units":"2 AMTL Warhound Titans"},
+			{"id":520, "name":"Warhound Pack",	"pts":500, "upgrades":[13]},
 			
 			{"id":522, "name":"Orbital Support", 		"pts":175, "upgrades":[]}
 			
@@ -36,12 +36,11 @@
         {"id":10,"name":"Baron","pts":75},
         {"id":11,"name":"Seneschal","pts":25},
 	
-        {"id":13,"name":"Independent: Warhound Pack acts as two separate formations during the battle","pts":50},
+        {"id":13,"name":"Independent: The Warhound Pack acts as two separate formations during the battle","pts":50},
 		
-	    {"id":70,"name":"Vulcan Mega Bolter, Scout Turbo Laser","pts":0},
-        {"id":71,"name":"Inferno Gun, Scout Turbo Laser","pts":0},
-        {"id":72,"name":"Plasma Blastgun, Inferno Gun","pts":0},
-        {"id":73,"name":"Plasma Blastgun, Vulcan Mega Bolter","pts":0},
+	    {"id":70,"name":"2x Warhound Scout Titans (Tank Hunter Configuration) Plasma Blastgun, Scout Turbo Laser","pts":50},
+        {"id":71,"name":"2x Warhound Scout Titans (Close Support Configuration) Inferno Gun, Vulcan Mega Bolter","pts":0},
+        {"id":72,"name":"2x Warhound Scout Titans (Standard Configuration) Plasma Blastgun, Vulcan Mega Bolter)","pts":0},
 	
 		{"id":100, "name":"Knight-Paladin (Rapid Fire Battle Cannon, 2 Hvy Stubbers, Reaper Chainsword)",													"pts":100},
 		{"id":101, "name":"Knight-Errant (Thermal Cannon, Hvy Stubber, Thunderstrike Gauntlet)",															"pts":100},
@@ -123,7 +122,7 @@
 		
 		{"min":2, "max":3, "from":[164,163], "appliesTo":[504]},
 		
-        {"min":2,"max":2,"from":[70,71,72,73],"appliesTo":[520]},
+        {"min":1,"max":1,"from":[72,71,70],"appliesTo":[520]},
 		
 		{"min":1, "max":1, "from":[180], "appliesTo":[522]}
 	
