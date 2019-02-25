@@ -1,6 +1,6 @@
 {
    "id": "Biel-Tan Craftworld",
-   "version": "1.07",
+   "version": "1.1",
    "by": "EA-Apocalypse",
    "sections": [
       {"name": "INDIVIDUALS", "formations": [
@@ -27,7 +27,7 @@
             {"id": 516, "name": "Dragonship", "pts": 300, "upgrades": []},
             {"id": 517, "name": "Warlock Titan", "pts": 825, "upgrades": []},
             {"id": 518, "name": "Phantom Titan", "pts": 725, "upgrades": []},
-            {"id": 519, "name": "Revenant Titans", "pts": 600, "units": "2 Revenant Titans", "upgrades": []},
+            {"id": 519, "name": "Revenant Titans", "pts": 550, "units": "2 Revenant Titans", "upgrades": []},
             {"id": 520, "name": "Nightwings", "pts": 75, "upgrades": [54]},
             {"id": 521, "name": "Phoenix Bombers", "pts": 100, "upgrades": [53]},
             {"id": 522, "name": "Vampire Raider", "pts": 200, "upgrades": []}
