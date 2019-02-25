@@ -1,6 +1,6 @@
 {
 	"id":"Armageddon Steel Legion",
-	"version":"1.00",
+	"version":"1.11",
 	"by":"EA-Apocalypse",
 	"sections":[
 		{"name":"COMPANIES", "formations":[
@@ -39,8 +39,9 @@
 		{"id":12, "name":"Vanquisher",					"pts":0},
 		{"id":14, "name":"Baneblade",					"pts":0},
 		{"id":15, "name":"Shadowsword",					"pts":0},
+		{"id":16, "name":"Stormsword",					"pts":0},
 		{"id":17, "name":"Baneblade",					"pts":0},
-		{"id":18, "name":"Shadowsword",					"pts":0},
+		{"id":18, "name":"Stormblade",					"pts":0},
 		{"id":20, "name":"9 Basilisks",					"pts":0},
 		{"id":21, "name":"9 Manticores",				"pts":0},
 		{"id":23, "name":"Lunar Class",					"pts":0},
@@ -78,7 +79,7 @@
 		{"min":3, "max":3, "from":[14,15], "appliesTo":[516]},
     		{"min":1, "max":1, "from":[41,43], "appliesTo":[502]},
 		{"min":1, "max":1, "from":[42], "appliesTo":[511]},
-		{"min":1, "max":1, "from":[14,15], "appliesTo":[507]},
+		{"min":1, "max":1, "from":[14,15,16,18], "appliesTo":[507]},
 		{"min":1, "max":1, "from":[20,21], "appliesTo":[517]},
 		{"min":1, "max":1, "from":[23,24], "appliesTo":[508]},
 		{"max":3, "name":"Upgrades", "from":[27,28,29,30,31,32,33,34,35,37]},
