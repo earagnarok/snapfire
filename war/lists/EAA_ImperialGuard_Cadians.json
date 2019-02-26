@@ -1,6 +1,6 @@
 {
 	"id":"Cadian Shock Troopers",
-	"version":"1.1",
+	"version":"EA-Apocalypse",
 	"by":"EA-Apocalypse",
 	"sections":[
 		{"name":"CADIAN COMPANIES", "formations":[
@@ -18,9 +18,9 @@
 			{"id":519, "name":"Karskin Company", "pts":350, "upgrades":[], "units":"1 Commander unit, 7 Kaskin units"}
 		]},
 		{"name":"TITAN LEGIONS", "formations":[
-			{"id":523, "name":"Reaver Class Titan",		"pts":650, "upgrades":[]},
 			{"id":526, "name":"Warhound Titan",		"pts":275, "upgrades":[], "units":"1 Warhound"},
-			{"id":526, "name":"Warhound Pack",		"pts":500, "upgrades":[], "units":"2 Warhounds"}
+			{"id":526, "name":"Warhound Pack",		"pts":500, "upgrades":[], "units":"2 Warhounds"},
+			{"id":523, "name":"Reaver Class Titan",		"pts":650, "upgrades":[]}
 		]},
 		{"name":"NAVAL SUPPORT", "formations":[
 			{"id":521, "name":"Thunderbolt Fighters", "pts":150, "upgrades":[], "units":"2 Thunderbolt Fighters"},
