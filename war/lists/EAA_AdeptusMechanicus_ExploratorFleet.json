@@ -70,7 +70,7 @@
 		{"id":67, "name":"Ironstrider Ballistarius - Twin Cognis Autocannon",			"pts":50},
 		{"id":41, "name":"Ironstrider Ballistarius - Twin Cognis Lascannon",			"pts":50},
 		{"id":68, "name":"Sydonian Dragoon",							"pts":50},
-		{"id":69, "name":"Chimeradon",								"pts":30},
+		{"id":69, "name":"Chimeradon",								"pts":25},
 		{"id":70, "name":"Terrax Pattern Termite Assault Drill",				"pts":20},
 		{"id":71, "name":"Tech-Priest Enginseer",						"pts":50},
 		{"id":73, "name":"Murder Servitors",							"pts":20},
