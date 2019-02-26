@@ -16,7 +16,7 @@
 		{"name":"Cult Support Forces", "formations": [
 			{ "id":504, "name":"Lictors", "pts":100, "upgrades":[54]},
 			{ "id":505, "name":"Purestrain Genestealers", "units":"6 Purestrain Genestealer Units, 1 Broodlord", "pts":250, "upgrades":[]},
-			{ "id":506, "name":"Atalan Jackals", "pts":275,"units":"1 Jackel Alphus", "upgrades":[]},
+			{ "id":506, "name":"Atalan Jackals", "pts":200,"units":"1 Jackel Alphus", "upgrades":[]},
 			{ "id":507, "name":"Hybrid Metamorphs", "pts":275, "units":"8 Hybrid Metamorphs", "upgrades":[14,63]},
 			{ "id":508, "name":"Achilles Ridgerunner", "pts":200, "units":"6 Achilles Ridgerunners", "upgrades":[]},
 			{ "id":521, "name":"Super Heavy Tank", "pts":200, "units":"Baneblade", "upgrades":[12] },
@@ -71,13 +71,12 @@
 		{"id":58, "name":"6 Genestealers",					"pts":0},
 		{"id":59, "name":"9 Genestealers",					"pts":75},
 		{"id":61, "name":"Atalan Jackals ",					"pts":0},
-		{"id":62, "name":"Atalan Jackals Quad Bikes",				"pts":0},
+		{"id":62, "name":"Woldquads",						"pts":0},
 		{"id":63, "name":"Armored Limousines",					"pts":0},
 		{"id":64, "name":"No Transports",					"pts":0},
 		
-		{"id":66, "name":"3 Bombards",						"pts":0},
-		{"id":67, "name":"3 Basilisks",						"pts":0}
-
+		{"id":66, "name":"3 Bombards",						"pts":0}
+	
 
  
 	],
@@ -97,7 +96,7 @@
 		{"min":1, "max":1, "from":[15], "appliesTo":[503]},
 		{"min":10, "max":10, "from":[61,62], "appliesTo":[506]},
 		{"min":5, "max":7, "from":[54], "appliesTo":[504]},
-				{"min":1, "max":1, "from":[66,67], "appliesTo":[523]},
+		{"min":1, "max":1, "from":[66], "appliesTo":[523]},
 		{"min":6, "max":6, "from":[56], "appliesTo":[522]},
 		{"max":1, "from":[12], "appliesTo":[502,521,522,523,524,525]},
   
