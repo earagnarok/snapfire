@@ -30,7 +30,8 @@
 			{"id":525, "name":"Executioner Assault Ship", "pts":400, "upgrades":[]},
 			{"id":526, "name":"Razorwing Fighters", "pts":0, "upgrades":[84]},
 			{"id":527, "name":"Voidraven Bombers", "pts":225, "units":"2 Voidravens", "upgrades":[]},
-			{"id":528, "name":"Tormentor", "pts":350, "units":"1 Tormentor Titan", "upgrades":[]}
+			{"id":528, "name":"Tormentor Class Titan", "pts":350, "units":"1 Tormentor Titan", "upgrades":[]},
+			{"id":529, "name":"Torture Class Titan", "pts":550, "units":"1 Torture Titan", "upgrades":[]}
 		]}
 	],
 	"upgrades":[
@@ -59,7 +60,7 @@
 		
 	],
 	"formationConstraints":[
-		{"maxPercent":33.34, "name": "Spaceships, Aircraft & Titans", "from":[522,523,525,526,527,528]},
+		{"maxPercent":33.34, "name": "Spaceships, Aircraft & Titans", "from":[522,523,525,526,527,528,529]},
 		{"max":1, "from":[530]},
 		{"max":1, "from":[531]},		
 		{"min":1, "max":1, "from":[511]},				
