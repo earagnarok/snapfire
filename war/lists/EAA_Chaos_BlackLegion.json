@@ -32,7 +32,7 @@
 			{"id":518, "name":"Hell Blades",	"pts":200, "units":"3 Hell Blade Fighters", "upgrades":[]},
 			{"id":519, "name":"Hell Talons",	"pts":225, "units":"2 Hell Talon Bombers", "upgrades":[]},
 			{"id":520, "name":"Devastation Class Cruiser",	"pts":150,  "units":"1 Devastation Class Cruiser",  "upgrades":[]}, 
-			{"id":521, "name":"Despoiler Class Battleship","pts":225,   "units":"1 Despoiler Class Battleship", "upgrades":[]}
+			{"id":521, "name":"Despoiler Class Battleship","pts":200,   "units":"1 Despoiler Class Battleship", "upgrades":[]}
 			]}
 	],
 	"upgrades":[
