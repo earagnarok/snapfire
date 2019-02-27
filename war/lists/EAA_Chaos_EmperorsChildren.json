@@ -36,8 +36,8 @@
 	{"id":10, "name":"Chaos Lord", 		"pts":0},
 		{"id":11, "name":"Sorcerer Lord", 		"pts":0},
 		{"id":12, "name":"Chaos Warlord", 		"pts":50},
-		{"id":13, "name":"1 Daemon Prince (replaces one unit of Chaos Space Marines or Noise Marines)", 		"pts":75},
-		{"id":16, "name":"1 Daemon Prince (replaces one unit of Emperor's Children Terminators)", 		"pts":75},
+		{"id":13, "name":"Daemon Prince (replaces one unit of Chaos Space Marines or Noise Marines)", 		"pts":75},
+		{"id":16, "name":"Daemon Prince (replaces one unit of Emperor's Children Terminators)", 		"pts":75},
 		
 		{"id":14, "name":"Icon Bearer", "pts":25},		
 		{"id":15, "name":"Chaos Champion", "pts":50},
@@ -47,8 +47,8 @@
 		{"id":21, "name":"3 Noise Marines", "pts":25},
 		{"id":22, "name":"3 Noise Marine Havocs", "pts":50},
 	
-		{"id":30, "name":"1 Chaos Rhino", 	"pts":10},
-		{"id":31, "name":"1 Emperors Children Land Raider", 	"pts":50},
+		{"id":30, "name":"Chaos Rhino", 	"pts":10},
+		{"id":31, "name":"Emperors Children Land Raider", 	"pts":50},
 		{"id":32, "name":"4 Emperors Children Land Raiders", 	"pts":200},
 
 		{"id":35, "name":"2 Emperors Children Dreadnoughts", "pts":75},
@@ -56,7 +56,7 @@
 		{"id":40, "name":"4 Emperors Children Predators", 	"pts":200},
 		{"id":41, "name":"4 Emperors Children Land Raiders", 	"pts":275},
 		
-		{"id":44, "name":"1 Chaos Stalker", "pts":50},
+		{"id":44, "name":"Chaos Stalker", "pts":50},
 		
 		{"id":50, "name":"Debaser of Slaanesh", "pts":50},
 

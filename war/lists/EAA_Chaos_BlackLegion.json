@@ -24,7 +24,7 @@
 		{"name":"BLACK LEGION DAEMON ENGINE, TITAN AND CHAOS NAVY FORMATIONS", "formations":[
 			{"id":511, "name":"Deathwheels",	"pts":50, "upgrades":[60]},
 			{"id":512, "name":"Decimators", "pts":50, "upgrades":[61]},
-			{"id":513, "name":"Defilers", "pts":225,  "units": "4 Defilers of Chaos Undivided", "upgrades":[]},
+			{"id":513, "name":"Defilers", "pts":25, "upgrades":[63]},
 			{"id":514, "name":"Chaos Warhounds",	"pts":50, "upgrades":[62]},
 			{"id":515, "name":"Chaos Reaver",		"units": "1 Chaos Reaver Titan", 	"pts":600, "upgrades":[]},
 			{"id":516, "name":"Chaos Warlord",	"units": "1 Chaos Warlord Titan",	"pts":725, "upgrades":[]},
@@ -39,8 +39,8 @@
 		{"id":10, "name":"Chaos Lord", 		"pts":0},
 		{"id":11, "name":"Sorcerer Lord", 		"pts":0},
 		{"id":12, "name":"Chaos Warlord", 		"pts":50},
-		{"id":13, "name":"1 Daemon Prince (replaces one unit of Chaos Space Marines or Havocs)", 		"pts":75},
-		{"id":16, "name":"1 Daemon Prince (replaces one unit of Chaos Terminators)", 		"pts":75},
+		{"id":13, "name":"Daemon Prince (replaces one unit of Chaos Space Marines or Havocs)", 		"pts":75},
+		{"id":16, "name":"Daemon Prince (replaces one unit of Chaos Terminators)", 		"pts":75},
 		
 		{"id":14, "name":"Icon Bearer", "pts":25},		
 		{"id":15, "name":"Chaos Champion", "pts":50},
@@ -55,7 +55,7 @@
 		
 		{"id":42, "name":"2 Chaos Dreadnoughts", "pts":75},
 		{"id":43, "name":"2 Chaos Vindicators", "pts":50},
-		{"id":44, "name":"1 Chaos Stalker", "pts":50},
+		{"id":44, "name":"Chaos Stalker", "pts":50},
 
 		{"id":45, "name":"4 Noise Marines", "pts":50},
 		{"id":46, "name":"4 Plague Marines", "pts":50},
@@ -70,6 +70,7 @@
 		{"id":60, "name":"Deathwheel", "pts":225},
 		{"id":61, "name":"Decimator", "pts":150},
 		{"id":62, "name":"Chaos Warhound Scout Titan", "pts":225},
+		{"id":63, "name":"Defiler", "pts":50},
 
 		{"id":70, "name":"Daemonic Pact", "pts":25},
 		
@@ -121,6 +122,7 @@
 		
 		{"min":1, "max":2, "from":[60], "appliesTo":[511]},
 		{"min":1, "max":2, "from":[61], "appliesTo":[512]},
+		{"min":4, "max":6, "from":[63], "appliesTo":[513]},
 		{"min":1, "max":2, "from":[62], "appliesTo":[514]}
 		
 	]
