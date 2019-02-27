@@ -1,9 +1,9 @@
 {
 	"id":"EAA Emperors Children",
-	"version":"1.4",
+	"version":"1.5",
 	"notes":
 		["Add one free Lesser Daemon to Daemon pool per Daemonic Pact"],
-		"by":"Mrdiealot",
+		"by":"EA Armageddon",
 	"sections":[
 		{"name":"DAEMONS", "formations":[
 			{"id":500, "name":"Daemon Pool", "pts":0, "upgrades":[71,72,74]}
