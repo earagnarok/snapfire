@@ -16,7 +16,7 @@
 			{"id":503, "name":"Chosen", "pts":150, "units":"4 Chosen, 2 Chaos Rhinos", "upgrades":[35,70]}
 		]},
 		{"name":"EMPERORS CHILDREN SUPPORT FORMATIONS", "formations":[
-			{"id":504, "name":"Bike Company",	"pts":225, "units":"6 Chaos Space Marines Bikes", "upgrades":[14,70]},
+			{"id":504, "name":"Bike Company",	"pts":250, "units":"6 Chaos Space Marines Bikes", "upgrades":[14,70]},
 			{"id":505, "name":"Raptor Cult",	"pts":175, "units":"4 Chaos Raptors", "upgrades":[70]},
 			{"id":506, "name":"Armoured Company", "pts":0, "upgrades":[44] }
 		]},
