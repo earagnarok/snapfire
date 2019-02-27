@@ -19,9 +19,9 @@
 
       {"name": "DEATH GUARD DAEMON ENGINE FORMATIONS (Max two for each Death Guard Retinue)", "formations": [
             {"id": 541, "name": "Contagion Engines", "pts": 325, "units": "4 Contagion Engines", "upgrades": []},
-            {"id": 542, "name": "Blight Drones", "pts": 225, "units": "7 Blight Drones", "upgrades": []},
+            {"id": 542, "name": "Blight Drones", "pts": 225, "units": "7 Greater Blight Drones", "upgrades": []},
             {"id": 543, "name": "Plaguetower", "pts": 325, "units": "1 Plaguetower", "upgrades": []},
-            {"id": 544, "name": "Defilers", "pts": 50, "upgrades": [21]}
+            {"id": 544, "name": "Nurgle Defilers", "pts": 50, "upgrades": [21]}
        ]},
 
       {"name": "SPACESHIPS, AIRCRAFT &amp; TITANS", "formations": [
