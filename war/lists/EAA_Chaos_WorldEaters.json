@@ -1,6 +1,6 @@
 {
    "id": "Chaos - World Eaters",
-   "version": "1.5b",
+   "version": "1.5",
    "by": "EA-Apocalypse",
    "sections": [
       {"name": "INDIVIDUALS", "formations": [
@@ -8,14 +8,14 @@
       ]},
 
       {"name": "WORLD EATER RETINUE", "formations": [
-            {"id": 521, "name": "World Eater Retinue", "pts": 275, "upgrades": [17,23,24,26,25,39,27,22,33]}
+            {"id": 521, "name": "World Eater Retinue", "pts": 300, "upgrades": [17,23,24,26,25,39,27,22,30,33]}
        ]},
 
       {"name": "WORLD EATER SUPPORT FORMATIONS (Max two for each World Eater Retinue)", "formations": [
-            {"id": 531, "name": "Juggernauts", "pts": 400, "units": "8 Juggernaut Riders", "upgrades": [26,27]},
+            {"id": 531, "name": "Juggernauts", "pts": 375, "units": "8 Juggernaut Riders", "upgrades": [26,27]},
             {"id": 532, "name": "World Eaters Terminators", "pts": 375, "upgrades": [26,24,22,25,27,39]},
             {"id": 533, "name": "Berzerker Bikes", "pts": 350, "units": "8 Khorne Berzerker Assault Bikes", "upgrades": [27,25]},
-            {"id": 534, "name": "World Eaters Renegades", "pts": 150, "upgrades": [25,30,33]},
+            {"id": 534, "name": "World Eaters Renegades", "pts": 175, "units": "Daemonic Pact", "upgrades": [30,33]},
             {"id": 535, "name": "Armoured Company", "pts": 0, "upgrades": [30]}
        ]},
 
@@ -30,9 +30,9 @@
             {"id": 551, "name": "Greater Brass Scorpion", "pts": 50, "upgrades": [34]},
             {"id": 552, "name": "Lord of Battles", "pts": 375, "units": "1 Lord of Battles", "upgrades": []},
             {"id": 553, "name": "Tower of Skulls", "pts": 700, "units": "1 Tower of Skulls", "upgrades": []},
-            {"id": 554, "name": "Heldrakes", "pts": 200, "units": "2 Heldrakes", "upgrades": []},
-            {"id": 555, "name": "Baledrakes", "pts": 200, "units": "2 Baledrakes", "upgrades": []},
-            {"id": 557, "name": "World Eater Spacecraft", "pts": 150, "upgrades": []}
+            {"id": 554, "name": "Heldrake Flight", "pts": 200, "units": "2 Heldrake Interceptors", "upgrades": []},
+            {"id": 555, "name": "Baledrake Flight", "pts": 200, "units": "2 Baledrake Fighter-Bombers", "upgrades": []},
+            {"id": 557, "name": "Orbital Support", "pts": 150, "upgrades": []}
          ]}
    ],
    "upgrades": [
@@ -40,7 +40,7 @@
       {"id": 14, "name": "Daemon Prince of Khorne", "pts": 75},
       {"id": 15, "name": "Skull Lord", "pts": 0},
       {"id": 17, "name": "4 Chaos Space Marines", "pts": 0},
-      {"id": 19, "name": "4 Khorne Berzerkers", "pts": 25},
+      {"id": 19, "name": "4 Khorne Berzerkers", "pts": 0},
 	  {"id": 20, "name": "2 Chaos Rhinos", "pts": 0},
 	  {"id": 21, "name": "2 World Eaters Land Raiders", "pts": 100},
       {"id": 22, "name": "2 World Eaters Dreadnoughts", "pts": 50},
