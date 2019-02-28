@@ -47,7 +47,7 @@
 		
 		{"id":40, "name":"2 Chaos Dreadnoughts", "pts":75},
 		
-		{"id":41, "name":"Chaos Spawn", "pts":35},
+		{"id":41, "name":"Chaos Spawn", "pts":50},
 		{"id":42, "name":"Mutalith Vortex Beast", "pts":75},		
 
 		{"id":43, "name":"Deciever", "pts":50},
