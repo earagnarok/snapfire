@@ -20,7 +20,7 @@
        ]},
 
       {"name": "MINOR DAEMON ENGINE FORMATIONS (Max one fore each World Eater Retinue)", "formations": [
-            {"id": 541, "name": "Khorne Defilers", "pts": 50, "upgrades": [35]},
+            {"id": 541, "name": "Khorne Defilers", "pts": 75, "upgrades": [35]},
             {"id": 542, "name": "Daemonic Assault Engines", "pts": 300, "units": "6 Daemonic Assault Engines", "upgrades": []},
             {"id": 543, "name": "Hellfire Cannons", "pts": 225, "units": "4 Hellfire Cannons", "upgrades": [36]},
             {"id": 544, "name": "Doomblasters", "pts": 225, "units": "4 Doomblasters", "upgrades": [36]}
