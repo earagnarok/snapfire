@@ -21,7 +21,7 @@
 			{"id":508, "name":"Plague Tower of Nurgle", "pts":325, "upgrades":[]},
 			{"id":509, "name":"Contagion Engines of Nurgle", "pts":325, "units":"4 Contagion Engines", "upgrades":[]},
 			{"id":510, "name":"Nurgle Plague Zombie Infestation",	"pts":175, "units":"3 + 2D6 Plague Zombies", "upgrades":[]},
-			{"id":511, "name":"Daemonic Assault Engines of Khorne",	"pts":300, "units":"6 Daemonic Assault Engines", "upgrades":[]},
+			{"id":511, "name":"Daemonic Assault Engines of Khorne",	"pts":275, "units":"6 Daemonic Assault Engines", "upgrades":[]},
 			{"id":512, "name":"Greater Brass Scorpion of Khorne", "pts":50, "upgrades":[34] },
 			{"id":513, "name":"Khorne Lord of Battles",	"pts":50, "upgrades":[]},
 			{"id":514, "name":"Silver Towers of Tzeench",	"pts":300, "units":"4 Silver Towers", "upgrades":[]},
