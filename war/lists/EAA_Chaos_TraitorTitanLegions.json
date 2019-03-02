@@ -1,18 +1,18 @@
 {
 	"id":"Traitor Titan Legions",
-	"version":"EAA 1.5b",
+	"version":"EAA 1.6",
 	"notes":[],
 	"by":"EA-Armageddon",
 	"sections":[
-		{"name":"BATTLE TITAN FORMATIONS / / Army must contain at least one Chaos Emperor Titan or Chaos Warlord Titan / / Army may not mix factions that hate each other (Tzeench hates Nurgle & vice-versa, Khorne hates Slaanesh & vice-versa)", "formations":[
+		{"name":"BATTLE TITAN FORMATIONS / / Army must contain at least one Chaos Emperor Titan or Chaos Warlord Titan / / May not Mix Nurgle/Tzeench or Slaanesh/Khorne formations ", "formations":[
 			{"id":500, "name":"CHAOS EMPEROR TITAN", 		"pts":900, "upgrades":[10]},
 			
 			{"id":501, "name":"CHAOS WARLORD TITAN", 		"pts":750, "upgrades":[10]},
 			
-			{"id":502, "name":"CHAOS REAVER TITAN",			"pts":600, "upgrades":[]}
+			{"id":502, "name":"CHAOS REAVER TITAN",			"pts":625, "upgrades":[]}
 		]},
 		
-		{"name": "SCOUT TITAN FORMATIONS / / Three for each Chaos Emperor Titan. Two for each Chaos Warlord. Must belong to the same faction", "formations":[
+		{"name": "SCOUT TITAN FORMATIONS / / Three for each Chaos Emperor Titan. Two for each Chaos Warlord. May not Mix Nurgle/Tzeench or Slaanesh/Khorne formations", "formations":[
 			{"id":510, "name":"QUESTOR of Slaanesh",	"pts":50, "upgrades":[70]},
 			{"id":511, "name":"SUBJUGATOR of Slaanesh",	"pts":50, "upgrades":[71]},
 			
@@ -21,25 +21,26 @@
 			{"id":514, "name":"WARPHOUND of Tzeench",	"pts":50, "upgrades":[75]}
 		]},
 		
-		{"name":"DAEMON ENGINES / / Two for each Battle Titan Formation, One for each Scout Titan Unit. Must belong to the same faction", "formations":[
+		{"name":"DAEMON ENGINES / / Three for each Battle Titan Formation, One for each Scout Titan Unit. May not Mix Nurgle/Tzeench or Slaanesh/Khorne formations", "formations":[
 			{"id":540, "name":"HELL-STRIDERS of Slaanesh",			"pts":60, "upgrades":[87]},
-			{"id":541, "name":"HELL-KNIGHTS of Slaanesh",			"pts":50, "upgrades":[88]},
-			{"id":542, "name":"HELL-SCOURGES of Slaanesh",			"pts":50, "upgrades":[89]},
+			{"id":541, "name":"HELL-KNIGHTS of Slaanesh",			"pts":250, "upgrades":[88]},
+			{"id":542, "name":"HELL-SCOURGES of Slaanesh",			"pts":225, "upgrades":[89]},
 			
-			{"id":550, "name":"DECAY KNIGHTS of Nurgle",			"pts":50, "upgrades":[80]},
-			{"id":551, "name":"DESECRATORS of Nurgle",				"pts":25, "upgrades":[90]},
+			{"id":550, "name":"KNIGHTS of Nurgle",			"pts":250, "upgrades":[80]},
+			{"id":551, "name":"DEFILERS of Nurgle",				"pts":25, "upgrades":[90]},
 			
-			{"id":560, "name":"MAULER KNIGHTS of Khorne",			"pts":50, "upgrades":[81]},
-			{"id":561, "name":"SLAUGHTERFIENDS of Khorne",			"pts":50, "upgrades":[86]},
+			{"id":560, "name":"KNIGHTS of Khorne",			"pts":250, "upgrades":[81]},
+			{"id":561, "name":"DEFILERS of Khorne",			"pts":50, "upgrades":[86]},
 			
-			{"id":570, "name":"CHANGE KNIGHTS of Tzeench",			"pts":50, "upgrades":[82]},
-			{"id":571, "name":"DECIEVERS of Tzeench",				"pts":50, "upgrades":[91]}
+			{"id":570, "name":"KNIGHTS of Tzeench",			"pts":250, "upgrades":[82]},
+			{"id":571, "name":"DEFILERS of Tzeench",				"pts":50, "upgrades":[91]},
+			
+			{"id":580, "name":"KNIGHTS of Chaos Undivided",			"pts":250, "upgrades":[83]},
+			{"id":581, "name":"DEFILERS of Chaos Undivided",				"pts":25, "upgrades":[92]}
 		]},
 		
-			{"name":"CHAOS UNDIVIDED ALLIES and CHAOS NAVY / / Max 33% of the army", "formations":[
-			{"id":580, "name":"RENEGADE KNIGHTS of Chaos Undivided",			"pts":50, "upgrades":[83]},
-			{"id":581, "name":"DEFILERS of Chaos Undivided",				"pts":25, "upgrades":[92]},
-			{"id":582, "name":"DARK MECHANICUS",				"pts":225, "units": " 1 Heretek, 4 Chaos Squats of Chaos Undivided, 2 Hades Land Raiders of Chaos Undivided", "upgrades":[]},
+			{"name":"CHAOS UNDIVIDED ALLIES and CHAOS NAVY / / Max 25% of the army", "formations":[
+			{"id":582, "name":"CHAOS SQUATS of Chaos Undivided",		"pts":225, "units": " 1 Heretek, 4 Chaos Squat Excavators, 2 Hades Land Raiders", "upgrades":[]},
 			{"id":583, "name":"HELL BLADES",				"pts":200, "units": "3 Hell Blades", "upgrades":[]},
 			{"id":584, "name":"HELL TALONS",				"pts":225, "units": "2 Hell Talons", "upgrades":[]},
 			{"id":585, "name":"CHAOS BATTLESHIP",				"pts":150, "units": "1 Chaos Battleship", "upgrades":[]}
@@ -55,66 +56,64 @@
 	"upgrades":[	
 		{"id":10,	"name":"Eye of the Gods (Compulsory)",	"pts":50},
 		
-		{"id":20,	"name":"1 Vicekeeper of Slaanesh",	"pts":0},
-		{"id":21,	"name":"1 Blightspreader of Nurgle",	"pts":0},
-		{"id":22,	"name":"1 Skullhoarder of Khorne",	"pts":0},
-		{"id":23,	"name":"1 Giftgranter of Tzeench",	"pts":0},
+		{"id":20,	"name":"1 Vicebringer Titan of Slaanesh",	"pts":0},
+		{"id":21,	"name":"1 Gloombringer Titan of Nurgle",	"pts":0},
+		{"id":22,	"name":"1 Strifebringer Titan of Khorne",	"pts":0},
+		{"id":23,	"name":"1 Changebringer Titan of Tzeench",	"pts":0},
 		
-		{"id":30,	"name":"1 Painlord of Slaanesh with Beam of Ecstacy",	"pts":0},
-		{"id":31,	"name":"1 Painlord of Slaanesh with Cyclone Cannon",	"pts":0},
-		{"id":32,	"name":"1 Painlord of Slaanesh with Beam Blaster",	"pts":0},
-		{"id":33,	"name":"1 Painlord of Slaanesh with Plasma Incinerator",	"pts":0},
+		{"id":30,	"name":"1 Painlord Titan of Slaanesh with Beam of Ecstacy",	"pts":0},
+		{"id":31,	"name":"1 Painlord Titan of Slaanesh with Cyclone Cannon",	"pts":0},
+		{"id":32,	"name":"1 Painlord Titan of Slaanesh with Beam Blaster",	"pts":0},
+		{"id":33,	"name":"1 Painlord Titan of Slaanesh with Plasma Incinerator",	"pts":0},
 		
-		{"id":35,	"name":"1 Plaguelord of Nurgle with Cyclone Cannon",	"pts":0},
-		{"id":36,	"name":"1 Plaguelord of Nurgle with Beam Blaster",	"pts":0},
-		{"id":37,	"name":"1 Plaguelord of Nurgle with Plasma Incinerator",	"pts":0},
+		{"id":35,	"name":"1 Plaguelord Titan of Nurgle with Cyclone Cannon",	"pts":0},
+		{"id":36,	"name":"1 Plaguelord Titan of Nurgle with Beam Blaster",	"pts":0},
+		{"id":37,	"name":"1 Plaguelord Titan of Nurgle with Plasma Incinerator",	"pts":0},
 		
-		{"id":40,	"name":"1 Banelord of Khorne with Hellstrike Cannon",	"pts":0},
-		{"id":41,	"name":"1 Banelord of Khorne with Cyclone Cannon",	"pts":0},
-		{"id":42,	"name":"1 Banelord of Khorne with Beam Blaster",	"pts":0},
-		{"id":43,	"name":"1 Banelord of Khorne with Plasma Incinerator",	"pts":0},
+		{"id":40,	"name":"1 Banelord Titan of Khorne with Hellstrike Cannon",	"pts":0},
+		{"id":41,	"name":"1 Banelord Titan of Khorne with Cyclone Cannon",	"pts":0},
+		{"id":42,	"name":"1 Banelord Titan of Khorne with Beam Blaster",	"pts":0},
+		{"id":43,	"name":"1 Banelord Titan of Khorne with Plasma Incinerator",	"pts":0},
 		
-		{"id":45,	"name":"1 Warplord of Tzeench with 2 Tzeench Cannons",	"pts":0},
-		{"id":46,	"name":"1 Warplord of Tzeench with 2 Cyclone Cannons",	"pts":0},
-		{"id":47,	"name":"1 Warplord of Tzeench with 2 Beam Blasters",	"pts":0},
-		
-	
-		{"id":50,	"name":"1 Reviler of Slaanesh with Hex Cannon",	"pts":0},
-		{"id":51,	"name":"1 Reviler of Slaanesh with Turbo Blaster",	"pts":0},
-		{"id":52,	"name":"1 Reviler of Slaanesh with Plasma Cremator",	"pts":0},
-		
-		{"id":55,	"name":"1 Repugnant of Nurgle with Rot Cannon",	"pts":0},
-		{"id":56,	"name":"1 Repugnant of Nurgle with Turbo Blaster",	"pts":0},
-		{"id":57,	"name":"1 Repugnant of Nurgle with Plasma Cremator",	"pts":0},
-		
-		{"id":60,	"name":"1 Ravager of Khorne with Hex Cannon",	"pts":0},
-		{"id":61,	"name":"1 Ravager of Khorne with Turbo Blaster",	"pts":0},
-		{"id":62,	"name":"1 Ravager of Khorne with Plasma Cremator",	"pts":0},
-		
-		{"id":65,	"name":"1 Mutator of Tzeench with Coruscant Hail",	"pts":0},
-		{"id":66,	"name":"1 Mutator of Tzeench with Hex Cannon",	"pts":0},
-		{"id":67,	"name":"1 Mutator of Tzeench with Turbo Blaster",	"pts":0},
+		{"id":45,	"name":"1 Warplord Titan of Tzeench with 2 Tzeench Cannons",	"pts":0},
+		{"id":46,	"name":"1 Warplord Titan of Tzeench with 2 Plasma Incinerators",	"pts":0},
+		{"id":47,	"name":"1 Warplord Titan of Tzeench with 2 Beam Blasters",	"pts":0},
 		
 	
-		{"id":70,	"name":"Questor Scout Titan of Slaanesh",	"pts":200},
+		{"id":50,	"name":"1 Reviler Titan of Slaanesh with Hex Cannon",	"pts":0},
+		{"id":51,	"name":"1 Reviler Titan of Slaanesh with Turbo Blaster",	"pts":0},
+		{"id":52,	"name":"1 Reviler Titan of Slaanesh with Plasma Cremator",	"pts":0},
+		
+		{"id":55,	"name":"1 Repugnant Titan of Nurgle with Rot Cannon",	"pts":0},
+		{"id":56,	"name":"1 Repugnant Titan of Nurgle with Turbo Blaster",	"pts":0},
+		{"id":57,	"name":"1 Repugnant Titan of Nurgle with Plasma Cremator",	"pts":0},
+		
+		{"id":60,	"name":"1 Ravager Titan of Khorne with Hex Cannon",	"pts":0},
+		{"id":61,	"name":"1 Ravager Titan of Khorne with Turbo Blaster",	"pts":0},
+		{"id":62,	"name":"1 Ravager Titan of Khorne with Plasma Cremator",	"pts":0},
+		
+		{"id":65,	"name":"1 Mutator Titan of Tzeench with Coruscant Hail",	"pts":0},
+		{"id":66,	"name":"1 Mutator Titan of Tzeench with Hex Cannon",	"pts":0},
+		{"id":67,	"name":"1 Mutator Titan of Tzeench with Turbo Blaster",	"pts":0},
+		
+	
+		{"id":70,	"name":"Questor Scout Titan of Slaanesh",	"pts":225},
 		{"id":71,	"name":"Subjugator Scout Titan of Slaanesh",	"pts":200},
 		{"id":72,	"name":"Plaguehound Scout Titan of Nurgle",	"pts":225},
-		{"id":73,	"name":"Feral Warhound of Khorne (with Deathstorm)",	"pts":225},
-		{"id":74,	"name":"Feral Warhound of Khorne (with Plasma Furnace)",	"pts":225},
+		{"id":73,	"name":"Bloodhound of Khorne (with Deathstorm)",	"pts":225},
+		{"id":74,	"name":"Bloodhound of Khorne (with Plasma Furnace)",	"pts":225},
 		{"id":75,	"name":"Warphound of Tzeench",	"pts":225},
 		
-		{"id":80,	"name":"Decay Knight of Nurgle",	"pts":75},
-		{"id":81,	"name":"Mauler Knight of Khorne",	"pts":75},
-		{"id":82,	"name":"Change Knight of Tzeench",	"pts":75},
-		{"id":83,	"name":"Renegade Knight of Chaos Undivided",	"pts":75},
+		{"id":80,	"name":"Knight-Decayer of Nurgle",	"pts":0},
+		{"id":81,	"name":"Knight-Mauler of Khorne",	"pts":0},
+		{"id":82,	"name":"Knight-Mutator of Tzeench",	"pts":0},
+		{"id":83,	"name":"Knight-Renegade of Chaos Undivided",	"pts":0},
 		
-		{"id":84,	"name":"Firelord of Tzeench",	"pts":75},
-		{"id":85,	"name":"Greater Brass Scorpion of Khorne",	"pts":175},
 		{"id":86,	"name":"Slaughterfiend of Khorne",	"pts":35},
 		
 		{"id":87,	"name":"Hell-Strider of Slaanesh",	"pts":35},
-		{"id":88,	"name":"Hell-Knight of Slaanesh",	"pts":50},
-		{"id":89,	"name":"Hell-Scourge of Slaanesh",	"pts":75},
+		{"id":88,	"name":"Hell-Knight of Slaanesh",	"pts":0},
+		{"id":89,	"name":"Hell-Scourge of Slaanesh",	"pts":0},
 		
 		{"id":90,	"name":"Desecrator of Nurgle",	"pts":50},
 		{"id":91,	"name":"Deciever of Tzeench",	"pts":50},
@@ -153,12 +152,12 @@
       {"min": 1, "max": 2, "from": [85], "appliesTo": [562]},
 	  
       {"min": 4, "max": 6, "from": [87], "appliesTo": [540]},
-      {"min": 3, "max": 5, "from": [88], "appliesTo": [541]},
-      {"min": 2, "max": 4, "from": [89], "appliesTo": [542]},
+      {"min": 3, "max": 3, "from": [88], "appliesTo": [541]},
+      {"min": 2, "max": 2, "from": [89], "appliesTo": [542]},
 	  
-      {"min": 4, "max": 6, "from": [90], "appliesTo": [551]},
-      {"min": 5, "max": 7, "from": [86], "appliesTo": [561]},
-      {"min": 4, "max": 6, "from": [91], "appliesTo": [571]},
+      {"min": 4, "max": 7, "from": [90], "appliesTo": [551]},
+      {"min": 5, "max": 8, "from": [86], "appliesTo": [561]},
+      {"min": 4, "max": 4, "from": [91], "appliesTo": [571]},
       {"min": 4, "max": 6, "from": [92], "appliesTo": [581]}
 	
 	]
