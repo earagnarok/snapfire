@@ -27,7 +27,7 @@
       {"name": "SPACESHIPS, AIRCRAFT &amp; TITANS", "formations": [
             {"id": 551, "name": "Plague Zombie Infestation", "pts": 175, "units": "3 + 2D6 Plague Zombies", "upgrades": []},
             {"id": 552, "name": "Plaguehound", "pts": 50, "upgrades": [20]},
-            {"id": 553, "name": "Repugnant", "pts": 600, "units": "1 Repugnant Titan", "upgrades": []},
+            {"id": 553, "name": "Repugnant", "pts": 650, "units": "1 Repugnant Titan", "upgrades": []},
             {"id": 554, "name": "Hell Blades", "pts": 200, "units": "3 Hell Blade Interceptors", "upgrades": []},
             {"id": 555, "name": "Hell Talons", "pts": 225, "units": "2 Hell Talon Fighter-Bombers", "upgrades": []},
             {"id": 556, "name": "Harbringer", "pts": 350, "units": "1 Death Guard Harbringer Bomber", "upgrades": []},
