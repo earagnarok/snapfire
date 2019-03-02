@@ -36,7 +36,7 @@
 			{"id":523, "name":"Warp Palace of Tzeench", "units":"1 Warp Palace", "pts":500, "upgrades":[]},
 			{"id":524, "name":"Doomwings of Tzeench", "units":"3 Doomwing Interceptors",	"pts":150, "upgrades":[]},
 			
-			{"id":530, "name":"Chaos Renegades", "pts":175, "units":"4 Chaos Space Marines, 2 Chaos Rhinos, Daemonic Pact", "upgrades":[]},
+			{"id":530, "name":"Alpha Legion Marines", "pts":175, "units":"4 Alpha Legion Marines, 2 Alpha Legion Rhinos", "upgrades":[]},
 			{"id":531, "name":"Thunderbolt Squadron", "pts":150, "units":"2 Thunderbolts", "upgrades":[]},
 			{"id":532, "name":"Maruder Squadron", "pts":225, "units":"2 Maruder Bombers", "upgrades":[]}
          ]
