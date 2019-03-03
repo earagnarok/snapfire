@@ -23,7 +23,7 @@
 		
 		{"name":"DAEMON ENGINES / / Three for each Battle Titan Formation, or one for each unit in a Scout Titan Formation. May not Mix Nurgle/Tzeench or Slaanesh/Khorne formations", "formations":[
 			{"id":540, "name":"HELL-STRIDERS of Slaanesh",			"pts":60, "upgrades":[87]},
-			{"id":541, "name":"HELL-KNIGHTS of Slaanesh",			"pts":225, "upgrades":[88]},
+			{"id":541, "name":"HELL-KNIGHTS of Slaanesh",			"pts":250, "upgrades":[88]},
 			{"id":542, "name":"HELL-SCOURGES of Slaanesh",			"pts":225, "upgrades":[89]},
 			
 			{"id":550, "name":"KNIGHTS of Nurgle",			"pts":225, "upgrades":[80]},
