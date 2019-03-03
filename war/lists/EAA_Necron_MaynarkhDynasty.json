@@ -2,7 +2,7 @@
    "id": "Necrons - Maynarkh Dynasty",
    "version": "1.11",
    "by": "EA-Apocalypse Team",
-   "notes": ["A Warbarque in the army may be given the Supreme Commander ability if a C’tan is not fielded."],
+   "notes": [""],
    "sections": [
       {"name": "INDIVIDUALS", "formations": [
             {"id": 601, "name": "Tomb Complex", "pts": 0, "upgrades": []}
@@ -49,7 +49,7 @@
       {"id": 22, "name": "Necron Lord", "pts": 0},
       {"id": 23, "name": "Necron Warriors", "pts": 0},
       {"id": 24, "name": "Immortals", "pts": 25},
-      {"id": 99, "name": "Immortals", "pts": 100},
+      {"id": 99, "name": "C'tan Shard", "pts": 100},
       {"id": 25, "name": "Destoryer Lord", "pts": 25}
    ],
    "formationConstraints": [
