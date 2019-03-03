@@ -26,18 +26,18 @@
 			{"id":541, "name":"HELL-KNIGHTS of Slaanesh",			"pts":250, "upgrades":[88]},
 			{"id":542, "name":"HELL-SCOURGES of Slaanesh",			"pts":225, "upgrades":[89]},
 			
-			{"id":550, "name":"KNIGHTS of Nurgle",			"pts":225, "upgrades":[80]},
+			{"id":550, "name":"KNIGHTS of Nurgle",			"pts":250, "upgrades":[80]},
 			{"id":551, "name":"DEFILERS of Nurgle",				"pts":25, "upgrades":[90]},
 			
-			{"id":560, "name":"KNIGHTS of Khorne",			"pts":225, "upgrades":[81]},
+			{"id":560, "name":"KNIGHTS of Khorne",			"pts":250, "upgrades":[81]},
 			{"id":561, "name":"DEFILERS of Khorne",			"pts":50, "upgrades":[86]},
 			
-			{"id":570, "name":"KNIGHTS of Tzeench",			"pts":225, "upgrades":[82]},
+			{"id":570, "name":"KNIGHTS of Tzeench",			"pts":250, "upgrades":[82]},
 			{"id":571, "name":"DEFILERS of Tzeench",				"pts":50, "upgrades":[91]}
 		]},
 		
 			{"name":"CHAOS UNDIVIDED ALLIES and CHAOS NAVY / / Max 33% of the army", "formations":[
-			{"id":580, "name":"KNIGHTS of Chaos Undivided",			"pts":225, "upgrades":[83]},
+			{"id":580, "name":"KNIGHTS of Chaos Undivided",			"pts":250, "upgrades":[83]},
 			{"id":581, "name":"DEFILERS of Chaos Undivided",				"pts":25, "upgrades":[92]},
 			{"id":582, "name":"CHAOS SQUATS of Chaos Undivided",		"pts":225, "units": " 1 Heretek, 4 Chaos Squat Excavators, 2 Hades Land Raiders", "upgrades":[]},
 			{"id":583, "name":"HELL BLADES",				"pts":200, "units": "3 Hell Blades", "upgrades":[]},
