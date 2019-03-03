@@ -12,7 +12,7 @@
 			{"id":502, "name":"CHAOS REAVER TITAN",			"pts":600, "upgrades":[]}
 		]},
 		
-		{"name": "SCOUT TITAN FORMATIONS / / Three for each Chaos Emperor Titan formation, two for each Chaos Warlord or Chaos Reaver Titan. May not Mix Nurgle/Tzeench or Slaanesh/Khorne formations", "formations":[
+		{"name": "SCOUT TITAN FORMATIONS / / Three for each Chaos Emperor Titan formation, two for each Chaos Warlord Titan. May not Mix Nurgle/Tzeench or Slaanesh/Khorne formations", "formations":[
 			{"id":510, "name":"QUESTORS of Slaanesh",	"pts":50, "upgrades":[70]},
 			{"id":511, "name":"SUBJUGATORS of Slaanesh",	"pts":50, "upgrades":[71]},
 			
