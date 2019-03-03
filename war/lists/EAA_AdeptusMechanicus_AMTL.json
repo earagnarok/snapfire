@@ -1,22 +1,29 @@
 {
 "id":"AMTL",
-"version":"1.4b",
+"version":"2.0b",
 "by":"EA Apocalypse",
 "sections":[
 {
 "name":"BATTLE TITAN FORMATIONS",
 "formations":[
         {"id":500,"name":"Emperor Titan","pts":900, "upgrades":[10,11,12]},
-        {"id":501,"name":"Warlord Titan (Death Bringer Class)","pts":750,"upgrades":[10,11]},
-        {"id":502,"name":"Warlord Titan (Nemesis Class)","pts":750,"units":"Carapace Multilaser Turrets, Carapace Lascannon Turrets","upgrades":[10,11]},
-
-        {"id":504,"name":"Reaver Titan (Hun Class)","pts":600,"upgrades":[11]},
-        {"id":505,"name":"Reaver Titan (Goth Class)","pts":600,"upgrades":[11]}
+        {"id":501,"name":"Warlord Titan","pts":750, "units":"Macro-Gatling Blaster, Belicosa Vulcano Cannon" ,"upgrades":[10,11]},
+        {"id":502,"name":"Warlord Titan (Deathbringer Configuration)","pts":750, "units":"Paired Laser Blasters", "upgrades":[10,11]},
+        {"id":503,"name":"Warlord Titan (Stormseeker Configuration)","pts":750, "units":"Macro-Gatling Blaster, Paired Melta Cannons", "upgrades":[10,11]},
+        {"id":504,"name":"Warlord Titan (Siegemaker Configuration)","pts":775, "units":"2x Quake Cannons", "upgrades":[10,11]},
+        {"id":505,"name":"Warlord Titan (Nemesis Configuration)","pts":775, "units":"Paired Battle Titan Plasma Cannons", "upgrades":[10,11]},
+    
+		{"id":506,"name":"Reaver Titan","pts":600, "units":"Apocalypse Missile Launcher" ,"upgrades":[11]},   
+        {"id":507,"name":"Reaver Titan (Close Assault Configuration)","pts":600, "units":"Melta Cannon, Corvus Assault Pod" ,"upgrades":[11]},
+        {"id":508,"name":"Reaver Titan (Artillery Configuration)","pts":625, "units":"2x Apocalypse Missile Launcher", "upgrades":[11]},
+        {"id":509,"name":"Reaver Titan (Titan-Hunter Configuration)", "units":"2x Battle Titan Plasma Cannon", "pts":625,"upgrades":[11]}
 ]},
 
 {"name":"SCOUT TITAN FORMATIONS (Max two for each Battle Titan formation)",
-"formations":[{
-        "id":510,"name":"Warhound Pack","pts":500,"units":"2 AMTL Warhounds","upgrades":[13]}
+"formations":[
+        {"id":510,"name":"Warhound Pack","pts":500,"units":"2 Warhounds","upgrades":[]},
+       {"id":511,"name":"Warhound Pack (Support Configuration)","pts":500,"units":"2 Warhounds (Close Assault Configuration)","upgrades":[]},
+        {"id":512,"name":"Warhound Pack (Tank Hunter Configuration)","pts":550,"units":"2 Warhounds (Tank Hunter Configuration)","upgrades":[]}
 ]},
 
 {"name":"ADEPTUS MECHANICUS ALLIES (Max 40%. Max 1 Lysander Fighter for each Warmonger Titan or Reaver Carapace Landing Pad)",
@@ -40,58 +47,33 @@
 		
 	    {"id":20,"name":"Imperator Titan","pts":0},
 	    {"id":21,"name":"Warmonger Titan","pts":0},
+
+	    {"id":30,"name":"Paired Macro-Gatling Blasters","pts":0},
+	    {"id":31,"name":"Paired Apocalypse Missile Launchers","pts":0},
+	    {"id":32,"name":"Paired Turbo-Laser Destructors","pts":0},
 		
-	    {"id":30,"name":"Paired Laser Blasters","pts":0},
-	    {"id":31,"name":"Paired Macro-Gatling Blasters","pts":0},
-	    {"id":32,"name":"Paired Apocalypse Missile Launchers","pts":0},
-	    {"id":33,"name":"Paired Turbo-Laser Destructors","pts":0},
-	    {"id":34,"name":"Paired Melta Cannons","pts":0},
+	    {"id":40,"name":"2x Barrage Missiles","pts":0},
+	    {"id":41,"name":"2x Vortex Missiles","pts":0},
+	    {"id":42,"name":"Paired Apocalypse Missile Launchers","pts":0},
 		
-	    {"id":35,"name":"Paired Plasma Cannons","pts":0},
-	    {"id":36,"name":"2 x Barrage Missiles","pts":0},
-	    {"id":37,"name":"2 x Vortex Missiles","pts":0},
-		
-	    {"id":40,"name":"Vulcan Mega Bolter","pts":0},
-	    {"id":41,"name":"Apocalypse Missile Launcher","pts":0},
-	    {"id":42,"name":"Laser Blaster","pts":0},
-	    {"id":43,"name":"Warp Missile","pts":0},
-	    {"id":44,"name":"Deathstrike Missile","pts":0},
-	    {"id":45,"name":"Carapace Landing Pad","pts":0},
-	    {"id":46,"name":"3x Twin-Hydra Autocannons","pts":0},
+	    {"id":50,"name":"2x Macro-Gatling Blasters","pts":0},
+	    {"id":51,"name":"2x Laser Blasters","pts":0},
 
-        {"id":50,"name":"Macro-Gatling Blaster","pts":0},
-        {"id":51,"name":"Titan Power Claw","pts":0},
-        {"id":52,"name":"Laser Burner","pts":0},
-
-        {"id":54,"name":"Belicosa Vulcano Cannon","pts":0},	
-        {"id":55,"name":"Quake Cannon","pts":0},	
-        {"id":56,"name":"Plasma Destructor","pts":0},	
-
-        {"id":57,"name":"2 x Belicosa Vulcano Cannon","pts":0},	
-        {"id":58,"name":"2 x Quake Cannon","pts":0},	
-        {"id":59,"name":"2 x Plasma Destructor","pts":0},
-
-        {"id":60,"name":"Power Fist","pts":0},		
+	    {"id":60,"name":"Titan Power Fist","pts":0},
         {"id":61,"name":"Laser Burner","pts":0},
-        {"id":62,"name":"Laser Burner","pts":0},
-        {"id":63,"name":"Melta Cannon","pts":0},
-        {"id":64,"name":"Turbo-Laser Destructor","pts":0},
-        {"id":65,"name":"Turbo-Laser Destructor","pts":0},
-        {"id":66,"name":"Gatling Blaster","pts":0},
-	    {"id":74,"name":"Gatling Blaster","pts":0},
-
-	    {"id":67,"name":"2 x Laser Blaster","pts":0},
-	    {"id":68,"name":"2 x Apocalypse Missile Launcher","pts":0},
-	    {"id":69,"name":"Vulcano Cannon, Plasma Cannon","pts":0},
 		
-        {"id":70,"name":"Vulcan Mega Bolter, Scout Turbo Laser","pts":0},
-        {"id":71,"name":"Inferno Gun, Scout Turbo Laser","pts":0},
-        {"id":72,"name":"Plasma Blastgun, Inferno Gun","pts":0},
-        {"id":73,"name":"Plasma Blastgun, Vulcan Mega Bolter","pts":0},
-        {"id":74,"name":"2 x Vulcan Mega Bolter, Scout Turbo Laser","pts":25},
-        {"id":75,"name":"2 x Inferno Gun, Scout Turbo Laser","pts":25},
-        {"id":76,"name":"2 x Plasma Blastgun, Inferno Gun","pts":25},
-        {"id":77,"name":"2 x Scout Turbo Laser","pts":25},
+        {"id":70,"name":"2x Belicosa Vulcano Cannon","pts":0},	
+        {"id":71,"name":"2x Plasma Destructor","pts":0},
+		
+        {"id":80,"name":"2x Turbo-Laser Destructor","pts":0},
+        {"id":81,"name":"2x Gatling Blaster","pts":0},
+
+	    {"id":90,"name":"Triple-Twin Hydra Autocannons","pts":0},		
+	    {"id":91,"name":"Apocalypse Missile Launcher","pts":0},
+	    {"id":92,"name":"Carapace Landing Pad","pts":0},
+
+	    {"id":95,"name":"Warp Missile","pts":0},
+	    {"id":96,"name":"Deathstrike Missile","pts":0},
 		
 		{"id":100, "name":"Knight-Paladin (Rapid Fire Battle Cannon, 2 Hvy Stubbers, Reaper Chainsword)",													"pts":0},
 		{"id":101, "name":"Knight-Errant (Thermal Cannon, Hvy Stubber, Thunderstrike Gauntlet)",															"pts":0},
@@ -108,30 +90,28 @@
 "formationConstraints":[
         {"max":1, "perArmy":true, "from":[500]},       
 		{"max":1, "perArmy":true, "from":[534]},
-		{"max":2, "name":"", "from":[510], "forEach":[500,501,502,504,505], "name2":"Battle Titan"},
+		{"max":2, "name":"", "from":[510,511,512], "forEach":[500,501,502,504,505,506,507,508,509], "name2":"Battle Titan"},
         {"maxPercent":40,"name":"Adeptus Mechanicus Allies","from":[530,531,532,533,534,535,520]}
 ],
 "upgradeConstraints":[
         {"max":1, "perArmy":true, "from":[10]},  
-        {"max":1,"from":[10,11],"appliesTo":[500,501,502,504,505]},
+        {"max":1,"from":[10],"appliesTo":[500,501,502,504,505,506,507,508,509]},
+        {"max":1,"from":[11],"appliesTo":[500,501,502,504,505,506,507,508,509]},
         {"max":1,"from":[12],"appliesTo":[500,531]},
-        {"max":1,"from":[13],"appliesTo":[510]},
+        {"max":1,"from":[13],"appliesTo":[510,511,512]},
 		
         {"min":1,"max":1,"from":[20,21],"appliesTo":[500]},		
 		
-        {"min":1,"max":1,"from":[30,31,32,33,34],"appliesTo":[501]},
-        {"min":1,"max":1,"from":[50,51,52],"appliesTo":[501]},	
-        {"min":1,"max":1,"from":[54,55,56],"appliesTo":[501]},		
-		
-        {"min":1,"max":1,"from":[35,36,37],"appliesTo":[502]},
-        {"min":1,"max":1,"from":[57,58,59],"appliesTo":[502]},	
+        {"min":1,"max":1,"from":[30,31,32],"appliesTo":[501]},
+        {"min":1,"max":1,"from":[50,51],"appliesTo":[502]},	
+        {"min":1,"max":1,"from":[60,61],"appliesTo":[503]},		
+        {"min":1,"max":1,"from":[40,41,42],"appliesTo":[504]},
+        {"min":1,"max":1,"from":[70,71],"appliesTo":[505]},	
 
-		{"min":1,"max":1,"from":[40,41],"appliesTo":[504]},
-        {"min":1,"max":1,"from":[60,61,64,60,74],"appliesTo":[504]},	
-        {"min":1,"max":1,"from":[63,62,65,66],"appliesTo":[504]},	
-
-        {"min":1,"max":1,"from":[42,43,44,45,46],"appliesTo":[505]},
-        {"min":1,"max":1,"from":[67,68,69],"appliesTo":[505]},	
+		{"min":1,"max":1,"from":[80,81],"appliesTo":[506]},
+        {"min":1,"max":1,"from":[60,61],"appliesTo":[507]},	
+        {"min":1,"max":1,"from":[90,91,92],"appliesTo":[508]},	
+        {"min":1,"max":1,"from":[95,96],"appliesTo":[509]},
 
         {"min":2,"max":2,"from":[70,71,72,73],"appliesTo":[510]},
 
