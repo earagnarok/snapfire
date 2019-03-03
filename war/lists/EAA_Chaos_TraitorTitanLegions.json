@@ -13,12 +13,12 @@
 		]},
 		
 		{"name": "SCOUT TITAN FORMATIONS / / Three for each Chaos Emperor Titan. Two for each Chaos Warlord. May not Mix Nurgle/Tzeench or Slaanesh/Khorne formations", "formations":[
-			{"id":510, "name":"QUESTOR of Slaanesh",	"pts":50, "upgrades":[70]},
-			{"id":511, "name":"SUBJUGATOR of Slaanesh",	"pts":50, "upgrades":[71]},
+			{"id":510, "name":"QUESTORS of Slaanesh",	"pts":50, "upgrades":[70]},
+			{"id":511, "name":"SUBJUGATORS of Slaanesh",	"pts":50, "upgrades":[71]},
 			
-			{"id":512, "name":"PLAGUEHOUND of Nurgle",	"pts":50, "upgrades":[72]},
-			{"id":513, "name":"FERAL WARHOUND of Khorne",	"pts":50, "upgrades":[73,74]},
-			{"id":514, "name":"WARPHOUND of Tzeench",	"pts":50, "upgrades":[75]}
+			{"id":512, "name":"PLAGUEHOUNDS of Nurgle",	"pts":50, "upgrades":[72]},
+			{"id":513, "name":"BLOODHOUNDS of Khorne",	"pts":50, "upgrades":[73,74]},
+			{"id":514, "name":"WARPHOUNDS of Tzeench",	"pts":50, "upgrades":[75]}
 		]},
 		
 		{"name":"DAEMON ENGINES / / Three for each Battle Titan Formation, One for each Scout Titan Unit. May not Mix Nurgle/Tzeench or Slaanesh/Khorne formations", "formations":[
