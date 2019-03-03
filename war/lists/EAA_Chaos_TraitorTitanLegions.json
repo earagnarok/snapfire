@@ -7,9 +7,9 @@
 		{"name":"BATTLE TITAN FORMATIONS / / Army must contain at least one Chaos Emperor Titan or Chaos Warlord Titan / / May not Mix Nurgle/Tzeench or Slaanesh/Khorne formations ", "formations":[
 			{"id":500, "name":"CHAOS EMPEROR TITAN", 		"pts":900, "upgrades":[10]},
 			
-			{"id":501, "name":"CHAOS WARLORD TITAN", 		"pts":750, "upgrades":[10]},
+			{"id":501, "name":"CHAOS WARLORD TITAN", 		"pts":775, "upgrades":[10]},
 			
-			{"id":502, "name":"CHAOS REAVER TITAN",			"pts":625, "upgrades":[]}
+			{"id":502, "name":"CHAOS REAVER TITAN",			"pts":600, "upgrades":[]}
 		]},
 		
 		{"name": "SCOUT TITAN FORMATIONS / / Three for each Chaos Emperor Titan. Two for each Chaos Warlord. May not Mix Nurgle/Tzeench or Slaanesh/Khorne formations", "formations":[
@@ -23,24 +23,24 @@
 		
 		{"name":"DAEMON ENGINES / / Three for each Battle Titan Formation, One for each Scout Titan Unit. May not Mix Nurgle/Tzeench or Slaanesh/Khorne formations", "formations":[
 			{"id":540, "name":"HELL-STRIDERS of Slaanesh",			"pts":60, "upgrades":[87]},
-			{"id":541, "name":"HELL-KNIGHTS of Slaanesh",			"pts":250, "upgrades":[88]},
+			{"id":541, "name":"HELL-KNIGHTS of Slaanesh",			"pts":225, "upgrades":[88]},
 			{"id":542, "name":"HELL-SCOURGES of Slaanesh",			"pts":225, "upgrades":[89]},
 			
-			{"id":550, "name":"KNIGHTS of Nurgle",			"pts":250, "upgrades":[80]},
+			{"id":550, "name":"KNIGHTS of Nurgle",			"pts":225, "upgrades":[80]},
 			{"id":551, "name":"DEFILERS of Nurgle",				"pts":25, "upgrades":[90]},
 			
-			{"id":560, "name":"KNIGHTS of Khorne",			"pts":250, "upgrades":[81]},
+			{"id":560, "name":"KNIGHTS of Khorne",			"pts":225, "upgrades":[81]},
 			{"id":561, "name":"DEFILERS of Khorne",			"pts":50, "upgrades":[86]},
 			
-			{"id":570, "name":"KNIGHTS of Tzeench",			"pts":250, "upgrades":[82]},
+			{"id":570, "name":"KNIGHTS of Tzeench",			"pts":225, "upgrades":[82]},
 			{"id":571, "name":"DEFILERS of Tzeench",				"pts":50, "upgrades":[91]},
 			
-			{"id":580, "name":"KNIGHTS of Chaos Undivided",			"pts":250, "upgrades":[83]},
+			{"id":580, "name":"KNIGHTS of Chaos Undivided",			"pts":225, "upgrades":[83]},
 			{"id":581, "name":"DEFILERS of Chaos Undivided",				"pts":25, "upgrades":[92]}
 		]},
 		
 			{"name":"CHAOS UNDIVIDED ALLIES and CHAOS NAVY / / Max 25% of the army", "formations":[
-			{"id":582, "name":"CHAOS SQUATS of Chaos Undivided",		"pts":225, "units": " 1 Heretek, 4 Chaos Squat Excavators, 2 Hades Land Raiders", "upgrades":[]},
+			{"id":582, "name":"CHAOS SQUATS of Chaos Undivided",		"pts":200, "units": " 1 Heretek, 4 Chaos Squat Excavators, 2 Hades Land Raiders", "upgrades":[]},
 			{"id":583, "name":"HELL BLADES",				"pts":200, "units": "3 Hell Blades", "upgrades":[]},
 			{"id":584, "name":"HELL TALONS",				"pts":225, "units": "2 Hell Talons", "upgrades":[]},
 			{"id":585, "name":"CHAOS BATTLESHIP",				"pts":150, "units": "1 Chaos Battleship", "upgrades":[]}
