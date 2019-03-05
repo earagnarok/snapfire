@@ -18,9 +18,7 @@
 
 {"name":"SCOUT TITAN FORMATIONS (Max two for each Battle Titan formation)",
 "formations":[
-        {"id":510,"name":"Warhound Pack","pts":500,"units":"2 Warhounds","upgrades":[13]},
-       {"id":511,"name":"Warhound Pack (Support Configuration)","pts":500,"units":"2 Warhounds (Support Configuration)","upgrades":[13]},
-        {"id":512,"name":"Warhound Pack (Tank Hunter Configuration)","pts":550,"units":"2 Warhounds (Tank Hunter Configuration)","upgrades":[13]}
+	    {"id":510,"name":"Warhound Pack","pts":500, "upgrades":[13]}
 ]},
 
 {"name":"ADEPTUS MECHANICUS ALLIES (Max 40%. Max 1 Lysander Fighter for each Warmonger Titan or Reaver Carapace Landing Pad)",
@@ -100,7 +98,11 @@
 		{"id":131, "name":"Ordinatus Minoris (Titan Plasma Cannon)",			"pts":0},
 		{"id":132, "name":"Ordinatus Minoris (Turbo-laser Destructor)",		"pts":0},
 		{"id":133, "name":"Ordinatus Minoris (Apocalypse Missile Launcher)",	"pts":0},
-		{"id":134, "name":"Ordinatus Minoris (Corvus Assault Pod)",	"pts":0}
+		{"id":134, "name":"Ordinatus Minoris (Corvus Assault Pod)",	"pts":0},
+
+		{"id":150, "name":"2 Warhound Titans (Standard Configuration)",		"pts":0},
+		{"id":151, "name":"2 Warhound Titans (Support Configuration)",		"pts":0},
+		{"id":152, "name":"2 Warhound Titans (Tank Hunter Configuration)",		"pts":50}
 		
 ],
 "formationConstraints":[
@@ -114,7 +116,9 @@
         {"max":1,"from":[10],"appliesTo":[500,501,502]},
         {"max":1,"from":[11],"appliesTo":[500,501,502,504,505]},
 
-        {"max":1,"from":[13],"appliesTo":[510,511,512]},
+        {"max":1,"from":[13],"appliesTo":[510]},
+        {"min":1,"max":1,"from":[150,151,152],"appliesTo":[510]},
+
         {"max":1,"from":[15],"appliesTo":[530]},
 		
         {"min":1,"max":1,"from":[20,21],"appliesTo":[500]},		
