@@ -43,7 +43,7 @@
 		{"id":13, "name":"Daemon Prince of Chaos Undivided", 		"pts":100},
 		{"id":14, "name":"Icon Bearer character", "pts":25},		
 		
-		{"id":15, "name":"Chaos Spawn", "pts":50},
+		{"id":15, "name":"Chaos Spawn", "pts":35},
 		{"id":16, "name":"3 Chaos Hounds", "pts":25},
 		{"id":17, "name":"Chaos Altar", "pts":150},
 		{"id":18, "name":"Technical", "pts":15},
