@@ -21,7 +21,7 @@
 			{"id":506, "name":"Tzeench Defilers",	"pts":50, "upgrades":[]},
 			{"id":507, "name":"Tzaangor Disc Riders", "units":"9 Tzaangor Disc Riders, Daemonic Pact", "pts":250, "upgrades":[41,42] },
 			{"id":508, "name":"Silver Towers",	"pts":300, "units":"4 Silver Towers", "upgrades":[]},
-			{"id":509, "name":"Mirrorfiends",	"pts":250, "units":"2 Mirrorfiends of Tzeench", "upgrades":[]}
+			{"id":509, "name":"Mirrorfiends",	"pts":300, "units":"2 Mirrorfiends of Tzeench", "upgrades":[]}
 		]},
 		{"name":"DARK MECHANICUS, TRAITOR TITAN AND CHAOS NAVY FORMATIONS (Max 33%)", "formations":[
 			{"id":510, "name":"Doomwings",	"pts":150, "units": "3 Doomwings", "upgrades":[]},
