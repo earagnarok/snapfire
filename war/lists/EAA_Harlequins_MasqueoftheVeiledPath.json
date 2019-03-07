@@ -9,7 +9,7 @@
 		]},
 		
 		{"name":"Lugganath Warhosts (Max one Aspect Warrior Warhost for each Guardian Warhost)", "formations":[
-			{"id":510, "name":"Guardian Warhost",		 			"pts":225,	"units":"5 Guardians, 5 Lugganath Venoms",	"upgrades":[21,22]},
+			{"id":510, "name":"Guardian Warhost",		 			"pts":225,	"units":"5 Guardians, 5 Venoms",	"upgrades":[21,22]},
 			{"id":511, "name":"Aspect Warrior Warhost", 			"pts":250, "upgrades":[10,11]}
 		]},	
 		
@@ -17,17 +17,17 @@
 			{"id":520, "name":"Corsair Wasp Walkers",		"pts":150, 	"units":"4 Corsair Wasp Walkers", 	"upgrades":[]},
 			{"id":521, "name":"Corsair Ghost Walkers",		"pts":150, 	"units":"4 Corsair Ghost Walkers", 	"upgrades":[]},
 			{"id":522, "name":"Warp Spiders",			"pts":250, 	"units":"6 Warp Spiders", 		"upgrades":[10,11]},
-			{"id":523, "name":"Lugganath Wraithguard",		"pts":200,	"units":"3 D-Scythe Wraithguard", 	"upgrades":[43,42,44]},
+			{"id":523, "name":"Heavy Wraithguard",			"pts":200,	"units":"3 D-Scythe Wraithguard", 	"upgrades":[43,42,44]},
 			{"id":524, "name":"Fire Prism Troupe",			"pts":250,	"units":"Three Fire Prisms", 		"upgrades":[]},
 			{"id":525, "name":"Engine of Vaul",			"pts":50,	 					"upgrades":[50,51]}
 		]},
 		
 			{"name":"Harlequin Saedaths (Max one Harlequin Saedath for every two Warhosts)", "formations":[
-			{"id":532, "name":"Serpent's Blood",			"pts":300, "units":"1 Harlequin Avatar, 4 Harlequin Skyweavers, 2 Voidweavers", "upgrades":[]},
-			{"id":530, "name":"Devourer's Thirst",			"pts":300, "units":"1 Master Mime, 6 Mimes", "upgrades":[]},
-			{"id":531, "name":"Cegorath's Revenge",			"pts":400, "units":"1 Harlequin Avatar, 4 Harlequins Troupes, 2 Death Jesters, 6 Harlequin Venoms", "upgrades":[]},
-			{"id":533, "name":"Isha's Tears",			"pts":450, "units":"1 Harlequin Avatar, 1 Shadowseer, 4 Death Jesters, 2 Harlequin Troupes, 6 Harlequin Venoms", "upgrades":[]},
-			{"id":534, "name":"Dance Without End",			"pts":550, "units":"1 Harlequin Avatar, 1 Shadowseer, 1 Solitaire, 2 Death Jesters, 3 Harlequin Troupes, 2 Mimes, 8 Harlequin Venoms", "upgrades":[]}
+			{"id":532, "name":"Serpent's Blood",			"pts":250, "units":"1 Harlequin Avatar, 4 Harlequin Skyweavers, 2 Voidweavers", "upgrades":[]},
+			{"id":530, "name":"Devourer's Thirst",			"pts":250, "units":"1 Master Mime, 6 Mimes", "upgrades":[]},
+			{"id":531, "name":"Cegorath's Revenge",			"pts":350, "units":"1 Harlequin Avatar, 4 Harlequins Troupes, 2 Death Jesters, 6 Harlequin Venoms", "upgrades":[]},
+			{"id":533, "name":"Isha's Tears",			"pts":400, "units":"1 Harlequin Avatar, 1 Shadowseer, 4 Death Jesters, 2 Harlequin Troupes, 6 Harlequin Venoms", "upgrades":[]},
+			{"id":534, "name":"Dance Without End",			"pts":500, "units":"1 Harlequin Avatar, 1 Shadowseer, 1 Solitaire, 2 Death Jesters, 3 Harlequin Troupes, 2 Mimes, 8 Harlequin Venoms", "upgrades":[]}
 		]},
 		
 		{"name":"Fir-Iolarion Titans, Wraithknights and Eldar Navy (Max 33%)", "formations":[
