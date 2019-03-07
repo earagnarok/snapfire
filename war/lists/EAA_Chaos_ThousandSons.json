@@ -1,6 +1,6 @@
 {
 	"id":"EAA Thousand Sons",
-	"version":"1.41",
+	"version":"1.42",
 	"notes":
 		["Add one free Lesser Daemon to Daemon pool per Daemonic Pact"],
 		"by":"EA-Apocalypse",
@@ -9,7 +9,7 @@
 			{"id":500, "name":"Daemon Pool", "pts":0, "upgrades":[71,72,73]}
 		]},
 		{"name":"THOUSAND SONS CORE FORMATIONS", "formations":[
-			{"id":501, "name":"Thousand Sons Retinue", "pts":250, "units": "5x Rubric Marines", "upgrades":[20,21, 30, 40]}
+			{"id":501, "name":"Thousand Sons Retinue", "pts":275, "units": "5x Rubric Marines", "upgrades":[20,21, 30, 40]}
 		]},
 		{"name":"THOUSAND SONS ELITE FORMATIONS (Max 1 for each Core formation)", "formations":[
 			{"id":502, "name":"Thousand Sons Terminators", "pts":350, "units": "3x Scarab Occult Terminators", "upgrades":[22]},
@@ -24,7 +24,7 @@
 			{"id":509, "name":"Mirrorfiends",	"pts":300, "units":"2 Mirrorfiends of Tzeench", "upgrades":[]}
 		]},
 		{"name":"DARK MECHANICUS, TRAITOR TITAN AND CHAOS NAVY FORMATIONS (Max 33%)", "formations":[
-			{"id":510, "name":"Doomwings",	"pts":150, "units": "3 Doomwings", "upgrades":[]},
+			{"id":510, "name":"Doomwings",	"pts":175, "units": "3 Doomwings", "upgrades":[]},
 			{"id":511, "name":"Firelords", "pts":50, "upgrades":[50]},
 			{"id":512, "name":"Warphound Pack", "pts":500,  "units": "2 Warphound Titans", "upgrades":[]},
 			{"id":513, "name":"Warp Palace",	"pts":500,  "units": "1 Warp Palace", "upgrades":[]},
