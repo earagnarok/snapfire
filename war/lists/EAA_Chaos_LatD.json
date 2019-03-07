@@ -26,7 +26,7 @@
 			{"id":513, "name":"Khorne Lord of Battles",	"pts":50, "upgrades":[]},
 			{"id":514, "name":"Silver Towers of Tzeench",	"pts":300, "units":"4 Silver Towers", "upgrades":[]},
 			{"id":514, "name":"Warp Palace of Tzeench",	"pts":500, "units":"1 Warp Palace", "upgrades":[]},
-			{"id":516, "name":"Doomwings of Tzeench", "units":"3 Doomwing Interceptors", "pts":175, "upgrades":[] }
+			{"id":516, "name":"Doomwings of Tzeench", "units":"3 Doomwing Interceptors", "pts":150, "upgrades":[] }
 
          ]},
      

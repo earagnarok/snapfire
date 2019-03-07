@@ -24,7 +24,7 @@
 			{"id":509, "name":"Mirrorfiends",	"pts":300, "units":"2 Mirrorfiends of Tzeench", "upgrades":[]}
 		]},
 		{"name":"DARK MECHANICUS, TRAITOR TITAN AND CHAOS NAVY FORMATIONS (Max 33%)", "formations":[
-			{"id":510, "name":"Doomwings",	"pts":200, "units": "3 Doomwings", "upgrades":[]},
+			{"id":510, "name":"Doomwings",	"pts":175, "units": "3 Doomwings", "upgrades":[]},
 			{"id":511, "name":"Firelords", "pts":50, "upgrades":[50]},
 			{"id":512, "name":"Warphound Pack", "pts":500,  "units": "2 Warphound Titans", "upgrades":[]},
 			{"id":513, "name":"Warp Palace",	"pts":500,  "units": "1 Warp Palace", "upgrades":[]},

@@ -34,7 +34,7 @@
 			{"id":521, "name":"Khorne Lord of Battles",	"units":"1 Lord of Battles", "pts":375, "upgrades":[]},
 			{"id":522, "name":"Silver Towers of Tzeench",	"pts":300, "units":"4 Silver Towers", "upgrades":[]},
 			{"id":523, "name":"Warp Palace of Tzeench", "units":"1 Warp Palace", "pts":500, "upgrades":[]},
-			{"id":524, "name":"Doomwings of Tzeench", "units":"3 Doomwing Interceptors",	"pts":175, "upgrades":[]},
+			{"id":524, "name":"Doomwings of Tzeench", "units":"3 Doomwing Interceptors",	"pts":150, "upgrades":[]},
 			
 			{"id":530, "name":"Alpha Legion Marines", "pts":175, "units":"4 Alpha Legion Marines, 2 Alpha Legion Rhinos", "upgrades":[]},
 			{"id":531, "name":"Thunderbolt Squadron", "pts":150, "units":"2 Thunderbolts", "upgrades":[]},
