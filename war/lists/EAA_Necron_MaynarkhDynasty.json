@@ -10,17 +10,17 @@
       },
       {"name": "NECRON PHALANXES",
          "formations": [
-            {"id": 701, "name": "Infantry Phalanx", "pts": 225, "upgrades": [100,103,101,99]
+            {"id": 701, "name": "Infantry Phalanx", "pts": 275, "upgrades": [100,103,101,99]
             }
          ]
       },
       {"name": "NECRON SUPPORT",
          "formations": [
             {"id": 505, "name": "Armored Phalanx", "pts": 250, "units": "5 Obelisks"},
-            {"id": 502, "name": "Eques Maniple", "pts": 350, "upgrades": [103,25]},
+            {"id": 502, "name": "Eques Maniple", "pts": 350, "upgrades": [103,104,107]},
             {"id": 503, "name": "Monolith Maniple", "pts": 25, "upgrades": [105,106]},
             {"id": 506, "name": "Pylon", "pts": 200, "upgrades": []},
-            {"id": 501, "name": "Venator Maniple", "pts": 200, "units": "6 Flayed Ones", "upgrades": [100,103,101]}
+            {"id": 501, "name": "Venator Maniple", "pts": 200, "units": "6 Flayed Ones", "upgrades": [100,103,101,104,107]}
          ]
       },
       {"name": "HARVESTERS",
@@ -49,8 +49,7 @@
       {"id": 22, "name": "Necron Lord", "pts": 0},
       {"id": 23, "name": "Necron Warriors", "pts": 0},
       {"id": 24, "name": "Immortals", "pts": 25},
-      {"id": 99, "name": "C'tan Shard", "pts": 100},
-      {"id": 25, "name": "Destoryer Lord", "pts": 25}
+      {"id": 99, "name": "C'tan Shard", "pts": 100}
    ],
    "formationConstraints": [
       {"max": 1, "from": [601]},
@@ -64,9 +63,10 @@
    "upgradeConstraints": [
       {"max": 1, "from": [107], "perArmy": true},
       {"max": 1, "from": [99], "perArmy": true},
+      {"max": 1, "from": [104,107]},
       {"max": 3, "from": [24], "appliesTo": [701]},
       {"max": 1, "min": 1, "from": [11,12], "appliesTo": [602]},
-      {"max": 6, "min": 6, "from": [23,24], "appliesTo": [701]},
+      {"max": 8, "min": 8, "from": [23,24], "appliesTo": [701]},
       {"max": 1, "min": 1, "from": [22,107], "appliesTo": [701]},
       {"max": 3, "from": [100], "appliesTo": [701,501]},
       {"max": 1, "from": [101], "appliesTo": [701,501]},
