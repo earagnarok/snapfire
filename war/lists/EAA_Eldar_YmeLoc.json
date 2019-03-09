@@ -1,0 +1,58 @@
+{
+   "id": "Yem Loc Craftworld",
+   "version": "1.1",
+   "by": "EA-Apocalypse",
+   "sections": [
+      {"name": "Yme-Loc Special", "formations": [
+	    {"id": 500, "name": "Wraithgate", "pts": 50, "upgrades": []}
+      ]},
+      {"name": "Yme-Loc Titans", "formations": [
+            {"id": 511, "name": "Warlock Titan", "pts": 850, "units": "One Warlock Titan", "upgrades": [11]},
+            {"id": 512, "name": "Phantom Titan", "pts": 750, "upgrades": [11]}
+         ]},
+      {"name": "Yme-Loc Scout Titans", "formations": [
+            {"id": 521, "name": "Revenant Titan", "pts": 50, "upgrades": [14]}
+            
+	 ]},
+      {"name": "Yme-Loc Support", "formations": [
+	    {"id": 531, "name": "Engines of Vaul Troupe", "pts": 50, "upgrades": [17,18,19]},
+            {"id": 532, "name": "Fire Gale Troupe", "pts": 300, "units": "Two Fire Gale Knights", "upgrades": [11]},
+            {"id": 533, "name": "Bright Stallion Troupe", "pts": 250, "units": "Two Bright Stallion Knights", "upgrades": [11]},
+	    {"id": 534, "name": "Towering Destroyer", "pts": 325, "units": "Three Towering Destroyer Knights", "upgrades": []},
+	    {"id": 535, "name": "Spirit Troupe", "pts": 250, "units": "Four Wraithlords and One Spiritseer", "upgrades": []}
+	]},
+      {"name": "SPACESHIPS, AIRCRAFT &amp; TITANS", "formations": [
+            {"id": 541, "name": "Nightwings", "pts": 75, "upgrades": [20]}
+        ]}
+   ],
+   "upgrades": [
+      {"id": 11, "name": "Bonesinger", 				"pts": 0},
+      {"id": 12, "name": "One Yme-Loc Phantom Titan", 		"pts": 0},
+      {"id": 13, "name": "One Fir Iolarion Phantom Titan", 	"pts": 0},
+      {"id": 14, "name": "Revenant Titan", 			"pts": 250},
+      {"id": 15, "name": "3 Wraithblade units", 		"pts": 75},
+      {"id": 16, "name": "3 Wraithguard units", 		"pts": 100},
+      {"id": 17, "name": "Cobra", 				"pts": 250},
+      {"id": 18, "name": "Storm Serpent",			"pts": 250},
+      {"id": 19, "name": "Scorpion", 				"pts": 250},
+      {"id": 20, "name": "Nightwings", 				"pts": 75}
+   ],
+   "formationConstraints": [
+      {"max": 1, "from": [500]}, 
+      {"max": 3, "from": [521]}, 
+      {"max": 1, "from": [511,512]},
+      {"max": 2, "name": "Aircraft", "from": [541]},
+      {"max": 3, "name": "Support", "from": [531,532,533,534,535],  "forEach": [521], "name2": "Scout Titan" }
+   ],
+   "upgradeConstraints": [
+      {"max": 3, "min": 1, "from": [17,18,19], "appliesTo": [531]},
+      {"max": 2, "min": 1, "from": [14], "appliesTo": [521]},
+      {"max": 1, "min": 0, "from": [15], "appliesTo": [535]},
+      {"max": 1, "min": 0, "from": [16], "appliesTo": [535]},
+      {"max": 3, "min": 2, "from": [20], "appliesTo": [541]},
+      {"max": 1, "min": 1, "from": [12,13], "appliesTo": [512]},
+      {"max": 1, "perArmy": true, "from": [11]}
+
+	  
+   ]
+}
