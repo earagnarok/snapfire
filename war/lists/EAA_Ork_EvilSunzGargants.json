@@ -15,9 +15,9 @@
 	  {	
 		 "name": "ORK FORMATIONS (Five for each Mega Gargant, Four for each Great Gargant and Three for each Gargant)",
          "formations": [
-            {"id": 510, "name": "Big Mek Stompamob (Normal)", "pts": 175, "units":"2 Stompa", "upgrades": [100,101,102,103,110,111,112,113,114,115,116,117]},
-            {"id": 511, "name": "Big Mek Stompamob (Big)", "pts": 250, "units":"4 Stompa",  "upgrades": [100,101,102,103,110,111,112,113,114,115,116,117]},
-            {"id": 512, "name": "Big Mek Stompamob ('Uge)", "pts": 325, "units":"6 Stompa", "upgrades": [100,101,102,103,110,111,112,113,114,115,116,117]},
+            {"id": 510, "name": "Big Mek Stompamob (Normal)", "pts": 175, "units":"2 Stompa", "upgrades": [100,101,102,103,110,111,112,113,114,115]},
+            {"id": 511, "name": "Big Mek Stompamob (Big)", "pts": 250, "units":"4 Stompa",  "upgrades": [100,101,102,103,110,111,112,113,114,115]},
+            {"id": 512, "name": "Big Mek Stompamob ('Uge)", "pts": 325, "units":"6 Stompa", "upgrades": [100,101,102,103,110,111,112,113,114,115]},
 			
             {"id": 513, "name": "Big Mek Dreadhorde (Normal)", "pts": 125, "units":"1 Dreadnought, 3 Killa Kan",  "upgrades": [100,101,102]},
             {"id": 514, "name": "Big Mek Dreadhorde (Big)", "pts": 225, "units":"2 Dreadnought, 6 Killa Kan", "upgrades": [100,101,102]},
@@ -65,10 +65,8 @@
       {"id": 111, "name": "Supa Stompa w/ Gaze of Mork, 2 Soopaguns, 1 Zzap-Gun", "pts": 275},
       {"id": 112, "name": "Supa Stompa w/ Gaze of Mork, 1 Soopagun, 1 Killa-Choppa, 1 Zzap-Gun", "pts": 275},
       {"id": 113, "name": "Supa Stompa w/ Gaze of Mork, 1 Soopagun, 1 Killa-Choppa, 1 Soopagun", "pts": 275},
-      {"id": 114, "name": "Supa Stompa w/ Gaze of Mork, 2 Soopaguns, 1 Supa-Skorcha", "pts": 275},
-      {"id": 115, "name": "Supa Stompa w/ Gaze of Mork, 1 Soopagun, 1 Killa-Choppa, 1 Supa-Skorcha", "pts": 275},
-      {"id": 116, "name": "Supa Stompa w/ Gaze of Mork, 2 Soopaguns, 1 Dakka Kannon", "pts": 275},
-      {"id": 117, "name": "Supa Stompa w/ Gaze of Mork, 1 Soopagun, 1 Killa-Choppa, 1 Dakka Kannon", "pts": 275},
+      {"id": 114, "name": "Supa Stompa w/ Gaze of Mork, 2 Soopaguns, 1 Dakka Kannon", "pts": 275},
+      {"id": 115, "name": "Supa Stompa w/ Gaze of Mork, 1 Soopagun, 1 Killa-Choppa, 1 Dakka Kannon", "pts": 275},
 	  
       {"id": 120, "name": "'ED Gaze of Mork", "pts": 0},
       {"id": 121, "name": "'ED Flak Gun", "pts": 0},
@@ -111,9 +109,9 @@
       {"max": 2, "from": [11,12,13,14], "appliesTo": [520]},
       {"max": 3, "from": [11,12,13,14], "appliesTo": [521]},
 	  
-      {"max": 1, "from": [110,111,112,113,114,115,116,117], "appliesTo": [510]},
-      {"max": 2, "from": [110,111,112,113,114,115,116,117], "appliesTo": [511]},
-      {"max": 3, "from": [110,111,112,113,114,115,116,117], "appliesTo": [512]},
+      {"max": 1, "from": [110,111,112,113,114,115], "appliesTo": [510]},
+      {"max": 2, "from": [110,111,112,113,114,115], "appliesTo": [511]},
+      {"max": 3, "from": [110,111,112,113,114,115], "appliesTo": [512]},
 	  
       {"min": 1, "max": 1, "from": [120,121,122,123], "appliesTo": [502]},
       {"min": 2, "max": 2, "from": [140,141,142,143], "appliesTo": [502]},
