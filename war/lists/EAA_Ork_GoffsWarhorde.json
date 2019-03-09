@@ -1,7 +1,7 @@
 {
    "id": "EA_A Clan Goffs Warhorde",
-   "version": "v1.2",  
-   "notes": ["If the army includes any great gargants, the Warlord must be in one of them. Otherwize the Warlord will join a Nobz or Gargant unit."],
+   "version": "v1.3",  
+   "notes": ["If the army includes any Great Gargants, the Warlord must be in one of them. Otherwize the Warlord will join a Nobz or Gargant unit."],
    "by": "EA-Apocalypse",
    "sections": [
       {
@@ -25,8 +25,8 @@
             {"id": 568, "name": "Mekboy Dreadmob ('Uge)", "pts": -5, "upgrades": [57,60,61]},
             {"id": 503, "name": "Stormboyz Warhorde", "pts": 0, "upgrades": [52,51,53,54,55,59]},
             {"id": 500, "name": "Warband", "pts": 200, "units": "2 Nobz, 6 Boyz, 2 Grotz", "upgrades": [81,50,82,51,52,53,54,55,56,57,58,59,60,61,62,64,68,69,70,71,72,73]},
-            {"id": 501, "name": "Warband (Big)", "pts": 350, "units": "4 Nobz, 12 Boyz, 4 Grotz", "upgrades": [81,50,82,51,52,53,54,55,56,57,58,59,60,61,62,64,68,69,70,71,72,73]},
-            {"id": 502, "name": "Warband ('Uge)", "pts": 500, "units": "6 Nobz, 18 Boyz, 6 Grotz", "upgrades": [81,50,82,51,52,53,54,55,56,57,58,59,60,61,62,64,68,69,70,71,72,73]}
+            {"id": 501, "name": "Warband (Big)", "pts": 325, "units": "4 Nobz, 12 Boyz, 4 Grotz", "upgrades": [81,50,82,51,52,53,54,55,56,57,58,59,60,61,62,64,68,69,70,71,72,73]},
+            {"id": 502, "name": "Warband ('Uge)", "pts": 450, "units": "6 Nobz, 18 Boyz, 6 Grotz", "upgrades": [81,50,82,51,52,53,54,55,56,57,58,59,60,61,62,64,68,69,70,71,72,73]}
          ]
       },
       {
@@ -34,8 +34,8 @@
          "formations": [
             {"id": 517, "name": "Fighta Skwadron", "pts": 0, "upgrades": [49]},
             {"id": 518, "name": "Landa", "pts": 225, "upgrades": []},
-            {"id": 522, "name": "Gargant", "pts": 575, "upgrades": [81]},
-            {"id": 523, "name": "Great Gargant", "pts": 725, "upgrades": [81]}
+            {"id": 522, "name": "Gargant", "pts": 600, "upgrades": [81]},
+            {"id": 523, "name": "Great Gargant", "pts": 750, "upgrades": [81]}
          ]
       }
    ],
@@ -64,7 +64,7 @@
       {"id": 73, "name": "Gunfortress", "pts": 125},
       {"id": 77, "name": "Supa Stompa", "pts": 275},
       {"id": 43, "name": "Big Gunz", "pts": 25},
-      {"id": 49, "name": "Fighta Bomba", "pts": 50},
+      {"id": 49, "name": "Fighta-Bommer", "pts": 50},
       {"id": 80, "name": "Kill Kroozer", "pts": 0},
       {"id": 91, "name": "Battle Kroozer", "pts": 50}
    ],
