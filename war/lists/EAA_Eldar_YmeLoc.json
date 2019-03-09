@@ -16,10 +16,10 @@
 	 ]},
       {"name": "Yme-Loc Support", "formations": [
 	    {"id": 531, "name": "Engines of Vaul Troupe", "pts": 50, "upgrades": [17,18,19]},
-            {"id": 532, "name": "Fire Gale Troupe", "pts": 300, "units": "Two Fire Gale Knights", "upgrades": [11]},
-            {"id": 533, "name": "Bright Stallion Troupe", "pts": 250, "units": "Two Bright Stallion Knights", "upgrades": [11]},
+            {"id": 532, "name": "Fire Gale Troupe", "pts": 300, "units": "Two Fire Gale Knights", "upgrades": []},
+            {"id": 533, "name": "Bright Stallion Troupe", "pts": 250, "units": "Two Bright Stallion Knights", "upgrades": []},
 	    {"id": 534, "name": "Towering Destroyer", "pts": 325, "units": "Three Towering Destroyer Knights", "upgrades": []},
-	    {"id": 535, "name": "Spirit Troupe", "pts": 250, "units": "Four Wraithlords and One Spiritseer", "upgrades": []}
+	    {"id": 535, "name": "Spirit Troupe", "pts": 250, "units": "Four Wraithlords and One Spiritseer", "upgrades": [15,16]}
 	]},
       {"name": "SPACESHIPS, AIRCRAFT &amp; TITANS", "formations": [
             {"id": 541, "name": "Nightwings", "pts": 75, "upgrades": [20]}
