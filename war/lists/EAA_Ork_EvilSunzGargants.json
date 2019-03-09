@@ -15,19 +15,20 @@
 	  {	
 		 "name": "ORK FORMATIONS (Five for each Mega Gargant, Four for each Great Gargant and Three for each Gargant)",
          "formations": [
-            {"id": 510, "name": "Big Mek Stompamob (Normal)", "pts": 175, "units":"2 Stompa", "upgrades": [100,101,102,103,110,111,112,113,114,115]},
-            {"id": 511, "name": "Big Mek Stompamob (Big)", "pts": 250, "units":"4 Stompa",  "upgrades": [100,101,102,103,110,111,112,113,114,115]},
-            {"id": 512, "name": "Big Mek Stompamob ('Uge)", "pts": 325, "units":"6 Stompa", "upgrades": [100,101,102,103,110,111,112,113,114,115]},
 			
-            {"id": 513, "name": "Big Mek Dreadhorde (Normal)", "pts": 125, "units":"1 Dreadnought, 3 Killa Kan",  "upgrades": [100,101,102]},
-            {"id": 514, "name": "Big Mek Dreadhorde (Big)", "pts": 225, "units":"2 Dreadnought, 6 Killa Kan", "upgrades": [100,101,102]},
-            {"id": 515, "name": "Big Mek Dreadhorde ('Uge)", "pts": 325, "units":"3 Dreadnought, 9 Killa Kan", "upgrades": [100,101,102]},
+            {"id": 510, "name": "Big Mek Stompamob", "pts": 75, "upgrades": [100,101,102,103,110,111,112,113,114,115]},
+            {"id": 511, "name": "Big Mek Stompamob (Big)", "pts": 50, "upgrades": [100,101,102,103,110,111,112,113,114,115]},
+            {"id": 512, "name": "Big Mek Stompamob ('Uge)", "pts": 0, "upgrades": [100,101,102,103,110,111,112,113,114,115]},
 			
-            {"id": 516, "name": "Big Mek Loota Warband (Normal)", "pts": 200, "units":"1 Nobs, 3 Boyz, 2 Grots, 1 Gunfortress", "upgrades": [11,12,13,14,102,104,105]},
+            {"id": 513, "name": "Big Mek Dreadmob", "pts": 15, "upgrades": [100,101,102]},
+            {"id": 514, "name": "Big Mek Dreadmob (Big)", "pts": -20, "upgrades": [100,101,102]},
+            {"id": 515, "name": "Big Mek Dreadmob ('Uge)", "pts": -55, "upgrades": [100,101,102]},
+			
+            {"id": 516, "name": "Big Mek Loota Warband", "pts": 200, "units":"1 Nobs, 3 Boyz, 2 Grots, 1 Gunfortress", "upgrades": [11,12,13,14,102,104,105]},
             {"id": 517, "name": "Big Mek Loota Warband (Big)", "pts": 300, "units":"2 Nobs, 6 Boyz, 4 Grots, 2 Gunfortress", "upgrades": [11,12,13,14,102,104,105]},
             {"id": 518, "name": "Big Mek Loota Warband ('Uge)", "pts": 400, "units":"3 Nobs, 9 Boyz, 6 Grots, 3 Gunfortress", "upgrades": [11,12,13,14,102,104,105]},
 			
-            {"id": 519, "name": "Big Mek Runn'n Gunz (Normal)", "pts": 200, "units":"4 Big Gun, 2 Grots, 1 Battlefortress", "upgrades": [11,12,13,14,102,104,105]},
+            {"id": 519, "name": "Big Mek Runn'n Gunz", "pts": 200, "units":"4 Big Gun, 2 Grots, 1 Battlefortress", "upgrades": [11,12,13,14,102,104,105]},
             {"id": 520, "name": "Big Mek Runn'n Gunz (Big)", "pts": 300, "units":"8 Big Gun, 4 Grots, 2 Battlefortress", "upgrades": [11,12,13,14,102,104,105]},
             {"id": 521, "name": "Big Mek Runn'n Gunz ('Uge)", "pts": 400, "units":"12 Big Gun, 6 Grots, 3 Battlefortress", "upgrades": [11,12,13,14,102,104,105]},
 
@@ -52,7 +53,7 @@
 	  {"id": 15, "name": "Add 1 Oddboy ('Uge Banner of Mork (or possibly Gork))", "pts": 50},
 
 	  
-      {"id": 20, "name": "Fighta-Bommer", "pts": 50},
+      {"id": 20, "name": "Fighta-Bommer", "pts": 50},  
 	  
 	  {"id": 100, "name": "Killa Kan", "pts": 25},
       {"id": 101, "name": "Dreadnought", "pts": 35},
@@ -108,6 +109,17 @@
       {"max": 1, "from": [11,12,13,14], "appliesTo": [519]},
       {"max": 2, "from": [11,12,13,14], "appliesTo": [520]},
       {"max": 3, "from": [11,12,13,14], "appliesTo": [521]},
+	  
+      {"min": 2, "from": [103], "appliesTo": [510]},
+      {"min": 4, "from": [103], "appliesTo": [511]},
+      {"min": 6, "from": [103], "appliesTo": [512]},
+	  
+      {"min": 1, "from": [101], "appliesTo": [513]},
+      {"min": 2, "from": [101], "appliesTo": [514]},
+      {"min": 3, "from": [101], "appliesTo": [515]},
+      {"min": 3, "from": [100], "appliesTo": [513]},
+      {"min": 6, "from": [100], "appliesTo": [514]},
+      {"min": 9, "from": [100], "appliesTo": [515]},
 	  
       {"max": 1, "from": [110,111,112,113,114,115], "appliesTo": [510]},
       {"max": 2, "from": [110,111,112,113,114,115], "appliesTo": [511]},
