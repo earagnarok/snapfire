@@ -4,8 +4,8 @@
 	"by":"EA Apocalypse",
 	"sections":[
 		{"name":"DEATH KORPS CORE COMPANIES", "formations":[
-			{ "id":501, "name":"Regimental HQ", "pts":300,  "upgrades":[10,11,12,13,21,30,31,33,34,35,36] },
-			{ "id":502, "name":"Infantry Company", "pts":200,  "upgrades":[10,12,21,30,31,33,34,35,36] },
+			{ "id":501, "name":"Regimental HQ", "pts":350,  "upgrades":[10,11,12,13,21,30,31,33,34,35,36] },
+			{ "id":502, "name":"Infantry Company", "pts":250,  "upgrades":[10,12,21,30,31,33,34,35,36] },
 			{ "id":503, "name":"Death Rider Company", "pts":300, "units":"12 Death Korps Rough Riders", "upgrades":[10,12,31] }
 		]},
 		{"name":"SUPPORT FORMATIONS (Max 2 for each Core Company)", "formations":[
@@ -36,11 +36,11 @@
 		{ "id":12, "name":"Commissar 4k", "pts":0},
 		{ "id":13, "name":"Lord Commissar 4k", "pts":100},	
 		
-		{ "id":15, "name":"1 DKoK Supreme Commander, 9 Assault Infantry", "pts":0},
-		{ "id":16, "name":"1 DKoK Supreme Commander, 19 Assault Infantry, 2 Gorgons", "pts":300},
+		{ "id":15, "name":"1 DKoK Supreme Commander, 14 Assault Infantry", "pts":0},
+		{ "id":16, "name":"1 DKoK Supreme Commander, 19 Assault Infantry, 2 Gorgons", "pts":250},
 		
-		{ "id":17, "name":"1 DKoK Commander, 9 Assault Infantry", "pts":0},
-		{ "id":18, "name":"1 DKoK Commander, 19 Assault Infantry, 2 Gorgons", "pts":300},
+		{ "id":17, "name":"1 DKoK Commander, 14 Assault Infantry", "pts":0},
+		{ "id":18, "name":"1 DKoK Commander, 19 Assault Infantry, 2 Gorgons", "pts":250},
 
 		{ "id":21, "name":"Macharius", "pts":100},	
 		{ "id":23, "name":"Gorgon", "pts":75 },		
