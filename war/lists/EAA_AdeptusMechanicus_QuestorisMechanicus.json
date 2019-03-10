@@ -18,9 +18,9 @@
 			{"id":504, "name":"Acastus Reliquae",	"pts":25,  "upgrades":[163,164]}
 		]},
 		{"name":"Allies / / Max 1 per Questoris Lance / / Max 33%", "formations":[
-			{"id":510, "name":"Skitarii Maniple",		"pts":300,  "upgrades":[], "units":"9 Skitarii Vanguard, 1 Tech-Priest, 1 Gorgon"},
+			{"id":510, "name":"Skitarii Maniple",		"pts":300,  "upgrades":[], "units":"9 Skitarii Vanguard, 1 Tech-Priest, 1 AM Gorgon"},
 
-			{"id":512, "name":"Dune Crawlers",		"pts":200,  "upgrades":[]},
+			{"id":512, "name":"Dune Crawlers (max 2 different weapons)",		"pts":225,  "upgrades":[]},
 			
             {"id":514, "name":"Avenger Squadron",				"pts":175,  "upgrades":[], "units":"2 Avenger Fighter Bombers"},
 			
@@ -70,8 +70,10 @@
 		{"id":163, "name":"Acastus Knight-Mechanicum w. Seneschal (2 Acastus Conversion Beamers, Rad Cleanser, Ionic Shield)",								"pts":200},
 		{"id":164, "name":"Acastus Knight-Porphyrion w. Seneschal (2 Magna Lascannons, 2 Autocannons, Helios Defense Missiles)",							"pts":200},
 		
-		{"id":170, "name":"Onager Dune Crawler with Eradication Beamer",			 																		"pts":0},	
-		{"id":171, "name":"Onager Dune Crawler with Icarus Array",																							"pts":0},
+		{"id":170, "name":"Onager Dunecrawler with Eradication Beamer",				"pts":0},
+		{"id":171, "name":"Onager Dunecrawler with Icarus Array",				"pts":0},
+		{"id":172, "name":"Onager Dunecrawler with Neutron Laser",				"pts":0},
+		{"id":173, "name":"Onager Dunecrawler with Twin Heavy Phospor Blaster",				"pts":0},
 		
 		{"id":180, "name":"Ark Mechanicus Battleship",																										"pts":0}
 		
@@ -117,7 +119,7 @@
 		{"min":0, "max":1, "from":[163,164], "appliesTo":[503]},
 		
 
-		{"min":5, "max":5, "from":[170,171], "appliesTo":[512]},
+		{"min":5, "max":5, "from":[170,171,172,173], "appliesTo":[512]},
 		
 		
 		{"min":2, "max":3, "from":[164,163], "appliesTo":[504]},
