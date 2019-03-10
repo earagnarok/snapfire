@@ -1,25 +1,25 @@
 {
-   "id": "Yem Loc Craftworld",
+   "id": "Titan Force",
    "version": "1.1",
    "by": "EA-Apocalypse",
    "sections": [
-      {"name": "Yme-Loc Special", "formations": [
+      {"name": "Eldar Titan Special", "formations": [
 	    {"id": 500, "name": "Wraithgate", "pts": 50, "upgrades": []}
       ]},
-      {"name": "Yme-Loc Titans", "formations": [
+      {"name": "Eldar Titans", "formations": [
             {"id": 511, "name": "Warlock Titan", "pts": 850, "units": "One Warlock Titan", "upgrades": [11]},
             {"id": 512, "name": "Phantom Titan", "pts": 750, "upgrades": [11]}
          ]},
-      {"name": "Yme-Loc Scout Titans", "formations": [
-            {"id": 521, "name": "Revenant Titan", "pts": 50, "upgrades": [14]}
+      {"name": "Eldar Scout Titans", "formations": [
+            {"id": 521, "name": "Revenant Titan Twins", "pts": 50, "upgrades": [25]}
             
 	 ]},
-      {"name": "Yme-Loc Support", "formations": [
+      {"name": "Eldar Titan Support", "formations": [
 	    {"id": 531, "name": "Engines of Vaul Troupe", "pts": 50, "upgrades": [17,18,19]},
-            {"id": 532, "name": "Fire Gale Troupe", "pts": 300, "units": "Two Fire Gale Knights", "upgrades": []},
-            {"id": 533, "name": "Bright Stallion Troupe", "pts": 250, "units": "Two Bright Stallion Knights", "upgrades": []},
+            {"id": 532, "name": "Fire Gale Troupe", "pts": 300, "units": "Two Fire Gale Knights", "upgrades": [11]},
+            {"id": 533, "name": "Bright Stallion Troupe", "pts": 250, "units": "Two Bright Stallion Knights", "upgrades": [11]},
 	    {"id": 534, "name": "Towering Destroyer", "pts": 325, "units": "Three Towering Destroyer Knights", "upgrades": []},
-	    {"id": 535, "name": "Spirit Troupe", "pts": 250, "units": "Four Wraithlords and One Spiritseer", "upgrades": [15,16]}
+	    {"id": 535, "name": "Spirit Troupe", "pts": 250, "units": "Four Wraithlords and One Spiritseer", "upgrades": []}
 	]},
       {"name": "SPACESHIPS, AIRCRAFT &amp; TITANS", "formations": [
             {"id": 541, "name": "Nightwings", "pts": 75, "upgrades": [20]}
@@ -35,7 +35,11 @@
       {"id": 17, "name": "Cobra", 				"pts": 250},
       {"id": 18, "name": "Storm Serpent",			"pts": 250},
       {"id": 19, "name": "Scorpion", 				"pts": 250},
-      {"id": 20, "name": "Nightwings", 				"pts": 75}
+      {"id": 20, "name": "Nightwings", 				"pts": 75},
+      {"id": 25, "name": "Independent Twins", 			"pts": 50},
+      {"id": 26, "name": "Kinshara Phantom Titan", 		"pts": 0},
+      {"id": 27, "name": "Mymeara Phantom Titan", 		"pts": 0}
+
    ],
    "formationConstraints": [
       {"max": 1, "from": [500]}, 
@@ -46,11 +50,12 @@
    ],
    "upgradeConstraints": [
       {"max": 3, "min": 1, "from": [17,18,19], "appliesTo": [531]},
-      {"max": 2, "min": 1, "from": [14], "appliesTo": [521]},
+      {"max": 2, "min": 2, "from": [14], "appliesTo": [521]},
       {"max": 1, "min": 0, "from": [15], "appliesTo": [535]},
       {"max": 1, "min": 0, "from": [16], "appliesTo": [535]},
       {"max": 3, "min": 2, "from": [20], "appliesTo": [541]},
-      {"max": 1, "min": 1, "from": [12,13], "appliesTo": [512]},
+      {"max": 1, "min": 0, "from": [25], "appliesTo": [521]},
+      {"max": 1, "min": 1, "from": [12,13,26,27], "appliesTo": [512]},
       {"max": 1, "perArmy": true, "from": [11]}
 
 	  
