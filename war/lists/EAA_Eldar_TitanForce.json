@@ -27,8 +27,8 @@
    ],
    "upgrades": [
       {"id": 11, "name": "Bonesinger", 				"pts": 0},
-      {"id": 12, "name": "One Yme-Loc Phantom Titan", 		"pts": 0},
-      {"id": 13, "name": "One Fir Iolarion Phantom Titan", 	"pts": 0},
+      {"id": 12, "name": "Yme-Loc Phantom Titan", 		"pts": 0},
+      {"id": 13, "name": "Fir Iolarion Phantom Titan", 		"pts": 0},
       {"id": 14, "name": "Revenant Titan", 			"pts": 250},
       {"id": 15, "name": "3 Wraithblade units", 		"pts": 75},
       {"id": 16, "name": "3 Wraithguard units", 		"pts": 100},
