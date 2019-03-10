@@ -4,22 +4,21 @@
 	"by":"EA-Apocalypse",
 	"sections":[
 		{"name":"CADIAN COMPANIES", "formations":[
-			{"id":502, "name":"Regimental HQ", "pts":550, "upgrades":[], "units":"1 Supreme Commander, plus 7 Karskin units"},
-			{"id":500, "name":"Whiteshield Company", "pts":450, "upgrades":[], "units":"1 Commander, plus 11 Whiteshield Infantry units"}
+			{"id":502, "name":"Regimental HQ", "pts":500, "upgrades":[], "units":"1 Supreme Commander, plus 7 Karskin units"},
+			{"id":500, "name":"Whiteshield Company", "pts":400, "upgrades":[], "units":"1 Commander, plus 11 Whiteshield Infantry units"}
 
 		]},
 		{"name":"CADIAN SUPPORT FORMATIONS", "formations":[
-			{"id":510, "name":"Assault Launcher Platoon", "pts":275, "upgrades":[], "units":"3 Praetor Armoured Assault Launcher"},
-			{"id":511, "name":"Medusa Battery", "pts":125, "upgrades":[], "units":"3 Medusa Platforms and Gun Emplacements"},
-			{"id":513, "name":"Flak Battery", "pts":125, "upgrades":[], "units":"3 Heavy AA Platforms and Gun Emplacements"},
-			{"id":514, "name":"Hellhound Platoon", "pts":250, "upgrades":[], "units":"6 Hellhounds"},
-			{"id":517, "name":"Sentinel Platoon", "pts":100, "upgrades":[], "units":"4 Sentinels"},
+			{"id":510, "name":"Assault Launcher Platoon", "pts":275, "upgrades":[31], "units":"3 Praetor Armoured Assault Launcher"},
+			{"id":511, "name":"Medusa Battery", "pts":225, "upgrades":[], "units":"3 Medusa Platforms and Gun Emplacements"},
+			{"id":513, "name":"Flak Battery", "pts":150, "upgrades":[], "units":"3 Heavy AA Platforms and Gun Emplacements"},
+			{"id":514, "name":"Hellhound Platoon", "pts":225, "upgrades":[31], "units":"6 Hellhounds"},
+			{"id":517, "name":"Sentinel Platoon", "pts":100, "upgrades":[], "units":"4 Cadian Sentinels"},
 			{"id":518, "name":"Super Heavy Tank", "pts":200, "upgrades":[]},
-			{"id":519, "name":"Karskin Company", "pts":350, "upgrades":[], "units":"1 Commander unit, 7 Kaskin units"}
+			{"id":519, "name":"Karskin Company", "pts":300, "upgrades":[], "units":"1 Commander unit, 7 Kaskin units"}
 		]},
 		{"name":"TITAN LEGIONS", "formations":[
-			{"id":526, "name":"Warhound Titan",		"pts":275, "upgrades":[], "units":"1 Warhound"},
-			{"id":526, "name":"Warhound Pack",		"pts":500, "upgrades":[], "units":"2 Warhounds"},
+			{"id":526, "name":"Warhound Pack",		"pts":500, "upgrades":[30], "units":"2 Warhounds"},
 			{"id":523, "name":"Reaver Class Titan",		"pts":650, "upgrades":[]}
 		]},
 		{"name":"NAVAL SUPPORT", "formations":[
@@ -44,7 +43,9 @@
 		{"id":26, "name":"Stormblade", "pts":0},
 		{"id":21, "name":"Independent", "pts":50},
 		{"id":23, "name":"Lunar Class",	"pts":0},
-		{"id":24, "name":"Emperor Class", "pts":50}
+		{"id":24, "name":"Emperor Class", "pts":50},
+		{"id":30, "name":"Independent", "pts":50},
+		{"id":31, "name":"Hydra", "pts":50}
 
 	],
 	"formationConstraints":[
