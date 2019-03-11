@@ -11,7 +11,7 @@
             {"id": 512, "name": "Phantom Titan", "pts": 750, "upgrades": [11]}
          ]},
       {"name": "Eldar Scout Titans", "formations": [
-            {"id": 521, "name": "Revenant Titan Twins", "pts": 50, "upgrades": [25]}
+            {"id": 521, "name": "Revenant Titan Twins", "pts": 150, "upgrades": [25]}
             
 	 ]},
       {"name": "Eldar Titan Support", "formations": [
