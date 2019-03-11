@@ -16,7 +16,7 @@
 			{"id":503, "name":"Flak Company", "pts":150, "units":"3 Hydras", "upgrades":[]},
 			{"id":504, "name":"Artillery Battery", "pts":225, "units":"3 Basilisks", "upgrades":[]},
 			{"id":505, "name":"Rough Riders", "pts":150, "units":"6 Rough Riders", "upgrades":[]},
-			{"id":506, "name":"Super Heavy Tank Platoon", "pts":200, "upgrades":[]},
+			{"id":506, "name":"Traitor Super Heavy Tanks", "pts":350, "upgrades":[]},
 			{"id":507, "name":"Leman Russ Company", "pts":350, "upgrades":[]}
 		]},
 		{"name":"CHAOS ALLIES FORMATIONS / / Max 25% / / May not Mix Nurgle/Tzeench or Slaanesh/Khorne formations", "formations":[
@@ -107,7 +107,7 @@
 
 		{"max":1, "from":[25,26], "appliesTo":[501]},
 
-		{"min": 1, "max": 1, "from": [30,31], "appliesTo": [506]},
+		{"min": 2, "max": 2, "from": [30,31], "appliesTo": [506]},
 		{"min": 6, "max": 6, "from": [32,33], "appliesTo": [507]}
 		
 	]
