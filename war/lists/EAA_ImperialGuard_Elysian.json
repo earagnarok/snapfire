@@ -16,7 +16,7 @@
 			{"id":517, "name":"Support Sentinels", "pts":125, "upgrades":[91,92]},
 			{"id":518, "name":"Vulture Squadron", "pts":225, "upgrades":[91,92], "units":"3 Vultures"},
 			{"id":519, "name":"Vendetta Squadron", "pts":225, "upgrades":[91,92], "units":" 3 Vendettas "},
-			{"id":520, "name":"Sky Talon Transports", "pts":0, "upgrades":[91,92,21]}
+			{"id":520, "name":"Sky Talon Transports", "pts":25, "upgrades":[91,92,21]}
 		]},
 		{"name":"Elysian Aircraft, Spacecraft", "formations":[
 			{"id":521, "name":"Thunderbolt Fighters", "pts":150, "upgrades":[], "units":"2 Thunderbolt Fighters"},
@@ -39,7 +39,7 @@
 		{"id":18, "name":"4 Support Sentinels - Heavy Flamer and a Hunter-killer missile", "pts":0},
 		{"id":19, "name":"4 Support Sentinels - Heavy Flamer and a Multi-Melta", "pts":0},
 		{"id":20, "name":"4 Support Sentinels - Heavy Flamer and a Rocket Pod", "pts":0},
-		{"id":21, "name":"Sky Talons", "pts":20}
+		{"id":21, "name":"Sky Talons", "pts":25}
 
 	],
 	"formationConstraints":[
@@ -53,7 +53,7 @@
 		{"max":1, "perArmy":true, "from":[92]},	
 		{"max":6, "perArmy":true, "from":[91,92]},
 		{"max":1, "from":[91,92]},
-
+		{"min":1, "from":[21], "appliesTo":[520]},
 		{"max":1, "from":[10]},
 		{"max":1, "from":[11]},
 		{"max":1, "from":[12]},
