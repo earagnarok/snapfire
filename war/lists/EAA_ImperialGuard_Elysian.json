@@ -28,7 +28,7 @@
 	"upgrades":[
 		{"id":91, "name":"Commissar", "pts":0},
 		{"id":92, "name":"Lord Commissar", "pts":50},
-		{"id":10, "name":"4 Valkyries", "pts":75},
+		{"id":10, "name":"4 Valkyries", "pts":50},
 		{"id":11, "name":"4 Tauros Venators", "pts":0},
 		{"id":12, "name":"Grav Shutes", "pts":0},
 		{"id":13, "name":"4 Tauros Transports", "pts":0},
