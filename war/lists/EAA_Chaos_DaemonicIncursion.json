@@ -1,33 +1,37 @@
 {
 	"id":"EAA Daemonic Incursion",
-	"version":"2.2b",	
+	"version":"2.3",	
 	"by":"EA-Armageddon",
 	"sections":[
 		{"name":"DAEMONS", "formations":[
 			{"id":500, "name":"Daemon Pool", "pts":0, "upgrades":[72,73]}
 		]},
+		{"name":"Daemonic Incursion Specials", "formations":[
+			{"id":499, "name":"1 Chaos Gate", "pts":0,  "units":"Replace one objective on the Daemonic Incursion half of the table with a Chaos Gate",  "upgrades":[]}
+		]},
 		{"name":"1+ Exalted Greater Daemons (Max 1 for each part of 1000 points) / / May not Mix Nurgle/Tzeench or Slaanesh/Khorne formations", "formations":[
-			{"id":665, "name":"Exalted Greater Daemon", "pts":250, "upgrades":[60]}
+			{"id":665, "name":"Exalted Greater Daemon", "pts":275, "upgrades":[60]}
 		]},
 		{"name":"Daemon Legions / /  May not Mix Nurgle/Tzeench or Slaanesh/Khorne formations", "formations":[
-			{"id":666, "name":"Daemon Legion of Slaanesh", "pts":175, "units":"3 Lesser Daemon Pool points",  "upgrades":[60]},
-			{"id":667, "name":"Daemon Legion of Nurgle", "pts":175, "units":"3 Lesser Daemon Pool points", "upgrades":[60]},
-			{"id":668, "name":"Daemon Legion of Khorne", "pts":175, "units":"3 Lesser Daemon Pool points", "upgrades":[60]},
-			{"id":669, "name":"Daemon Legion of Tzeench", "pts":175, "units":"3 Lesser Daemon Pool points", "upgrades":[60]}
+			{"id":666, "name":"Slaneesh Legion of Excess", "pts":250, "units":"5 Lesser Daemon Pool points",  "upgrades":[60]},
+			{"id":667, "name":"Plague Legion of Nurgle", "pts":250, "units":"5 Lesser Daemon Pool points", "upgrades":[60]},
+			{"id":668, "name":"Blood Legion of Khorne", "pts":250, "units":"5 Lesser Daemon Pool points", "upgrades":[60]},
+			{"id":669, "name":"Scintillating Legion of Tzeench", "pts":250, "units":"5 Lesser Daemon Pool points", "upgrades":[60]}
 		]},
 		{"name":"MORTALS (Max 25%)", "formations":[
-			{"id":501, "name":"Cultist Coven of Chaos Undivided", "pts":225, "upgrades":[]}
+			{"id":501, "name":"Cultist Coven of Chaos Undivided", "pts":200, "upgrades":[12,23,24]}
         ]}
    ],
 	"upgrades":[
 	
-		{"id":10, "name":"1 Demagogue", 							"pts":0},
-		{"id":11, "name":"1 Chaos Altar", 							"pts":0},
-		{"id":12, "name":"1 Chaos Altar with Chaos Gate", 			"pts":75},
+		{"id":10, "name":"Demagogue", 							"pts":0},
+		{"id":11, "name":"Aspiring Champion of Chaos Undivided", 	"pts":0},
+		{"id":12, "name":"Icon Bearer", 							"pts":25},
 		
 		{"id":20, "name":"Cultists", "pts":0},
 		{"id":21, "name":"Mutants", "pts":0},
-		{"id":22, "name":"Chaos Spawn", "pts":35},
+		{"id":23, "name":"Chaos Spawn", "pts":25},
+		{"id":24, "name":"Chaos Altar", "pts":150},
 
 		{"id":30, "name":"Exalted Keeper of Secrets", "pts":0},
 		{"id":31, "name":"Exalted Great Unclean One", "pts":0},
@@ -39,23 +43,24 @@
 		{"id":42, "name":"Bloodthirster", "pts":75},
 		{"id":43, "name":"Lord of Change", "pts":75},
 		
-		{"id":50, "name":"Herald of Slaanesh", "pts":0},
-		{"id":51, "name":"Herald of Slaanesh on Seeker Chariot", "pts":25},
-		{"id":52, "name":"Herald of Nurgle", "pts":0},
-		{"id":53, "name":"Herald of Nurgle on Bloat Fly", "pts":25},
-		{"id":54, "name":"Herald of Khorne", "pts":0},
-		{"id":55, "name":"Herald of Khorne on Juggernaut", "pts":25},
-		{"id":56, "name":"Herald of Tzeench", "pts":0},
-		{"id":57, "name":"Herald of Tzeench on Burning Chariot", "pts":25},
+		{"id":50, "name":"3 Heralds of Slaanesh", "pts":0},
+		{"id":51, "name":"3 Heralds of Slaanesh on Seeker Chariot", "pts":50},
+		{"id":52, "name":"3 Heralds of Nurgle", "pts":0},
+		{"id":53, "name":"3 Heralds of Nurgle on Bloat Fly", "pts":50},
+		{"id":54, "name":"3 Heralds of Khorne on Juggernaut", "pts":0},
+		{"id":55, "name":"3 Heralds of Khorne on Skull Cannon", "pts":0},
+		{"id":56, "name":"3 Heralds of Tzeench", "pts":0},
+		{"id":57, "name":"3 Heralds of Tzeench on Burning Chariot", "pts":50},
 		
-		{"id":60, "name":"Soul Grinder", "pts":50},
+		{"id":60, "name":"Soul Grinder", "pts":75},
 		
 		{"id":72, "name":"Lesser Daemon Pool point", "pts":15},
-		{"id":73, "name":"3 Lesser Daemon Pool points (Daemon Legions)", "pts":0}
+		{"id":73, "name":"5 Lesser Daemon Pool points (Daemon Legions)", "pts":0}
 	
 	],
 	"formationConstraints":[
 		{"min":1, "max":1, "from":[500]},
+		{"min":1, "max":1, "from":[499]},
 		{"min":1, "from":[665]},
 		{"maxPercent": 26, "name": "Mortals", "from": [501]}
 	
@@ -63,26 +68,30 @@
 	"upgradeConstraints":[
 	
 		{"max":1, "perArmy":true, "from":[13]},
+		
+		{"min":1, "max":1, "from":[30,31,32,33], "appliesTo":[665]},
 	
-		{"min":3, "max":3, "from":[50,51,40], "appliesTo":[666]},
-		{"max":1, "from":[40], "appliesTo":[666]},
+		{"min":1, "max":1, "from":[50,51,40], "appliesTo":[666]},
+
 		
-		{"min":3, "max":3, "from":[52,53,41], "appliesTo":[667]},
-		{"max":1, "from":[41], "appliesTo":[667]},
+		{"min":1, "max":1, "from":[52,53,41], "appliesTo":[667]},
+
 		
-		{"min":3, "max":3, "from":[54,55,42], "appliesTo":[668]},
-		{"max":1, "from":[42], "appliesTo":[668]},
+		{"min":1, "max":1, "from":[54,55,42], "appliesTo":[668]},
+
 		
-		{"min":3, "max":3, "from":[56,57,43], "appliesTo":[669]},
-		{"max":1, "from":[43], "appliesTo":[669]},
+		{"min":1, "max":1, "from":[56,57,43], "appliesTo":[669]},
+
 		
-		{"max":3, "from":[60], "appliesTo":[665,666,667,668,669]},
+		{"max":1, "from":[60]},
 	
-		{"min":1, "max":1, "from":[10], "appliesTo":[501]},
-		{"min":1, "max":1, "from":[11,12], "appliesTo":[501]},
-		{"min":5, "max":5, "from":[20,21,22], "appliesTo":[501]},
+		{"min":1, "max":1, "from":[10,11], "appliesTo":[501]},
+		{"max":1, "from":[12], "appliesTo":[501]},
+		{"min":9, "max":9, "from":[20,21,23], "appliesTo":[501]},
+		{"max":3, "from":[23], "appliesTo":[501]},
+		{"max":1, "from":[24], "appliesTo":[501]}
 		
-		{"min":1, "max":1, "from":[30,31,32,33], "appliesTo":[665]}
+
 		
 	]
 }
