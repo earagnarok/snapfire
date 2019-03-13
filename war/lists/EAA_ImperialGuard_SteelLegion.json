@@ -1,104 +1,160 @@
 {
 	"id":"Armageddon Steel Legion",
-	"version":"1.2",
+	"version":"1.3",
 	"by":"EA-Apocalypse",
 	"sections":[
 		{"name":"COMPANIES", "formations":[
-			{"id":512, "name":"Regimental HQ", 			"pts":500, "upgrades":[26,27,28,29,30,31,32,33,37,34,35,38,39], "units":"Supreme Commander, 12 Infantry, 7 Chimera"},
-			{"id":513, "name":"Infantry Company", 			"pts":250, "upgrades":[26,27,28,29,30,31,32,33,37,34,35,38,39], "units":"Commander, 12 Infantry"},
-			{"id":514, "name":"Mechanised Infantry Company", 	"pts":400, "upgrades":[26,27,28,29,30,31,32,33,37,34,35,38,39], "units":"Commander, 12 Infantry, 7 Chimera"},
-			{"id":515, "name":"Tank Company", 			"pts":650, "upgrades":[26,27,28,29,30,31,32,33,37,34,35,38,39]},
-			{"id":516, "name":"Super-Heavy Tank Company", 		"pts":500, "upgrades":[26,27,28,29,30,31,32,33,37,34,35,38,39]},
-		 	{"id":517, "name":"Artillery Company", 			"pts":450, "upgrades":[35,38,39], "units":"6 Gun Emplacements"}
+			{"id":500, "name":"Regimental HQ", 				"pts":400, "units":"Steel Legion Supreme Commander", "upgrades":[10,11,12,13,50,52,53,54,55,57,59,60,61]},
+			{"id":501, "name":"Infantry Company", 			"pts":250, "units":"Steel Legion Commander", "upgrades":[10,12,51,53,54,56,58,59,60,61]},
+			{"id":502, "name":"Mechanised Infantry Company", 	"pts":300, "units":"Steel Legion Commander", "upgrades":[10,12,50,52,53,54,55,57,59,60,61]},
+			{"id":503, "name":"Tank Company", 			"pts":600, "upgrades":[10,12,52,53,54,59,60,61]},
+			{"id":504, "name":"Super-Heavy Tank Company", 		"pts":500, "upgrades":[10,12]},
+		 	{"id":505, "name":"Artillery Company", 			"pts":450, "upgrades":[10,12,52], "units":"6 Gun Emplacements"}
 		]},
-		{"name":"SUPPORT FORMATIONS", "formations":[
-			{"id":500, "name":"Rough Rider Platoon", 			"pts":150, "upgrades":[38,39], "units":"6 Rough Riders"},
-			{"id":501, "name":"Tempestus Scions",				"pts":200, "upgrades":[36,55,38,39], "units":"8 Tempestus Scions and 1 Tempestor"},
-			{"id":502, "name":"Artillery Battery",				"pts":250, "upgrades":[38,39,40]},
-      			{"id":511, "name":"Bombard Battery",				"pts":225, "upgrades":[38,39,40]},
-			{"id":505, "name":"Sentinel Squadron",				"pts":100, "upgrades":[38,39], "units":"4 Sentinels"},
-			{"id":506, "name":"Deathstrike Missile Battery",		"pts":200, "upgrades":[38,39,40], "units":"2 Deathstrike Missile Launchers"},
-			{"id":507, "name":"Super-Heavy Tank Platoon", 			"pts":200, "upgrades":[38,39]},
-			{"id":508, "name":"Orbital Support",				"pts":150, "upgrades":[38,39]},
-			{"id":509, "name":"Flak Battery",				"pts":150, "upgrades":[38,39,40], "units":"3 Hydra"},
-			{"id":510, "name":"Vulture Squadron",				"pts":300, "upgrades":[38,39], "units":"4 Vultures"}
+		{"name":"SUPPORT FORMATIONS (Max two for each Company)", "formations":[
+			{"id":510, "name":"Rough Rider Platoon", 			"pts":150, "upgrades":[10,12], "units":"6 Rough Riders"},
+			{"id":511, "name":"Tempestus Scions",				"pts":200, "upgrades":[10,12,42,43], "units":"8 Tempestus Scions, 1 Tempestor"},
+			{"id":512, "name":"Artillery Battery",				"pts":250, "upgrades":[10,12,41]},
+    		{"id":513, "name":"Bombard Battery",				"pts":225,  "units":"3 Bombards", "upgrades":[10,12,41]},
+			{"id":514, "name":"Sentinel Squadron",				"pts":100, "upgrades":[10,12], "units":"4 Sentinels"},
+			{"id":515, "name":"Deathstrike Missile Battery",		"pts":200, "upgrades":[10,12,40], "units":"2 Deathstrike Missile Launchers"},
+			{"id":516, "name":"Super-Heavy Tank Platoon", 			"pts":200, "upgrades":[10,12]},
+			{"id":517, "name":"Leman Russ Platoon", 			"pts":600, "upgrades":[10,12]},
+			{"id":518, "name":"Flak Battery",				"pts":150, "upgrades":[10,12,41], "units":"3 Hydras"},
+			{"id":519, "name":"Vulture Squadron",				"pts":300, "upgrades":[10,12], "units":"4 Vultures"}
 		]},
-		{"name":"IMPERIAL NAVY", "formations":[
-			{"id":519, "name":"Thunderbolt Fighters",	"pts":150, "upgrades":[], "units":"2 Thunderbolts"},
-			{"id":520, "name":"Marauder Bombers",		"pts":250, "upgrades":[], "units":"2 Marauders"}
-		]},
-		{"name":"TITAN LEGIONS", "formations":[
-			{"id":522, "name":"Warlord Class Titan",	"pts":825, "upgrades":[]},
-			{"id":523, "name":"Reaver Class Titan",		"pts":650, "upgrades":[]},
-			{"id":526, "name":"Warhound Pack",		"pts":500, "upgrades":[99], "units":"2 Warhounds"}
+		{"name":"TITAN LEGION AND IMPERIAL NAVY FORMATIONS (Max 33%)", "formations":[
+			{"id":530, "name":"Warhound Pack",		"pts":500, "upgrades":[70], "units":"2 Warhounds"},
+			{"id":531, "name":"Reaver Titan",		"pts":600, "upgrades":[]},
+			{"id":532, "name":"Thunderbolt Fighters",	"pts":150, "upgrades":[], "units":"2 Thunderbolts"},
+			{"id":533, "name":"Marauder Bombers",		"pts":225, "upgrades":[], "units":"2 Marauders"},
+			{"id":534, "name":"Orbital Support",		"pts":150, "upgrades":[]}
 		]}
 	],
 	"upgrades":[
-		{"id":11, "name":"Leman Russ",					"pts":0},
-		{"id":12, "name":"Vanquisher",					"pts":0},
-		{"id":14, "name":"Baneblade",					"pts":0},
-		{"id":15, "name":"Shadowsword",					"pts":0},
-		{"id":16, "name":"Stormsword",					"pts":0},
-		{"id":17, "name":"Baneblade",					"pts":0},
-		{"id":18, "name":"Stormblade",					"pts":0},
-		{"id":20, "name":"6 Basilisks",					"pts":0},
-		{"id":21, "name":"6 Manticores",				"pts":0},
-		{"id":23, "name":"Lunar Class",					"pts":0},
-		{"id":24, "name":"Emperor Class",				"pts":50},
-		{"id":41, "name":"3 Basilisks",					"pts":0},
-		{"id":42, "name":"3 Bombards",					"pts":0},
-		{"id":43, "name":"3 Manticores",				"pts":0},
-		{"id":26, "name":"Chimera", 					"pts":25},
-		{"id":27, "name":"Fire Support Platoon (4 Fire Support)",	"pts":100},
-		{"id":28, "name":"Infantry Platoon (6 Infantry)",		"pts":100},
-		{"id":29, "name":"Tank Squadron (3 Leman Russ)",		"pts":175},
-		{"id":30, "name":"Tank Squadron (3 Demolishers)",		"pts":175},
-		{"id":31, "name":"Hellhound Squadron (3 Hellhounds)",		"pts":100},
-		{"id":32, "name":"Griffon Battery (3 Griffons)",		"pts":50},
-		{"id":33, "name":"1 Sniper",					"pts":25},
-		{"id":37, "name":"2 Snipers",					"pts":50},
-		{"id":34, "name":"2 Ogryns",					"pts":50},
-		{"id":35, "name":"Hydra",					"pts":50},
-		{"id":36, "name":"Valkyrie Transport",				"pts":150},
-    		{"id":55, "name":"Taurox Transport",				"pts":150},
-    		{"id":38, "name":"Commissar",				    	"pts":0},
-    		{"id":39, "name":"Lord Commissar",				"pts":50},
-    		{"id":40, "name":"Gun Emplacements",				"pts":25},
-		{"id":99, "name":"Independent",					"pts":50}
+		{ "id":10, "name":"Commissar 3k", 				"pts":0},
+		{ "id":11, "name":"Lord Commissar 3k", 			"pts":100},	
+
+		{ "id":12, "name":"Commissar 4k",			    "pts":0},
+		{ "id":13, "name":"Lord Commissar 4k", 			"pts":100},	
+		
+		{"id":20, "name":"9 Infantry, 5 Chimeras",		"pts":0},
+		{"id":21, "name":"15 Infantry, 8 Chimeras",		"pts":125},
+		
+		{"id":22, "name":"12 Infantry",					"pts":0},
+		{"id":23, "name":"18 Infantry",					"pts":75},
+		
+		{"id":24, "name":"Leman Russ",					"pts":0},
+		{"id":25, "name":"Leman Russ Vanquisher",		"pts":0},
+		
+		{"id":26, "name":"Baneblade",					"pts":0},
+		{"id":27, "name":"Shadowsword",					"pts":0},
+		{"id":28, "name":"Stormsword",					"pts":0},
+		{"id":29, "name":"Stormblade",					"pts":0},
+		
+		{"id":30, "name":"6 Basilisks",					"pts":0},
+		{"id":31, "name":"6 Manticores",				"pts":0},
+		
+		{"id":32, "name":"3 Basilisks",					"pts":0},
+		{"id":33, "name":"3 Manticores",				"pts":0},
+		
+		{"id":34, "name":"6 Leman Russ",				"pts":0},
+		{"id":35, "name":"6 Leman Russ Demolishers",	"pts":0},
+		{"id":36, "name":"6 Leman Russ Conquerors",		"pts":0},
+		
+		{"id":37, "name":"Lunar Class Cruiser",			"pts":0},
+		{"id":38, "name":"Emperor Class Battleship",	"pts":50},
+		
+		
+		
+		{"id":40, "name":"2 Gun Emplacements",			"pts":25},
+		{"id":41, "name":"3 Gun Emplacements",			"pts":25},		
+
+		{"id":42, "name":"4 Valkyries",					"pts":150},
+   		{"id":43, "name":"4 Taurox",					"pts":150},
+		
+		
+		
+		{"id":50, "name":"4 Fire Support Squads, 2 Chimeras",		"pts":150},
+		{"id":51, "name":"4 Fire Support Squads",		"pts":100},
+		
+		{"id":52, "name":"Hydra",						"pts":50},
+
+		{"id":53, "name":"3 Griffons",					"pts":50},
+
+		{"id":54, "name":"3 Hellhounds",				"pts":75},
+
+		{"id":55, "name":"2 Ogryns, 2 Chimeras",			"pts":100},
+		{"id":56, "name":"2 Ogryns",					"pts":50},
+
+		{"id":57, "name":"2 Snipers, 1 Chimera",		"pts":75},		
+		{"id":58, "name":"2 Snipers",					"pts":50},
+		
+		{"id":59, "name":"3 Leman Russ",				"pts":175},
+		{"id":60, "name":"3 Leman Russ Demolishers",	"pts":175},
+		{"id":61, "name":"3 Leman Russ Conquerors",		"pts":175},
+		
+		
+
+		{"id":70, "name":"Independent",					"pts":50}
+
 	],
 	"formationConstraints":[
-		{"max":2, "name":"Support Formations", "from":[500,501,502,505,506,507,508,509,510], "forEach":[512,513,514,515,516,517], "name2":"Company"},
-		{"maxPercent":33, "name":"Titans & Navy", "from":[519,520,522,523,524,526]},
-		{"max":1, "from":[508]},
-		{"max":1, "from":[506]},
-		{"max":1, "from":[512]}
+		{"max":2, "name":"Support Formations", "from":[510,511,512,513,514,515,516,517,518,519], "forEach":[500,501,502,503,504,505], "name2":"Company"},
+		{"maxPercent":34, "name":"Titans & Navy", "from":[530,531,532,533,534]},
+		{"max":1, "from":[534]}
 
 	],
 	"upgradeConstraints":[
-		{"min":10, "max":10, "from":[11,12], "appliesTo":[515]},
-		{"min":3, "max":3, "from":[14,15], "appliesTo":[516]},
-    		{"min":1, "max":1, "from":[41,43], "appliesTo":[502]},
-		{"min":1, "max":1, "from":[42], "appliesTo":[511]},
-		{"min":1, "max":1, "from":[14,15,16,18], "appliesTo":[507]},
-		{"min":1, "max":1, "from":[20,21], "appliesTo":[517]},
-		{"min":1, "max":1, "from":[23,24], "appliesTo":[508]},
-		{"max":3, "name":"Upgrades", "from":[27,28,29,30,31,32,33,34,35,37]},
-		{"max":1, "from":[12]},
-		{"max":1, "from":[99]},
-  		{"max":1, "from":[40]},
-   		{"max":1, "from":[36,55]},
-    		{"max":1, "from":[38,39]},
-   		{"max": 6, "perArmy": true, "from": [38,39]},
-   		{"max": 1, "perArmy": true, "from": [39]},
-		{"max":1, "from":[27]},
-		{"max":1, "from":[28]},
-		{"max":1, "from":[29]},
-		{"max":1, "from":[30]},
-		{"max":1, "from":[31]},
-		{"max":1, "from":[32]},
-		{"max":1, "from":[33,37]},
-		{"max":1, "from":[34]},
-		{"max":1, "from":[35]},
-		{"max":1, "from":[36]}
+		{"max":6,  "perArmy": true, "from":[10,11]}, 
+		{"max":8,  "perArmy": true, "from":[12,13]}, 
+
+		{"max":1, "from":[10,11]},
+		{"max":1, "from":[12,13]},
+		
+		{"max":1, "from":[40]},
+		{"max":1, "from":[41]},
+		{"max":1, "from":[42,43]},
+		
+		{"max":1, "from":[50]},
+		{"max":1, "from":[51]},
+		{"max":1, "from":[52]},
+		{"max":1, "from":[53]},
+		{"max":1, "from":[54]},
+		{"max":1, "from":[55]},
+		{"max":1, "from":[56]},
+		{"max":1, "from":[57]},
+		{"max":1, "from":[58]},
+
+		{"max":1, "from":[59,60,61]},
+		
+		{"max":1, "from":[70]},
+		
+   		{"min":1, "max":1, "from":[20,21], "appliesTo":[500]},
+   		{"max":3, "from":[11,13,21,50,52,53,54,55,57,59,60,61], "appliesTo":[500]},
+		
+   		{"min":1, "max":1, "from":[22,23], "appliesTo":[501]},
+   		{"max":3, "from":[23,51,53,54,56,58,59,60,61], "appliesTo":[501]},
+		
+   		{"min":1, "max":1, "from":[20,21], "appliesTo":[502]},
+   		{"max":3, "from":[21,50,52,53,54,55,57,59,60,61], "appliesTo":[502]},
+		
+   		{"min":10, "max":10, "from":[24,25], "appliesTo":[503]},
+   		{"max":1, "from":[25], "appliesTo":[503]},
+   		{"max":3, "from":[52,53,54,59,60,61], "appliesTo":[503]},
+		
+   		{"min":3, "max":3, "from":[26,27], "appliesTo":[504]},
+		
+   		{"min":1, "max":1, "from":[30,31], "appliesTo":[505]},
+		
+		
+   		{"min":1, "max":1, "from":[32,33], "appliesTo":[512]},
+		
+  		{"min":1, "max":1, "from":[26,27,28,29], "appliesTo":[516]},
+		
+  		{"min":1, "max":1, "from":[34,35,36], "appliesTo":[517]},
+		
+			
+  		{"min":1, "max":1, "from":[37,38], "appliesTo":[534]}
 	]
 }
