@@ -32,7 +32,7 @@
 		{"id":20, "name":"Cultists", "pts":0},
 		{"id":21, "name":"Mutants", "pts":0},
 		{"id":23, "name":"Chaos Spawn", "pts":25},
-		{"id":25, "name":"Land Transporter (no more than required to carry the formation)", "pts":10},
+		{"id":25, "name":"Land Transporter", "pts":10},
 
 		{"id":30, "name":"Exalted Keeper of Secrets", "pts":0},
 		{"id":31, "name":"Exalted Great Unclean One", "pts":0},
