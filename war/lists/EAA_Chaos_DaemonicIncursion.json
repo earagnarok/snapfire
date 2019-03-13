@@ -13,13 +13,13 @@
 			{"id":665, "name":"Exalted Greater Daemon", "pts":275, "upgrades":[60]}
 		]},
 		{"name":"Daemon Legions / /  May not Mix Nurgle/Tzeench or Slaanesh/Khorne formations", "formations":[
-			{"id":666, "name":"Slaneesh Legion of Excess", "pts":250, "units":"5 Lesser Daemon Pool points",  "upgrades":[60]},
-			{"id":667, "name":"Plague Legion of Nurgle", "pts":250, "units":"5 Lesser Daemon Pool points", "upgrades":[60]},
-			{"id":668, "name":"Blood Legion of Khorne", "pts":250, "units":"5 Lesser Daemon Pool points", "upgrades":[60]},
-			{"id":669, "name":"Scintillating Legion of Tzeench", "pts":250, "units":"5 Lesser Daemon Pool points", "upgrades":[60]}
+			{"id":666, "name":"Slaneesh Legion of Excess", "pts":225, "units":"5 Lesser Daemon Pool points",  "upgrades":[60]},
+			{"id":667, "name":"Nurgle Plague Legion", "pts":225, "units":"5 Lesser Daemon Pool points", "upgrades":[60]},
+			{"id":668, "name":"Khorne Blood Legion", "pts":225, "units":"5 Lesser Daemon Pool points", "upgrades":[60]},
+			{"id":669, "name":"Tzeench Scintillating Legion", "pts":225, "units":"5 Lesser Daemon Pool points", "upgrades":[60]}
 		]},
 		{"name":"MORTALS (Max 25%)", "formations":[
-			{"id":501, "name":"Lost and the Damned", "pts":150, "units": "Chaos Icon", "upgrades":[]},
+			{"id":501, "name":"Lost and the Damned", "pts":175, "upgrades":[25]},
 			{"id":502, "name":"Warp Altar of Chaos Undivided", "pts":200, "units": "Warp Altar", "upgrades":[]}
 
         ]}
@@ -32,6 +32,7 @@
 		{"id":20, "name":"Cultists", "pts":0},
 		{"id":21, "name":"Mutants", "pts":0},
 		{"id":23, "name":"Chaos Spawn", "pts":25},
+		{"id":25, "name":"Land Transporter (no more than required to carry the formation)", "pts":10},
 
 		{"id":30, "name":"Exalted Keeper of Secrets", "pts":0},
 		{"id":31, "name":"Exalted Great Unclean One", "pts":0},
@@ -87,8 +88,8 @@
 	
 		{"min":1, "max":1, "from":[10,11], "appliesTo":[501]},
 		{"max":1, "from":[12], "appliesTo":[501]},
-		{"min":5, "max":5, "from":[20,21,23], "appliesTo":[501]},
-		{"max":3, "from":[23], "appliesTo":[501]},
+		{"min":7, "max":7, "from":[20,21,23], "appliesTo":[501]},
+		{"max":2, "from":[23], "appliesTo":[501]},
 		{"max":1, "from":[24], "appliesTo":[501]}
 		
 
