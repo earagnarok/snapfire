@@ -19,7 +19,7 @@
 			{"id":514, "name":"Sentinel Squadron",				"pts":100, "upgrades":[10,12], "units":"4 Sentinels"},
 			{"id":515, "name":"Deathstrike Missile Battery",		"pts":200, "upgrades":[10,12,40], "units":"2 Deathstrike Missile Launchers"},
 			{"id":516, "name":"Super-Heavy Tank Platoon", 			"pts":200, "upgrades":[10,12]},
-			{"id":517, "name":"Leman Russ Platoon", 			"pts":600, "upgrades":[10,12]},
+			{"id":517, "name":"Leman Russ Platoon", 			"pts":400, "upgrades":[10,12]},
 			{"id":518, "name":"Flak Battery",				"pts":150, "upgrades":[10,12,41], "units":"3 Hydras"},
 			{"id":519, "name":"Vulture Squadron",				"pts":300, "upgrades":[10,12], "units":"4 Vultures"}
 		]},
