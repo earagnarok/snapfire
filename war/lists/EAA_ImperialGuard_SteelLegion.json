@@ -9,7 +9,7 @@
 			{"id":502, "name":"Mechanised Infantry Company", 	"pts":300, "units":"Steel Legion Commander", "upgrades":[10,12,50,52,53,54,55,57,59,60,61]},
 			{"id":503, "name":"Tank Company", 			"pts":600, "units":"1 Leman Russ Vanquisher, 9 Leman Russ", "upgrades":[10,12,52,53,54,59,60,61]},
 			{"id":504, "name":"Super-Heavy Tank Company", 		"pts":500, "upgrades":[10,12]},
-		 	{"id":505, "name":"Artillery Company", 			"pts":450, "upgrades":[10,12,52], "units":"6 Gun Emplacements"}
+		 	{"id":505, "name":"Artillery Company", 			"pts":450, "upgrades":[10,12]}
 		]},
 		{"name":"SUPPORT FORMATIONS (Max two for each Company)", "formations":[
 			{"id":510, "name":"Rough Rider Platoon", 			"pts":150, "upgrades":[10,12], "units":"6 Rough Riders"},
@@ -73,7 +73,8 @@
 		{"id":42, "name":"4 Valkyries",					"pts":150},
    		{"id":43, "name":"4 Taurox",					"pts":150},
 		
-		
+		{"id":44, "name":"6 Gun Emplacements",			"pts":0},
+		{"id":45, "name":"1 Hydra, 7 Gun Emplacements",	"pts":50},		
 		
 		{"id":50, "name":"4 Fire Support Squads, 2 Chimeras",		"pts":150},
 		{"id":51, "name":"4 Fire Support Squads",		"pts":100},
@@ -144,6 +145,7 @@
    		{"min":3, "max":3, "from":[26,27], "appliesTo":[504]},
 		
    		{"min":1, "max":1, "from":[30,31], "appliesTo":[505]},
+   		{"min":1, "max":1, "from":[44,45], "appliesTo":[505]},
 		
 		
    		{"min":1, "max":1, "from":[32,33], "appliesTo":[512]},
