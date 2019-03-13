@@ -1,6 +1,6 @@
 {
 	"id":"Adeptus Mechanicus - Knight World",
-	"version":"1.5",
+	"version":"1.6",
 	"notes":[""],
 	"by":"EA-Apocalypse",
 	"sections":[
@@ -8,7 +8,7 @@
 			{"id":501, "name":"Protector Household",	"pts":75, "upgrades":[13,10,11]}			
 		]},
 		{"name":"Support Households (Max 2 per Core Household)", "formations":[
-			{"id":511, "name":"Custodian Household",	"pts":25, "upgrades":[14,12]},	
+			{"id":511, "name":"Custodian Household",	"pts":50, "upgrades":[14,12]},	
 			{"id":512, "name":"Vanguard Household", 	"pts":100, "upgrades":[15,12]},
 			{"id":513, "name":"Guardian Household",		"pts":125, "upgrades":[16,17,18,12]},
 			{"id":514, "name":"Aggressor Household",	"pts":75, "upgrades":[19,12]}	
@@ -31,7 +31,7 @@
 	],
 	"upgrades":[	
 		{"id":10, "name":"Knight-Protector with Seneschal",		"pts":100},
-		{"id":11, "name":"Knight-Baron",						"pts":150},	
+		{"id":11, "name":"Knight-Baron",						"pts":175},	
 		{"id":12, "name":"Seneschal",							"pts":25},
 		{"id":13, "name":"Knight-Protector",					"pts":75},
 		{"id":14, "name":"Knight-Custodian",					"pts":100},
@@ -40,8 +40,8 @@
    		{"id":17, "name":"Knight-Guardian Skysweeper",			"pts":50},
 		{"id":18, "name":"Knight-Guardian Vanquisher",			"pts":50},
 		{"id":19, "name":"Knight-Aggressor",					"pts":75},
-		{"id":20, "name":"Add 3 Rapiers",						"pts":50},
-		{"id":21, "name":"Add 3 Thudd Guns",					"pts":75},
+		{"id":20, "name":"3 Rapiers",						"pts":50},
+		{"id":21, "name":"3 Thudd Guns",					"pts":75},
 		{"id":22, "name":"60cm Razorwire and 60cm Trenches",	"pts":50},
 		{"id":23, "name":"Sniper",								"pts":25}
 		
@@ -60,6 +60,7 @@
 		{"min":3, "max":5, "from":[15], "appliesTo":[512]},
 		{"min":4, "max":6, "from":[16,17,18], "appliesTo":[513]},
 		{"min":3, "max":5, "from":[19], "appliesTo":[514]},
+		{"max":1, "from":[20,21], "appliesTo":[525]},
 		{"max":1, "from":[20]},
 		{"max":1, "from":[22]},
 		{"max":1, "from":[21]},
