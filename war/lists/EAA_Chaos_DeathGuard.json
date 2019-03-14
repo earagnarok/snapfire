@@ -24,7 +24,7 @@
             {"id": 544, "name": "Nurgle Defilers", "pts": 50, "upgrades": [21]}
        ]},
 
-      {"name": "SPACESHIPS, AIRCRAFT &amp; TITANS", "formations": [
+      {"name": "ZOMBIES, SPACESHIPS, AIRCRAFT &amp; TITANS", "formations": [
             {"id": 551, "name": "Plague Zombie Infestation", "pts": 175, "units": "3 + 2D6 Plague Zombies", "upgrades": []},
             {"id": 552, "name": "Plaguehound", "pts": 50, "upgrades": [20]},
             {"id": 553, "name": "Repugnant", "pts": 600, "units": "1 Repugnant Titan", "upgrades": []},
