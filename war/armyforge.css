@@ -1,5 +1,5 @@
 body {
-	background-color:olive;
+	background-color:#FFFFFF;
 	padding:0;
 	margin:0;
 	color:#404000;
@@ -20,7 +20,7 @@ table {
 	border-collapse:collapse;
 }
 .ab a:hover { 
-	color:orange;
+	color:gray;
 	text-decoration:underline;
 }
 #menu {
@@ -32,7 +32,7 @@ table {
 	vertical-align:top;
 }
 .but:hover {
-	background:#707000;
+	background:#FFFFFF;
 }
 .but {
 	text-align: center;
@@ -40,7 +40,7 @@ table {
 	font-family: Helvetica, Arial, sans-serif;
 	font-weight: bold;
 	font-size: 138.5%;
-	border: 1px solid #659635;
+	border: 1px solid #000000;
 	color:white;
 	text-shadow:-1px -1px 2px #777777;
 	padding:1em 2em 1em 2em;
@@ -67,14 +67,14 @@ img.icon {
 	padding:1em 1em;
 }
 .list a:hover { 
-	color:orange;
+	color:teal;
 }
 .list {
 	font-size:small;
 	font-family:sans-serif;
 	width:18em;
 	text-align:left;
-	background-color:#eeeecb;
+	background-color:silver;
 	border-top:solid 0.1em olive;
 	vertical-align:center;
 	padding:0.33em;
