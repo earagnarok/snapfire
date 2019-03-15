@@ -10,7 +10,7 @@
       {"name": "HOSTS", "formations": [
             {"id": 510, "name": "Spirit Guard", "pts": 350, "units": "6 Wraithguard", "upgrades": [53,54]},
             {"id": 511, "name": "Spirit Blades", "pts": 300, "units": "6 Wraithblades", "upgrades": [53,54]},
-            {"id": 512, "name": "Spirit Walkers", "pts": 350, "units": "6 Wraithlords", "upgrades": [53]}
+            {"id": 512, "name": "Spirit Walkers", "pts": 350, "units": "6 Wraithlords", "upgrades": []}
         ]},
       {"name": "TROUPES", "formations": [
             {"id": 611, "name": "Guardian Warhost", "pts": 150, "upgrades": [43,44,53]},
