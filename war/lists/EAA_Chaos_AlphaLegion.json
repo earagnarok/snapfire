@@ -12,7 +12,7 @@
 			{ "id":522, "name":"Destroyers", "pts":225,"units":"4 Alpha Legion Destroyers", "upgrades":[] },
 			{ "id":523, "name":"Lernaean Terminators", "pts":300,"units":"4 Lernaean Terminators plus transport", "upgrades":[30,31] },
 			{ "id":524, "name":"Predators", "pts":250, "units":"4 Alpha Legion Predators", "upgrades":[] },
-			{ "id":525, "name":"Laser Vindicator", "pts":275, "units":"4 Alpha Legion Laser Vindicators", "upgrades":[] }
+			{ "id":525, "name":"Laser Vindicators", "pts":275, "units":"4 Alpha Legion Laser Vindicators", "upgrades":[] }
 		]},
 			{"name":"TRAITOR IMPERIAL GUARD ALLIES (Max 33%)", "formations": [
 			{ "id":531, "name":"Mechanized Traitor Platoon", "pts":200, "units":"1 Fallen Commander, 5 Infantry, 3 Chimeras", "upgrades":[40,41,42] },
