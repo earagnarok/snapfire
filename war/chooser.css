@@ -1,6 +1,6 @@
 /* GENERIC */
 body {
-	background-color:olive;
+	background-color:#FFFFFF;
 	margin:0.2em 2em 2em 2em;
 }
 table {
@@ -14,7 +14,7 @@ td {
 }
 tr.interactive:hover > td {
 	cursor:pointer;
-	background-color:#333;
+	background-color:#000000;
 	color:orange !important;
 }
 .inactive {
@@ -45,7 +45,7 @@ tr.interactive:hover > td {
 }
 .orbat {
 	font-family:sans-serif;
-	background-color:#fff;
+	background-color:#e6e6e6;
 	border:3px solid black;
 	width:60%;
 }
@@ -152,7 +152,7 @@ div.dropDown .listDiv table td {
 .listDiv {
 	padding:0.5em 1em 1em 1em;
 	border:1px solid #222;
-	background-color:#ddd;
+	background-color:silver;
 	color:#222;
 	font-family:serif;
 	font-size:small;
@@ -177,7 +177,7 @@ div.dropDown .listDiv table td {
 	float:right;
 }
 .even {
-	background-color:#ccc;
+	background-color: #cccccc;
 }
 
 @media print {
