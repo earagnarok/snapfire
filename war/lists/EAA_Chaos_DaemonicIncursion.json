@@ -1,6 +1,6 @@
 {
 	"id":"EAA Daemonic Incursion",
-	"version":"2.5",	
+	"version":"2.51",	
 	"by":"EA-Armageddon",
 	"sections":[
 		{"name":"DAEMONS", "formations":[
@@ -93,7 +93,7 @@
 		{"max":2, "from":[23], "appliesTo":[501]},
 		{"max":1, "from":[24], "appliesTo":[501]},
 		
-		{"min":1, "max":4, "from":[26], "appliesTo":[502]}
+		{"min":2, "max":4, "from":[26], "appliesTo":[502]}
 		
 
 		
