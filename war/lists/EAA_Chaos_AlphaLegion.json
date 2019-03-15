@@ -1,7 +1,7 @@
 {
 	"id":"EAA Alpha Legion",
 	"by":"EA Apocalypse",
-	"version":"v1.1",
+	"version":"v1.2",
 	"notes":[],
 	"sections":[
 		{"name":"ALPHA LEGION CORE DETACHMENTS", "formations": [
@@ -32,7 +32,7 @@
 		{ "id":11, "name":"Alpha Legion Sorcerer", "pts":0 },
 
 		{ "id":20, "name":"6 Alpha Legion Marines plus transport", "pts":275 },
-		{ "id":21, "name":"3 Alpha Legion Marines, 3 Alpha Legion Havocs plus transport", "pts":325 },
+		{ "id":21, "name":"4 Alpha Legion Marines, 2 Alpha Legion Flakk Havocs plus transport", "pts":325 },
 
 		{ "id":24, "name":"Baneblade", "pts":0},
 		{ "id":25, "name":"Shadowsword", "pts":0},
