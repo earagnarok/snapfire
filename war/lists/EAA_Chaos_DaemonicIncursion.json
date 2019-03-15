@@ -1,6 +1,6 @@
 {
 	"id":"EAA Daemonic Incursion",
-	"version":"2.51",	
+	"version":"2.6",	
 	"by":"EA-Armageddon",
 	"sections":[
 		{"name":"DAEMONS", "formations":[
@@ -10,13 +10,13 @@
 			{"id":499, "name":"1 Chaos Gate", "pts":0,  "units":"Replace one objective on the Daemonic Incursion half of the table with a Chaos Gate",  "upgrades":[]}
 		]},
 		{"name":"1+ Exalted Greater Daemons (Max 1 for each part of 1000 points) / / May not Mix Nurgle/Tzeench or Slaanesh/Khorne formations", "formations":[
-			{"id":665, "name":"Exalted Greater Daemon", "pts":275, "upgrades":[60]}
+			{"id":665, "name":"Exalted Greater Daemon", "pts":300, "upgrades":[60]}
 		]},
 		{"name":"Daemon Legions / /  May not Mix Nurgle/Tzeench or Slaanesh/Khorne formations", "formations":[
-			{"id":666, "name":"Slaneesh Legion of Excess", "pts":225, "units":"5 Lesser Daemon Pool points",  "upgrades":[60]},
-			{"id":667, "name":"Nurgle Plague Legion", "pts":225, "units":"5 Lesser Daemon Pool points", "upgrades":[60]},
-			{"id":668, "name":"Khorne Blood Legion", "pts":225, "units":"5 Lesser Daemon Pool points", "upgrades":[60]},
-			{"id":669, "name":"Tzeench Scintillating Legion", "pts":225, "units":"5 Lesser Daemon Pool points", "upgrades":[60]}
+			{"id":666, "name":"Slaneesh Legion of Excess", "pts":200, "units":"5 Lesser Daemon Pool points",  "upgrades":[60]},
+			{"id":667, "name":"Nurgle Plague Legion", "pts":200, "units":"5 Lesser Daemon Pool points", "upgrades":[60]},
+			{"id":668, "name":"Khorne Blood Legion", "pts":200, "units":"5 Lesser Daemon Pool points", "upgrades":[60]},
+			{"id":669, "name":"Tzeench Scintillating Legion", "pts":200, "units":"5 Lesser Daemon Pool points", "upgrades":[60]}
 		]},
 		{"name":"PORTALS &amp; MORTALS (Max 25%)", "formations":[
 			{"id":501, "name":"Lost and the Damned", "pts":175,  "upgrades":[25]},
@@ -40,14 +40,14 @@
 		{"id":32, "name":"Exalted Bloodthirster", "pts":0},
 		{"id":33, "name":"Exalted Lord of Change", "pts":0},
 		
-		{"id":40, "name":"Keeper of Secrets", "pts":75},
-		{"id":41, "name":"Great Unclean One", "pts":75},
-		{"id":42, "name":"Bloodthirster", "pts":75},
-		{"id":43, "name":"Lord of Change", "pts":75},
+		{"id":40, "name":"Keeper of Secrets", "pts":100},
+		{"id":41, "name":"Great Unclean One", "pts":100},
+		{"id":42, "name":"Bloodthirster", "pts":100},
+		{"id":43, "name":"Lord of Change", "pts":100},
 		
 		{"id":50, "name":"3 Heralds of Slaanesh", "pts":0},
 		{"id":51, "name":"3 Heralds of Slaanesh on Seeker Chariots", "pts":0},
-		{"id":52, "name":"3 Heralds of Nurgle on Palaquins", "pts":0},
+		{"id":52, "name":"3 Heralds of Nurgle on Palanquins", "pts":0},
 		{"id":53, "name":"3 Heralds of Nurgle on Blight Flies", "pts":0},
 		{"id":54, "name":"3 Heralds of Khorne on Juggernauts", "pts":0},
 		{"id":55, "name":"3 Heralds of Khorne on Skull Cannons", "pts":0},
