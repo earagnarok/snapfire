@@ -19,7 +19,7 @@
             {"id": 532, "name": "Fire Gale Troupe", "pts": 300, "units": "Two Fire Gale Knights", "upgrades": []},
             {"id": 533, "name": "Bright Stallion Troupe", "pts": 250, "units": "Two Bright Stallion Knights", "upgrades": []},
 	    {"id": 534, "name": "Towering Destroyer", "pts": 325, "units": "Three Towering Destroyer Knights", "upgrades": []},
-	    {"id": 535, "name": "Spirit Troupe", "pts": 250, "units": "Four Wraithlords and One Spiritseer", "upgrades": [15,16]}
+	    {"id": 535, "name": "Spirit Troupe", "pts": 250, "units": "Four Wraithlords and one Spiritseer", "upgrades": [15,16]}
 	]},
       {"name": "SPACESHIPS, AIRCRAFT &amp; TITANS", "formations": [
             {"id": 541, "name": "Nightwings", "pts": 75, "upgrades": [20]}
@@ -27,8 +27,8 @@
    ],
    "upgrades": [
       {"id": 11, "name": "Bonesinger", 				"pts": 0},
-      {"id": 12, "name": "Yme-Loc Phantom Titan", 		"pts": 0},
-      {"id": 13, "name": "Fir Iolarion Phantom Titan", 		"pts": 0},
+      {"id": 12, "name": "Yme-Loc Phantom Titan (1-2x Pulsar, 0-1 Power Fist)", 		"pts": 0},
+      {"id": 13, "name": "Fir Iolarion Phantom Titan (1-2x Distortion Cannon, 0-1 Ashuna-Valcry'le)", 		"pts": 0},
       {"id": 14, "name": "Revenant Titan", 			"pts": 250},
       {"id": 15, "name": "3 Wraithblade units", 		"pts": 75},
       {"id": 16, "name": "3 Wraithguard units", 		"pts": 100},
@@ -37,8 +37,8 @@
       {"id": 19, "name": "Scorpion", 				"pts": 250},
       {"id": 20, "name": "Nightwings", 				"pts": 75},
       {"id": 25, "name": "Independent Twins", 			"pts": 50},
-      {"id": 26, "name": "Kinshara Phantom Titan", 		"pts": 0},
-      {"id": 27, "name": "Mymeara Phantom Titan", 		"pts": 0}
+      {"id": 26, "name": "Kinshara Phantom Titan (1-2x Vibro Cannon, 0-1x Star Pulsar)", 		"pts": 0},
+      {"id": 27, "name": "Mymeara Phantom Titan (1-2x Dire Pulsar, 0-1x Distortion Cannon)", 		"pts": 0}
 
    ],
    "formationConstraints": [
