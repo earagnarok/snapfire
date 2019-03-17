@@ -42,7 +42,7 @@ table {
 	font-size: 138.5%;
 	border: 1px solid #000000;
 	color:white;
-	text-shadow:-1px -1px 2px #777777;
+	text-shadow:-1px -1px 2px #000000;
 	padding:1em 2em 1em 2em;
 	-moz-border-radius:0.5em;
 	-webkit-border-radius:0.5em;
@@ -60,7 +60,7 @@ img.icon {
 	border:none;
 }
 #ab {
-	border-top: 1px solid #404000;
+	border-top: 1px solid #000000;
 }
 #ab td {
 	vertical-align:top;
@@ -75,7 +75,7 @@ img.icon {
 	width:18em;
 	text-align:left;
 	background-color:silver;
-	border-top:solid 0.1em olive;
+	border-top:solid 0.1em #000000;
 	vertical-align:center;
 	padding:0.33em;
 }
@@ -93,5 +93,5 @@ h1 {
 	font-weight: bold;
 	font-size: 138.5%;
 	color:white;
-	text-shadow: -1px -1px 2px #777777;
+	text-shadow: -1px -1px 2px #000000;
 }
