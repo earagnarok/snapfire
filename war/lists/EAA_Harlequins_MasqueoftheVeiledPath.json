@@ -1,6 +1,6 @@
 {
 	"id":"Masque of the Veiled Path",
-	"version":"1.1",
+	"version":"1.2",
 	"by":"EA-Apocalypse",
 	"sections":[
 		{"name":"Webway Portal and Avatar of Khaine", "formations":[
@@ -9,7 +9,7 @@
 		]},
 		
 		{"name":"Lugganath Warhosts (Max one Aspect Warrior Warhost for each Guardian Warhost)", "formations":[
-			{"id":510, "name":"Guardian Warhost",		 			"pts":225,	"units":"5 Guardians, 5 Venoms",	"upgrades":[21,22]},
+			{"id":510, "name":"Guardian Warhost",		 			"pts":225,	"upgrades":[22]},
 			{"id":511, "name":"Aspect Warrior Warhost", 			"pts":250, "upgrades":[10,11]}
 		]},	
 		
@@ -31,21 +31,21 @@
 		]},
 		
 		{"name":"Fir-Iolarion Titans, Wraithknights and Eldar Navy (Max 33%)", "formations":[
-			{"id":540, "name":"Nightwings",	"pts":225, "units":"2 Nightwing Interceptors", "upgrades":[]},
+			{"id":540, "name":"Nightwing Aerie",	"pts":225, "units":"2 Nightwing Interceptors", "upgrades":[]},
 			{"id":542, "name":"Corsair Vampire Hunter","pts":225, "units":"1 Corsair Vampire Hunter", "upgrades":[]},
 			{"id":544, "name":"Hemlock Wraithfighters",	"pts":225, "units":"2 Hemlock Wraithfighters", "upgrades":[]},
-			{"id":543, "name":"Revenent Titans",	"pts":550, "units":"2 Revenent Titans", "upgrades":[]},
+			{"id":543, "name":"Revenant Titans",	"pts":650, "units":"2 Revenant Titans", "upgrades":[]},
 			{"id":545, "name":"Wraithship",	"pts":150, "upgrades":[]},
 			{"id":546, "name":"Dragonship",	"pts":300, "upgrades":[]}
 		]}
 	],
 	"upgrades":[
 		{"id":10, "name":"Autarch",					"pts":50},
-		{"id":11, "name":"Exarch",					"pts":25},
+		{"id":11, "name":"Exarch",					"pts":50},
 
-
-		{"id":21, "name":"1 Farseer",				"pts":25},
 		{"id":22, "name":"Lugganath Jetbikes",		"pts":25},
+		{"id":23, "name":"5 Guardians, 5 Venoms",	"pts":0},
+		{"id":24, "name":"1 Farseer, 5 Guardians, 6 Venoms", "pts":75},
 		
 
 		{"id":30, "name":"Dire Avenger",			"pts":0},
@@ -83,7 +83,7 @@
 	"upgradeConstraints":[
 		{"max":1, "perArmy":true, "from":[10]},	
 	
-		{"max":1, "from":[21], "appliesTo":[510]},
+		{"min":1, "max":1, "from":[23,24], "appliesTo":[510]},
 		{"max":6, "from":[22], "appliesTo":[510]},
 		{"max":1, "from":[43], "appliesTo":[523]},
 		{"max":1, "from":[44], "appliesTo":[523]},
