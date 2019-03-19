@@ -1,7 +1,7 @@
 {
    "id": "Tau Kelshan",
    "version": "EA-Apocalypse",
-   "by": "1.0",
+   "by": "1.2",
    "sections": [
       { "name": "CORE GROUP",
          "formations": [
@@ -13,10 +13,10 @@
          "formations": [
             {"id": 521,"name": "Broadside Group","pts": 200,"units": "4 XV88 Broadsides","upgrades": []},
             {"id": 522,"name": "Special Battle Suit","pts": 0, "upgrades": []},
-            {"id": 523,"name": "Heavy Battle Suits","pts": 300,"units": "2 KX-128 Stormsurge Battle Suits","upgrades": []},
+            {"id": 523,"name": "Heavy Battle Suits","pts": 250,"units": "2 KX-128 Stormsurge Battle Suits","upgrades": []},
             {"id": 524,"name": "Firesight Marksmen","pts": 175,"units": "1 Firesight Marksmen, 4 Sniper Drones","upgrades": []},
             {"id": 525,"name": "Manta Dropship","pts": 500,"upgrades": []},
-            {"id": 526,"name": "Supremacy Suit","pts": 325,"upgrades": []}
+            {"id": 526,"name": "Supremacy Suit","pts": 275,"upgrades": []}
          ]
       },
       { "name": "AIR CASTE",
