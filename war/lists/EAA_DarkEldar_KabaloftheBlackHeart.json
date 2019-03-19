@@ -31,7 +31,7 @@
 			{"id":526, "name":"Razorwing Fighters", "pts":0, "upgrades":[84]},
 			{"id":527, "name":"Voidraven Bombers", "pts":225, "units":"2 Voidravens", "upgrades":[]},
 			{"id":528, "name":"Tormentor Class Titan", "pts":350, "units":"1 Tormentor Titan", "upgrades":[]},
-			{"id":529, "name":"Torture Class Titan", "pts":550, "units":"1 Torture Titan", "upgrades":[]}
+			{"id":529, "name":"Torture Class Titan", "pts":650, "units":"1 Torture Titan", "upgrades":[]}
 		]}
 	],
 	"upgrades":[
