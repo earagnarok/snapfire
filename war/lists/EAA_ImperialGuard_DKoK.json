@@ -10,7 +10,7 @@
 		]},
 		{"name":"SUPPORT FORMATIONS (Max 2 for each Core Formation)", "formations":[
 			{ "id":510, "name":"Grenadier Company", "pts":225, "units":"1 DKoK Commander with a Commissar, 7 Grenadiers", "upgrades":[23] },
-			{ "id":511, "name":"Thunderer Platoon", "pts":250, "units":"6 Thunderers", "upgrades":[] },
+			{ "id":511, "name":"Leman Russ Platoon", "pts":350, "upgrades":[] },
 			{ "id":512, "name":"Macharius Company", "pts":325, "units":"2 Macharius", "upgrades":[] },
 			{ "id":513, "name":"Earthshaker Battery", "pts":175, "upgrades":[] },
 			{ "id":514, "name":"Siege Artillery", "pts":225, "units":"3 Gun Emplacements", "upgrades":[] },
@@ -41,6 +41,9 @@
 		{ "id":23, "name":"Gorgon", "pts":75 },		
 		{ "id":24, "name":"Macharius Command Tank with a Commissar (Vanquishers)", "pts":0 },
 		{ "id":25, "name":"Macharius Command Tank with a Commissar (Vulcan Mega-Bolter)", "pts":0 },
+
+		{ "id":26, "name":"Leman Russ Thunderer", "pts":0},
+		{ "id":27, "name":"Leman Russ Annihilator", "pts":0},
 		
 		{ "id":30, "name":"4 Trench Support Squads", "pts":75},
 		{ "id":31, "name":"Hellhound", "pts":25},
@@ -93,6 +96,8 @@
 		
 		{"min":1, "max":1, "from":[17,18], "appliesTo":[502]},
 		{"max":1, "from":[18,34], "appliesTo":[502]},
+		
+		{"min":1, "max":1, "from":[24,25], "appliesTo":[511]},
 		
 		{"min":1, "max":1, "from":[24,25], "appliesTo":[512]},
 
