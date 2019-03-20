@@ -1,6 +1,6 @@
 {
 	"id":"EAA Death Korps of Krieg",
-	"version":"1.3",
+	"version":"1.4",
 	"by":"EA Apocalypse",
 	"sections":[
 		{"name":"DEATH KORPS CORE FORMATIONS (Max 4 upgrades per formation)", "formations":[
@@ -11,18 +11,17 @@
 		{"name":"SUPPORT FORMATIONS (Max 2 for each Core Formation)", "formations":[
 			{ "id":510, "name":"Grenadier Company", "pts":225, "units":"1 DKoK Commander with a Commissar, 7 Grenadiers", "upgrades":[23] },
 			{ "id":511, "name":"Thunderer Platoon", "pts":250, "units":"6 Thunderers", "upgrades":[] },
-			{ "id":512, "name":"Macharius Platoon", "pts":325, "units":"2 Macharius", "upgrades":[] },
+			{ "id":512, "name":"Macharius Company", "pts":325, "units":"2 Macharius", "upgrades":[] },
 			{ "id":513, "name":"Earthshaker Battery", "pts":175, "upgrades":[] },
 			{ "id":514, "name":"Siege Artillery", "pts":225, "units":"3 Gun Emplacements", "upgrades":[] },
 			{ "id":516, "name":"Minotaur Battery", "pts":350,  "units":"1 Commissar, 2 Minotaurs", "upgrades":[] },
-			{ "id":517, "name":"Rough Rider Company", "pts":250, "units":"1 Commissar, 9 Rough Riders", "upgrades":[] },
+			{ "id":517, "name":"Rough Rider Platoon", "pts":150, "units":"6 Rough Riders", "upgrades":[] },
 			{ "id":518, "name":"Deathstrikes", "pts":200, "units":"2 Deathstrikes, 2 Gun Emplacements", "upgrades":[] },
 			{ "id":519, "name":"Flak Battery", "pts":150, "units":"3 Heavy AA Guns, 3 Trojans", "upgrades":[] },
 			{ "id":520, "name":"Super-Heavy Tank Company", "pts":500, "units":"1 Commissar", "upgrades":[] }
 		]},
 
 		{"name":"TITAN LEGION AND IMPERIAL NAVY (Max 33%)", "formations":[
-			{ "id":530, "name":"Reaver Titan", "pts":600, "upgrades":[] },
 			{ "id":531, "name":"Warhound Pack", "pts":500, "units":"2 Warhounds", "upgrades":[] },
 			{ "id":532, "name":"Thunderbolt Fighters", "pts":150, "units":"2 Thunderbolts", "upgrades":[] },
 			{ "id":533, "name":"Marauder Bomber", "pts":225, "upgrades":[] },
@@ -69,7 +68,7 @@
 		
 	],
 	"formationConstraints":[
-		{"maxPercent":33, "name":"Titans & Navy", "from":[530,531,532,533,534]},
+		{"maxPercent":33, "name":"Titans & Navy", "from":[531,532,533,534]},
 		{"max":2, "name":"Support Formations", "from":[510,511,512,513,514,515,516,517,518,519,520], "forEach":[501,502,503], "name2":"Core Company"},
 		{"max":1, "from":[534]},
 		{"max":1, "from":[518]}
