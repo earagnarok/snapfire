@@ -9,13 +9,12 @@
 			{"id":502, "name":"Mechanized Infantry Company", 	"pts":300, "units":"Steel Legion Commander with a Commissar", "upgrades":[50,52,53,54,57,58,55,59,60,61,62,63]},
 			{"id":503, "name":"Tank Company", 			"pts":550, "units":"1 Leman Russ Vanquisher with a Commissar, 9 Leman Russ", "upgrades":[52,53,54,57,58,59,60,61]},
 			{"id":504, "name":"Super-Heavy Tank Company", 		"pts":500, "units":"1 Commissar", "upgrades":[52,55,56,54,57,58,59,60,61]},
-		 	{"id":505, "name":"Artillery Company", 			"pts":450, "units":"1 Commissar", "upgrades":[]}
+		 	{"id":505, "name":"Artillery Company", 			"pts":400, "units":"1 Commissar", "upgrades":[]}
 		]},
 		{"name":"SUPPORT FORMATIONS (Max two for each Company)", "formations":[
 			{"id":510, "name":"Rough Rider Platoon", 			"pts":150, "upgrades":[], "units":"6 Rough Riders"},
 			{"id":511, "name":"Tempestus Scions",				"pts":200, "upgrades":[42,43], "units":"1 Tempestor with a Commissar, 7 Tempestus Scions"},
-			{"id":512, "name":"Artillery Battery",				"pts":250, "upgrades":[41]},
-    		{"id":513, "name":"Bombard Battery",				"pts":225,  "units":"3 Bombards, 3 Gun Emplacements", "upgrades":[]},
+			{"id":512, "name":"Artillery Battery",				"pts":225, "upgrades":[41]},
 			{"id":514, "name":"Sentinel Squadron",				"pts":100, "upgrades":[], "units":"4 Sentinels"},
 			{"id":515, "name":"Deathstrike Missile Battery",		"pts":200, "upgrades":[40], "units":"2 Deathstrike Missile Launchers"},
 			{"id":516, "name":"Super-Heavy Tank Platoon", 			"pts":200, "upgrades":[]},
@@ -50,11 +49,12 @@
 		{"id":27, "name":"Shadowsword",					"pts":0},
 		{"id":29, "name":"Stormblade",					"pts":0},
 		
-		{"id":30, "name":"Basilisk",					"pts":0},
-		{"id":31, "name":"Manticore",					"pts":0},
+		{"id":30, "name":"6 Basilisks",					"pts":0},
+		{"id":31, "name":"6 Manticores",				"pts":50},
 		
 		{"id":32, "name":"3 Basilisks",					"pts":0},
-		{"id":33, "name":"3 Manticores",				"pts":0},
+		{"id":39, "name":"3 Bombards",					"pts":0},
+		{"id":33, "name":"3 Manticores",				"pts":25},
 		
 		{"id":34, "name":"6 Leman Russ Punishers",		"pts":0},
 		{"id":35, "name":"6 Leman Russ Demolishers",	"pts":0},
@@ -103,7 +103,7 @@
 
 	],
 	"formationConstraints":[
-		{"max":2, "name":"Support Formations", "from":[510,511,512,513,514,515,516,517,518,519,520], "forEach":[500,501,502,503,504,505], "name2":"Company"},
+		{"max":2, "name":"Support Formations", "from":[510,511,512,514,515,516,517,518,519,520], "forEach":[500,501,502,503,504,505], "name2":"Company"},
 		{"maxPercent":34, "name":"Titans & Navy", "from":[530,531,532,533,534,535]},
 		{"max":1, "from":[500]},
 		{"max":1, "from":[515]},
@@ -143,11 +143,11 @@
    		{"min":3, "max":3, "from":[26,27], "appliesTo":[504]},
    		{"max":3, "from":[52,55,56,54,57,58,59,60,61], "appliesTo":[504]},
 		
-   		{"min":6, "max":6, "from":[30,31], "appliesTo":[505]},
+   		{"min":1, "max":1, "from":[30,31], "appliesTo":[505]},
    		{"min":1, "max":1, "from":[44,45], "appliesTo":[505]},
 		
 
-   		{"min":1, "max":1, "from":[32,33], "appliesTo":[512]},
+   		{"min":1, "max":1, "from":[32,39,33], "appliesTo":[512]},
 		
   		{"min":1, "max":1, "from":[26,27,29], "appliesTo":[516]},
 		
