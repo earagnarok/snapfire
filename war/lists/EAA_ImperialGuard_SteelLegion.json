@@ -1,32 +1,33 @@
 {
 	"id":"Armageddon Steel Legion",
-	"version":"1.4",
+	"version":"1.5",
 	"by":"EA-Apocalypse",
 	"sections":[
 		{"name":"COMPANIES", "formations":[
 			{"id":500, "name":"Regimental HQ", 				"pts":400, "upgrades":[50,52,53,54,57,58,55,59,60,61,62,63]},
 			{"id":501, "name":"Infantry Company", 			"pts":225, "units":"Steel Legion Commander with a Commissar", "upgrades":[51,53,54,57,58,56,59,60,61,64,65]},
 			{"id":502, "name":"Mechanized Infantry Company", 	"pts":300, "units":"Steel Legion Commander with a Commissar", "upgrades":[50,52,53,54,57,58,55,59,60,61,62,63]},
-			{"id":503, "name":"Tank Company", 			"pts":600, "units":"1 Leman Russ Vanquisher with a Commissar, 9 Leman Russ", "upgrades":[52,53,54,57,58,59,60,61]},
+			{"id":503, "name":"Tank Company", 			"pts":550, "units":"1 Leman Russ Vanquisher with a Commissar, 9 Leman Russ", "upgrades":[52,53,54,57,58,59,60,61]},
 			{"id":504, "name":"Super-Heavy Tank Company", 		"pts":500, "units":"1 Commissar", "upgrades":[52,55,56,54,57,58,59,60,61]},
 		 	{"id":505, "name":"Artillery Company", 			"pts":450, "units":"1 Commissar", "upgrades":[]}
 		]},
 		{"name":"SUPPORT FORMATIONS (Max two for each Company)", "formations":[
-			{"id":510, "name":"Rough Rider Platoon", 			"pts":150, "upgrades":[12], "units":"6 Rough Riders"},
-			{"id":511, "name":"Tempestus Scions",				"pts":225, "upgrades":[42,43], "units":"8 Tempestus Scions, 1 Tempestor with a Commissar"},
+			{"id":510, "name":"Rough Rider Platoon", 			"pts":150, "upgrades":[], "units":"6 Rough Riders"},
+			{"id":511, "name":"Tempestus Scions",				"pts":200, "upgrades":[42,43], "units":"1 Tempestor with a Commissar, 7 Tempestus Scions"},
 			{"id":512, "name":"Artillery Battery",				"pts":250, "upgrades":[41]},
     		{"id":513, "name":"Bombard Battery",				"pts":225,  "units":"3 Bombards, 3 Gun Emplacements", "upgrades":[]},
 			{"id":514, "name":"Sentinel Squadron",				"pts":100, "upgrades":[], "units":"4 Sentinels"},
 			{"id":515, "name":"Deathstrike Missile Battery",		"pts":200, "upgrades":[40], "units":"2 Deathstrike Missile Launchers"},
-			{"id":516, "name":"Super-Heavy Tank Platoon", 			"pts":200, "upgrades":[12]},
-			{"id":517, "name":"Leman Russ Platoon", 			"pts":400, "upgrades":[12]},
+			{"id":516, "name":"Super-Heavy Tank Platoon", 			"pts":200, "upgrades":[]},
+			{"id":517, "name":"Leman Russ Platoon", 			"pts":350, "upgrades":[]},
 			{"id":518, "name":"Flak Battery",				"pts":150, "upgrades":[41], "units":"3 Hydras"},
-			{"id":519, "name":"Vulture Squadron",				"pts":300, "upgrades":[], "units":"4 Vultures"},
-			{"id":520, "name":"Mechanized Infantry Platoon", 	"pts":200, "units":"6 Infantry, 3 Chimera", "upgrades":[12,54,57,58]}
+			{"id":519, "name":"Vulture Squadron",				"pts":250, "upgrades":[], "units":"3 Vultures"},
+			{"id":520, "name":"Mechanized Infantry Platoon", 	"pts":200, "units":"6 Infantry, 3 Chimera", "upgrades":[54,57,58]}
 		]},
 		{"name":"TITAN LEGION AND IMPERIAL NAVY FORMATIONS (Max 33%)", "formations":[
 			{"id":530, "name":"Warhound Pack",		"pts":500, "upgrades":[70], "units":"2 Warhounds"},
 			{"id":531, "name":"Reaver Titan",		"pts":600, "upgrades":[]},
+			{"id":535, "name":"Warlord Titan",		"pts":750, "upgrades":[]},
 			{"id":532, "name":"Thunderbolt Fighters",	"pts":150, "upgrades":[], "units":"2 Thunderbolts"},
 			{"id":533, "name":"Marauder Bombers",		"pts":225, "upgrades":[], "units":"2 Marauders"},
 			{"id":534, "name":"Orbital Support",		"pts":150, "upgrades":[]}
@@ -36,8 +37,6 @@
 		{"id":10, "name":"Steel Legion Supreme Commander with a Commissar",		"pts":0},
 		{"id":11, "name":"Steel Legion Supreme Commander with a Lord Commissar",		"pts":100},
 		
-		{"id":12, "name":"Commissar",					"pts":50},
-	
 		{"id":20, "name":"9 Infantry, 5 Chimeras",		"pts":0},
 		{"id":21, "name":"15 Infantry, 8 Chimeras",		"pts":125},
 		
@@ -105,14 +104,13 @@
 	],
 	"formationConstraints":[
 		{"max":2, "name":"Support Formations", "from":[510,511,512,513,514,515,516,517,518,519,520], "forEach":[500,501,502,503,504,505], "name2":"Company"},
-		{"maxPercent":34, "name":"Titans & Navy", "from":[530,531,532,533,534]},
+		{"maxPercent":34, "name":"Titans & Navy", "from":[530,531,532,533,534,535]},
 		{"max":1, "from":[500]},
 		{"max":1, "from":[515]},
 		{"max":1, "from":[534]}
 
 	],
 	"upgradeConstraints":[
-		{"max":1, "from":[12]},	
 		{"max":1, "from":[40]},
 		{"max":1, "from":[41]},
 		{"max":1, "from":[42,43]},
