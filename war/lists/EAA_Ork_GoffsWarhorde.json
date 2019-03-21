@@ -31,7 +31,7 @@
          ]
       },
       {
-         "name": "AIRCRAFT, SPACECRAFT &amp; GARGANTS",
+         "name": "AIRCRAFT &amp; GARGANTS",
          "formations": [
             {"id": 517, "name": "Fighta-Bommer Skwadron", "pts": 0, "upgrades": [49]},
             {"id": 518, "name": "Landa", "pts": 250,  "units": "Landa", "upgrades": []},
@@ -72,7 +72,7 @@
    ],
    "formationConstraints": [
       {"max": 1, "name": "Spacecraft", "from": [520]},
-      {"maxPercent": 33, "name": "War Engines & Allies", "from": [517,518,522,523]}
+      {"maxPercent": 34, "name": "War Engines & Allies", "from": [517,518,522,523]}
    ],
    "upgradeConstraints": [
       {"max": 1, "from": [81], "perArmy": true},
