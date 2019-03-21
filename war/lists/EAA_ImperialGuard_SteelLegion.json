@@ -5,7 +5,7 @@
 	"sections":[
 		{"name":"COMPANIES", "formations":[
 			{"id":500, "name":"Regimental HQ", 				"pts":400, "upgrades":[48,50,52,53,54,57,58,55,59,60,61,62,63]},
-			{"id":501, "name":"Infantry Company", 			"pts":225, "units":"Steel Legion Commander with a Commissar", "upgrades":[49,51,53,54,57,58,56,59,60,61,64,65]},
+			{"id":501, "name":"Infantry Company", 			"pts":225, "units":"Steel Legion Commander with a Commissar", "upgrades":[49,51,52,53,54,57,58,56,59,60,61,64,65]},
 			{"id":502, "name":"Mechanized Infantry Company", 	"pts":300, "units":"Steel Legion Commander with a Commissar", "upgrades":[48,50,52,53,54,57,58,55,59,60,61,62,63]},
 			{"id":503, "name":"Tank Company", 			"pts":550, "units":"1 Leman Russ Vanquisher with a Commissar, 9 Leman Russ", "upgrades":[52,53,54,57,58,59,60,61]},
 			{"id":504, "name":"Super-Heavy Tank Company", 		"pts":500, "units":"1 Commissar", "upgrades":[52,55,56,54,57,58,59,60,61]},
