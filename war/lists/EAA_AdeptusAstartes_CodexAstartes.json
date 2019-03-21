@@ -1,6 +1,6 @@
 {
 	"id":"EAA Codex Astartes",
-	"version":"1.1",
+	"version":"0.8.1",
 	"by":"EA Apocalypse",
 
 	"sections":[
@@ -19,7 +19,7 @@
 			{"id":512, "name":"Scouts",			"pts":150, "units":"4 Scouts plus transport", "upgrades":[27,28,29,30, 34,35, 36]},
 			{"id":513, "name":"Orbital Support",			"pts":0, "upgrades":[]}, 
 			{"id":514, "name":"Terminators",		"pts":350, "units":"4 Terminators", "upgrades":[10,11,12,13, 33]},
-			{"id":515, "name":"Vindicators",			"pts":225, "units":"4 Vindicators", "upgrades":[10,11,12,13, 31,32]},
+			{"id":515, "name":"Vindicators",			"pts":225, "upgrades":[10,11,12,13, 31,32]},
 			{"id":516, "name":"Whirlwinds",				"pts":300, "units":"4 Whirlwinds", "upgrades":[31,32]}
 		]},
 
