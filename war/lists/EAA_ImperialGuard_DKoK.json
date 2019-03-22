@@ -1,6 +1,6 @@
 {
 	"id":"EAA Death Korps of Krieg",
-	"version":"1.4",
+	"version":"0.6.1",
 	"by":"EA Apocalypse",
 	"sections":[
 		{"name":"DEATH KORPS CORE FORMATIONS (Max 4 upgrades per formation)", "formations":[
@@ -12,11 +12,11 @@
 			{ "id":510, "name":"Grenadier Company", "pts":225, "units":"1 DKoK Commander with a Commissar, 7 Grenadiers", "upgrades":[23] },
 			{ "id":511, "name":"Leman Russ Platoon", "pts":350, "upgrades":[] },
 			{ "id":512, "name":"Macharius Company", "pts":325, "units":"2 Macharius", "upgrades":[] },
-			{ "id":513, "name":"Earthshaker Battery", "pts":175, "upgrades":[] },
+			{ "id":513, "name":"Earthshaker Battery", "pts":200, "upgrades":[] },
 			{ "id":514, "name":"Siege Artillery", "pts":225, "units":"3 Gun Emplacements", "upgrades":[] },
 			{ "id":516, "name":"Minotaur Battery", "pts":350,  "units":"1 Commissar, 2 Minotaurs", "upgrades":[] },
 			{ "id":517, "name":"Rough Rider Platoon", "pts":150, "units":"6 Rough Riders", "upgrades":[] },
-			{ "id":518, "name":"Deathstrikes", "pts":200, "units":"2 Deathstrikes, 2 Gun Emplacements", "upgrades":[] },
+			{ "id":518, "name":"Deathstrike Silo", "pts":250, "units":"Deathstrike Silo", "upgrades":[] },
 			{ "id":519, "name":"Flak Battery", "pts":150, "units":"3 Heavy AA Guns, 3 Trojans", "upgrades":[] },
 			{ "id":520, "name":"Super-Heavy Tank Company", "pts":500, "units":"1 Commissar", "upgrades":[] }
 		]},
@@ -57,7 +57,7 @@
 		{ "id":40, "name":"Leman Russ", "pts":0},
 		{ "id":41, "name":"Leman Russ Demolisher", "pts":0},
 		{ "id":42, "name":"3 Earthshaker Guns, 3 Trojans", "pts":0},
-		{ "id":43, "name":"6 Earthshaker Guns, 1 Commissar, 6 Trojans", "pts":175},
+		{ "id":43, "name":"6 Earthshaker Guns, 1 Commissar, 6 Trojans", "pts":200},
 		{ "id":44, "name":"3 Medusa", "pts":0 },
 		{ "id":45, "name":"3 Bombards", "pts":0 },
 
