@@ -1,6 +1,6 @@
 {
    "id": "Chaos - World Eaters",
-   "version": "1.5",
+   "version": "0.6.1",
    "by": "EA-Apocalypse",
    "sections": [
       {"name": "INDIVIDUALS", "formations": [
@@ -16,7 +16,7 @@
             {"id": 532, "name": "World Eaters Terminators", "pts": 375, "upgrades": [26,24,22,25,27,39]},
             {"id": 533, "name": "Berzerker Bikes", "pts": 350, "units": "8 Khorne Berzerker Assault Bikes", "upgrades": [27,25]},
             {"id": 534, "name": "World Eaters Renegades", "pts": 175, "units": "Daemonic Pact", "upgrades": [30,33]},
-            {"id": 535, "name": "Armoured Company", "pts": 0, "upgrades": [30]}
+            {"id": 535, "name": "Armoured Company", "pts": 200,  "units": "4 Chaos Predators", "upgrades": [30]}
        ]},
 
       {"name": "MINOR DAEMON ENGINE FORMATIONS (Max one fore each World Eater Retinue)", "formations": [
@@ -37,7 +37,7 @@
    ],
    "upgrades": [
       {"id": 13, "name": "Blood Lord", "pts": 50},
-      {"id": 14, "name": "Daemon Prince of Khorne", "pts": 75},
+      {"id": 14, "name": "Daemon Prince of Khorne (replaces the Blood Lord's unit)", "pts": 75},
       {"id": 15, "name": "Skull Lord", "pts": 0},
       {"id": 17, "name": "4 Chaos Space Marines", "pts": 0},
       {"id": 19, "name": "4 Khorne Berzerkers", "pts": 0},
@@ -50,9 +50,8 @@
       {"id": 26, "name": "Champion of Khorne", "pts": 50},
       {"id": 27, "name": "Icon Bearer ", "pts": 25},
       {"id": 30, "name": "2 Chaos Vindicators", "pts": 50},
-      {"id": 32, "name": "Chaos Predator", "pts": 200},
       {"id": 33, "name": "2 Chaos Predators", "pts": 75},
-	  
+
       {"id": 34, "name": "Greater Brass Scorpion", "pts": 175},
       {"id": 35, "name": "Slaughterfiend", "pts": 35},
       {"id": 36, "name": "2 Forgefiends", "pts": 75},
@@ -61,14 +60,14 @@
       {"id": 39, "name": "Dreadclaws", "pts": 0},
       {"id": 40, "name": "Devastator Class Cruiser ", "pts": 0},
       {"id": 41, "name": "Despoiler Class Battleship", "pts": 75},
-	  
+
 		{"id":71, "name":"Greater Daemon Pool point", "pts":50},
 		{"id":72, "name":"Lesser Daemon Pool point", "pts":15},
 		{"id":73, "name":"Greater Daemon Pool point (Free)", "pts":0},
 		{"id":74, "name":"Lesser Daemon Pool point (Daemonic Pact)", "pts":0}
    ],
    "formationConstraints": [
-      {"max": 1, "from": [556]}, 
+      {"max": 1, "from": [556]},
       {"max": 1, "name": "Spacecraft", "from": [557]},
       {"min": 1,"max": 1, "from": [501]},
       {"maxPercent": 33, "name": "War Engines & Allies", "from": [551,552,553,554,555,557]},
@@ -97,7 +96,6 @@
       {"min": 4, "max": 4, "from": [37,38], "appliesTo": [532]},
       {"min": 1, "max": 2, "from": [34], "appliesTo": [551]},
       {"min": 1, "max": 1, "from": [15,13,14], "appliesTo": [521,531,532]},
-      {"min": 1, "max": 1, "from": [32], "appliesTo": [535]},
       {"min": 1, "max": 1, "from": [25], "appliesTo": [531]},
       {"min": 0, "max": 1, "from": [36], "appliesTo": [543,544]},
       {"min": 1, "max": 1, "from": [15], "appliesTo": [533]},
@@ -105,6 +103,6 @@
       {"min": 1, "max": 1, "from": [20,21], "appliesTo": [534]},
       {"min": 1, "from": [19], "appliesTo": [521]},
       {"min": 1, "max": 2, "from": [17,19], "appliesTo": [521]}
-	  
+
    ]
 }
