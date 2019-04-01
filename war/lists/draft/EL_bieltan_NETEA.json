@@ -19,7 +19,7 @@
 			{"id":522, "name":"Windrider Troupe",			"pts":200, 	"upgrades":[]},
 			{"id":523, "name":"Swords of Vaul Troupe",		"pts":0, 	"upgrades":[30,31,32]},
 			{"id":524, "name":"Night Spinner Troupe",		"pts":175, 	"upgrades":[], "units":"3x Night Spinners"},
-			{"id":525, "name":"Engine of Vaul Troupe",		"pts":50, 	"upgrades":[40,41,42,43]}
+			{"id":525, "name":"Engines of Vaul Troupe",		"pts":50, 	"upgrades":[40,41,42,43]}
 		]},
 		{"name":"SPACESHIPS, AIRCRAFT & TITANS", "formations":[
 			{"id":530, "name":"Wraithship",					"pts":150, 	"upgrades":[]},
