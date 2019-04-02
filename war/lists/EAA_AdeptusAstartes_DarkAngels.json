@@ -24,7 +24,7 @@
 
 		]},
 
-		{"name":"CODEX ASTARTES AIRCRAFT, NAVY AND TITAN ALLIES (Max 33%)", "formations":[
+		{"name":"DARK ANGELS AIRCRAFT AND SWORDWING (Max 33%)", "formations":[
 			{"id":520, "name": "Nephilim Squadron", "units":"2 Ravenwing Nephilim Interceptors",		"pts":200, "upgrades":[]},
 			{"id":521, "name": "Dark Talon Squadron",	"units":"2 Ravenwing Dark Talon Fighter-Bombers",			"pts":225, "upgrades":[]},
 			{"id":522, "name": "1 Swordwing Support",										"pts":0, "upgrades":[]}
@@ -69,7 +69,7 @@
 		{"id":51, "name":"Hunter Class Destroyer",						"pts":75}
 	],
 	"formationConstraints":[
-		{"max":3, "name":"Support Detachments", "from":[509,510,511,512,513,514,515,516,517], "forEach":[501,502,504,505], "name2":"Core Detachment"},
+		{"max":3, "name":"Support Detachments", "from":[509,510,511,512,513,514,515,516,517], "forEach":[501,502,503,504,505], "name2":"Core Detachment"},
 		{"max":1,"perArmy":true, "name":"Dreadwing Relic", "from":[517]},
 		{"max":1, "min":1, "perArmy":true, "name":"Spacecraft", "from":[522]},
 		{"maxPercent":34, "name":"Aircraft, Navy & Titans", "from":[520,521,522]}
