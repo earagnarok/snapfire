@@ -1,21 +1,21 @@
 {
 	"id":"EAA Blood Angels",
-	"version":"0.6.1",
+	"version":"0.6.2",
 	"by":"EA Apocalypse",
 
 	"sections":[
 		{"name":"BLOOD ANGELS CORE DETACHMENTS", "formations":[
 			{"id":500, "name":"1 Death Company", 					"pts":250, "units":"1 Chaplain",  "upgrades":[]},
 			{"id":501, "name":"0-1 Sanguinary Guard", 				"pts":250, "units":"1 Supreme Commander, 4 Sanguinary Guards", "upgrades":[35,36]},
-			{"id":503, "name":"Tacticals",							"pts":275, "units":"6 Tacticals plus transport", "upgrades":[10,11,12, 31,32, 33,34, 35,36, 40,41]},
+			{"id":503, "name":"Tacticals",							"pts":275, "units":"6 Tacticals plus transport", "upgrades":[10,11,12, 31,32, 33,34, 35,36, 40,41,43]},
 			{"id":505, "name":"Assaults", 							"pts":175, "units":"4 Assaults", "upgrades":[10,11,12, 35,36]}
 		]},
 		{"name":"BLOOD ANGELS SUPPORT DETACHMENTS (Max 3 for each Core Detachment)", "formations":[
 			{"id":508, "name":"Land Raiders",					"pts":100,  "upgrades":[10,11,12, 31,32]},
 			{"id":509, "name":"Baal Predators",					"pts":250, "upgrades":[10,11,12, 31,32]},
 			{"id":510, "name":"Bikes",							"pts":200, "upgrades":[10,11,12]},
-			{"id":511, "name":"Devastators",					"pts":250, "units":"4 Devastators plus transport", "upgrades":[10,11,12, 31,32, 33,34, 35,36, 40,41]},
-			{"id":512, "name":"Blood Angels Terminators",		"pts":275, "upgrades":[10,11,12, 33,34]},
+			{"id":511, "name":"Devastators",					"pts":250, "units":"4 Devastators plus transport", "upgrades":[10,11,12, 31,32, 33,34, 35,36, 40,41,43]},
+			{"id":512, "name":"Blood Angels Terminators",		"pts":275, "upgrades":[10,11,12, 33,34, 40,41,43]},
 			{"id":513, "name":"Scouts",							"pts":150, "upgrades":[10,11,12, 29,30]},
 			{"id":514, "name":"Land Speeders",					"pts":200, "upgrades":[]},
 			{"id":515, "name":"Landing Craft",					"pts":350, "units":"1 Landing Craft",  "upgrades":[]},
@@ -30,10 +30,9 @@
 		]}
 	],
 	"upgrades":[
-		{"id":1, "name":"4 Death Company Marines, 2 Rhinos",									"pts":0},
-		{"id":2, "name":"4 Death Company Marines with Jump Packs", 								"pts":0},
-		{"id":3, "name":"4 Death Company Marines, Drop Pods", 									"pts":0},
-		{"id":4, "name":"4 Death Company Marines, 2 Death Company Dreadnoughts, Drop Pods", 	"pts":100},
+		{"id":1, "name":"4 Death Company Marines plus transport",						"pts":0},
+		{"id":2, "name":"4 Death Company Marines with Jump Packs", 						"pts":0},
+		{"id":3, "name":"4 Death Company Marines plus transport, 2 Death Company Dreadnoughts", 	"pts":100},
 
 		{"id":10, "name":"Captain",		"pts":50},
 		{"id":11, "name":"Chaplain", 		"pts":50},
@@ -61,7 +60,7 @@
 		{"id":30, "name":"Razorback with Twin Heavy Bolter", 			"pts":25},
 
 		{"id":31, "name":"Hunter", 										"pts":75},
-		{"id":32, "name":"Stalker", 									"pts":75},
+		{"id":32, "name":"Stalker", 									"pts":50},
 
 		{"id":33, "name":"Land Raider", 								"pts":50},
 		{"id":34, "name":"Land Raider Redeemer",						"pts":50},
@@ -71,6 +70,7 @@
 
 		{"id":40, "name":"1 Furioso Dreadnought",						"pts":50},
 		{"id":41, "name":"2 Furioso Dreadnoughts",						"pts":75},
+		{"id":43, "name":"3 Furioso Dreadnoughts",						"pts":125},
 
 		{"id":42, "name":"Storm Raven",									"pts":75},
 
@@ -90,7 +90,7 @@
 		{"maxPercent":34, "name":"Aircraft, Navy & Titans", "from":[520,521,522]}
 	],
 	"upgradeConstraints":[
-		{"min":1, "max":1, "from":[1,2,3,4], "appliesTo":[500]},
+		{"min":1, "max":1, "from":[1,2,3], "appliesTo":[500]},
 
 		{"min":0, "max":1, "from":[10,11,12], "appliesTo":[503,505, 508,509,510,511,512,513]},
 

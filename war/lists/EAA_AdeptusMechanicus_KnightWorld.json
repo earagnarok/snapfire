@@ -1,6 +1,6 @@
 {
 	"id":"Adeptus Mechanicus - Knight World",
-	"version":"0.9.1",
+	"version":"1.0.0",
 	"notes":[""],
 	"by":"EA-Apocalypse",
 	"sections":[
@@ -14,9 +14,9 @@
 			{"id":514, "name":"Aggressor Household",	"pts":75, "upgrades":[19,12]}
 		]},
 		{"name":"Retainer Formations (Max 1 per Core or Support Household)", "formations":[
-			{"id":521, "name":"Planetary Defence Company",	"pts":150, "units":"9 PDF Infantry, 1 PDF Commander", "upgrades":[20,21,23,22]},
+			{"id":521, "name":"Planetary Defence Company",	"pts":175, "units":"9 PDF Infantry, 1 PDF Commander", "upgrades":[20,21,23,22]},
 			{"id":522, "name":"AAA Platoon", 		"pts":125, "units":"3 Heavy AA, 3 Gun Emplacements", "upgrades":[]},
-			{"id":523, "name":"Howitzer Platoon",		"pts":150, "units":"3 Howitzers, 3 Gun Emplacements", "upgrades":[]},
+			{"id":523, "name":"Howitzer Platoon",		"pts":175, "units":"3 Howitzers, 3 Gun Emplacements", "upgrades":[]},
 			{"id":524, "name":"Rough Riders",		"pts":150, "units":"6 Rough Riders", "upgrades":[]},
 			{"id":525, "name":"Light Mechanized",			"pts":125, "units":"3 Centaurs, 3 PDF Infantry", "upgrades":[20,21]}
 		]},

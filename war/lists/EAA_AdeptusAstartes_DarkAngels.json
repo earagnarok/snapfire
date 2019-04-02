@@ -55,7 +55,7 @@
 
 		{"id":30, "name":"2 Mortis Dreadnought", 						"pts":75},
 		{"id":31, "name":"2 Hunters", 									"pts":125},
-		{"id":32, "name":"2 Stalkers", 									"pts":125},
+		{"id":32, "name":"2 Stalkers", 									"pts":100},
 
 
 		{"id":33, "name":"Land Raider", 								"pts":50},
