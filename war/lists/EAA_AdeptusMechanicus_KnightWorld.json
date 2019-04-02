@@ -8,7 +8,7 @@
 			{"id":501, "name":"Protector Household",	"pts":75, "upgrades":[13,10,11]}
 		]},
 		{"name":"Support Households (Max 2 per Core Household)", "formations":[
-			{"id":511, "name":"Custodian Household",	"pts":75, "upgrades":[14,12]},
+			{"id":511, "name":"Custodian Household",	"pts":50, "upgrades":[14,12]},
 			{"id":512, "name":"Vanguard Household", 	"pts":75, "upgrades":[15,12]},
 			{"id":513, "name":"Guardian Household",		"pts":100, "upgrades":[16,17,18,12]},
 			{"id":514, "name":"Aggressor Household",	"pts":75, "upgrades":[19,12]}
@@ -32,7 +32,8 @@
 		{"id":11, "name":"Knight-Baron",						"pts":150},
 		{"id":12, "name":"Seneschal",							"pts":25},
 		{"id":13, "name":"Knight-Protector",					"pts":75},
-		{"id":14, "name":"Knight-Custodian",					"pts":100},
+		{"id":14, "name":"Knight-Custodian (Twin Lascannon)",					"pts":100},
+		{"id":24, "name":"Knight-Custodian (Multi Barreled Autocannon)",					"pts":100},
 		{"id":15, "name":"Knight-Vanguard",						"pts":75},
 		{"id":16, "name":"Knight-Guardian Demolisher",			"pts":50},
    		{"id":17, "name":"Knight-Guardian Skysweeper",			"pts":50},
@@ -54,7 +55,7 @@
 		{"max":1, "from":[11,10]},
 		{"max":1,  "perArmy":true,  "from":[11]},
 		{"min":5, "max":7, "from":[13,10,11], "appliesTo":[501]},
-		{"min":2, "max":4, "from":[14], "appliesTo":[511]},
+		{"min":2, "max":4, "from":[14,24], "appliesTo":[511]},
 		{"min":3, "max":5, "from":[15], "appliesTo":[512]},
 		{"min":4, "max":6, "from":[16,17,18], "appliesTo":[513]},
 		{"min":3, "max":5, "from":[19], "appliesTo":[514]},
