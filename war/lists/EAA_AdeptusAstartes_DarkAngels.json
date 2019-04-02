@@ -1,0 +1,101 @@
+{
+	"id":"EAA Dark Angels",
+	"version":"0.8.1",
+	"by":"EA Apocalypse",
+
+	"sections":[
+		{"name":"DARK ANGELS CORE DETACHMENTS", "formations":[
+			{"id":501, "name":"Ravenwing", 					"pts":325, "units":"1 Ravenwing Black Knights, 3 Ravenwing Land Speeders", "upgrades":[10,11,12,13]},
+			{"id":502, "name":"Land Raiders",				"pts":250, "units":"3 Land Raiders", "upgrades":[]},
+			{"id":503, "name":"Tacticals",					"pts":275, "units":"6 Tacticals plus transport", "upgrades":[10,11,12,13, 30,31,32, 33]},
+			{"id":504, "name":"Devastators",				"pts":250, "units":"4 Dark Angels Devastators plus transport", "upgrades":[10,11,12,13, 30,31,32, 34]},
+			{"id":505, "name":"Deathwing Terminators",		"pts":350,  "upgrades":[10,11,12,13]}
+		]},
+		{"name":"DARK ANGELS SUPPORT DETACHMENTS (Max 3 for each Core Detachment)", "formations":[
+			{"id":509, "name":"Assaults", 						"pts":250, "units":"1 Dark Angels Captain, 6 Assaults", "upgrades":[]},
+			{"id":510, "name":"Scouts",							"pts":150, "upgrades":[34]},
+			{"id":511, "name":"Whirlwinds",						"pts":275, "units":"4 Whirlwinds", "upgrades":[30,31,32]},
+			{"id":512, "name":"Ravenwing Support",				"pts":150, "upgrades":[]},
+			{"id":513, "name":"Predators",						"pts":250, "upgrades":[]},
+			{"id":514, "name":"Land Raider Ares",				"pts":350, "units":"3 Land Raider Ares, 3 Vindicators",  "upgrades":[]},
+			{"id":515, "name":"Deathwing Land Raiders",			"pts":450,  "units":"3 Deathwing Land Raiders, 3 Deathwing Terminators", "upgrades":[]},
+			{"id":516, "name":"Deathwing Dreadnoughts",			"pts":300,  "units":"5 Deathwing Dreadnoughts plus transport", "upgrades":[]},
+			{"id":517, "name":"0-1 Dreadwing Relic",			"pts":0, "upgrades":[]}
+
+		]},
+
+		{"name":"CODEX ASTARTES AIRCRAFT, NAVY AND TITAN ALLIES (Max 33%)", "formations":[
+			{"id":520, "name": "Nephilim Squadron", "units":"2 Ravenwing Nephilim Interceptors",		"pts":200, "upgrades":[]},
+			{"id":521, "name": "Dark Talon Squadron",	"units":"2 Ravenwing Dark Talon Fighter-Bombers",			"pts":225, "upgrades":[]},
+			{"id":522, "name": "1 Swordwing Support",										"pts":0, "upgrades":[]}
+		]}
+	],
+	"upgrades":[
+		{"id":10, "name":"Dark Angels Captain",		"pts":50},
+		{"id":11, "name":"Chaplain", 		"pts":50},
+		{"id":12, "name":"Librarian", 		"pts":50},
+		{"id":13, "name":"Supreme Commander",	"pts":100},
+
+		{"id":15, "name":"4 Scouts plus transport",							"pts":0},
+		{"id":16, "name":"2 Scouts, 2 Scouts with 'Sniper' plus transport",		"pts":25},
+		{"id":17, "name":"4 Scouts with 'Sniper' plus transport",				"pts":50},
+
+		{"id":20, "name":"Ravenwing Assault Bike",						"pts":0},
+		{"id":21, "name":"Ravenwing Attack Bike", 						"pts":0},
+
+		{"id":22, "name":"4 Predator Annihilators",						"pts":0},
+		{"id":23, "name":"4 Predator Destructors",						"pts":0},
+
+		{"id":25, "name":"4 Ravenwing Land Speeder Tornado",			"pts":0},
+		{"id":26, "name":"4 Ravenwing Land Speeder Venegance",			"pts":50},
+
+		{"id":27, "name":"Deathwing Terminators",						"pts":0},
+		{"id":28, "name":"Deathwing Cyclones",							"pts":0},
+		{"id":29, "name":"Deathwing Knights",							"pts":0},
+
+		{"id":30, "name":"2 Mortis Dreadnought", 						"pts":75},
+		{"id":31, "name":"2 Hunters", 									"pts":125},
+		{"id":32, "name":"2 Stalkers", 									"pts":125},
+
+
+		{"id":33, "name":"Land Raider", 								"pts":50},
+
+		{"id":34, "name":"4 Dark Angels Razorbacks",					"pts":100},
+
+		{"id":40, "name":"4 Deimos Predator Executioners, 3 Deimos Laser Vindicators",	"pts":400},
+		{"id":41, "name":"2 Glaives",									"pts":550},
+
+		{"id":50, "name":"Strike Cruiser",								"pts":200},
+		{"id":51, "name":"Hunter Class Destroyer",						"pts":75}
+	],
+	"formationConstraints":[
+		{"max":3, "name":"Support Detachments", "from":[509,510,511,512,513,514,515,516,517], "forEach":[501,502,504,505], "name2":"Core Detachment"},
+		{"max":1,"perArmy":true, "name":"Dreadwing Relic", "from":[517]},
+		{"max":1, "min":1, "perArmy":true, "name":"Spacecraft", "from":[522]},
+		{"maxPercent":34, "name":"Aircraft, Navy & Titans", "from":[520,521,522]}
+	],
+	"upgradeConstraints":[
+		{"max":1, "perArmy":true, "from":[13]},
+
+		{"min":0, "max":1, "from":[10,11,12,13], "appliesTo":[501,503,504]},
+
+		{"min":1, "max":1, "from":[15,16,17], "appliesTo":[510]},
+
+		{"min":4, "max":4, "from":[20,21], "appliesTo":[501]},
+
+		{"min":1, "max":1, "from":[22,23], "appliesTo":[513]},
+
+		{"min":1, "max":1, "from":[25,26], "appliesTo":[512]},
+
+		{"min":4, "max":4, "from":[27,28,29], "appliesTo":[505]},
+
+		{"min":0, "max":1, "from":[30,31,32], "appliesTo":[503,504,511]},
+
+		{"min":0, "max":3, "from":[33], "appliesTo":[503]},
+		{"min":0, "max":1, "from":[34], "appliesTo":[504,510]},
+
+		{"min":1, "max":1, "from":[40,41], "appliesTo":[517]},
+
+		{"min":1, "max":1, "from":[51,50], "appliesTo":[522]}
+	]
+}
