@@ -30,7 +30,7 @@
 	"upgrades":[
 
 		{"id":5, "name":"11 Siege Infantry",	"pts":0},
-		{"id":6, "name":"15 Siege Infantry",	"pts":25},
+		{"id":6, "name":"17 Siege Infantry",	"pts":50},
 
 		{"id":8, "name":"Heavy Tank Platoon: 6 Ragnarok Heavy Tanks, 6 Gun Emplacements",	"pts":0},
 		{"id":9, "name":"Heavy Tank Company: 10 Ragnarok Heavy Tanks, 1 Commissar, 9 Gun Emplacements",	"pts":200},
