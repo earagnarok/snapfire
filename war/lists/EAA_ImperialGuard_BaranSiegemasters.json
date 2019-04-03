@@ -9,9 +9,9 @@
 
 		]},
 		{"name":"SUPPORT FORMATIONS (two for each Company)", "formations":[
-			{"id":510, "name":"Howitzers", 			"pts":150, "upgrades":[]},
+			{"id":510, "name":"Howitzers", 			"pts":175, "upgrades":[]},
 			{"id":511, "name":"Siege Artillery", 			"pts":225, "upgrades":[], "units":"3 Gun Emplacements"},
-			{"id":512, "name":"Heavy Mortar Battery",				"pts":125, "upgrades":[], "units":"3 Heavy Mortars, 3 Gun Emplacements"},
+			{"id":512, "name":"Heavy Mortar Battery",				"pts":175, "upgrades":[], "units":"4 Heavy Mortars, 4 Gun Emplacements"},
 			{"id":513, "name":"Deathstrike Silo",	"pts":250, "upgrades":[], "units":"2 Deathstrikes, 2 Gun Emplacements"},
 			{"id":514, "name":"Flak Battery", 			"pts":150, "upgrades":[], "units":"4 Heavy AA Guns, 4 Gun Emplacements"},
 			{"id":515, "name":"Heavy Tanks",			"pts":350, "upgrades":[]},
@@ -20,7 +20,7 @@
 			{"id":518, "name":"Sapper Company",				"pts":300, "upgrades":[], "units":"1 Baran Commander with a Commissar, 7 Sappers, 1 Hades Breaching Drill"},
 			{"id":519, "name":"Super-Heavy Tank Platoon", 		"pts":175, "upgrades":[]},
 			{"id":520, "name":"Baran Macharius Company", 		"pts":275,  "units":"1 Commissar", "upgrades":[]}
-			
+
 		]},
 		{"name":"IMPERIAL NAVY (max 25%)", "formations":[
 			{"id":530, "name":"Marauder Bombers",		"pts":225, "upgrades":[], "units":"2 Marauders"},
@@ -35,7 +35,7 @@
 		{"id":8, "name":"Heavy Tank Platoon: 6 Ragnarok Heavy Tanks, 6 Gun Emplacements",	"pts":0},
 		{"id":9, "name":"Heavy Tank Company: 10 Ragnarok Heavy Tanks, 1 Commissar, 9 Gun Emplacements",	"pts":200},
 		{"id":10, "name":"Howitzer Battery: 3 Howitzers, 3 Gun Emplacements",			"pts":0},
-		{"id":11, "name":"Howitzer Company: 6 Howitzers, 1 Commissar, 6 Gun Emplacements",	"pts":200},
+		{"id":11, "name":"Howitzer Company: 6 Howitzers, 1 Commissar, 6 Gun Emplacements",	"pts":175},
 		{"id":12, "name":"3 Bombards",								"pts":0},
 		{"id":13, "name":"3 Medusa",								"pts":0},
 		{"id":14, "name":"Baran Macharius",							"pts":0},
@@ -58,21 +58,21 @@
 		{"max":2, "name":"Support Formations", "from":[510,511,512,513,514,515,516,517,518,519,520], "forEach":[501,502], "name2":"Regiment Company"},
 		{"max":1, "from":[513]},
 		{"min":1, "max":1, "from":[501]}
-		
+
 	],
 	"upgradeConstraints":[
 		{"min":1, "max":1, "from":[5,6], "appliesTo":[501,502]},
-		
+
 		{"min":1, "max":1, "from":[10,11], "appliesTo":[510]},
-		
+
 		{"min":1, "max":1, "from":[12,13], "appliesTo":[511]},
-		
+
 		{"min":1, "max":1, "from":[8,9], "appliesTo":[515]},
 
 		{"min":3, "max":3, "from":[14,15], "appliesTo":[520]},
-		
+
 		{"min":1, "max":1, "from":[16,26,17], "appliesTo":[519]},
-		
+
 		{"max":1, "from":[19]},
 		{"max":1, "from":[20]},
 		{"max":1, "from":[21]},
