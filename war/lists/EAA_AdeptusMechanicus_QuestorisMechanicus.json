@@ -5,7 +5,7 @@
 	"notes":[],
 	"sections":[
 		{"name":"Questoris Lances", "formations":[
-			{"id":500, "name":"Questoris", 		"pts":50, "upgrades":[10,11,100,101,102,103,104,105,130,131,132,133]}
+			{"id":500, "name":"Questoris", 		"pts":75, "upgrades":[10,11,100,101,102,103,104,105,130,131,132,133]}
 		]},
 		{"name":"Cerastus Lances / / Max 1 Cerastus Lance per Questoris Lance", "formations":[
 			{"id":501, "name":"Cerastus",	"pts":275,  "upgrades":[113,114,115,116]}
