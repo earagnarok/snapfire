@@ -61,7 +61,7 @@
 		{"id":83, "name":"Carapace Multi-Lasers",	"pts":50},
 		{"id":84, "name":"Sacred Icon",			"pts":50},
 
-		{"id":61, "name":"Tech-Priest Dominus",							"pts":25},
+		{"id":61, "name":"Tech-Priest",							"pts":25},
 		{"id":62, "name":"Cybernetica Datasmith",						"pts":50},
 		{"id":63, "name":"Magos",								"pts":25},
 		{"id":64, "name":"Archmagos",								"pts":75},
@@ -81,7 +81,7 @@
 
 		{"id":45, "name":"Kataphron Breacher",							"pts":0},
 		{"id":46, "name":"Kataphron Destroyer",							"pts":0},
-		{"id":50, "name":"Kastelan Robots and 1 Tech-Priest Dominus",				"pts":0},
+		{"id":50, "name":"Kastelan Robots and 1 Tech-Priest",				"pts":0},
 		{"id":51, "name":"Kastelan Robots - Incendine combustor and Kastelan fists",		"pts":0},
 		{"id":52, "name":"Ironstrider Ballistarius - Twin Cognis Autocannon",			"pts":0},
 		{"id":53, "name":"Ironstrider Ballistarius - Twin Cognis Lascannon",			"pts":0},
