@@ -23,8 +23,8 @@
 
 {"name":"ADEPTUS MECHANICUS ALLIES (Max 40%. Max 1 Lysander Fighter for each Warmonger Titan or Reaver Carapace Landing Pad)",
 "formations":[
-        {"id":530,"name":"Skitarii Maniple","pts":225,"units":"9 Skitarii Vanguard, 1 Tech-Priest","upgrades":[15]},
-		{"id":531,"name":"Kastelan Maniple","pts":50,"units":"1 Techpriest Dominus", "upgrades":[14]},
+        {"id":530,"name":"Skitarii Maniple","pts":225,"units":"9 Skitarii Vanguard, 1 Magos","upgrades":[15]},
+		{"id":531,"name":"Kastelan Maniple","pts":50,"units":"1 Tech-Priest", "upgrades":[14]},
 		{"id":532,"name":"Avenger Squadron","pts":175,"units":"2 Avenger Fighter-Bombers","upgrades":[]},
         {"id":533,"name":"Lysander Fighter","pts":75,"units":"1 Lysander Fighter","upgrades":[]},
 		{"id":534,"name":"Orbital Support","pts":175,"units":"1 Ark Mechanicus Battleship","upgrades":[]},

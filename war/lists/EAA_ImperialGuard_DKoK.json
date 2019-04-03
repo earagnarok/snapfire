@@ -1,6 +1,6 @@
 {
 	"id":"EAA Death Korps of Krieg",
-	"version":"0.6.1",
+	"version":"0.6.2",
 	"by":"EA Apocalypse",
 	"sections":[
 		{"name":"DEATH KORPS CORE FORMATIONS (Max 4 upgrades per formation)", "formations":[
@@ -9,7 +9,7 @@
 			{ "id":503, "name":"Death Rider Company", "pts":300, "units":"1 Commissar, 12 Death Riders", "upgrades":[31] }
 		]},
 		{"name":"SUPPORT FORMATIONS (Max 2 for each Core Formation)", "formations":[
-			{ "id":510, "name":"Grenadier Company", "pts":225, "units":"1 DKoK Commander with a Commissar, 7 Grenadiers", "upgrades":[23] },
+			{ "id":510, "name":"Grenadier Company", "pts":225, "units":"1 DKoK Commander with a Commissar, 7 Grenadiers", "upgrades":[22] },
 			{ "id":511, "name":"Leman Russ Platoon", "pts":350, "upgrades":[] },
 			{ "id":512, "name":"Macharius Company", "pts":325, "units":"2 Macharius", "upgrades":[] },
 			{ "id":513, "name":"Earthshaker Battery", "pts":200, "upgrades":[] },
@@ -26,34 +26,35 @@
 			{ "id":532, "name":"Thunderbolt Fighters", "pts":150, "units":"2 Thunderbolts", "upgrades":[] },
 			{ "id":533, "name":"Marauder Bomber", "pts":225, "upgrades":[] },
 			{ "id":534, "name":"Orbital Support",	"pts":150, "upgrades":[]}
-		]}	
+		]}
 	],
 	"upgrades":[
 		{ "id":13, "name":"1 DKoK Supreme Commander with a Commissar, 14 Assault Infantry", "pts":0},
 		{ "id":14, "name":"1 DKoK Supreme Commander with a Lord Commissar, 14 Assault Infantry", "pts":100},
 		{ "id":15, "name":"1 DKoK Supreme Commander with a Commissar, 19 Assault Infantry, 2 Gorgons", "pts":250},
 		{ "id":16, "name":"1 DKoK Supreme Commander with a Lord Commissar, 19 Assault Infantry, 2 Gorgons", "pts":350},
-		
+
 		{ "id":17, "name":"1 DKoK Commander with a Commissar, 14 Assault Infantry", "pts":0},
 		{ "id":18, "name":"1 DKoK Commander with a Commissar, 19 Assault Infantry, 2 Gorgons", "pts":250},
 
-		{ "id":21, "name":"Macharius", "pts":100},	
-		{ "id":23, "name":"Gorgon", "pts":75 },		
+		{ "id":21, "name":"Macharius", "pts":100},
+		{ "id":22, "name":"4 Storm Chimeras", "pts":100 },
+		{ "id":23, "name":"Gorgon", "pts":75 },
 		{ "id":24, "name":"Macharius Command Tank with a Commissar (Vanquishers)", "pts":0 },
 		{ "id":25, "name":"Macharius Command Tank with a Commissar (Vulcan Mega-Bolter)", "pts":0 },
 
 		{ "id":26, "name":"6 Leman Russ Thunderers", "pts":0},
 		{ "id":27, "name":"6 Leman Russ Annihilators", "pts":0},
-		
+
 		{ "id":30, "name":"4 Trench Support Squads", "pts":75},
 		{ "id":31, "name":"Hellhound", "pts":25},
 
 		{ "id":33, "name":"Snipers", "pts":25 },
 		{ "id":34, "name":"60cm of Trenches, 60cm of Razor Wire", "pts":50 },
-		
+
 		{ "id":35, "name":"Malcador", "pts":75},
 		{ "id":36, "name":"Malcador Annihilator", "pts":75},
-	
+
 		{ "id":40, "name":"Leman Russ", "pts":0},
 		{ "id":41, "name":"Leman Russ Demolisher", "pts":0},
 		{ "id":42, "name":"3 Earthshaker Guns, 3 Trojans", "pts":0},
@@ -65,10 +66,10 @@
 		{ "id":51, "name":"Shadowsword", "pts":0 },
 		{ "id":52, "name":"Stormblade", "pts":0 },
 		{ "id":53, "name":"Stormsword", "pts":0 },
-		
+
 		{ "id":60, "name":"Lunar Class Cruiser", "pts":0 },
 		{ "id":61, "name":"Emperor Class Battleship", "pts":50 }
-		
+
 	],
 	"formationConstraints":[
 		{"maxPercent":33, "name":"Titans & Navy", "from":[531,532,533,534]},
@@ -83,6 +84,7 @@
 
 		{"max":1, "from":[20]},
 		{"max":1, "from":[21]},
+		{"max":1, "from":[22]},
 		{"max":1, "from":[23]},
 		{"max":1, "from":[30]},
 		{"max":3, "from":[31]},
@@ -90,25 +92,25 @@
 		{"max":2, "from":[33]},
 		{"max":1, "from":[34]},
 		{"max":2, "from":[35,36]},
-		
+
 		{"min":1, "max":1, "from":[13,14,15,16], "appliesTo":[501]},
 		{"max":1, "from":[15,16,34], "appliesTo":[501]},
-		
+
 		{"min":1, "max":1, "from":[17,18], "appliesTo":[502]},
 		{"max":1, "from":[18,34], "appliesTo":[502]},
-		
+
 		{"min":1, "max":1, "from":[26,27], "appliesTo":[511]},
-		
+
 		{"min":1, "max":1, "from":[24,25], "appliesTo":[512]},
 
 		{"min":6, "max":6, "from":[40,41], "appliesTo":[515]},
-		
+
 		{"min":1, "max":1, "from":[42,43], "appliesTo":[513]},
-		
+
 		{"min":1, "max":1, "from":[44,45], "appliesTo":[514]},
-		
+
 		{"min":3, "max":3, "from":[50,51,52,53], "appliesTo":[520]},
-		
+
 		{"min":1, "max":1, "from":[60,61], "appliesTo":[534]}
 	]
 }
