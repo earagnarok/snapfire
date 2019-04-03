@@ -1,7 +1,6 @@
 {
 	"id":"Adeptus Mechanicus - Knight World",
-	"version":"1.0.0",
-	"notes":[""],
+	"version":"1.0.1",
 	"by":"EA-Apocalypse",
 	"sections":[
 		{"name":"Core Households", "formations":[
@@ -18,7 +17,7 @@
 			{"id":522, "name":"AAA Platoon", 		"pts":125, "units":"3 Heavy AA, 3 Gun Emplacements", "upgrades":[]},
 			{"id":523, "name":"Howitzer Platoon",		"pts":175, "units":"3 Howitzers, 3 Gun Emplacements", "upgrades":[]},
 			{"id":524, "name":"Rough Riders",		"pts":150, "units":"6 Rough Riders", "upgrades":[]},
-			{"id":525, "name":"Light Mechanized",			"pts":125, "units":"3 Centaurs, 3 PDF Infantry", "upgrades":[20,21]}
+			{"id":525, "name":"Light Mechanized",			"pts":100, "units":"3 Centaurs, 3 PDF Infantry", "upgrades":[20,21]}
 		]},
 		{"name":"Imperial Navy (Max 25%)", "formations":[
 			{"id":541, "name":"Thunderbolt Interceptors", "pts":150, "upgrades":[], "units":"2 Thunderbolt Fighters"},
