@@ -29,7 +29,7 @@
         {"id":533,"name":"Lysander Fighter","pts":75,"units":"1 Lysander Fighter","upgrades":[]},
 		{"id":534,"name":"Orbital Support","pts":175,"units":"1 Ark Mechanicus Battleship","upgrades":[]},
         {"id":535,"name":"Minoris Maniple","pts":300, "upgrades":[]},
-		{"id":520,"name":"Questoris Banner","pts":275, "upgrades":[100,101,102,103,104,105]}
+		{"id":520,"name":"Questoris Banner","pts":250, "upgrades":[100,101,102,103,104,105]}
 ]}
 
 ],
