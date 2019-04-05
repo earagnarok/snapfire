@@ -19,7 +19,7 @@
             {"id": 520, "name": "0-1 Ordo Hereticus Inquisitor", "pts": 200, "units": "1 Inquisitor, 7 Tempestus Scions", "upgrades": [25]},
 	        {"id": 521, "name": "Redemption", "pts": 150, "units": "8 Redemptionists", "upgrades": [5, 20, 21]},
             {"id": 522, "name": "Flagellant", "pts": 225, "units": "6 Arco-Flagellants", "upgrades": []},
-            {"id": 523, "name": "Pentinence", "pts": 175, "upgrades": []}
+            {"id": 523, "name": "Penitence", "pts": 175, "upgrades": []}
          ]},
         {"name": "SORORITAS WAR ENGINES AND IMPERIAL NAVY (Max 33%)", "formations": [
             {"id": 530, "name": "Engine of Worship", "pts": 250, "units": "1 Emperor's Chapel", "upgrades": [] },
@@ -43,7 +43,7 @@
 	  {"id": 15, "name": "2 Exorcist Prioris","pts": 75},
       {"id": 16, "name": "1 Sororitas Hunter","pts": 75},
 
-	  {"id": 20, "name": "2 Pentinent Engines","pts": 50},
+	  {"id": 20, "name": "2 Penitent Engines","pts": 50},
 	  {"id": 21, "name": "4 IQ Land Transporters","pts": 50},
 
 	  {"id": 25, "name": "2 Hellhounds","pts": 50},
@@ -51,8 +51,8 @@
 	  {"id": 30, "name": "6 Exorcist Prioris","pts": 0},
 	  {"id": 31, "name": "4 Exorcist Sanctorum","pts": 0},
 
-	  {"id": 32, "name": "4 Pentinent Engines","pts": 0},
-	  {"id": 33, "name": "6 Pentinent Engines","pts": 50},
+	  {"id": 32, "name": "4 Penitent Engines","pts": 0},
+	  {"id": 33, "name": "6 Penitent Engines","pts": 50},
 
 	  {"id": 35, "name": "4 Chimeras","pts": 100},
 	  {"id": 36, "name": "3 Valkyries, 2 Vendettas","pts": 200}
