@@ -30,14 +30,14 @@
    "upgrades": [
 	  {"id": 1, "name": "Palatine","pts": 0},
 	  {"id": 2, "name": "Canoness","pts": 75},
-	  {"id": 3, "name": "Living Saint","pts": 75},
+	  {"id": 3, "name": "Living Saint (Replaces the Palatine and its unit)","pts": 75},
 
 	  {"id": 5, "name": "Priest","pts": 25},
 
       {"id": 10, "name": "Sororitas Rhino","pts": 0},
       {"id": 11, "name": "Immolator","pts": 25},
       {"id": 12, "name": "Repressor","pts": 25},
-      {"id": 13, "name": "Emperor's Chapel","pts": 100},
+      {"id": 13, "name": "Emperor's Chapel","pts": 150},
 
 	  {"id": 15, "name": "2 Exorcist Prioris","pts": 100},
       {"id": 16, "name": "1 Sororitas Hunter","pts": 75},
@@ -48,7 +48,7 @@
 	  {"id": 25, "name": "2 Hellhounds","pts": 50},
 
 	  {"id": 30, "name": "4 Exorcist Prioris","pts": 0},
-	  {"id": 31, "name": "4 Exorcist Sanctorum","pts": 0},
+	  {"id": 31, "name": "4 Exorcist Sanctorum","pts": 25},
 
 	  {"id": 32, "name": "4 Penitent Engines","pts": 0},
 	  {"id": 33, "name": "6 Penitent Engines","pts": 50},
