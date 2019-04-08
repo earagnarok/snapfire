@@ -1,5 +1,5 @@
 {
-"id":"AMTL",
+"id":"Collegia Titanica",
 "version":"0.8.0",
 "by":"EA Apocalypse",
 "sections":[
@@ -22,14 +22,14 @@
 		{"id":520,"name":"Questoris Banner","pts":275, "upgrades":[100,101,102,103,104,105]}
 ]},
 
-{"name":"ADEPTUS MECHANICUS ALLIES (Max 40%. Max 1 Lysander Fighter for each Warmonger Titan or Reaver Carapace Landing Pad)",
+{"name":"ADEPTUS MECHANICUS ALLIES (Max 33%. Max 1 Lysander Fighter for each Warmonger Titan or Reaver Carapace Landing Pad)",
 "formations":[
         {"id":530,"name":"Skitarii Maniple","pts":225,"units":"9 Skitarii Vanguard, 1 Magos","upgrades":[15]},
 		{"id":531,"name":"Kastelan Maniple","pts":50,"units":"1 Tech-Priest", "upgrades":[14]},
 		{"id":532,"name":"Avenger Squadron","pts":175,"units":"2 Avenger Fighter-Bombers","upgrades":[]},
         {"id":533,"name":"Lysander Fighter","pts":75,"units":"1 Lysander Fighter","upgrades":[]},
 		{"id":534,"name":"Orbital Support","pts":175,"units":"1 Ark Mechanicus Battleship","upgrades":[]},
-        {"id":535,"name":"Minoris Maniple","pts":300, "upgrades":[]}
+        {"id":535,"name":"Minoris","pts":50, "upgrades":[130,131,132,133,134]}
 ]}
 
 ],
@@ -95,11 +95,11 @@
 		{"id":104, "name":"Knight-Warden (Gatling Cannon, Ironstorm Missiles, Hvy Stubber, Reaper Chainsword)",												"pts":0},
 		{"id":105, "name":"Knight-Preceptor (Las-Impulsor, Hvy Stubber, Thunderstrike Gauntlet)",															"pts":0},
 
-		{"id":130, "name":"Ordinatus Minoris (Triple-Twin Hydra Autocannon)",	"pts":0},
-		{"id":131, "name":"Ordinatus Minoris (Titan Plasma Cannon)",			"pts":0},
-		{"id":132, "name":"Ordinatus Minoris (Turbo-laser Destructor)",		"pts":0},
-		{"id":133, "name":"Ordinatus Minoris (Apocalypse Missile Launcher)",	"pts":0},
-		{"id":134, "name":"Ordinatus Minoris (Corvus Assault Pod)",	"pts":0},
+		{"id":130, "name":"Ordinatus Minoris (Triple-Twin Hydra Autocannon)",	"pts":125},
+		{"id":131, "name":"Ordinatus Minoris (Titan Plasma Cannon)",			"pts":125},
+		{"id":132, "name":"Ordinatus Minoris (Turbo-laser Destructor)",		"pts":125},
+		{"id":133, "name":"Ordinatus Minoris (Apocalypse Missile Launcher)",	"pts":125},
+		{"id":134, "name":"Ordinatus Minoris (Corvus Assault Pod)",	"pts":125},
 
 		{"id":150, "name":"2 Warhound Titans (Standard Configuration)",		"pts":0},
 		{"id":151, "name":"2 Warhound Titans (Support Configuration)",		"pts":0},
@@ -110,7 +110,7 @@
         {"max":1, "perArmy":true, "from":[500]},
 		{"max":1, "perArmy":true, "from":[534]},
 		{"max":3, "name":"Support Formations", "from":[510,520], "forEach":[500,501,502,503,504], "name2":"Battle Titan"},
-        {"maxPercent":41,"name":"Adeptus Mechanicus Allies","from":[530,531,532,533,534,535]}
+        {"maxPercent":34,"name":"Adeptus Mechanicus Allies","from":[530,531,532,533,534,535,536]}
 ],
 "upgradeConstraints":[
         {"max":1, "perArmy":true, "from":[10]},
@@ -136,7 +136,7 @@
         {"max":1,"from":[84],"appliesTo":[503]},
         {"max":1,"from":[85],"appliesTo":[503]},
 
-        {"min":1,"max":1,"from":[90,91,92,93],"appliesTo":[504]},
+        {"min":1,"max":1,"from":[90,91,93],"appliesTo":[504]},
         {"min":2,"max":2,"from":[95,96,97,98],"appliesTo":[504]},
         {"max":1,"from":[98],"appliesTo":[504]},
 
@@ -144,6 +144,6 @@
 
         {"min":5,"max":8,"from":[14],"appliesTo":[531]},
 
-        {"min":2,"max":2,"from":[130,131,132,133,134],"appliesTo":[535]}
+        {"min":1,"max":2,"from":[130,131,132,133,134],"appliesTo":[535]}
 ]
 }
