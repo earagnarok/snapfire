@@ -38,7 +38,7 @@
 
 	  {"id": 9, "name": "Priest","pts": 25},
 
-      {"id": 10, "name": "Sororitas Rhino (Transport: 2)","pts": 10},
+      {"id": 10, "name": "Sororitas Rhino (Transport: 2)","pts": 5},
       {"id": 11, "name": "Repressor (Transport: 2)","pts": 15},
       {"id": 12, "name": "Immolator (Transport: 1)","pts": 25},
       {"id": 13, "name": "Emperor's Chapel (Transport: 8)","pts": 175},
@@ -48,7 +48,7 @@
 
 	  {"id": 20, "name": "2 Penitent Engines","pts": 50},
 
-	  {"id": 21, "name": "5 OH Land Transporters","pts": 50},
+	  {"id": 21, "name": "5 OH Land Transporters","pts": 25},
 
 	  {"id": 25, "name": "2 Hellhounds","pts": 50},
 
