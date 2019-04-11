@@ -1,6 +1,6 @@
 {
    "id": "Adepta Sororitas",
-   "version": "0.7.6",
+   "version": "0.7.7",
    "by": "EA-Apocalypse",
    "notes":[],
 
@@ -10,8 +10,9 @@
 	  ]},
         {"name": "SORORITAS SUPPORT DETACHMENTS (Max 2 for each Core Detachment)", "formations": [
 	    {"id": 510, "name": "Exorcism", "pts": 250, "upgrades": [16]},
+        {"id": 515, "name": "Immolation", "pts": 235, "units": "Three Celestian Sisters, three Immolators", "upgrades": []},
 	    {"id": 511, "name": "Seraphim", "pts": 225,  "upgrades": []},
-	    {"id": 512, "name": "Retribution", "pts":175, "units": "4 Retribution Sisters", "upgrades": [10,11,12]},
+	    {"id": 512, "name": "Retribution", "pts":200, "units": "4 Retribution Sisters, 2 Retributors", "upgrades": []},
         {"id": 513, "name": "Dominion", "pts": 150, "units": "4 Dominion Sisters", "upgrades": [10,11,12]},
         {"id": 514, "name": "Repentance", "pts": 125, "units": "4 Repentia Sisters", "upgrades": [9, 10,11,12]}
          ]},
@@ -19,7 +20,7 @@
             {"id": 520, "name": "0-1 Ordo Hereticus Inquisitor", "pts": 200, "units": "Inquisitor, 7 Tempestus Scions", "upgrades": [25]},
 	        {"id": 521, "name": "Redemption", "pts": 150, "units": "10 Redemptionists", "upgrades": [9, 20, 21]},
             {"id": 522, "name": "Flagellant", "pts": 225, "units": "6 Arco-Flagellants", "upgrades": [20]},
-            {"id": 523, "name": "Penitence", "pts": 225, "units": "6 Penitent Engines", "upgrades": []}
+            {"id": 523, "name": "Penitence", "pts": 175, "units": "4 Penitent Engines", "upgrades": []}
          ]},
         {"name": "IMPERIAL NAVY (Max 25%)", "formations": [
             {"id": 532, "name": "Lightning Squadron", "pts": 150, "units": "2 Lightning Interceptors", "upgrades": [] },
@@ -38,10 +39,10 @@
 
 	  {"id": 9, "name": "Priest","pts": 25},
 
-      {"id": 10, "name": "Sororitas Rhino (Transport: 2)","pts": 5},
-      {"id": 11, "name": "Repressor (Transport: 2)","pts": 15},
-      {"id": 12, "name": "Immolator (Transport: 1)","pts": 25},
-      {"id": 13, "name": "Emperor's Chapel (Transport: 8)","pts": 175},
+      {"id": 10, "name": "Sororitas Rhino","pts": 5},
+      {"id": 11, "name": "Repressor","pts": 15},
+      {"id": 12, "name": "Immolator","pts": 25},
+      {"id": 13, "name": "Emperor's Chapel","pts": 175},
 
 	  {"id": 15, "name": "2 Exorcist Prioris","pts": 75},
       {"id": 16, "name": "Sororitas Hunter","pts": 75},
@@ -63,7 +64,7 @@
       {"max": 1, "from": [534]},
       {"max": 1, "from": [520]},
       {"maxPercent": 26, "name": "Imperial Navy", "from": [532,533,534]},
-      {"max": 2, "name": "Sororitas Support Detachments", "from": [510,511,512,513,514], "forEach": [500], "name2": "Core Detachment" },
+      {"max": 2, "name": "Sororitas Support Detachments", "from": [510,511,512,513,514,515], "forEach": [500], "name2": "Core Detachment" },
       {"max": 2, "name": "Ordo Hereticus Formations", "from": [520,521,522,523], "forEach": [500], "name2": "Core Detachment" }
    ],
    "upgradeConstraints": [
