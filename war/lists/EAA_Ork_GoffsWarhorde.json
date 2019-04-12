@@ -1,6 +1,6 @@
 {
    "id": "EA_A Clan Goffs Warhorde",
-   "version": "v0.8.1",  
+   "version": "1.0.0",  
    "notes": ["If the army includes any Great Gargants, the Warlord must be in one of them. Otherwize the Warlord will join a Nobz or Gargant unit."],
    "by": "EA-Apocalypse",
    "sections": [
@@ -76,14 +76,14 @@
    ],
    "upgradeConstraints": [
       {"max": 1, "from": [81], "perArmy": true},
-      
+
       {"min": 1, "from": [60], "appliesTo": [566]},
       {"min": 2, "from": [60], "appliesTo": [567]},
       {"min": 3, "from": [60], "appliesTo": [568]},
       {"min": 3, "from": [57], "appliesTo": [566]},
       {"min": 6, "from": [57], "appliesTo": [567]},
       {"min": 9, "from": [57], "appliesTo": [568]},
-      
+
       {"max": 2, "from": [64], "appliesTo": [500,514]},
       {"max": 1, "from": [68,69,70,78], "appliesTo": [500,504,507,513]},
       {"max": 4, "from": [64], "appliesTo": [501]},

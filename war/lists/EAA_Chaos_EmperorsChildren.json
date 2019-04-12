@@ -1,6 +1,6 @@
 {
 	"id":"EAA Emperors Children",
-	"version":"1.5",
+	"version":"1.0.0",
 	"notes":
 		["Add one free Lesser Daemon to Daemon pool per Daemonic Pact"],
 		"by":"EA Armageddon",
@@ -38,37 +38,37 @@
 		{"id":12, "name":"Chaos Warlord", 		"pts":50},
 		{"id":13, "name":"Daemon Prince (replaces one unit of Chaos Space Marines or Noise Marines)", 		"pts":75},
 		{"id":16, "name":"Daemon Prince (replaces one unit of Emperor's Children Terminators)", 		"pts":75},
-		
-		{"id":14, "name":"Icon Bearer", "pts":25},		
+
+		{"id":14, "name":"Icon Bearer", "pts":25},
 		{"id":15, "name":"Chaos Champion", "pts":50},
-		
+
 		{"id":19, "name":"3 Noise Marines", "pts":0},
 		{"id":20, "name":"3 Chaos Space Marines", 		"pts":0},
 		{"id":21, "name":"3 Noise Marines", "pts":25},
 		{"id":22, "name":"3 Noise Marine Havocs", "pts":50},
-	
+
 		{"id":30, "name":"Chaos Rhino", 	"pts":10},
 		{"id":31, "name":"Emperors Children Land Raider", 	"pts":50},
 		{"id":32, "name":"4 Emperors Children Land Raiders", 	"pts":200},
 
 		{"id":35, "name":"2 Emperors Children Dreadnoughts", "pts":75},
-	
+
 		{"id":40, "name":"4 Emperors Children Predators", 	"pts":200},
 		{"id":41, "name":"4 Emperors Children Land Raiders", 	"pts":275},
-		
+
 		{"id":44, "name":"Chaos Stalker", "pts":50},
-		
+
 		{"id":50, "name":"Debaser of Slaanesh", "pts":50},
 
 		{"id":70, "name":"Daemonic Pact", "pts":25},
-		
+
 		{"id":71, "name":"Greater Daemon Pool point", "pts":50},
 		{"id":72, "name":"Lesser Daemon Pool point", "pts":15},
 		{"id":73, "name":"Greater Daemon Pool point (Free)", "pts":0},
 		{"id":74, "name":"Lesser Daemon Pool point (Daemonic Pact)", "pts":0},
-		
+
 		{"id":80, "name":"Dreadclaw Drop Pod", "pts":5}
-	
+
 
 	],
 	"formationConstraints":[
@@ -81,13 +81,13 @@
 	"upgradeConstraints":[
 		{"max":1, "perArmy":true, "from":[12,13,16]},
 		{"min":1, "max":1, "from":[73], "appliesTo":[500]},
-	
+
 		{"min":0, "max":1, "from":[70], "appliesTo":[501,502,503,504,505]},
-	
+
 		{"min":1, "max":1, "from":[10,11,12,13], "appliesTo":[501]},
 		{"min":0, "max":1, "from":[14], "appliesTo":[501,502,504]},
 		{"min":0, "max":1, "from":[15], "appliesTo":[501,502]},
-	
+
 		{"min":1, "max":1, "from":[19], "appliesTo":[501]},
 		{"min":1, "max":1, "from":[20,21,22], "appliesTo":[501]},
 
@@ -95,17 +95,17 @@
 		{"max":1, "from":[44], "appliesTo":[501,506]},
 		{"min":0, "max":3, "from":[30,31], "appliesTo":[501]},
 		{"min":0, "max":8, "from":[80], "appliesTo":[501]},
-	
-		{"min":1, "max":1, "from":[10,11,12,16], "appliesTo":[502]},	
+
+		{"min":1, "max":1, "from":[10,11,12,16], "appliesTo":[502]},
 		{"min":0, "max":1, "from":[32,80], "appliesTo":[502]},
-		
+
 		{"min":1, "max":1, "from":[10,11], "appliesTo":[504,505]},
 
 		{"min":1, "max":1, "from":[40,41], "appliesTo":[506]},
-		
+
 		{"min":0, "max":1, "from":[44], "appliesTo":[501,506]},
-		
+
 		{"min":4, "max":6, "from":[50], "appliesTo":[513]}
-		
+
 	]
 }
