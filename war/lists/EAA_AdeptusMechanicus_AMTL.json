@@ -1,6 +1,6 @@
 {
 "id":"Collegia Titanica",
-"version":"0.8.2",
+"version":"0.8.3",
 "by":"EA Apocalypse",
 "sections":[
 {
@@ -79,6 +79,7 @@
 	    {"id":91,"name":"Deathstrike Missile","pts":0},
 	    {"id":92,"name":"Quad Hydra Autocannon","pts":0},
 	    {"id":93,"name":"Carapace Landing Pad","pts":0},
+	    {"id":94,"name":"Titan Plasma Cannon","pts":0},
 
 	    {"id":95,"name":"Apocalypse Missile Launcher","pts":0},
 	    {"id":96,"name":"Titan Plasma Cannon","pts":0},
@@ -136,7 +137,7 @@
         {"max":1,"from":[84],"appliesTo":[503]},
         {"max":1,"from":[85],"appliesTo":[503]},
 
-        {"min":1,"max":1,"from":[90,91,93],"appliesTo":[504]},
+        {"min":1,"max":1,"from":[90,91,93,94],"appliesTo":[504]},
         {"min":2,"max":2,"from":[95,96,97,98],"appliesTo":[504]},
         {"max":1,"from":[98],"appliesTo":[504]},
 

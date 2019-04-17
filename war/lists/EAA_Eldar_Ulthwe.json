@@ -43,7 +43,7 @@
       {"id": 27, "name": "Eldar Jetbikes", "pts": 0},
       {"id": 28, "name": "Vyper","pts": 0},
       {"id": 30, "name": "Falcon", "pts": 50},
-	  {"id": 31, "name": "Fire Storm", "pts": 50},
+	  {"id": 31, "name": "Firestorm", "pts": 50},
 	  {"id": 47, "name": "Cobra", "pts": 200},
       {"id": 48, "name": "Scorpion", "pts": 200},
       {"id": 49, "name": "Storm Serpent", "pts": 200},
