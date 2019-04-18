@@ -1,11 +1,11 @@
 {
    "id": "Necrons - Maynarkh Dynasty",
-   "version": "1.11",
+   "version": "0.7.1",
    "by": "EA-Apocalypse Team",
    "notes": [""],
    "sections": [
       {"name": "INDIVIDUALS", "formations": [
-            {"id": 601, "name": "Tomb Complex", "pts": 0, "upgrades": []}
+            {"id": 601, "name": "Tomb Complex", "pts": 25, "upgrades": []}
          ]
       },
       {"name": "NECRON PHALANXES",
@@ -14,18 +14,19 @@
             }
          ]
       },
-      {"name": "NECRON SUPPORT",
+      {"name": "NECRON SUPPORT (Max 3 for each Necron Phalanx)",
          "formations": [
             {"id": 505, "name": "Armored Phalanx", "pts": 250, "units": "5 Obelisks"},
             {"id": 502, "name": "Eques Maniple", "pts": 350, "upgrades": [103,104,107]},
-            {"id": 503, "name": "Monolith Maniple", "pts": 25, "upgrades": [105,106]},
-            {"id": 506, "name": "Pylon", "pts": 200, "upgrades": []},
+            {"id": 503, "name": "Portal Maniple", "pts": 50, "upgrades": [105,106]},
             {"id": 501, "name": "Venator Maniple", "pts": 200, "units": "6 Flayed Ones", "upgrades": [100,103,101,104,107]}
          ]
       },
-      {"name": "HARVESTERS",
+      {"name": "HARVESTERS (Max 33%)",
          "formations": [
-            {"id": 803, "name": "Harvester Engine", "pts": 750},
+            {"id": 803, "name": "Harvester Engine", "pts": 600},
+            {"id": 801, "name": "Pylon", "pts": 175, "upgrades": []},
+            {"id": 804, "name": "Doom Scythes",  "units":"Two Doom Scythes", "pts": 250, "upgrades": []},
             {"id": 802, "name": "Spacecraft", "units":"One Scythe Class Harvester", "pts": 350},
             {"id": 805, "name": "Warbarque", "pts": 300, "upgrades": []}
          ]
@@ -56,8 +57,7 @@
       {"max": 1, "from": [602]},
       {"max": 1, "from": [802]},
       {"max": 1, "from": [803]},
-      {"max": 2, "from": [805]},
-      {"maxPercent": 33, "name": "War Engines & Allies", "from": [602,506,802,803,804,805]},
+      {"maxPercent": 33, "name": "War Engines & Allies", "from": [801,802,803,804,805]},
       {"max": 3, "name": "Necron Support", "from": [501,502,503,504,505,506], "forEach": [701], "name2": "Necron Phalanx"}
    ],
    "upgradeConstraints": [

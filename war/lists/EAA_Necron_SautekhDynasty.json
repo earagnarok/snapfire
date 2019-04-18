@@ -1,10 +1,10 @@
 {
    "id": "Necron - Sautekh Dynasty",
-   "version": "1.11",
+   "version": "0.5.0",
    "by": "Apocalypse Team",
    "sections": [
       {"name": "INDIVIDUALS", "formations": [
-            {"id": 501, "name": "Tomb Complex", "pts": 0, "upgrades": []}
+            {"id": 501, "name": "Tomb Complex", "pts": 25, "upgrades": []}
          ]
       },
       {"name": "SAUTEKH NECRON PHALANXES",
@@ -92,7 +92,7 @@
       {"max": 2, "name": "Support Formations", "from": [600,700,701,702,703,704,705,706,707,708], "forEach": [601], "name2": "Necron Phalanx"}
    ],
    "upgradeConstraints": [
-      {"max": 1, "from": [2,4,6], "perArmy": true},	
+      {"max": 1, "from": [2,4,6], "perArmy": true},
       {"max": 1, "from": [99], "perArmy": true},
       {"max": 1, "from": [1]},
       {"max": 1, "from": [3]},
