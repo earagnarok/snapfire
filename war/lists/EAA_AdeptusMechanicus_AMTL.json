@@ -1,12 +1,12 @@
 {
 "id":"Collegia Titanica",
-"version":"0.8.3",
+"version":"1.0.0",
 "by":"EA Apocalypse",
 "sections":[
 {
 "name":"BATTLE TITAN FORMATIONS",
 "formations":[
-        {"id":500,"name":"Emperor Titan","pts":900, "upgrades":[10]},
+        {"id":500,"name":"Emperor Titan","pts":950, "upgrades":[10]},
 
 		{"id":501,"name":"Warlord Titan (Deathbringer Class)","pts":750, "upgrades":[10,11]},
         {"id":502,"name":"Warlord Titan (Nemesis Class)","pts":750, "upgrades":[10,11]},
