@@ -1,6 +1,6 @@
 {
 "id":"Collegia Titanica",
-"version":"1.0.0",
+"version":"1.0.1",
 "by":"EA Apocalypse",
 "sections":[
 {
@@ -19,7 +19,7 @@
 {"name":"SUPPORT FORMATIONS (Max three for each Battle Titan formation)",
 "formations":[
 	    {"id":510,"name":"Warhound Pack","pts":500, "upgrades":[13]},
-		{"id":520,"name":"Questoris Banner","pts":75, "upgrades":[100,101,102,103,104,105]}
+		{"id":520,"name":"Questoris Banner","pts":50, "upgrades":[100,101,102,103,104,105]}
 ]},
 
 {"name":"ADEPTUS MECHANICUS ALLIES (Max 33%. Max 1 Lysander Fighter for each Warmonger Titan or Reaver Carapace Landing Pad)",

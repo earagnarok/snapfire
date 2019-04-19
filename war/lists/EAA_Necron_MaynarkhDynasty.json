@@ -1,34 +1,35 @@
 {
    "id": "Necrons - Maynarkh Dynasty",
-   "version": "0.7.1",
+   "version": "0.8.0",
    "by": "EA-Apocalypse Team",
    "notes": [],
    "sections": [
-      {"name": "INDIVIDUALS", "formations": [
-            {"id": 601, "name": "Tomb Complex", "pts": 25, "upgrades": []}
+      {"name": "MAYNARKH DYNASTY SPECIALS", "formations": [
+            {"id": 601, "name": "Tomb Complex", "pts": 50, "upgrades": []}
          ]
       },
       {"name": "NECRON PHALANXES",
          "formations": [
-            {"id": 701, "name": "Infantry Phalanx", "pts": 275, "upgrades": [100,103,101,99]
+            {"id": 701, "name": "Necron Phalanx", "pts": 225, "units": "7 Necron Warriors", "upgrades": [100,102,103,101,99]
             }
          ]
       },
-      {"name": "NECRON SUPPORT (Max 3 for each Necron Phalanx)",
+      {"name": "NECRON SUPPORT (Max 2 for each Necron Phalanx)",
          "formations": [
-            {"id": 505, "name": "Armored Phalanx", "pts": 250, "units": "5 Obelisks"},
-            {"id": 502, "name": "Eques Maniple", "pts": 300, "upgrades": [103,104,107]},
+            {"id": 505, "name": "Obelisk Phalanx", "pts": 250, "units": "5 Obelisks", "upgrades": []},
+            {"id": 502, "name": "Eques Maniple", "pts": 100, "upgrades": [109,110]},
             {"id": 503, "name": "Portal Maniple", "pts": 50, "upgrades": [105,106]},
             {"id": 504, "name": "Pylon", "pts": 200, "upgrades": []},
-            {"id": 501, "name": "Venator Maniple", "pts": 200, "units": "6 Flayed Ones", "upgrades": [100,103,101,104,107]}
+            {"id": 501, "name": "Venator Maniple", "pts": 200, "units": "6 Flayed Ones", "upgrades": []},
+            {"id": 506, "name": "Stalker Maniple", "units":"4 Triarch Stalkers", "pts": 200, "upgrades": [88]}
          ]
       },
       {"name": "HARVESTERS (Max 33%)",
          "formations": [
-            {"id": 803, "name": "Harvester Engine", "pts": 600},
-            {"id": 806, "name": "Night Scythes", "units":"2 Night Scythes", "pts": 250},
-            {"id": 804, "name": "Doom Scythes",  "units":"2 Doom Scythes", "pts": 250, "upgrades": []},
-            {"id": 802, "name": "Scythe Class Harvester", "pts": 300},
+            {"id": 803, "name": "Harvester Engine", "pts": 550},
+            {"id": 806, "name": "Night Shroud Bomber", "units":"1 Night Shroud Bomber", "pts": 175},
+            {"id": 804, "name": "Doom Scythe Fighter-Bombers",  "units":"2 Doom Scythes", "pts": 225, "upgrades": []},
+            {"id": 802, "name": "Cairn Class Tomb Ship", "pts": 250},
             {"id": 805, "name": "Warbarque", "pts": 300, "upgrades": []}
          ]
       }
@@ -36,22 +37,22 @@
    "upgrades": [
       {"id": 11, "name": "Nightbringer", "pts": 300},
       {"id": 12, "name": "Deceiver", "pts": 300},
-      {"id": 100, "name": "2 Tomb Spyders", "pts": 100},
-      {"id": 101, "name": "Cryptek", "pts": 50},
-      {"id": 102, "name": "Immortals", "pts": 40},
-      {"id": 103, "name": "3 Wraiths", "pts": 125},
-      {"id": 104, "name": "Necron Lord", "pts": 25},
-      {"id": 109, "name": "Destroyers", "pts": 0},
-      {"id": 110, "name": "Heavy Destroyers","pts": 0},
-      {"id": 106, "name": "Monolith", "pts": 75},
-      {"id": 105, "name": "Obelisk", "pts": 50},
-      {"id": 107, "name": "Necron Overlord", "pts": 75},
       {"id": 20, "name": "Abattoir", "pts": 0},
-      {"id": 21, "name": "Aeonic Orb", "pts": 0},
+      {"id": 21, "name": "Æonic Orb", "pts": 0},
       {"id": 22, "name": "Necron Lord", "pts": 0},
       {"id": 23, "name": "Necron Warriors", "pts": 0},
-      {"id": 24, "name": "Immortals", "pts": 25},
-      {"id": 99, "name": "C'tan Shard", "pts": 75}
+      {"id": 88, "name": "Seraptek Heavy Construct", "pts": 125},
+      {"id": 99, "name": "C'tan Shard", "pts": 75},
+      {"id": 100, "name": "3 Tomb Spyders", "pts": 100},
+      {"id": 101, "name": "Cryptek", "pts": 50},
+      {"id": 102, "name": "3 Immortals", "pts": 50},
+      {"id": 103, "name": "2 Wraiths", "pts": 75},
+      {"id": 104, "name": "Necron Lord", "pts": 25},
+      {"id": 109, "name": "Destroyers", "pts": 25},
+      {"id": 110, "name": "Heavy Destroyers","pts": 25},
+      {"id": 106, "name": "Monolith", "pts": 75},
+      {"id": 105, "name": "Obelisk", "pts": 50},
+      {"id": 107, "name": "Necron Overlord", "pts": 75}
    ],
    "formationConstraints": [
       {"max": 1, "from": [601]},
@@ -65,16 +66,16 @@
       {"max": 1, "from": [107], "perArmy": true},
       {"max": 1, "from": [99], "perArmy": true},
       {"max": 1, "from": [104,107]},
+      {"max": 1, "from": [102]},
+      {"max": 1, "from": [88]},
       {"max": 3, "from": [24], "appliesTo": [701]},
       {"max": 1, "min": 1, "from": [11,12], "appliesTo": [602]},
-      {"max": 8, "min": 8, "from": [23,24], "appliesTo": [701]},
       {"max": 1, "min": 1, "from": [22,107], "appliesTo": [701]},
       {"max": 1, "from": [100], "appliesTo": [701,501]},
       {"max": 1, "from": [101], "appliesTo": [701,501]},
-      {"max": 3, "from": [102], "appliesTo": [701]},
       {"max": 1, "from": [103], "appliesTo": [701,501,502]},
       {"max": 1, "from": [104], "appliesTo": [501,502]},
-      {"max": 6, "min": 6, "from": [109,110], "appliesTo": [502]},
+      {"max": 8, "min": 6, "from": [109,110], "appliesTo": [502]},
       {"max": 3, "min": 2, "from": [105], "appliesTo": [503]},
       {"max": 3, "min": 2, "from": [106], "appliesTo": [503]},
       {"max": 3, "from": [105], "appliesTo": [504]},

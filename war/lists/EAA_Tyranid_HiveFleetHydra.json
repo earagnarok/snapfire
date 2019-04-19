@@ -1,6 +1,6 @@
 {
   "id": "EAA Hive Fleet Dagon",
-  "version": "1.3",
+  "version": "0.8.1",
   "by": "EA-Apocalypse",
   "sections": [
     {
@@ -79,7 +79,7 @@
 			117,
 			120
           ]
-        }      
+        }
       ]
     },
 	{
@@ -100,7 +100,7 @@
 			111,
 			113,
 			114
-		  
+
           ]
 		},
 	    {
@@ -120,7 +120,7 @@
 			114,
 			115,
 			116
-		  
+
           ]
 		},
           {
@@ -171,7 +171,7 @@
     {
           "id": 510,
           "name": "Bio-Titan",
-          "pts": 0,
+          "pts": 25,
           "upgrades": [
           ]
     },
@@ -499,7 +499,7 @@
     }
   ],
   "upgradeConstraints": [
-  
+
     {
       "max": 1,
       "name": "Mycetic Spore",

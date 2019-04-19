@@ -1,6 +1,6 @@
 {
   "id": "EAA Hive Fleet Dagon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "by": "EA-Apocalypse",
   "sections": [
     {
@@ -179,7 +179,7 @@
     {
           "id": 510,
           "name": "Bio-Titan",
-          "pts": 0,
+          "pts": 25,
           "upgrades": [
           ]
     },
