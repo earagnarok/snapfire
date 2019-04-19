@@ -26,7 +26,7 @@
       },
       {"name": "HARVESTERS (Max 33%)",
          "formations": [
-            {"id": 803, "name": "Harvester Engine", "pts": 550},
+            {"id": 803, "name": "Harvester Engine", "pts": 500},
             {"id": 806, "name": "Night Shroud", "units":"Night Shroud Bomber", "pts": 175},
             {"id": 804, "name": "Doom Scythes",  "units":"2 Doom Scythe Fighter-Bombers", "pts": 225, "upgrades": []},
             {"id": 802, "name": "Tomb Ship", "units":"Cairn Class Tomb Ship", "pts": 250},
