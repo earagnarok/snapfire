@@ -17,7 +17,7 @@
       {"name": "NECRON SUPPORT (Max 2 for each Necron Phalanx)",
          "formations": [
             {"id": 505, "name": "Obelisk Phalanx", "pts": 250, "units": "5 Obelisks", "upgrades": []},
-            {"id": 502, "name": "Eques Maniple", "pts": 100, "upgrades": [109,110]},
+            {"id": 502, "name": "Eques Maniple", "pts": 75, "upgrades": [109,110]},
             {"id": 503, "name": "Portal Maniple", "pts": 50, "upgrades": [105,106]},
             {"id": 504, "name": "Guardian Maniple", "pts": 200,  "units":"Pylon", "upgrades": []},
             {"id": 501, "name": "Venator Maniple", "pts": 200, "units": "6 Flayed Ones", "upgrades": []},
