@@ -1,6 +1,6 @@
 {
    "id": "Necrons - Maynarkh Dynasty",
-   "version": "0.8.3",
+   "version": "0.8.4",
    "by": "EA-Apocalypse Team",
    "notes": [],
    "sections": [
@@ -10,48 +10,46 @@
       },
       {"name": "NECRON CORE",
          "formations": [
-            {"id": 701, "name": "Necron Phalanx", "pts": 225, "units": "7 Necron Warriors", "upgrades": [100,102,103,99]},
+            {"id": 701, "name": "Necron Phalanx", "pts": 200, "units": "7 Necron Warriors", "upgrades": [100,101,102,103,99]},
             {"id": 501, "name": "The Unbidden", "pts": 150, "units": "6 Flayed Ones", "upgrades": []}
          ]
       },
       {"name": "NECRON SUPPORT (Max 2 for each Necron Phalanx)",
          "formations": [
-            {"id": 505, "name": "Obelisk Phalanx", "pts": 250, "units": "5 Obelisks", "upgrades": []},
+            {"id": 505, "name": "Obelisk Phalanx", "pts": 300, "units": "5 Obelisks", "upgrades": []},
             {"id": 502, "name": "Eques Maniple", "pts": 50, "upgrades": []},
-            {"id": 503, "name": "Portal Maniple", "pts": 50, "upgrades": [105,106]},
-            {"id": 504, "name": "Guardian Maniple", "pts": 175,  "units":"Pylon", "upgrades": []},
+            {"id": 503, "name": "Monolith Maniple", "pts": 75, "upgrades": [106]},
+            {"id": 504, "name": "Pylon", "pts": 150, "upgrades": []},
             {"id": 506, "name": "Stalker Maniple", "units":"4 Triarch Stalkers", "pts": 200, "upgrades": [88]}
          ]
       },
       {"name": "HARVESTERS (Max 33%)",
          "formations": [
-            {"id": 803, "name": "Harvester Engine", "pts": 400},
+            {"id": 803, "name": "Harvester Engine", "pts": 375},
             {"id": 806, "name": "Night Shroud", "units":"Night Shroud Bomber", "pts": 175},
             {"id": 804, "name": "Doom Scythes",  "units":"2 Doom Scythe Fighter-Bombers", "pts": 225, "upgrades": []},
             {"id": 802, "name": "Tomb Ship", "units":"Cairn Class Tomb Ship", "pts": 250},
-            {"id": 805, "name": "Megalith Maniple", "pts": 275, "units": "Megalith", "upgrades": [108]}
+            {"id": 805, "name": "Megalith Maniple", "pts": 225, "units":"Megalith", "upgrades": [111]}
          ]
       }
    ],
    "upgrades": [
-      {"id": 11, "name": "Nightbringer", "pts": 300},
-      {"id": 12, "name": "Deceiver", "pts": 300},
-      {"id": 20, "name": "Abattoir", "pts": 100},
+      {"id": 20, "name": "Abattoir", "pts": 125},
       {"id": 21, "name": "Æonic Orb", "pts": 0},
       {"id": 22, "name": "Necron Lord", "pts": 0},
-      {"id": 23, "name": "Necron Warriors", "pts": 0},
-      {"id": 88, "name": "Seraptek Heavy Construct", "pts": 125},
+      {"id": 88, "name": "Seraptek Heavy Construct", "pts": 100},
       {"id": 99, "name": "C'tan Shard", "pts": 75},
-      {"id": 100, "name": "2 Tomb Spyders", "pts": 50},
-      {"id": 102, "name": "Immortals", "pts": 25},
-      {"id": 103, "name": "2 Wraiths", "pts": 50},
-      {"id": 108, "name": "Necron Destroyer Lord", "pts": 75},
-      {"id": 109, "name": "Destroyers", "pts": 25},
-      {"id": 110, "name": "Heavy Destroyers","pts": 25},
+      {"id": 100, "name": "Tomb Spyder", "pts": 50},
+      {"id": 101, "name": "2 Tomb Spyders", "pts": 75},
+      {"id": 102, "name": "3 Immortals", "pts": 75},
+      {"id": 103, "name": "Wraith", "pts": 25},
       {"id": 106, "name": "Monolith", "pts": 75},
       {"id": 105, "name": "Obelisk", "pts": 50},
       {"id": 107, "name": "Necron Overlord", "pts": 75},
-      {"id": 108, "name": "2 Monoliths", "pts": 125}
+      {"id": 108, "name": "Necron Destroyer Lord", "pts": 75},
+      {"id": 109, "name": "Destroyers", "pts": 25},
+      {"id": 110, "name": "Heavy Destroyers","pts": 25},
+      {"id": 111, "name": "2 Monoliths", "pts": 125}
    ],
    "formationConstraints": [
       {"min": 1, "from": [501]},
@@ -66,20 +64,19 @@
    "upgradeConstraints": [
       {"max": 1, "from": [107], "perArmy": true},
       {"max": 1, "from": [99], "perArmy": true},
-      {"max": 1, "from": [104,107]},
-      {"max": 4, "from": [102]},
+      {"max": 1, "from": [102]},
       {"max": 2, "from": [88]},
-      {"max": 3, "from": [24], "appliesTo": [701]},
-      {"max": 1, "min": 1, "from": [11,12], "appliesTo": [602]},
+      {"max": 1, "from": [111]},
+
       {"max": 1, "min": 1, "from": [22,107], "appliesTo": [701]},
-      {"max": 1, "from": [100], "appliesTo": [701,501]},
-      {"max": 1, "from": [103], "appliesTo": [701,501,502]},
-      {"max": 1, "from": [104], "appliesTo": [501,502]},
+      {"max": 1, "from": [100,101], "appliesTo": [701]},
+      {"max": 2, "from": [103], "appliesTo": [701]},
+
       {"max": 1, "from": [108]},
       {"max": 6, "min": 6, "from": [109,110,108], "appliesTo": [502]},
-      {"max": 3, "min": 2, "from": [105], "appliesTo": [503]},
+
       {"max": 3, "min": 2, "from": [106], "appliesTo": [503]},
-      {"max": 3, "from": [105], "appliesTo": [504]},
+
       {"min": 1, "max": 1, "from": [21,20], "appliesTo": [803]}
    ]
 }
