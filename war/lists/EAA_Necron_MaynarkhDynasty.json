@@ -5,7 +5,7 @@
    "notes": [],
    "sections": [
       {"name": "MAYNARKH DYNASTY SPECIALS", "formations": [
-            {"id": 601, "name": "Tomb Complex", "pts": 50, "upgrades": []}
+            {"id": 601, "name": "Necron Tomb Complex", "pts": 50, "units":"Tomb Complex", "upgrades": []}
          ]
       },
       {"name": "NECRON CORE",
@@ -16,10 +16,10 @@
       },
       {"name": "NECRON SUPPORT (Max 2 for each Necron Phalanx)",
          "formations": [
-            {"id": 501, "name": "Obelisk Phalanx", "pts": 50, "upgrades": [105]},
+            {"id": 501, "name": "Obelisk Phalanx", "pts": 25, "upgrades": [105]},
             {"id": 502, "name": "Eques Phalanx", "pts": 75, "upgrades": [100,101,103]},
             {"id": 503, "name": "Monolith Phalanx", "pts": 50, "upgrades": [106,105]},
-            {"id": 504, "name": "Pylon", "pts": 175, "upgrades": []},
+            {"id": 504, "name": "Pylon Guardian", "pts": 175, "units":"Pylon", "upgrades": []},
             {"id": 506, "name": "Stalker Maniple", "pts": 175, "upgrades": []}
          ]
       },
@@ -29,7 +29,7 @@
             {"id": 806, "name": "Night Shroud", "units":"Night Shroud Bomber", "pts": 175},
             {"id": 804, "name": "Doom Scythes",  "units":"2 Doom Scythe Fighter-Bombers", "pts": 225, "upgrades": []},
             {"id": 802, "name": "Tomb Ship", "units":"Cairn Class Tomb Ship", "pts": 225},
-            {"id": 805, "name": "Megalith Maniple", "pts": 275, "units":"Megalith", "upgrades": [111]}
+            {"id": 805, "name": "Megalith Conduit", "pts": 275, "units":"Megalith", "upgrades": [111]}
          ]
       }
    ],
@@ -43,7 +43,7 @@
       {"id": 100, "name": "Tomb Spyder", "pts": 50},
       {"id": 101, "name": "2 Tomb Spyders", "pts": 75},
       {"id": 102, "name": "3 Immortals", "pts": 75},
-      {"id": 103, "name": "Wraith", "pts": 25},
+      {"id": 103, "name": "Wraiths", "pts": 25},
 
       {"id": 105, "name": "Obelisk", "pts": 50},
       {"id": 106, "name": "Monolith", "pts": 75},
