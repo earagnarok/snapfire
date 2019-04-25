@@ -1,6 +1,6 @@
 {
    "id": "Necrons - Maynarkh Dynasty",
-   "version": "0.8.5",
+   "version": "0.8.6",
    "by": "EA-Apocalypse Team",
    "notes": [],
    "sections": [
@@ -8,7 +8,7 @@
             {"id": 601, "name": "Necron Tomb Complex", "pts": 50, "units":"Tomb Complex", "upgrades": []}
          ]
       },
-      {"name": "NECRON CORE",
+      {"name": "NECRON CORE (At least one 'The Unbidden' formation, but no more than the number of Necron Phalanx)",
          "formations": [
             {"id": 701, "name": "Necron Phalanx", "pts": 225, "units": "7 Necron Warriors", "upgrades": [100,101,102,103,99]},
             {"id": 702, "name": "The Unbidden", "pts": 200, "units": "6 Flayed Ones", "upgrades": []}
@@ -17,9 +17,9 @@
       {"name": "NECRON SUPPORT (Max 2 for each Necron Phalanx)",
          "formations": [
             {"id": 501, "name": "Obelisk Phalanx", "pts": 25, "upgrades": [105]},
-            {"id": 502, "name": "Eques Phalanx", "pts": 75, "upgrades": [100,101,103]},
+            {"id": 502, "name": "Destroyer Phalanx", "pts": 75, "upgrades": [100,101,103,99]},
             {"id": 503, "name": "Monolith Phalanx", "pts": 50, "upgrades": [106,105]},
-            {"id": 504, "name": "Pylon Guardian", "pts": 175, "units":"Pylon", "upgrades": []},
+            {"id": 504, "name": "Tomb Guardian", "pts": 175, "units":"Pylon", "upgrades": []},
             {"id": 506, "name": "Stalker Maniple", "pts": 175, "upgrades": []}
          ]
       },
@@ -28,7 +28,7 @@
             {"id": 803, "name": "Harvester Engine", "pts": 350},
             {"id": 806, "name": "Night Shroud", "units":"Night Shroud Bomber", "pts": 175},
             {"id": 804, "name": "Doom Scythes",  "units":"2 Doom Scythe Fighter-Bombers", "pts": 225, "upgrades": []},
-            {"id": 802, "name": "Tomb Ship", "units":"Cairn Class Tomb Ship", "pts": 225},
+            {"id": 802, "name": "Tomb Ship", "units":"Cairn Class Tomb Ship", "pts": 200},
             {"id": 805, "name": "Megalith Conduit", "pts": 275, "units":"Megalith", "upgrades": [111]}
          ]
       }
@@ -51,7 +51,8 @@
       {"id": 108, "name": "Necron Destroyer Lord", "pts": 50},
       {"id": 109, "name": "Destroyers", "pts": 25},
       {"id": 110, "name": "Heavy Destroyers","pts": 25},
-      {"id": 111, "name": "2 Monoliths", "pts": 100}
+      {"id": 111, "name": "2 Monoliths", "pts": 100},
+      {"id": 112, "name": "Necron Destroyer Overlord", "pts": 125}
    ],
    "formationConstraints": [
       {"min": 1, "from": [702]},
@@ -64,7 +65,7 @@
       {"max": 2, "name": "Necron Support", "from": [501,502,503,504,505,506], "forEach": [701], "name2": "Necron Phalanx"}
    ],
    "upgradeConstraints": [
-      {"max": 1, "from": [107], "perArmy": true},
+      {"max": 1, "from": [107,112], "perArmy": true},
       {"max": 1, "from": [99], "perArmy": true},
       {"max": 1, "from": [102]},
       {"max": 2, "from": [88]},
@@ -81,8 +82,8 @@
       {"max": 1, "from": [100,101], "appliesTo": [701,502]},
       {"max": 2, "from": [103], "appliesTo": [701,502]},
 
-      {"max": 1, "from": [108]},
-      {"max": 6, "min": 6, "from": [109,110,108], "appliesTo": [502]},
+      {"max": 1, "from": [108,112]},
+      {"max": 6, "min": 6, "from": [109,110,108,112], "appliesTo": [502]},
 
       {"min": 1, "max": 1, "from": [21,20], "appliesTo": [803]}
    ]
