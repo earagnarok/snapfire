@@ -17,7 +17,7 @@
       {"name": "NECRON SUPPORT (Max 2 for each Necron Phalanx)",
          "formations": [
             {"id": 501, "name": "Obelisk Phalanx", "pts": 50, "upgrades": [105]},
-            {"id": 502, "name": "Eques Phalanx", "pts": 75, "upgrades": []},
+            {"id": 502, "name": "Eques Phalanx", "pts": 75, "upgrades": [100,101,103]},
             {"id": 503, "name": "Monolith Phalanx", "pts": 50, "upgrades": [106,105]},
             {"id": 504, "name": "Pylon", "pts": 175, "upgrades": []},
             {"id": 506, "name": "Stalker Maniple", "pts": 175, "upgrades": []}
@@ -78,8 +78,8 @@
       {"max": 1, "from": [111]},
 
       {"max": 1, "min": 1, "from": [22,107], "appliesTo": [701]},
-      {"max": 1, "from": [100,101], "appliesTo": [701]},
-      {"max": 2, "from": [103], "appliesTo": [701]},
+      {"max": 1, "from": [100,101], "appliesTo": [701,502]},
+      {"max": 2, "from": [103], "appliesTo": [701,502]},
 
       {"max": 1, "from": [108]},
       {"max": 6, "min": 6, "from": [109,110,108], "appliesTo": [502]},
