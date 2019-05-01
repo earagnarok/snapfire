@@ -1,11 +1,11 @@
 {
    "id": "Necrons - Maynarkh Dynasty",
-   "version": "0.8.6",
+   "version": "0.8.7",
    "by": "EA-Apocalypse Team",
    "notes": [],
    "sections": [
       {"name": "MAYNARKH DYNASTY SPECIALS", "formations": [
-            {"id": 601, "name": "Necron Tomb Complex", "pts": 50, "units":"Tomb Complex", "upgrades": []}
+            {"id": 601, "name": "Necron Tomb Complex", "pts": 75, "units":"Tomb Complex", "upgrades": []}
          ]
       },
       {"name": "NECRON CORE (At least one 'The Unbidden' formation, but no more than the number of Necron Phalanx)",
@@ -51,7 +51,7 @@
       {"id": 108, "name": "Necron Destroyer Lord", "pts": 50},
       {"id": 109, "name": "Destroyers", "pts": 25},
       {"id": 110, "name": "Heavy Destroyers","pts": 25},
-      {"id": 111, "name": "2 Monoliths", "pts": 100},
+      {"id": 111, "name": "2 Monoliths", "pts": 125},
       {"id": 112, "name": "Necron Destroyer Overlord", "pts": 125}
    ],
    "formationConstraints": [
