@@ -1,6 +1,6 @@
 {
    "id": "Necrons - Maynarkh Dynasty",
-   "version": "0.8.7",
+   "version": "0.8.8",
    "by": "EA-Apocalypse Team",
    "notes": [],
    "sections": [
@@ -10,7 +10,7 @@
       },
       {"name": "NECRON CORE (At least one 'The Unbidden' formation, but no more than the number of Necron Phalanx)",
          "formations": [
-            {"id": 701, "name": "Necron Phalanx", "pts": 225, "units": "7 Necron Warriors", "upgrades": [100,101,102,103,99]},
+            {"id": 701, "name": "Necron Phalanx", "pts": 225, "units": "6 Necron Warriors", "upgrades": [100,101,102,103,99]},
             {"id": 702, "name": "The Unbidden", "pts": 200, "units": "6 Flayed Ones", "upgrades": []}
          ]
       },
@@ -29,7 +29,7 @@
             {"id": 806, "name": "Night Shroud", "units":"Night Shroud Bomber", "pts": 175},
             {"id": 804, "name": "Doom Scythes",  "units":"2 Doom Scythe Fighter-Bombers", "pts": 225, "upgrades": []},
             {"id": 802, "name": "Tomb Ship", "units":"Cairn Class Tomb Ship", "pts": 200},
-            {"id": 805, "name": "Megalith Conduit", "pts": 275, "units":"Megalith", "upgrades": [111]}
+            {"id": 805, "name": "Megalith Conduit", "pts": 350, "units":"Megalith", "upgrades": [111]}
          ]
       }
    ],
@@ -51,7 +51,7 @@
       {"id": 108, "name": "Necron Destroyer Lord", "pts": 50},
       {"id": 109, "name": "Destroyers", "pts": 25},
       {"id": 110, "name": "Heavy Destroyers","pts": 25},
-      {"id": 111, "name": "2 Monoliths", "pts": 125},
+      {"id": 111, "name": "2 Monoliths", "pts": 100},
       {"id": 112, "name": "Necron Destroyer Overlord", "pts": 125}
    ],
    "formationConstraints": [

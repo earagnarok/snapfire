@@ -1,15 +1,15 @@
 {
 	"id":"EAA Dark Angels",
-	"version":"0.8.3",
+	"version":"0.8.4",
 	"by":"EA Apocalypse",
 
 	"sections":[
 		{"name":"DARK ANGELS CORE DETACHMENTS", "formations":[
-			{"id":501, "name":"Ravenwing", 					"pts":325, "units":"1 Ravenwing Black Knights, 3 Ravenwing Land Speeders", "upgrades":[10,11,12,13]},
+			{"id":501, "name":"Ravenwing Attack Detachment", 					"pts":325, "units":"1 Ravenwing Black Knights, 3 Ravenwing Land Speeders", "upgrades":[10,11,12,13]},
 			{"id":503, "name":"Tacticals",					"pts":275, "units":"6 Tacticals plus transport", "upgrades":[10,11,12,13, 30,31,32, 33]},
 			{"id":505, "name":"Deathwing Strike Detachment",		"pts":350,  "upgrades":[10,11,12,13]},
 			{"id":502, "name":"Land Raiders",				"pts":250, "units":"3 Land Raiders", "upgrades":[10,11,12,13, 30,31,32]},
-			{"id":515, "name":"Deathwing Armoured Detachment",			"pts":450,  "units":"3 Deathwing Land Raiders, 3 Deathwing Terminators", "upgrades":[10,11,12,13]},
+			{"id":515, "name":"Deathwing Armoured Detachment",			"pts":425,  "units":"3 Deathwing Land Raiders, 3 Deathwing Terminators", "upgrades":[10,11,12,13]},
 			{"id":514, "name":"Ares Siege Detachment",				"pts":350, "units":"3 Land Raider Ares, 3 Vindicators",  "upgrades":[10,11,12,13]}
 
 		]},
@@ -18,18 +18,17 @@
 			{"id":504, "name":"Devastators",				"pts":250, "units":"4 Dark Angels Devastators plus transport", "upgrades":[10,11,12,13, 30,31,32, 34]},
 			{"id":510, "name":"Scouts",							"pts":150, "upgrades":[34]},
 			{"id":511, "name":"Whirlwinds",						"pts":275, "units":"4 Whirlwinds", "upgrades":[30,31,32]},
-			{"id":512, "name":"Ravenwing Support",				"pts":150, "upgrades":[]},
 			{"id":513, "name":"Predators",						"pts":250, "upgrades":[30,31,32]},
-
-			{"id":516, "name":"Deathwing Dreadnoughts",			"pts":300,  "units":"5 Deathwing Dreadnoughts plus transport", "upgrades":[]},
-			{"id":517, "name":"0-1 Dreadwing Relic",			"pts":0, "upgrades":[]}
+			{"id":512, "name":"Ravenwing Support Squadron",				"pts":150, "upgrades":[]},
+			{"id":516, "name":"Deathwing Dreadnought Detachment",			"pts":300,  "units":"5 Deathwing Dreadnoughts plus transport", "upgrades":[]},
+			{"id":517, "name":"Dreadwing Relic Detachment",			"pts":0, "upgrades":[]}
 
 		]},
 
-		{"name":"DARK ANGELS AIRCRAFT AND SWORDWING (Max 33%)", "formations":[
+		{"name":"DARK ANGELS AIRCRAFT AND SWORDWING (Max 33%. Swordwing Support is compulsory)", "formations":[
 			{"id":520, "name": "Nephilim Squadron", "units":"2 Ravenwing Nephilim Interceptors",		"pts":200, "upgrades":[]},
 			{"id":521, "name": "Dark Talon Squadron",	"units":"2 Ravenwing Dark Talon Fighter-Bombers",			"pts":225, "upgrades":[]},
-			{"id":522, "name": "1 Swordwing Support",										"pts":0, "upgrades":[]}
+			{"id":522, "name": "Swordwing Support",										"pts":0, "upgrades":[]}
 		]}
 	],
 	"upgrades":[
