@@ -1,17 +1,16 @@
 {
 	"id":"EAA Baran Siegemasters",
-	"version":"0.5.1",
+	"version":"0.5.2",
 	"by":"EA-Apocalypse",
 	"sections":[
 		{"name":"COMPANIES", "formations":[
-			{"id":501, "name":"1 Regimental HQ", "pts":250, "upgrades":[19,20,21,22,24,25], "units":"Baran Siegemaster with a Commissar"},
-		 	{"id":502, "name":"Siege Infantry Company", "pts":200, "upgrades":[19,20,21,22,24,27], "units":"Baran Commander with a Commissar"}
+			{"id":501, "name":"1 Regimental HQ", "pts":250, "upgrades":[18,19,20,21,22,24,25], "units":"Baran Siegemaster with a Commissar"},
+		 	{"id":502, "name":"Siege Infantry Company", "pts":200, "upgrades":[18,19,20,21,22,24,27], "units":"Baran Commander with a Commissar"}
 
 		]},
 		{"name":"SUPPORT FORMATIONS (two for each Company)", "formations":[
 			{"id":510, "name":"Howitzers", 			"pts":175, "upgrades":[]},
 			{"id":511, "name":"Siege Artillery", 			"pts":225, "upgrades":[], "units":"3 Gun Emplacements"},
-			{"id":512, "name":"Heavy Mortar Battery",				"pts":175, "upgrades":[], "units":"4 Heavy Mortars, 4 Gun Emplacements"},
 			{"id":513, "name":"Deathstrike Silo",	"pts":250, "upgrades":[], "units":"2 Deathstrikes, 2 Gun Emplacements"},
 			{"id":514, "name":"Flak Battery", 			"pts":150, "upgrades":[], "units":"4 Heavy AA Guns, 4 Gun Emplacements"},
 			{"id":515, "name":"Heavy Tanks",			"pts":350, "upgrades":[]},
@@ -23,8 +22,8 @@
 
 		]},
 		{"name":"IMPERIAL NAVY (max 25%)", "formations":[
-			{"id":530, "name":"Marauder Bombers",		"pts":225, "upgrades":[], "units":"2 Marauders"},
-			{"id":531, "name":"Thunderbolt Fighters",	"pts":150, "upgrades":[], "units":"2 Thunderbolts"}
+			{"id":530, "name":"Marauder Bombers",		"pts":225, "upgrades":[], "units":"2 Marauder Bombers"},
+			{"id":531, "name":"Thunderbolt Fighters",	"pts":150, "upgrades":[], "units":"2 Thunderbolt Fighters"}
 		]}
 	],
 	"upgrades":[
@@ -43,9 +42,10 @@
 		{"id":16, "name":"Baneblade",								"pts":0},
 		{"id":26, "name":"Shadowsword",								"pts":25},
 		{"id":17, "name":"Stormsword",								"pts":0},
+		{"id":18, "name":"3 Mole Launcher Squads",					"pts":100},
 		{"id":19, "name":"4 Trench Support Squads",					"pts":75},
-		{"id":20, "name":"6 Rapiers",								"pts":100},
-		{"id":21, "name":"6 Thudd Guns",							"pts":150},
+		{"id":20, "name":"5 Rapiers",								"pts":100},
+		{"id":21, "name":"5 Thudd Guns",							"pts":150},
 		{"id":22, "name":"3 Siegehounds, 3 Gun Emplacements",		"pts":100},
 		{"id":23, "name":"3 Griffons",								"pts":75},
 		{"id":24, "name":"Snipers",									"pts":25},
@@ -55,7 +55,7 @@
 	],
 	"formationConstraints":[
 		{"maxPercent":25, "name":"Navy", "from":[530,531]},
-		{"max":2, "name":"Support Formations", "from":[510,511,512,513,514,515,516,517,518,519,520], "forEach":[501,502], "name2":"Regiment Company"},
+		{"max":2, "name":"Support Formations", "from":[510,511,513,514,515,516,517,518,519,520], "forEach":[501,502], "name2":"Regiment Company"},
 		{"max":1, "from":[513]},
 		{"min":1, "max":1, "from":[501]}
 
