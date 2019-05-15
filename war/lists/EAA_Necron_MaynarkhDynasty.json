@@ -1,6 +1,6 @@
 {
    "id": "Necrons - Maynarkh Dynasty",
-   "version": "0.9.0",
+   "version": "0.9.1",
    "by": "EA-Apocalypse Team",
    "notes": [],
    "sections": [
@@ -16,9 +16,10 @@
       },
       {"name": "NECRON SUPPORT (Max 2 for each Necron Phalanx)",
          "formations": [
-            {"id": 501, "name": "Obelisk Phalanx", "pts": 25, "upgrades": [105]},
-            {"id": 502, "name": "Destroyer Phalanx", "pts": 75, "upgrades": [100,101,103,99]},
-            {"id": 503, "name": "Monolith Phalanx", "pts": 50, "upgrades": [106,105]},
+            {"id": 501, "name": "Obelisk Phalanx", "pts": 300, "units": "6 Obelisks", "upgrades": []},
+            {"id": 502, "name": "Destroyer Phalanx", "pts": 75, "upgrades": [100,101,99]},
+            {"id": 503, "name": "Monolith Phalanx", "pts": 275, "units": "3 Monoliths", "upgrades": [104]},
+            {"id": 505, "name": "Monolith Maniple", "pts": 25, "upgrades": [106,105]},
             {"id": 504, "name": "Tomb Guardian", "pts": 175, "units":"Pylon", "upgrades": []},
             {"id": 506, "name": "Stalker Maniple", "pts": 175, "upgrades": []}
          ]
@@ -39,12 +40,14 @@
       {"id": 22, "name": "Necron Lord", "pts": 0},
       {"id": 87, "name": "Triarch Stalker", "pts": 0},
       {"id": 88, "name": "Seraptek Heavy Construct", "pts": 75},
+      {"id": 97, "name": "Wraiths", "pts": 25},
       {"id": 99, "name": "C'tan Shard", "pts": 75},
       {"id": 100, "name": "Tomb Spyder", "pts": 50},
       {"id": 101, "name": "2 Tomb Spyders", "pts": 75},
       {"id": 102, "name": "3 Immortals", "pts": 75},
       {"id": 103, "name": "Wraiths", "pts": 25},
 
+      {"id": 104, "name": "3 Obelisks", "pts": 125},
       {"id": 105, "name": "Obelisk", "pts": 50},
       {"id": 106, "name": "Monolith", "pts": 75},
       {"id": 107, "name": "Necron Overlord", "pts": 75},
@@ -67,14 +70,13 @@
    "upgradeConstraints": [
       {"max": 1, "from": [107,112], "perArmy": true},
       {"max": 1, "from": [99], "perArmy": true},
+      {"max": 1, "from": [104]},
       {"max": 1, "from": [102]},
       {"max": 2, "from": [88]},
       {"max": 4, "min": 4, "from": [87,88], "appliesTo": [506]},
 
-      {"max": 6, "min": 4, "from": [105], "appliesTo": [501]},
-
-      {"max": 2, "min": 1, "from": [105], "appliesTo": [503]},
-      {"max": 3, "min": 2, "from": [106], "appliesTo": [503]},
+      {"max": 3, "min": 2, "from": [105], "appliesTo": [505]},
+      {"max": 2, "min": 1, "from": [106], "appliesTo": [505]},
 
       {"max": 1, "from": [111]},
 
@@ -83,7 +85,8 @@
       {"max": 2, "from": [103], "appliesTo": [701,502]},
 
       {"max": 1, "from": [108,112]},
-      {"max": 6, "min": 6, "from": [109,110,108,112], "appliesTo": [502]},
+      {"max": 3, "from": [97]},
+      {"max": 6, "min": 6, "from": [109,110,108,112,97], "appliesTo": [502]},
 
       {"min": 1, "max": 1, "from": [21,20], "appliesTo": [803]}
    ]
