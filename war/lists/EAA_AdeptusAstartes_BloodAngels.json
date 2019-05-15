@@ -39,8 +39,7 @@
 		{"id":12, "name":"Librarian", 		"pts":50},
 
 		{"id":15, "name":"4 Scouts plus transport",								"pts":0},
-		{"id":16, "name":"2 Scouts, 2 Scouts with 'Sniper' plus transport",		"pts":25},
-		{"id":17, "name":"4 Scouts with 'Sniper' plus transport",				"pts":50},
+		{"id":17, "name":"4 Scouts with 'Sniper' plus transport",				"pts":25},
 
 		{"id":19, "name":"Assault Bike",						"pts":0},
 		{"id":20, "name":"Melta Bike",							"pts":0},
@@ -94,7 +93,7 @@
 
 		{"min":0, "max":1, "from":[10,11,12], "appliesTo":[503,505, 508,509,510,511,512,513]},
 
-		{"min":1, "max":1, "from":[15,16,17], "appliesTo":[513]},
+		{"min":1, "max":1, "from":[15,17], "appliesTo":[513]},
 
 		{"min":5, "max":5, "from":[19,20,21], "appliesTo":[510]},
 
