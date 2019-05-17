@@ -9,7 +9,7 @@
 			{"id":500, "name":"Daemon Pool", "pts":0, "upgrades":[72,73]}
 		]},
 		{"name":"SLAVES TO DARKNESS CORE FORMATIONS", "formations":[
-			{"id":501, "name":"Traitor Company", "pts":200, "units":"8 Infantry, Daemonic Icon", "upgrades":[15,16,18,19,20,21,22,23,24,25,26]}
+			{"id":501, "name":"Traitor Company", "pts":200, "units":"8 Infantry, Daemonic Icon", "upgrades":[15,16,18,19,20,21,22,23,27,24,25,26]}
 		]},
 		{"name":"SLAVES TO DARKNESS SUPPORT FORMATIONS (Max 1 for each Traitor Company)", "formations":[
 			{"id":502, "name":"Sentinel Platoon", "pts":100, "units":"4 Sentinels", "upgrades":[]},
@@ -35,7 +35,7 @@
 			{"id":522, "name":"Silver Towers of Tzeench",	"pts":300, "units":"4 Silver Towers", "upgrades":[]},
 			{"id":523, "name":"Warp Palace of Tzeench", "units":"1 Warp Palace", "pts":500, "upgrades":[]},
 			{"id":524, "name":"Doomwings of Tzeench", "units":"3 Doomwing Interceptors",	"pts":150, "upgrades":[]},
-			
+
 			{"id":530, "name":"Alpha Legion Marines", "pts":175, "units":"4 Alpha Legion Marines, 2 Alpha Legion Rhinos", "upgrades":[]},
 			{"id":531, "name":"Thunderbolt Squadron", "pts":150, "units":"2 Thunderbolts", "upgrades":[]},
 			{"id":532, "name":"Maruder Squadron", "pts":225, "units":"2 Maruder Bombers", "upgrades":[]}
@@ -45,30 +45,34 @@
 	"upgrades":[
 		{"id":10, "name":"Fallen Commander", 		"pts":0},
 		{"id":11, "name":"Fallen Commander with Arch Heretic", 		"pts":50},
-		{"id":12, "name":"Daemon Prince of Chaos Undivided", 		"pts":100},	
-		
+		{"id":12, "name":"Daemon Prince of Chaos Undivided", 		"pts":100},
+
 		{"id":15, "name":"Chaos Spawn", "pts":35},
 		{"id":16, "name":"Hellhound", "pts":25},
 
 		{"id":18, "name":"Land Transporter", "pts":10},
 		{"id":19, "name":"Chimera", "pts":25},
-		
+
 		{"id":20, "name":"2 Ogryns", "pts":50},
 		{"id":21, "name":"4 Fire Support", "pts":75},
 		{"id":22, "name":"1 Hydra", "pts":50},
+
 		{"id":23, "name":"6 Mutants", "pts":50},
+
 		{"id":24, "name":"60cm Razorwire, 60cm Trenches (may not be combined with Chimeras or Land Transporters)", "pts":50},
 		{"id":25, "name":"3 Leman Russ", "pts":150},
 		{"id":26, "name":"3 Leman Russ Demolishers", "pts":150},
-		
+
+		{"id":27, "name":"6 Cultists", "pts":50},
+
 		{"id":30, "name":"Baneblade", "pts":0},
 		{"id":31, "name":"Shadowsword", "pts":0},
 		{"id":32, "name":"Leman Russ", "pts":0},
 		{"id":33, "name":"Leman Russ Demolishers", "pts":0},
-		
+
 		{"id":72, "name":"Lesser Daemon Pool point", "pts":15},
 		{"id":73, "name":"Lesser Daemon Pool point (Daemonic Pact)", "pts":0}
-	
+
 
 	],
 	"formationConstraints":[
@@ -102,13 +106,13 @@
 		{"max":1, "from":[20], "appliesTo":[501]},
 		{"max":1, "from":[21], "appliesTo":[501]},
 		{"max":1, "from":[22], "appliesTo":[501]},
-		{"max":1, "from":[23], "appliesTo":[501]},
+		{"max":1, "from":[23,27], "appliesTo":[501]},
 		{"max":1, "from":[24], "appliesTo":[501]},
 
 		{"max":1, "from":[25,26], "appliesTo":[501]},
 
 		{"min": 2, "max": 2, "from": [30,31], "appliesTo": [506]},
 		{"min": 6, "max": 6, "from": [32,33], "appliesTo": [507]}
-		
+
 	]
 }
