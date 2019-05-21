@@ -22,11 +22,11 @@
 
 		{"name":"Wodan Stronghold War Engines and Flyers", "formations":[
 
-		    {"id":520,"name":"Goliath Battery","pts":275, "upgrades":[]},
+		    {"id":520,"name":"Goliath Battery","pts":275, "units":"2 Squat Goliath Mega Cannons", "upgrades":[]},
 
 		    {"id":521,"name":"Hellebore",			"pts":225,"units":"1 Squat Hellebore","upgrades":[111]},
 		    {"id":522,"name":"Leviathan",			"pts":350, "units":"1 Squat Leviathan", "upgrades":[111]},
-			{"id":523, "name":"Colossus",			"pts":475, "units":"1 Squat Colossus", "upgrades":[111]},
+			{"id":523, "name":"Colossus",			"pts":525, "units":"1 Squat Colossus", "upgrades":[111]},
 			{"id":524, "name":"Cyclops",			"pts":475, "units":"1 Squat Cyclops", "upgrades":[111]},
 			{"id":525, "name":"Land Train",			"pts":200, "units":"1 Squat Land Train", "upgrades":[111, 120,121,122,123]},
 			{"id":526, "name":"Iron Eagle Squadron",		"pts":175, "units":"2 Iron Eagle Gunships", "upgrades":[]}
@@ -70,7 +70,7 @@
 	],
 	"upgradeConstraints":[
 		{"max":1,  "perArmy":true,  "from":[101]},
-		{"max":1,  "perArmy":true,  "from":[111]},
+		{"max":1, "from":[111]},
 
   		{"max":1, "from":[102]},
 
