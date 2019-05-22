@@ -13,7 +13,7 @@
 
       {"name": "DEATH ELITE FORMATIONS (Max one for each Death Guard Retinue)", "formations": [
             {"id": 531, "name": "Chosen", "pts": 150, "units": "4 Chosen, 2 Death Guard Rhinos", "upgrades": [22,25,27,30]},
-            {"id": 532, "name": "Terminators", "pts": 400, "units": "4 Blightlord Terminators", "upgrades": [25,26,27,30,32]},
+            {"id": 532, "name": "Terminators", "pts": 375, "units": "4 Blightlord Terminators", "upgrades": [25,26,27,30,32]},
             {"id": 533, "name": "Vindicators", "pts": 25, "upgrades": [31]}
        ]},
 
