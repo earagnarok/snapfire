@@ -13,7 +13,7 @@
 
       {"name": "WORLD EATER SUPPORT FORMATIONS (Max two for each World Eater Retinue)", "formations": [
             {"id": 531, "name": "Juggernauts", "pts": 375, "units": "8 Juggernaut Riders", "upgrades": [26,27]},
-            {"id": 532, "name": "World Eaters Terminators", "pts": 375, "upgrades": [26,24,22,25,27,39]},
+            {"id": 532, "name": "World Eaters Terminators", "pts": 400, "upgrades": [26,24,22,25,27,39]},
             {"id": 533, "name": "Berzerker Bikes", "pts": 350, "units": "8 Khorne Berzerker Assault Bikes", "upgrades": [27,25]},
             {"id": 534, "name": "World Eaters Renegades", "pts": 175, "units": "Daemonic Pact", "upgrades": [30,33]},
             {"id": 535, "name": "Armoured Company", "pts": 200,  "units": "4 Chaos Predators", "upgrades": [30]}
