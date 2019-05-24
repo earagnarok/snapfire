@@ -1,6 +1,6 @@
 {
    "id": "Adepta Sororitas",
-   "version": "0.8.1",
+   "version": "0.8.2",
    "by": "EA-Apocalypse",
    "notes":[],
 
@@ -19,9 +19,9 @@
          ]},
         {"name": "ORDO HERETICUS FORMATIONS (Max 2 for each Core Detachment)", "formations": [
             {"id": 520, "name": "0-1 Inquisitor", "pts": 200, "upgrades": [25]},
-	        {"id": 521, "name": "Redemption", "pts": 150, "units": "8 Redemptionists", "upgrades": [9, 20, 21]},
-            {"id": 522, "name": "Flagellant", "pts": 225, "units": "6 Arco-Flagellants", "upgrades": [20]},
-            {"id": 523, "name": "Penitence", "pts": 250, "units": "6 Penitent Engines", "upgrades": []}
+            {"id": 523, "name": "Penitence", "pts": 225, "units": "5 Penitent Engines", "upgrades": []},
+            {"id": 522, "name": "Flagellant", "pts": 200, "units": "5 Arco-Flagellants", "upgrades": [20]},
+	        {"id": 521, "name": "Redemption", "pts": 125, "units": "6 Redemptionists", "upgrades": [9, 20, 21]}
          ]},
         {"name": "IMPERIAL NAVY (Max 25%)", "formations": [
             {"id": 532, "name": "Lightning Squadron", "pts": 150, "units": "2 Lightning Interceptors", "upgrades": [] },
@@ -50,7 +50,7 @@
 
 	  {"id": 20, "name": "Penitent Engine","pts": 35},
 
-	  {"id": 21, "name": "4 Ordo Hereticus Land Transporters","pts": 40},
+	  {"id": 21, "name": "3 Ordo Hereticus Land Transporters","pts": 25},
 
 	  {"id": 23, "name": "Ordo Hereticus Inquisitor, 5 Tempestus Scions","pts": 0},
 	  {"id": 24, "name": "Ordo Hereticus Inquisitor Lord, 5 Tempestus Scions","pts": 50},
