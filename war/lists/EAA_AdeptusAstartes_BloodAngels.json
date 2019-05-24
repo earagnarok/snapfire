@@ -1,22 +1,23 @@
 {
 	"id":"EAA Blood Angels",
-	"version":"0.6.2",
+	"version":"0.6.3",
 	"by":"EA Apocalypse",
 
 	"sections":[
 		{"name":"BLOOD ANGELS CORE DETACHMENTS", "formations":[
-			{"id":500, "name":"1 Death Company", 					"pts":250, "units":"1 Chaplain",  "upgrades":[]},
-			{"id":501, "name":"0-1 Sanguinary Guard", 				"pts":250, "units":"1 Supreme Commander, 4 Sanguinary Guards", "upgrades":[35,36]},
-			{"id":503, "name":"Tacticals",							"pts":275, "units":"6 Tacticals plus transport", "upgrades":[10,11,12, 31,32, 33,34, 35,36, 40,41,43]},
-			{"id":505, "name":"Assaults", 							"pts":175, "units":"4 Assaults", "upgrades":[10,11,12, 35,36]}
+			{"id":500, "name":"1 Death Company", 					"pts":300, "units":"1 Chaplain",  "upgrades":[]},
+			{"id":501, "name":"0-1 Sanguinary Guard", 				"pts":250, "units":"4 Sanguinary Guards", "upgrades":[10,11,12,13, 35,36]},
+			{"id":503, "name":"Tacticals",							"pts":275, "units":"6 Tacticals plus transport", "upgrades":[10,11,12,13, 31,32, 33,34, 35,36, 40,41,43]},
+			{"id":505, "name":"Assaults", 							"pts":175, "units":"4 Assaults", "upgrades":[10,11,12,13, 35,36]}
 		]},
-		{"name":"BLOOD ANGELS SUPPORT DETACHMENTS (Max 3 for each Core Detachment)", "formations":[
-			{"id":508, "name":"Land Raiders",					"pts":100,  "upgrades":[10,11,12, 31,32]},
-			{"id":509, "name":"Baal Predators",					"pts":250, "upgrades":[10,11,12, 31,32]},
-			{"id":510, "name":"Bikes",							"pts":200, "upgrades":[10,11,12]},
-			{"id":511, "name":"Devastators",					"pts":250, "units":"4 Devastators plus transport", "upgrades":[10,11,12, 31,32, 33,34, 35,36, 40,41,43]},
-			{"id":512, "name":"Blood Angels Terminators",		"pts":275, "upgrades":[10,11,12, 33,34, 40,41,43]},
-			{"id":513, "name":"Scouts",							"pts":150, "upgrades":[10,11,12, 29,30]},
+		{"name":"BLOOD ANGELS SUPPORT DETACHMENTS (Max 2 for each Core Detachment)", "formations":[
+
+			{"id":508, "name":"Land Raiders",					"pts":100,  "upgrades":[10,11,12,13, 31,32]},
+			{"id":509, "name":"Baal Predators",					"pts":250, "upgrades":[10,11,12,13, 31,32]},
+			{"id":510, "name":"Bikes",							"pts":200, "upgrades":[10,11,12,13]},
+			{"id":511, "name":"Devastators",					"pts":250, "units":"4 Devastators plus transport", "upgrades":[10,11,12,13, 31,32, 33,34, 35,36, 40,41,43]},
+			{"id":512, "name":"Blood Angels Terminators",		"pts":50, "upgrades":[10,11,12,13, 27,28, 33,34, 40,41,43]},
+			{"id":513, "name":"Scouts",							"pts":150, "upgrades":[10,11,12,13, 29,30]},
 			{"id":514, "name":"Land Speeders",					"pts":200, "upgrades":[]},
 			{"id":515, "name":"Landing Craft",					"pts":350, "units":"1 Landing Craft",  "upgrades":[]},
 			{"id":523, "name": "Orbital Support",											"pts":0, "upgrades":[]}
@@ -37,6 +38,7 @@
 		{"id":10, "name":"Captain",		"pts":50},
 		{"id":11, "name":"Chaplain", 		"pts":50},
 		{"id":12, "name":"Librarian", 		"pts":50},
+		{"id":13, "name":"Supreme Commander", 		"pts":100},
 
 		{"id":15, "name":"4 Scouts plus transport",								"pts":0},
 		{"id":17, "name":"4 Scouts with 'Sniper' plus transport",				"pts":25},
@@ -52,8 +54,8 @@
 		{"id":25, "name":"Land Speeder Tornado",						"pts":0},
 		{"id":26, "name":"Land Speeder Typhoon",						"pts":10},
 
-		{"id":27, "name":"Terminators",									"pts":0},
-		{"id":28, "name":"Assault Terminators",							"pts":0},
+		{"id":27, "name":"Terminators",									"pts":75},
+		{"id":28, "name":"Assault Terminators",							"pts":75},
 
 		{"id":29, "name":"Razorback with Twin Lascannon", 				"pts":25},
 		{"id":30, "name":"Razorback with Twin Heavy Bolter", 			"pts":25},
@@ -69,7 +71,7 @@
 
 		{"id":40, "name":"1 Furioso Dreadnought",						"pts":50},
 		{"id":41, "name":"2 Furioso Dreadnoughts",						"pts":75},
-		{"id":43, "name":"3 Furioso Dreadnoughts",						"pts":125},
+		{"id":43, "name":"3 Furioso Dreadnoughts",						"pts":100},
 
 		{"id":42, "name":"Storm Raven",									"pts":75},
 
@@ -85,10 +87,12 @@
 		{"max":1,"perArmy":true, "name":"Sanguinary Guard", "from":[501]},
 		{"max":1, "perArmy":true, "name":"Spacecraft", "from":[523]},
 
-		{"max":3, "name":"Support Detachments", "from":[508,509,510,511,512,513,514,515,523], "forEach":[500,501,503,505], "name2":"Core Detachment"},
+		{"max":2, "name":"Support Detachments", "from":[508,509,510,511,512,513,514,515,523], "forEach":[500,501,503,505], "name2":"Core Detachment"},
 		{"maxPercent":34, "name":"Aircraft, Navy & Titans", "from":[520,521,522]}
 	],
 	"upgradeConstraints":[
+		{"max":1,"perArmy":true, "from":[13]},
+
 		{"min":1, "max":1, "from":[1,2,3], "appliesTo":[500]},
 
 		{"min":0, "max":1, "from":[10,11,12], "appliesTo":[503,505, 508,509,510,511,512,513]},
@@ -101,7 +105,7 @@
 
 		{"min":5, "max":5, "from":[24,25,26], "appliesTo":[514]},
 
-		{"min":3, "max":3, "from":[27,28], "appliesTo":[512]},
+		{"min":3, "max":4, "from":[27,28], "appliesTo":[512]},
 
 		{"min":0, "max":4, "from":[29,30], "appliesTo":[513]},
 
