@@ -13,11 +13,11 @@
 			{"id":514, "name":"Aggressor Household",	"pts":75, "upgrades":[19,12]}
 		]},
 		{"name":"Retainer Formations (Max 1 per Core or Support Household)", "formations":[
-			{"id":521, "name":"Planetary Defence Company",	"pts":175, "units":"9 PDF Infantry, 1 PDF Commander", "upgrades":[20,21,23,22]},
+			{"id":521, "name":"Planetary Defence Company",	"pts":150, "units":"9 PDF Conscripts, 1 PDF Commander", "upgrades":[20,21,23,22]},
 			{"id":522, "name":"AAA Platoon", 		"pts":125, "units":"3 Heavy AA, 3 Gun Emplacements", "upgrades":[]},
 			{"id":523, "name":"Howitzer Platoon",		"pts":175, "units":"3 Howitzers, 3 Gun Emplacements", "upgrades":[]},
 			{"id":524, "name":"Rough Riders",		"pts":150, "units":"6 Rough Riders", "upgrades":[]},
-			{"id":525, "name":"Light Mechanized",			"pts":100, "units":"3 Centaurs, 3 PDF Infantry", "upgrades":[20,21]}
+			{"id":525, "name":"Motorized PDF Platoon",			"pts":150, "units":"6 PDF Conscripts, 3 PDF Land Transporters", "upgrades":[]}
 		]},
 		{"name":"Imperial Navy (Max 25%)", "formations":[
 			{"id":541, "name":"Thunderbolt Interceptors", "pts":150, "upgrades":[], "units":"2 Thunderbolt Fighters"},
@@ -58,7 +58,6 @@
 		{"min":3, "max":5, "from":[15], "appliesTo":[512]},
 		{"min":4, "max":6, "from":[16,17,18], "appliesTo":[513]},
 		{"min":3, "max":5, "from":[19], "appliesTo":[514]},
-		{"max":1, "from":[20,21], "appliesTo":[525]},
 		{"max":1, "from":[20]},
 		{"max":1, "from":[22]},
 		{"max":1, "from":[21]},

@@ -1,0 +1,85 @@
+{
+   "id": "Deathwatch",
+   "version": "0.5.0",
+   "by": "EA-Apocalypse",
+   "notes":[],
+
+   "sections": [
+           {"name": "ORDO MALLEUS SPECIALS", "formations": [
+               {"id": 600, "name": "Officio Assassinorum", "pts": 50, "units": "Once per battle, during an Assault that the Deathwatch player initiated, a single unit anywhere in the enemy formation(s) is hit with D3 hits. These hits counts as being from CC, and have the 'Sniper' and 'First Strike' special rules.", "upgrades": []}
+      ]},
+        {"name": "DEATHWATCH CORE DETACHMENTS", "formations": [
+            {"id": 500, "name": "0-1 Ordo Xenos Inquisitor Retinue", "pts": 275, "units": "5 Ordo Xenos Acolytes", "upgrades": []},
+            {"id": 501, "name": "Deathwatch Kill-Team", "pts": 200, "upgrades": [1,2,3,4, 13,14]}
+	  ]},
+        {"name": "DEATHWATCH SUPPORT DETACHMENTS (Max 1 for each Core Detachment)", "formations": [
+	    {"id": 510, "name": "Deathwatch Terminators", "pts": 250, "units": "2 Deathwatch Terminators", "upgrades": [1,2,3,4, 14,15]},
+        {"id": 511, "name": "Deathwatch Vanguard", "pts": 275, "units": "3 Land Speeder Tornado",  "upgrades": [1,2,3,4]},
+	    {"id": 512, "name": "Deathwatch Assault", "pts": 200, "units": "4 Assaults", "upgrades": [1,2,3,4]}
+         ]},
+        {"name": "ORDO XENOS FORMATIONS (Max 2 for each Core Detachment)", "formations": [
+            {"id": 520, "name": "Adeptus Arbites Suppresson Platoon", "pts": 175, "units": "6 Adeptus Arbites, 3 Arbites Repressors", "upgrades": [14]},
+            {"id": 521, "name": "Adeptus Arbites Interdiction Platoon", "pts": 175, "units": "3 Adeptus Arbites Combat Bikes, 3 Cyber Mastiffs", "upgrades": []},
+            {"id": 522, "name": "Leman Russ Platoon", "pts": 350, "units": "6 Leman Russ", "upgrades": [14]},
+	        {"id": 523, "name": "Motorized Planetary Defence Platoon", "pts": 175, "units": "6 PDF Conscripts, 3 PDF Land Transporters", "upgrades": []}
+         ]},
+        {"name": "DEATHWATCH NAVY (Max 33%)", "formations": [
+            {"id": 530, "name": "Corvus Dropship Squadron", "pts": 250, "units": "2 Corvus Blackstars", "upgrades": [] },
+            {"id": 531, "name": "Thunderhawk Transporter", "pts": 175, "upgrades": [] },
+	        {"id": 532, "name": "Orbital Support", "pts": 200, "units": "Strike Cruiser", "upgrades": [] }
+         ]}
+   ],
+   "upgrades": [
+	  {"id": 1, "name": "Watch Master","pts": 100},
+      {"id": 2, "name": "Captain","pts": 50},
+      {"id": 3, "name": "Chaplain","pts": 50},
+	  {"id": 4, "name": "Librarian","pts": 50},
+
+      {"id": 5, "name": "Ordo Xenos Inquisitor Lord","pts": 50},
+	  {"id": 6, "name": "Ordo Xenos Inquisitor","pts": 0},
+
+      {"id": 10, "name": "3 Rhinos","pts": 0},
+      {"id": 11, "name": "2 Land Raider Crusaders", "pts": 100},
+      {"id": 12, "name": "3 Land Raiders", "pts": 150},
+
+      {"id": 13, "name": "2 Deathwatch Dreadnoughts", "pts": 75},
+      {"id": 14, "name": "2 Land Raiders", "pts": 100},
+      {"id": 15, "name": "Land Raider Crusader", "pts": 50},
+
+      {"id": 20, "name": "4 Deathwatch Tacticals plus transport","pts": 0},
+      {"id": 21, "name": "2 Deathwatch Tacticals, 2 Deathwatch Devastators plus transport", "pts": 50},
+
+      {"id": 22, "name": "Assault Bikes", "pts": 0},
+      {"id": 23, "name": "Attack Bikes", "pts": 0},
+
+	  {"id": 30, "name": "Hydra","pts": 50}
+
+
+   ],
+   "formationConstraints": [
+      {"max": 1, "from": [532]},
+      {"max": 1, "from": [520]},
+      {"max": 1, "from": [600]},
+      {"maxPercent": 34, "name": "Deathwatch Navy", "from": [530,531,532]},
+      {"max": 1, "name": "Grey Knight Support Detachments", "from": [510,511,512], "forEach": [500,501], "name2": "Deathwatch Core Detachment" },
+      {"max": 2, "name": "Ordo Malleus Formations", "from": [520,521,522,523], "forEach": [500,501], "name2": "Deathwatch Core Detachment" }
+   ],
+   "upgradeConstraints": [
+	  {"max": 1, "perArmy": true, "from": [1,5]},
+
+	  {"max": 1, "from": [13]},
+	  {"max": 1, "from": [14,15]},
+	  {"max": 1, "from": [30]},
+
+	  {"max": 1, "from": [2,3,4,1], "appliesTo": [501,510,511,512] },
+
+	  {"min": 1, "max": 1, "from": [6,5], "appliesTo": [500] },
+
+	  {"min": 1, "max": 1, "from": [10,11,12], "appliesTo": [500] },
+
+	  {"min": 1, "max": 1, "from": [20,21], "appliesTo": [501] },
+
+      {"min": 3, "max": 3, "from": [22,23], "appliesTo": [511] }
+
+   ]
+}

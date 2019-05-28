@@ -5,7 +5,7 @@
 
 	"sections":[
 		{"name":"BLOOD ANGELS CORE DETACHMENTS", "formations":[
-			{"id":500, "name":"1 Death Company", 					"pts":300, "units":"1 Chaplain",  "upgrades":[]},
+			{"id":500, "name":"1 Death Company", 					"pts":275, "units":"1 Chaplain",  "upgrades":[]},
 			{"id":501, "name":"0-1 Sanguinary Guard", 				"pts":250, "units":"4 Sanguinary Guards", "upgrades":[10,11,12,13, 35,36]},
 			{"id":503, "name":"Tacticals",							"pts":275, "units":"6 Tacticals plus transport", "upgrades":[10,11,12,13, 31,32, 33,34, 35,36, 40,41,43]},
 			{"id":505, "name":"Assaults", 							"pts":175, "units":"4 Assaults", "upgrades":[10,11,12,13, 35,36]}
@@ -33,7 +33,7 @@
 	"upgrades":[
 		{"id":1, "name":"4 Death Company Marines plus transport",						"pts":0},
 		{"id":2, "name":"4 Death Company Marines with Jump Packs", 						"pts":0},
-		{"id":3, "name":"4 Death Company Marines plus transport, 2 Death Company Dreadnoughts", 	"pts":100},
+		{"id":3, "name":"4 Death Company Marines plus transport, 1 Death Company Dreadnought", 	"pts":50},
 
 		{"id":10, "name":"Captain",		"pts":50},
 		{"id":11, "name":"Chaplain", 		"pts":50},
