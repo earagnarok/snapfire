@@ -20,7 +20,7 @@
         {"name": "ORDO HERETICUS FORMATIONS (Max 2 for each Core Detachment)", "formations": [
             {"id": 520, "name": "0-1 Ordo Hereticus Inquisitor Retinue", "pts": 200, "upgrades": [25]},
             {"id": 523, "name": "Penitence", "pts": 200, "units": "5 Penitent Engines", "upgrades": []},
-            {"id": 522, "name": "Flagellant", "pts": 200, "units": "5 Arco-Flagellants", "upgrades": [20]},
+            {"id": 522, "name": "Flagellant", "pts": 200, "units": "6 Arco-Flagellants", "upgrades": [20]},
 	        {"id": 521, "name": "Redemption", "pts": 125, "units": "6 Redemptionists", "upgrades": [9, 20, 21]}
          ]},
         {"name": "IMPERIAL NAVY (Max 25%)", "formations": [
