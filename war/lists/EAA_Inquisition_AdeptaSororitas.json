@@ -13,7 +13,7 @@
 	    {"id": 510, "name": "Exorcism", "pts": 250, "upgrades": [16]},
 	    {"id": 511, "name": "Seraphim", "pts": 225,  "upgrades": []},
 	    {"id": 512, "name": "Retribution", "pts":175, "units": "4 Retribution Sisters, 2 Sororitas Repressors", "upgrades": []},
-        {"id": 514, "name": "Repentance", "pts": 150, "units": "4 Repentia Sisters, 2 Sororitas Repressors", "upgrades": [9]},
+        {"id": 514, "name": "Repentance", "pts": 150, "units": "4 Repentia Sisters, 2 Sororitas Repressors", "upgrades": []},
         {"id": 513, "name": "Dominion", "pts": 150, "units": "4 Dominion Sisters", "upgrades": [10,11,12]}
 
          ]},
@@ -21,7 +21,7 @@
             {"id": 520, "name": "0-1 Ordo Hereticus Inquisitor Retinue", "pts": 200, "upgrades": [25]},
             {"id": 523, "name": "Penitence", "pts": 200, "units": "5 Penitent Engines", "upgrades": []},
             {"id": 522, "name": "Flagellant", "pts": 200, "units": "6 Arco-Flagellants", "upgrades": [20]},
-	        {"id": 521, "name": "Redemption", "pts": 125, "units": "6 Redemptionists", "upgrades": [9, 20, 21]}
+	        {"id": 521, "name": "Redemption", "pts": 200, "units": "1 Priest, 8 Redemptionists, 4 Inquisitorial Land Transporters", "upgrades": []}
          ]},
         {"name": "IMPERIAL NAVY (Max 25%)", "formations": [
             {"id": 532, "name": "Lightning Squadron", "pts": 150, "units": "2 Lightning Interceptors", "upgrades": [] },

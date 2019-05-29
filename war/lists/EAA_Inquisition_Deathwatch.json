@@ -21,7 +21,7 @@
             {"id": 520, "name": "Adeptus Arbites Suppresson Platoon", "pts": 175, "units": "6 Adeptus Arbites, 3 Arbites Repressors", "upgrades": [14]},
             {"id": 521, "name": "Adeptus Arbites Interdiction Platoon", "pts": 175, "units": "3 Adeptus Arbites Combat Bikes, 3 Cyber Mastiffs", "upgrades": []},
             {"id": 522, "name": "Leman Russ Platoon", "pts": 350, "units": "6 Leman Russ", "upgrades": [14]},
-	        {"id": 523, "name": "Motorized Planetary Defence Platoon", "pts": 175, "units": "6 PDF Conscripts, 3 PDF Land Transporters", "upgrades": []}
+	        {"id": 523, "name": "Motorized Planetary Defence Platoon", "pts": 150, "units": "6 PDF Conscripts, 3 PDF Land Transporters", "upgrades": []}
          ]},
         {"name": "DEATHWATCH NAVY (Max 33%)", "formations": [
             {"id": 530, "name": "Corvus Dropship Squadron", "pts": 250, "units": "2 Corvus Blackstars", "upgrades": [] },
