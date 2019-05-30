@@ -34,7 +34,7 @@
 	  {"id": 1, "name": "Grand Master","pts": 100},
 	  {"id": 2, "name": "Justicar","pts": 0},
 
-      {"id": 4, "name": "Ordo Malleus Inquisitor Lord","pts": 75},
+      {"id": 4, "name": "Ordo Malleus Inquisitor Lord","pts": 50},
 	  {"id": 5, "name": "Ordo Malleus Inquisitor","pts": 0},
 
       {"id": 10, "name": "3 Chimera","pts": 0},
