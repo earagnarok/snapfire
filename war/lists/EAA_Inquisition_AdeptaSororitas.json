@@ -60,7 +60,7 @@
 	  {"id": 31, "name": "4 Exorcist Sanctorum","pts": 0},
 
 	  {"id": 35, "name": "3 Chimeras","pts": 75},
-	  {"id": 36, "name": "2 Valkyries, 2 Vendettas","pts": 150}
+	  {"id": 36, "name": "3 Valkyries","pts": 100}
 
    ],
    "formationConstraints": [

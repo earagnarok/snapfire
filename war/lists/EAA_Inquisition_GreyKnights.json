@@ -19,7 +19,7 @@
         {"name": "ORDO MALLEUS FORMATIONS (Max 2 for each Core Detachment)", "formations": [
             {"id": 520, "name": "0-1 Ordo Malleus Inquisitor Retinue", "pts": 275, "units": "5 Kasrkin", "upgrades": [14]},
             {"id": 521, "name": "Mechanized Shock Trooper Platoon", "pts": 225, "units": "6 Infantry units", "upgrades": [14]},
-            {"id": 522, "name": "Motorized Whiteshield Platoon", "pts": 150, "units": "6 Whiteshields, 3 Inquisitorial Land Transporters", "upgrades": []},
+            {"id": 522, "name": "Flak Battery", "pts": 150, "units": "3 Hydras", "upgrades": []},
 	        {"id": 523, "name": "Leman Russ Squadron", "pts": 250, "units": "4 Leman Russ", "upgrades": [14]},
 	        {"id": 524, "name": "Praetor Platoon", "pts": 200, "units": "1 Praetor Armoured Assault Launcher", "upgrades": []}
          ]},
@@ -50,8 +50,8 @@
       {"max": 1, "from": [533]},
       {"max": 1, "from": [520]},
       {"maxPercent": 34, "name": "Grey Knight Navy", "from": [530,531,532,533]},
-      {"max": 1, "name": "Grey Knight Support Detachments", "from": [510,511,512,513], "forEach": [500,501], "name2": "Grey Knight Core Detachment" },
-      {"max": 2, "name": "Ordo Malleus Formations", "from": [520,521,522,523,524], "forEach": [500,501], "name2": "Grey Knight Core Detachment" }
+      {"max": 2, "name": "Grey Knight Support Detachments", "from": [510,511,512,513], "forEach": [500,501], "name2": "Grey Knight Core Detachment" },
+      {"max": 2, "name": "Ordo Malleus Formations", "from": [520,521,523,524], "forEach": [500,501], "name2": "Grey Knight Core Detachment" }
    ],
    "upgradeConstraints": [
 	  {"max": 1, "perArmy": true, "from": [1,4]},
