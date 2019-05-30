@@ -25,7 +25,7 @@
          ]},
         {"name": "GREY KNIGHT NAVY (Max 33%)", "formations": [
             {"id": 530, "name": "Grey Knight Storm Talons", "pts": 250, "units": "2 Grey Knight Storm Talons", "upgrades": [] },
-            {"id": 531, "name": "Grey Knight Thunderhawk", "pts": 250, "units": "1 Grey Knight Thunderhawk Gunship", "upgrades": [] },
+            {"id": 531, "name": "Grey Knight Thunderhawk Transporter", "pts": 250, "units": "1 Grey Knight Thunderhawk Transporter", "upgrades": [] },
             {"id": 532, "name": "Grey Knight Landing Craft", "pts": 400, "units": "1 Grey Knight Landing Craft", "upgrades": [] },
 	        {"id": 533, "name": "Orbital Support", "pts": 200, "upgrades": [] }
          ]}
