@@ -25,7 +25,7 @@
          ]},
         {"name": "GREY KNIGHT NAVY (Max 33%)", "formations": [
             {"id": 530, "name": "Grey Knight Storm Talons", "pts": 250, "units": "2 Grey Knight Storm Talons", "upgrades": [] },
-            {"id": 531, "name": "Grey Knight Thunderhawk Transporter", "pts": 250, "units": "1 Grey Knight Thunderhawk Transporter", "upgrades": [] },
+            {"id": 531, "name": "Grey Knight Thunderhawk", "pts": 250, "units": "1 Grey Knight Thunderhawk Gunship", "upgrades": [] },
             {"id": 532, "name": "Grey Knight Landing Craft", "pts": 400, "units": "1 Grey Knight Landing Craft", "upgrades": [] },
 	        {"id": 533, "name": "Orbital Support", "pts": 200, "upgrades": [] }
          ]}
@@ -34,7 +34,7 @@
 	  {"id": 1, "name": "Grand Master","pts": 100},
 	  {"id": 2, "name": "Justicar","pts": 0},
 
-      {"id": 4, "name": "Ordo Malleus Inquisitor Lord","pts": 50},
+      {"id": 4, "name": "Ordo Malleus Inquisitor Lord","pts": 75},
 	  {"id": 5, "name": "Ordo Malleus Inquisitor","pts": 0},
 
       {"id": 10, "name": "3 Chimera","pts": 0},

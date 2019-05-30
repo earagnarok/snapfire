@@ -21,7 +21,7 @@
             {"id": 520, "name": "0-1 Ordo Hereticus Inquisitor Retinue", "pts": 200, "upgrades": [25]},
             {"id": 523, "name": "Penitence", "pts": 200, "units": "5 Penitent Engines", "upgrades": []},
             {"id": 522, "name": "Flagellant", "pts": 200, "units": "6 Arco-Flagellants", "upgrades": [20]},
-	        {"id": 521, "name": "Redemption", "pts": 200, "units": "1 Priest, 8 Redemptionists, 4 Inquisitorial Land Transporters", "upgrades": []}
+	        {"id": 521, "name": "Redemption", "pts": 200, "units": "1 Priest, 8 Redemptionists, 4 Ordo Hereticus Land Transporters", "upgrades": []}
          ]},
         {"name": "IMPERIAL NAVY (Max 25%)", "formations": [
             {"id": 532, "name": "Lightning Squadron", "pts": 150, "units": "2 Lightning Interceptors", "upgrades": [] },
@@ -49,7 +49,7 @@
 
 	  {"id": 20, "name": "Penitent Engine","pts": 35},
 
-	  {"id": 21, "name": "3 Inquisitorial Land Transporters","pts": 25},
+	  {"id": 21, "name": "3 Ordo Hereticus Land Transporters","pts": 25},
 
 	  {"id": 23, "name": "Ordo Hereticus Inquisitor, 5 Tempestus Scions","pts": 0},
 	  {"id": 24, "name": "Ordo Hereticus Inquisitor Lord, 5 Tempestus Scions","pts": 50},
