@@ -1,6 +1,6 @@
 {
    "id": "Grey Knights",
-   "version": "0.5.0",
+   "version": "0.5.1",
    "by": "EA-Apocalypse",
    "notes":[],
 
@@ -18,10 +18,11 @@
          ]},
         {"name": "ORDO MALLEUS FORMATIONS (Max 2 for each Core Detachment)", "formations": [
             {"id": 520, "name": "0-1 Ordo Malleus Inquisitor Retinue", "pts": 275, "units": "5 Kasrkin", "upgrades": [14]},
-            {"id": 521, "name": "Mechanized Shock Trooper Platoon", "pts": 225, "units": "6 Infantry units", "upgrades": [14]},
+            {"id": 521, "name": "Shock Trooper Platoon", "pts": 225, "units": "6 Infantry units", "upgrades": [14]},
+            {"id": 525, "name": "Whiteshield Platoon", "pts": 275, "units": "8 Whiteshields, Stormlord", "upgrades": []},
             {"id": 522, "name": "Flak Battery", "pts": 150, "units": "3 Hydras", "upgrades": []},
 	        {"id": 523, "name": "Leman Russ Squadron", "pts": 200, "upgrades": [14]},
-	        {"id": 524, "name": "Praetor Platoon", "pts": 200, "units": "1 Praetor Armoured Assault Launcher", "upgrades": [14]}
+	        {"id": 524, "name": "Praetor Battery", "pts": 275, "units": "Praetor Assault Launcher", "upgrades": [14]}
          ]},
         {"name": "GREY KNIGHT NAVY (Max 33%)", "formations": [
             {"id": 530, "name": "Grey Knight Storm Talons", "pts": 250, "units": "2 Grey Knight Storm Talons", "upgrades": [] },
@@ -39,7 +40,7 @@
 	  {"id": 5, "name": "Ordo Malleus Inquisitor","pts": 0},
 
       {"id": 10, "name": "3 Chimera","pts": 0},
-      {"id": 11, "name": "Crassus Armoured Assault Transport", "pts": 0},
+      {"id": 11, "name": "Crassus Assault Transport", "pts": 25},
 
 	  {"id": 14, "name": "Hydra","pts": 50},
 
@@ -55,7 +56,7 @@
       {"max": 1, "from": [520]},
       {"maxPercent": 34, "name": "Grey Knight Navy", "from": [530,531,532,533]},
       {"max": 1, "name": "Grey Knight Support Detachment", "from": [510,511,512,513], "forEach": [500,501], "name2": "Grey Knight Core Detachment" },
-      {"max": 2, "name": "Ordo Malleus Formations", "from": [520,521,523,524], "forEach": [500,501], "name2": "Grey Knight Core Detachment" }
+      {"max": 2, "name": "Ordo Malleus Formations", "from": [520,521,523,524,525], "forEach": [500,501], "name2": "Grey Knight Core Detachment" }
    ],
    "upgradeConstraints": [
 	  {"max": 1, "perArmy": true, "from": [1,4]},
