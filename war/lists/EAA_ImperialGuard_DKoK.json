@@ -25,7 +25,7 @@
 			{ "id":531, "name":"Warhound Pack", "pts":500, "units":"2 Warhounds", "upgrades":[] },
 			{ "id":532, "name":"Thunderbolt Fighters", "pts":150, "units":"2 Thunderbolts", "upgrades":[] },
 			{ "id":533, "name":"Marauder Bomber", "pts":225, "upgrades":[] },
-			{ "id":534, "name":"Orbital Support",	"pts":150, "upgrades":[]}
+			{ "id":534, "name":"Orbital Support",	"pts":125, "upgrades":[]}
 		]}
 	],
 	"upgrades":[
@@ -34,8 +34,8 @@
 		{ "id":15, "name":"1 DKoK Supreme Commander with a Commissar, 19 Siege Infantry, 2 Gorgons", "pts":250},
 		{ "id":16, "name":"1 DKoK Supreme Commander with a Lord Commissar, 19 Siege Infantry, 2 Gorgons", "pts":350},
 
-		{ "id":17, "name":"1 DKoK Commander with a Commissar, 14 Assault Infantry", "pts":0},
-		{ "id":18, "name":"1 DKoK Commander with a Commissar, 19 Assault Infantry, 2 Gorgons", "pts":250},
+		{ "id":17, "name":"1 DKoK Commander with a Commissar, 14 Siege Infantry", "pts":0},
+		{ "id":18, "name":"1 DKoK Commander with a Commissar, 19 Siege Infantry, 2 Gorgons", "pts":250},
 
 		{ "id":21, "name":"Macharius", "pts":100},
 		{ "id":22, "name":"4 Storm Chimeras", "pts":100 },
