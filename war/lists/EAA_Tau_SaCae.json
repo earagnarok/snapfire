@@ -43,7 +43,7 @@
       {"id": 20,"name": "14 Kroot Warriors","pts": 75},
       {"id": 25,"name": "Tetra","pts": 0},
       {"id": 26,"name": "Piranha","pts": 0},
-      {"id": 22,"name": "Hammerhead gunship","pts": 50},
+      {"id": 22,"name": "Hammerhead Gunship","pts": 50},
       {"id": 31,"name": "8 Fire Warriors","pts": 0},
       {"id": 32,"name": "6 Fire Warriors, 3 Devilfish","pts": 0},
       {"id": 35,"name": "2 Gun Drones","pts": 25},
@@ -54,7 +54,7 @@
       {"id": 58,"name": "3 Kroot Hound Packs","pts": 50},
       {"id": 59,"name": "3 Krootox Herds","pts": 50},
       {"id": 60,"name": "Ethereal","pts": 50},
-      {"id": 61,"name": "2 Pathfinders, 1 Devilfish","pts": 100},
+      {"id": 61,"name": "2 Pathfinders, 1 Devilfish","pts": 75},
       {"id": 62,"name": "Bonded Team","pts": 25},
       {"id": 63,"name": "3 XV88 Broadsides","pts": 150},
 
