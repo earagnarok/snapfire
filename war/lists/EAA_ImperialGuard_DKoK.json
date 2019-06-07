@@ -1,6 +1,6 @@
 {
 	"id":"EAA Death Korps of Krieg",
-	"version":"0.6.2",
+	"version":"0.6.3",
 	"by":"EA Apocalypse",
 	"sections":[
 		{"name":"DEATH KORPS CORE FORMATIONS (Max 4 upgrades per formation)", "formations":[
@@ -9,12 +9,12 @@
 			{ "id":503, "name":"Death Rider Company", "pts":300, "units":"1 Commissar, 12 Death Riders", "upgrades":[31] }
 		]},
 		{"name":"SUPPORT FORMATIONS (Max 2 for each Core Formation)", "formations":[
-			{ "id":510, "name":"Grenadier Company", "pts":225, "units":"1 DKoK Commander with a Commissar, 7 Grenadiers", "upgrades":[22] },
+			{ "id":510, "name":"Grenadier Company", "pts":200, "units":"1 DKoK Commander with a Commissar, 7 Grenadiers", "upgrades":[22] },
 			{ "id":511, "name":"Leman Russ Platoon", "pts":350, "upgrades":[] },
-			{ "id":512, "name":"Macharius Company", "pts":325, "units":"2 Macharius", "upgrades":[] },
+			{ "id":512, "name":"Macharius Company", "pts":375, "units":"2 Macharius", "upgrades":[] },
 			{ "id":513, "name":"Earthshaker Battery", "pts":200, "upgrades":[] },
 			{ "id":514, "name":"Siege Artillery", "pts":225, "units":"3 Gun Emplacements", "upgrades":[] },
-			{ "id":516, "name":"Minotaur Battery", "pts":350,  "units":"1 Commissar, 2 Minotaurs", "upgrades":[] },
+			{ "id":516, "name":"Minotaur Battery", "pts":300,  "units":"2 Minotaurs", "upgrades":[] },
 			{ "id":517, "name":"Rough Rider Platoon", "pts":150, "units":"6 Rough Riders", "upgrades":[] },
 			{ "id":518, "name":"Deathstrike Silo", "pts":250, "units":"Deathstrike Silo", "upgrades":[] },
 			{ "id":519, "name":"Flak Battery", "pts":150, "units":"3 Heavy AA Guns, 3 Trojans", "upgrades":[] },
@@ -58,7 +58,7 @@
 		{ "id":40, "name":"Leman Russ", "pts":0},
 		{ "id":41, "name":"Leman Russ Demolisher", "pts":0},
 		{ "id":42, "name":"3 Earthshaker Guns, 3 Trojans", "pts":0},
-		{ "id":43, "name":"6 Earthshaker Guns, 1 Commissar, 6 Trojans", "pts":200},
+		{ "id":43, "name":"6 Earthshaker Guns, 1 Commissar, 6 Trojans", "pts":225},
 		{ "id":44, "name":"3 Medusa", "pts":0 },
 		{ "id":45, "name":"3 Bombards", "pts":0 },
 
@@ -75,7 +75,8 @@
 		{"maxPercent":33, "name":"Titans & Navy", "from":[531,532,533,534]},
 		{"max":2, "name":"Support Formations", "from":[510,511,512,513,514,515,516,517,518,519,520], "forEach":[501,502,503], "name2":"Core Company"},
 		{"max":1, "from":[534]},
-		{"max":1, "from":[518]}
+		{"max":1, "from":[518]},
+		{"max":1, "from":[501]}
 	],
 	"upgradeConstraints":[
 		{"max":6, "perArmy":true, "from":[10,11]},
