@@ -3,12 +3,12 @@
 	"version":"0.6.4",
 	"by":"EA Apocalypse",
 	"sections":[
-		{"name":"DEATH KORPS CORE COMPANIES (Max 4 upgrades per formation)", "formations":[
+		{"name":"DEATH KORPS CORE COMPANIES", "formations":[
 			{ "id":501, "name":"Regimental HQ", "pts":350, "upgrades":[21,29,30,31] },
 			{ "id":502, "name":"Assault Infantry Company", "pts":275, "units":"DKoK Commander with a Commissar, 9 Assault Infantry, Gorgon",  "upgrades":[21,29,30,31] },
 			{ "id":503, "name":"Death Rider Company", "pts":250, "units":"Commissar, 12 Death Riders", "upgrades":[32] }
 		]},
-		{"name":"SUPPORT FORMATIONS (Max 2 for each Core Formation)", "formations":[
+		{"name":"SUPPORT FORMATIONS (Max 2 for each Core Company)", "formations":[
 			{ "id":510, "name":"Grenadier Company", "pts":200, "units":"DKoK Commander with a Commissar, 7 Grenadiers", "upgrades":[22,23,29,30,31,32] },
 			{ "id":511, "name":"Leman Russ Platoon", "pts":350, "upgrades":[32] },
 			{ "id":512, "name":"Macharius Company", "pts":400, "units":"2 Macharius", "upgrades":[] },
