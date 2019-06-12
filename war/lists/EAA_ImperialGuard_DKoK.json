@@ -1,12 +1,12 @@
 {
 	"id":"EAA Death Korps of Krieg",
-	"version":"0.6.4",
+	"version":"0.6.5",
 	"by":"EA Apocalypse",
 	"sections":[
 		{"name":"DEATH KORPS CORE COMPANIES", "formations":[
-			{ "id":501, "name":"Regimental HQ", "pts":350, "upgrades":[21,29,30,31] },
-			{ "id":502, "name":"Assault Infantry Company", "pts":275, "units":"DKoK Commander with a Commissar, 9 Assault Infantry, Gorgon",  "upgrades":[21,29,30,31] },
-			{ "id":503, "name":"Death Rider Company", "pts":250, "units":"Commissar, 12 Death Riders", "upgrades":[32] }
+			{ "id":501, "name":"Death Korps Regimental HQ", "pts":325, "upgrades":[21,29,30,31] },
+			{ "id":502, "name":"Assault Infantry Company", "pts":250, "units":"DKoK Commander with a Commissar, 9 Assault Infantry, Gorgon",  "upgrades":[21,29,30,31] },
+			{ "id":503, "name":"Death Rider Company", "pts":300, "units":"Commissar, 12 Death Riders", "upgrades":[32] }
 		]},
 		{"name":"SUPPORT FORMATIONS (Max 2 for each Core Company)", "formations":[
 			{ "id":510, "name":"Grenadier Company", "pts":200, "units":"DKoK Commander with a Commissar, 7 Grenadiers", "upgrades":[22,23,29,30,31,32] },
@@ -21,16 +21,18 @@
 			{ "id":520, "name":"Super-Heavy Tank Platoon", "pts":175, "upgrades":[] }
 		]},
 
-		{"name":"TITAN LEGION AND IMPERIAL NAVY (Max 33%)", "formations":[
-			{ "id":531, "name":"Warhound Pack", "pts":500, "units":"2 Warhounds", "upgrades":[70] },
-			{ "id":532, "name":"Thunderbolt Fighters", "pts":150, "units":"2 Thunderbolts", "upgrades":[] },
-			{ "id":533, "name":"Marauder Bomber", "pts":225, "upgrades":[] },
+		{"name":"COLLEGIA TITANICA AND IMPERIAL NAVY (Max 33%)", "formations":[
+			{ "id":531, "name":"Warhound Pack", "pts":500, "units":"2 Warhounds", "upgrades":[] },
+			{ "id":532, "name":"Thunderbolt Squadron", "pts":150, "units":"2 Thunderbolt Fighters", "upgrades":[] },
+			{ "id":533, "name":"Marauder Squadron", "pts":225, "units":"2 Marauder Bombers",  "upgrades":[] },
 			{ "id":534, "name":"Orbital Support",	"pts":125, "upgrades":[]}
 		]}
 	],
 	"upgrades":[
 		{ "id":13, "name":"DKoK Supreme Commander with a Commissar, 9 Assault Infantry, Gorgon", "pts":0},
-		{ "id":14, "name":"DKoK Supreme Commander with a Lord Commissar, 9 Assualt Infantry, Gorgon", "pts":75},
+		{ "id":14, "name":"DKoK Supreme Commander with a Lord Commissar, 9 Assualt Infantry, Gorgon", "pts":100},
+		{ "id":15, "name":"DKoK Supreme Commander with a Commissar, 19 Assault Infantry, 2 Gorgons", "pts":275},
+		{ "id":16, "name":"DKoK Supreme Commander with a Lord Commissar, 19 Assualt Infantry, 2 Gorgons", "pts":375},
 
 		{ "id":21, "name":"Macharius", "pts":125},
 		{ "id":22, "name":"4 Storm Chimeras", "pts":75 },
@@ -65,9 +67,7 @@
 		{ "id":53, "name":"Stormsword", "pts":0 },
 
 		{ "id":60, "name":"Lunar Class Cruiser", "pts":0 },
-		{ "id":61, "name":"Emperor Class Battleship", "pts":50 },
-
-		{ "id":70, "name":"Independent", "pts":50 }
+		{ "id":61, "name":"Emperor Class Battleship", "pts":50 }
 
 	],
 	"formationConstraints":[
@@ -85,7 +85,7 @@
 		{"max":1, "from":[34]},
 		{"max":1, "from":[35,36]},
 
-		{"min":1, "max":1, "from":[13,14], "appliesTo":[501]},
+		{"min":1, "max":1, "from":[13,14,15,16], "appliesTo":[501]},
 
 		{"min":1, "max":1, "from":[26,27,28], "appliesTo":[511]},
 
