@@ -20,7 +20,7 @@
 			{"id":516, "name":"Whirlwinds",				"pts":275, "units":"4 Whirlwinds", "upgrades":[31,32]}
 		]},
 
-		{"name":"CODEX ASTARTES AIRCRAFT AND TITAN ALLIES (Max 33%)", "formations":[
+		{"name":"CODEX ASTARTES AIRCRAFT AND COLLEGIA TITANICA ALLIES (Max 33%)", "formations":[
 			{"id":520, "name": "Storm Talon Squadron", "units":"2 Storm Talon Gunships",		"pts":200, "upgrades":[]},
 			{"id":521, "name": "Thunderhawk",	"units":"Thunderhawk Gunship",				"pts":200, "upgrades":[]},
 			{"id":522, "name": "Warhound Pack", "units":"2 Warhound Scout Titans",				"pts":500, "upgrades":[]},
