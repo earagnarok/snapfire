@@ -1,6 +1,6 @@
 {
 	"id":"EAA Death Korps of Krieg",
-	"version":"0.6.5",
+	"version":"0.6.6",
 	"by":"EA Apocalypse",
 	"sections":[
 		{"name":"DEATH KORPS CORE COMPANIES", "formations":[
@@ -9,14 +9,14 @@
 			{ "id":503, "name":"Death Rider Company", "pts":300, "units":"Commissar, 12 Death Riders", "upgrades":[32] }
 		]},
 		{"name":"SUPPORT FORMATIONS (Max 2 for each Core Company)", "formations":[
-			{ "id":510, "name":"Grenadier Company", "pts":200, "units":"DKoK Commander with a Commissar, 7 Grenadiers", "upgrades":[22,23,29,30,31,32] },
+			{ "id":510, "name":"Grenadier Company", "pts":300, "units":"DKoK Commander with a Commissar, 7 Grenadiers", "upgrades":[22,23,29,30,31,32] },
 			{ "id":511, "name":"Leman Russ Platoon", "pts":350, "upgrades":[32] },
 			{ "id":512, "name":"Macharius Company", "pts":400, "units":"2 Macharius", "upgrades":[] },
 			{ "id":513, "name":"Earthshaker Battery", "pts":200, "upgrades":[] },
-			{ "id":514, "name":"Siege Artillery Battery", "pts":225, "units":"3 Gun Emplacements", "upgrades":[44,45] },
-			{ "id":515, "name":"Siege Infantry Company", "pts":200, "units":"DKoK Commander with a Commissar, eleven Siege Infantry", "upgrades":[32,34,35,36] },
+			{ "id":514, "name":"Siege Artillery Battery", "pts":225, "upgrades":[] },
+			{ "id":515, "name":"Siege Infantry Platoon", "pts":150, "units":"Eight Siege Infantry", "upgrades":[32,35,36] },
 			{ "id":517, "name":"Rough Rider Platoon", "pts":150, "units":"6 Rough Riders", "upgrades":[] },
-			{ "id":518, "name":"Deathstrike Silo", "pts":250, "units":"Deathstrike Silo", "upgrades":[] },
+			{ "id":518, "name":"Deathstrike Battery", "pts":200, "units":"2 Deathstrikes", "upgrades":[] },
 			{ "id":519, "name":"Flak Battery", "pts":150, "units":"3 Heavy AA Guns, 3 Trojans", "upgrades":[] },
 			{ "id":520, "name":"Super-Heavy Tank Platoon", "pts":175, "upgrades":[] }
 		]},
@@ -35,8 +35,8 @@
 		{ "id":16, "name":"DKoK Supreme Commander with a Lord Commissar, 19 Assualt Infantry, 2 Gorgons", "pts":375},
 
 		{ "id":21, "name":"Macharius", "pts":125},
-		{ "id":22, "name":"4 Storm Chimeras", "pts":75 },
-		{ "id":23, "name":"Gorgon", "pts":75 },
+		{ "id":22, "name":"4 Storm Chimeras", "pts":0 },
+		{ "id":23, "name":"Gorgon", "pts":0 },
 
 		{ "id":24, "name":"Macharius Command Tank with a Commissar (Vanquishers)", "pts":0 },
 		{ "id":25, "name":"Macharius Command Tank with a Commissar (Vulcan Mega-Bolter)", "pts":0 },
@@ -51,10 +51,8 @@
 
 		{ "id":32, "name":"Hellhound", "pts":25},
 
-		{ "id":34, "name":"60cm of Trenches, 60cm of Razor Wire", "pts":50 },
-
-		{ "id":35, "name":"3 Malcador", "pts":175},
-		{ "id":36, "name":"3 Malcador Annihilator", "pts":175},
+		{ "id":35, "name":"Malcador", "pts":75},
+		{ "id":36, "name":"Malcador Annihilator", "pts":75},
 
 		{ "id":42, "name":"3 Earthshaker Guns, 3 Trojans", "pts":0},
 		{ "id":43, "name":"6 Earthshaker Guns, 1 Commissar, 6 Trojans", "pts":225},
@@ -79,13 +77,13 @@
 	],
 	"upgradeConstraints":[
 		{"max":1, "from":[21]},
-		{"max":1, "from":[22,23]},
 		{"max":1, "from":[29,30,31]},
 		{"max":3, "from":[32]},
-		{"max":1, "from":[34]},
-		{"max":1, "from":[35,36]},
+		{"max":2, "from":[35,36]},
 
 		{"min":1, "max":1, "from":[13,14,15,16], "appliesTo":[501]},
+
+		{"min":1, "max":1, "from":[22,23], "appliesTo":[510]},
 
 		{"min":1, "max":1, "from":[26,27,28], "appliesTo":[511]},
 
