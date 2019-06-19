@@ -1,6 +1,6 @@
 {
 	"id":"EAA Death Korps of Krieg",
-	"version":"0.6.6",
+	"version":"0.6.7",
 	"by":"EA Apocalypse",
 	"sections":[
 		{"name":"DEATH KORPS CORE COMPANIES", "formations":[
@@ -38,7 +38,7 @@
 		{ "id":22, "name":"4 Storm Chimeras", "pts":0 },
 		{ "id":23, "name":"Gorgon", "pts":0 },
 
-		{ "id":24, "name":"Macharius Command Tank with a Commissar (Vanquishers)", "pts":0 },
+		{ "id":24, "name":"Macharius Command Tank with a Commissar (Twin Vanquishers)", "pts":0 },
 		{ "id":25, "name":"Macharius Command Tank with a Commissar (Vulcan Mega-Bolter)", "pts":0 },
 
 		{ "id":26, "name":"6 Leman Russ Demolishers", "pts":0},
@@ -92,7 +92,7 @@
 
 		{"min":1, "max":1, "from":[44,45], "appliesTo":[514]},
 
-		{"min":1, "max":1, "from":[50,51,52,53], "appliesTo":[520]},
+		{"min":1, "max":1, "from":[50,52,53,51], "appliesTo":[520]},
 
 		{"min":1, "max":1, "from":[60,61], "appliesTo":[534]}
 	]

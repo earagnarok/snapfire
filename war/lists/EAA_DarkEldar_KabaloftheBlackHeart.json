@@ -1,66 +1,65 @@
 {
 	"id":"Dark Eldar Kabal of the Black Heart",
-	"version":"0.6.0",
+	"version":"0.7.0",
 	"by":"EA-Apocalypse",
 	"notes":["All Dark eldar formations with the 'transport' upgrade option may only select enough transports to transport the formation with no transport spaces left over after any upgrades have been added to the formation"],
-	"notes":["Up to 2 upgrades may be selected for each Kabal or Partisan formation. Each upgrade may only be chosen once by each formation"],
+	"notes":[],
 	"sections":[
-		{"name":"INDIVIDUALS", "formations":[
+		{"name":"DARK ELDAR SPECIALS", "formations":[
 			{"id":530, "name":"Webway Portal", "pts":50, "upgrades":[]},
 			{"id":531, "name":"Portable Webway Portal", "pts":50, "upgrades":[]}
 		]},
 		{"name":"KABALS", "formations":[
-			{"id":511, "name":"Kabal Coterie", "pts":250, "units":"4 Incubi, Archon", "upgrades":[71,55,61,70,57,76,80,81]},
-			{"id":512, "name":"Kabal Syndicate", "pts":200,	"upgrades":[51,61,71,60,57,80,81,70,76], "units":"6 Warriors"},
-			{"id":513, "name":"Kabal Flotilla", "pts":25, "upgrades":[51,61]}
+			{"id":511, "name":"Kabal Coterie", "pts":250, "upgrades":[55,57,61,70,71,72]},
+			{"id":512, "name":"Kabal Syndicate", "pts":200,	"upgrades":[17,61,70,71,72]},
+			{"id":513, "name":"Kabal Flotilla", "pts":25, "upgrades":[61]}
 		]},
-		{"name":"PARTISANS", "formations":[
-			{"id":501, "name":"Haemonculi Coven", "pts":225, "units":"2 Haemonculi, 4 Wracks", "upgrades":[22,71,60,73,70,76]},
-			{"id":502, "name":"Talos", "pts":225, "units":"4 Talos", "upgrades":[73,74]},
-			{"id":503, "name":"Wych Cult", "pts":200, "units":"6 Wyches", "upgrades":[71,75,18,70,76]},
-			{"id":504, "name":"Hellions", "pts":200, "units":"6 Hellions", "upgrades":[18,82]},
-			{"id":505, "name":"Reavers", "pts":200, "units":"6 Reavers", "upgrades":[18,83]},
-			{"id":506, "name":"Mandrakes", "pts":200, "units":"6 Mandrakes", "upgrades":[]},
-			{"id":507, "name":"Scourges", "pts":250, "units":"6 Scourges", "upgrades":[18,80]},
+		{"name":"PARTISANS (Max 2 for each Kabal)", "formations":[
+			{"id":501, "name":"Haemonculi Coven", "pts":225, "units":"2 Haemonculi, 4 Wracks", "upgrades":[70,71,72,73,74]},
+			{"id":502, "name":"Talos Swarm", "pts":225, "upgrades":[]},
+			{"id":503, "name":"Wych Cult", "pts":150,  "units":"4 Wyches", "upgrades":[18,62,70,71,72]},
+			{"id":504, "name":"Hellion Murder", "pts":50, "upgrades":[62]},
+			{"id":505, "name":"Reaver Gang", "pts":50, "upgrades":[18]},
+			{"id":506, "name":"Mandrake Throng", "pts":200, "units":"6 Mandrakes", "upgrades":[]},
+			{"id":507, "name":"Scourge Flight", "pts":250, "units":"6 Scourges", "upgrades":[]},
 			{"id":508, "name":"Heavy Barge", "pts":250, "units":"Vessel of Pain", "upgrades":[]}
 		]},
-		{"name":"SPACESHIPS & AIRCRAFT", "formations":[
-			{"id":522, "name":"Torture Class Cruiser", "pts":300, "upgrades":[]},
+		{"name":"WAR ENGINES, SPACESHIPS & AIRCRAFT (Max 33%)", "formations":[
+			{"id":522, "name":"Cruiser", "pts":300, "units":"Torture Class Cruiser", "upgrades":[]},
 			{"id":523, "name":"Slavebringer", "pts":200, "units":"Slavebringer Assault Boat", "upgrades":[]},
 			{"id":525, "name":"Executioner", "pts":450, "units":"Executioner Landing Module", "upgrades":[]},
-			{"id":526, "name":"Razorwing Cast", "pts":50, "upgrades":[84]},
-			{"id":527, "name":"Voidraven Cast", "pts":50, "upgrades":[]},
+			{"id":526, "name":"Razorwing Cast", "pts":75, "upgrades":[84]},
+			{"id":527, "name":"Voidraven Cast", "pts":250, "units":"2 Void Raven Interdictors", "upgrades":[]},
 			{"id":528, "name":"Tormentor", "pts":350, "units":"Tormentor Titan", "upgrades":[]}
 		]}
 	],
 	"upgrades":[
-		{"id":23, "name":"Vessel of Pain", "pts":250},
 		{"id":17, "name":"Dracon", "pts":50},
 		{"id":18, "name":"Succubus", "pts":50},
-		{"id":22, "name":"Ancient", "pts":25},
-		{"id":51, "name":"Dracon", "pts":50},
-		{"id":52, "name":"Archon", "pts":100},
-		{"id":55, "name":"2 Incubi", "pts":75},
+
+		{"id":55, "name":"Archon, 4 Incubi", "pts":0},
+		{"id":56, "name":"Archon, 6 Incubi", "pts":75},
 		{"id":57, "name":"2 Warriors", "pts":50},
-		{"id":60, "name":"2 Grotesques", "pts":75},
+		{"id":58, "name":"6 Warriors", "pts":0},
+		{"id":59, "name":"8 Warriors", "pts":50},
 		{"id":61, "name":"Ravager", "pts":50},
-		{"id":75, "name":"2 Warp Beasts", "pts":50},
+		{"id":62, "name":"Warp Beasts", "pts":25},
 		{"id":70, "name":"Raider", "pts":0},
-		{"id":76, "name":"2 Venoms", "pts":25},
-		{"id":71, "name":"Barges", "pts":100},
+		{"id":71, "name":"2 Venoms", "pts":25},
+		{"id":72, "name":"Barge of Pleasure", "pts":100},
 
 		{"id":73, "name":"Talos", "pts":50},
-		{"id":74, "name":"Perditor", "pts":150},
-		{"id":80, "name":"2 Scourges", "pts":75},
-		{"id":81, "name":"2 Wyches", "pts":50},
-		{"id":82, "name":"2 Hellions", "pts":50},
-		{"id":83, "name":"2 Reavers", "pts":50},
-		{"id":84, "name":"Razorwing Interceptor", "pts":75},
-		{"id":85, "name":"Voidraven Interdictor", "pts":100}
+		{"id":74, "name":"2 Talos", "pts":75},
+		{"id":75, "name":"4 Talos", "pts":0},
+		{"id":76, "name":"5 Talos", "pts":50},
+		{"id":77, "name":"6 Talos", "pts":75},
+		{"id":82, "name":"Hellions", "pts":25},
+		{"id":83, "name":"Reavers", "pts":25},
+		{"id":84, "name":"Razorwing Interceptor", "pts":75}
 
 	],
 	"formationConstraints":[
-		{"maxPercent":33.34, "name": "Spaceships, Aircraft & Titans", "from":[522,523,525,526,527,528,529]},
+		{"maxPercent":33.34, "name": "Spaceships, Aircraft & War Engines", "from":[522,523,525,526,527,528]},
 		{"max":1, "from":[530]},
 		{"max":1, "from":[531]},
 		{"min":1, "max":1, "from":[511]},
@@ -68,27 +67,28 @@
 		{"max":1, "name":"Spacecraft", "from":[522]}
 	],
 	"upgradeConstraints":[
-		{"max":1, "name":"Dracon", "from":[51], "appliesTo":[512,513]},
-		{"max":1, "name":"Ancient", "from":[22], "appliesTo":[501]},
-		{"max":1, "name":"Succubus", "from":[18], "appliesTo":[503,504,505]},
+		{"max":1, "name":"Dracon", "from":[17]},
+		{"max":1, "name":"Succubus", "from":[18]},
+		{"min":1, "max":1, "from":[55,56], "appliesTo":[511]},
+		{"min":1, "max":1, "from":[58,59], "appliesTo":[512]},
 		{"min":4, "max":6, "name":"Ravagers", "from":[61], "appliesTo":[513]},
+		{"min":1, "max":1, "from":[75,76,77], "appliesTo":[502]},
+		{"min":6, "max":8, "name":"Hellion Skyboards", "from":[82], "appliesTo":[504]},
+		{"min":6, "max":8, "name":"Reaver Jet Bikes", "from":[83], "appliesTo":[505]},
 		{"min":2, "max":3, "name":"Razorwings", "from":[84], "appliesTo":[526]},
-		{"min":2, "max":3, "name":"Voidravens", "from":[85], "appliesTo":[527]},
-		{"max":1, "from":[60]},
-		{"max":2, "from":[74]},
-		{"max":3, "from":[70,76]},
-		{"max":3, "from":[71]},
-		{"max":4, "from":[73]},
+		{"max":2, "from":[62]},
+		{"max":4, "from":[70], "appliesTo":[511,512]},
+		{"max":4, "from":[71], "appliesTo":[511,512]},
+		{"max":2, "from":[72], "appliesTo":[511,512,501,503]},
+		{"max":3, "from":[70], "appliesTo":[501]},
+		{"max":3, "from":[71], "appliesTo":[501]},
+		{"max":2, "from":[70], "appliesTo":[503]},
+		{"max":2, "from":[71], "appliesTo":[503]},
+		{"max":1, "from":[72], "appliesTo":[503]},
+		{"max":1, "from":[73,74]},
 		{"max":2, "from":[61], "appliesTo":[511,512]},
 		{"max":1, "from":[55]},
-		{"max":1, "from":[57]},
-		{"max":1, "from":[80]},
-		{"max":1, "from":[81]},
-		{"max":1, "from":[82]},
-		{"max":1, "from":[83]},
-		{"max":2, "from":[74]},
-		{"max":1, "from":[75]},
-		{"max":2, "from":[55,57,60,75,80,81,82,83], "appliesTo":[511,512,513,501,502,503,504,505,506,507,508]}
+		{"max":1, "from":[57]}
 
 	]
 }
