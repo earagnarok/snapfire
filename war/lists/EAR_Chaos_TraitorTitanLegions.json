@@ -2,7 +2,7 @@
 	"id":"Traitor Titan Legions",
 	"version":"EAR 1.6",
 	"notes":[],
-	"by":"EA-Armageddon",
+	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"BATTLE TITAN FORMATIONS / / Army must contain at least one Chaos Emperor Titan or Chaos Warlord Titan / / May not Mix Nurgle/Tzeench or Slaanesh/Khorne formations ", "formations":[
 			{"id":500, "name":"CHAOS EMPEROR TITAN", 		"pts":900, "upgrades":[10]},

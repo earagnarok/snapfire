@@ -1,7 +1,7 @@
 {
 	"id":"EAR Iron Hands",
 	"version":"v0.9",
-	"by":"EA-Armageddon",
+	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"IRON HANDS CORE DETACHMENTS", "formations":[
 			{"id":500, "name":"Dreadnought Clan", "pts":300, "upgrades":[24,26,27,28,29,31,38,32,42,43,44,45]},

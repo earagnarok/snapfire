@@ -1,7 +1,7 @@
 {
 	"id":"EAR Daemonic Incursion",
 	"version":"2.6",	
-	"by":"EA-Armageddon",
+	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"DAEMONS", "formations":[
 			{"id":500, "name":"Daemon Pool", "pts":0, "upgrades":[72,73]}
