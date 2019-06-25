@@ -1,12 +1,12 @@
 {
 	"id":"Minervan Tank Legion",
-	"version":"0.5.0",
+	"version":"0.5.1",
 	"by":"EA-Apocalypse",
 	"sections":[
 		{"name":"COMPANIES", "formations":[
 			{"id":500, "name":"Tank Company", 			"pts":575, "upgrades":[16,45]},
 			{"id":501, "name":"Super-Heavy Tank Company", 		"pts":500, "upgrades":[17,45]},
-		 	{"id":502, "name":"Artillery Company", 			"pts":400, "units":"Minervan Commander, Commissar, 6 Medusa", "upgrades":[45]}
+		 	{"id":502, "name":"Artillery Company", 			"pts":350, "units":"Minervan Commander, Commissar, 6 Medusa", "upgrades":[45]}
 		]},
 		{"name":"SUPPORT FORMATIONS (Max two for each Company)", "formations":[
 			{"id":510, "name":"Deathstrike Missile Battery",		"pts":200, "upgrades":[], "units":"2 Deathstrikes"},

@@ -1,6 +1,6 @@
 {
 	"id":"EAA Baran Siegemasters",
-	"version":"0.6.1",
+	"version":"0.6.2",
 	"by":"EA-Apocalypse",
 	"sections":[
 		{"name":"CORE COMPANIES", "formations":[
@@ -10,7 +10,7 @@
 		]},
 		{"name":"SUPPORT FORMATIONS (two for each Core Company)", "formations":[
 			{"id":510, "name":"Howitzer Emplacement", 			"pts":175, "upgrades":[]},
-			{"id":511, "name":"Siege Artillery Emplacement", 			"pts":225, "upgrades":[], "units":"3 Gun Emplacements"},
+			{"id":511, "name":"Siege Artillery Emplacement", 			"pts":225, "upgrades":[]},
 			{"id":513, "name":"Deathstrike Emplacement",	"pts":250, "upgrades":[], "units":"Deathstrike Silo"},
 			{"id":514, "name":"Flak Emplacement", 			"pts":175, "upgrades":[], "units":"4 Heavy AA Guns, 4 Gun Emplacements"},
 			{"id":515, "name":"Heavy Tank Emplacement",			"pts":350, "upgrades":[]},
@@ -36,8 +36,8 @@
 		{"id":9, "name":"Heavy Tank Company: Commissar, 2 Malcadors, 6 Ragnarok Heavy Tanks, 6 Gun Emplacements",	"pts":175},
 		{"id":10, "name":"Howitzer Battery: 3 Howitzers, 3 Gun Emplacements",			"pts":0},
 		{"id":11, "name":"Howitzer Company: Commissar, 6 Howitzers, 6 Gun Emplacements",	"pts":175},
-		{"id":12, "name":"3 Bombards",								"pts":0},
-		{"id":13, "name":"3 Medusa",								"pts":0},
+		{"id":12, "name":"3 Bombards and 3 Gun Emplacements",								"pts":0},
+		{"id":13, "name":"4 Medusa and 4 Gun Emplacements",								"pts":0},
 		{"id":15, "name":"Stormblade",								"pts":0},
 		{"id":16, "name":"Baneblade",								"pts":0},
 		{"id":26, "name":"Shadowsword",								"pts":25},

@@ -1,6 +1,6 @@
 {
 	"id":"EAA Death Korps of Krieg",
-	"version":"0.6.7",
+	"version":"0.7.0",
 	"by":"EA Apocalypse",
 	"sections":[
 		{"name":"DEATH KORPS CORE COMPANIES", "formations":[
@@ -56,7 +56,7 @@
 		{ "id":42, "name":"3 Earthshaker Guns, 3 Trojans", "pts":0},
 		{ "id":43, "name":"6 Earthshaker Guns, 1 Commissar, 6 Trojans", "pts":225},
 		{ "id":44, "name":"3 Bombards", "pts":0},
-		{ "id":45, "name":"3 Medusa", "pts":0},
+		{ "id":45, "name":"4 Medusa", "pts":0},
 
 		{ "id":50, "name":"Baneblade", "pts":0 },
 		{ "id":51, "name":"Shadowsword", "pts":25 },

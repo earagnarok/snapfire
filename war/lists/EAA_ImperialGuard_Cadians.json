@@ -1,6 +1,6 @@
 {
 	"id":"Cadian Shock Troopers",
-	"version":"0.6.1",
+	"version":"0.6.2",
 	"by":"EA-Apocalypse",
 	"sections":[
 		{"name":"CADIAN CORE COMPANIES", "formations":[
@@ -11,7 +11,7 @@
 		{"name":"CADIAN SUPPORT FORMATIONS (Up to three for each Core Company)", "formations":[
 			{"id":509, "name":"Kasrkin Platoon", "pts":275, "upgrades":[], "units":"6 Kasrkin, Crassus Assault Transport"},
 			{"id":510, "name":"Praetor Battery", "pts":275, "upgrades":[], "units":"Praetor Assault Launcher"},
-			{"id":511, "name":"Medusa Battery", "pts":200, "upgrades":[18], "units":"4 Medusa"},
+			{"id":511, "name":"Siege Artillery Battery", "pts":225, "upgrades":[18]},
 			{"id":512, "name":"Leman Russ Platoon", "pts":350, "upgrades":[18]},
 			{"id":513, "name":"Flak Battery", "pts":150, "upgrades":[], "units":"3 Hydras"},
 			{"id":514, "name":"Hellhound Platoon", "pts":200, "upgrades":[18], "units":"6 Hellhounds"},
@@ -35,6 +35,9 @@
 
 		{"id":10, "name":"Stormlord", "pts":0},
 		{"id":11, "name":"Imperial Leviathan", "pts":125},
+
+		{"id":15, "name":"3 Bombards", "pts":0},
+		{"id":16, "name":"4 Medusa", "pts":0},
 
 		{"id":18, "name":"Hydra", "pts":50},
 
@@ -80,6 +83,7 @@
 
 		{"min":1, "max":1, "from":[10,11], "appliesTo":[500]},
 
+		{"min":1, "max":1, "from":[15,16], "appliesTo":[511]},
 
 		{"min":1, "max":1, "from":[24,25,26], "appliesTo":[512]},
 
