@@ -96,7 +96,7 @@
 		{"id":104, "name":"Knight-Warden (Gatling Cannon, Ironstorm Missiles, Hvy Stubber, Chainsword)",											"pts":100},
 		{"id":105, "name":"Knight-Preceptor (Las-Impulsor, Hvy Stubber, Gauntlet)",											        				"pts":100},
 
-		{"id":130, "name":"Ordinatus Minoris (Tri-Twin Hydra Autocannon)",	"pts":125},
+		{"id":130, "name":"Ordinatus Minoris (Tri-Twin Hydra Autocannons)",	"pts":125},
 		{"id":131, "name":"Ordinatus Minoris (Titan Plasma Cannon)",			"pts":125},
 		{"id":132, "name":"Ordinatus Minoris (Turbo-laser Destructor)",		"pts":125},
 		{"id":133, "name":"Ordinatus Minoris (Apocalypse Missile Launcher)",	"pts":125},

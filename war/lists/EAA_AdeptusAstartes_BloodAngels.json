@@ -57,8 +57,8 @@
 		{"id":27, "name":"Terminators",									"pts":75},
 		{"id":28, "name":"Assault Terminators",							"pts":75},
 
-		{"id":29, "name":"Razorback with Twin Lascannon", 				"pts":25},
-		{"id":30, "name":"Razorback with Twin Heavy Bolter", 			"pts":25},
+		{"id":29, "name":"Razorback with Twin Lascannons", 				"pts":25},
+		{"id":30, "name":"Razorback with Twin Heavy Bolters", 			"pts":25},
 
 		{"id":31, "name":"Hunter", 										"pts":75},
 		{"id":32, "name":"Stalker", 									"pts":50},

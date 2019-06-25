@@ -14,7 +14,7 @@
 			{"id":513, "name":"Deathstrike Emplacement",	"pts":250, "upgrades":[], "units":"Deathstrike Silo"},
 			{"id":514, "name":"Flak Emplacement", 			"pts":175, "upgrades":[], "units":"4 Heavy AA Guns, 4 Gun Emplacements"},
 			{"id":515, "name":"Heavy Tank Emplacement",			"pts":350, "upgrades":[]},
-			{"id":516, "name":"Light Tank Platoon",			"pts":125, "upgrades":[23], "units":"4 Siegfried Light Tanks"},
+			{"id":516, "name":"Light Tank Platoon",			"pts":150, "upgrades":[23], "units":"4 Siegfried Light Tanks"},
 			{"id":517, "name":"Death Rider Platoon",			"pts":150, "upgrades":[], "units":"6 Death Riders"},
 			{"id":518, "name":"Sapper Company",				"pts":250, "upgrades":[], "units":"1 Baran Commander with a Commissar, 7 Sappers, 1 Hades Breaching Drill (Formation may only enter the battlefield by Tunneling)"},
 			{"id":519, "name":"Super-Heavy Tank Platoon", 		"pts":175, "upgrades":[]},

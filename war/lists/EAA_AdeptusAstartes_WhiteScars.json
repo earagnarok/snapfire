@@ -52,8 +52,8 @@
 		{"id":35, "name":"4 Scouts with Sniper, plus transport",			"pts":25},
 		{"id":36, "name":"White Scar Vindicator",		"pts":50},
 		{"id":37, "name":"2 White Scar Vindicators",		"pts":75},
-		{"id":38, "name":"Razorback w/ Twin Lascannon",				"pts":25},
-		{"id":39, "name":"Razorback w/ Twin Heavy Bolter",				"pts":25},
+		{"id":38, "name":"Razorback w/ Twin Lascannons",				"pts":25},
+		{"id":39, "name":"Razorback w/ Twin Heavy Bolters",				"pts":25},
 		{"id":40, "name":"Strike Cruiser",		"pts":0},
 		{"id":41, "name":"Battle Barge",		"pts":75},
 		{"id":50, "name":"Independent: Allows a Warhound Pack to operate as two independent formations. If one Warhound in a pack is destroyed, the other one in the pack receives a blastmarker",				"pts":50}

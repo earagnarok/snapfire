@@ -31,7 +31,7 @@
 		{"id":11, "name":"Knight-Baron",						"pts":150},
 		{"id":12, "name":"Seneschal",							"pts":25},
 		{"id":13, "name":"Knight-Protector",					"pts":75},
-		{"id":14, "name":"Knight-Custodian (Twin Lascannon)",					"pts":100},
+		{"id":14, "name":"Knight-Custodian (Twin Lascannons)",					"pts":100},
 		{"id":24, "name":"Knight-Custodian (Multi Barreled Autocannon)",					"pts":100},
 		{"id":15, "name":"Knight-Vanguard",						"pts":75},
 		{"id":16, "name":"Knight-Guardian Demolisher",			"pts":50},
