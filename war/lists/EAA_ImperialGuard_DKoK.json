@@ -60,7 +60,6 @@
 
 		{ "id":50, "name":"Baneblade", "pts":0 },
 		{ "id":51, "name":"Shadowsword", "pts":25 },
-		{ "id":52, "name":"Stormblade", "pts":0 },
 		{ "id":53, "name":"Stormsword", "pts":0 },
 
 		{ "id":60, "name":"Lunar Class Cruiser", "pts":0 },
@@ -92,7 +91,7 @@
 
 		{"min":1, "max":1, "from":[44,45], "appliesTo":[514]},
 
-		{"min":1, "max":1, "from":[50,52,53,51], "appliesTo":[520]},
+		{"min":1, "max":1, "from":[50,53,51], "appliesTo":[520]},
 
 		{"min":1, "max":1, "from":[60,61], "appliesTo":[534]}
 	]
