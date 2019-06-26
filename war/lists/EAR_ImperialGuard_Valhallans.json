@@ -15,7 +15,7 @@
 			{"id":512, "name":"Super-Heavy Tank Platoon", 			"pts":175, "upgrades":[]},
 			{"id":513, "name":"Leman Russ Platoon", 			"pts":350, "upgrades":[45]},
 			{"id":514, "name":"Flak Battery",				"pts":150, "upgrades":[], "units":"3 Hydras"},
-			{"id":515, "name":"Hellhound Platoon", 	"pts":225, "units":"6 Hellhounds", "upgrades":[45]}
+			{"id":515, "name":"Hellhound Platoon", 	"pts":250, "units":"6 Hellhounds", "upgrades":[45]}
 		]},
 		{"name":"ADEPTUS MINISTORUM, TUNNELERS AND IMPERIAL NAVY ALLIES (Max 25%)", "formations":[
 			{"id":520, "name":"Ministorum Flagellants",	"pts":200, "upgrades":[], "units":"6 Arco-Flagellants"},

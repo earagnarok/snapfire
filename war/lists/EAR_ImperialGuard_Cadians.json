@@ -14,7 +14,7 @@
 			{"id":511, "name":"Siege Artillery Battery", "pts":225, "upgrades":[18]},
 			{"id":512, "name":"Leman Russ Platoon", "pts":350, "upgrades":[18]},
 			{"id":513, "name":"Flak Battery", "pts":150, "upgrades":[], "units":"3 Hydras"},
-			{"id":514, "name":"Hellhound Platoon", "pts":225, "upgrades":[18], "units":"6 Hellhounds"},
+			{"id":514, "name":"Hellhound Platoon", "pts":250, "upgrades":[18], "units":"6 Hellhounds"},
 			{"id":515, "name":"Whiteshield Platoon", "pts":275, "upgrades":[], "units":"8 Whiteshields, Stormlord"},
 			{"id":517, "name":"Sentinel Squadron", "pts":100, "upgrades":[], "units":"4 Cadian Sentinels"},
 			{"id":518, "name":"Super-Heavy Tank Platoon", "pts":175, "upgrades":[]},
