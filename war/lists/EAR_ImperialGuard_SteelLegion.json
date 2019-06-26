@@ -47,6 +47,7 @@
 
 		{"id":26, "name":"Baneblade",					"pts":0},
 		{"id":27, "name":"Shadowsword",					"pts":25},
+		{"id":19, "name":"Shadowsword",					"pts":0},
 		{"id":29, "name":"Stormblade",					"pts":0},
 
 		{"id":28, "name":"Vulture",						"pts":75},
@@ -138,7 +139,7 @@
 
    		{"max":3, "from":[52,55,53,54,57,58,59,60,61], "appliesTo":[503]},
 
-   		{"min":3, "max":3, "from":[26,27], "appliesTo":[504]},
+   		{"min":3, "max":3, "from":[26,19,29], "appliesTo":[504]},
    		{"max":3, "from":[52,55,56,66,54,57,58,59,60,61], "appliesTo":[504]},
 
    		{"min":1, "max":1, "from":[30,31], "appliesTo":[505]},
