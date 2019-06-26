@@ -50,7 +50,7 @@
 		{"id":49, "name":"2 Fire Support Squads",		"pts":50},
 		{"id":51, "name":"4 Fire Support Squads",		"pts":100},
 
-		{"id":53, "name":"3 Valhallan Griffons",		"pts":75},
+		{"id":53, "name":"3 Valhallan Griffons",		"pts":100},
 
 		{"id":64, "name":"Sniper",					"pts":25},
 
