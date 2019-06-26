@@ -4,7 +4,7 @@
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"CATACHAN CORE COMPANY FORMATIONS", "formations":[
-			{"id":500, "name":"Catachan Regimental HQ", "pts":350, "upgrades":[], "units":"Catachan Supreme Commander, 4 Valkyries"},
+			{"id":500, "name":"Catachan Regimental HQ", "pts":375, "upgrades":[], "units":"Catachan Supreme Commander, 4 Valkyries"},
 			{"id":501, "name":"Catachan Air Cavalry Company", "pts":300, "upgrades":[], "units":"Catachan Commander, 4 Valkyries"},
 			{"id":502, "name":"Catachan Infantry Company", "pts":225, "upgrades":[15,18,19], "units":"Catachan Commander"}
 		]},
