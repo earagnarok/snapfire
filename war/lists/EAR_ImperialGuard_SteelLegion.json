@@ -4,11 +4,11 @@
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"COMPANIES", "formations":[
-			{"id":500, "name":"Regimental HQ", 				"pts":400, "upgrades":[48,50,53,54,57,58,55,59,60,61,62,63]},
-			{"id":501, "name":"Infantry Company", 			"pts":225, "units":"Steel Legion Commander with a Commissar", "upgrades":[49,51,53,54,57,58,56,59,60,61,64,65]},
-			{"id":502, "name":"Mechanized Infantry Company", 	"pts":325, "units":"Steel Legion Commander with a Commissar", "upgrades":[48,50,53,54,57,58,55,59,60,61,62,63]},
+			{"id":500, "name":"Regimental HQ", 				"pts":400, "upgrades":[48,50,53,54,57,58,52,55,59,60,61,62,63]},
+			{"id":501, "name":"Infantry Company", 			"pts":225, "units":"Steel Legion Commander with a Commissar", "upgrades":[49,51,53,54,57,58,66,56,59,60,61,64,65]},
+			{"id":502, "name":"Mechanized Infantry Company", 	"pts":325, "units":"Steel Legion Commander with a Commissar", "upgrades":[48,50,53,54,57,58,52,55,59,60,61,62,63]},
 			{"id":503, "name":"Tank Company", 			"pts":575, "units":"1 Leman Russ Vanquisher with a Commissar, 9 Leman Russ", "upgrades":[53,54,57,58,59,60,61]},
-			{"id":504, "name":"Super-Heavy Tank Company", 		"pts":500, "units":"Commissar", "upgrades":[55,56,54,57,58,59,60,61]},
+			{"id":504, "name":"Super-Heavy Tank Company", 		"pts":500, "units":"Commissar", "upgrades":[52,55,66,56,54,57,58,59,60,61]},
 		 	{"id":505, "name":"Artillery Company", 			"pts":400, "units":"Commissar", "upgrades":[]}
 		]},
 		{"name":"SUPPORT FORMATIONS (Max two for each Company)", "formations":[
@@ -78,7 +78,9 @@
 
 		{"id":53, "name":"3 Griffons",					"pts":50},
 
+		{"id":52, "name":"Ogryns, Chimera",		"pts":50},
 		{"id":55, "name":"2 Ogryns, 2 Chimeras",		"pts":100},
+		{"id":66, "name":"Ogryns",					"pts":25},
 		{"id":56, "name":"2 Ogryns",					"pts":50},
 
 		{"id":54, "name":"1 Hellhound",					"pts":25},
@@ -114,10 +116,9 @@
 
 		{"max":1, "from":[48,50]},
 		{"max":1, "from":[49,51]},
-		{"max":1, "from":[52]},
 		{"max":1, "from":[53]},
 		{"max":1, "from":[54,57,58]},
-		{"max":1, "from":[55,56]},
+		{"max":1, "from":[52,55,56,66]},
 		{"max":1, "from":[62,63,64,65]},
 
 
@@ -127,18 +128,18 @@
 
    		{"min":1, "max":1, "from":[10,11], "appliesTo":[500]},
    		{"min":1, "max":1, "from":[20,21], "appliesTo":[500]},
-   		{"max":3, "from":[11,21,48,50,52,53,54,57,58,55,59,60,61,62,63], "appliesTo":[500]},
+   		{"max":3, "from":[11,21,48,50,52,55,53,54,57,58,55,59,60,61,62,63], "appliesTo":[500]},
 
    		{"min":1, "max":1, "from":[22,23], "appliesTo":[501]},
-   		{"max":3, "from":[23,49,51,53,54,57,58,56,59,60,61,64,65], "appliesTo":[501]},
+   		{"max":3, "from":[23,49,51,53,54,57,58,56,66,59,60,61,64,65], "appliesTo":[501]},
 
    		{"min":1, "max":1, "from":[20,21], "appliesTo":[502]},
-   		{"max":3, "from":[21,48,50,52,53,54,57,58,55,59,60,61,62,63], "appliesTo":[502]},
+   		{"max":3, "from":[21,48,50,52,55,53,54,57,58,55,59,60,61,62,63], "appliesTo":[502]},
 
-   		{"max":3, "from":[52,53,54,57,58,59,60,61], "appliesTo":[503]},
+   		{"max":3, "from":[52,55,53,54,57,58,59,60,61], "appliesTo":[503]},
 
    		{"min":3, "max":3, "from":[26,27], "appliesTo":[504]},
-   		{"max":3, "from":[52,55,56,54,57,58,59,60,61], "appliesTo":[504]},
+   		{"max":3, "from":[52,55,56,66,54,57,58,59,60,61], "appliesTo":[504]},
 
    		{"min":1, "max":1, "from":[30,31], "appliesTo":[505]},
    		{"min":0, "max":1, "from":[52], "appliesTo":[505]},

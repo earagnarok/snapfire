@@ -1,6 +1,6 @@
 {
 	"id":"EAR Dark Angels",
-	"version":"0.8.4",
+	"version":"0.8.5",
 	"by":"EA-Ragnarok",
 
 	"sections":[
@@ -8,7 +8,7 @@
 			{"id":501, "name":"Ravenwing Attack Detachment", 					"pts":325, "units":"1 Ravenwing Black Knights, 3 Ravenwing Land Speeders", "upgrades":[10,11,12,13]},
 			{"id":503, "name":"Tacticals",					"pts":275, "units":"6 Tacticals plus transport", "upgrades":[10,11,12,13, 30,31,32, 33]},
 			{"id":505, "name":"Deathwing Strike Detachment",		"pts":350,  "upgrades":[10,11,12,13]},
-			{"id":515, "name":"Deathwing Armoured Detachment",			"pts":425,  "units":"3 Deathwing Land Raiders, 3 Deathwing Terminators", "upgrades":[10,11,12,13]},
+			{"id":515, "name":"Deathwing Armoured Detachment",			"pts":400,  "units":"3 Deathwing Land Raiders, 3 Deathwing Terminators", "upgrades":[10,11,12,13]},
 			{"id":514, "name":"Ares Siege Detachment",				"pts":350, "units":"3 Land Raider Ares",  "upgrades":[10,11,12,13]}
 
 		]},
