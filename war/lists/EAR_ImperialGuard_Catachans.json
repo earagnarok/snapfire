@@ -1,0 +1,80 @@
+{
+	"id":"Catachan Jungle Fighters",
+	"version":"0.6.0",
+	"by":"EA-Ragnarok",
+	"sections":[
+		{"name":"CATACHAN CORE COMPANY FORMATIONS", "formations":[
+			{"id":500, "name":"Catachan Regimental HQ", "pts":350, "upgrades":[], "units":"Catachan Supreme Commander, 4 Valkyries"},
+			{"id":501, "name":"Catachan Air Cavalry Company", "pts":300, "upgrades":[], "units":"Catachan Commander, 4 Valkyries"},
+			{"id":502, "name":"Catachan Infantry Company", "pts":225, "upgrades":[15,18,19], "units":"Catachan Commander"}
+		]},
+		{"name":"CATACHAN SUPPORT FORMATIONS (Max two for each Core Company Formation)", "formations":[
+			{"id":510, "name":"Veteran Company", "pts":175, "upgrades":[10,11,18], "units":"Catachan Commander, 5 Death World Veterans"},
+			{"id":511, "name":"Catachan Sentinel Squadron", "pts":100, "upgrades":[], "units":"4 Catachan Sentinels"},
+			{"id":512, "name":"Leman Russ Platoon", "pts":350, "upgrades":[20] },
+			{"id":514, "name":"Hellhound Platoon", "pts":250, "upgrades":[20], "units":"6 Hellhounds"},
+			{"id":515, "name":"Super-Heavy Tank Platoon", "pts":175, "upgrades":[] },
+			{"id":517, "name":"Vulture Squadron", "pts":0, "upgrades":[12]},
+			{"id":518, "name":"Mortar Platoon", "pts":175, "upgrades":[10,11,15,18], "units":"6 Catachan Mortar Teams"},
+			{"id":519, "name":"Sniper Platoon", "pts":100, "upgrades":[10,11,15,18], "units":"4 Catachan Snipers"}
+		]},
+		{"name":"IMPERIAL NAVY SUPPORT", "formations":[
+			{"id":520, "name":"Thunderbolt Squadron", "pts":150, "upgrades":[], "units":"2 Thunderbolt Fighters"},
+			{"id":521, "name":"Marauder Colossus Squadron", "pts":225, "upgrades":[], "units":"2 Marauder Colossus"},
+			{"id":522, "name":"Orbital Support",	"pts":125, "upgrades":[]}
+		]}
+	],
+	"upgrades":[
+		{"id":10, "name":"Valkyrie", "pts":35},
+		{"id":11, "name":"Vendetta", "pts":35},
+
+		{"id":12, "name":"Vulture", "pts":75},
+
+		{"id":13, "name":"Catachan Infantry", "pts":0},
+		{"id":14, "name":"Catachan Snipers", "pts":15},
+
+		{"id":15, "name":"Catachan Flakk Team", "pts":35},
+
+		{"id":18, "name":"Ogryns", "pts":25},
+		{"id":19, "name":"Hellhound", "pts":25},
+		{"id":20, "name":"Hydra", "pts":50},
+
+		{ "id":26, "name":"6 Leman Russ Demolishers", "pts":0},
+		{ "id":27, "name":"6 Leman Russ Exterminators", "pts":0},
+		{ "id":28, "name":"6 Leman Russ", "pts":0},
+
+		{ "id":50, "name":"Hellhammer", "pts":0 },
+		{ "id":51, "name":"Baneblade", "pts":0 },
+		{ "id":52, "name":"Stormblade", "pts":0 },
+
+		{ "id":60, "name":"Lunar Class Cruiser", "pts":0 },
+		{ "id":61, "name":"Emperor Class Battleship", "pts":50 }
+
+	],
+	"formationConstraints":[
+		{"max":1, "from":[500]},
+		{"max":1, "from":[522]},
+		{"max":2, "name":"Support Formations", "from":[510,511,512,514,515,517,518,519], "forEach":[500,501,502], "name2":"Core Company"},
+		{"maxPercent":26, "name":"Imperial Navy Formations", "from":[520,521,522]}
+	],
+	"upgradeConstraints":[
+		{"max":6, "from":[10]},
+		{"max":6, "from":[11]},
+		{"max":2, "from":[15]},
+		{"max":3, "from":[18]},
+		{"max":3, "from":[19]},
+		{"max":1, "from":[20]},
+
+		{"min":7, "max":7, "from":[13,14], "appliesTo":[500,501]},
+		{"min":9, "max":9, "from":[13,14], "appliesTo":[502]},
+		{"max":2, "from":[14], "appliesTo":[500,501,502]},
+
+		{"min":1, "max":1, "from":[28,26,27], "appliesTo":[512]},
+
+		{"min":1, "max":1, "from":[51,50,52], "appliesTo":[515]},
+
+		{"min":3, "max":4, "from":[12], "appliesTo":[517]},
+
+		{"min":1, "max":1, "from":[60,61], "appliesTo":[522]}
+	]
+}
