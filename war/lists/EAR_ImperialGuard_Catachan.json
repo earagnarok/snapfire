@@ -13,7 +13,7 @@
 			{"id":510, "name":"Death World Veterans", "pts":200, "upgrades":[10,11,14,15], "units":"1 Catachan Commander, 1 Death World Veterans"},
 			{"id":511, "name":"Deathworld Sentinel Squadron", "pts":100, "upgrades":[], "units":"4 Deathworld Sentinels"},
 			{"id":513, "name":"Catachan Devils", "pts":250, "upgrades":[10,11], "units":"6 Catachan Devil units"},
-			{"id":514, "name":"Hellhound Platoon", "pts":250, "upgrades":[], "units":"6 Hellhounds"},
+			{"id":514, "name":"Hellhound Platoon", "pts":225, "upgrades":[], "units":"6 Hellhounds"},
 			{"id":517, "name":"Vulture Squadron", "pts":225, "upgrades":[], "units":"3 Vultures"},
 			{"id":518, "name":"Missile Team", "pts":200, "upgrades":[], "units":"4 Catachan Missile Teams and 2 Vendettas"},
 			{"id":519, "name":"Sniper Team", "pts":100, "upgrades":[10,11], "units":"4 Catachan Snipers"}
