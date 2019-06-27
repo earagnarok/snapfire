@@ -12,7 +12,7 @@
 			{"id":514, "name":"Ares Siege Detachment",				"pts":350, "units":"3 Land Raider Ares",  "upgrades":[10,11,12,13]}
 
 		]},
-		{"name":"DARK ANGELS SUPPORT DETACHMENTS (Max 2 for each Core Detachment)", "formations":[
+		{"name":"DARK ANGELS SUPPORT DETACHMENTS (Max 3 for each Core Detachment)", "formations":[
 			{"id":502, "name":"Land Raiders",				"pts":250, "units":"3 Land Raiders", "upgrades":[10,11,12,13, 30,31,32]},
 			{"id":509, "name":"Assaults", 						"pts":250, "units":"1 Dark Angels Captain, 6 Assaults", "upgrades":[]},
 			{"id":504, "name":"Devastators",				"pts":250, "units":"4 Dark Angels Devastators plus transport", "upgrades":[10,11,12,13, 30,31,32, 34]},
