@@ -1,27 +1,27 @@
 {
 	"id":"Valhallan Ice Warriors",
-	"version":"0.5.0",
+	"version":"0.5.1",
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"VALHALLAN COMPANIES", "formations":[
-			{"id":500, "name":"Regimental HQ", 				"pts":275, "units":"Valhallan Supreme Commander with a Ministorum Priest, 11 Valhallan Infantry", "upgrades":[45,49,51,53,64,70]},
-			{"id":501, "name":"Infantry Company", 			"pts":225, "units":"Valhallan Commander with a Ministorum Priest, 11 Valhallan Infantry", "upgrades":[45,49,51,53,64,70]},
+			{"id":500, "name":"Regimental HQ", 				"pts":300, "units":"Valhallan Supreme Commander with a Ministorum Priest, 11 Valhallan Infantry", "upgrades":[45,46,47,49,51,53,64,65,70]},
+			{"id":501, "name":"Infantry Company", 			"pts":225, "units":"Valhallan Commander with a Ministorum Priest, 11 Valhallan Infantry", "upgrades":[45,46,47,49,51,53,64,65,70]},
 		 	{"id":502, "name":"Artillery Company", 			"pts":400, "units":"Ministorum Priest", "upgrades":[45]},
 			{"id":503, "name":"Super-Heavy Tank Company", 		"pts":500, "units":"Ministorum Priest", "upgrades":[]}
 		]},
 		{"name":"VALHALLAN SUPPORT FORMATIONS (Max two for each Company)", "formations":[
-			{"id":510, "name":"Sentinel Squadron",				"pts":100, "upgrades":[], "units":"4 Sentinels"},
-			{"id":511, "name":"Deathstrike Missile Battery",		"pts":200, "upgrades":[], "units":"2 Deathstrikes"},
+			{"id":510, "name":"Sentinel Squadron",				"pts":100, "units":"4 Sentinels", "upgrades":[]},
+			{"id":511, "name":"Deathstrike Missile Battery",		"pts":200, "units":"2 Deathstrikes", "upgrades":[]},
 			{"id":512, "name":"Super-Heavy Tank Platoon", 			"pts":175, "upgrades":[]},
-			{"id":513, "name":"Leman Russ Platoon", 			"pts":350, "upgrades":[45]},
-			{"id":514, "name":"Flak Battery",				"pts":150, "upgrades":[], "units":"3 Hydras"},
+			{"id":513, "name":"Heavy Tank Platoon", 			"pts":350, "units":"6 Ragnarok Heavy Tanks", "upgrades":[45,53]},
+			{"id":514, "name":"Flak Battery",				"pts":150, "units":"3 Hydras", "upgrades":[]},
 			{"id":515, "name":"Hellhound Platoon", 	"pts":250, "units":"6 Hellhounds", "upgrades":[45]}
 		]},
 		{"name":"ADEPTUS MINISTORUM, TUNNELERS AND IMPERIAL NAVY ALLIES (Max 25%)", "formations":[
-			{"id":520, "name":"Ministorum Flagellants",	"pts":200, "upgrades":[], "units":"6 Arco-Flagellants"},
-			{"id":521, "name":"Tunneler",				"pts":225, "upgrades":[], "units":"Hellbore"},
-			{"id":522, "name":"Thunderbolt Squadron",	"pts":150, "upgrades":[], "units":"2 Thunderbolt Fighters"},
-			{"id":523, "name":"Marauder Squadron",		"pts":225, "upgrades":[], "units":"2 Marauder Bombers"},
+			{"id":520, "name":"Ministorum Flagellants",	"pts":200, "units":"6 Arco-Flagellants", "upgrades":[]},
+			{"id":521, "name":"Tunneler",				"pts":225, "units":"Hellbore", "upgrades":[]},
+			{"id":522, "name":"Thunderbolt Squadron",	"pts":150, "units":"2 Thunderbolt Fighters", "upgrades":[]},
+			{"id":523, "name":"Marauder Squadron",		"pts":225, "units":"2 Marauder Bombers", "upgrades":[]},
 			{"id":524, "name":"Orbital Support",		"pts":125, "upgrades":[]}
 		]}
 	],
@@ -37,22 +37,23 @@
 		{"id":30, "name":"6 Basilisks",					"pts":0},
 		{"id":31, "name":"6 Manticores",				"pts":50},
 
-		{"id":32, "name":"6 Leman Russ",				"pts":0},
-		{"id":33, "name":"6 Leman Russ Punishers",		"pts":0},
-		{"id":34, "name":"6 Leman Russ Thunderers",		"pts":0},
-		{"id":35, "name":"6 Leman Russ Conquerors",		"pts":0},
-
 		{"id":37, "name":"Lunar Class Cruiser",			"pts":0},
 		{"id":38, "name":"Emperor Class Battleship",	"pts":50},
 
 		{"id":45, "name":"Hydra",	"pts":50},
+
+		{"id":46, "name":"Ogryns",						"pts":25},
+		{"id":47, "name":"2 Ogryns",					"pts":50},
 
 		{"id":49, "name":"2 Fire Support Squads",		"pts":50},
 		{"id":51, "name":"4 Fire Support Squads",		"pts":100},
 
 		{"id":53, "name":"3 Valhallan Griffons",		"pts":100},
 
-		{"id":64, "name":"Sniper",					"pts":25},
+		{"id":54, "name":"6 Ragnarok Heavy Tanks",		"pts":150},
+
+		{"id":64, "name":"Snipers",						"pts":25},
+		{"id":65, "name":"2 Snipers",					"pts":50},
 
 		{"id":70, "name":"Entrenchments (60cm Razor Wire, 60cm Trenches)",		"pts":50}
 
@@ -66,13 +67,18 @@
 
 	],
 	"upgradeConstraints":[
+		{"max":1, "from":[46,47]},
 		{"max":1, "from":[45]},
 		{"max":1, "from":[49,51]},
+
+		{"max":2, "from":[52]},
 
 		{"max":1, "from":[53]},
 		{"max":2, "from":[64]},
 
 		{"max":1, "from":[70]},
+
+   		{"max":3, "from":[45,46,47,49,51,53,54,64,65,70], "appliesTo":[500,501]},
 
    		{"min":1, "max":1, "from":[30,31], "appliesTo":[502]},
 
@@ -80,9 +86,6 @@
 
 
    		{"min":1, "max":1, "from":[26,28,27], "appliesTo":[512]},
-
-  		{"min":1, "max":1, "from":[32,33,34,35], "appliesTo":[513]},
-
 
   		{"min":1, "max":1, "from":[37,38], "appliesTo":[524]}
 	]
