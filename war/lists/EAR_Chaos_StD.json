@@ -9,7 +9,7 @@
 			{"id":500, "name":"Daemon Pool", "pts":0, "upgrades":[72,73]}
 		]},
 		{"name":"SLAVES TO DARKNESS CORE FORMATIONS", "formations":[
-			{"id":501, "name":"Traitor Guard", "pts":150, "units":"5 Infantry", "upgrades":[12,15,16,18,19,20,21,17,22,23,27,25,26]}
+			{"id":501, "name":"Traitor Guard", "pts":175, "units":"5 Infantry", "upgrades":[12,15,16,18,19,20,21,17,22,23,27,25,26]}
 		]},
 		{"name":"SLAVES TO DARKNESS SUPPORT FORMATIONS (Max 1 for each Traitor Guard formation)", "formations":[
 			{"id":502, "name":"Sentinel Platoon", "pts":100, "units":"4 Sentinels", "upgrades":[]},
