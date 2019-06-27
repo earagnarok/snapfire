@@ -53,8 +53,8 @@
 		{ "id":35, "name":"2 Malcadors", "pts":175},
 		{ "id":36, "name":"2 Malcador Annihilators", "pts":175},
 
-		{ "id":42, "name":"3 Earthshaker Guns, 3 Trojans", "pts":0},
-		{ "id":43, "name":"6 Earthshaker Guns, 1 Commissar, 6 Trojans", "pts":225},
+		{ "id":42, "name":"Earthshaker Battery: 3 Earthshaker Guns, 3 Trojans", "pts":0},
+		{ "id":43, "name":"Earthshaker Company: 6 Earthshaker Guns, 1 Commissar, 6 Trojans", "pts":225},
 		{ "id":44, "name":"3 Bombards", "pts":0},
 		{ "id":45, "name":"4 Medusa", "pts":0},
 
