@@ -23,7 +23,7 @@
 			{"id":510, "name":"Nurgle Plague Zombie Infestation",	"pts":175, "units":"3 + 2D6 Plague Zombies", "upgrades":[]},
 			{"id":511, "name":"Daemonic Assault Engines of Khorne",	"pts":275, "units":"6 Daemonic Assault Engines", "upgrades":[]},
 			{"id":512, "name":"Greater Brass Scorpion of Khorne", "pts":50, "upgrades":[34] },
-			{"id":513, "name":"Khorne Lord of Battles",	"pts":50, "upgrades":[]},
+			{"id":513, "name":"Khorne Lord of Battles", "units":"Lord of Battles",	"pts":375, "upgrades":[]},
 			{"id":514, "name":"Silver Towers of Tzeench",	"pts":300, "units":"4 Silver Towers", "upgrades":[]},
 			{"id":514, "name":"Warp Palace of Tzeench",	"pts":500, "units":"1 Warp Palace", "upgrades":[]},
 			{"id":516, "name":"Doomwings of Tzeench", "units":"3 Doomwing Interceptors", "pts":175, "upgrades":[] }
@@ -58,7 +58,6 @@
 		{"id":31, "name":"Subjugator", "pts":200},
 		{"id":32, "name":"Questor", "pts":225},
 		{"id":34, "name":"Greater Brass Scorpion", "pts":175},
-		{"id":35, "name":"Lord of Battles", "pts":325},
 
 		{"id":70, "name":"Daemonic Pact", "pts":25},
 
@@ -73,7 +72,7 @@
 		{"max":1, "from":[500]},
 		{"max":1, "from":[530]},
 		{"max": 1, "name": "Spacecraft", "from": [557]},
-		{"maxPercent": 21, "name": "Chaos Navy and Alpha Legion", "from": [554,555,557,530]}
+		{"maxPercent": 21, "name": "Chaos Navy & Chaos Space Marines", "from": [554,555,557,530]}
 	],
 	"upgradeConstraints":[
 		{"max":1, "perArmy":true, "from":[12,13]},
@@ -92,7 +91,6 @@
 		{"max":1, "from":[30]},
 		{"min":1, "max":2, "from":[31], "appliesTo":[506]},
 		{"min":1, "max":2, "from":[32], "appliesTo":[507]},
-		{"min":1, "max":2, "from":[34], "appliesTo":[512]},
-		{"min":1, "max":1, "from":[35], "appliesTo":[513]}
+		{"min":1, "max":2, "from":[34], "appliesTo":[512]}
 	]
 }
