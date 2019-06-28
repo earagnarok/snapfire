@@ -19,7 +19,7 @@
 			{"id":531, "name":"Thunderbolt Squadron", "pts":150, "units":"2 Thunderbolts", "upgrades":[]},
 			{"id":532, "name":"Marauder Squadron", "pts":225, "units":"2 Marauder Bombers", "upgrades":[]}
 		]},
-		{"name":"Dark Mechanicus and Alpha Legion / / Max 25% / / May not Mix Nurgle/Tzeench or Slaanesh/Khorne formations", "formations":[
+		{"name":"DARK MECHANICUS & ALPHA LEGION / / Max 25% / / May not Mix Nurgle/Tzeench or Slaanesh/Khorne formations", "formations":[
 			{"id":510, "name":"Hellfire Cannons of Chaos Undivided", "pts":225, "units":"4 Hellfire Cannons", "upgrades":[]},
 			{"id":511, "name":"Doomblasters of Chaos Undivided", "pts":225, "units":"4 Doomblasters", "upgrades":[]},
 			{"id":512, "name":"Defilers of Chaos Undivided",	"pts":225, "units":"4 Defilers", "upgrades":[]},

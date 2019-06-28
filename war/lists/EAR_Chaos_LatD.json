@@ -30,7 +30,7 @@
 
          ]},
 
-	        {"name": "Chaos Navy and Alpha Legion (Max 25%)", "formations": [
+	        {"name": "CHAOS NAVY & ALPHA LEGION (Max 25%)", "formations": [
             {"id": 554, "name": "Heldrake Flight", "pts": 200, "units": "2 Heldrake Interceptors", "upgrades": []},
             {"id": 555, "name": "Baledrake Flight", "pts": 200, "units": "2 Baledrake Fighter-Bombers", "upgrades": []},
             {"id": 557, "name": "Orbital Support", "pts": 150, "upgrades": []},
