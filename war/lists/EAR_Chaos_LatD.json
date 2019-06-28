@@ -9,7 +9,7 @@
 			{"id":500, "name":"Daemon Pool", "pts":0, "upgrades":[71,72,73]}
 		]},
 		{"name":"LOST AND THE DAMNED CORE FORMATIONS", "formations":[
-			{"id":501, "name":"Cultist Coven", "pts":110, "units":"Daemonic Pact", "upgrades":[14,15,16,17,18,19]}
+			{"id":501, "name":"Cultist Coven", "pts":135, "units":"Daemonic Pact", "upgrades":[14,15,16,17,18,19]}
 		]},
 		{"name":"LOST AND THE DAMNED SUPPORT COVEN FORMATIONS / / Max 2 for each Cultist Coven / / May not Mix Nurgle/Tzeench or Slaanesh/Khorne formations / / Each Support Choice is 0-1 for each 1000 points in the army", "formations":[
 			{"id":502, "name":"Hellfire Cannons of Chaos Undivided", "pts":225, "units":"4 Hellfire Cannons", "upgrades":[30]},
