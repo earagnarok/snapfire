@@ -30,11 +30,11 @@
 
          ]},
 
-	        {"name": "CHAOS NAVY & ALPHA LEGION (Max 25%)", "formations": [
+	        {"name": "CHAOS NAVY & CHAOS SPACE MARINES (Max 20%)", "formations": [
             {"id": 554, "name": "Heldrake Flight", "pts": 200, "units": "2 Heldrake Interceptors", "upgrades": []},
             {"id": 555, "name": "Baledrake Flight", "pts": 200, "units": "2 Baledrake Fighter-Bombers", "upgrades": []},
             {"id": 557, "name": "Orbital Support", "pts": 150, "upgrades": []},
-			{"id":530, "name": "Alpha Legion Advisors", "pts":225, "units":"6 Alpha Legion Marines, 3 Alpha Legion Rhinos", "upgrades":[]}
+			{"id":530, "name": "Chaos Space Marine Advisors", "pts":225, "units":"6 Chaos Space Marines, 3 Chaos Rhinos", "upgrades":[70]}
          ]}
    ],
 	"upgrades":[
@@ -60,6 +60,8 @@
 		{"id":34, "name":"Greater Brass Scorpion", "pts":175},
 		{"id":35, "name":"Lord of Battles", "pts":325},
 
+		{"id":70, "name":"Daemonic Pact", "pts":25},
+
 		{"id":71, "name":"Greater Daemon Pool point", "pts":50},
 		{"id":72, "name":"Lesser Daemon Pool point", "pts":15},
 		{"id":73, "name":"Lesser Daemon Pool point (Daemonic Pact)", "pts":0}
@@ -71,7 +73,7 @@
 		{"max":1, "from":[500]},
 		{"max":1, "from":[530]},
 		{"max": 1, "name": "Spacecraft", "from": [557]},
-		{"maxPercent": 26, "name": "Chaos Navy and Alpha Legion", "from": [554,555,557,530]}
+		{"maxPercent": 21, "name": "Chaos Navy and Alpha Legion", "from": [554,555,557,530]}
 	],
 	"upgradeConstraints":[
 		{"max":1, "perArmy":true, "from":[12,13]},
