@@ -27,8 +27,8 @@
 			{"id":510, "name":"Doomwings",	"pts":175, "units": "3 Doomwings", "upgrades":[]},
 			{"id":511, "name":"Firelords", "pts":25, "upgrades":[50]},
 			{"id":512, "name":"Warphound Pack", "pts":500,  "units": "2 Warphound Titans", "upgrades":[]},
-			{"id":513, "name":"Warp Palace",	"pts":500,  "units": "1 Warp Palace", "upgrades":[]},
-			{"id":514, "name":"Chaos Cruiser",		"units": "1 Devastation Class Cruiser", 	"pts":150, "upgrades":[]}
+			{"id":513, "name":"Warp Palace of Tzeench",	"pts":500,  "units": "Warp Palace", "upgrades":[]},
+			{"id":514, "name":"Chaos Cruiser",		"units": "Devastation Class Cruiser", 	"pts":150, "upgrades":[]}
 			]}
 	],
 	"upgrades":[
