@@ -18,7 +18,7 @@
 			{"id":517, "name":"Death Rider Platoon",			"pts":150, "upgrades":[], "units":"6 Death Riders"},
 			{"id":518, "name":"Sapper Company",				"pts":250, "upgrades":[], "units":"1 Baran Commander with a Commissar, 7 Sappers, Hades Breaching Drill"},
 			{"id":519, "name":"Super-Heavy Tank Platoon", 		"pts":175, "upgrades":[]},
-			{"id":520, "name":"Macharius Company", 		"pts":300,  "units":"Commissar, 2 Macharius", "upgrades":[]}
+			{"id":520, "name":"Macharius Company", 		"pts":325,  "units":"2 Macharius", "upgrades":[]}
 
 		]},
 		{"name":"IMPERIAL NAVY (max 25%)", "formations":[
