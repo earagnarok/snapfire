@@ -1,11 +1,11 @@
 {
 	"id":"EAR Dark Angels",
-	"version":"0.8.5",
+	"version":"0.9.0",
 	"by":"EA-Ragnarok",
 
 	"sections":[
 		{"name":"DARK ANGELS CORE DETACHMENTS", "formations":[
-			{"id":501, "name":"Ravenwing Attack Detachment", 					"pts":325, "units":"1 Ravenwing Black Knights, 3 Ravenwing Land Speeders", "upgrades":[10,11,12,13]},
+			{"id":501, "name":"Ravenwing Attack Detachment", 					"pts":325, "units":"Ravenwing Black Knights, 3 Ravenwing Land Speeders", "upgrades":[10,11,12,13]},
 			{"id":503, "name":"Tacticals",					"pts":275, "units":"6 Tacticals plus transport", "upgrades":[10,11,12,13, 30,31,32, 33]},
 			{"id":505, "name":"Deathwing Strike Detachment",		"pts":350,  "upgrades":[10,11,12,13]},
 			{"id":515, "name":"Deathwing Armoured Detachment",			"pts":400,  "units":"3 Deathwing Land Raiders, 3 Deathwing Terminators", "upgrades":[10,11,12,13]},
@@ -13,8 +13,8 @@
 
 		]},
 		{"name":"DARK ANGELS SUPPORT DETACHMENTS (Max 3 for each Core Detachment)", "formations":[
-			{"id":502, "name":"Land Raiders",				"pts":250, "units":"3 Land Raiders", "upgrades":[10,11,12,13, 30,31,32]},
-			{"id":509, "name":"Assaults", 						"pts":250, "units":"1 Dark Angels Captain, 6 Assaults", "upgrades":[]},
+			{"id":502, "name":"Land Raiders",				"pts":25, "upgrades":[10,11,12,13, 30,31,32, 35]},
+			{"id":509, "name":"Assaults", 						"pts":250, "units":"Dark Angels Captain, 6 Assaults", "upgrades":[]},
 			{"id":504, "name":"Devastators",				"pts":250, "units":"4 Dark Angels Devastators plus transport", "upgrades":[10,11,12,13, 30,31,32, 34]},
 			{"id":510, "name":"Scouts",							"pts":150, "upgrades":[34]},
 			{"id":511, "name":"Whirlwinds",						"pts":275, "units":"4 Whirlwinds", "upgrades":[30,31,32]},
@@ -53,9 +53,9 @@
 		{"id":25, "name":"4 Ravenwing Land Speeder Tornado",			"pts":0},
 		{"id":26, "name":"4 Ravenwing Land Speeder Venegance",			"pts":50},
 
-		{"id":27, "name":"Deathwing Terminators",						"pts":0},
-		{"id":28, "name":"Deathwing Cyclones",							"pts":0},
-		{"id":29, "name":"Deathwing Knights",							"pts":0},
+		{"id":27, "name":"Terminators",									"pts":0},
+		{"id":28, "name":"Cyclone Terminators",							"pts":0},
+		{"id":29, "name":"Deathwing Knights",							"pts":25},
 
 		{"id":30, "name":"2 Mortis Dreadnought", 						"pts":75},
 		{"id":31, "name":"2 Hunters", 									"pts":125},
@@ -66,7 +66,9 @@
 
 		{"id":34, "name":"4 Dark Angels Razorbacks",					"pts":100},
 
-		{"id":40, "name":"4 Deimos Predator Executioners, 3 Deimos Laser Vindicators",	"pts":425},
+		{"id":35, "name":"Land Raider", 								"pts":75},
+
+		{"id":40, "name":"4 Deimos Predator Executioners, 3 Deimos Laser Vindicators",	"pts":450},
 		{"id":41, "name":"2 Glaives",									"pts":550},
 
 		{"id":50, "name":"Strike Cruiser",								"pts":200},
@@ -83,6 +85,8 @@
 
 		{"min":0, "max":1, "from":[10,11,12,13], "appliesTo":[501,503,504]},
 
+		{"min":3, "max":4, "from":[35], "appliesTo":[502]},
+
 		{"min":1, "max":1, "from":[15,16], "appliesTo":[510]},
 
 		{"min":1, "max":1, "from":[17,18,19], "appliesTo":[514]},
@@ -94,6 +98,7 @@
 		{"min":1, "max":1, "from":[25,26], "appliesTo":[512]},
 
 		{"min":4, "max":4, "from":[27,28,29], "appliesTo":[505]},
+		{"max":1, "from":[29], "appliesTo":[505]},
 
 		{"min":0, "max":1, "from":[30,31,32], "appliesTo":[503,504,511]},
 

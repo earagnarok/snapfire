@@ -7,7 +7,7 @@
 		{"name":"CODEX ASTARTES DETACHMENTS", "formations":[
 			{"id":500, "name":"Assaults", 				"pts":175, "units":"4 Assaults", "upgrades":[10,11,12,13, 37,38]},
 			{"id":501, "name":"Bikes", 					"pts":200, "upgrades":[10,11,12,13]},
-			{"id":502, "name":"Land Raiders",			"pts":250, "units":"3 Land Raiders", "upgrades":[10,11,12,13, 31,32]},
+			{"id":502, "name":"Land Raiders",			"pts":25, "upgrades":[10,11,12,13, 31,32, 40]},
 			{"id":503, "name":"Predators",				"pts":250, "upgrades":[10,11,12,13, 31,32]},
 			{"id":504, "name":"Tacticals",				"pts":275, "units":"6 Tacticals plus transport", "upgrades":[10,11,12,13, 27,28,29,30, 31,32, 33, 34,35, 37,38]},
 			{"id":505, "name":"Devastators",			"pts":250, "units":"4 Devastators plus transport", "upgrades":[10,11,12,13, 27,28,29,30, 31,32, 33, 34,35, 37,38]},
@@ -64,6 +64,8 @@
 
 		{"id":39, "name":"4 Vindicators",						"pts":0},
 
+		{"id":40, "name":"Land Raider", 					"pts":75},
+
 		{"id":50, "name":"Strike Cruiser",						"pts":200},
 		{"id":51, "name":"Battle Barge",						"pts":275}
 	],
@@ -77,6 +79,8 @@
 		{"min":0, "max":1, "from":[10,11,12,13], "appliesTo":[500,501,502,503,504,505,510,514,515]},
 
 		{"min":5, "max":5, "from":[20,21], "appliesTo":[501]},
+
+		{"min":3, "max":4, "from":[40], "appliesTo":[502]},
 
 		{"min":4, "max":4, "from":[22,23], "appliesTo":[503]},
 

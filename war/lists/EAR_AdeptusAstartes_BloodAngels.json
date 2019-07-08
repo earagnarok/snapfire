@@ -1,18 +1,18 @@
 {
 	"id":"EAR Blood Angels",
-	"version":"0.6.3",
+	"version":"0.6.5",
 	"by":"EA-Ragnarok",
 
 	"sections":[
 		{"name":"BLOOD ANGELS CORE DETACHMENTS", "formations":[
 			{"id":500, "name":"1 Death Company", 					"pts":275, "units":"1 Chaplain",  "upgrades":[]},
-			{"id":501, "name":"0-1 Sanguinary Guard", 				"pts":250, "units":"4 Sanguinary Guards", "upgrades":[10,11,12,13, 35,36]},
+			{"id":501, "name":"0-1 Sanguinary Guard", 				"pts":300, "units":"4 Sanguinary Guards", "upgrades":[10,11,12,13, 35,36]},
 			{"id":503, "name":"Tacticals",							"pts":275, "units":"6 Tacticals plus transport", "upgrades":[10,11,12,13, 31,32, 33,34, 35,36, 40,41,43]},
 			{"id":505, "name":"Assaults", 							"pts":175, "units":"4 Assaults", "upgrades":[10,11,12,13, 35,36]}
 		]},
 		{"name":"BLOOD ANGELS SUPPORT DETACHMENTS (Max 2 for each Core Detachment)", "formations":[
 
-			{"id":508, "name":"Land Raiders",					"pts":100,  "upgrades":[10,11,12,13, 31,32]},
+			{"id":508, "name":"Land Raiders",					"pts":25,  "upgrades":[10,11,12,13, 31,32, 48,49]},
 			{"id":509, "name":"Baal Predators",					"pts":250, "upgrades":[10,11,12,13, 31,32]},
 			{"id":510, "name":"Bikes",							"pts":200, "upgrades":[10,11,12,13]},
 			{"id":511, "name":"Devastators",					"pts":250, "units":"4 Devastators plus transport", "upgrades":[10,11,12,13, 31,32, 33,34, 35,36, 40,41,43]},
@@ -79,6 +79,9 @@
 		{"id":46, "name":"2 Warhounds (Support Configuration)",			"pts":0},
 		{"id":47, "name":"2 Warhounds (Tank Hunter Configuration)",		"pts":50},
 
+		{"id":48, "name":"Land Raider", 								"pts":75},
+		{"id":49, "name":"Land Raider Redeemer",						"pts":75},
+
 		{"id":50, "name":"Strike Cruiser",								"pts":200},
 		{"id":51, "name":"Battle Barge",								"pts":275}
 	],
@@ -111,7 +114,7 @@
 
 		{"min":0, "max":1, "from":[31,32], "appliesTo":[502,503, 509,511]},
 
-		{"min":3, "max":3, "from":[33,34], "appliesTo":[508]},
+		{"min":3, "max":4, "from":[48,49], "appliesTo":[508]},
 		{"min":0, "max":3, "from":[33,34], "appliesTo":[503]},
 		{"min":0, "max":2, "from":[33,34], "appliesTo":[511]},
 
