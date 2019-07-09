@@ -4,8 +4,8 @@
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"CORE COMPANIES", "formations":[
-			{"id":501, "name":"1 Regimental HQ", "pts":275, "upgrades":[18,19,22,20,21,24,27,25,44,45,46], "units":"Baran Siegemaster with a Commissar, 9 Siege Infantry"},
-		 	{"id":502, "name":"Siege Infantry Company", "pts":200, "upgrades":[18,19,22,20,21,24,27,25,44,45,46], "units":"Baran Commander with a Commissar, 9 Siege Infantry"}
+			{"id":501, "name":"1 Siegemaster Regimental HQ", "pts":275, "upgrades":[18,19,22,20,21,24,27,25,44,45,46], "units":"Baran Siegemaster with a Commissar, 9 Siege Infantry"},
+		 	{"id":502, "name":"Siege Company", "pts":200, "upgrades":[18,19,22,20,21,24,27,25,44,45,46], "units":"Baran Commander with a Commissar, 9 Siege Infantry"}
 
 		]},
 		{"name":"SUPPORT FORMATIONS (two for each Core Company)", "formations":[

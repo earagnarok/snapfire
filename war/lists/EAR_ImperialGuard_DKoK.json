@@ -5,14 +5,14 @@
 	"sections":[
 		{"name":"DEATH KORPS CORE COMPANIES", "formations":[
 			{ "id":501, "name":"Death Korps Regimental HQ", "pts":350, "upgrades":[29,30,31] },
-			{ "id":502, "name":"Assault Infantry Company", "pts":275, "units":"DKoK Commander with a Commissar, 9 Assault Infantry, Gorgon",  "upgrades":[29,30,31] },
+			{ "id":502, "name":"Assault Company", "pts":275, "units":"DKoK Commander with a Commissar, 9 Assault Infantry, Gorgon",  "upgrades":[29,30,31] },
 			{ "id":503, "name":"Death Rider Company", "pts":300, "units":"Commissar, 12 Death Riders", "upgrades":[32] }
 		]},
 		{"name":"SUPPORT FORMATIONS (Max 2 for each Core Company)", "formations":[
 			{ "id":510, "name":"Grenadier Company", "pts":300, "units":"DKoK Commander with a Commissar, 7 Grenadiers", "upgrades":[] },
 			{ "id":511, "name":"Leman Russ Platoon", "pts":350, "upgrades":[32] },
 			{ "id":512, "name":"Macharius Company", "pts":325, "units":"2 Macharius", "upgrades":[] },
-			{ "id":513, "name":"Earthshaker Battery", "pts":225, "upgrades":[] },
+			{ "id":513, "name":"Earthshaker Battery", "pts":200, "upgrades":[] },
 			{ "id":514, "name":"Siege Artillery Battery", "pts":225, "upgrades":[] },
 			{ "id":515, "name":"Siege Infantry Platoon", "pts":150, "units":"8 Siege Infantry", "upgrades":[32,35,36] },
 			{ "id":517, "name":"Rough Rider Platoon", "pts":150, "units":"6 Rough Riders", "upgrades":[] },
@@ -54,7 +54,7 @@
 		{ "id":36, "name":"2 Malcador Annihilators", "pts":175},
 
 		{ "id":42, "name":"Earthshaker Battery: 3 Earthshaker Guns, 3 Trojans", "pts":0},
-		{ "id":43, "name":"Earthshaker Company: 6 Earthshaker Guns, Commissar, 6 Trojans", "pts":225},
+		{ "id":43, "name":"Earthshaker Company: 6 Earthshaker Guns, Commissar, 6 Trojans", "pts":200},
 		{ "id":44, "name":"3 Bombards", "pts":0},
 		{ "id":45, "name":"4 Medusa", "pts":0},
 
