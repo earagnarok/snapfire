@@ -1,11 +1,11 @@
 {
 	"id":"EAR Death Korps of Krieg",
-	"version":"0.7.0",
+	"version":"0.7.1",
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"DEATH KORPS CORE COMPANIES", "formations":[
-			{ "id":501, "name":"Death Korps Regimental HQ", "pts":325, "upgrades":[29,30,31] },
-			{ "id":502, "name":"Assault Infantry Company", "pts":250, "units":"DKoK Commander with a Commissar, 9 Assault Infantry, Gorgon",  "upgrades":[29,30,31] },
+			{ "id":501, "name":"Death Korps Regimental HQ", "pts":350, "upgrades":[29,30,31] },
+			{ "id":502, "name":"Assault Infantry Company", "pts":275, "units":"DKoK Commander with a Commissar, 9 Assault Infantry, Gorgon",  "upgrades":[29,30,31] },
 			{ "id":503, "name":"Death Rider Company", "pts":300, "units":"Commissar, 12 Death Riders", "upgrades":[32] }
 		]},
 		{"name":"SUPPORT FORMATIONS (Max 2 for each Core Company)", "formations":[
@@ -31,11 +31,11 @@
 	"upgrades":[
 		{ "id":13, "name":"DKoK Supreme Commander with a Commissar, 9 Assault Infantry, Gorgon", "pts":0},
 		{ "id":14, "name":"DKoK Supreme Commander with a Lord Commissar, 9 Assault Infantry, Gorgon", "pts":100},
-		{ "id":15, "name":"DKoK Supreme Commander with a Commissar, 19 Assault Infantry, 2 Gorgons", "pts":275},
-		{ "id":16, "name":"DKoK Supreme Commander with a Lord Commissar, 19 Assault Infantry, 2 Gorgons", "pts":375},
+		{ "id":15, "name":"DKoK Supreme Commander with a Commissar, 19 Assault Infantry, 2 Gorgons", "pts":250},
+		{ "id":16, "name":"DKoK Supreme Commander with a Lord Commissar, 19 Assault Infantry, 2 Gorgons", "pts":350},
 
 		{ "id":22, "name":"4 Storm Chimeras", "pts":0},
-		{ "id":23, "name":"Gorgon", "pts":50},
+		{ "id":23, "name":"Gorgon", "pts":25},
 
 		{ "id":24, "name":"Macharius Command Tank with a Commissar (Twin Vanquishers)", "pts":0 },
 		{ "id":25, "name":"Macharius Command Tank with a Commissar (Vulcan Mega-Bolter)", "pts":0 },
