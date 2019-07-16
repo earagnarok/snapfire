@@ -23,7 +23,7 @@
 			{"id":519, "name":"Vulture Squadron",				"pts":0, "upgrades":[28]},
 			{"id":520, "name":"Mechanized Infantry Platoon", 	"pts":225, "units":"6 Infantry, 3 Chimera", "upgrades":[54,57,58]}
 		]},
-		{"name":"TITAN LEGION AND IMPERIAL NAVY FORMATIONS (Max 33%)", "formations":[
+		{"name":"COLLEGIA TITANICA AND IMPERIAL NAVY FORMATIONS (Max 33%)", "formations":[
 			{"id":530, "name":"Warhound Pack",		"pts":500, "upgrades":[70], "units":"2 Warhounds"},
 			{"id":531, "name":"Reaver Titan",		"pts":600, "upgrades":[]},
 			{"id":535, "name":"Warlord Titan",		"pts":750, "upgrades":[]},
