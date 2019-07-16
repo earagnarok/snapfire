@@ -3,7 +3,7 @@
 	"version":"1.0.1",
 	"by":"EA-Ragnarok",
 	"sections":[
-		{"name":"COMPANIES", "formations":[
+		{"name":"CORE COMPANY FORMATIONS", "formations":[
 			{"id":500, "name":"Regimental HQ", 				"pts":400, "upgrades":[48,50,53,54,57,58,52,55,59,60,61,62,63]},
 			{"id":501, "name":"Infantry Company", 			"pts":225, "units":"Steel Legion Commander with a Commissar", "upgrades":[49,51,53,54,57,58,66,56,59,60,61,64,65]},
 			{"id":502, "name":"Mechanized Infantry Company", 	"pts":325, "units":"Steel Legion Commander with a Commissar", "upgrades":[48,50,53,54,57,58,52,55,59,60,61,62,63]},
@@ -11,7 +11,7 @@
 			{"id":504, "name":"Super-Heavy Tank Company", 		"pts":500, "units":"Commissar", "upgrades":[52,55,66,56,54,57,58,59,60,61]},
 		 	{"id":505, "name":"Artillery Company", 			"pts":400, "units":"Commissar", "upgrades":[]}
 		]},
-		{"name":"SUPPORT FORMATIONS (Max two for each Company)", "formations":[
+		{"name":"SUPPORT FORMATIONS (Max two for each Core Company)", "formations":[
 			{"id":510, "name":"Rough Rider Platoon", 			"pts":150, "upgrades":[], "units":"6 Rough Riders"},
 			{"id":511, "name":"Tempestus Scions",				"pts":200, "upgrades":[42,43], "units":"Tempestor with a Commissar, 7 Tempestus Scions"},
 			{"id":512, "name":"Artillery Battery",				"pts":225, "upgrades":[]},
