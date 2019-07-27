@@ -25,7 +25,7 @@
          ]},
         {"name": "IMPERIAL NAVY (Max 25%)", "formations": [
             {"id": 532, "name": "Lightning Squadron", "pts": 150, "units": "2 Lightning Interceptors", "upgrades": [] },
-            {"id": 533, "name": "Marauder Colossus Squadron", "pts": 275, "units": "2 Marauder Colossus", "upgrades": [] },
+            {"id": 533, "name": "Marauder Squadron", "pts": 225, "units": "2 Marauder Bombers", "upgrades": [] },
 	        {"id": 534, "name": "Orbital Support", "pts": 125, "units": "Lunar Class Cruiser", "upgrades": [] }
          ]}
    ],
