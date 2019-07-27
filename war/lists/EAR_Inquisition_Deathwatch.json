@@ -1,6 +1,6 @@
 {
    "id": "Deathwatch",
-   "version": "0.5.2",
+   "version": "0.5.3",
    "by": "EA-Ragnarok",
    "notes":[],
 
@@ -18,7 +18,7 @@
 	    {"id": 513, "name": "Deathwatch Devastators", "pts": 250, "units": "4 Deathwatch Devastators plus transport", "upgrades": [1,2,3,4, 13, 14,18]}
          ]},
         {"name": "ORDO XENOS FORMATIONS (Max 2 for each Core Detachment)", "formations": [
-            {"id": 519, "name": "0-1 Ordo Xenos Inquisitor Retinue", "pts": 275, "units": "3 Ordo Xenos Acolytes, 4 Vendettas", "upgrades": []},
+            {"id": 519, "name": "0-1 Ordo Xenos Inquisitor Retinue", "pts": 250, "units": "3 Ordo Xenos Acolytes, 4 Vendettas", "upgrades": []},
             {"id": 520, "name": "Adeptus Arbites Company", "pts": 225, "units": "8 Arbitrators, 4 Arbites Repressors", "upgrades": []},
             {"id": 521, "name": "Flak Battery", "pts": 150, "units": "3 Hydra", "upgrades": []},
             {"id": 522, "name": "Leman Russ Squadron", "pts": 200, "upgrades": [30]},

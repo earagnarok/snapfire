@@ -1,6 +1,6 @@
 {
 	"id":"Armageddon Steel Legion",
-	"version":"1.0.1",
+	"version":"1.0.2",
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"CORE COMPANY FORMATIONS", "formations":[
@@ -13,7 +13,7 @@
 		]},
 		{"name":"SUPPORT FORMATIONS (Max two for each Core Company)", "formations":[
 			{"id":510, "name":"Rough Rider Platoon", 			"pts":150, "upgrades":[], "units":"6 Rough Riders"},
-			{"id":511, "name":"Tempestus Scions",				"pts":200, "upgrades":[42,43], "units":"Tempestor with a Commissar, 7 Tempestus Scions"},
+			{"id":511, "name":"Storm Trooper Company",				"pts":200, "upgrades":[42,43], "units":"Commissar, 8 Storm Troopers"},
 			{"id":512, "name":"Artillery Battery",				"pts":225, "upgrades":[]},
 			{"id":514, "name":"Sentinel Squadron",				"pts":100, "upgrades":[], "units":"4 Sentinels"},
 			{"id":515, "name":"Deathstrike Missile Battery",		"pts":200, "upgrades":[], "units":"2 Deathstrikes"},

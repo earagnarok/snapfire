@@ -1,6 +1,6 @@
 {
    "id": "Grey Knights",
-   "version": "0.5.1",
+   "version": "0.5.2",
    "by": "EA-Ragnarok",
    "notes":[],
 
@@ -17,7 +17,7 @@
 
          ]},
         {"name": "ORDO MALLEUS FORMATIONS (Max 2 for each Core Detachment)", "formations": [
-            {"id": 520, "name": "0-1 Ordo Malleus Inquisitor Retinue", "pts": 275, "units": "5 Kasrkin", "upgrades": [14]},
+            {"id": 520, "name": "0-1 Ordo Malleus Inquisitor Retinue", "pts": 250, "units": "5 Kasrkin", "upgrades": [14]},
             {"id": 521, "name": "Shock Trooper Platoon", "pts": 225, "units": "6 Infantry units", "upgrades": [14]},
             {"id": 525, "name": "Whiteshield Platoon", "pts": 275, "units": "8 Whiteshields, Stormlord", "upgrades": []},
             {"id": 522, "name": "Flak Battery", "pts": 150, "units": "3 Hydras", "upgrades": []},
