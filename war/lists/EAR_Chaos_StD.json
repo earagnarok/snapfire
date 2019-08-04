@@ -1,6 +1,6 @@
 {
 	"id":"EAR Slaves to Darkness",
-	"version":"0.8.2",
+	"version":"0.8.3",
 	"notes":
 		["Add one free Lesser Daemon to Daemon pool per Daemonic Pact."],
 		"by":"EA Ragnarok",
@@ -53,7 +53,7 @@
 
 		{"id":20, "name":"3 Griffons", "pts":50},
 		{"id":21, "name":"Fire Support Squad", "pts":25},
-		{"id":17, "name":"Technical", "pts":15},
+		{"id":17, "name":"Technical", "pts":20},
 		{"id":22, "name":"Hydra", "pts":50},
 
 
