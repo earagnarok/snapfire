@@ -21,18 +21,17 @@
 
       {"name": "MINOR DAEMON ENGINE FORMATIONS (Max one fore each World Eater Retinue)", "formations": [
             {"id": 541, "name": "Khorne Defilers", "pts": 50, "upgrades": [35]},
-            {"id": 542, "name": "Daemonic Assault Engines", "pts": 275, "units": "6 Daemonic Assault Engines", "upgrades": []},
+            {"id": 542, "name": "Daemonic Assault Engines", "pts": 300, "units": "6 Daemonic Assault Engines", "upgrades": []},
             {"id": 544, "name": "Doomblasters", "pts": 225, "units": "4 Doomblasters", "upgrades": []},
             {"id": 543, "name": "Hellfire Cannons", "pts": 225, "units": "4 Hellfire Cannons", "upgrades": []},
-            {"id": 545, "name": "Forge Fiends", "pts": 200, "units": "3 Forge Fiends", "upgrades": []}
+            {"id": 545, "name": "Forgefiends", "pts": 225, "units": "3 Forgefiends", "upgrades": []}
        ]},
 
       {"name": "MAJOR DAEMON ENGINES AND CHAOS NAVY (Max 33%)", "formations": [
             {"id": 551, "name": "Greater Brass Scorpion", "pts": 50, "upgrades": [34]},
             {"id": 552, "name": "Lord of Battles", "pts": 400, "units": "1 Lord of Battles", "upgrades": []},
             {"id": 553, "name": "Tower of Skulls", "pts": 700, "units": "1 Tower of Skulls, Daemonic Pact", "upgrades": []},
-            {"id": 554, "name": "Heldrake Flight", "pts": 200, "units": "2 Heldrake Interceptors", "upgrades": []},
-            {"id": 555, "name": "Baledrake Flight", "pts": 200, "units": "2 Baledrake Fighter-Bombers", "upgrades": []},
+            {"id": 554, "name": "Heldrakes", "pts": 225, "units": "2 Heldrakes", "upgrades": []},
             {"id": 557, "name": "Orbital Support", "pts": 150, "upgrades": []}
          ]}
    ],
@@ -55,7 +54,6 @@
 
       {"id": 34, "name": "Greater Brass Scorpion", "pts": 200},
       {"id": 35, "name": "Slaughterfiend", "pts": 35},
-      {"id": 36, "name": "2 Forgefiends", "pts": 75},
       {"id": 37, "name": "Skullseeker Terminators", "pts": 0},
       {"id": 38, "name": "Mutilators", "pts": 15},
       {"id": 39, "name": "Dreadclaws", "pts": 0},
