@@ -1,6 +1,6 @@
 {
 	"id":"EAR Lost and the Damned",
-	"version":"0.7.2",
+	"version":"0.7.3",
 	"notes":
 		["Add one free Lesser Daemon to Daemon pool per Daemonic Pact"],
 		"by":"EA Ragnarok",
@@ -12,8 +12,8 @@
 			{"id":501, "name":"Cultist Coven", "pts":135, "units":"Daemonic Pact", "upgrades":[14,15,16,17,18,19]}
 		]},
 		{"name":"LOST AND THE DAMNED SUPPORT COVEN FORMATIONS / / Max 2 for each Cultist Coven / / May not Mix Nurgle/Tzeench or Slaanesh/Khorne formations / / Each Support Choice is 0-1 for each 1000 points in the army", "formations":[
-			{"id":502, "name":"Hellfire Cannons of Chaos Undivided", "pts":225, "units":"4 Hellfire Cannons", "upgrades":[30]},
-			{"id":503, "name":"Doomblasters of Chaos Undivided", "pts":225, "units":"4 Doomblasters", "upgrades":[30]},
+			{"id":502, "name":"Hellfire Cannons of Chaos Undivided", "pts":225, "units":"4 Hellfire Cannons", "upgrades":[]},
+			{"id":503, "name":"Forge Fiends of Chaos Undivided", "pts":200, "units":"3 Forge Fiends", "upgrades":[]},
 			{"id":504, "name":"Defilers of Chaos Undivided",	"pts":225, "units":"4 Defilers", "upgrades":[]},
 			{"id":554, "name":"Heldrake Wing of Chaos Undivided", "pts": 200, "units": "2 Heldrake Interceptors", "upgrades": []},
             {"id":555, "name":"Baledrake Wing of Chaos Undivided", "pts": 200, "units": "2 Baledrake Fighter-Bombers", "upgrades": []},
@@ -24,8 +24,8 @@
 			{"id":509, "name":"Contagion Engines of Nurgle", "pts":325, "units":"4 Contagion Engines", "upgrades":[]},
 			{"id":510, "name":"Nurgle Plague Zombie Infestation",	"pts":175, "units":"3 + 2D6 Plague Zombies", "upgrades":[]},
 			{"id":511, "name":"Daemonic Assault Engines of Khorne",	"pts":275, "units":"6 Daemonic Assault Engines", "upgrades":[]},
-			{"id":512, "name":"Greater Brass Scorpion of Khorne", "pts":50, "upgrades":[34] },
-			{"id":513, "name":"Khorne Lord of Battles", "units":"Lord of Battles",	"pts":375, "upgrades":[]},
+			{"id":512, "name":"Doomblasters of Khorne", "pts":225, "units":"4 Doomblasters", "upgrades":[30]},
+			{"id":513, "name":"Khorne Lord of Battles", "units":"Lord of Battles",	"pts":400, "upgrades":[]},
 			{"id":514, "name":"Silver Towers of Tzeench",	"pts":300, "units":"4 Silver Towers", "upgrades":[]},
 			{"id":514, "name":"Warp Palace of Tzeench",	"pts":500, "units":"1 Warp Palace", "upgrades":[]},
 			{"id":516, "name":"Doomwings of Tzeench", "units":"3 Doomwing Interceptors", "pts":175, "upgrades":[] }

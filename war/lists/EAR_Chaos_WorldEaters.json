@@ -1,6 +1,6 @@
 {
    "id": "Chaos - World Eaters",
-   "version": "0.6.2",
+   "version": "0.6.3",
    "by": "EA-Ragnarok",
    "sections": [
       {"name": "INDIVIDUALS", "formations": [
@@ -22,13 +22,14 @@
       {"name": "MINOR DAEMON ENGINE FORMATIONS (Max one fore each World Eater Retinue)", "formations": [
             {"id": 541, "name": "Khorne Defilers", "pts": 50, "upgrades": [35]},
             {"id": 542, "name": "Daemonic Assault Engines", "pts": 275, "units": "6 Daemonic Assault Engines", "upgrades": []},
-            {"id": 543, "name": "Hellfire Cannons", "pts": 225, "units": "4 Hellfire Cannons", "upgrades": [36]},
-            {"id": 544, "name": "Doomblasters", "pts": 225, "units": "4 Doomblasters", "upgrades": [36]}
+            {"id": 544, "name": "Doomblasters", "pts": 225, "units": "4 Doomblasters", "upgrades": []},
+            {"id": 543, "name": "Hellfire Cannons", "pts": 225, "units": "4 Hellfire Cannons", "upgrades": []},
+            {"id": 545, "name": "Forge Fiends", "pts": 200, "units": "3 Forge Fiends", "upgrades": []}
        ]},
 
       {"name": "MAJOR DAEMON ENGINES AND CHAOS NAVY (Max 33%)", "formations": [
             {"id": 551, "name": "Greater Brass Scorpion", "pts": 50, "upgrades": [34]},
-            {"id": 552, "name": "Lord of Battles", "pts": 375, "units": "1 Lord of Battles", "upgrades": []},
+            {"id": 552, "name": "Lord of Battles", "pts": 400, "units": "1 Lord of Battles", "upgrades": []},
             {"id": 553, "name": "Tower of Skulls", "pts": 700, "units": "1 Tower of Skulls, Daemonic Pact", "upgrades": []},
             {"id": 554, "name": "Heldrake Flight", "pts": 200, "units": "2 Heldrake Interceptors", "upgrades": []},
             {"id": 555, "name": "Baledrake Flight", "pts": 200, "units": "2 Baledrake Fighter-Bombers", "upgrades": []},
@@ -52,7 +53,7 @@
       {"id": 30, "name": "2 Chaos Vindicators", "pts": 50},
       {"id": 33, "name": "2 Chaos Predators", "pts": 75},
 
-      {"id": 34, "name": "Greater Brass Scorpion", "pts": 175},
+      {"id": 34, "name": "Greater Brass Scorpion", "pts": 200},
       {"id": 35, "name": "Slaughterfiend", "pts": 35},
       {"id": 36, "name": "2 Forgefiends", "pts": 75},
       {"id": 37, "name": "Skullseeker Terminators", "pts": 0},
@@ -72,7 +73,7 @@
       {"min": 1,"max": 1, "from": [501]},
       {"maxPercent": 33, "name": "War Engines & Allies", "from": [551,552,553,554,555,557]},
       {"max": 2, "name": "Support Formations", "from": [531,532,533,534,535],  "forEach": [521], "name2": "World Eater Retinue"},
-      {"max": 1, "name": "Daemon Engine Formations", "from": [541,542,543,544],  "forEach": [521], "name2": "World Eater Retinue"}
+      {"max": 1, "name": "Daemon Engine Formations", "from": [541,542,543,544,545],  "forEach": [521], "name2": "World Eater Retinue"}
    ],
    "upgradeConstraints": [
       {"max": 1, "from": [13,14], "perArmy": true},
@@ -97,7 +98,6 @@
       {"min": 1, "max": 2, "from": [34], "appliesTo": [551]},
       {"min": 1, "max": 1, "from": [15,13,14], "appliesTo": [521,531,532]},
       {"min": 1, "max": 1, "from": [25], "appliesTo": [531]},
-      {"min": 0, "max": 1, "from": [36], "appliesTo": [543,544]},
       {"min": 1, "max": 1, "from": [15], "appliesTo": [533]},
       {"min": 1, "max": 1, "from": [17,19], "appliesTo": [534]},
       {"min": 1, "max": 1, "from": [20,21], "appliesTo": [534]},

@@ -19,7 +19,7 @@
 			{"id":515, "name":"Deathstrike Missile Battery",		"pts":200, "upgrades":[], "units":"2 Deathstrikes"},
 			{"id":516, "name":"Super-Heavy Tank Platoon", 			"pts":175, "upgrades":[]},
 			{"id":517, "name":"Leman Russ Platoon", 			"pts":350, "upgrades":[]},
-			{"id":518, "name":"Flak Battery",				"pts":150, "upgrades":[41], "units":"3 Hydras"},
+			{"id":518, "name":"Flak Battery",				"pts":150, "upgrades":[], "units":"3 Hydras"},
 			{"id":519, "name":"Vulture Squadron",				"pts":0, "upgrades":[28]},
 			{"id":520, "name":"Mechanized Infantry Platoon", 	"pts":225, "units":"6 Infantry, 3 Chimera", "upgrades":[54,57,58]}
 		]},
@@ -70,7 +70,7 @@
 		{"id":42, "name":"4 Valkyries",					"pts":150},
    		{"id":43, "name":"4 Taurox",					"pts":150},
 
-		{"id":45, "name":"1 Hydra",	"pts":50},
+		{"id":45, "name":"Hydra",	"pts":50},
 
 		{"id":48, "name":"2 Fire Support Squads, 1 Chimera",		"pts":75},
 		{"id":49, "name":"2 Fire Support Squads",		"pts":50},
@@ -84,7 +84,7 @@
 		{"id":66, "name":"Ogryns",					"pts":25},
 		{"id":56, "name":"2 Ogryns",					"pts":50},
 
-		{"id":54, "name":"1 Hellhound",					"pts":25},
+		{"id":54, "name":"Hellhound",					"pts":25},
 		{"id":57, "name":"2 Hellhounds",				"pts":50},
 		{"id":58, "name":"3 Hellhounds",				"pts":75},
 
@@ -92,9 +92,9 @@
 		{"id":60, "name":"3 Leman Russ Demolishers",	"pts":125},
 		{"id":61, "name":"3 Leman Russ Conquerors",		"pts":125},
 
-		{"id":62, "name":"1 Sniper, 1 Chimera",			"pts":50},
-		{"id":63, "name":"2 Snipers, 1 Chimera",		"pts":75},
-		{"id":64, "name":"1 Sniper",					"pts":25},
+		{"id":62, "name":"Sniper, Chimera",			"pts":50},
+		{"id":63, "name":"2 Snipers, Chimera",		"pts":75},
+		{"id":64, "name":"Sniper",					"pts":25},
 		{"id":65, "name":"2 Snipers",					"pts":50},
 
 
