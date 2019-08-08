@@ -2,7 +2,7 @@
 	"id":"EAR Black Legion",
 	"version":"1.0.0",
 	"notes":
-		["Add one free Lesser Daemon to Daemon pool per Daemonic Pact"],
+		["Add one free Lesser Daemon to the Lesser Daemon pool per Daemonic Pact"],
 		"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"DAEMONS", "formations":[
