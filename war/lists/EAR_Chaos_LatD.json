@@ -2,7 +2,7 @@
 	"id":"EAR Lost and the Damned",
 	"version":"0.7.3",
 	"notes":
-		["Add one free Lesser Daemon to Daemon pool per Daemonic Pact"],
+		["Add one free Lesser Daemon to the Lesser Daemon pool per Daemonic Pact"],
 		"by":"EA Ragnarok",
 	"sections":[
 		{"name":"DAEMONS", "formations":[
