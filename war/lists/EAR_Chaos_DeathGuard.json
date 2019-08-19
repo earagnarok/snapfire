@@ -1,6 +1,6 @@
 {
    "id": "Chaos - Death Guard",
-   "version": "1.5",
+   "version": "0.6.1",
    "by": "EA-Ragnarok",
    "sections": [
       {"name": "INDIVIDUALS", "formations": [
@@ -19,7 +19,7 @@
 
       {"name": "DEATH GUARD DAEMON ENGINE FORMATIONS (Max two for each Death Guard Retinue)", "formations": [
             {"id": 541, "name": "Contagion Engines", "pts": 325, "units": "4 Contagion Engines", "upgrades": []},
-            {"id": 542, "name": "Blight Drones", "pts": 225, "units": "7 Greater Blight Drones", "upgrades": []},
+            {"id": 542, "name": "Blight Drones", "pts": 275, "units": "7 Greater Blight Drones", "upgrades": []},
             {"id": 543, "name": "Plague Tower", "pts": 325, "units": "1 Plague Tower", "upgrades": []},
             {"id": 544, "name": "Nurgle Defilers", "pts": 50, "upgrades": [21]}
        ]},
