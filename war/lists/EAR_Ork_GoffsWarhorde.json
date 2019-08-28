@@ -1,6 +1,6 @@
 {
    "id": "EA_A Clan Goffs Warhorde",
-   "version": "1.0.0",  
+   "version": "1.0.0",
    "notes": ["If the army includes any Great Gargants, the Warlord must be in one of them. Otherwize the Warlord will join a Nobz or Gargant unit."],
    "by": "EA-Ragnarok",
    "sections": [
@@ -34,7 +34,7 @@
          "name": "AIRCRAFT &amp; GARGANTS",
          "formations": [
             {"id": 517, "name": "Fighta-Bommer Skwadron", "pts": 0, "upgrades": [49]},
-            {"id": 518, "name": "Landa", "pts": 250,  "units": "Landa", "upgrades": []},
+            {"id": 518, "name": "Landa", "pts": 225,  "units": "Landa", "upgrades": []},
             {"id": 522, "name": "Gargant", "pts": 550, "units": "Gargant", "upgrades": [81]},
             {"id": 523, "name": "Great Gargant", "pts": 700, "units": "Great Gargant", "upgrades": [81]}
          ]
