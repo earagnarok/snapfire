@@ -1,6 +1,6 @@
 {
    "id": "EAR Evil Sunz Speed Freeks, WAAAGH! Gazbag",
-   "version": "0.6.0",
+   "version": "0.6.1",
    "notes": ["The Warlord will join a Nobz or Nob Warbikes unit."],
    "by": "EA-Ragnarok",
    "sections": [
@@ -35,7 +35,7 @@
       {
          "name": "SPEED FREEK AIRCRAFT (Max 33%)",
          "formations": [
-            {"id": 517, "name": "Speed Freek Fighta Skwadron", "pts": 25, "upgrades": [50]},
+            {"id": 517, "name": "Speed Freek Fighta Skwadron", "units":"3 Speed Freek Fightas", "pts": 175, "upgrades": [50]},
             {"id": 518, "name": "Evil Sunz Bommer", "pts": 150, "units":"Bommer", "upgrades": []},
             {"id": 519, "name": "Evil Sunz Landa", "pts": 250, "units":"Landa", "upgrades": []}
          ]
@@ -94,7 +94,6 @@
   	  {"min": 4, "from": [21,20,22], "appliesTo": [514]},
   	  {"min": 6, "from": [21,20,22], "appliesTo": [515]},
 
-      {"max": 6, "min": 3, "from": [50], "appliesTo": [517]},
       {"max": 1, "min": 1, "from": [80,91], "appliesTo": [520]}
    ]
 }
