@@ -14,7 +14,7 @@
             {"id": 504, "name": "Kult of Speed", "pts": 0, "upgrades": [53,54,55,59,61,62,68,69,70]},
             {"id": 505, "name": "Kult of Speed (Big)", "pts": -50, "upgrades": [53,54,55,59,61,62,68,69,70]},
             {"id": 506, "name": "Kult of Speed ('Uge)", "pts": -100, "upgrades": [53,54,55,59,61,62,68,69,70]},
-            {"id": 513, "name": "Mekboy Gunzmob", "pts": 0, "upgrades": [81,43,58,61,64,68,69,70,78]},
+            {"id": 513, "name": "Mekboy Gunzmob", "pts": 0, "upgrades": [81,43,58,61,64,68,69,70]},
             {"id": 514, "name": "Mekboy Gunzmob (Big)", "pts": -25, "upgrades": [81,43,58,61,64,68,69,70]},
             {"id": 515, "name": "Mekboy Gunzmob ('Uge)", "pts": -50, "upgrades": [81,43,58,61,64,68,69,70]},
             {"id": 510, "name": "Mekboy Stompamob", "pts": 0, "upgrades": [57,60,61,71,77]},
