@@ -39,7 +39,7 @@
 		{"id":58, "name":"Wyrdboy",				"pts":35},
 		{"id":59, "name":"Wyrdboy",				"pts":25},
 
-		{"id":61, "name":"Orkeosaurus",			"pts":150},
+		{"id":61, "name":"Orkeosaurus",			"pts":175},
 		{"id":67, "name":"Warlord",			"pts":0}
 	],
 	"formationConstraints":[
