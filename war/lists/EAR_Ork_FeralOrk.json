@@ -1,5 +1,5 @@
 {
-	"id":"Snakebites",
+	"id":"EAR Snakebite Clan",
 	"version":"0.7.0",
 	"notes":["A Warlord must be selected and assigned to the formation with the most units (WE DC counts as one unit each)."],
 	"by":"EA-Ragnarok",
@@ -7,9 +7,9 @@
 		{"name":"WAR HORDES", "formations":[
 			{"id":500, "name":"Warband",				"pts":-20,	"upgrades":[11,39,13,23,52,29,57,60,61,58,67,40,41,42]},
 			{"id":501, "name":"Warband (Big)",			"pts":-115, "upgrades":[11,39,13,23,52,29,57,60,61,58,67,40,41,42]},
-			{"id":502, "name":"Warband ('Uge)",		"pts":-210, "upgrades":[11,39,13,23,52,29,57,60,61,58,67,40,41,42]},
-			{"id":503, "name":"Wildboyz",				"pts":-5, "upgrades":[23,13, 52,29,57,60,58,67]},
-			{"id":504, "name":"Wildboyz (Big)",		"pts":-60,	"upgrades":[23,13, 52,29,57,60,58,67]},
+			{"id":502, "name":"Warband ('Uge)",		"pts":-210, "upgrades":[11,39,13,23,52,29,57,60,58,67,40,41,42]},
+			{"id":503, "name":"Wildboyz",				"pts":-5, "upgrades":[23,13, 52,29,57,60,61,58,67]},
+			{"id":504, "name":"Wildboyz (Big)",		"pts":-60,	"upgrades":[23,13, 52,29,57,60,61,58,67]},
 			{"id":505, "name":"Wildboyz ('Uge)",		"pts":-115,	"upgrades":[23,13, 52,29,57,60,58,67]},
 			{"id":506, "name":"Boarboyz Horde",		"pts":0,	"upgrades":[29,30,58,67]},
 			{"id":507, "name":"Boarboyz Horde (Big)",	"pts":-25,	"upgrades":[29,30,58,67]},
@@ -38,11 +38,11 @@
 		{"id":41, "name":"Steam Gargant (Soopagun and Mega Choppa)",		"pts":225},
 		{"id":42, "name":"Steam Gargant (2 Mega Choppa)",		"pts":225},
 		{"id":52, "name":"Squig Katapult",		"pts":25},
-		{"id":57, "name":"Squiggoth",			"pts":50},
-		{"id":58, "name":"Weirdboy",				"pts":50},
-		{"id":59, "name":"Weirdboy",				"pts":35},
+		{"id":57, "name":"Squiggoth",			"pts":40},
+		{"id":58, "name":"Wyrdboy",				"pts":50},
+		{"id":59, "name":"Wyrdboy",				"pts":35},
 
-		{"id":60, "name":"Gargantuan Squiggoth", "pts":125},
+		{"id":60, "name":"Gargantuan Squiggoth", "pts":115},
 		{"id":61, "name":"Orkeosaurus",			"pts":200},
 		{"id":67, "name":"Warlord",			"pts":0}
 	],
@@ -107,9 +107,9 @@
 		{"max":2, "from":[60], "appliesTo":[501,504]},
 		{"max":3, "from":[60], "appliesTo":[502,505]},
 
-		{"max":1, "from":[61], "appliesTo":[500]},
-		{"max":2, "from":[61], "appliesTo":[501]},
-		{"max":3, "from":[61], "appliesTo":[502]}
+		{"max":1, "from":[61], "appliesTo":[501,504]},
+		{"max":2, "from":[61], "appliesTo":[502,505]},
+		{"max":3, "from":[61], "appliesTo":[503]}
 
 
 
