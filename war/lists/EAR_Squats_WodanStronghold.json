@@ -1,34 +1,34 @@
 {
-	"id":"Squats - Wodan Stronghold",
-	"version":"0.6.0",
+	"id":"EAR Squats - Wodan Stronghold",
+	"version":"0.6.1",
 	"notes":[],
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"Wodan Stronghold Core Formations", "formations":[
-			{"id":501, "name":"Warriors",	"pts":200,  "upgrades":[102, 108,109,110]}
+			{"id":501, "name":"Warriors",	"pts":200,  "upgrades":[102, 108,109,110]},
+			{"id":509, "name":"Berserkers",	"pts":150,  "upgrades":[108,109,110]}
 
 		]},
-		{"name":"Wodan Stronghold Support Formations (Max 2 for each Core Formation)", "formations":[
-			{"id":509, "name":"Berserkers",	"pts":150,  "upgrades":[108,109,110]},
+		{"name":"Wodan Stronghold Support Formations (Max 3 for each Core Formation)", "formations":[
 			{"id":510, "name":"Bikers",			"pts":200, "upgrades":[116]},
 			{"id":511, "name":"Gyrokopters",		"pts":225, "units":"4 Squat Steel Hawk Gyrokopters", "upgrades":[]},
-			{"id":512, "name":"Dirigible",			"pts":250, "units":"1 Squat Overlord Dirigible", "upgrades":[]},
+			{"id":512, "name":"Overlord",			"pts":250, "units":"Squat Overlord Dirigible", "upgrades":[]},
 			{"id":513, "name":"Thunderers",		"pts":175,  "units":"4 Squat Thunderers", "upgrades":[102, 108,109,110]},
 			{"id":514, "name":"Light Artillery Battery",		"pts":200, "upgrades":[102]},
-			{"id":515, "name":"Vultarax Maniple",		"pts":200, "units":"5 Vultarax Robots, 1 Squat Steel Hawk Gyrokopter, ", "upgrades":[]},
-			{"id":516, "name":"Conqueror Maniple",		"pts":200,  "units":"5 Conqueror Robots, 1 Squat Tech-Priest", "upgrades":[]},
+			{"id":515, "name":"Vultarax Maniple",		"pts":200, "units":"5 Vultarax Robots, Squat Steel Hawk Gyrokopter, ", "upgrades":[]},
+			{"id":516, "name":"Conqueror Maniple",		"pts":200,  "units":"5 Conqueror Robots, Squat Tech-Priest", "upgrades":[]},
 			{"id":517, "name":"Thunderfire Battery",		"pts":175,  "units":"3 Squat Thunderfires, 3 Gun Emplacements",  "upgrades":[]}
 		]},
 
-		{"name":"Wodan Stronghold War Engines and Flyers", "formations":[
+		{"name":"Wodan Stronghold War Engines and Flyers (Max 33%)", "formations":[
 
 		    {"id":520,"name":"Goliath Battery","pts":275, "units":"2 Squat Goliath Mega Cannons", "upgrades":[]},
 
-		    {"id":521,"name":"Hellbore",			"pts":225,"units":"1 Squat Hellbore","upgrades":[111]},
-		    {"id":522,"name":"Leviathan",			"pts":350, "units":"1 Squat Leviathan", "upgrades":[111]},
-			{"id":523, "name":"Colossus",			"pts":525, "units":"1 Squat Colossus", "upgrades":[111]},
-			{"id":524, "name":"Cyclops",			"pts":475, "units":"1 Squat Cyclops", "upgrades":[111]},
-			{"id":525, "name":"Land Train",			"pts":200, "units":"1 Squat Land Train", "upgrades":[111, 120,121,122,123]},
+		    {"id":521,"name":"Hellbore",			"pts":225,"units":"Squat Hellbore","upgrades":[111]},
+		    {"id":522,"name":"Leviathan",			"pts":400, "units":"Squat Leviathan", "upgrades":[111]},
+			{"id":523, "name":"Colossus",			"pts":500, "units":"Squat Colossus", "upgrades":[111]},
+			{"id":524, "name":"Cyclops",			"pts":450, "units":"Squat Cyclops", "upgrades":[111]},
+			{"id":525, "name":"Land Train",			"pts":200, "units":"Squat Land Train", "upgrades":[111, 120,121,122,123]},
 			{"id":526, "name":"Iron Eagle Squadron",		"pts":175, "units":"2 Iron Eagle Gunships", "upgrades":[]}
 		]}
 
@@ -38,11 +38,11 @@
 		{"id":100, "name":"Warlord",						"pts":0},
 		{"id":101, "name":"Grand Warlord",					"pts":50},
 
-		{"id":102, "name":"3 Squat Rapiers",					"pts":50},
+		{"id":102, "name":"2 Squat Rapiers",					"pts":35},
 
 		{"id":103, "name":"Squat Warriors",				"pts":0},
 		{"id":104, "name":"Squat Berserkers",			"pts":0},
-		{"id":105, "name":"Squat Hearthguards",			"pts":15},
+		{"id":105, "name":"Squat Hearthguards",			"pts":25},
 		{"id":106, "name":"Squat Thunderers",			"pts":15},
 
 		{"id":108, "name":"Squat Rhino",				"pts":10},
@@ -60,12 +60,12 @@
 
 		{"id":120, "name":"Dragon Battle Car",			                  "pts":75},
 		{"id":121, "name":"Siege Mortar Battle Car",			       	"pts":75},
-		{"id":122, "name":"Berserker Battle Car, 1 Squat Berserkers",                     	"pts":75},
+		{"id":122, "name":"Berserker Battle Car, unit of Squat Berserkers",                     	"pts":75},
 		{"id":123, "name":"Bomb Battle Car",	                 		"pts":125}
 
 	],
 	"formationConstraints":[
-		{"max":2, "name":"Wodan Stronghold Support Formations", "from":[509,510,511,512,513,514,515,516,517], "forEach":[501], "name2":"Core Formation"},
+		{"max":3, "name":"Wodan Stronghold Support Formations", "from":[510,511,512,513,514,515,516,517], "forEach":[501,509], "name2":"Core Formation"},
 		{"maxPercent":34, "name":"Wodan Stronghold War Engines and Flyers", "from":[520,521,522,523,524,525,526]}
 	],
 	"upgradeConstraints":[
@@ -76,10 +76,10 @@
 
    		{"max":1, "min":1, "from":[100,101], "appliesTo":[501,509]},
 
-   		{"max":4, "from":[106], "appliesTo":[501]},
+   		{"max":2, "from":[106], "appliesTo":[501]},
    		{"max":8, "min":8, "from":[103,106], "appliesTo":[501]},
 
-        {"max":3, "from":[105], "appliesTo":[509]},
+        {"max":2, "from":[105], "appliesTo":[509]},
    		{"max":6, "min":6, "from":[104,105], "appliesTo":[509]},
 
 		{"max":1, "from":[116], "appliesTo":[510]},
