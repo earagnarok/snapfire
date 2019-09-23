@@ -1,0 +1,98 @@
+{
+	"id":"EAR Squats - Wotan Stronghold",
+	"version":"0.7.0",
+	"notes":[],
+	"by":"EA-Ragnarok",
+	"sections":[
+		{"name":"Wotan Stronghold Core Formations", "formations":[
+			{"id":501, "name":"Warrior Retinue",	"pts":120,  "upgrades":[103,102,108,110]}
+
+		]},
+		{"name":"Wotan Stronghold Support Formations (Max 3 Support Formations for each Core Formation)", "formations":[
+			{"id":509, "name":"Berserkers",	"pts":125, "units":"6 Squat Berserkers", "upgrades":[]},
+			{"id":510, "name":"Bikers",			"pts":200, "upgrades":[116]},
+			{"id":511, "name":"Gyrokopters",		"pts":225, "units":"4 Steel Hawk Gyrokopters", "upgrades":[]},
+			{"id":513, "name":"Thunderers",		"pts":175,  "units":"4 Squat Thunderers", "upgrades":[102,108,109,110]},
+			{"id":514, "name":"Light Artillery Battery",		"pts":175, "upgrades":[]},
+			{"id":515, "name":"Vultarax Maniple",		"pts":200, "units":"5 Vultarax Robots, Steel Hawk Gyrokopter", "upgrades":[]},
+			{"id":516, "name":"Conqueror Maniple",		"pts":200,  "units":"5 Conqueror Robots, Squat Tech-Priest", "upgrades":[]},
+			{"id":517, "name":"Thunderfire Battery",		"pts":150,  "units":"3 Squat Thunderfires, 3 Gun Emplacements",  "upgrades":[]}
+		]},
+
+		{"name":"Wotan Stronghold War Engines and Flyers (Max 40%)", "formations":[
+			{"id":512, "name":"Overlord",			"pts":225, "units":"Overlord Dirigible", "upgrades":[]},
+		    {"id":520, "name":"Goliath Battery",		"pts":325, "units":"2 Goliath Mega Cannons", "upgrades":[]},
+		    {"id":521, "name":"Hellbore",			"pts":200,"units":"Hellbore","upgrades":[111]},
+		    {"id":522, "name":"Leviathan",			"pts":350, "units":"Leviathan", "upgrades":[111]},
+			{"id":524, "name":"Cyclops",			"pts":450, "units":"Cyclops", "upgrades":[111]},
+			{"id":523, "name":"Colossus",			"pts":475, "units":"Colossus", "upgrades":[111]},
+			{"id":525, "name":"Land Train",			"pts":200, "units":"Squat Land Train", "upgrades":[111, 120,121,122,123]},
+			{"id":526, "name":"Iron Eagle Squadron",		"pts":175, "units":"2 Iron Eagle Gunships", "upgrades":[]}
+		]}
+
+
+	],
+	"upgrades":[
+		{"id":100, "name":"Hearthguards with Squat Chieftain",						"pts":0},
+		{"id":101, "name":"Hearthguards with Supreme Chieftain",					"pts":50},
+
+		{"id":102, "name":"2 Rapiers",					"pts":35},
+
+		{"id":103, "name":"Squat Warriors",				"pts":15},
+		{"id":104, "name":"Squat Berserkers",			"pts":15},
+		{"id":105, "name":"Hearthguards",				"pts":50},
+
+		{"id":106, "name":"7 Rapiers",					"pts":0},
+
+		{"id":108, "name":"Rhino",				"pts":10},
+		{"id":109, "name":"Land Raider",				"pts":50},
+		{"id":110, "name":"Termite",				"pts":20},
+
+
+		{"id":111, "name":"Living Ancestor",				"pts":50},
+
+
+        {"id":112, "name":"Squat Bikes",					"pts":0},
+        {"id":113, "name":"Squat Trike",				"pts":0},
+
+        {"id":115, "name":"5 Thudd Guns",				"pts":0},
+        {"id":114, "name":"6 Mole Mortars",				"pts":0},
+        {"id":116, "name":"Guildmaster Trike",			"pts":25},
+
+		{"id":118, "name":"Set up inside a Hellbore", "pts":0},
+		{"id":117, "name":"3 Rhinos",				"pts":25},
+		{"id":119, "name":"3 Termites",				"pts":50},
+
+		{"id":120, "name":"Dragon Battle Car",			                  "pts":75},
+		{"id":121, "name":"Siege Mortar Battle Car",			       	"pts":75},
+		{"id":122, "name":"Berserker Battle Car, unit of Squat Berserkers",                     	"pts":75},
+		{"id":123, "name":"Bomb Battle Car",	                 		"pts":150}
+
+	],
+	"formationConstraints":[
+		{"max":3, "name":"Wotan Stronghold Support Formations", "from":[509,510,511,513,514,515,516,517], "forEach":[501], "name2":"Core Formation"},
+		{"maxPercent":41, "name":"Wotan Stronghold War Engines and Flyers", "from":[512,520,521,522,523,524,525,526]}
+	],
+	"upgradeConstraints":[
+		{"max":1,  "perArmy":true,  "from":[101]},
+		{"max":1, "from":[111]},
+
+  		{"max":1, "from":[102]},
+
+  		{"max":1, "min":1, "from":[100,101], "appliesTo":[501]},
+		{"max":2, "from":[105], "appliesTo":[501]},
+   		{"max":11, "min":7, "from":[103,105], "appliesTo":[501]},
+
+ 		{"max":1, "min":1, "from":[117,118,119], "appliesTo":[509]},
+
+  		{"max":1, "from":[116], "appliesTo":[510]},
+		{"max":3, "from":[113], "appliesTo":[510]},
+		{"max":6, "min":6, "from":[112,113], "appliesTo":[510]},
+
+   		{"max":1, "min":1, "from":[115,114,106], "appliesTo":[514]},
+
+        {"max":1, "from":[123], "appliesTo":[525]},
+   		{"max":4, "min":2, "from":[120,121,122,123], "appliesTo":[525]}
+
+	]
+}
