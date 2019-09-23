@@ -11,12 +11,12 @@
 		{"name":"Wotan Stronghold Support Formations (Max 3 Support Formations for each Core Formation)", "formations":[
 			{"id":509, "name":"Berserkers",	"pts":125, "units":"6 Squat Berserkers", "upgrades":[]},
 			{"id":510, "name":"Bikers",			"pts":200, "upgrades":[116]},
-			{"id":511, "name":"Gyrokopters",		"pts":225, "units":"4 Steel Hawk Gyrokopters", "upgrades":[]},
 			{"id":513, "name":"Thunderers",		"pts":175,  "units":"4 Squat Thunderers", "upgrades":[102,108,109,110]},
 			{"id":514, "name":"Light Artillery Battery",		"pts":175, "upgrades":[]},
+			{"id":517, "name":"Thunderfire Battery",		"pts":150,  "units":"3 Squat Thunderfires, 3 Gun Emplacements",  "upgrades":[]},
+			{"id":511, "name":"Gyrokopters",		"pts":225, "units":"4 Steel Hawk Gyrokopters", "upgrades":[]},
 			{"id":515, "name":"Vultarax Maniple",		"pts":200, "units":"5 Vultarax Robots, Steel Hawk Gyrokopter", "upgrades":[]},
-			{"id":516, "name":"Conqueror Maniple",		"pts":200,  "units":"5 Conqueror Robots, Squat Tech-Priest", "upgrades":[]},
-			{"id":517, "name":"Thunderfire Battery",		"pts":150,  "units":"3 Squat Thunderfires, 3 Gun Emplacements",  "upgrades":[]}
+			{"id":516, "name":"Conqueror Maniple",		"pts":200,  "units":"5 Conqueror Robots, Squat Tech-Priest", "upgrades":[]}
 		]},
 
 		{"name":"Wotan Stronghold War Engines and Flyers (Max 40%)", "formations":[
