@@ -34,7 +34,7 @@
 		{"id":2, "name":"Cadian Supreme Commander with a Lord Commissar", "pts":50},
 
 		{"id":10, "name":"Stormlord", "pts":0},
-		{"id":11, "name":"Imperial Leviathan", "pts":125},
+		{"id":11, "name":"Leviathan", "pts":125},
 
 		{"id":15, "name":"3 Bombards", "pts":0},
 		{"id":16, "name":"4 Medusa", "pts":0},
