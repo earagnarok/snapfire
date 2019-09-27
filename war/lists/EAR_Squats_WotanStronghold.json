@@ -68,7 +68,7 @@
 		{"id":120, "name":"Dragon Battle Car",			                  "pts":75},
 		{"id":121, "name":"Siege Mortar Battle Car",			       	"pts":75},
 		{"id":122, "name":"Berserker Battle Car, unit of Squat Berserkers",                     	"pts":75},
-		{"id":123, "name":"Bomb Battle Car",	                 		"pts":150},
+		{"id":123, "name":"Bomb Battle Car",	                 		"pts":125},
 
 		{"id":124, "name":"Gun Emplacements",					"pts":25}
 
