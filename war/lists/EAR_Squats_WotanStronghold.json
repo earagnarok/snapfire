@@ -12,8 +12,8 @@
 			{"id":509, "name":"Berserkers",	"pts":125, "units":"6 Squat Berserkers", "upgrades":[]},
 			{"id":510, "name":"Bikers",			"pts":200, "upgrades":[116]},
 			{"id":513, "name":"Thunderers",		"pts":175,  "units":"4 Squat Thunderers", "upgrades":[102,108,109,110]},
-			{"id":514, "name":"Light Artillery Battery",		"pts":175, "upgrades":[124]},
-			{"id":517, "name":"Thunderfire Battery",		"pts":150,  "units":"3 Squat Thunderfires, 3 Gun Emplacements",  "upgrades":[]},
+			{"id":514, "name":"Light Artillery Battery",		"pts":175, "upgrades":[]},
+			{"id":517, "name":"Thunderfire Battery",		"pts":150,  "units":"3 Squat Thunderfires",  "upgrades":[]},
 			{"id":511, "name":"Gyrokopter Squadron",		"pts":200, "units":"4 Steel Hawk Gyrokopters", "upgrades":[107]},
 			{"id":516, "name":"Conqueror Maniple",		"pts":200,  "units":"5 Conqueror Robots, Squat Tech-Priest", "upgrades":[]}
 		]},
