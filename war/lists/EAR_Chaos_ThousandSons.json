@@ -1,6 +1,6 @@
 {
 	"id":"EAR Thousand Sons",
-	"version":"0.8.4",
+	"version":"0.8.5",
 	"notes":
 		["Add one free Lesser Daemon to the Lesser Daemon pool per Daemonic Pact"],
 		"by":"EA-Ragnarok",
@@ -13,7 +13,7 @@
 		]},
 		{"name":"THOUSAND SONS ELITE FORMATIONS (Max 1 for each Core formation)", "formations":[
 			{"id":502, "name":"Thousand Sons Terminators", "pts":400, "units": "3 Scarab Occult Terminators", "upgrades":[22]},
-			{"id":503, "name":"Chaos Space Marines", "pts":175, "units":"3 Chaos Space Marines, Chaos Space Marines with Aspiring Sorcerer", "upgrades":[20,21, 30, 40]},
+			{"id":503, "name":"Chaos Space Marines", "pts":175, "upgrades":[17,18,19, 20,21, 30, 40]},
 			{"id":504, "name":"Predator Company", "pts":0, "upgrades":[30]},
 			{"id":507, "name":"Sorcerer Disc Riders", "pts":250, "units": "5 Sorcerer Disc Riders", "upgrades":[] }
 		]},
@@ -32,13 +32,19 @@
 			]}
 	],
 	"upgrades":[
-		{"id":10, "name":"Rubric Marines with Aspiring Sorcerer", 		"pts":0},
-		{"id":11, "name":"Scarab Occult Terminators with Aspiring Sorcerer", 		"pts":0},
-		{"id":12, "name":"Rubric Marines with Exalted Sorcerer", 		"pts":50},
-		{"id":13, "name":"Scarab Occult Terminators with Exalted Sorcerer", 		"pts":50},
+		{"id":10, "name":"Rubric Marines with Aspiring Sorcerer", 				"pts":0},
+		{"id":11, "name":"Scarab Occult Terminators with Aspiring Sorcerer", 	"pts":0},
+		{"id":12, "name":"Rubric Marines with Exalted Sorcerer", 				"pts":50},
+		{"id":13, "name":"Scarab Occult Terminators with Exalted Sorcerer", 	"pts":50},
 		{"id":14, "name":"Daemon Prince of Tzeench", 		"pts":100},
-		{"id":15, "name":"Sorcerer Disc Rider with Aspiring Champion", 		"pts":0},
-		{"id":16, "name":"Sorcerer Disc Rider with Exalted Champion", 		"pts":50},
+		{"id":15, "name":"Sorcerer Disc Rider with Aspiring Champion", 			"pts":0},
+		{"id":16, "name":"Sorcerer Disc Rider with Exalted Champion", 			"pts":50},
+
+		{"id":17, "name":"Chaos Space Marines", 								"pts":0},
+		{"id":18, "name":"Chaos Space Marines with Aspiring Sorcerer", 			"pts":0},
+		{"id":19, "name":"Chaos Space Marines with Champion of Tzeench", 		"pts":25},
+
+
 
 		{"id":20, "name":"Chaos Rhino", 	"pts":10},
 		{"id":21, "name":"Thousand Sons Land Raider", 	"pts":50},
@@ -73,6 +79,9 @@
 
 		{"min":1, "max":1, "from":[10,12,14], "appliesTo":[501]},
 		{"min":1, "max":1, "from":[11,13,14], "appliesTo":[502]},
+
+		{"min":3, "max":3, "from":[17], "appliesTo":[503]},
+		{"min":1, "max":1, "from":[18,19], "appliesTo":[503]},
 
 		{"min":1, "max":1, "from":[15,16,14], "appliesTo":[507]},
 

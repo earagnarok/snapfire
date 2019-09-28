@@ -1,6 +1,6 @@
 {
 	"id":"Adeptus Mechanicus - Skitarii",
-	"version":"v0.7.1",
+	"version":"0.7.2",
 	"notes":[],
 	"by":"EA-Ragnarok",
 	"sections":[
@@ -11,7 +11,7 @@
 			{"id":510, "name":"Secutarii Maniple",			"pts":150, "units":"4 Secutarii",	 "upgrades":[102,106,107]},
 			{"id":511, "name":"Conqueror Maniple",		"pts":200, "units":"5 Conqueror Robots, 1 Tech-Priest", "upgrades":[105]},
 			{"id":512, "name":"Praetorian Maniple",			"pts":225, "units":"5 Praetorians, 1 Tech-Priest", "upgrades":[105]},
-			{"id":513, "name":"Onager Cohort (Max two different weapons)",		"pts":-25, "upgrades":[]},
+			{"id":513, "name":"Onager Cohort",		"pts":225, "upgrades":[]},
 			{"id":514, "name":"Kastalan Maniple",		"pts":175, "units":"5 Kastalan Robots, 1 Tech-Priest", "upgrades":[105]},
 			{"id":515, "name":"Minoris Cohort",		"pts":50, "upgrades":[130,131,132,133,134,135,136,137]},
 			{"id":516, "name":"Ordinatus Majoris",		"pts":450, "upgrades":[]}
@@ -45,10 +45,10 @@
 		{"id":107, "name":"Hydra",			"pts":50},
 
 
-		{"id":108, "name":"Onager Dunecrawler with Eradication Beamer",				"pts":50},
-		{"id":109, "name":"Onager Dunecrawler with Icarus Array",				"pts":50},
-		{"id":110, "name":"Onager Dunecrawler with Neutron Laser",				"pts":50},
-		{"id":111, "name":"Onager Dunecrawler with Twin Heavy Phospor Blaster",				"pts":50},
+		{"id":108, "name":"3 Onager Dunecrawler with Eradication Beamer",				"pts":0},
+		{"id":109, "name":"2 Onager Dunecrawler with Icarus Array",				"pts":0},
+		{"id":110, "name":"3 Onager Dunecrawler with Neutron Laser",				"pts":0},
+		{"id":111, "name":"3 Onager Dunecrawler with Twin Heavy Phospor Blaster",				"pts":0},
 
 		{"id":120, "name":"1 Ordinatus Armageddon (Nova Cannon)",				"pts":0},
 		{"id":121, "name":"1 Ordinatus Mars (Sonic Disruptor)",			"pts":25},
@@ -103,7 +103,8 @@
 
 		{"max":1, "min":1, "from":[120,121,122], "appliesTo":[516]},
 
-   		{"max":5, "min":5, "from":[108,109,110,111], "appliesTo":[513]},
+   		{"max":1, "min":1, "from":[109], "appliesTo":[513]},
+   		{"max":1, "min":1, "from":[108,110,111], "appliesTo":[513]},
 
    		{"max":1,"min":1, "from":[150,151,152], "appliesTo":[520]},
 
