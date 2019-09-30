@@ -1,6 +1,6 @@
 {
    "id": "Iyanden Craftworld",
-   "version": "0.8.4",
+   "version": "0.8.5",
    "by": "EA-Ragnarok",
    "sections": [
       {"name": "INDIVIDUALS", "formations": [
@@ -68,15 +68,17 @@
       {"id": 68, "name": "Guardians", "pts": 0},
       {"id": 69, "name": "Heavy Weapons Platform", "pts": 0},
       {"id": 70, "name": "Farseer", "pts": 0},
-      {"id": 71, "name": "War Walker", "pts": 25}
+      {"id": 71, "name": "War Walker", "pts": 25},
 
+      {"id": 80, "name": "Phantom Titan (2 Titan Pulsars)", "pts": 0},
+      {"id": 81, "name": "Phantom Titan (Titan Pulsar, Eldar Titan Powerfist)", "pts": 0}
    ],
    "formationConstraints": [
       {"max": 1, "from": [507]},
       {"min": 1, "max": 1, "from": [508]},
       {"max": 1, "name": "Spacecraft", "from": [515,516]},
       {"max": 1, "from": [517]},
-      {"maxPercent": 41, "name": "War Engines & Allies", "from": [515,516,517,518,519,520,521,522,523]},
+      {"maxPercent": 40.1, "name": "War Engines & Allies", "from": [515,516,517,518,519,520,521,522,523]},
       {"max": 1, "name": "Troupes", "from": [500,501,502,503,504,505,530,550,551], "forEach": [510,511,512], "name2": "Iyanden Host"}
    ],
    "upgradeConstraints": [
@@ -84,13 +86,14 @@
       {"max": 1, "min": 1, "from": [61,62], "appliesTo": [510]},
       {"max": 1, "min": 1, "from": [45,46], "appliesTo": [510]},
       {"max": 1, "min": 1, "from": [61,62], "appliesTo": [511]},
-      {"max": 1, "min": 1, "from": [61,62], "appliesTo": [512]},
 
       {"max": 7, "min": 7, "from": [68,69], "appliesTo": [611,612]},
       {"max": 3, "from": [69], "appliesTo": [611,612]},
       {"max": 1, "min": 1, "from": [70], "appliesTo": [611,612]},
       {"max": 1, "min": 1, "from": [72], "appliesTo": [612]},
       {"max": 1, "from": [39], "appliesTo": [620]},
+
+      {"max": 1, "min": 1, "from": [80,81], "appliesTo": [518]},
 
       {"max": 3, "min": 2, "from": [66], "appliesTo": [521]},
       {"max": 3, "min": 2, "from": [67], "appliesTo": [520]},
@@ -99,7 +102,7 @@
       {"max": 1, "from": [43], "appliesTo": [611]},
       {"max": 1, "from": [44], "appliesTo": [611]},
       {"max": 1, "from": [53], "appliesTo": [611]},
-      {"max": 6, "min": 4, "from": [11], "appliesTo": [613]},
+      {"max": 6, "min": 5, "from": [11], "appliesTo": [613]},
       {"max": 1, "from": [46], "appliesTo": [501,502,503,504,505,530]},
       {"max": 6, "min": 4, "from": [71], "appliesTo": [614]},
       {"max": 6, "min": 6, "from": [27,28], "appliesTo": [615]},

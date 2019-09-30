@@ -1,6 +1,6 @@
 {
 	"id":"EAR Dark Angels",
-	"version":"0.9.0",
+	"version":"0.9.1",
 	"by":"EA-Ragnarok",
 
 	"sections":[
@@ -21,7 +21,7 @@
 			{"id":513, "name":"Predators",						"pts":250, "upgrades":[30,31,32]},
 			{"id":512, "name":"Ravenwing Support Squadron",				"pts":175, "upgrades":[]},
 			{"id":516, "name":"Deathwing Dreadnought Detachment",			"pts":300,  "units":"5 Deathwing Dreadnoughts plus transport", "upgrades":[]},
-			{"id":517, "name":"Dreadwing Relic Detachment",			"pts":0, "upgrades":[]}
+			{"id":517, "name":"Dreadwing Relic Detachment",	  "units":"2 Glaives",	"pts":550, "upgrades":[]}
 
 		]},
 
@@ -104,8 +104,6 @@
 
 		{"min":0, "max":3, "from":[33], "appliesTo":[503]},
 		{"min":0, "max":1, "from":[34], "appliesTo":[504,510]},
-
-		{"min":1, "max":1, "from":[40,41], "appliesTo":[517]},
 
 		{"min":1, "max":1, "from":[51,50], "appliesTo":[522]}
 	]

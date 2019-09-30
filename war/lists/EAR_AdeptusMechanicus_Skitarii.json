@@ -7,12 +7,12 @@
 		{"name":"Skitarii Core Formations", "formations":[
 			{"id":501, "name":"Vanguard Maniple",	"pts":225, "units":"9 Skitarii Vanguard", "upgrades":[102,103,104,107]}
 		]},
-		{"name":"Skitarii Support Formations (Max 3 for each Vanguard Maniple)", "formations":[
-			{"id":510, "name":"Secutarii Maniple",			"pts":150, "units":"4 Secutarii",	 "upgrades":[102,106,107]},
+		{"name":"Skitarii Line Formations (Max 3 for each Core Formation)", "formations":[
+			{"id":510, "name":"Secutarii Maniple",			"pts":175, "units":"4 Secutarii",	 "upgrades":[102,106,107]},
 			{"id":511, "name":"Conqueror Maniple",		"pts":200, "units":"5 Conqueror Robots, 1 Tech-Priest", "upgrades":[105]},
 			{"id":512, "name":"Praetorian Maniple",			"pts":225, "units":"5 Praetorians, 1 Tech-Priest", "upgrades":[105]},
 			{"id":513, "name":"Onager Cohort",		"pts":225, "upgrades":[]},
-			{"id":514, "name":"Kastalan Maniple",		"pts":175, "units":"5 Kastalan Robots, 1 Tech-Priest", "upgrades":[105]},
+			{"id":514, "name":"Kastalan Maniple",		"pts":150, "units":"5 Kastalan Robots, 1 Tech-Priest", "upgrades":[105]},
 			{"id":515, "name":"Minoris Cohort",		"pts":50, "upgrades":[130,131,132,133,134,135,136,137]},
 			{"id":516, "name":"Ordinatus Majoris",		"pts":450, "upgrades":[]}
 		]},
@@ -87,16 +87,17 @@
 	"upgradeConstraints":[
 		{"max":1,  "perArmy":true,  "from":[101]},
 
+		{"max":1, "from":[102]},
+		{"max":1, "from":[105]},
+ 		{"max":1, "from":[107]},
+
    		{"max":1, "min":0, "from":[104,103], "appliesTo":[501]},
-
    		{"max":1, "min":1, "from":[100,101], "appliesTo":[501]},
+
    		{"max":2, "from":[108,109,110,111], "appliesTo":[501,512]},
-   		{"max":1, "from":[104], "appliesTo":[501,512]},
+		{"max":1, "from":[104], "appliesTo":[501,512]},
+
    		{"max":1, "from":[106], "appliesTo":[510]},
-   		{"max":1, "from":[107], "appliesTo":[510]},
-
-
-   		{"max":1, "from":[105], "appliesTo":[511,512,514]},
 
 		{"min":2, "max":3, "from":[130,131,132,133,134,135,136,137,138], "appliesTo":[515]},
 		{"max":1, "from":[135,136,137,138], "appliesTo":[515]},
