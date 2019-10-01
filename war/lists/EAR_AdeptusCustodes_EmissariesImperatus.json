@@ -48,7 +48,7 @@
 		{"max":1,"perArmy":true, "name":"Spacecraft", "from":[]},
 		{"max":1, "name":"Elite Detachments", "from":[510,511,512], "forEach":[500], "name2":"Core Detachment"},
 		{"max":2, "name":"Support Detachments", "from":[520,521,522,523,524], "forEach":[500], "name2":"Core Detachment"},
-		{"maxPercent":33, "name":"Aircraft, Navy & Titans", "from":[530,531]}
+		{"maxPercent": 33.1, "name":"Aircraft, Navy & Titans", "from":[530,531]}
 	],
 	"upgradeConstraints":[
 		{"max":1, "perArmy":true, "from":[12]},

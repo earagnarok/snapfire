@@ -70,7 +70,7 @@
 		{"max":1, "from":[519]},
 		{"max":1, "from":[532]},
 		{"max":3, "name":"Cadian Support Formations", "from":[509,510,511,512,513,514,515,517,518,519], "forEach":[500,501,502], "name2":"Cadian Core Company"},
-		{"maxPercent":34, "name":"Collegia Titanica and Imperial Navy formations", "from":[520,530,531,532]}
+		{"maxPercent": 33.1, "name":"Collegia Titanica and Imperial Navy formations", "from":[520,530,531,532]}
 
 	],
 	"upgradeConstraints":[

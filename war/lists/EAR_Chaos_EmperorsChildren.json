@@ -76,7 +76,7 @@
 		{"max":1, "name":"Emperors Children Elite Formation", "from":[502,503], "forEach":[501], "name2":"Emperors Children Core Formation"},
 		{"max":2, "name":"Emperors Children Support Formations", "from":[504,505,506], "forEach":[501], "name2":"Emperors Children Core Formation"},
 		{"min":1, "max":1, "from":[500]},
-		{"maxPercent":34, "name":"Daemon Engines & Chaos Navy", "from":[511,512,513,514,515,517,518,519,520]}
+		{"maxPercent": 33.1, "name":"Daemon Engines & Chaos Navy", "from":[511,512,513,514,515,517,518,519,520]}
 	],
 	"upgradeConstraints":[
 		{"max":1, "perArmy":true, "from":[12,13,16]},

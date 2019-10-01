@@ -77,7 +77,7 @@
 		{"max":1, "from":[533]},
 		{"max":1, "from":[534]},
 		{"max":1, "from":[500]},
-		{"maxPercent":34, "name":"Titans, and Eldar Navy", "from":[540,541,542,543,544,545,546]},		
+		{"maxPercent": 33.1, "name":"Titans, and Eldar Navy", "from":[540,541,542,543,544,545,546]},		
 		{"max":1, "name":"Spacecraft", "from":[545,546]}		
 	],
 	"upgradeConstraints":[

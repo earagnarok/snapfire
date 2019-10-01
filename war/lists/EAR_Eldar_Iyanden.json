@@ -9,12 +9,13 @@
          ]},
       {"name": "WARHOSTS", "formations": [
             {"id": 510, "name": "Spirit Guard", "pts": 225, "upgrades": [53,55]},
-            {"id": 511, "name": "Spirit Blades", "pts": 175, "units": "4 Wraithblades", "upgrades": [53,55]},
+            {"id": 511, "name": "Spirit Blades", "pts": 175, "upgrades": [53,55]},
             {"id": 512, "name": "Spirit Walkers", "pts": 350, "units": "6 Wraithlords", "upgrades": []}
         ]},
       {"name": "TROUPES (Max 1 for each Warhost)", "formations": [
+            {"id": 612, "name": "Guardian Warhost", "pts": 150, "units": "Farseer", "upgrades": [14,41,44,53,55]},
             {"id": 613, "name": "Ranger Troupe", "pts": 0, "upgrades": [11]},
-       	    {"id": 614, "name": "War Walker Troupe", "pts": 25,"upgrades": [71]},
+       	    {"id": 614, "name": "War Walker Troupe", "pts": 25,"upgrasdes": [71]},
             {"id": 615, "name": "Windrider Troupe", "pts": 200, "upgrades": []},
             {"id": 616, "name": "Swords of Vaul Troupe", "pts": 250, "upgrades": []},
             {"id": 617, "name": "Night Spinner Troupe", "pts": 175, "units": "3 Night Spinners", "upgrades": []},
@@ -30,12 +31,15 @@
             {"id": 519, "name": "Revenant Titans", "pts": 650, "units": "2 Revenant Titans", "upgrades": []},
             {"id": 523, "name": "Wraithknights", "pts": 325, "units": "3 Wraithknights", "upgrades": []},
             {"id": 520, "name": "Nightwing Aerie", "pts": 75, "upgrades": [67]},
-            {"id": 521, "name": "Phoenix Aerie", "pts": 100, "upgrades": [66]},
+            {"id": 521, "name": "Phoenix Aerie", "pts": 325,  "units": "3 Phoenix Bombers",  "upgrades": []},
             {"id": 522, "name": "Vampire Raider", "pts": 200, "upgrades": []}
          ]}
    ],
    "upgrades": [
       {"id": 11, "name": "Eldar Rangers", "pts": 25},
+      {"id": 12, "name": "Guardians", "pts": 0},
+      {"id": 13, "name": "Heavy Weapon Platform", "pts": 0},
+      {"id": 14, "name": "3 Support Weapon Platforms", "pts": 50},
       {"id": 15, "name": "Dire Avengers", "pts": 0},
       {"id": 16, "name": "Striking Scorpions", "pts": 0},
       {"id": 17, "name": "Howling Banshees", "pts": 0},
@@ -51,23 +55,22 @@
       {"id": 32, "name": "3 Falcons, 2 Firestorms", "pts": 0},
       {"id": 33, "name": "5 Falcons, 5 Guardians", "pts": 75},
       {"id": 39, "name": "Exarch", "pts": 25},
-      {"id": 43, "name": "3 Support Weapon Platforms", "pts": 50},
+      {"id": 41, "name": "2 Wraithblades", "pts": 50},
+      {"id": 42, "name": "4 Wraithblades", "pts": 0},
+      {"id": 43, "name": "6 Wraithblades", "pts": 50},
       {"id": 44, "name": "2 Wraithguards", "pts": 75},
       {"id": 45, "name": "4 Wraithguards", "pts": 0},
       {"id": 46, "name": "6 Wraithguards", "pts": 75},
       {"id": 47, "name": "Cobra", "pts": 200},
       {"id": 48, "name": "Scorpion", "pts": 200},
       {"id": 49, "name": "Storm Serpent", "pts": 200},
-      {"id": 53, "name": "2 Wraithlords", "pts": 100},
+      {"id": 53, "name": "2 Wraithlords", "pts": 125},
       {"id": 54, "name": "3 Wave Serpents (may only be taken if the entire formation can fit inside)", "pts": 100},
       {"id": 55, "name": "4 Wave Serpents (may only be taken if the entire formation can fit inside)", "pts": 150},
       {"id": 61, "name": "Spiritseer", "pts": 0},
       {"id": 62, "name": "Wraithseer", "pts": 50},
       {"id": 66, "name": "Phoenix Bombers", "pts": 75},
       {"id": 67, "name": "Nightwing Interceptors", "pts": 75},
-      {"id": 68, "name": "Guardians", "pts": 0},
-      {"id": 69, "name": "Heavy Weapons Platform", "pts": 0},
-      {"id": 70, "name": "Farseer", "pts": 0},
       {"id": 71, "name": "War Walker", "pts": 25},
 
       {"id": 80, "name": "Phantom Titan (2 Titan Pulsars)", "pts": 0},
@@ -79,23 +82,27 @@
       {"max": 1, "name": "Spacecraft", "from": [515,516]},
       {"max": 1, "from": [517]},
       {"maxPercent": 40.1, "name": "War Engines & Allies", "from": [515,516,517,518,519,520,521,522,523]},
-      {"max": 1, "name": "Troupes", "from": [500,501,502,503,504,505,530,550,551], "forEach": [510,511,512], "name2": "Iyanden Host"}
+      {"max": 1, "name": "Spirit Walker", "from": [512], "forEach": [510,511], "name2": "Spirit Guard or Spirit Blade Warhost"},
+      {"max": 1, "name": "Troupes", "from": [612,613,614,615,616,617,618,619,620], "forEach": [510,511,512], "name2": "Iyanden Host"}
    ],
    "upgradeConstraints": [
       {"max": 1, "perArmy": true, "from": [62]},
-      {"max": 1, "min": 1, "from": [61,62], "appliesTo": [510]},
+      {"max": 1, "min": 1, "from": [61,62], "appliesTo": [510,511,512]},
       {"max": 1, "min": 1, "from": [45,46], "appliesTo": [510]},
-      {"max": 1, "min": 1, "from": [61,62], "appliesTo": [511]},
 
-      {"max": 7, "min": 7, "from": [68,69], "appliesTo": [611,612]},
-      {"max": 3, "from": [69], "appliesTo": [611,612]},
-      {"max": 1, "min": 1, "from": [70], "appliesTo": [611,612]},
-      {"max": 1, "min": 1, "from": [72], "appliesTo": [612]},
+      {"max": 1, "min": 1, "from": [42,43], "appliesTo": [511]},
+
+      {"max": 7, "min": 7, "from": [12,13], "appliesTo": [612]},
+      {"max": 3, "from": [13], "appliesTo": [612]},
+      {"max": 1, "from": [14], "appliesTo": [612]},
+      {"max": 1, "from": [41], "appliesTo": [612]},
+      {"max": 1, "from": [44], "appliesTo": [612]},
+      {"max": 1, "from": [53], "appliesTo": [612]},
+
       {"max": 1, "from": [39], "appliesTo": [620]},
 
       {"max": 1, "min": 1, "from": [80,81], "appliesTo": [518]},
 
-      {"max": 3, "min": 2, "from": [66], "appliesTo": [521]},
       {"max": 3, "min": 2, "from": [67], "appliesTo": [520]},
       {"max": 1, "from": [55,54]},
 

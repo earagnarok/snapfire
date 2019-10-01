@@ -47,7 +47,7 @@
 	"formationConstraints":[
 		{"max":2, "name":"Support Households", "from":[511,512,513,514], "forEach":[501], "name2":"Core Households"},
 		{"max":1, "name":"Retainer Formations", "from":[521,522,523,524,525], "forEach":[501,511,512,513,514], "name2":"Core or Support Household"},
-		{"maxPercent":25, "name":"Imperial Navy", "from":[541,542]}
+		{"maxPercent": 25.1, "name":"Imperial Navy", "from":[541,542]}
 	],
 	"upgradeConstraints":[
 		{"max":1, "from":[12]},

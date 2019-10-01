@@ -58,7 +58,7 @@
 
 	],
 	"formationConstraints":[
-		{"maxPercent":26, "name":"Navy", "from":[530,531]},
+		{"maxPercent": 25.1, "name":"Navy", "from":[530,531]},
 		{"max":2, "name":"Support Formations", "from":[510,511,513,514,515,516,517,518,519,520], "forEach":[501,502], "name2":"Regiment Company"},
 		{"max":1, "from":[513]},
 		{"min":1, "max":1, "from":[501]}

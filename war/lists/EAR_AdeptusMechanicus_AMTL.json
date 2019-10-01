@@ -111,7 +111,7 @@
         {"max":1, "perArmy":true, "from":[500]},
 		{"max":1, "perArmy":true, "from":[534]},
 		{"max":3, "name":"Support Formations", "from":[510,520], "forEach":[500,501,502,503,504], "name2":"Battle Titan"},
-        {"maxPercent":34,"name":"Adeptus Mechanicus Allies","from":[530,531,532,533,534,535,536]}
+        {"maxPercent": 33.1,"name":"Adeptus Mechanicus Allies","from":[530,531,532,533,534,535,536]}
 ],
 "upgradeConstraints":[
         {"max":1, "perArmy":true, "from":[10]},

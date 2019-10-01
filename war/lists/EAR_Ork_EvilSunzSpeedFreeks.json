@@ -73,7 +73,7 @@
    ],
    "formationConstraints": [
       {"max": 1, "name": "Spacecraft", "from": [522]},
-      {"maxPercent": 34, "name": "Speed Freek Aircraft", "from": [519,520,21]}
+      {"maxPercent": 33.1, "name": "Speed Freek Aircraft", "from": [519,520,21]}
    ],
    "upgradeConstraints": [
       {"max": 1, "from": [10], "perArmy": true},

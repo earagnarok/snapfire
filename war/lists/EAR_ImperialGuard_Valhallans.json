@@ -63,7 +63,7 @@
 	],
 	"formationConstraints":[
 		{"max":2, "name":"Support Formations", "from":[509,510,511,512,514,515], "forEach":[500,501,502], "name2":"Company"},
-		{"maxPercent":26, "name":"Ministorum, Tunnelers & Navy", "from":[520,521,522,523,524]},
+		{"maxPercent": 25.1, "name":"Ministorum, Tunnelers & Navy", "from":[520,521,522,523,524]},
 		{"max":1, "from":[500]},
 		{"max":1, "from":[511]},
 		{"max":1, "from":[524]}

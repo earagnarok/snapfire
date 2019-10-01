@@ -62,7 +62,7 @@
 
       {"id": 43, "name": "3 Support Weapon Platforms", "pts": 50},
       {"id": 44, "name": "2 Wraithguards", "pts": 75},
-      {"id": 45, "name": "2 Wraithlords", "pts": 100},
+      {"id": 45, "name": "2 Wraithlords", "pts": 125},
 
       {"id": 52, "name": "Farseer", "pts": 0},
       {"id": 53, "name": "Phoenix Bombers", "pts": 75},
@@ -76,7 +76,7 @@
       {"max": 1, "min": 1,  "from": [508]},
       {"max": 1, "name": "Spacecraft", "from": [515,516]},
       {"max": 1, "from": [517]},
-      {"maxPercent": 34, "name": "War Engines & Allies", "from": [515,516,517,518,519,520,521,522]},
+      {"maxPercent": 33.1, "name": "War Engines & Allies", "from": [515,516,517,518,519,520,521,522]},
       {"max": 2, "name": "Troupes", "from": [500,501,502,503,504,505,506,530],  "forEach": [510,511], "name2": "Warhost" }
    ],
    "upgradeConstraints": [

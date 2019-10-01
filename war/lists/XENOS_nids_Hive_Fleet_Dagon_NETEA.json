@@ -459,7 +459,7 @@
       ]
     },
     {
-      "maxPercent": 33,
+      "maxPercent": 33.1,
       "name": "Common Independent Swarms",
       "from": [
 		506,
@@ -497,7 +497,7 @@
       "name2": "Primary Nexus Swarm"
 	},
 	{
-      "maxPercent": 33,
+      "maxPercent": 33.1,
       "name": "Rare Independent Swarms",
       "from": [
         508,

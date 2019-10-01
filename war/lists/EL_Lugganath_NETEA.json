@@ -79,7 +79,7 @@
 		{"max":1, "from":[533]},
 		{"max":1, "from":[534]},
 		
-		{"maxPercent":34, "name":"Fir-Iolarion Titans, Wraithknights and Eldar Navy", "from":[540,541,542,543,544,545,546]},		
+		{"maxPercent": 33.1, "name":"Fir-Iolarion Titans, Wraithknights and Eldar Navy", "from":[540,541,542,543,544,545,546]},		
 		{"max":1, "name":"Spacecraft", "from":[545,546]}		
 	],
 	"upgradeConstraints":[

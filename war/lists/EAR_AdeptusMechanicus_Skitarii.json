@@ -82,7 +82,7 @@
 		{"max":1, "perArmy":true, "from":[516]},
 		{"max":1, "perArmy":true, "from":[525]},
 		{"max":3, "name":"Skitarii Maniples", "from":[510,511,512,513,514,515,516], "forEach":[501], "name2":"Vanguard Maniple"},
-		{"maxPercent":33, "name":"Mechanicus Allies", "from":[520,521,522,523,524,525]}
+		{"maxPercent": 33.1, "name":"Mechanicus Allies", "from":[520,521,522,523,524,525]}
 	],
 	"upgradeConstraints":[
 		{"max":1,  "perArmy":true,  "from":[101]},

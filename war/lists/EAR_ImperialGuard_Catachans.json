@@ -55,7 +55,7 @@
 		{"max":1, "from":[500]},
 		{"max":1, "from":[522]},
 		{"max":2, "name":"Support Formations", "from":[510,511,512,514,515,517,518,519], "forEach":[500,501,502], "name2":"Core Company"},
-		{"maxPercent":26, "name":"Imperial Navy Formations", "from":[520,521,522]}
+		{"maxPercent": 25.1, "name":"Imperial Navy Formations", "from":[520,521,522]}
 	],
 	"upgradeConstraints":[
 		{"max":6, "from":[10]},

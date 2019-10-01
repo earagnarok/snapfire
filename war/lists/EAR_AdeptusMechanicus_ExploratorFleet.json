@@ -109,7 +109,7 @@
 		{"max":2, "from":[522]},
 		{"max":2, "from":[523]},
 		{"max":3, "name":"SUPPORT FORMATIONS", "from":[510,511,512,513,514,515,517,518,519,516,520], "forEach":[501,502], "name2":"CORE FORMATIONS"},
-		{"maxPercent":34, "from":[521,522,523,551,561]},
+		{"maxPercent": 33.1, "from":[521,522,523,551,561]},
 		{"max":4, "perArmy":true, "from":[521,522,523]},
 		{"max":1, "perArmy":true, "from":[501]}
 	],
