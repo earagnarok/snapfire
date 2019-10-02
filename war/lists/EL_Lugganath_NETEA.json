@@ -17,7 +17,7 @@
 			{"id":520, "name":"Corsair Wasp Walkers",			"pts":150, "units":"4 Corsair Wasp Walkers", "upgrades":[]},
 			{"id":521, "name":"Corsair Ghost Walkers",			"pts":150, "units":"4 Corsair Ghost Walkers", "upgrades":[]},
 			{"id":522, "name":"Warp Spiders",			"pts":250, 	"units":"6 Warp Spiders", "upgrades":[10,11]},
-			{"id":523, "name":"Lugganath Wraithguard",	"pts":275,	"units":"3 D-Scythe Wraithguard, 3 Wave Serpents", "upgrades":[42]},
+			{"id":523, "name":"Lugganath Wraithguard",	"pts":275,	"units":"3 Heavy Wraithguards, 3 Wave Serpents", "upgrades":[42]},
 			{"id":524, "name":"Swords of Vaul",			"pts":250, 	"upgrades":[42]},
 			{"id":525, "name":"Engine of Vaul",			"pts":50,	 "upgrades":[50,51]}
 		]},
