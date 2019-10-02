@@ -12,13 +12,13 @@
             {"id": 511, "name": "Guardian Warhost", "pts": 150, "upgrades": [13,43,44,45]}
          ]},
       {"name": "TROUPES (Max 2 for each Warhost)", "formations": [
-            {"id": 500, "name": "Ranger Troupe", "pts": 0, "upgrades": [11]},
+            {"id": 500, "name": "Eldar Scouts", "pts": 0, "upgrades": [11]},
             {"id": 501, "name": "War Walker Troupe", "pts": 25, "upgrades": [42]},
             {"id": 502, "name": "Windrider Troupe", "pts": 200, "upgrades": []},
-            {"id": 503, "name": "Falcon Troupe", "pts": 250, "upgrades": []},
+            {"id": 503, "name": "Swords of Vaul", "pts": 250, "upgrades": []},
             {"id": 504, "name": "Night Spinner Troupe", "pts": 175, "units": "3 Night Spinners", "upgrades": []},
-            {"id": 505, "name": "Engines of Vaul Troupe", "pts": 50, "upgrades": [34,35,36]},
-	        {"id": 506, "name": "Void Spinner", "pts": 50, "upgrades": [37]},
+            {"id": 505, "name": "Engines of Vaul", "pts": 50, "upgrades": [34,35,36]},
+	        {"id": 506, "name": "Void Spinner Troupe", "pts": 50, "upgrades": [37]},
             {"id": 530, "name": "Fire Prism Troupe", "pts": 250, "units": "3 Fire Prisms", "upgrades": []}
 			]},
       {"name": "SPACESHIPS, AIRCRAFT &amp; TITANS (Max 33%)", "formations": [
