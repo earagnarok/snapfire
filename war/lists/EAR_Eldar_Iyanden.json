@@ -9,8 +9,8 @@
          ]},
       {"name": "WRAITHHOSTS (Max 1 Spirit Walker for each Spirit Guard or Spirit Blade)", "formations": [
             {"id": 510, "name": "Spirit Guard Wraithhost", "pts": 225, "upgrades": [41,53,55]},
-            {"id": 511, "name": "Spirit Blades Wraithhost", "pts": 175, "upgrades": [44,53,55]},
-            {"id": 512, "name": "Spirit Walkers Wraithhost", "pts": 250, "upgrades": [41,44]}
+            {"id": 511, "name": "Spirit Blade Wraithhost", "pts": 175, "upgrades": [44,53,55]},
+            {"id": 512, "name": "Spirit Walker Wraithhost", "pts": 250, "upgrades": [41,44]}
         ]},
       {"name": "TROUPES (Max 2 for each Wraithhost)", "formations": [
             {"id": 612, "name": "Guardian Warhost", "pts": 150, "units": "Farseer", "upgrades": [14,41,44,53,55]},
