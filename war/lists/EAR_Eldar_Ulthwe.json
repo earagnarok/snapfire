@@ -1,16 +1,18 @@
 {
    "id": "Ulthw&eacute; Craftworld",
-   "version": "0.7.3",
+   "version": "0.8.0",
    "by": "EA-Ragnarok",
    "sections": [
       {"name": "INDIVIDUALS", "formations": [
             {"id": 507, "name": "Wraithgate", "pts": 0, "upgrades": []},
-            {"id": 508, "name": "Avatar", "pts": 50, "upgrades": []}
+            {"id": 508, "name": "Avatar", "pts": 0, "upgrades": []}
          ]},
       {"name": "WARHOSTS", "formations": [
-            {"id": 510, "name": "Black Guardian Warhost", "pts": 200, "upgrades": [41,43,44,45]}
+            {"id": 510, "name": "Black Guardian Warhost", "pts": 200, "upgrades": [41,43,44,45]},
+            {"id": 511, "name": "Swords of Ulthwé Warhost", "pts": 350,  "units": "4 Guardians, 5 Falcons", "upgrades": []}
          ]},
       {"name": "TROUPES (Max 2 for each Warhost)", "formations": [
+            {"id": 613, "name": "Eldar Scouts", "pts": 0, "upgrades": [11]},
             {"id": 502, "name": "Windrider Troupe", "pts": 200, "upgrades": []},
             {"id": 501, "name": "War Walker Troupe", "pts": 25, "upgrades": [50]},
             {"id": 503, "name": "Swords of Vaul Troupe", "pts": 250, "upgrades": []},
@@ -32,6 +34,7 @@
          ]}
    ],
    "upgrades": [
+       {"id": 11, "name": "Eldar Rangers", "pts": 25},
        {"id": 15, "name": "Dire Avenger", "pts": 0},
        {"id": 16, "name": "Striking Scorpion", "pts": 0},
        {"id": 17, "name": "Howling Banshee", "pts": 0},
@@ -50,20 +53,20 @@
       {"id": 42, "name": "3 Wave Serpents", "pts": 100},
       {"id": 43, "name": "3 Support Weapon Platforms", "pts": 50},
       {"id": 44, "name": "2 Wraithguards", "pts": 75},
-      {"id": 45, "name": "3 Wraithlord", "pts": 150},
+      {"id": 45, "name": "2 Wraithlords", "pts": 100},
 	  {"id": 47, "name": "Cobra", "pts": 200},
       {"id": 48, "name": "Scorpion", "pts": 200},
       {"id": 49, "name": "Storm Serpent", "pts": 200},
       {"id": 50, "name": "War Walker", "pts": 25},
 
-      {"id": 66, "name": "Phoenix Bombers", "pts": 75},
-      {"id": 67, "name": "Nightwings", "pts": 75},
-      {"id": 102, "name": "Farseers", "pts": 0},
+      {"id": 66, "name": "Phoenix Bomber", "pts": 75},
+      {"id": 67, "name": "Nightwing", "pts": 75},
+      {"id": 102, "name": "Farseer", "pts": 0},
       {"id": 103, "name": "Seer Council", "pts": 50}
    ],
    "formationConstraints": [
       {"max": 1, "min": 1, "from": [507]},
-      {"max": 1, "from": [508]},
+      {"max": 1, "min": 1, "from": [508]},
       {"max": 1, "name": "Spacecraft", "from": [515,516]},
       {"max": 1, "from": [517]},
       {"maxPercent": 33.1, "name": "War Engines & Allies", "from": [515,516,517,518,519,520,521,522]},
@@ -72,13 +75,16 @@
    "upgradeConstraints": [
       {"max": 1, "perArmy": true, "from": [103]},
 
-      {"max": 3, "min": 3, "from": [66], "appliesTo": [521]},
-      {"max": 3, "min": 3, "from": [67], "appliesTo": [520]},
+      {"max": 6, "min": 5, "from": [11], "appliesTo": [613]},
 
-      {"max": 1, "from": [103], "appliesTo": [510,511]},
-      {"max": 2, "min": 2, "from": [102,103],  "appliesTo": [510,511]},
-      {"max": 3, "from": [25], "appliesTo": [510,511]},
-      {"max": 6, "min": 6, "from": [24,25], "appliesTo": [510,511]},
+      {"max": 3, "min": 3, "from": [66], "appliesTo": [521]},
+      {"max": 3, "min": 2, "from": [67], "appliesTo": [520]},
+
+      {"max": 1, "from": [103], "appliesTo": [510]},
+      {"max": 2, "min": 2, "from": [102,103],  "appliesTo": [510]},
+      {"max": 1, "min": 1, "from": [102,103],  "appliesTo": [511]},
+      {"max": 3, "from": [25], "appliesTo": [510]},
+      {"max": 6, "min": 6, "from": [24,25], "appliesTo": [510]},
       {"max": 1, "from": [41]},
       {"max": 1, "from": [42]},
       {"max": 1, "from": [43], "appliesTo": [510]},

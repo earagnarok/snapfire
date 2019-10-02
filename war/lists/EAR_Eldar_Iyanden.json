@@ -1,5 +1,5 @@
 {
-   "id": "Iyanden Craftworld",
+   "id": "EA-R Iyanden Craftworld",
    "version": "0.8.7",
    "by": "EA-Ragnarok",
    "sections": [
@@ -8,13 +8,13 @@
   	    {"id": 508, "name": "Avatar", "pts": 0, "upgrades": []}
          ]},
       {"name": "WRAITHHOSTS (Max 1 Spirit Walker for each Spirit Guard or Spirit Blade)", "formations": [
-            {"id": 510, "name": "Spirit Guards", "pts": 225, "upgrades": [41,53,55]},
-            {"id": 511, "name": "Spirit Blades", "pts": 175, "upgrades": [44,53,55]},
-            {"id": 512, "name": "Spirit Walkers", "pts": 350, "units": "6 Wraithlords", "upgrades": []}
+            {"id": 510, "name": "Spirit Guard Wraithhost", "pts": 225, "upgrades": [41,53,55]},
+            {"id": 511, "name": "Spirit Blades Wraithhost", "pts": 175, "upgrades": [44,53,55]},
+            {"id": 512, "name": "Spirit Walkers Wraithhost", "pts": 250, "upgrades": [41,44]}
         ]},
       {"name": "TROUPES (Max 2 for each Wraithhost)", "formations": [
             {"id": 612, "name": "Guardian Warhost", "pts": 150, "units": "Farseer", "upgrades": [14,41,44,53,55]},
-            {"id": 613, "name": "Ranger Troupe", "pts": 0, "upgrades": [11]},
+            {"id": 613, "name": "Eldar Scouts", "pts": 0, "upgrades": [11]},
        	    {"id": 614, "name": "War Walker Troupe", "pts": 25,"upgrades": [71]},
             {"id": 615, "name": "Windrider Troupe", "pts": 200, "upgrades": []},
             {"id": 616, "name": "Swords of Vaul", "pts": 250, "upgrades": []},
@@ -64,7 +64,9 @@
       {"id": 47, "name": "Cobra", "pts": 200},
       {"id": 48, "name": "Scorpion", "pts": 200},
       {"id": 49, "name": "Storm Serpent", "pts": 200},
-      {"id": 53, "name": "2 Wraithlords", "pts": 125},
+      {"id": 51, "name": "4 Wraithlords", "pts": 0},
+      {"id": 52, "name": "6 Wraithlords", "pts": 100},
+      {"id": 53, "name": "2 Wraithlords", "pts": 100},
       {"id": 54, "name": "3 Wave Serpents (may only be taken if the entire formation can fit inside)", "pts": 100},
       {"id": 55, "name": "4 Wave Serpents (may only be taken if the entire formation can fit inside)", "pts": 150},
       {"id": 61, "name": "Spiritseer", "pts": 0},
@@ -89,8 +91,8 @@
       {"max": 1, "perArmy": true, "from": [62]},
       {"max": 1, "min": 1, "from": [61,62], "appliesTo": [510,511,512]},
       {"max": 1, "min": 1, "from": [45,46], "appliesTo": [510]},
-
       {"max": 1, "min": 1, "from": [42,43], "appliesTo": [511]},
+      {"max": 1, "min": 1, "from": [51,52], "appliesTo": [512]},
 
       {"max": 7, "min": 7, "from": [12,13], "appliesTo": [612]},
       {"max": 3, "from": [13]},

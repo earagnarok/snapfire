@@ -62,7 +62,7 @@
 
       {"id": 43, "name": "3 Support Weapon Platforms", "pts": 50},
       {"id": 44, "name": "2 Wraithguards", "pts": 75},
-      {"id": 45, "name": "2 Wraithlords", "pts": 125},
+      {"id": 45, "name": "2 Wraithlords", "pts": 100},
 
       {"id": 52, "name": "Farseer", "pts": 0},
       {"id": 53, "name": "Phoenix Bombers", "pts": 75},

@@ -1,6 +1,6 @@
 {
    "id": "Saim-Hann Craftworld",
-   "version": "0.9.2",
+   "version": "0.9.3",
    "by": "EA-Ragnarok",
    "sections": [
       {"name": "INDIVIDUALS","formations": [
@@ -15,7 +15,7 @@
 
          ]},
       {"name": "TROUPES (Max 2 per Warhost)", "formations": [
-	         {"id": 500, "name": "Ranger Troupe", "pts": 0, "upgrades": [11]},
+	         {"id": 500, "name": "Eldar Scouts", "pts": 0, "upgrades": [11]},
             {"id": 501, "name": "War Walker Troupe", "pts": 25, "upgrades": [85]},
             {"id": 502, "name": "Hornet Troupe", "pts": 0, "upgrades": [80]},
             {"id": 503, "name": "Swords of Vaul Troupe", "pts": 250, "upgrades": []},
@@ -23,8 +23,8 @@
             {"id": 505, "name": "Engines of Vaul Troupe", "pts": 50, "upgrades": [51,52,53]},
             {"id": 506, "name": "Void Spinner Troupe", "pts": 300, "units": "Void Spinner", "upgrades": []},
             {"id": 530, "name": "Fire Prism Troupe", "pts": 250, "units": "3 Fire Prisms", "upgrades": []},
-            {"id": 531, "name": "Mounted Aspect Warrior Troupe", "pts": 350,  "units": "3 Wave Serpents", "upgrades": [39]},
-            {"id": 532, "name": "Mounted Guardian Troupe", "pts": 250, "units": "6 Guardians, 3 Wave Serpents", "upgrades": []}
+            {"id": 531, "name": "Mounted Aspect Warrior Troupe", "pts": 325,  "units": "3 Wave Serpents", "upgrades": [39]},
+            {"id": 532, "name": "Mounted Guardian Troupe", "pts": 225, "units": "6 Guardians, 3 Wave Serpents", "upgrades": []}
          ]},
       {"name": "SPACESHIPS, AIRCRAFT &amp; TITANS (Max 33%)", "formations": [
             {"id": 515, "name": "Wraithship", "pts": 150, "upgrades": []},
@@ -32,7 +32,7 @@
             {"id": 519, "name": "Revenant Titans", "pts": 650, "units": "2 Revenant Titans", "upgrades": [90]},
             {"id": 520, "name": "Nightwings", "pts": 75, "upgrades": [67]},
             {"id": 521, "name": "Phoenix Bombers", "pts": 100, "upgrades": [66]},
-            {"id": 522, "name": "Vampire Hunter", "pts": 225, "upgrades": []}
+            {"id": 522, "name": "Vampire Hunter", "pts": 200, "upgrades": []}
          ]}
    ],
    "upgrades": [
@@ -42,7 +42,7 @@
       {"id": 30, "name": "5 Falcons", "pts": 0},
       {"id": 31, "name": "4 Falcons, 1 Firestorm", "pts": 0},
       {"id": 32, "name": "3 Falcons, 2 Firestorms", "pts": 0},
-      {"id": 33, "name": "5 Falcons, 5 Guardians", "pts": 100},
+      {"id": 33, "name": "5 Falcons, 5 Guardians", "pts": 75},
       {"id": 39, "name": "Exarch", "pts": 25},
 
       {"id": 47, "name": "3 Wild Riders", "pts": 75},
