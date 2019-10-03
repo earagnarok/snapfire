@@ -21,12 +21,12 @@
 			{"id":525, "name":"Engine of Vaul",					"pts":50,	"upgrades":[50,51,52]}
 		]},
 
-			{"name":"HARLEQUIN SAEDATHS (Max 1 Harlequin Saedath for each Warhost/Wraithhost)", "formations":[
+			{"name":"VEILED PATH SAEDATHS (Max 1 Harlequin Saedath for each Warhost/Wraithhost)", "formations":[
+			{"id":530, "name":"Serpent's Scales",	"pts":200, "units":"Harlequin Avatar, 4 Skyweavers, 2 Voidweavers", "upgrades":[]},
 			{"id":531, "name":"Devourer's Thirst",	"pts":250, "units":"Master Mime, 6 Mimes", "upgrades":[]},
-			{"id":530, "name":"Serpent's Blood",	"pts":300, "units":"Harlequin Avatar, 4 Harlequin Skyweavers, 2 Voidweavers", "upgrades":[]},
-			{"id":532, "name":"Cegorach's Revenge",	"pts":400, "units":"Harlequin Avatar, 4 Harlequins Troupes, 2 Death Jesters, 6 Harlequin Venoms", "upgrades":[]},
-			{"id":533, "name":"Isha's Tears",		"pts":450, "units":"Harlequin Avatar, Shadowseer, 4 Death Jesters, 2 Harlequin Troupes, 6 Harlequin Venoms", "upgrades":[]},
-			{"id":534, "name":"Dance Without End",	"pts":550, "units":"Harlequin Avatar, Shadowseer, 1 Solitaire, 2 Death Jesters, 3 Harlequin Troupes, 2 Mimes, 8 Harlequin Venoms", "upgrades":[]}
+			{"id":532, "name":"Serpent's Blood",	"pts":300, "units":"Harlequin Avatar, 6 Skyweavers, 3 Voidweavers", "upgrades":[]},
+			{"id":533, "name":"Cegorach's Revenge",	"pts":350, "units":"Harlequin Avatar, 4 Harlequin Troupes, 2 Death Jesters, 6 Starweavers, 2 Skyweavers", "upgrades":[]},
+			{"id":534, "name":"Ynnead's Dream",	"pts":450, "units":"Harlequin Avatar, Shadowseer, Solitaire, 3 Harlequin Troupes, 3 Death Jesters, 7 Starweavers", "upgrades":[]}
 		]},
 
 		{"name":"CRAFTWORLD TITANS & NAVY (Max 33%)", "formations":[

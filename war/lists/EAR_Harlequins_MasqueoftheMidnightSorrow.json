@@ -16,19 +16,19 @@
 			{"id":502, "name":"Talos Swarm", "pts":225, "upgrades":[]},
 			{"id":504, "name":"Hellion Murder", "pts":50, "upgrades":[62,82]},
 			{"id":505, "name":"Reaver Gang", "pts":50, "upgrades":[18,83]},
-			{"id":507, "name":"Scourges", "pts":250, "units":"6 Scourges", "upgrades":[]},
+			{"id":507, "name":"Scourge Flight", "pts":250, "units":"6 Scourges", "upgrades":[]},
 			{"id":508, "name":"Heavy Barge", "pts":250, "units":"Vessel of Pain", "upgrades":[]}
 		]},
 
-		{"name":"HARLEQUIN SAEDATHS (Max 1 Harlequin Saedath for each Wraithkind Kabal)", "formations":[
-			{"id":531, "name":"Devourer's Thirst",	"pts":250, "units":"Master Mime, 6 Mimes", "upgrades":[]},
-			{"id":530, "name":"Serpent's Blood",	"pts":300, "units":"Harlequin Avatar, 4 Harlequin Skyweavers, 2 Voidweavers", "upgrades":[]},
-			{"id":532, "name":"Cegorach's Revenge",	"pts":400, "units":"Harlequin Avatar, 4 Harlequins Troupes, 2 Death Jesters, 6 Harlequin Venoms", "upgrades":[]},
-			{"id":533, "name":"Isha's Tears",		"pts":450, "units":"Harlequin Avatar, Shadowseer, 4 Death Jesters, 2 Harlequin Troupes, 6 Harlequin Venoms", "upgrades":[]},
-			{"id":534, "name":"Dance Without End",	"pts":550, "units":"Harlequin Avatar, Shadowseer, 1 Solitaire, 2 Death Jesters, 3 Harlequin Troupes, 2 Mimes, 8 Harlequin Venoms", "upgrades":[]}
+		{"name":"MIDNIGHT SORROW SAEDATHS (Max 1 Harlequin Saedath for each Wraithkind Kabal)", "formations":[
+			{"id":530, "name":"Serpent's Scales",	"pts":200, "units":"Harlequin Avatar, 4 Skyweavers, 2 Voidweavers", "upgrades":[]},
+			{"id":531, "name":"Cegorach's Escape",	"pts":250, "units":"Harlequin Avatar, 4 Harlequin Troupes, 4 Starweavers, 2 Skyweavers", "upgrades":[]},
+			{"id":532, "name":"Asuryan's Wager",	"pts":300, "units":"Harlequin Avatar, 3 Death Jesters, 3 Starweavers, 2 Voidweavers", "upgrades":[]},
+			{"id":533, "name":"Devourer's Hunt",	"pts":350, "units":"Master Mime, Solitaire, 9 Mimes", "upgrades":[]},
+			{"id":534, "name":"Isha's Tears",		"pts":450, "units":"Harlequin Avatar, Shadowseer, 2 Harlequin Troupes, 4 Death Jesters, 6 Starweavers, 2 Voidweavers", "upgrades":[]}
 		]},
 
-		{"name":"DARK ELDAR NAVY & WAR ENGINES", "formations":[
+		{"name":"COMMORRAGH NAVY & WAR ENGINES", "formations":[
 			{"id":522, "name":"Torture Class", "pts":300, "units":"Torture Class Cruiser", "upgrades":[]},
 			{"id":523, "name":"Slavebringer", "pts":200, "upgrades":[]},
 			{"id":526, "name":"Razorwing Cast", "pts":200, "units":"2 Razorwing Interceptors", "upgrades":[0]},
@@ -60,7 +60,7 @@
 
 	],
 	"formationConstraints":[
-		{"maxPercent": 33.1, "name": "Dark Eldar Navy & War Engines", "from":[523,526,527,528]},
+		{"maxPercent": 33.1, "name": "Commorragh Navy & War Engines", "from":[523,526,527,528]},
 		{"max":1, "from":[562]},
 		{"max":1, "min":1, "from":[561]},
 		{"max":1, "from":[530]},

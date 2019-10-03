@@ -24,7 +24,7 @@
 			{"id":507, "name":"Scourge Flight", "pts":250, "units":"6 Scourges", "upgrades":[]},
 			{"id":508, "name":"Heavy Barge", "pts":250, "units":"Vessel of Pain", "upgrades":[]}
 		]},
-		{"name":"DARK ELDAR NAVY & WAR ENGINES (Max 33%)", "formations":[
+		{"name":"COMMORRAGH NAVY & WAR ENGINES (Max 33%)", "formations":[
 			{"id":522, "name":"Torture Class", "pts":300, "units":"Torture Class Cruiser", "upgrades":[]},
 			{"id":523, "name":"Slavebringer", "pts":200, "units":"Slavebringer Assault Boat", "upgrades":[]},
 			{"id":525, "name":"Executioner", "pts":450, "units":"Executioner Landing Module", "upgrades":[]},
