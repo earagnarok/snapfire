@@ -6,7 +6,7 @@
 	"notes":[],
 	"sections":[
 		{"name":"DARK ELDAR SPECIALS", "formations":[
-			{"id":530, "name":"Webway Portal", "pts":50, "upgrades":[]},
+			{"id":530, "name":"Wraithgate", "pts":50, "upgrades":[]},
 			{"id":531, "name":"Portable Webway Portal", "pts":50, "upgrades":[]}
 		]},
 		{"name":"BLACK HEART KABALS", "formations":[
@@ -15,27 +15,27 @@
 			{"id":513, "name":"Kabal Flotilla", "pts":25, "upgrades":[61]}
 		]},
 		{"name":"BLACK HEART PARTISANS (Max 2 for each Kabal)", "formations":[
-			{"id":501, "name":"Haemonculi Coven", "pts":225, "units":"2 Haemonculi, 4 Wracks", "upgrades":[70,71,72,73,74]},
+			{"id":501, "name":"Haemonculi Coven", "pts":225, "units":"2 Haemonculi, 4 Wracks", "upgrades":[19,70,71,72,73,74]},
 			{"id":502, "name":"Talos Swarm", "pts":225, "upgrades":[]},
 			{"id":503, "name":"Wych Cult", "pts":150,  "units":"4 Wyches", "upgrades":[18,62,70,71,72]},
-			{"id":504, "name":"Hellion Murder", "pts":50, "upgrades":[62]},
-			{"id":505, "name":"Reaver Gang", "pts":50, "upgrades":[18]},
+			{"id":504, "name":"Hellion Murder", "pts":50, "upgrades":[62,82]},
+			{"id":505, "name":"Reaver Gang", "pts":50, "upgrades":[18,83]},
 			{"id":506, "name":"Mandrake Throng", "pts":200, "units":"6 Mandrakes", "upgrades":[]},
 			{"id":507, "name":"Scourge Flight", "pts":250, "units":"6 Scourges", "upgrades":[]},
 			{"id":508, "name":"Heavy Barge", "pts":250, "units":"Vessel of Pain", "upgrades":[]}
 		]},
-		{"name":"BLACK HEART WAR ENGINES, SPACESHIPS & AIRCRAFT (Max 33%)", "formations":[
+		{"name":"DARK ELDAR NAVY & WAR ENGINES (Max 33%)", "formations":[
 			{"id":522, "name":"Torture Class", "pts":300, "units":"Torture Class Cruiser", "upgrades":[]},
 			{"id":523, "name":"Slavebringer", "pts":200, "units":"Slavebringer Assault Boat", "upgrades":[]},
 			{"id":525, "name":"Executioner", "pts":450, "units":"Executioner Landing Module", "upgrades":[]},
-			{"id":526, "name":"Razorwing Cast", "pts":225, "units":"2 Razorwing Fighters", "upgrades":[]},
-			{"id":527, "name":"Voidraven Cast", "pts":250, "units":"2 Void Raven Interdictors", "upgrades":[]},
-			{"id":528, "name":"Tormentor Titan", "pts":350, "upgrades":[]}
+			{"id":526, "name":"Razorwing Cast", "pts":200, "units":"2 Razorwing Fighters", "upgrades":[]},
+			{"id":527, "name":"Voidraven Cast", "pts":225, "units":"2 Void Raven Interdictors", "upgrades":[]}
 		]}
 	],
 	"upgrades":[
 		{"id":17, "name":"Dracon", "pts":50},
 		{"id":18, "name":"Succubus", "pts":25},
+		{"id":19, "name":"Haemonculus Ancient", "pts":25},
 
 		{"id":55, "name":"Archon, 4 Incubi", "pts":0},
 		{"id":56, "name":"Archon, 6 Incubi", "pts":75},
@@ -53,13 +53,12 @@
 		{"id":75, "name":"4 Talos", "pts":0},
 		{"id":76, "name":"5 Talos", "pts":50},
 		{"id":77, "name":"6 Talos", "pts":75},
-		{"id":82, "name":"Hellions", "pts":25},
-		{"id":83, "name":"Reavers", "pts":25},
-		{"id":84, "name":"Razorwing Interceptor", "pts":75}
+		{"id":82, "name":"Hellion Skyboards", "pts":25},
+		{"id":83, "name":"Reaver Jet Bikes", "pts":25}
 
 	],
 	"formationConstraints":[
-		{"maxPercent": 33.1, "name": "Spaceships, Aircraft & War Engines", "from":[522,523,525,526,527,528]},
+		{"maxPercent": 33.1, "name": "Navy & War Engines", "from":[522,523,525,526,527,528]},
 		{"max":1, "from":[530]},
 		{"max":1, "from":[531]},
 		{"min":1, "max":1, "from":[511]},
@@ -67,8 +66,10 @@
 		{"max":1, "name":"Spacecraft", "from":[522]}
 	],
 	"upgradeConstraints":[
-		{"max":1, "name":"Dracon", "from":[17]},
-		{"max":1, "name":"Succubus", "from":[18]},
+		{"max":1, "from":[17]},
+		{"max":1, "from":[18]},
+		{"max":1, "from":[19]},
+
 		{"min":1, "max":1, "from":[55,56], "appliesTo":[511]},
 		{"min":1, "max":1, "from":[58,59], "appliesTo":[512]},
 		{"min":4, "max":6, "name":"Ravagers", "from":[61], "appliesTo":[513]},

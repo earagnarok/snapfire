@@ -1,6 +1,6 @@
 {
 	"id":"EA-R Craftworld Lugganath / Masque of the Veiled Path",
-	"version":"0.6.0",
+	"version":"0.6.1",
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"LUGGANATH SPECIALS", "formations":[
@@ -22,11 +22,11 @@
 		]},
 
 			{"name":"HARLEQUIN SAEDATHS (Max 1 Harlequin Saedath for each Warhost/Wraithhost)", "formations":[
-			{"id":530, "name":"Serpent's Blood",	"pts":250, "units":"Harlequin Avatar, 4 Harlequin Skyweavers, 2 Voidweavers", "upgrades":[]},
 			{"id":531, "name":"Devourer's Thirst",	"pts":250, "units":"Master Mime, 6 Mimes", "upgrades":[]},
-			{"id":532, "name":"Cegorath's Revenge",	"pts":350, "units":"Harlequin Avatar, 4 Harlequins Troupes, 2 Death Jesters, 6 Harlequin Venoms", "upgrades":[]},
-			{"id":533, "name":"Isha's Tears",		"pts":400, "units":"Harlequin Avatar, Shadowseer, 4 Death Jesters, 2 Harlequin Troupes, 6 Harlequin Venoms", "upgrades":[]},
-			{"id":534, "name":"Dance Without End",	"pts":500, "units":"Harlequin Avatar, Shadowseer, 1 Solitaire, 2 Death Jesters, 3 Harlequin Troupes, 2 Mimes, 8 Harlequin Venoms", "upgrades":[]}
+			{"id":530, "name":"Serpent's Blood",	"pts":300, "units":"Harlequin Avatar, 4 Harlequin Skyweavers, 2 Voidweavers", "upgrades":[]},
+			{"id":532, "name":"Cegorach's Revenge",	"pts":400, "units":"Harlequin Avatar, 4 Harlequins Troupes, 2 Death Jesters, 6 Harlequin Venoms", "upgrades":[]},
+			{"id":533, "name":"Isha's Tears",		"pts":450, "units":"Harlequin Avatar, Shadowseer, 4 Death Jesters, 2 Harlequin Troupes, 6 Harlequin Venoms", "upgrades":[]},
+			{"id":534, "name":"Dance Without End",	"pts":550, "units":"Harlequin Avatar, Shadowseer, 1 Solitaire, 2 Death Jesters, 3 Harlequin Troupes, 2 Mimes, 8 Harlequin Venoms", "upgrades":[]}
 		]},
 
 		{"name":"CRAFTWORLD TITANS & NAVY (Max 33%)", "formations":[

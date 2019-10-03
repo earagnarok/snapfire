@@ -1,70 +1,68 @@
 {
 	"id":"EA-R Kabal of the Wraithkind / Masque of the Midnight Sorrow",
-	"version":"0.5.0",
+	"version":"0.5.1",
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"WRAITHKIND SPECIALS", "formations":[
-			{"id":561, "name":"Webway Portal", "pts":50, "upgrades":[]},
-			{"id":562, "name":"Portable Webway Portal", "pts":50, "upgrades":[]}
+			{"id":561, "name":"Wraithgate", "pts":0, "upgrades":[]},
+			{"id":562, "name":"Portable Webway Portal", "pts":100, "upgrades":[]}
 		]},
 		{"name":"WRAITHKIND KABALS", "formations":[
-			{"id":511, "name":"Kabal Coterie", "pts":300, "units":"Archon, 4 Incubi", "upgrades":[71,55,61,70,57,76,80,81,85]},
-			{"id":512, "name":"Kabal Syndicate", "pts":200,	"upgrades":[51,61,71,60,57,80,81,70,76,85], "units":"6 Warriors"},
-			{"id":513, "name":"Reaper Flotilla", "pts":225, "units":"4 Reapers", "upgrades":[]}
+			{"id":511, "name":"Kabal Coterie", "pts":300, "upgrades":[57,61,70,71]},
+			{"id":512, "name":"Kabal Syndicate", "pts":200,	"upgrades":[17,61,70,71]},
+			{"id":513, "name":"Reaper Flotilla", "pts":225, "units":"4 Reapers", "upgrades":[61]}
 		]},
-		{"name":"WRAITHKIND PARTISANS", "formations":[
-			{"id":501, "name":"Haemonculi Coven", "pts":225, "units":"2 Haemonculi, 4 Wracks", "upgrades":[22,71,60,73,70,76,85]},
-			{"id":504, "name":"Hellions", "pts":200, "units":"6 Hellions", "upgrades":[18,82]},
-			{"id":505, "name":"Reavers", "pts":200, "units":"6 Reavers", "upgrades":[18,83]},
-			{"id":507, "name":"Scourges", "pts":250, "units":"6 Scourges", "upgrades":[18,80]},
-			{"id":508, "name":"Heavy Barge", "pts":250, "units":"1 Vessel of Pain", "upgrades":[]}
-		]},
-
-		{"name":"HARLEQUIN SAEDATHS (Max one Harlequin Saedath for every one Warhosts)", "formations":[
-			{"id":532, "name":"Serpent's Blood",			"pts":250, "units":"Harlequin Avatar, 4 Harlequin Skyweavers, 2 Voidweavers", "upgrades":[]},
-			{"id":530, "name":"Devourer's Thirst",			"pts":250, "units":"Master Mime, 6 Mimes", "upgrades":[]},
-			{"id":531, "name":"Cegorath's Revenge",			"pts":350, "units":"Harlequin Avatar, 4 Harlequins Troupes, 2 Death Jesters, 6 Harlequin Venoms", "upgrades":[]},
-			{"id":533, "name":"Isha's Tears",			"pts":400, "units":"Harlequin Avatar, Shadowseer, 4 Death Jesters, 2 Harlequin Troupes, 6 Harlequin Venoms", "upgrades":[]},
-			{"id":534, "name":"Dance Without End",			"pts":500, "units":"Harlequin Avatar, Shadowseer, 1 Solitaire, 2 Death Jesters, 3 Harlequin Troupes, 2 Mimes, 8 Harlequin Venoms", "upgrades":[]}
+		{"name":"WRAITHKIND PARTISANS (Max 1 Wraithkind Partisans for each Wraithkind Kabal)", "formations":[
+			{"id":502, "name":"Talos Swarm", "pts":225, "upgrades":[]},
+			{"id":504, "name":"Hellion Murder", "pts":50, "upgrades":[62,82]},
+			{"id":505, "name":"Reaver Gang", "pts":50, "upgrades":[18,83]},
+			{"id":507, "name":"Scourges", "pts":250, "units":"6 Scourges", "upgrades":[]},
+			{"id":508, "name":"Heavy Barge", "pts":250, "units":"Vessel of Pain", "upgrades":[]}
 		]},
 
-		{"name":"WRAITHKIND TITANS & NAVY", "formations":[
+		{"name":"HARLEQUIN SAEDATHS (Max 1 Harlequin Saedath for each Wraithkind Kabal)", "formations":[
+			{"id":531, "name":"Devourer's Thirst",	"pts":250, "units":"Master Mime, 6 Mimes", "upgrades":[]},
+			{"id":530, "name":"Serpent's Blood",	"pts":300, "units":"Harlequin Avatar, 4 Harlequin Skyweavers, 2 Voidweavers", "upgrades":[]},
+			{"id":532, "name":"Cegorach's Revenge",	"pts":400, "units":"Harlequin Avatar, 4 Harlequins Troupes, 2 Death Jesters, 6 Harlequin Venoms", "upgrades":[]},
+			{"id":533, "name":"Isha's Tears",		"pts":450, "units":"Harlequin Avatar, Shadowseer, 4 Death Jesters, 2 Harlequin Troupes, 6 Harlequin Venoms", "upgrades":[]},
+			{"id":534, "name":"Dance Without End",	"pts":550, "units":"Harlequin Avatar, Shadowseer, 1 Solitaire, 2 Death Jesters, 3 Harlequin Troupes, 2 Mimes, 8 Harlequin Venoms", "upgrades":[]}
+		]},
+
+		{"name":"DARK ELDAR NAVY & WAR ENGINES", "formations":[
 			{"id":522, "name":"Torture Class", "pts":300, "units":"Torture Class Cruiser", "upgrades":[]},
 			{"id":523, "name":"Slavebringer", "pts":200, "upgrades":[]},
-			{"id":526, "name":"Razorwing Fighters", "pts":0, "upgrades":[84]},
-			{"id":527, "name":"Voidraven Bombers", "pts":225, "units":"2 Voidravens", "upgrades":[]}
+			{"id":526, "name":"Razorwing Cast", "pts":200, "units":"2 Razorwing Interceptors", "upgrades":[0]},
+			{"id":527, "name":"Voidraven Cast", "pts":225, "units":"2 Voidraven Interdictors", "upgrades":[]},
+			{"id":528, "name":"Tormentor Titan", "pts":350, "upgrades":[]}
 		]}
 	],
 	"upgrades":[
-		{"id":23, "name":"Vessel of Pain", "pts":250},
 		{"id":17, "name":"Dracon", "pts":50},
-		{"id":18, "name":"Succubus", "pts":50},
-		{"id":22, "name":"Ancient", "pts":50},
-		{"id":51, "name":"Dracon", "pts":50},
-		{"id":52, "name":"Archon", "pts":100},
-		{"id":55, "name":"2 Incubi", "pts":75},
+		{"id":18, "name":"Succubus", "pts":25},
+
+		{"id":55, "name":"Archon, 4 Incubi", "pts":0},
+		{"id":56, "name":"Archon, 6 Incubi", "pts":75},
 		{"id":57, "name":"2 Warriors", "pts":50},
-		{"id":60, "name":"2 Grotesques", "pts":75},
+		{"id":58, "name":"6 Warriors", "pts":0},
+		{"id":59, "name":"8 Warriors", "pts":50},
 		{"id":61, "name":"Ravager", "pts":50},
-		{"id":75, "name":"2 Warp Beasts", "pts":50},
+		{"id":62, "name":"Warp Beasts", "pts":25},
 		{"id":70, "name":"Raider", "pts":0},
-		{"id":76, "name":"2 Venoms", "pts":25},
-		{"id":71, "name":"Barges", "pts":100},
+		{"id":71, "name":"Tantalus", "pts":25},
 
 		{"id":73, "name":"Talos", "pts":50},
-		{"id":74, "name":"Perditor", "pts":150},
-		{"id":80, "name":"2 Scourges", "pts":75},
-		{"id":81, "name":"2 Wyches", "pts":50},
-		{"id":82, "name":"2 Hellions", "pts":50},
-		{"id":83, "name":"2 Reavers", "pts":50},
-		{"id":85, "name":"Tantalus", "pts":25},
-		{"id":84, "name":"Razorwing", "pts":100}
+		{"id":74, "name":"2 Talos", "pts":75},
+		{"id":75, "name":"4 Talos", "pts":0},
+		{"id":76, "name":"5 Talos", "pts":50},
+		{"id":77, "name":"6 Talos", "pts":75},
+		{"id":82, "name":"Hellion Skyboards", "pts":25},
+		{"id":83, "name":"Reaver Jet Bikes", "pts":25}
 
 	],
 	"formationConstraints":[
-		{"maxPercent": 33.1, "name": "Aircraft & Titans", "from":[523,526,527,528]},
+		{"maxPercent": 33.1, "name": "Dark Eldar Navy & War Engines", "from":[523,526,527,528]},
 		{"max":1, "from":[562]},
-		{"max":1, "from":[561]},
+		{"max":1, "min":1, "from":[561]},
 		{"max":1, "from":[530]},
 		{"max":1, "from":[531]},
 		{"max":1, "from":[532]},
@@ -76,25 +74,26 @@
 		{"max":1, "name":"Spacecraft", "from":[522]}
 	],
 	"upgradeConstraints":[
-		{"max":1, "name":"Dracon", "from":[51], "appliesTo":[512,513]},
-		{"max":1, "name":"Ancient", "from":[22], "appliesTo":[501]},
-		{"max":1, "name":"Succubus", "from":[18], "appliesTo":[503,504,505]},
-		{"min":2, "max":3, "name":"Razorwings", "from":[84], "appliesTo":[526]},
-		{"max":1, "from":[60]},
-		{"max":2, "from":[74]},
-		{"max":3, "from":[70,76]},
-		{"max":3, "from":[71]},
-		{"max":4, "from":[73]},
-		{"max":2, "from":[61], "appliesTo":[511,512]},
+		{"max":1, "name":"Dracon", "from":[17]},
+		{"max":1, "name":"Succubus", "from":[18]},
+		{"min":1, "max":1, "from":[55,56], "appliesTo":[511]},
+		{"min":1, "max":1, "from":[58,59], "appliesTo":[512]},
+		{"min":1, "max":1, "from":[75,76,77], "appliesTo":[502]},
+		{"min":6, "max":8, "name":"Hellion Skyboards", "from":[82], "appliesTo":[504]},
+		{"min":6, "max":8, "name":"Reaver Jet Bikes", "from":[83], "appliesTo":[505]},
+		{"max":2, "from":[62]},
+		{"max":4, "from":[70], "appliesTo":[511,512]},
+		{"max":4, "from":[71], "appliesTo":[511,512]},
+		{"max":2, "from":[72], "appliesTo":[511,512,501,503]},
+		{"max":3, "from":[70], "appliesTo":[501]},
+		{"max":3, "from":[71], "appliesTo":[501]},
+		{"max":2, "from":[70], "appliesTo":[503]},
+		{"max":2, "from":[71], "appliesTo":[503]},
+		{"max":1, "from":[72], "appliesTo":[503]},
+		{"max":1, "from":[73,74]},
+		{"max":2, "from":[61], "appliesTo":[511,512,513]},
 		{"max":1, "from":[55]},
-		{"max":1, "from":[57]},
-		{"max":1, "from":[80]},
-		{"max":1, "from":[81]},
-		{"max":1, "from":[82]},
-		{"max":1, "from":[83]},
-		{"max":2, "from":[74]},
-		{"max":1, "from":[75]},
-		{"max":2, "from":[55,57,60,75,80,81,82,83], "appliesTo":[511,512,513,501,502,503,504,505,506,507,508]}
+		{"max":1, "from":[57]}
 
 	]
 }
