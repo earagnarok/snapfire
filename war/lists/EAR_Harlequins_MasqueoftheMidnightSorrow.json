@@ -8,35 +8,37 @@
 			{"id":562, "name":"Portable Webway Portal", "pts":100, "upgrades":[]}
 		]},
 		{"name":"WRAITHKIND KABALS", "formations":[
-			{"id":511, "name":"Kabal Coterie", "pts":300, "upgrades":[57,61,70,71]},
-			{"id":512, "name":"Kabal Syndicate", "pts":200,	"upgrades":[17,61,70,71]},
+			{"id":511, "name":"Kabal Coterie", "pts":250, "upgrades":[57,61,70,71,1]},
+			{"id":512, "name":"Kabal Syndicate", "pts":200,	"upgrades":[17,61,70,71,1]},
 			{"id":513, "name":"Reaper Flotilla", "pts":225, "units":"4 Reapers", "upgrades":[61]}
 		]},
 		{"name":"WRAITHKIND PARTISANS (Max 1 Wraithkind Partisans for each Wraithkind Kabal)", "formations":[
 			{"id":502, "name":"Talos Swarm", "pts":225, "upgrades":[]},
 			{"id":504, "name":"Hellion Murder", "pts":50, "upgrades":[62,82]},
-			{"id":505, "name":"Reaver Gang", "pts":50, "upgrades":[18,83]},
+			{"id":505, "name":"Reaver Gang", "pts":50, "upgrades":[18,83,1]},
 			{"id":507, "name":"Scourge Flight", "pts":250, "units":"6 Scourges", "upgrades":[]},
 			{"id":508, "name":"Heavy Barge", "pts":250, "units":"Vessel of Pain", "upgrades":[]}
 		]},
 
 		{"name":"MIDNIGHT SORROW SAEDATHS (Max 1 Harlequin Saedath for each Wraithkind Kabal)", "formations":[
-			{"id":530, "name":"Serpent's Scales",	"pts":200, "units":"Harlequin Avatar, 4 Skyweavers, 2 Voidweavers", "upgrades":[]},
-			{"id":531, "name":"Cegorach's Escape",	"pts":250, "units":"Harlequin Avatar, 4 Harlequin Troupes, 4 Starweavers, 2 Skyweavers", "upgrades":[]},
-			{"id":532, "name":"Asuryan's Wager",	"pts":300, "units":"Harlequin Avatar, 3 Death Jesters, 3 Starweavers, 2 Voidweavers", "upgrades":[]},
-			{"id":533, "name":"Devourer's Hunt",	"pts":350, "units":"Master Mime, Solitaire, 9 Mimes", "upgrades":[]},
-			{"id":534, "name":"Isha's Tears",		"pts":450, "units":"Harlequin Avatar, Shadowseer, 2 Harlequin Troupes, 4 Death Jesters, 6 Starweavers, 2 Voidweavers", "upgrades":[]}
+			{"id":530, "name":"Cegorach's Escape",	"pts":225, "units":"Harlequin Avatar, 2 Harlequin Troupes, Death Jesters, 3 Starweavers", "upgrades":[1]},
+			{"id":531, "name":"Asuryan's Wager",	"pts":275, "units":"Harlequin Avatar, Harlequin Troupe, 3 Death Jesters, 4 Starweavers", "upgrades":[1]},
+			{"id":532, "name":"Serpent's Blood",	"pts":275, "units":"Harlequin Avatar, 4 Skyweavers, 3 Voidweavers", "upgrades":[1]},
+			{"id":533, "name":"Cegorach's Revenge",	"pts":300, "units":"Harlequin Avatar, 3 Harlequin Troupes, 2 Death Jesters, 5 Starweavers", "upgrades":[1]},
+			{"id":534, "name":"Devourer's Feast",	"pts":350, "units":"Master Mime, Solitaire, 8 Mimes", "upgrades":[1]},
+			{"id":535, "name":"Isha's Tears",		"pts":425, "units":"Harlequin Avatar, Shadowseer, 2 Harlequin Troupes, 4 Death Jesters, 6 Starweavers", "upgrades":[1]}
 		]},
 
 		{"name":"COMMORRAGH NAVY & WAR ENGINES", "formations":[
 			{"id":522, "name":"Torture Class", "pts":300, "units":"Torture Class Cruiser", "upgrades":[]},
 			{"id":523, "name":"Slavebringer", "pts":200, "upgrades":[]},
-			{"id":526, "name":"Razorwing Cast", "pts":200, "units":"2 Razorwing Interceptors", "upgrades":[0]},
+			{"id":526, "name":"Razorwing Cast", "pts":200, "units":"2 Razorwing Interceptors", "upgrades":[]},
 			{"id":527, "name":"Voidraven Cast", "pts":225, "units":"2 Voidraven Interdictors", "upgrades":[]},
 			{"id":528, "name":"Tormentor Titan", "pts":350, "upgrades":[]}
 		]}
 	],
 	"upgrades":[
+		{"id":1, "name":"Portable Webway Portal", "pts":0},
 		{"id":17, "name":"Dracon", "pts":50},
 		{"id":18, "name":"Succubus", "pts":25},
 
@@ -63,17 +65,16 @@
 		{"maxPercent": 33.1, "name": "Commorragh Navy & War Engines", "from":[523,526,527,528]},
 		{"max":1, "from":[562]},
 		{"max":1, "min":1, "from":[561]},
-		{"max":1, "from":[530]},
-		{"max":1, "from":[531]},
-		{"max":1, "from":[532]},
-		{"max":1, "from":[533]},
 		{"max":1, "from":[534]},
+		{"max":1, "from":[535]},
 		{"min":1, "max":1, "from":[511]},
-		{"max":2, "name":"Partisans", "from":[501,502,503,504,505,506,507,508], "forEach":[511,512,513], "name2":"Kabal"},
-		{"max":1, "name":"Harlequin Saedaths", "from":[530,531,532,533,534], "forEach":[511,512,513], "name2":"Warhost"},
+		{"max":1, "name":"Partisans", "from":[501,502,503,504,505,506,507,508], "forEach":[511,512,513], "name2":"Kabal"},
+		{"max":1, "name":"Harlequin Saedaths", "from":[530,531,532,533,534], "forEach":[511,512,513], "name2":"Kabal"},
 		{"max":1, "name":"Spacecraft", "from":[522]}
 	],
 	"upgradeConstraints":[
+			{"max":1, "perArmy":true, "from":[1]},
+
 		{"max":1, "name":"Dracon", "from":[17]},
 		{"max":1, "name":"Succubus", "from":[18]},
 		{"min":1, "max":1, "from":[55,56], "appliesTo":[511]},

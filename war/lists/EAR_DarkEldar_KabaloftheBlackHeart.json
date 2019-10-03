@@ -10,16 +10,16 @@
 			{"id":531, "name":"Portable Webway Portal", "pts":50, "upgrades":[]}
 		]},
 		{"name":"BLACK HEART KABALS", "formations":[
-			{"id":511, "name":"Kabal Coterie", "pts":250, "upgrades":[55,57,61,70,71,72]},
-			{"id":512, "name":"Kabal Syndicate", "pts":200,	"upgrades":[17,61,70,71,72]},
+			{"id":511, "name":"Kabal Coterie", "pts":250, "upgrades":[55,57,61,70,71,72,1]},
+			{"id":512, "name":"Kabal Syndicate", "pts":200,	"upgrades":[17,61,70,71,72,1]},
 			{"id":513, "name":"Kabal Flotilla", "pts":25, "upgrades":[61]}
 		]},
 		{"name":"BLACK HEART PARTISANS (Max 2 for each Kabal)", "formations":[
-			{"id":501, "name":"Haemonculi Coven", "pts":225, "units":"2 Haemonculi, 4 Wracks", "upgrades":[19,70,71,72,73,74]},
+			{"id":501, "name":"Haemonculi Coven", "pts":225, "units":"2 Haemonculi, 4 Wracks", "upgrades":[19,70,71,72,73,74,1]},
 			{"id":502, "name":"Talos Swarm", "pts":225, "upgrades":[]},
-			{"id":503, "name":"Wych Cult", "pts":150,  "units":"4 Wyches", "upgrades":[18,62,70,71,72]},
-			{"id":504, "name":"Hellion Murder", "pts":50, "upgrades":[62,82]},
-			{"id":505, "name":"Reaver Gang", "pts":50, "upgrades":[18,83]},
+			{"id":503, "name":"Wych Cult", "pts":150,  "units":"4 Wyches", "upgrades":[18,62,70,71,72,1]},
+			{"id":504, "name":"Hellion Murder", "pts":50, "upgrades":[18,62,82]},
+			{"id":505, "name":"Reaver Gang", "pts":50, "upgrades":[18,83,1]},
 			{"id":506, "name":"Mandrake Throng", "pts":200, "units":"6 Mandrakes", "upgrades":[]},
 			{"id":507, "name":"Scourge Flight", "pts":250, "units":"6 Scourges", "upgrades":[]},
 			{"id":508, "name":"Heavy Barge", "pts":250, "units":"Vessel of Pain", "upgrades":[]}
@@ -33,6 +33,7 @@
 		]}
 	],
 	"upgrades":[
+		{"id":1, "name":"Portable Webway Portal", "pts":0},
 		{"id":17, "name":"Dracon", "pts":50},
 		{"id":18, "name":"Succubus", "pts":25},
 		{"id":19, "name":"Haemonculus Ancient", "pts":25},
@@ -66,6 +67,7 @@
 		{"max":1, "name":"Spacecraft", "from":[522]}
 	],
 	"upgradeConstraints":[
+					{"max":1, "perArmy":true, "from":[1]},
 		{"max":1, "from":[17]},
 		{"max":1, "from":[18]},
 		{"max":1, "from":[19]},

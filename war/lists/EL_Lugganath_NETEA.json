@@ -24,7 +24,7 @@
 		
 			{"name":"Harlequin Saedaths (Max one Harlequin Saedath for every two Warhosts)", "formations":[
 			{"id":532, "name":"Serpent's Blood",			"pts":300, 	"units":"1 Harlequin Avatar, 4 Harlequin Skyweavers, 2 Voidweavers", "upgrades":[]},
-			{"id":530, "name":"Devourer's Thirst",			"pts":300, "units":"1 Master Mime, 6 Mimes", "upgrades":[]},
+			{"id":530, "name":"Devourer's Hunt",			"pts":300, "units":"1 Master Mime, 6 Mimes", "upgrades":[]},
 			{"id":531, "name":"Cegorach's Revenge",			"pts":400, "units":"1 Harlequin Avatar, 4 Harlequins Troupes, 2 Death Jesters, 6 Skyweavers", "upgrades":[]},
 			{"id":533, "name":"Isha's Tears",				"pts":450, "units":"1 Harlequin Avatar, 1 Shadowseer, 4 Death Jesters, 2 Harlequin Troupes, 6 Skyweavers", "upgrades":[]},
 			{"id":534, "name":"Dance Without End",			"pts":550, "units":"1 Harlequin Avatar, 1 Shadowseer, 1 Solitaire, 2 Death Jesters, 3 Harlequin Troupes, 2 Mimes, 8 Skyweavers", "upgrades":[]}
