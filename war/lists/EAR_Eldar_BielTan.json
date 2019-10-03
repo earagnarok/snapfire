@@ -1,18 +1,18 @@
 {
-   "id": "Biel-Tan Craftworld",
+   "id": "EA-R Biel-Tan Craftworld",
    "version": "1.0.0",
    "by": "EA-Ragnarok",
    "sections": [
       {"name": "INDIVIDUALS", "formations": [
-	    {"id": 507, "name": "Webway Portal", "pts": 50, "units": "1 Wraithgate", "upgrades": []},
-	    {"id": 508, "name": "Avatar", "pts": 0, "units": "1 Avatar", "upgrades": []}
+	    {"id": 507, "name": "Webway Portal", "pts": 50,  "upgrades": []},
+	    {"id": 508, "name": "Avatar", "pts": 0, "upgrades": []}
       ]},
       {"name": "WARHOSTS", "formations": [
             {"id": 510, "name": "Aspect Warrior Warhost", "pts": 300, "upgrades": [13,39,40]},
             {"id": 511, "name": "Guardian Warhost", "pts": 150, "upgrades": [13,43,44,45]}
          ]},
       {"name": "TROUPES (Max 2 for each Warhost)", "formations": [
-            {"id": 500, "name": "Eldar Scouts", "pts": 0, "upgrades": [11]},
+            {"id": 500, "name": "Rangers", "pts": 0, "upgrades": [11]},
             {"id": 501, "name": "War Walker Troupe", "pts": 25, "upgrades": [42]},
             {"id": 502, "name": "Windrider Troupe", "pts": 200, "upgrades": []},
             {"id": 503, "name": "Swords of Vaul", "pts": 250, "upgrades": []},
@@ -62,7 +62,7 @@
 
       {"id": 43, "name": "3 Support Weapon Platforms", "pts": 50},
       {"id": 44, "name": "2 Wraithguards", "pts": 75},
-      {"id": 45, "name": "2 Wraithlords", "pts": 100},
+      {"id": 45, "name": "Wraithlord", "pts": 50},
 
       {"id": 52, "name": "Farseer", "pts": 0},
       {"id": 53, "name": "Phoenix Bombers", "pts": 75},
@@ -91,7 +91,7 @@
       {"max": 1, "min": 1, "from": [52], "appliesTo": [511,512]},
       {"max": 1, "from": [43], "appliesTo": [511]},
       {"max": 1, "from": [44], "appliesTo": [511]},
-      {"max": 1, "from": [45], "appliesTo": [511]},
+      {"max": 3, "from": [45], "appliesTo": [511]},
       {"max": 6, "min": 5, "from": [11], "appliesTo": [500]},
       {"max": 1, "from": [46], "appliesTo": [501,502,503,504,505,506,530]},
       {"max": 6, "min": 6, "from": [27,28], "appliesTo": [502]},

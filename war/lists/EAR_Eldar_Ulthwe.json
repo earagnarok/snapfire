@@ -1,5 +1,5 @@
 {
-   "id": "Ulthw&eacute; Craftworld",
+   "id": "EA-R Ulthw&eacute; Craftworld",
    "version": "0.8.0",
    "by": "EA-Ragnarok",
    "sections": [
@@ -12,7 +12,7 @@
             {"id": 511, "name": "Swords of Ulthwé Warhost", "pts": 350,  "units": "4 Guardians, 5 Falcons", "upgrades": []}
          ]},
       {"name": "TROUPES (Max 2 for each Warhost)", "formations": [
-            {"id": 613, "name": "Eldar Scouts", "pts": 0, "upgrades": [11]},
+            {"id": 613, "name": "Rangers", "pts": 0, "upgrades": [11]},
             {"id": 502, "name": "Windrider Troupe", "pts": 200, "upgrades": []},
             {"id": 501, "name": "War Walker Troupe", "pts": 25, "upgrades": [50]},
             {"id": 503, "name": "Swords of Vaul Troupe", "pts": 250, "upgrades": []},
@@ -53,7 +53,7 @@
       {"id": 42, "name": "3 Wave Serpents", "pts": 100},
       {"id": 43, "name": "3 Support Weapon Platforms", "pts": 50},
       {"id": 44, "name": "2 Wraithguards", "pts": 75},
-      {"id": 45, "name": "2 Wraithlords", "pts": 100},
+      {"id": 45, "name": "Wraithlord", "pts": 50},
 	  {"id": 47, "name": "Cobra", "pts": 200},
       {"id": 48, "name": "Scorpion", "pts": 200},
       {"id": 49, "name": "Storm Serpent", "pts": 200},
@@ -88,7 +88,7 @@
       {"max": 1, "from": [41]},
       {"max": 1, "from": [42]},
       {"max": 1, "from": [43], "appliesTo": [510]},
-      {"max": 1, "from": [45], "appliesTo": [510]},
+      {"max": 3, "from": [45], "appliesTo": [510]},
       {"max": 1, "from": [44], "appliesTo": [510]},
       {"max": 8, "min": 4, "from": [11], "appliesTo": [500]},
       {"max": 1, "from": [46], "appliesTo": [501,502,503,504,505,530]},

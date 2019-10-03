@@ -43,7 +43,7 @@
       {"id": 41, "name": "2 Wraithblades", "pts": 50},
       {"id": 45, "name": "4 Wraithguards", "pts": 0},
       {"id": 46, "name": "6 Wraithguards", "pts": 75},
-      {"id": 47, "name": "2 Wraithlords", "pts": 100},
+      {"id": 47, "name": "Wraithlord", "pts": 50},
       {"id": 55, "name": "4 Wave Serpents (may only be taken if the entire formation can fit inside)", "pts": 150},
 
       {"id": 60, "name": "Titan Pulsar", "pts": 0},
@@ -68,7 +68,7 @@
       {"max": 1, "perArmy": true, "from": [11]},
 
       {"max": 1, "from": [41]},
-      {"max": 1, "from": [47]},
+      {"max": 3, "from": [47]},
       {"max": 1, "from": [55]},
 
       {"max": 2, "min": 2, "from": [60,61,62,63,64,65,66], "appliesTo": [512]},
