@@ -1,6 +1,6 @@
 {
 	"id":"EA-R Craftworld Lugganath / Masque of the Veiled Path",
-	"version":"0.6.1",
+	"version":"0.6.2",
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"LUGGANATH SPECIALS", "formations":[
@@ -21,13 +21,13 @@
 			{"id":525, "name":"Engine of Vaul",					"pts":50,	"upgrades":[50,51,52]}
 		]},
 
-			{"name":"VEILED PATH SAEDATHS (Max 1 Harlequin Saedath for each Warhost/Wraithhost)", "formations":[
-			{"id":530, "name":"Cegorach's Escape",	"pts":225, "units":"Harlequin Avatar, 2 Harlequin Troupes, Death Jesters, 3 Starweavers", "upgrades":[]},
-			{"id":531, "name":"Serpent's Scales",	"pts":225, "units":"Harlequin Avatar, 3 Skyweavers, 2 Voidweavers", "upgrades":[]},
-			{"id":532, "name":"Devourer's Hunt",	"pts":250, "units":"Master Mime, 6 Mimes", "upgrades":[]},
-			{"id":533, "name":"Cegorach's Revenge",	"pts":300, "units":"Harlequin Avatar, 3 Harlequin Troupes, 2 Death Jesters, 5 Starweavers", "upgrades":[]},
+			{"name":"VEILED PATH SAEDATHS (Max 1 Veiled Path Saedath for each Warhost/Wraithhost)", "formations":[
+			{"id":530, "name":"Cegorach's Escape",	"pts":200, "units":"Harlequin Avatar, 2 Harlequin Troupes, Death Jesters, 3 Starweavers", "upgrades":[]},
+			{"id":531, "name":"Serpent's Scales",	"pts":22, "units":"Harlequin Avatar, 3 Skyweavers, 2 Voidweavers", "upgrades":[]},
+			{"id":532, "name":"Devourer's Hunt",	"pts":225, "units":"Master Mime, 6 Mimes", "upgrades":[]},
+			{"id":533, "name":"Cegorach's Revenge",	"pts":325, "units":"Harlequin Avatar, 2 Harlequin Troupes, 2 Death Jesters, 4 Starweavers, 3 Skyweavers", "upgrades":[]},
 			{"id":534, "name":"Devourer's Feast",	"pts":350, "units":"Master Mime, Solitaire, 8 Mimes", "upgrades":[]},
-			{"id":535, "name":"Ynnead's Dream",		"pts":425, "units":"Harlequin Avatar, Shadowseer, 3 Harlequin Troupes, 3 Death Jesters, 6 Starweavers", "upgrades":[]}
+			{"id":535, "name":"Ynnead's Dream",		"pts":450, "units":"Harlequin Avatar, Shadowseer, 3 Harlequin Troupes, 3 Death Jesters, 6 Starweavers", "upgrades":[]}
 		]},
 
 		{"name":"CRAFTWORLD TITANS & NAVY (Max 33%)", "formations":[
@@ -73,7 +73,7 @@
 
 		{"max":1, "name":"Wraithhost", "from":[511], "forEach":[510], "name2":"Warhost"},
 		{"max":1, "name":"Troupes", "from":[520,521,522,524,525], "forEach":[510,511], "name2":"Warhost/Wraithhost"},
-		{"max":1, "name":"Harlequin Saedaths", "from":[530,531,532,533,534], "forEach":[510,511], "name2":"Warhost/Wraithhost"},
+		{"max":1, "name":"Veiled Path Saedaths", "from":[530,531,532,533,534], "forEach":[510,511], "name2":"Warhost/Wraithhost"},
 		{"max":1, "from":[534]},
 		{"max":1, "from":[535]},
 
