@@ -71,7 +71,7 @@
 	],
 	"formationConstraints":[
 		{"max":1,"perArmy":true, "name":"Spacecraft", "from":[513]},
-		{"maxPercent": 33.1, "name":"Aircraft, Navy & Titans", "from":[520,521,522,523]}
+		{"maxPercent": 33.5, "name":"Aircraft, Navy & Titans", "from":[520,521,522,523]}
 	],
 	"upgradeConstraints":[
 		{"max":1, "perArmy":true, "from":[13]},

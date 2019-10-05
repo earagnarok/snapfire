@@ -125,7 +125,7 @@
 	],
 	"formationConstraints":[
 		{"max": 1, "from": [500]},
-		{"maxPercent": 33.1, "name": "Chaos Undivided and Chaos Navy", "from": [580,581,582,583,584,585]}
+		{"maxPercent": 33.5, "name": "Chaos Undivided and Chaos Navy", "from": [580,581,582,583,584,585]}
 		
 	],
 	"upgradeConstraints":[

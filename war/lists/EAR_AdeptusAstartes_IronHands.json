@@ -96,7 +96,7 @@
 
 		{"max":2, "name":"Support Detachments", "from":[510,511,512,513,514,515,516,517], "forEach":[500,501], "name2":"Core Detachments"},
 
-		{"maxPercent": 33.1, "name":"Aircraft and Imperial Allies", "from":[520,521,522,523]}
+		{"maxPercent": 33.5, "name":"Aircraft and Imperial Allies", "from":[520,521,522,523]}
 	],
 	"upgradeConstraints":[
 		{"max":1, "perArmy":true, "name":"Supreme Commander", "from":[4]},

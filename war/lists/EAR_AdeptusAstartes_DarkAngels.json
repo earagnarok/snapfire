@@ -78,7 +78,7 @@
 		{"max":3, "name":"Support Detachments", "from":[502,504,509,510,511,512,513,516,517], "forEach":[501,504,505,514,515], "name2":"Core Detachment"},
 		{"max":1,"perArmy":true, "name":"Dreadwing Relic", "from":[517]},
 		{"max":1, "min":1, "perArmy":true, "name":"Spacecraft", "from":[522]},
-		{"maxPercent": 33.1, "name":"Dark Angels Navy", "from":[520,521,522]}
+		{"maxPercent": 33.5, "name":"Dark Angels Navy", "from":[520,521,522]}
 	],
 	"upgradeConstraints":[
 		{"max":1, "perArmy":true, "from":[13]},

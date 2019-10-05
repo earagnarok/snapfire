@@ -71,7 +71,7 @@
    ],
    "formationConstraints": [
       {"max": 1, "name": "Spacecraft", "from": [520]},
-      {"maxPercent": 33.1, "name": "War Engines & Allies", "from": [517,518,522,523]}
+      {"maxPercent": 33.5, "name": "War Engines & Allies", "from": [517,518,522,523]}
    ],
    "upgradeConstraints": [
       {"max": 1, "from": [81], "perArmy": true},

@@ -72,7 +72,7 @@
 		{"max":1, "name":"Thousand Sons Elite Formation", "from":[502,503,504,507], "forEach":[501], "name2":"Thousand Sons Core Formation"},
 		{"max":2, "name":"Thousand Sons Support Formations", "from":[505,506,508,509], "forEach":[501], "name2":"Thousand Sons Core Formation"},
 		{"min":1, "max":1, "from":[500]},
-		{"maxPercent": 33.1, "name":"War Engines, Titan & Chaos Navy", "from":[510,511,512,513,514]}
+		{"maxPercent": 33.5, "name":"War Engines, Titan & Chaos Navy", "from":[510,511,512,513,514]}
 	],
 	"upgradeConstraints":[
 		{"max":1, "perArmy":true, "from":[12,13,14,16]},
