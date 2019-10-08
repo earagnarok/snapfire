@@ -7,7 +7,7 @@
           {"id": 507, "name": "Wraithgate", "pts": 50,  "upgrades": []},
   	    {"id": 508, "name": "Avatar", "pts": 0, "upgrades": []}
          ]},
-      {"name": "WRAITHHOSTS (Max 1 Spirit Walker for each Spirit Guard or Spirit Blade)", "formations": [
+      {"name": "WRAITHHOSTS", "formations": [
             {"id": 510, "name": "Spirit Guard Wraithhost", "pts": 225, "upgrades": [53,55]},
             {"id": 511, "name": "Spirit Blade Wraithhost", "pts": 175, "upgrades": [44,53,55]},
             {"id": 512, "name": "Spirit Walker Wraithhost", "pts": 350,  "units": "6 Wraithlords",  "upgrades": []}
@@ -26,9 +26,9 @@
       {"name": "SPACESHIPS, AIRCRAFT &amp; TITANS (Max 33%)", "formations": [
             {"id": 515, "name": "Wraithship", "pts": 150, "upgrades": []},
             {"id": 516, "name": "Dragonship", "pts": 300, "upgrades": []},
-            {"id": 517, "name": "Warlock Titan", "pts": 800, "upgrades": []},
+            {"id": 517, "name": "Warlock Titan", "pts": 850, "upgrades": []},
             {"id": 518, "name": "Phantom Titan", "pts": 700, "upgrades": []},
-            {"id": 519, "name": "Revenant Titans", "pts": 650, "units": "2 Revenant Titans", "upgrades": []},
+            {"id": 519, "name": "Revenant Titans", "pts": 625, "units": "2 Revenant Titans", "upgrades": []},
             {"id": 523, "name": "Wraithknights", "pts": 325, "units": "3 Wraithknights", "upgrades": []},
             {"id": 520, "name": "Nightwing Aerie", "pts": 75, "upgrades": [67]},
             {"id": 521, "name": "Phoenix Aerie", "pts": 325,  "units": "3 Phoenix Bombers",  "upgrades": []},
@@ -82,8 +82,7 @@
       {"max": 1, "name": "Spacecraft", "from": [515,516]},
       {"max": 1, "from": [517]},
       {"maxPercent": 33.5, "name": "War Engines & Allies", "from": [515,516,517,518,519,520,521,522,523]},
-      {"max": 1, "name": "Spirit Walker", "from": [512], "forEach": [510,511], "name2": "Spirit Guard or Spirit Blade Wraithhost"},
-      {"max": 2, "name": "Troupes", "from": [612,613,614,615,616,617,618,619,620], "forEach": [510,511,512], "name2": "Iyanden Host"}
+      {"max": 2, "name": "Troupes", "from": [612,613,614,615,616,617,618,619,620], "forEach": [510,511,512], "name2": "Wraithhost"}
    ],
    "upgradeConstraints": [
       {"max": 1, "perArmy": true, "from": [62]},

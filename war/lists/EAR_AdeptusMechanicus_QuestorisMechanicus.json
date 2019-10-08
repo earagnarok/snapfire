@@ -5,7 +5,7 @@
 	"notes":[],
 	"sections":[
 		{"name":"Questoris Lances", "formations":[
-			{"id":500, "name":"Questoris", 		"pts":50, "upgrades":[10,11,100,101,102,103,104,105,130,131,132,133]}
+			{"id":500, "name":"Questoris", 		"pts":50, "upgrades":[100,101,102,103,104,105,130,131,132,133]}
 		]},
 		{"name":"Cerastus Lances / / Max 1 Cerastus Lance per Questoris Lance", "formations":[
 			{"id":501, "name":"Cerastus",	"pts":275,  "upgrades":[113,114,115,116]}
@@ -14,15 +14,15 @@
 			{"id":502, "name":"Arminger",			"pts":175, "upgrades":[]}
 		]},
 		{"name":"Relic Lances / / Max 1 of each Relic Lance per Army", "formations":[
-			{"id":503, "name":"Questoris Reliquae",	"pts":50,  "upgrades":[160,161,163,164]},
+			{"id":503, "name":"Questoris Reliquae",	"pts":50,  "upgrades":[11,10,160,161,163,164]},
 			{"id":504, "name":"Acastus Reliquae",	"pts":50,  "upgrades":[163,164]}
 		]},
 		{"name":"Allies / / Max 33%", "formations":[
-			{"id":510, "name":"Skitarii Maniple",		"pts":300,  "upgrades":[], "units":"9 Hypaspist, 1 Magos, 1 AM Gorgon"},
+			{"id":510, "name":"Hypaspist Maniple",		"pts":325,  "upgrades":[], "units":"Magos, Gorgon, 9 Hypaspists"},
 
 			{"id":512, "name":"Dune Crawlers",		"pts":225,  "upgrades":[]},
 
-            {"id":514, "name":"Avenger Squadron",				"pts":175,  "upgrades":[], "units":"2 Avenger Fighter Bombers"},
+            {"id":514, "name":"Avenger Squadron",				"pts":175,  "upgrades":[], "units":"2 Avenger Strike Fighter"},
 
 			{"id":520, "name":"Warhound Pack",	"pts":500, "upgrades":[13]},
 
@@ -93,7 +93,7 @@
 
         {"max":1,"from":[13],"appliesTo":[520]},
 
-		{"min":0, "max":1, "from":[10,11,130,131,132,133], "appliesTo":[500]},
+		{"min":1, "max":1, "from":[11,10,130,131,132,133], "appliesTo":[500]},
 
 		{"min":2, "max":3, "from":[100,101,102,103,104,105], "appliesTo":[500]},
 
@@ -111,6 +111,8 @@
 
 		{"min":1, "max":1, "from":[120,121], "appliesTo":[502]},
 
+
+		{"min":1, "max":1, "from":[11,10], "appliesTo":[503]},
 
 		{"min":2, "max":3, "from":[160,161], "appliesTo":[503]},
 

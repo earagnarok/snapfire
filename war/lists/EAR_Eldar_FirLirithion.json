@@ -8,11 +8,11 @@
  	    {"id": 501, "name": "Avatar", "pts": 0, "upgrades": []}
       ]},
       {"name": "FIR LIRITHION BATTLE TITANS", "formations": [
-            {"id": 511, "name": "Warlock Titan", "pts": 800, "units": "One Warlock Titan", "upgrades": [11]},
+            {"id": 511, "name": "Warlock Titan", "pts": 850, "units": "One Warlock Titan", "upgrades": [11]},
             {"id": 512, "name": "Phantom Titan", "pts": 700, "upgrades": [11]}
          ]},
       {"name": "FIR LIRITHION SCOUT TITANS (Max 2 for each Battle Titan)", "formations": [
-            {"id": 521, "name": "Revenant Titans", "pts": 150, "upgrades": [25]}
+            {"id": 521, "name": "2 Revenant Titans", "pts": 625, "upgrades": [25]}
 
 	 ]},
       {"name": "FIR LIRITHION TROUPES (Max 3 for each Battle or Scout Titan formation)", "formations": [
@@ -75,7 +75,6 @@
       {"max": 1, "from": [65,66], "appliesTo": [512]},
 
       {"max": 3, "min": 1, "from": [17,18,19], "appliesTo": [531]},
-      {"max": 2, "min": 2, "from": [14], "appliesTo": [521]},
 
       {"max": 1, "min": 1, "from": [45,46], "appliesTo": [535]},
 

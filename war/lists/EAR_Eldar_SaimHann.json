@@ -29,7 +29,7 @@
       {"name": "SPACESHIPS, AIRCRAFT &amp; TITANS (Max 33%)", "formations": [
             {"id": 515, "name": "Wraithship", "pts": 150, "upgrades": []},
             {"id": 516, "name": "Dragonship", "pts": 300, "upgrades": []},
-            {"id": 519, "name": "Revenant Titans", "pts": 650, "units": "2 Revenant Titans", "upgrades": [90]},
+            {"id": 519, "name": "Revenant Titans", "pts": 625, "units": "2 Revenant Titans", "upgrades": [90]},
             {"id": 520, "name": "Nightwings", "pts": 75, "upgrades": [67]},
             {"id": 521, "name": "Phoenix Bombers", "pts": 100, "upgrades": [66]},
             {"id": 522, "name": "Vampire Hunter", "pts": 200, "upgrades": []}
