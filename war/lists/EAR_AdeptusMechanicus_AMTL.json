@@ -19,7 +19,7 @@
 {"name":"SUPPORT FORMATIONS (Max three for each Battle Titan formation)",
 "formations":[
 	    {"id":510,"name":"Warhound Pack","pts":500, "upgrades":[13]},
-		{"id":520,"name":"Questoris Banner","pts":50, "upgrades":[100,101,102,103,104,105]}
+		{"id":520,"name":"Questoris Banner","pts":250, "upgrades":[]}
 ]},
 
 {"name":"ADEPTUS MECHANICUS ALLIES (Max 33%. Max 1 Lysander Fighter for each Warmonger Titan or Reaver Carapace Landing Pad)",
@@ -89,14 +89,14 @@
 
 
 
-		{"id":100, "name":"Knight-Paladin (Rapid Fire Battle Cannon, 2 Hvy Stubbers, Chainsword)",													"pts":100},
-		{"id":101, "name":"Knight-Errant (Thermal Cannon, Hvy Stubber, Gauntlet)",											         				"pts":100},
-		{"id":102, "name":"Knight-Crusader (Rapid Fire Battle Cannon, Gatling Cannon, 2 Hvy Stubbers, Icarus Autocannon)",							"pts":100},
-		{"id":103, "name":"Knight-Gallant (Icarus Autocannon, Hvy Stubber, Gauntlet, Chainsword)",							             			"pts":100},
-		{"id":104, "name":"Knight-Warden (Gatling Cannon, Ironstorm Missiles, Hvy Stubber, Chainsword)",											"pts":100},
-		{"id":105, "name":"Knight-Preceptor (Las-Impulsor, Hvy Stubber, Gauntlet)",											        				"pts":100},
+		{"id":100, "name":"2 Knight-Paladin (Rapid Fire Battle Cannon, 2 Hvy Stubbers, Chainsword)",													"pts":0},
+		{"id":101, "name":"2 Knight-Errant (Thermal Cannon, Hvy Stubber, Gauntlet)",											         				"pts":0},
+		{"id":102, "name":"2 Knight-Crusader (Rapid Fire Battle Cannon, Gatling Cannon, 2 Hvy Stubbers, Icarus Autocannon)",							"pts":0},
+		{"id":103, "name":"2 Knight-Gallant (Icarus Autocannon, Hvy Stubber, Gauntlet, Chainsword)",							             			"pts":0},
+		{"id":104, "name":"2 Knight-Warden (Gatling Cannon, Ironstorm Missiles, Hvy Stubber, Chainsword)",											     "pts":0},
+		{"id":105, "name":"2 Knight-Preceptor (Las-Impulsor, Hvy Stubber, Gauntlet)",											        				"pts":0},
 
-		{"id":130, "name":"Ordinatus Minoris (Tri-Twin Hydra Autocannons)",	"pts":125},
+    	{"id":130, "name":"Ordinatus Minoris (Tri-Twin Hydra Autocannons)",	"pts":125},
 		{"id":131, "name":"Ordinatus Minoris (Titan Plasma Cannon)",			"pts":125},
 		{"id":132, "name":"Ordinatus Minoris (Turbo-laser Destructor)",		"pts":125},
 		{"id":133, "name":"Ordinatus Minoris (Apocalypse Missile Launcher)",	"pts":125},
@@ -141,7 +141,7 @@
         {"min":2,"max":2,"from":[95,96,97,98],"appliesTo":[504]},
         {"max":1,"from":[98],"appliesTo":[504]},
 
-        {"min":2,"max":3,"from":[100,101,102,103,104,105],"appliesTo":[520]},
+        {"min":1,"max":1,"from":[100,101,102,103,104,105],"appliesTo":[520]},
 
         {"min":5,"max":8,"from":[14],"appliesTo":[531]},
 

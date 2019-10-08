@@ -12,7 +12,7 @@
 			{"id":502, "name":"CHAOS REAVER TITAN",			"pts":600, "upgrades":[11]}
 		]},
 
-		{"name": "SCOUT TITAN FORMATIONS / / Two for each Battle Titan formation. Army may not Mix Nurgle/Tzeench or Slaanesh/Khorne formations", "formations":[
+		{"name": "SCOUT TITAN FORMATIONS / / Max 2 per Battle Titan formation. Army may not Mix Nurgle/Tzeench or Slaanesh/Khorne formations", "formations":[
 			{"id":510, "name":"QUESTOR of Slaanesh",	"pts":50, "upgrades":[70]},
 			{"id":511, "name":"SUBJUGATOR of Slaanesh",	"pts":50, "upgrades":[71]},
 
@@ -22,12 +22,12 @@
 
 		]},
 
-		{"name":"DAEMON ENGINE FORMATIONS / / One for each Battle Titan or Scout Titan formation. Army may not Mix Nurgle/Tzeench or Slaanesh/Khorne formations", "formations":[
+		{"name":"DAEMON ENGINE FORMATIONS / / Max 1 per Battle Titan or Scout Titan formation. Army may not Mix Nurgle/Tzeench or Slaanesh/Khorne formations", "formations":[
 			{"id":540, "name":"HELL-STRIDERS of Slaanesh",			"pts":225, "units": "4 Hell-Striders", "upgrades":[]},
-			{"id":541, "name":"HELL-KNIGHTS of Slaanesh",			"pts":325, "units": "4 Hell-Knights", "upgrades":[]},
+			{"id":541, "name":"HELL-KNIGHTS of Slaanesh",			"pts":325, "units": "3 Hell-Knights", "upgrades":[]},
 			{"id":542, "name":"HELL-SCOURGES of Slaanesh",			"pts":325, "units": "3 Hell-Scourges",  "upgrades":[]},
 
-			{"id":550, "name":"KNIGHTS of Nurgle",			"pts":275,  "units": "2 Knight-Desecrators",  "upgrades":[]},
+			{"id":550, "name":"KNIGHTS of Nurgle",			"pts":300,  "units": "2 Knight-Desecrators",  "upgrades":[]},
 			{"id":551, "name":"DEFILERS of Nurgle",				"pts":225,  "units": "4 Desecrators",   "upgrades":[]},
 
 			{"id":560, "name":"KNIGHTS of Khorne",			"pts":275, "units": "2 Knight-Rampagers", "upgrades":[]},
