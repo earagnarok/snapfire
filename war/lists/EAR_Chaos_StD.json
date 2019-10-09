@@ -27,7 +27,7 @@
 			{"id":512, "name":"Defilers of Chaos Undivided",	"pts":225, "units":"4 Defilers", "upgrades":[]},
 			{"id":511, "name":"Death Wheel of Chaos Undivided", "pts":275, "units":"Death Wheel", "upgrades":[]},
 			{"id":514, "name":"Subjugator of Slaanesh", "units":"Subjugator", "pts":250, "upgrades":[] },
-			{"id":515, "name":"Questor of Slaanesh", "units":"Questor",	"pts":300, "upgrades":[]},
+			{"id":515, "name":"Questor of Slaanesh", "units":"Questor",	"pts":275, "upgrades":[]},
 			{"id":517, "name":"Plague Drones of Nurgle", "pts":275, "units":"7 Greater Plague Drones", "upgrades":[]},
 			{"id":516, "name":"Plague Tower of Nurgle", "units":"Plague Tower", "pts":325, "upgrades":[]},
 			{"id":520, "name":"Daemonic Assault Engines of Khorne",	"pts":300, "units":"6 Daemonic Assault Engines", "upgrades":[]},
@@ -39,13 +39,13 @@
    ],
 	"upgrades":[
 		{"id":7, "name":"Aspiring Champion","pts":0},
-		{"id":8, "name":"Aspiring Champion with Arch Heretic" ,"pts":50},
+		{"id":8, "name":"Aspiring Champion with Arch-Heretic" ,"pts":50},
 		{"id":9, "name":"Daemon Prince","pts":100},
 
 		{"id":10, "name":"Fallen Commander", 		"pts":0},
 		{"id":13, "name":"Fallen Commander with Daemonic Icon", 		"pts":25},
-		{"id":5, "name":"Fallen Commander with Arch Heretic", 		"pts":50},
-		{"id":11, "name":"Fallen Commander with Daemonic Icon and Arch Heretic", 		"pts":75},
+		{"id":5, "name":"Fallen Commander with Arch-Heretic", 		"pts":50},
+		{"id":11, "name":"Fallen Commander with Daemonic Icon and Arch-Heretic", 		"pts":75},
 		{"id":6, "name":"Daemon Prince", 		"pts":100},
 		{"id":12, "name":"Daemon Prince with Daemonic Icon", 		"pts":125},
 

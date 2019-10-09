@@ -1,5 +1,5 @@
 {
-   "id": "EAR Gargants",
+   "id": "EA-R Bad Moons Gargants",
    "version": "0.5.0",
    "notes": ["If the army includes any Mega Gargants, the Big Mek must be in one of them. Otherwise the Big Mek has be in a Great Gargant. Note: Limits to the number of units are doubled for Big formations and tripled for 'Uge formations. For example a Big Warband may include two Oddboyz and an 'Uge Warband may include three Oddboyz."],
    "by": "Mrdiealot",
@@ -38,16 +38,16 @@
          "formations": [
             {"id": 532, "name": "Kroozer", "pts": 0, "upgrades": []},
             {"id": 530, "name": "Fighta-Bommer Skwadron", "pts": 0, "upgrades": [20]},
-            {"id": 531, "name": "Evil Sunz Bommer", "pts": 175,"units":"1 Bommer", "upgrades": []}
+            {"id": 531, "name": "Bad Moons Bommer", "pts": 175,"units":"1 Bommer", "upgrades": []}
 
          ]
       }
    ],
    "upgrades": [
       {"id": 10, "name": "Big Mek (Compulsory)", "pts": 0},
-      {"id": 11, "name": "Add 1 Oddboy (Replace 1 Big Gun with a Supa-Zzap-Gun)", "pts": 50},
-      {"id": 12, "name": "Add 1 Oddboy (Replace 1 Big Gun with a Soopagun)", "pts": 50},
-      {"id": 13, "name": "Add 1 Oddboy (Replace 1 Big Gun with a Weirdboy Tower)", "pts": 50},
+      {"id": 11, "name": "Add 1 Oddboy (Replace a Big Gun with a Supa-Zzap-Gun)", "pts": 50},
+      {"id": 12, "name": "Add 1 Oddboy (Replace a Big Gun with a Soopagun)", "pts": 50},
+      {"id": 13, "name": "Add 1 Oddboy (Replace a Big Gun with a Weirdboy Tower)", "pts": 50},
       {"id": 14, "name": "Add 1 Oddboy (D3+1 Powerfields)", "pts": 50},
 	  {"id": 15, "name": "Add 1 Oddboy ('Uge Banner of Mork (or possibly Gork))", "pts": 50},
 

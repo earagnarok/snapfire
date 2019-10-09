@@ -21,10 +21,10 @@
 			{"id":506, "name":"Armoured Company", "pts":0, "upgrades":[44] }
 		]},
 		{"name":"EMPERORS CHILDREN DAEMON ENGINE, TITAN AND CHAOS NAVY FORMATIONS", "formations":[
-			{"id":511, "name":"Hell-Knights",	"pts":300, "units":"4 Hell-Knights",  "upgrades":[]},
-			{"id":512, "name":"Hell-Scourges", "pts":275,  "units":"3 Hell-Scourges", "upgrades":[]},
+			{"id":511, "name":"Hell-Knights",	"pts":325, "units":"3 Hell-Knights",  "upgrades":[]},
+			{"id":512, "name":"Hell-Scourges", "pts":325,  "units":"3 Hell-Scourges", "upgrades":[]},
 			{"id":513, "name":"Defilers", "pts":25, "upgrades":[50]},
-			{"id":514, "name":"Questor",	"pts":300, "units":"Questor Scout Titan", "upgrades":[]},
+			{"id":514, "name":"Questor",	"pts":275, "units":"Questor Scout Titan", "upgrades":[]},
 			{"id":515, "name":"Subjugator Pack",	"pts":450, "units":"2 Subjugator Scout Titans", "upgrades":[]},
 			{"id":517, "name":"Chaos Thunderhawk",	"pts":200, "units":"1 Chaos Thunderhawk", "upgrades":[]},
 			{"id":518, "name":"Hell Blades",	"pts":200, "units":"3 Hell Blade Fighters", "upgrades":[]},

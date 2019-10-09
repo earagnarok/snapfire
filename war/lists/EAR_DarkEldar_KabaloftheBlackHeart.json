@@ -1,6 +1,6 @@
 {
 	"id":"EA-R Kabal of the Black Heart",
-	"version":"0.7.2",
+	"version":"0.7.3",
 	"by":"EA-Ragnarok",
 	"notes":["All Dark eldar formations with the 'transport' upgrade option may only select enough transports to transport the formation with no transport spaces left over after any upgrades have been added to the formation"],
 	"notes":[],
@@ -10,7 +10,7 @@
 			{"id":531, "name":"Portable Webway Portal", "pts":50, "upgrades":[]}
 		]},
 		{"name":"BLACK HEART KABALS", "formations":[
-			{"id":511, "name":"Black Heart Coterie", "pts":250, "upgrades":[55,57,61,70,71,72,1]},
+			{"id":511, "name":"Black Heart Coterie", "pts":250, "upgrades":[57,61,70,71,72,1]},
 			{"id":512, "name":"Black Heart Syndicate", "pts":200,	"upgrades":[17,61,70,71,72,1]},
 			{"id":513, "name":"Black Heart Flotilla", "pts":25, "upgrades":[61]}
 		]},
