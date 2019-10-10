@@ -1,26 +1,25 @@
 {
 	"id":"EAR Dark Angels",
-	"version":"0.9.1",
+	"version":"1.0.0",
 	"by":"EA-Ragnarok",
 
 	"sections":[
 		{"name":"DARK ANGELS CORE DETACHMENTS", "formations":[
-			{"id":501, "name":"Ravenwing Attack Detachment", 					"pts":325, "units":"Ravenwing Black Knights, 3 Ravenwing Land Speeders", "upgrades":[10,11,12,13]},
-			{"id":503, "name":"Tacticals",					"pts":275, "units":"6 Tacticals plus transport", "upgrades":[10,11,12,13, 30,31,32, 33]},
+			{"id":501, "name":"Ravenwing Attack Detachment", 					"pts":350, "units":"Ravenwing Black Knights, 3 Ravenwing Land Speeders", "upgrades":[10,11,12,13]},
+			{"id":503, "name":"Tacticals",					"pts":275, "units":"6 Tacticals plus transport", "upgrades":[10,11,12,13, 30,31,32, 33, 36,37]},
 			{"id":505, "name":"Deathwing Strike Detachment",		"pts":350,  "upgrades":[10,11,12,13]},
-			{"id":515, "name":"Deathwing Armoured Detachment",			"pts":400,  "units":"3 Deathwing Land Raiders, 3 Deathwing Terminators", "upgrades":[10,11,12,13]},
+			{"id":515, "name":"Deathwing Armoured Detachment",			"pts":400,  "units":"3 Land Raiders, 3 Terminators", "upgrades":[10,11,12,13]},
 			{"id":514, "name":"Ares Siege Detachment",				"pts":350, "units":"3 Land Raider Ares",  "upgrades":[10,11,12,13]}
 
 		]},
 		{"name":"DARK ANGELS SUPPORT DETACHMENTS (Max 3 for each Core Detachment)", "formations":[
 			{"id":502, "name":"Land Raiders",				"pts":25, "upgrades":[10,11,12,13, 30,31,32, 35]},
 			{"id":509, "name":"Assaults", 						"pts":250, "units":"Dark Angels Captain, 6 Assaults", "upgrades":[]},
-			{"id":504, "name":"Devastators",				"pts":250, "units":"4 Dark Angels Devastators plus transport", "upgrades":[10,11,12,13, 30,31,32, 34]},
-			{"id":510, "name":"Scouts",							"pts":150, "upgrades":[34]},
+			{"id":504, "name":"Devastators",				"pts":250, "units":"4 Dark Angels Devastators plus transport", "upgrades":[10,11,12,13, 30,31,32, 36,37]},
+			{"id":510, "name":"Scouts",							"pts":150, "upgrades":[36,37]},
 			{"id":511, "name":"Whirlwinds",						"pts":275, "units":"4 Whirlwinds", "upgrades":[30,31,32]},
 			{"id":513, "name":"Predators",						"pts":250, "upgrades":[30,31,32]},
 			{"id":512, "name":"Ravenwing Support Squadron",				"pts":175, "upgrades":[]},
-			{"id":516, "name":"Deathwing Dreadnought Detachment",			"pts":300,  "units":"5 Deathwing Dreadnoughts plus transport", "upgrades":[]},
 			{"id":517, "name":"Dreadwing Relic Detachment",	  "units":"2 Glaives",	"pts":550, "upgrades":[]}
 
 		]},
@@ -37,12 +36,12 @@
 		{"id":12, "name":"Librarian", 		"pts":50},
 		{"id":13, "name":"Supreme Commander",	"pts":100},
 
-		{"id":15, "name":"4 Scouts plus transport",							"pts":0},
+		{"id":15, "name":"4 Scouts plus transport",						"pts":0},
 		{"id":16, "name":"4 Scouts with 'Sniper' plus transport",		"pts":25},
 
-		{"id":17, "name":"2 Vindicators",							"pts":0},
-		{"id":18, "name":"3 Vindicators",							"pts":50},
-		{"id":19, "name":"4 Vindicators",							"pts":75},
+		{"id":17, "name":"2 Vindicators",								"pts":0},
+		{"id":18, "name":"3 Vindicators",								"pts":50},
+		{"id":19, "name":"4 Vindicators",								"pts":75},
 
 		{"id":20, "name":"Ravenwing Assault Bike",						"pts":0},
 		{"id":21, "name":"Ravenwing Attack Bike", 						"pts":0},
@@ -58,17 +57,16 @@
 		{"id":29, "name":"Deathwing Knights",							"pts":25},
 
 		{"id":30, "name":"2 Mortis Dreadnought", 						"pts":75},
-		{"id":31, "name":"2 Hunters", 									"pts":125},
-		{"id":32, "name":"2 Stalkers", 									"pts":100},
-
+		{"id":31, "name":"Hunter", 										"pts":75},
+		{"id":32, "name":"Stalker", 									"pts":50},
 
 		{"id":33, "name":"Land Raider", 								"pts":50},
 
-		{"id":34, "name":"4 Dark Angels Razorbacks",					"pts":100},
-
 		{"id":35, "name":"Land Raider", 								"pts":75},
 
-		{"id":40, "name":"4 Deimos Predator Executioners, 3 Deimos Laser Vindicators",	"pts":450},
+		{"id":36, "name":"Razorback (Twin Heavy Bolter)",				"pts":25},
+		{"id":37, "name":"Razorback (Twin Lascannon)",					"pts":25},
+
 		{"id":41, "name":"2 Glaives",									"pts":550},
 
 		{"id":50, "name":"Strike Cruiser",								"pts":200},
@@ -103,7 +101,6 @@
 		{"min":0, "max":1, "from":[30,31,32], "appliesTo":[503,504,511]},
 
 		{"min":0, "max":3, "from":[33], "appliesTo":[503]},
-		{"min":0, "max":1, "from":[34], "appliesTo":[504,510]},
 
 		{"min":1, "max":1, "from":[51,50], "appliesTo":[522]}
 	]

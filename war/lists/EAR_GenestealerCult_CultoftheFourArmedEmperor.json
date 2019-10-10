@@ -6,7 +6,7 @@
 
 
 		{"name":"Cult Company Formations", "formations": [
-			{ "id":500, "name":"Nexus Brood", "units":"Genestealer Patriarch.", "pts":300, "upgrades":[22,23, 24, 41]},
+			{ "id":500, "name":"Nexus Brood", "units":"Genestealer Patriarch.", "pts":350, "upgrades":[22,23, 24, 41]},
 			{ "id":502, "name":"Cult Company", "pts":275, "units":"Hybrid Primus", "upgrades":[13, 20,21, 27,29, 25] }
 		]},
 
