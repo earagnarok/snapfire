@@ -5,28 +5,28 @@
 	"sections":[
 
 
-		{"name":"Cult Host Formations", "formations": [
-			{ "id":500, "name":"Patriarch Host", "units":"Patriarch Brood Coven, 4 Hybrid Acolytes.", "pts":300, "upgrades":[22, 41]},
-			{ "id":502, "name":"Cult Company", "pts":250, "units":"Cult Primus", "upgrades":[13,20,21,26,27,25] }
+		{"name":"Cult Company Formations", "formations": [
+			{ "id":500, "name":"Nexus Brood", "units":"Genestealer Patriarch.", "pts":300, "upgrades":[22,23, 24, 41]},
+			{ "id":502, "name":"Cult Company", "pts":275, "units":"Hybrid Primus", "upgrades":[13, 20,21, 27,29, 25] }
 		]},
 
-		{"name":"Cult Vanguard Formations (Max 1 for each Cult Host Formation)", "formations": [
+		{"name":"Coven Vanguard Formations (Max 1 for each Cult Company Formation)", "formations": [
 			{ "id":510, "name":"Genestealer Brood", "pts":175,  "units":"Broodlord", "upgrades":[] },
-			{ "id":501, "name":"Hybrid Brood", "pts":175, "units":"4 Hybrid Acolytes, 2 Aberrants", "upgrades":[] },
-			{ "id":511, "name":"Jackals", "pts":200,"units":"6 Jackals", "upgrades":[]},
-			{ "id":512, "name":"Ridgerunners", "pts":200, "units":"6 Ridgerunners", "upgrades":[]}
+			{ "id":501, "name":"Hybrid Brood", "pts":175, "units":"6 Hybrid Acolytes", "upgrades":[19, 24, 41] },
+			{ "id":511, "name":"Biker Brood", "pts":175,"units":"6 Coven Bikers", "upgrades":[24]},
+			{ "id":512, "name":"Recon Brood", "pts":175, "units":"5 Coven Ridgerunners", "upgrades":[24]}
 		]},
 
-		{"name":"Cult Ambush Formations (Max 1 for each Cult Vanguard Formation)", "formations": [
-			{ "id":520, "name":"Lictors", "pts":250, "units":"5 Cult Lictors", "upgrades":[]},
-			{ "id":521, "name":"Hybrid Metamorphs", "pts":175, "units":"6 Hybrid Metamorphs", "upgrades":[]}
+		{"name":"Coven Ambush Formations (Max 1 for each Coven Vanguard Formation)", "formations": [
+			{ "id":520, "name":"Lictor Swarm", "pts":225, "units":"4 Coven Lictors", "upgrades":[]},
+			{ "id":521, "name":"Metamorph Brood", "pts":175, "units":"6 Hybrid Metamorphs", "upgrades":[]}
 		]},
 
-		{"name":"Cult Support Formations (Max 1 for each Cult Host Formation)", "formations": [
-			{ "id":530, "name":"Cult Super Heavy Tanks", "pts":350, "units":"Cult Locus", "upgrades":[] },
-			{ "id":531, "name":"Cult Leman Russ Platoon", "pts":350, "units":"Cult Locus, 6 Cult Leman Russ",  "upgrades":[25] },
-			{ "id":532, "name":"Cult Basilisk Battery", "pts":325, "units":"Cult Locus, 4 Cult Basilisk", "upgrades":[25] },
-			{ "id":533, "name":"Cult Mechanized Platoon", "pts":250, "units":"Cult Locus, 6 Cult Infantry, 3 Cult Chimeras", "upgrades":[28] }
+		{"name":"Cult Support Formations (Max 1 for each Cult Company Formation)", "formations": [
+			{ "id":530, "name":"Cult Super Heavy Support", "pts":350, "units":"Coven Locus", "upgrades":[] },
+			{ "id":531, "name":"Cult Leman Russ Platoon", "pts":400, "units":"Coven Locus",  "upgrades":[25] },
+			{ "id":532, "name":"Cult Basilisk Battery", "pts":350, "units":"Coven Locus, 4 Cult Basilisk", "upgrades":[25] },
+			{ "id":533, "name":"Cult Mechanized Platoon", "pts":275, "units":"Coven Locus, 6 Cult Infantry, 3 Cult Chimeras", "upgrades":[26,28] }
 
 		]},
 		{"name":"Cult Air Support (Max 20%)", "formations": [
@@ -41,22 +41,30 @@
 
 		{"id":13, "name":"2 Cult Fire Support",					"pts":50},
 
+		{"id":19, "name":"3 Coven Goliaths",					"pts":100},
 		{"id":20, "name":"Cult Land Transporter",				"pts":10},
 		{"id":21, "name":"Cult Chimera",						"pts":25},
-		{"id":22, "name":"4 Cult Limousines, 4 Ridgerunners",	"pts":150},
+		{"id":22, "name":"4 Coven Limousines",					"pts":75},
+		{"id":23, "name":"4 Coven Goliaths",					"pts":150},
 
+		{"id":24, "name":"Coven Technical",						"pts":20},
 		{"id":25, "name":"Cult Hydra",							"pts":50},
 		{"id":26, "name":"3 Cult Griffons",						"pts":50},
-		{"id":27, "name":"3 Cult Leman Russ",					"pts":150},
+		{"id":27, "name":"3 Cult Leman Russ",					"pts":125},
 		{"id":28, "name":"3 Cult Hellhounds",					"pts":75},
+		{"id":29, "name":"3 Cult Leman Russ Demolishers",		"pts":125},
 
 		{"id":30, "name":"Cult Baneblade",						"pts":0},
-		{"id":31, "name":"Cult Shadowsword",					"pts":0},
+		{"id":31, "name":"Cult Shadowsword",					"pts":25},
 
+		{"id":32, "name":"Cult Leman Russ",						"pts":0},
+		{"id":33, "name":"Cult Leman Russ Demolisher",			"pts":0},
+
+		{"id":37, "name":"6 Hybrid Acolytes",					"pts":0},
 		{"id":38, "name":"3 Genestealers",						"pts":75},
-		{"id":39, "name":"3 Genestealers",						"pts":0},
-		{"id":40, "name":"6 Genestealers",						"pts":75},
-		{"id":41, "name":"2 Aberrants",							"pts":75},
+		{"id":39, "name":"3 Genestealers, 3 Hybrid Acolytes",	"pts":0},
+		{"id":40, "name":"6 Genestealers",						"pts":0},
+		{"id":41, "name":"2 Hybrid Aberrants",					"pts":75},
 
 		{"id":50, "name":"6 Genestealers",						"pts":0},
 		{"id":51, "name":"9 Genestealers",						"pts":75}
@@ -66,27 +74,31 @@
 	"formationConstraints":[
 		{"min":1, "max":1, "from":[500]},
 		{"maxPercent": 20.5, "name": "Cult Air Support", "from":[534]},
-		{"max":1, "name":"Cult Vanguard Formations", "from":[501,510,511,512], "forEach":[500,502], "name2":"Cult Host formation"},
-		{"max":1, "name":"Cult Ambush Formations", "from":[520,521], "forEach":[501,510,511,512], "name2":"Cult Vanguard formation"},
-		{"max":1, "name":"Cult Support Formations", "from":[530,531,532,533], "forEach":[500,502], "name2":"Cult Host formation"}
+		{"max":1, "name":"Coven Vanguard Formations", "from":[501,510,511,512], "forEach":[502], "name2":"Cult Company formation"},
+		{"max":1, "name":"Coven Ambush Formations", "from":[520,521], "forEach":[501,510,511,512], "name2":"Coven Vanguard formation"},
+		{"max":1, "name":"Cult Support Formations", "from":[530,531,532,533], "forEach":[502], "name2":"Cult Company formation"}
 	],
 	"upgradeConstraints":[
 		{"max":1, "from":[12]},
 		{"max":1, "from":[13]},
-		{"max":1, "from":[22]},
+		{"max":1, "from":[19]},
+		{"max":1, "from":[22,23]},
+		{"max":2, "from":[24]},
 		{"max":1, "from":[25]},
 		{"max":1, "from":[26]},
-		{"max":1, "from":[27]},
+		{"max":1, "from":[27,29]},
 		{"max":1, "from":[28]},
 		{"max":1, "from":[38]},
 		{"max":1, "from":[41]},
 
-		{"min":1, "max":1, "from":[39,40], "appliesTo":[500]},
+		{"min":1, "max":1, "from":[39,40,37], "appliesTo":[500]},
 
 		{"min":1, "max":1, "from":[10,11], "appliesTo":[502]},
 
 		{"min":1, "max":1, "from":[50,51], "appliesTo":[510]},
 
-		{"min":2, "max":2, "from":[30,31], "appliesTo":[530]}
+		{"min":2, "max":2, "from":[30,31], "appliesTo":[530]},
+
+		{"min":6, "max":6, "from":[32,33], "appliesTo":[531]}
 	]
 }
