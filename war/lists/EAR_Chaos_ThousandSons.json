@@ -13,8 +13,8 @@
 		]},
 		{"name":"THOUSAND SONS ELITE FORMATIONS (Max 1 for each Core formation)", "formations":[
 			{"id":502, "name":"Thousand Sons Terminators", "pts":400, "units": "3 Scarab Occult Terminators", "upgrades":[22]},
-			{"id":503, "name":"Chaos Space Marines", "pts":175, "upgrades":[17,18,19, 20,21, 30, 40]},
-			{"id":504, "name":"Predator Company", "pts":0, "upgrades":[30]},
+			{"id":503, "name":"Thousand Sons Initiates", "pts":175, "upgrades":[17,18,19, 20,21, 30, 40]},
+			{"id":504, "name":"Predator Company", "pts":25, "upgrades":[30]},
 			{"id":507, "name":"Sorcerer Disc Riders", "pts":250, "units": "5 Sorcerer Disc Riders", "upgrades":[] }
 		]},
 		{"name":"CHAOS CULTISTS AND MINOR DAEMON ENGINE FORMATIONS (Max 2 for each Core formation)", "formations":[
@@ -27,7 +27,7 @@
 			{"id":510, "name":"Doomwings",	"pts":175, "units": "3 Doomwings", "upgrades":[]},
 			{"id":511, "name":"Firelords", "pts":25, "upgrades":[50]},
 			{"id":512, "name":"Warphound Pack", "pts":500,  "units": "2 Warphound Titans", "upgrades":[]},
-			{"id":513, "name":"Warp Palace of Tzeench",	"pts":500,  "units": "Warp Palace", "upgrades":[]},
+			{"id":513, "name":"Warp Palace of Tzeench",	"pts":500,  "upgrades":[]},
 			{"id":514, "name":"Chaos Cruiser",		"units": "Devastation Class Cruiser", 	"pts":150, "upgrades":[]}
 			]}
 	],
@@ -36,7 +36,7 @@
 		{"id":11, "name":"Scarab Occult Terminators with Aspiring Sorcerer", 	"pts":0},
 		{"id":12, "name":"Rubric Marines with Exalted Sorcerer", 				"pts":50},
 		{"id":13, "name":"Scarab Occult Terminators with Exalted Sorcerer", 	"pts":50},
-		{"id":14, "name":"Daemon Prince of Tzeench", 		"pts":100},
+		{"id":14, "name":"Daemon Prince of Tzeench", 							"pts":100},
 		{"id":15, "name":"Sorcerer Disc Rider with Aspiring Sorcerer", 			"pts":0},
 		{"id":16, "name":"Sorcerer Disc Rider with Exalted Sorcerer", 			"pts":50},
 
@@ -95,8 +95,7 @@
 
 		{"min":0, "max":1, "from":[40], "appliesTo":[501,503]},
 
-		{"min":0, "max":1, "from":[41], "appliesTo":[505]},
-		{"min":0, "max":1, "from":[42], "appliesTo":[505]},
+		{"min":0, "max":1, "from":[41,42], "appliesTo":[505]},
 
 		{"min":2, "max":3, "from":[50], "appliesTo":[511]},
 
