@@ -1,6 +1,6 @@
 {
 	"id":"EA-R Slaves to Darkness",
-	"version":"0.9.1",
+	"version":"0.9.2",
 	"notes":
 		["Add one free Lesser Daemon to the Lesser Daemon Pool per Daemonic Pact."],
 		"by":"EA Ragnarok",
@@ -17,7 +17,7 @@
 			{"id":502, "name":"Sentinel Squadron", "pts":100, "units":"4 Sentinels", "upgrades":[]},
 			{"id":503, "name":"Rough Rider Platoon", "pts":150, "units":"6 Rough Riders", "upgrades":[14]},
 			{"id":504, "name":"Artillery Battery", "pts":225, "units":"3 Basilisks", "upgrades":[]},
-			{"id":506, "name":"Super-Heavy Platoon", "pts":175, "upgrades":[]},
+			{"id":506, "name":"Super Heavy Platoon", "pts":175, "upgrades":[]},
 			{"id":507, "name":"Leman Russ Platoon", "pts":350, "upgrades":[]}
 		]},
 		{"name":"SLAVES TO DARKNESS AIR SUPPORT & DARK MECHANICUS ALLIES / / Max 33% / / Army may not Mix Nurgle/Tzeench or Slaanesh/Khorne formations", "formations":[
@@ -28,9 +28,9 @@
 			{"id":511, "name":"Death Wheel of Chaos Undivided", "pts":275, "units":"Death Wheel", "upgrades":[]},
 			{"id":514, "name":"Subjugator of Slaanesh", "units":"Subjugator", "pts":250, "upgrades":[] },
 			{"id":515, "name":"Questor of Slaanesh", "units":"Questor",	"pts":275, "upgrades":[]},
-			{"id":517, "name":"Plague Drones of Nurgle", "pts":275, "units":"7 Greater Plague Drones", "upgrades":[]},
-			{"id":516, "name":"Plague Tower of Nurgle", "units":"Plague Tower", "pts":325, "upgrades":[]},
-			{"id":520, "name":"Daemonic Assault Engines of Khorne",	"pts":300, "units":"6 Daemonic Assault Engines", "upgrades":[]},
+			{"id":517, "name":"Plague Reaper of Nurgle", "pts":200, "upgrades":[]},
+			{"id":516, "name":"Plague Tower of Nurgle", "pts":325, "upgrades":[]},
+			{"id":520, "name":"Daemonic Assault Engines of Khorne",	"pts":275, "units":"6 Daemonic Assault Engines", "upgrades":[]},
 			{"id":521, "name":"Khorne Lord of Battles",	"units":"Lord of Battles", "pts":400, "upgrades":[]},
 			{"id":522, "name":"Silver Towers of Tzeench",	"pts":300, "units":"4 Silver Towers", "upgrades":[]},
 			{"id":523, "name":"Warp Palace of Tzeench", "units":"Warp Palace", "pts":500, "upgrades":[]}

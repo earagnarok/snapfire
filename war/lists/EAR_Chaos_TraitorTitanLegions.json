@@ -28,10 +28,10 @@
 			{"id":542, "name":"HELL-SCOURGES of Slaanesh",			"pts":325, "units": "3 Hell-Scourges",  "upgrades":[]},
 
 			{"id":550, "name":"KNIGHTS of Nurgle",			"pts":300,  "units": "2 Knight-Desecrators",  "upgrades":[]},
-			{"id":551, "name":"DEFILERS of Nurgle",				"pts":225,  "units": "4 Desecrators",   "upgrades":[]},
+			{"id":551, "name":"DEFILERS of Nurgle",				"pts":250,  "units": "4 Desecrators",   "upgrades":[]},
 
 			{"id":560, "name":"KNIGHTS of Khorne",			"pts":275, "units": "2 Knight-Rampagers", "upgrades":[]},
-			{"id":561, "name":"DEFILERS of Khorne",			"pts":225, "units": "5 Slaughterfiends", "upgrades":[]},
+			{"id":561, "name":"DEFILERS of Khorne",			"pts":225, "units": "4 Slaughterfiends", "upgrades":[]},
 
 			{"id":570, "name":"KNIGHTS of Tzeench",			"pts":275,  "units": "2 Knight-Despoilers", "upgrades":[]},
 			{"id":571, "name":"DEFILERS of Tzeench",				"pts":250, "units": "4 Decievers",  "upgrades":[]},
