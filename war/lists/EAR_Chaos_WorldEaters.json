@@ -11,13 +11,13 @@
             {"id": 521, "name": "World Eater Retinue", "pts": 300, "upgrades": [26,25,27,22,30]}
        ]},
 
-      {"name": "WORLD EATERS ELITE FORMATIONS (Max one for each World Eater Retinue)", "formations": [
+      {"name": "WORLD EATERS ELITE FORMATIONS (Max 1 for each World Eater Retinue)", "formations": [
             {"id": 531, "name": "Juggernauts", "pts": 375, "units": "8 Juggernaut Riders, Daemonic Pact", "upgrades": [26,27]},
             {"id": 532, "name": "World Eater Terminators", "pts": 375, "upgrades": [26,24,22,25,27,39]},
             {"id": 533, "name": "Berzerker Bikes", "pts": 350, "units": "8 Khorne Berzerker Assault Bikes", "upgrades": [27,25]}
        ]},
 
-      {"name": "WORLD EATERS SUPPORT FORMATIONS (Max two for each World Eater Retinue)", "formations": [
+      {"name": "WORLD EATERS SUPPORT FORMATIONS (Max 2 for each World Eater Retinue)", "formations": [
             {"id": 534, "name": "World Eater Renegades", "pts": 175, "units": "Daemonic Pact", "upgrades": [30,33]},
             {"id": 535, "name": "Predator Company", "pts": 200,  "upgrades": [30]},
             {"id": 541, "name": "Khorne Defilers", "pts": 225, "units": "4 Slaughterfiends", "upgrades": []},
