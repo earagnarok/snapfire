@@ -6,7 +6,7 @@
 	"sections":[
 
 		{"name":"Explorator Fleet Core Formations", "formations": [
-			{ "id":501, "name":"Secutarii Guard", "pts":200, "units":"7 Secutarii", "upgrades":[64,63,61,69] },
+			{ "id":501, "name":"Sagitarii Guard", "pts":200, "units":"7 Sagitarii", "upgrades":[64,63,61,69] },
 			{ "id":502, "name":"Hypaspist Maniple", "pts":175, "units":"7 Hypaspist", "upgrades":[64,63,61,69] }
 		]},
 		{"name":"Explorator Fleet Support Formations", "formations": [
@@ -91,7 +91,7 @@
 		{"id":57, "name":"Onager Dunecrawler - Eradication Beamer",				"pts":50},
 		{"id":58, "name":"Questorius Knight-Styrix",						"pts":0},
 		{"id":59, "name":"Questorius Knight-Magaera",						"pts":0},
-		{"id":60, "name":"Secutarii Peltasts",							"pts":0},
+		{"id":60, "name":"Sagitarii Peltasts",							"pts":0},
 		{"id":91, "name":"Ordinatus Minorus - Bellacosa Volcano cannon",			"pts":0},
 		{"id":92, "name":"Ordinatus Minorus - Ulator Sonic Destroyer",				"pts":0},
 		{"id":93, "name":"Ordinatus Majoris - Sonic Disruptor",					"pts":0},

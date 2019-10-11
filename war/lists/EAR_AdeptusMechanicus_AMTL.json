@@ -1,6 +1,6 @@
 {
 "id":"EA-R Collegia Titanica",
-"version":"1.0.1",
+"version":"1.0.0",
 "by":"EA-Ragnarok",
 "sections":[
 {
@@ -24,11 +24,11 @@
 
 {"name":"ADEPTUS MECHANICUS ALLIES (Max 33%. Max 1 Lysander Fighter for each Warmonger Titan or Reaver Carapace Landing Pad)",
 "formations":[
-        {"id":530,"name":"Skitarii Maniple","pts":225,"units":"9 Hypaspist, 1 Magos","upgrades":[15]},
-		{"id":531,"name":"Kastelan Maniple","pts":50,"units":"1 Tech-Priest", "upgrades":[14]},
-		{"id":532,"name":"Avenger Squadron","pts":175,"units":"2 Avenger Fighter-Bombers","upgrades":[]},
-        {"id":533,"name":"Lysander Fighter","pts":75,"units":"1 Lysander Fighter","upgrades":[]},
-		{"id":534,"name":"Orbital Support","pts":175,"units":"1 Ark Mechanicus Battleship","upgrades":[]},
+        {"id":530,"name":"Skitarii Maniple","pts":225,"units":"9 Hypaspist, Magos","upgrades":[15]},
+		{"id":531,"name":"Kastelan Maniple","pts":25,"units":"Tech-Priest", "upgrades":[14]},
+		{"id":532,"name":"Avenger Squadron","pts":200,"units":"2 Avenger Strike Fighters","upgrades":[]},
+        {"id":533,"name":"Lysander Fighter","pts":75, ,"upgrades":[]},
+		{"id":534,"name":"Orbital Support","pts":175,"units":"Ark Mechanicus Battleship","upgrades":[]},
         {"id":535,"name":"Minoris","pts":50, "upgrades":[130,131,132,133,134]}
 ]}
 
@@ -96,7 +96,7 @@
 		{"id":104, "name":"2 Knight-Warden (Gatling Cannon, Ironstorm Missiles, Hvy Stubber, Chainsword)",											     "pts":0},
 		{"id":105, "name":"2 Knight-Preceptor (Las-Impulsor, Hvy Stubber, Gauntlet)",											        				"pts":0},
 
-    	{"id":130, "name":"Ordinatus Minoris (Tri-Twin Hydra Autocannons)",	"pts":125},
+    	{"id":130, "name":"Ordinatus Minoris (Hydra Flak Array)",	"pts":125},
 		{"id":131, "name":"Ordinatus Minoris (Titan Plasma Cannon)",			"pts":125},
 		{"id":132, "name":"Ordinatus Minoris (Turbo-laser Destructor)",		"pts":125},
 		{"id":133, "name":"Ordinatus Minoris (Apocalypse Missile Launcher)",	"pts":125},
