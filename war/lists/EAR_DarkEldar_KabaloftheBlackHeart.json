@@ -19,7 +19,7 @@
 			{"id":502, "name":"Talos Swarm", "pts":225, "upgrades":[]},
 			{"id":503, "name":"Wych Cult", "pts":150,  "units":"Succubus",  "upgrades":[62,70,71,72,1]},
 			{"id":504, "name":"Hellion Murder", "pts":200, "units":"6 Hellions", "upgrades":[18,62]},
-			{"id":505, "name":"Reaver Gang", "pts":50, "upgrades":[18,83,1]},
+			{"id":505, "name":"Reaver Gang", "pts":50, "upgrades":[83,1]},
 			{"id":506, "name":"Mandrake Throng", "pts":200, "units":"6 Mandrakes", "upgrades":[]},
 			{"id":507, "name":"Scourge Flight", "pts":250, "units":"6 Scourges", "upgrades":[]},
 			{"id":508, "name":"Heavy Barge", "pts":250, "units":"Vessel of Pain", "upgrades":[]}

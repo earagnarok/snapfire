@@ -15,7 +15,7 @@
 		{"name":"WRAITHKIND PARTISANS (Max 1 Wraithkind Partisans for each Wraithkind Kabal)", "formations":[
 			{"id":503, "name":"Wych Cult", "pts":150,  "units":"Succubus",  "upgrades":[62,1]},
 			{"id":504, "name":"Hellion Murder", "pts":200,  "units":"6 Hellions", "upgrades":[62]},
-			{"id":505, "name":"Reaver Gang", "pts":50, "upgrades":[18,83,1]},
+			{"id":505, "name":"Reaver Gang", "pts":50, "upgrades":[83,1]},
 			{"id":507, "name":"Scourge Flight", "pts":250, "units":"6 Scourges", "upgrades":[]},
 			{"id":508, "name":"Heavy Barge", "pts":250, "units":"Vessel of Pain", "upgrades":[]}
 		]},

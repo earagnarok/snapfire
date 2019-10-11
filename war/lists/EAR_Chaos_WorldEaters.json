@@ -20,7 +20,7 @@
       {"name": "WORLD EATERS SUPPORT FORMATIONS (Max 2 for each World Eater Retinue)", "formations": [
             {"id": 534, "name": "World Eater Renegades", "pts": 175, "units": "Daemonic Pact", "upgrades": [30,33]},
             {"id": 535, "name": "Predator Company", "pts": 200,  "upgrades": [30]},
-            {"id": 541, "name": "Khorne Defilers", "pts": 225, "units": "4 Slaughterfiends", "upgrades": []},
+            {"id": 541, "name": "Slaughterfiends", "pts": 25, "upgrades": [35]},
             {"id": 542, "name": "Daemonic Assault Engines", "pts": 275, "units": "6 Daemonic Assault Engines", "upgrades": []},
             {"id": 544, "name": "Doomblasters", "pts": 225, "units": "4 Doomblasters", "upgrades": []},
             {"id": 543, "name": "Hellfire Cannons", "pts": 225, "units": "4 Hellfire Cannons", "upgrades": []},
@@ -57,7 +57,7 @@
       {"id": 33, "name": "2 Chaos Predators", "pts": 75},
 
       {"id": 34, "name": "Greater Brass Scorpion", "pts": 175},
-      {"id": 35, "name": "Slaughterfiend", "pts": 35},
+      {"id": 35, "name": "Slaughterfiend", "pts": 50},
       {"id": 37, "name": "Skullseeker Terminators", "pts": 0},
       {"id": 38, "name": "Mutilators", "pts": 25},
       {"id": 39, "name": "Dreadclaws", "pts": 0},
@@ -102,7 +102,8 @@
       {"min": 1, "max": 1, "from": [15], "appliesTo": [533]},
       {"min": 1, "max": 1, "from": [28,29], "appliesTo": [534]},
       {"min": 1, "max": 1, "from": [20,21], "appliesTo": [534]},
-      {"min": 1, "max": 1, "from": [31,32], "appliesTo": [535]}
+      {"min": 1, "max": 1, "from": [31,32], "appliesTo": [535]},
+      {"min": 4, "max": 7, "from": [35], "appliesTo": [541]}
 
    ]
 }
