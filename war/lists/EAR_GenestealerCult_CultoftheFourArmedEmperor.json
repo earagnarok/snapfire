@@ -7,7 +7,7 @@
 
 		{"name":"Cult Company Formations", "formations": [
 			{ "id":500, "name":"Nexus Brood", "units":"Genestealer Patriarch.", "pts":350, "upgrades":[22,23, 24, 41]},
-			{ "id":502, "name":"Cult Company", "pts":275, "units":"Hybrid Primus", "upgrades":[13, 20,21, 27,29, 25] }
+			{ "id":502, "name":"Cult Company", "pts":275, "units":"Hybrid Primus", "upgrades":[13, 20,21, 27, 25] }
 		]},
 
 		{"name":"Coven Vanguard Formations (Max 1 for each Cult Company Formation)", "formations": [
@@ -23,10 +23,11 @@
 		]},
 
 		{"name":"Cult Support Formations (Max 1 for each Cult Company Formation)", "formations": [
-			{ "id":530, "name":"Cult Super Heavy Support", "pts":350, "units":"Coven Locus", "upgrades":[] },
-			{ "id":531, "name":"Cult Leman Russ Platoon", "pts":400, "units":"Coven Locus",  "upgrades":[25] },
-			{ "id":532, "name":"Cult Basilisk Battery", "pts":350, "units":"Coven Locus, 4 Cult Basilisk", "upgrades":[25] },
-			{ "id":533, "name":"Cult Mechanized Platoon", "pts":275, "units":"Coven Locus, 6 Cult Infantry, 3 Cult Chimeras", "upgrades":[26,28] }
+			{ "id":530, "name":"Cult Super Heavy Platoon", "pts":200, "units":"Coven Locus", "upgrades":[] },
+			{ "id":531, "name":"Cult Leman Russ Platoon", "pts":400, "units":"Coven Locus, 6 Cult Leman Russ",  "upgrades":[25] },
+			{ "id":532, "name":"Cult Basilisk Battery", "pts":250, "units":"Coven Locus, 3 Cult Basilisks", "upgrades":[]},
+			{ "id":533, "name":"Cult Mechanized Platoon", "pts":275, "units":"Coven Locus, 6 Cult Infantry, 3 Cult Chimeras", "upgrades":[]},
+			{ "id":535, "name":"Cult Flak Battery", "pts":175, "units":"Coven Locus, 3 Cult Hydras", "upgrades":[]}
 
 		]},
 		{"name":"Cult Air Support (Max 20%)", "formations": [
@@ -57,9 +58,6 @@
 		{"id":30, "name":"Cult Baneblade",						"pts":0},
 		{"id":31, "name":"Cult Shadowsword",					"pts":25},
 
-		{"id":32, "name":"Cult Leman Russ",						"pts":0},
-		{"id":33, "name":"Cult Leman Russ Demolisher",			"pts":0},
-
 		{"id":37, "name":"6 Hybrid Acolytes",					"pts":0},
 		{"id":38, "name":"3 Genestealers",						"pts":75},
 		{"id":39, "name":"3 Genestealers, 3 Hybrid Acolytes",	"pts":0},
@@ -76,7 +74,7 @@
 		{"maxPercent": 20.5, "name": "Cult Air Support", "from":[534]},
 		{"max":1, "name":"Coven Vanguard Formations", "from":[501,510,511,512], "forEach":[502], "name2":"Cult Company formation"},
 		{"max":1, "name":"Coven Ambush Formations", "from":[520,521], "forEach":[501,510,511,512], "name2":"Coven Vanguard formation"},
-		{"max":1, "name":"Cult Support Formations", "from":[530,531,532,533], "forEach":[502], "name2":"Cult Company formation"}
+		{"max":1, "name":"Cult Support Formations", "from":[530,531,532,533,535], "forEach":[502], "name2":"Cult Company formation"}
 	],
 	"upgradeConstraints":[
 		{"max":1, "from":[12]},
@@ -97,8 +95,6 @@
 
 		{"min":1, "max":1, "from":[50,51], "appliesTo":[510]},
 
-		{"min":2, "max":2, "from":[30,31], "appliesTo":[530]},
-
-		{"min":6, "max":6, "from":[32,33], "appliesTo":[531]}
+		{"min":1, "max":1, "from":[30,31], "appliesTo":[530]}
 	]
 }
