@@ -24,7 +24,7 @@
 
 			{"id":512, "name":"Dune Crawlers",		"pts":225,  "upgrades":[]},
 
-            {"id":514, "name":"Avenger Squadron",				"pts":200,  "upgrades":[], "units":"2 Avenger Strike Fighters"},
+            {"id":514, "name":"Avenger Squadron",				"pts":175,  "upgrades":[], "units":"2 Avenger Strike Fighters"},
 
 			{"id":520, "name":"Warhound Pack",	"pts":500, "upgrades":[13]},
 

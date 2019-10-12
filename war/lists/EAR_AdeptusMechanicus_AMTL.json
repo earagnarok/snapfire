@@ -26,7 +26,7 @@
 "formations":[
         {"id":530,"name":"Skitarii Maniple","pts":225,"units":"9 Hypaspist, Magos","upgrades":[15]},
 		{"id":531,"name":"Kastelan Maniple","pts":25,"units":"Tech-Priest", "upgrades":[14]},
-		{"id":532,"name":"Avenger Squadron","pts":200,"units":"2 Avenger Strike Fighters","upgrades":[]},
+		{"id":532,"name":"Avenger Squadron","pts":175,"units":"2 Avenger Strike Fighters","upgrades":[]},
         {"id":533,"name":"Lysander Fighter","pts":75, ,"upgrades":[]},
 		{"id":534,"name":"Orbital Support","pts":175,"units":"Ark Mechanicus Battleship","upgrades":[]},
         {"id":535,"name":"Minoris","pts":50, "upgrades":[130,131,132,133,134]}
@@ -100,7 +100,6 @@
 		{"id":131, "name":"Ordinatus Minoris (Titan Plasma Cannon)",			"pts":125},
 		{"id":132, "name":"Ordinatus Minoris (Turbo-laser Destructor)",		"pts":125},
 		{"id":133, "name":"Ordinatus Minoris (Apocalypse Missile Launcher)",	"pts":125},
-		{"id":134, "name":"Ordinatus Minoris (Corvus Assault Pod)",	"pts":125},
 
 		{"id":150, "name":"2 Warhound Titans (Standard Configuration)",		"pts":0},
 		{"id":151, "name":"2 Warhound Titans (Support Configuration)",		"pts":0},
@@ -143,8 +142,8 @@
 
         {"min":1,"max":1,"from":[100,101,102,103,104,105],"appliesTo":[520]},
 
-        {"min":5,"max":8,"from":[14],"appliesTo":[531]},
+        {"min":6,"max":8,"from":[14],"appliesTo":[531]},
 
-        {"min":1,"max":2,"from":[130,131,132,133,134],"appliesTo":[535]}
+        {"min":1,"max":2,"from":[130,131,132,133],"appliesTo":[535]}
 ]
 }
