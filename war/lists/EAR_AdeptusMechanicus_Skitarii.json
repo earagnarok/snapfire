@@ -8,16 +8,16 @@
 			{"id":501, "name":"Hypaspist Maniple",	"pts":225, "upgrades":[102,103,104,107, 130,131,132,133,134]}
 		]},
 		{"name":"Skitarii Line Formations (Max 3 for each Core Formation)", "formations":[
-			{"id":510, "name":"Sagitarii Maniple",			"pts":150,	 "upgrades":[107,108]},
+			{"id":510, "name":"Sagitarii Maniple",			"pts":150,	 "upgrades":[107,108,109]},
 			{"id":514, "name":"Kastelan Maniple",		"pts":150, "units":"5 Kastelan Robots, Tech-Priest", "upgrades":[105]},
 			{"id":512, "name":"Praetorian Maniple",		"pts":200, "units":"5 Praetorians, Tech-Priest", "upgrades":[105]},
 			{"id":511, "name":"Conqueror Maniple",		"pts":225, "units":"6 Conqueror Robots, Tech-Priest", "upgrades":[]},
 			{"id":513, "name":"Cataphractii",		"pts":350, "units":"6 Leman Russ Tanks", "upgrades":[107]},
 			{"id":515, "name":"Minoris Cohort",		"pts":50, "upgrades":[130,131,132,133,134,135,136,137,138]},
-			{"id":516, "name":"Ordinatus Majoris",		"pts":450, "upgrades":[]}
+			{"id":516, "name":"Ordinatus Majoris",		"pts":425, "upgrades":[]}
 		]},
 
-		{"name":"Adeptus Mechanicus Aircraft, Spacecraft and Titan Support (Max 1 Lysander Fighter per Ordinatus Minoris Landing Pad)", "formations":[
+		{"name":"Adeptus Mechanicus Navy, Collegia Titanica and Knightworld Support (Max 1 Lysander Fighter per Ordinatus Minoris Landing Pad)", "formations":[
 		    {"id":519,"name":"Protector Household", "units":"5 Knight-Protectors", "pts":450, "upgrades":[]},
 
 		    {"id":520,"name":"Warhound Pack","pts":500, "upgrades":[]},
@@ -37,14 +37,16 @@
 		{"id":101, "name":"Arch-Magos",					"pts":50},
 
 		{"id":102, "name":"5 Chimeras",				"pts":125},
-		{"id":103, "name":"5 Chimedons",			"pts":175},
+		{"id":103, "name":"5 Chimedons",			"pts":125},
 		{"id":104, "name":"Gorgon",					"pts":100},
 
 		{"id":105, "name":"2 Adsecularis",			"pts":25},
 
-		{"id":108, "name":"Chimera",				"pts":25},
-
 		{"id":107, "name":"Hydra",			"pts":50},
+
+		{"id":108, "name":"Chimera",				"pts":25},
+		{"id":109, "name":"Chimedon",				"pts":25},
+
 
 		{"id":110, "name":"9 Hypaspists",				"pts":0},
 		{"id":111, "name":"6 Hypaspists, 3 Rapiers",	"pts":0},
@@ -93,12 +95,12 @@
  		{"max":1, "from":[107]},
 
 		{"max":1, "min":1, "from":[110,111], "appliesTo":[501]},
-   		{"max":1, "min":0, "from":[104,102,103], "appliesTo":[501]},
+   		{"max":1, "min":0, "from":[104,102,103,134], "appliesTo":[501]},
    		{"max":1, "min":1, "from":[100,101], "appliesTo":[501]},
    		{"max":1, "min":0, "from":[130,131,132,133,134], "appliesTo":[501]},
 
 		{"max":1, "min":1, "from":[112,113], "appliesTo":[510]},
-  		{"max":3, "from":[108], "appliesTo":[510]},
+  		{"max":3, "from":[108,109], "appliesTo":[510]},
 
 
 		{"min":2, "max":3, "from":[130,131,132,133,134,135,136,137,138], "appliesTo":[515]},
