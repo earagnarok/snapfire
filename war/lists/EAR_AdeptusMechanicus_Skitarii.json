@@ -11,7 +11,7 @@
 			{"id":510, "name":"Sagitarii Maniple",			"pts":150,	 "upgrades":[107,108,109]},
 			{"id":514, "name":"Kastelan Maniple",		"pts":150, "units":"5 Kastelan Robots, Tech-Priest", "upgrades":[105]},
 			{"id":512, "name":"Praetorian Maniple",		"pts":200, "units":"5 Praetorians, Tech-Priest", "upgrades":[105]},
-			{"id":511, "name":"Conqueror Maniple",		"pts":225, "units":"6 Conqueror Robots, Tech-Priest", "upgrades":[]},
+			{"id":511, "name":"Conqueror Maniple",		"pts":200, "units":"5 Conqueror Robots, Tech-Priest", "upgrades":[105]},
 			{"id":513, "name":"Cataphractii",		"pts":350, "units":"6 Leman Russ Tanks", "upgrades":[107]},
 			{"id":515, "name":"Minoris Cohort",		"pts":50, "upgrades":[130,131,132,133,134,135,136,137,138]},
 			{"id":516, "name":"Ordinatus Majoris",		"pts":425, "upgrades":[]}
