@@ -7,7 +7,7 @@
 
 		{"name":"Cult Company Formations", "formations": [
 			{ "id":500, "name":"Nexus Brood", "units":"Genestealer Patriarch.", "pts":350, "upgrades":[22,23, 24, 41]},
-			{ "id":502, "name":"Cult Company", "pts":275, "units":"Hybrid Primus", "upgrades":[13, 20,21, 26, 27, 28, 25] }
+			{ "id":502, "name":"Cult Company", "pts":275, "units":"Hybrid Primus", "upgrades":[13, 20,21, 26, 27,32, 28, 25] }
 		]},
 
 		{"name":"Coven Vanguard Formations (Max 1 for each Cult Core Formation)", "formations": [
@@ -24,7 +24,7 @@
 
 		{"name":"Cult Support Formations (Max 1 for each Cult Core Formation)", "formations": [
 			{ "id":530, "name":"Cult Super Heavy Platoon", "pts":200, "upgrades":[] },
-			{ "id":531, "name":"Cult Leman Russ Platoon", "pts":400, "units":"Coven Locus, 6 Cult Leman Russ",  "upgrades":[25] },
+			{ "id":531, "name":"Cult Leman Russ Platoon", "pts":100, "units":"Coven Locus",  "upgrades":[25] },
 			{ "id":532, "name":"Cult Basilisk Battery", "pts":250, "units":"Coven Locus, 3 Cult Basilisks", "upgrades":[]},
 			{ "id":533, "name":"Cult Mechanized Squadron", "pts":225, "units":"Coven Locus, 4 Cult Infantry, 2 Cult Chimeras", "upgrades":[26, 28]},
 			{ "id":535, "name":"Cult Flak Battery", "pts":175, "units":"Coven Locus, 3 Cult Hydras", "upgrades":[]}
@@ -58,6 +58,8 @@
 		{"id":30, "name":"Cult Baneblade",						"pts":0},
 		{"id":31, "name":"Cult Shadowsword",					"pts":25},
 
+		{"id":32, "name":"Cult Leman Russ Demolisher",			"pts":50},
+
 		{"id":37, "name":"6 Hybrid Acolytes",					"pts":0},
 		{"id":38, "name":"3 Genestealers",						"pts":75},
 		{"id":39, "name":"3 Genestealers, 3 Hybrid Acolytes",	"pts":0},
@@ -84,7 +86,7 @@
 		{"max":2, "from":[24]},
 		{"max":1, "from":[25]},
 		{"max":1, "from":[26]},
-		{"max":3, "from":[27]},
+		{"max":3, "from":[27,32], "appliesTo":[502]},
 		{"max":2, "from":[28]},
 		{"max":1, "from":[38]},
 		{"max":1, "from":[41]},
@@ -95,6 +97,8 @@
 
 		{"min":1, "max":1, "from":[50,51], "appliesTo":[510]},
 
-		{"min":1, "max":1, "from":[30,29,31], "appliesTo":[530]}
+		{"min":1, "max":1, "from":[30,29,31], "appliesTo":[530]},
+
+		{"min":6, "max":6, "from":[27,32], "appliesTo":[531]}
 	]
 }
