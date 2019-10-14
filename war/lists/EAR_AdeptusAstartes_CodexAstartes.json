@@ -1,5 +1,5 @@
 {
-	"id":"EAR Codex Astartes",
+	"id":"EA-R Codex Astartes",
 	"version":"1.0.0",
 	"by":"EA-Ragnarok",
 
@@ -12,7 +12,7 @@
 			{"id":504, "name":"Tacticals",				"pts":275, "units":"6 Tacticals plus transport", "upgrades":[10,11,12,13, 27,28,29,30, 31,32, 33, 34,35, 37,38]},
 			{"id":505, "name":"Devastators",			"pts":250, "units":"4 Devastators plus transport", "upgrades":[10,11,12,13, 27,28,29,30, 31,32, 33, 34,35, 37,38]},
 			{"id":510, "name":"Land Speeders",			"pts":200, "upgrades":[10,11,12,13]},
-			{"id":511, "name":"Landing Craft",			"pts":350, "units":"1 Landing Craft", "upgrades":[]},
+			{"id":511, "name":"Landing Craft",			"pts":350, "upgrades":[]},
 			{"id":512, "name":"Scouts",			"pts":150, "upgrades":[27,28,29,30, 34,35]},
 			{"id":513, "name":"Orbital Support",			"pts":0, "upgrades":[]},
 			{"id":514, "name":"Terminators",		"pts":350, "units":"4 Terminators", "upgrades":[10,11,12,13, 33]},
@@ -22,9 +22,9 @@
 
 		{"name":"CODEX ASTARTES AIRCRAFT AND COLLEGIA TITANICA ALLIES (Max 33%)", "formations":[
 			{"id":520, "name": "Storm Talon Squadron", "units":"2 Storm Talon Gunships",		"pts":200, "upgrades":[]},
-			{"id":521, "name": "Thunderhawk",	"units":"Thunderhawk Gunship",				"pts":200, "upgrades":[]},
+			{"id":521, "name": "Thunderhawk Gunship",			"pts":200, "upgrades":[]},
 			{"id":522, "name": "Warhound Pack", "units":"2 Warhound Scout Titans",				"pts":500, "upgrades":[]},
-			{"id":523, "name": "Reaver Titan", "units":"1 Reaver Titan", 						"pts":600, "upgrades":[]}
+			{"id":523, "name": "Reaver Titan", 						"pts":600, "upgrades":[]}
 		]}
 	],
 	"upgrades":[
@@ -48,8 +48,8 @@
 
 		{"id":27, "name":"Dreadnought (ML/TLL)", 					"pts":50},
 		{"id":28, "name":"Dreadnought (AC/PF)", 					"pts":50},
-		{"id":29, "name":"2x Dreadnought (ML/TLL)", 				"pts":75},
-		{"id":30, "name":"2x Dreadnought (AC/PF)", 					"pts":75},
+		{"id":29, "name":"2 Dreadnoughts (ML/TLL)", 				"pts":75},
+		{"id":30, "name":"2 Dreadnoughts (AC/PF)", 					"pts":75},
 
 		{"id":31, "name":"Hunter", 						"pts":75},
 		{"id":32, "name":"Stalker", 						"pts":50},
@@ -60,7 +60,7 @@
 		{"id":35, "name":"Razorback (Twin Lascannons)",						"pts":25},
 
 		{"id":37, "name":"Vindicator",						"pts":50},
-		{"id":38, "name":"2x Vindicator",						"pts":75},
+		{"id":38, "name":"2 Vindicators",						"pts":75},
 
 		{"id":39, "name":"4 Vindicators",						"pts":0},
 
