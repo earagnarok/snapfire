@@ -25,9 +25,9 @@
 {"name":"ADEPTUS MECHANICUS ALLIES (Max 33%. Max 1 Lysander Fighter for each Warmonger Titan or Reaver Carapace Landing Pad)",
 "formations":[
         {"id":530,"name":"Skitarii Maniple","pts":225,"units":"9 Hypaspist, Magos","upgrades":[15]},
-		{"id":531,"name":"Kastelan Maniple","pts":25,"units":"Tech-Priest", "upgrades":[14]},
+		{"id":531,"name":"Kastelan Maniple","pts":50,"units":"Tech-Priest", "upgrades":[14]},
 		{"id":532,"name":"Avenger Squadron","pts":175,"units":"2 Avenger Strike Fighters","upgrades":[]},
-        {"id":533,"name":"Lysander Fighter","pts":75, ,"upgrades":[]},
+        {"id":533,"name":"Lysander Fighter","pts":75 ,"upgrades":[]},
 		{"id":534,"name":"Orbital Support","pts":175,"units":"Ark Mechanicus Battleship","upgrades":[]},
         {"id":535,"name":"Minoris","pts":50, "upgrades":[130,131,132,133,134]}
 ]}
@@ -38,7 +38,7 @@
         {"id":11,"name":"Veteran Princeps","pts":25},
         {"id":13,"name":"Independent: Warhound Pack acts as two separate formations during the battle","pts":50},
         {"id":14,"name":"Kastelan Robot","pts":25},
-        {"id":15,"name":"Gorgon","pts":75},
+        {"id":15,"name":"Gorgon","pts":100},
 
 	    {"id":20,"name":"Imperator Titan","pts":0},
 	    {"id":21,"name":"Warmonger Titan","pts":0},
@@ -142,7 +142,7 @@
 
         {"min":1,"max":1,"from":[100,101,102,103,104,105],"appliesTo":[520]},
 
-        {"min":6,"max":8,"from":[14],"appliesTo":[531]},
+        {"min":4,"max":7,"from":[14],"appliesTo":[531]},
 
         {"min":1,"max":2,"from":[130,131,132,133],"appliesTo":[535]}
 ]

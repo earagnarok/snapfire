@@ -22,7 +22,7 @@
             {"id": 520, "name": "Adeptus Arbites Company", "pts": 225, "units": "8 Arbitrators, 4 Arbites Repressors", "upgrades": []},
             {"id": 521, "name": "Flak Battery", "pts": 150, "units": "3 Hydra", "upgrades": []},
             {"id": 522, "name": "Leman Russ Squadron", "pts": 200, "upgrades": [30]},
-	        {"id": 523, "name": "Motorized Planetary Defence Platoon", "pts": 150, "units": "6 PDF Conscripts, 3 PDF Land Transporters", "upgrades": [30]}
+	        {"id": 523, "name": "Motorized Planetary Defence Platoon", "pts": 150, "units": "6 PDF Conscripts, 3 Land Transporters", "upgrades": [30]}
          ]},
         {"name": "DEATHWATCH NAVY (Max 33%)", "formations": [
             {"id": 529, "name": "Storm Talons", "pts": 200, "units": "2 Storm Talon Gunship", "upgrades": [] },

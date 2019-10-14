@@ -1,6 +1,6 @@
 {
 	"id":"EAR Squats - Wotan Stronghold",
-	"version":"0.7.2",
+	"version":"0.7.3",
 	"notes":[],
 	"by":"EA-Ragnarok",
 	"sections":[
@@ -15,7 +15,7 @@
 			{"id":514, "name":"Light Artillery Battery",		"pts":175, "upgrades":[]},
 			{"id":517, "name":"Thunderfire Battery",		"pts":150,  "units":"3 Squat Thunderfires",  "upgrades":[]},
 			{"id":511, "name":"Gyrokopter Squadron",		"pts":200, "units":"4 Steel Hawk Gyrokopters", "upgrades":[107]},
-			{"id":516, "name":"Kastelan Maniple",		"pts":175,  "units":"5 Kastelan Robots, Squat Tech-Priest", "upgrades":[]}
+			{"id":516, "name":"Kastelan Maniple",		"pts":50,  "units":"Squat Tech-Priest", "upgrades":[124]}
 		]},
 
 		{"name":"Wotan Stronghold War Engines and Flyers (Max 40%)", "formations":[
@@ -43,7 +43,7 @@
 
 		{"id":106, "name":"6 Rapiers",					"pts":0},
 
-		{"id":107, "name":"4 Vultarax Robots",			"pts":75},
+		{"id":107, "name":"4 Vultarax Robots",			"pts":100},
 
 		{"id":108, "name":"Rhino",				"pts":10},
 		{"id":109, "name":"Land Raider",				"pts":50},
@@ -70,7 +70,7 @@
 		{"id":122, "name":"Berserker Battle Car, unit of Squat Berserkers",                     	"pts":75},
 		{"id":123, "name":"Bomb Battle Car",	                 		"pts":125},
 
-		{"id":124, "name":"Gun Emplacements",					"pts":25}
+		{"id":124, "name":"Kastelan Robot",					"pts":25}
 
 	],
 	"formationConstraints":[
@@ -95,6 +95,8 @@
 		{"max":6, "min":6, "from":[112,113], "appliesTo":[510]},
 
    		{"max":1, "min":1, "from":[115,114,106], "appliesTo":[514]},
+
+ 		{"max":7, "min":4, "from":[124], "appliesTo":[516]},
 
         {"max":1, "from":[123], "appliesTo":[525]},
    		{"max":4, "min":2, "from":[120,121,122,123], "appliesTo":[525]}
