@@ -10,7 +10,7 @@
 			{"id":502, "name":"Sky Claw Assault Pack",				"pts":150, "units":"4 Sky Claw Assaults", "upgrades":[12,13]}
 		]},
 		{"name":"SPACE WOLVES SUPPORT PACKS (Max 2 Support Packs for each Core Pack)", "formations":[
-			{"id":520, "name":"Wolf Guard Terminator Pack",		"pts":325,   "units":"plus transport", "upgrades":[12,13, 27,28,29,30, 33]},
+			{"id":520, "name":"Wolf Guard Terminator Pack",		"pts":375,   "units":"plus transport", "upgrades":[12,13, 27,28,29,30, 33]},
 			{"id":521, "name":"Swift Claw Recon Pack", 			"pts":225,  "units":"3 Swift Claw Assault Bikes, 3 Land Speeders", "upgrades":[12,13]},
 			{"id":522, "name":"Wolf Scout Recon Pack",			"pts":150,  "units":"4 Wolf Scout Veterans plus transport", "upgrades":[12,13, 34,35]},
 			{"id":523, "name":"Land Raider Pack",			"pts":250,  "units":"3 Land Raiders", "upgrades":[31,32, 40]},
@@ -85,6 +85,12 @@
 		{"min":0, "max":1, "from":[27,28,29,30]},
 		{"min":0, "max":1, "from":[31,32]},
 		{"min":0, "max":1, "from":[40]},
+
+		{"min":0, "max":3, "from":[33], "appliesTo":[500]},
+		{"min":0, "max":4, "from":[33], "appliesTo":[520]},
+
+		{"min":0, "max":6, "from":[34,35], "appliesTo":[500]},
+		{"min":0, "max":4, "from":[34,35], "appliesTo":[501,522]},
 
 		{"min":1, "max":1, "from":[10,11], "appliesTo":[500,520]},
 
