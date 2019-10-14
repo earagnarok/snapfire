@@ -5,7 +5,7 @@
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"Skitarii Core Formations", "formations":[
-			{"id":501, "name":"Hypaspist Maniple",	"pts":225, "upgrades":[102,103,104,107, 130,131,132,133,134]}
+			{"id":501, "name":"Hypaspist Maniple",	"pts":225, "upgrades":[102,103,104,107, 130,131,132,133]}
 		]},
 		{"name":"Skitarii Line Formations (Max 3 for each Core Formation)", "formations":[
 			{"id":510, "name":"Sagitarii Maniple",			"pts":150,	 "upgrades":[107,108,109]},
@@ -13,7 +13,7 @@
 			{"id":512, "name":"Praetorian Maniple",		"pts":200, "units":"5 Praetorians, Tech-Priest", "upgrades":[105]},
 			{"id":511, "name":"Conqueror Maniple",		"pts":200, "units":"5 Conqueror Robots, Tech-Priest", "upgrades":[105]},
 			{"id":513, "name":"Cataphractii",		"pts":350, "units":"6 Leman Russ Tanks", "upgrades":[107]},
-			{"id":515, "name":"Minoris Cohort",		"pts":50, "upgrades":[130,131,132,133,134,135,136,137]},
+			{"id":515, "name":"Minoris Cohort",		"pts":50, "upgrades":[130,131,132,133,135,136,137]},
 			{"id":516, "name":"Ordinatus Majoris",		"pts":425, "upgrades":[]}
 		]},
 
@@ -93,13 +93,13 @@
 		{"max":1, "min":1, "from":[110,111], "appliesTo":[501]},
    		{"max":1, "min":0, "from":[104,102,103,134], "appliesTo":[501]},
    		{"max":1, "min":1, "from":[100,101], "appliesTo":[501]},
-   		{"max":1, "min":0, "from":[130,131,132,133,134], "appliesTo":[501]},
+   		{"max":1, "min":0, "from":[130,131,132,133], "appliesTo":[501]},
 
 		{"max":1, "min":1, "from":[112,113], "appliesTo":[510]},
   		{"max":3, "from":[108,109], "appliesTo":[510]},
 
 
-		{"min":2, "max":3, "from":[130,131,132,133,134,135,136,137], "appliesTo":[515]},
+		{"min":2, "max":3, "from":[130,131,132,133,135,136,137], "appliesTo":[515]},
 		{"max":1, "from":[135,136,137,138], "appliesTo":[515]},
 
 		{"max":1, "min":1, "from":[120,121,122], "appliesTo":[516]},
