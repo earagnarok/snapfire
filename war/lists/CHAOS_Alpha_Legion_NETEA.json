@@ -26,9 +26,9 @@
 			{ "id":543, "name":"Thunderhawk", "pts":250, "units":"1 Thunderhawk", "upgrades":[] },
 			{ "id":544, "name":"Fire Raptors", "pts":250, "units":"2 Fire Raptors", "upgrades":[] },
 			{ "id":545, "name":"Lightning Interceptors", "pts":150, "units":"2 Lightning Interceptors", "upgrades":[] },
-			{ "id":546, "name":"Super Heavy Tank Company (Glaive)", "pts":50, "upgrades":[50] },
-			{ "id":547, "name":"Super Heavy Tank Company (Fellblade)", "pts":50, "upgrades":[51] },
-			{ "id":548, "name":"Super Heavy Tank Company (Falchion)", "pts":50, "upgrades":[52] }		
+			{ "id":546, "name":"Super-Heavy Company (Glaive)", "pts":50, "upgrades":[50] },
+			{ "id":547, "name":"Super-Heavy Company (Fellblade)", "pts":50, "upgrades":[51] },
+			{ "id":548, "name":"Super-Heavy Company (Falchion)", "pts":50, "upgrades":[52] }		
 		]},
 			{"name":"Many Heads of the Hydra", "formations": [
 			{ "id":500, "name":"''I'm Alpharius!''", "pts":0, "upgrades":[11] },

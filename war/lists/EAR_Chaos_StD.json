@@ -17,7 +17,7 @@
 			{"id":502, "name":"Sentinel Squadron", "pts":100, "units":"4 Sentinels", "upgrades":[]},
 			{"id":503, "name":"Rough Rider Platoon", "pts":150, "units":"6 Rough Riders", "upgrades":[14]},
 			{"id":504, "name":"Artillery Battery", "pts":225, "units":"3 Basilisks", "upgrades":[]},
-			{"id":506, "name":"Super Heavy Platoon", "pts":175, "upgrades":[]},
+			{"id":506, "name":"Super-Heavy Platoon", "pts":175, "upgrades":[]},
 			{"id":507, "name":"Leman Russ Platoon", "pts":350, "upgrades":[]}
 		]},
 		{"name":"SLAVES TO DARKNESS AIR SUPPORT & DARK MECHANICUS ALLIES / / Max 33% / / Army may not Mix Nurgle/Tzeench or Slaanesh/Khorne formations", "formations":[
