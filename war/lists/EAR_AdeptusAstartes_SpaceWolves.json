@@ -28,8 +28,8 @@
 			{"id":532, "name": "Stormfang Gunship",													"pts":150, "upgrades":[]},
 			{"id":533, "name": "Knight-Freeblade 'Crimson Glaive' (Conflagration Cannon)", 			"pts":175, "upgrades":[]},
 			{"id":534, "name": "Knight-Freeblade 'Iron Wolf' (Helfrost Destructor)", 				"pts":175, "upgrades":[]},
-			{"id":535, "name": "Knight-Freeblade 'Sir Ranulf' (Castigator Cannon)", 				"pts":175, "upgrades":[]},
-			{"id":536, "name": "Knight-Freeblade 'The Obsidian Knight' (Las Impulsor)", 			"pts":175, "upgrades":[]}
+			{"id":535, "name": "Knight-Freeblade 'Justice' (Castigator Cannon)", 				"pts":175, "upgrades":[]},
+			{"id":536, "name": "Knight-Freeblade 'Canis Rex' (Las Impulsor)", 			"pts":175, "upgrades":[]}
 		]}
 	],
 	"upgrades":[

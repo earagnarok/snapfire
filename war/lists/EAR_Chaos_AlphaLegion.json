@@ -18,7 +18,7 @@
 			{ "id":531, "name":"Mechanized Traitor Platoon", "pts":225, "units":"6 Infantry, 3 Chimeras", "upgrades":[40,41,42] },
 			{ "id":532, "name":"Artillery Battery", "pts":225, "units":"3 Basilisks", "upgrades":[] },
 			{ "id":533, "name":"Leman Russ Platoon", "pts":350, "units":"6 Leman Russ", "upgrades":[] },
-			{ "id":534, "name":"Super-Heavy Tank Platoon", "pts":175, "upgrades":[] }
+			{ "id":534, "name":"Super Heavy Tank Platoon", "pts":175, "upgrades":[] }
 		]},
 			{"name":"ALPHA LEGION NAVY (Max 33%)", "formations": [
 			{ "id":550, "name":"Xiphon Squadron", "pts":200, "units":"2 Xiphon Interceptors", "upgrades":[] },

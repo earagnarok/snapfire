@@ -12,7 +12,7 @@
 			{"id":511, "name":"Catachan Sentinel Squadron", "pts":125, "upgrades":[], "units":"4 Catachan Sentinels"},
 			{"id":512, "name":"Leman Russ Platoon", "pts":350, "upgrades":[20] },
 			{"id":514, "name":"Hellhound Platoon", "pts":250, "upgrades":[20], "units":"6 Hellhounds"},
-			{"id":515, "name":"Super-Heavy Tank Platoon", "pts":175, "upgrades":[18] },
+			{"id":515, "name":"Super Heavy Tank Platoon", "pts":175, "upgrades":[18] },
 			{"id":516, "name":"Deathstrike Battery", "pts":200, "units":"2 Deathstrikes", "upgrades":[12]},
 			{"id":517, "name":"Vulture Squadron", "pts":0, "upgrades":[12]},
 			{"id":518, "name":"Mortar Battery", "pts":150, "upgrades":[18], "units":"3 Heavy Mortars"},

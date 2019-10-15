@@ -12,7 +12,7 @@
 			{"id":509, "name":"Macharius Company", 		"pts":325,  "units":"2 Macharius", "upgrades":[]},
 			{"id":510, "name":"Sentinel Squadron",				"pts":100, "units":"4 Sentinels", "upgrades":[]},
 			{"id":511, "name":"Deathstrike Missile Battery",		"pts":200, "units":"2 Deathstrikes", "upgrades":[]},
-			{"id":512, "name":"Super-Heavy Tank Platoon", 			"pts":175, "upgrades":[]},
+			{"id":512, "name":"Super Heavy Tank Platoon", 			"pts":175, "upgrades":[]},
 			{"id":513, "name":"Heavy Tank Platoon", 			"pts":350, "units":"6 Ragnarok Heavy Tanks", "upgrades":[45,53]},
 			{"id":514, "name":"Flak Battery",				"pts":150, "units":"3 Hydras", "upgrades":[]},
 			{"id":515, "name":"Hellhound Platoon", 	"pts":250, "units":"6 Hellhounds", "upgrades":[45]}
