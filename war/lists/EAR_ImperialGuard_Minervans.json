@@ -5,7 +5,7 @@
 	"sections":[
 		{"name":"TANK COMPANIES", "formations":[
 			{"id":500, "name":"Minervan Tank Company", 					"pts":600, "upgrades":[45,46]},
-			{"id":501, "name":"Super-Heavy Company", 				"pts":500, "upgrades":[45,46]}
+			{"id":501, "name":"Minervan Super-Heavy Company", 				"pts":500, "upgrades":[45,46]}
 		]},
 		{"name":"SUPPORT FORMATIONS (Max 3 for each Company)", "formations":[
 			{"id":508, "name":"Minervan Siege Battery", 				"pts":250, "units":"Leman Russ Demolisher, 3 Medusa", "upgrades":[]},
