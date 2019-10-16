@@ -1,32 +1,32 @@
 {
-	"id":"Catachan Jungle Fighters",
-	"version":"0.7.0",
+	"id":"EA-R Catachan Jungle Fighters",
+	"version":"0.7.1",
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"CATACHAN CORE COMPANY FORMATIONS", "formations":[
-			{"id":500, "name":"Catachan Regimental HQ", "pts":375, "upgrades":[], "units":"Catachan Supreme Commander, 4 Valkyries"},
-			{"id":501, "name":"Catachan Air Cavalry Company", "pts":300, "upgrades":[], "units":"Catachan Commander, 4 Valkyries"}
+			{"id":500, "name":"Catachan Regimental HQ", "pts":200, "upgrades":[], "units":"Catachan Supreme Commander"},
+			{"id":501, "name":"Catachan Company", "pts":150, "upgrades":[], "units":"Catachan Commander"}
 		]},
-		{"name":"CATACHAN SUPPORT FORMATIONS (Max two for each Core Company Formation)", "formations":[
-			{"id":510, "name":"Veteran Company", "pts":175, "upgrades":[10,11,23,19,18], "units":"Catachan Commander, 5 Death World Veterans"},
-			{"id":511, "name":"Catachan Sentinel Squadron", "pts":125, "upgrades":[], "units":"4 Catachan Sentinels"},
+		{"name":"CATACHAN SUPPORT FORMATIONS (Max 2 for each Core Company Formation)", "formations":[
 			{"id":512, "name":"Leman Russ Platoon", "pts":350, "upgrades":[20] },
-			{"id":514, "name":"Hellhound Platoon", "pts":250, "upgrades":[20], "units":"6 Hellhounds"},
-			{"id":515, "name":"Super-Heavy Platoon", "pts":175, "upgrades":[18] },
-			{"id":516, "name":"Deathstrike Battery", "pts":200, "units":"2 Deathstrikes", "upgrades":[12]},
 			{"id":517, "name":"Vulture Squadron", "pts":0, "upgrades":[12]},
-			{"id":518, "name":"Mortar Battery", "pts":150, "upgrades":[18], "units":"3 Heavy Mortars"},
+			{"id":510, "name":"Veteran Company", "pts":200, "upgrades":[22,10,11], "units":"Catachan Commander, 7 Death World Veterans"},
+			{"id":516, "name":"Deathstrike Battery", "pts":200, "units":"2 Deathstrikes", "upgrades":[]},
+			{"id":515, "name":"Super-Heavy Platoon", "pts":175, "upgrades":[16,20] },
+			{"id":518, "name":"Mortar Battery", "pts":150, "upgrades":[16], "units":"3 Heavy Mortars"},
+			{"id":514, "name":"Hellhound Squadron", "pts":125, "upgrades":[], "units":"3 Hellhounds"},
+			{"id":511, "name":"Catachan Sentinel Squadron", "pts":125, "upgrades":[], "units":"4 Catachan Sentinels"},
 			{"id":519, "name":"Sniper Platoon", "pts":100, "upgrades":[21], "units":"4 Snipers"}
 		]},
-		{"name":"IMPERIAL NAVY SUPPORT", "formations":[
+		{"name":"IMPERIAL NAVY SUPPORT (Max 25%)", "formations":[
 			{"id":520, "name":"Thunderbolt Squadron", "pts":150, "upgrades":[], "units":"2 Thunderbolt Fighters"},
 			{"id":521, "name":"Marauder Bomber Squadron", "pts":225, "upgrades":[], "units":"2 Marauder Colossus"},
 			{"id":522, "name":"Orbital Support",	"pts":125, "upgrades":[]}
 		]}
 	],
 	"upgrades":[
-		{"id":10, "name":"Valkyrie", "pts":35},
-		{"id":11, "name":"Vendetta", "pts":35},
+		{"id":10, "name":"4 Valkyries", "pts":150},
+		{"id":11, "name":"3 Valkyries, 2 Vendettas", "pts":175},
 
 		{"id":12, "name":"Vulture", "pts":75},
 
@@ -34,19 +34,21 @@
 		{"id":14, "name":"Snipers", "pts":15},
 		{"id":15, "name":"Flakk Team", "pts":25},
 
-		{"id":18, "name":"Ogryns", "pts":25},
+		{"id":16, "name":"Ogryns", "pts":25},
+		{"id":17, "name":"Ogryns, 5 Death World Chimera", "pts":150},
+		{"id":18, "name":"2 Ogryns, 6 Death World Chimeras", "pts":200},
 		{"id":19, "name":"Hellhound", "pts":25},
 		{"id":20, "name":"Hydra", "pts":50},
-		{"id":21, "name":"2 Deathworld Chimeras", "pts":50},
-		{"id":22, "name":"3 Deathworld Chimeras", "pts":75},
-		{"id":23, "name":"Deathworld Chimera", "pts":25},
+		{"id":21, "name":"2 Death World Chimeras", "pts":50},
+		{"id":22, "name":"4 Death World Chimeras", "pts":100},
+		{"id":23, "name":"Death World Chimera", "pts":25},
 
 		{ "id":26, "name":"6 Leman Russ Demolishers", "pts":0},
 		{ "id":27, "name":"6 Leman Russ Exterminators", "pts":0},
 		{ "id":28, "name":"6 Leman Russ", "pts":0},
 
 		{ "id":50, "name":"Hellhammer", "pts":0 },
-		{ "id":51, "name":"Baneblade", "pts":0 },
+		{ "id":51, "name":"Shadowsword", "pts":25 },
 		{ "id":52, "name":"Stormblade", "pts":0 },
 
 		{ "id":60, "name":"Lunar Class Cruiser", "pts":0 },
@@ -61,20 +63,19 @@
 		{"maxPercent": 25.5, "name":"Imperial Navy Formations", "from":[520,521,522]}
 	],
 	"upgradeConstraints":[
-		{"max":6, "from":[10]},
-		{"max":6, "from":[11]},
-		{"max":2, "from":[18]},
-		{"max":3, "from":[19]},
+		{"max":2, "from":[16]},
 		{"max":1, "from":[20]},
 		{"max":1, "from":[21]},
-		{"max":1, "from":[22]},
 
+		{"min":1, "max":1, "from":[22,17,18,10,11], "appliesTo":[500,501]},
 		{"min":7, "max":7, "from":[13,15], "appliesTo":[500,501]},
 		{"max":2, "from":[15], "appliesTo":[500,501]},
 
+		{"min":0, "max":1, "from":[22,10,11], "appliesTo":[510]},
+
 		{"min":1, "max":1, "from":[28,26,27], "appliesTo":[512]},
 
-		{"min":1, "max":1, "from":[50,52], "appliesTo":[515]},
+		{"min":1, "max":1, "from":[50,52,51], "appliesTo":[515]},
 
 		{"min":3, "max":4, "from":[12], "appliesTo":[517]},
 

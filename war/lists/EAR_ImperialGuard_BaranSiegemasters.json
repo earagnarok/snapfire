@@ -1,25 +1,24 @@
 {
-	"id":"EAR Baran Siegemasters",
+	"id":"EA-R Baran Siegemasters",
 	"version":"0.6.3",
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"CORE COMPANIES", "formations":[
-			{"id":501, "name":"1 Siegemaster Regimental HQ", "pts":275, "upgrades":[18,19,22,20,21,24,27,25,44,45,46], "units":"Baran Siegemaster with a Commissar, 9 Siege Infantry"},
-		 	{"id":502, "name":"Siege Company", "pts":200, "upgrades":[18,19,22,20,21,24,27,25,44,45,46], "units":"Baran Commander with a Commissar, 9 Siege Infantry"}
+			{"id":501, "name":"1 Siegemaster Regimental HQ", "pts":275, "upgrades":[18,20,21,24,27,25,44,45,46], "units":"Baran Siegemaster with a Commissar, 9 Siege Infantry"},
+		 	{"id":502, "name":"Siege Company", "pts":200, "upgrades":[18,20,21,24,27,25,44,45,46], "units":"Baran Commander with a Commissar, 9 Siege Infantry"}
 
 		]},
-		{"name":"SUPPORT FORMATIONS (two for each Core Company)", "formations":[
-			{"id":510, "name":"Howitzer Emplacement", 			"pts":175, "upgrades":[]},
-			{"id":511, "name":"Siege Artillery Emplacement", 			"pts":225, "upgrades":[]},
-			{"id":513, "name":"Deathstrike Emplacement",	"pts":250, "upgrades":[], "units":"Deathstrike Silo"},
-			{"id":514, "name":"Flak Emplacement", 			"pts":175, "upgrades":[], "units":"4 Heavy AA Guns, 4 Gun Emplacements"},
+		{"name":"SUPPORT FORMATIONS (2 for each Core Company)", "formations":[
 			{"id":515, "name":"Heavy Tank Emplacement",			"pts":350, "upgrades":[]},
-			{"id":516, "name":"Light Tank Squadron",			"pts":150, "upgrades":[23], "units":"4 Siegfried Light Tanks"},
+			{"id":520, "name":"Macharius Company", 				"pts":325,  "units":"2 Macharius", "upgrades":[]},
+			{"id":513, "name":"Deathstrike Emplacement",		"pts":250, "upgrades":[], "units":"Deathstrike Silo"},
+			{"id":518, "name":"Sapper Company",					"pts":250, "upgrades":[], "units":"1 Baran Commander with a Commissar, 7 Sappers, Hades Breaching Drill"},
+			{"id":511, "name":"Siege Artillery Emplacement", 	"pts":225, "upgrades":[]},
+			{"id":519, "name":"Super-Heavy Platoon", 			"pts":175, "upgrades":[]},
+			{"id":510, "name":"Howitzer Emplacement", 			"pts":175, "upgrades":[]},
+			{"id":514, "name":"Flak Emplacement", 				"pts":175, "upgrades":[], "units":"4 Heavy AA Guns, 4 Gun Emplacements"},
 			{"id":517, "name":"Death Rider Platoon",			"pts":150, "upgrades":[], "units":"6 Death Riders"},
-			{"id":518, "name":"Sapper Company",				"pts":250, "upgrades":[], "units":"1 Baran Commander with a Commissar, 7 Sappers, Hades Breaching Drill"},
-			{"id":519, "name":"Super-Heavy Platoon", 		"pts":175, "upgrades":[]},
-			{"id":520, "name":"Macharius Company", 		"pts":325,  "units":"2 Macharius", "upgrades":[]}
-
+			{"id":516, "name":"Trench Recon Squadron",			"pts":125, "upgrades":[23], "units":"4 Siegfried Light Tanks"}
 		]},
 		{"name":"IMPERIAL NAVY (max 25%)", "formations":[
 			{"id":530, "name":"Marauder Squadron",		"pts":225, "upgrades":[], "units":"2 Marauder Bombers"},
@@ -58,7 +57,7 @@
 
 	],
 	"formationConstraints":[
-		{"maxPercent": 25.1, "name":"Navy", "from":[530,531]},
+		{"maxPercent": 25.5, "name":"Imperial Navy", "from":[530,531]},
 		{"max":2, "name":"Support Formations", "from":[510,511,513,514,515,516,517,518,519,520], "forEach":[501,502], "name2":"Regiment Company"},
 		{"max":1, "from":[513]},
 		{"min":1, "max":1, "from":[501]}

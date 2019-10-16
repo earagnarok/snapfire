@@ -3,37 +3,36 @@
 	"version":"0.6.0",
 	"by":"EA-Ragnarok",
 	"sections":[
-		{"name":"TANK COMPANIES", "formations":[
-			{"id":500, "name":"Minervan Tank Company", 					"pts":600, "upgrades":[45,46]},
-			{"id":501, "name":"Minervan Super-Heavy Company", 				"pts":500, "upgrades":[45,46]}
+		{"name":"MINERVAN COMPANIES", "formations":[
+			{"id":500, "name":"Minervan Tank Company", 			"pts":600, "upgrades":[45,46]},
+			{"id":501, "name":"Minervan Super-Heavy Company", 	"pts":500, "upgrades":[45,46]},
+			{"id":502, "name":"Minervan Mechanized Company", 	"pts":400, "units":"Leman Russ Conqueror with a Minervan Commander and a Commissar, 10 Infantry, 5 Chimeras", "upgrades":[17,45,46]}
 		]},
-		{"name":"SUPPORT FORMATIONS (Max 3 for each Company)", "formations":[
-			{"id":508, "name":"Minervan Siege Battery", 				"pts":250, "units":"Leman Russ Demolisher, 3 Medusa", "upgrades":[]},
-			{"id":509, "name":"Minervan Mechanized Platoon", 			"pts":250, "units":"Leman Russ Conqueror, 4 Infantry, 2 Chimeras", "upgrades":[]},
+		{"name":"MINERVAN SUPPORT FORMATIONS (Max 3 for each Company)", "formations":[
+			{"id":512, "name":"Leman Russ Platoon", 					"pts":350, "upgrades":[]},
+			{"id":517, "name":"Artillery Battery",						"pts":225, "upgrades":[]},
+			{"id":513, "name":"Tank Hunter Squadron",					"pts":200,  "units":"3 Leman Russ Destroyers", "upgrades":[]},
 			{"id":510, "name":"Deathstrike Missile Battery",			"pts":200, "upgrades":[], "units":"2 Deathstrikes"},
 			{"id":511, "name":"Super-Heavy Platoon", 					"pts":175, "upgrades":[]},
-			{"id":512, "name":"Leman Russ Platoon", 					"pts":350, "upgrades":[]},
-			{"id":513, "name":"Tank Hunter Squadron",					"pts":200,  "units":"3 Leman Russ Destroyers", "upgrades":[]},
 			{"id":514, "name":"Flak Battery",							"pts":150, "upgrades":[], "units":"3 Hydras"},
-			{"id":515, "name":"Salamander Squadron",					"pts":150, "units":"4 Salamander Scout Tanks", "upgrades":[]},
-			{"id":517, "name":"Artillery Battery",						"pts":225, "upgrades":[]},
+			{"id":515, "name":"Salamander Recon Squadron",				"pts":150, "units":"4 Salamander Scout Tanks", "upgrades":[]},
 			{"id":518, "name":"Light Artillery Battery",				"pts":100,  "units":"3 Griffons", "upgrades":[]}
 		]},
 		{"name":"COLLEGIA TITANICA & IMPERIAL NAVY FORMATIONS (Max 33%)", "formations":[
-			{"id":527, "name":"Warhound Pack",		"pts":500, "upgrades":[70], "units":"2 Warhounds"},
+			{"id":527, "name":"Warhound Pack",			"pts":500, "upgrades":[70], "units":"2 Warhounds"},
 			{"id":530, "name":"Thunderbolt Fighters",	"pts":150, "upgrades":[], "units":"2 Thunderbolts"},
 			{"id":531, "name":"Marauder Bombers",		"pts":225, "upgrades":[], "units":"2 Marauders"},
 			{"id":532, "name":"Orbital Support",		"pts":125, "upgrades":[]}
 		]}
 	],
 	"upgrades":[
-		{"id":9, "name":"Leman Russ Vanquisher with a Minervan Commander and a Commissar",		"pts":0},
-		{"id":10, "name":"Leman Russ Vanquisher with Minervan Supreme Commander and a Commissar",		"pts":100},
+		{"id":9,  "name":"Leman Russ Vanquisher with a Minervan Commander and a Commissar",					"pts":0},
+		{"id":10, "name":"Leman Russ Vanquisher with Minervan Supreme Commander and a Commissar",			"pts":100},
 		{"id":11, "name":"Leman Russ Vanquisher with Minervan Supreme Commander and a Lord Commissar",		"pts":200},
 
-        {"id":13, "name":"Minervan Commander, Commissar (must be in the same unit)",		"pts":0},
-		{"id":14, "name":"Minervan Supreme Commander, Commissar (must be in the same unit)",		"pts":100},
-		{"id":15, "name":"Minervan Supreme Commander, Lord Commissar (must be in the same unit)",		"pts":200},
+        {"id":13, "name":"Minervan Commander, Commissar (must be in the same unit)",						"pts":0},
+		{"id":14, "name":"Minervan Supreme Commander, Commissar (must be in the same unit)",				"pts":100},
+		{"id":15, "name":"Minervan Supreme Commander, Lord Commissar (must be in the same unit)",			"pts":200},
 
 		{"id":17, "name":"Hellhound",		         "pts":25},
 
@@ -78,7 +77,7 @@
 
 	],
 	"formationConstraints":[
-		{"max":3, "name":"Support Formations", "from":[508,509,510,511,512,513,514,515,   517,518], "forEach":[500,501], "name2":"Tank Company"},
+		{"max":3, "name":"Support Formations", "from":[510,511,512,513,514,515, 517,518], "forEach":[500,501,502], "name2":"Tank Company"},
 		{"maxPercent": 33.5, "name":"Collegia Titanica & Imperial Navy", "from":[527,530,531,532]},
 		{"max":1, "from":[510]},
 		{"max":1, "from":[532]}
@@ -100,7 +99,7 @@
 
   		{"min":1, "max":1, "from":[37,35,36,34,38], "appliesTo":[512]},
 
- 		{"min":1, "max":1, "from":[50,52], "appliesTo":[517]},
+ 		{"min":1, "max":1, "from":[50,51,52], "appliesTo":[517]},
 
   		{"min":1, "max":1, "from":[40,41], "appliesTo":[532]}
 	]
