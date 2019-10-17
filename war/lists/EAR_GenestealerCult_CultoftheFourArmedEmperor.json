@@ -1,6 +1,6 @@
 {
 	"id":"EA-R Cult of the Four-Armed Emperor",
-	"version":"0.6.1",
+	"version":"0.6.2",
 	"by":"EA-Ragnarok",
 	"sections":[
 
@@ -18,7 +18,7 @@
 		]},
 
 		{"name":"Coven Ambush Formations (Max 1 for each Coven Vanguard Formation)", "formations": [
-			{ "id":520, "name":"Lictor Swarm", "pts":225, "units":"4 Coven Lictors", "upgrades":[]},
+			{ "id":520, "name":"Lictor Swarm", "pts":225, "units":"5 Lictors", "upgrades":[]},
 			{ "id":521, "name":"Metamorph Brood", "pts":175, "units":"6 Hybrid Metamorphs", "upgrades":[]}
 		]},
 
