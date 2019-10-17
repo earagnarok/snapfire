@@ -51,7 +51,7 @@
 
 		{"id":27, "name":"Blizzard Dreadnought", 					"pts":50},
 		{"id":28, "name":"Helfrost Dreadnought", 					"pts":50},
-		{"id":29, "name":"2 Blizzard Dreadnought", 					"pts":75},
+		{"id":29, "name":"2 Blizzard Dreadnoughts", 					"pts":75},
 		{"id":30, "name":"2 Helfrost Dreadnoughts", 				"pts":75},
 
 		{"id":31, "name":"Hunter", 						"pts":75},
