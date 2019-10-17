@@ -13,7 +13,7 @@
 		]},
 		{"name":"LOST AND THE DAMNED SUPPORT COVEN FORMATIONS / / Max 2 for each Cultist Coven / / Army may not Mix Nurgle/Tzeench or Slaanesh/Khorne formations / / Support Covens are 0-1 for each part 1000 points in the army", "formations":[
 			{"id":502, "name":"Hellfire Cannons of Chaos Undivided", "pts":225, "units":"4 Hellfire Cannons", "upgrades":[]},
-			{"id":503, "name":"Forgefiends of Chaos Undivided", "pts":250, "units":"3 Forgefiends", "upgrades":[]},
+			{"id":503, "name":"Forgefiends of Chaos Undivided", "pts":225, "units":"3 Forgefiends", "upgrades":[]},
 			{"id":504, "name":"Defilers of Chaos Undivided",	"pts":225, "units":"4 Defilers", "upgrades":[]},
 			{"id":554, "name":"Heldrakes of Chaos Undivided", "pts": 225, "units": "2 Heldrakes", "upgrades": []},
 			{"id":505, "name":"Hell-Striders of Slaanesh",	"pts":225, "units":"4 Hell-Striders", "upgrades":[]},

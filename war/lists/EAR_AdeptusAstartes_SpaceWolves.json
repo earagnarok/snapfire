@@ -5,12 +5,12 @@
 
 	"sections":[
 		{"name":"SPACE WOLVES CORE PACKS", "formations":[
-			{"id":500, "name":"Grey Hunter Tactical Pack", 				"pts":300,  "units":"plus transport",  "upgrades":[12,13, 17, 27,28,29,30, 31,32, 33, 34,35]},
+			{"id":500, "name":"Great Company", 							"pts":350,  "units":"plus transport",  "upgrades":[12,13, 17, 27,28,29,30, 31,32, 33, 34,35]},
 			{"id":501, "name":"Blood Claw Assault Pack", 				"pts":150, "units":"4 Blood Claw Assaults plus transport", "upgrades":[12,13, 34,35]},
-			{"id":502, "name":"Sky Claw Assault Pack",				"pts":150, "units":"4 Sky Claw Assaults", "upgrades":[12,13]}
+			{"id":502, "name":"Sky Claw Assault Pack",					"pts":150, "units":"4 Sky Claw Assaults", "upgrades":[12,13]}
 		]},
 		{"name":"SPACE WOLVES SUPPORT PACKS (Max 2 Support Packs for each Core Pack)", "formations":[
-			{"id":520, "name":"Wolf Guard Terminator Pack",		"pts":375,   "units":"plus transport", "upgrades":[12,13, 27,28,29,30, 33]},
+			{"id":520, "name":"Wolf Guard Terminator Pack",		"pts":400,   "units":"plus transport", "upgrades":[12,13, 27,28,29,30, 33]},
 			{"id":521, "name":"Swift Claw Recon Pack", 			"pts":225,  "units":"3 Swift Claw Assault Bikes, 3 Land Speeders", "upgrades":[12,13]},
 			{"id":522, "name":"Wolf Scout Recon Pack",			"pts":150,  "units":"4 Wolf Scout Veterans plus transport", "upgrades":[12,13, 34,35]},
 			{"id":523, "name":"Land Raider Pack",			"pts":250,  "units":"3 Land Raiders", "upgrades":[31,32, 40]},
@@ -33,15 +33,15 @@
 		]}
 	],
 	"upgrades":[
-		{"id":10, "name":"Wolf Lord Captain",		"pts":0},
-		{"id":11, "name":"Great Wolf Supreme Commander",	"pts":50},
+		{"id":10, "name":"Captain",		"pts":0},
+		{"id":11, "name":"Supreme Commander",	"pts":50},
 
 		{"id":12, "name":"Chaplain", 		"pts":50},
 		{"id":13, "name":"Librarian", 		"pts":50},
 
-		{"id":15, "name":"6 Grey Hunter Tacticals",							"pts":0},
-		{"id":16, "name":"3 Grey Hunter Tacticals, 3 Long Fang Devastators",	"pts":50},
-		{"id":17, "name":"3 Leman Russ Exterminators",										"pts":150},
+		{"id":15, "name":"8 Grey Hunter Tacticals",								"pts":0},
+		{"id":16, "name":"5 Grey Hunter Tacticals, 3 Long Fang Devastators",	"pts":50},
+		{"id":17, "name":"Leman Russ Exterminator",								"pts":50},
 
 		{"id":22, "name":"Predator Annihilator",		"pts":0},
 		{"id":23, "name":"Predator Destructor",		"pts":0},
@@ -68,6 +68,8 @@
 		{"id":51, "name":"Battle Barge",						"pts":275}
 	],
 	"formationConstraints":[
+		{"min":1, "from":[500]},
+
 		{"max":1,"perArmy":true, "name":"Spacecraft", "from":[528]},
 		{"max":1,"perArmy":true, "from":[533,534,535,536]},
 		{"max":1,"perArmy":true, "from":[533]},
@@ -81,7 +83,7 @@
 		{"max":1, "perArmy":true, "from":[11]},
 
 		{"min":0, "max":1, "from":[12,13]},
-		{"min":0, "max":1, "from":[17]},
+		{"min":0, "max":3, "from":[17]},
 		{"min":0, "max":1, "from":[27,28,29,30]},
 		{"min":0, "max":1, "from":[31,32]},
 		{"min":0, "max":1, "from":[40]},

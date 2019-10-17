@@ -24,7 +24,7 @@
             {"id": 542, "name": "Daemonic Assault Engines", "pts": 275, "units": "6 Daemonic Assault Engines", "upgrades": []},
             {"id": 544, "name": "Doomblasters", "pts": 225, "units": "4 Doomblasters", "upgrades": []},
             {"id": 543, "name": "Hellfire Cannons", "pts": 225, "units": "4 Hellfire Cannons", "upgrades": []},
-            {"id": 545, "name": "Forgefiends", "pts": 250, "units": "3 Forgefiends", "upgrades": []}
+            {"id": 545, "name": "Forgefiends", "pts": 225, "units": "3 Forgefiends", "upgrades": []}
        ]},
 
       {"name": "WAR ENGINES AND CHAOS NAVY (Max 33%)", "formations": [

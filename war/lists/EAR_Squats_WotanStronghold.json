@@ -62,7 +62,7 @@
         {"id":116, "name":"Guildmaster Trike",			"pts":25},
 
 		{"id":117, "name":"3 Rhinos",				"pts":25},
-		{"id":118, "name":"Set up inside a Hellbore", "pts":0},
+		{"id":118, "name":"Deploy inside a Hellbore", "pts":0},
 		{"id":119, "name":"3 Termites",				"pts":50},
 
 		{"id":120, "name":"Dragon Battle Car",			                  "pts":75},
