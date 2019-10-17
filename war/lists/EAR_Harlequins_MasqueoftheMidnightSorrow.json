@@ -17,7 +17,7 @@
 			{"id":504, "name":"Hellion Murder", "pts":200,  "units":"6 Hellions", "upgrades":[62]},
 			{"id":505, "name":"Reaver Gang", "pts":50, "upgrades":[83,1]},
 			{"id":507, "name":"Scourge Flight", "pts":250, "units":"6 Scourges", "upgrades":[]},
-			{"id":508, "name":"Heavy Barge", "pts":250, "units":"Vessel of Pain", "upgrades":[]}
+			{"id":508, "name":"Vessel of Pain", "pts":250, "upgrades":[]}
 		]},
 
 		{"name":"MIDNIGHT SORROW SAEDATHS (Max 1 Midnight Sorrow Saedath for each Wraithkind Kabal)", "formations":[
@@ -30,8 +30,8 @@
 		]},
 
 		{"name":"COMMORRAGH NAVY & WAR ENGINES", "formations":[
-			{"id":522, "name":"Torture Class", "pts":300, "units":"Torture Class Cruiser", "upgrades":[]},
-			{"id":523, "name":"Slavebringer", "pts":200, "upgrades":[]},
+			{"id":522, "name":"Torture Class Cruiser", "pts":300, "upgrades":[]},
+			{"id":523, "name":"Slavebringer Assault Boat", "pts":200, "upgrades":[]},
 			{"id":526, "name":"Razorwing Cast", "pts":200, "units":"2 Razorwing Interceptors", "upgrades":[]},
 			{"id":527, "name":"Voidraven Cast", "pts":225, "units":"2 Voidraven Interdictors", "upgrades":[]},
 			{"id":528, "name":"Tormentor Titan", "pts":350, "upgrades":[]}
@@ -51,7 +51,7 @@
 		{"id":62, "name":"Warp Beasts", "pts":25},
 
 		{"id":70, "name":"Tantalus", "pts":25},
-		{"id":71, "name":"Barge of Pleasure", "pts":150},
+		{"id":71, "name":"Barge of Pleasure", "pts":125},
 
 		{"id":63, "name":"4 Wyches, 2 Raiders", "pts":0},
 		{"id":64, "name":"6 Wyches, 3 Raiders", "pts":50},
@@ -73,6 +73,8 @@
 	"upgradeConstraints":[
 			{"max":1, "perArmy":true, "from":[1]},
 
+
+		{"max":1, "from":[40,41,42,43]},
 		{"max":1, "name":"Dracon", "from":[17]},
 		{"max":1, "name":"Succubus", "from":[18]},
 		{"min":1, "max":1, "from":[55,56], "appliesTo":[511]},
@@ -80,6 +82,8 @@
 		{"min":1, "max":1, "from":[75,76,77], "appliesTo":[502]},
 		{"min":1, "max":1, "from":[63,64], "appliesTo":[503]},
 		{"min":6, "max":8, "name":"Reaver Jet Bikes", "from":[83], "appliesTo":[505]},
+		{"max":4, "from":[62],  "appliesTo":[503]},
+		{"max":2, "from":[62],  "appliesTo":[511,512,504]},
 		{"max":1, "from":[73,74]},
 		{"max":2, "from":[61], "appliesTo":[511,512,513]},
 		{"max":1, "from":[55]},

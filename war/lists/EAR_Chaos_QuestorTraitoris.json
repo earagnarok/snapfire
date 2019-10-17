@@ -38,7 +38,7 @@
 				{"id":534, "name":"WARPHOUNDS of Tzeench",  "units": "2 Warphounds",	"pts":500, "upgrades":[]},
 				{"id":535, "name":"CHAOS WARHOUNDS of Chaos Undivided",  "units": "2 Chaos Warhounds",	"pts":500, "upgrades":[]},
 			{"id":536, "name":"HELDRAKES",				"pts":225, "units": "2 Heldrakes", "upgrades":[]},
-			{"id":537, "name":"CHAOS BATTLESHIP",				"pts":150, "units": "Despoiler Battleship", "upgrades":[]}
+			{"id":537, "name":"CHAOS BATTLESHIP",				"pts":175, "units": "Despoiler Battleship", "upgrades":[]}
 		]},
 
 		{"name":"DAEMON POOL", "formations":[

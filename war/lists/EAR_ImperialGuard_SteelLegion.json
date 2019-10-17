@@ -4,7 +4,7 @@
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"CORE COMPANY FORMATIONS", "formations":[
-			{"id":500, "name":"Regimental HQ", 				"pts":400, "upgrades":[45,48,50,53,54,57,58,52,55,59,60,61,62,63]},
+			{"id":500, "name":"Regimental HQ", 				"pts":400, "units":"Steel Legion Supreme Commander with a Commissar",  "upgrades":[45,48,50,53,54,57,58,52,55,59,60,61,62,63]},
 			{"id":501, "name":"Infantry Company", 			"pts":225, "units":"Steel Legion Commander with a Commissar", "upgrades":[45,49,51,53,54,57,58,66,56,59,60,61,64,65]},
 			{"id":502, "name":"Mechanized Infantry Company", 	"pts":325, "units":"Steel Legion Commander with a Commissar", "upgrades":[45,48,50,53,54,57,58,52,55,59,60,61,62,63]},
 			{"id":503, "name":"Tank Company", 			"pts":600, "units":"Leman Russ Vanquisher with a Commissar, 9 Leman Russ", "upgrades":[45,53,54,57,58]},
@@ -33,9 +33,6 @@
 		]}
 	],
 	"upgrades":[
-		{"id":10, "name":"Steel Legion Supreme Commander with a Commissar",		"pts":0},
-		{"id":11, "name":"Steel Legion Supreme Commander with a Lord Commissar",		"pts":75},
-
 		{"id":20, "name":"9 Infantry, 5 Chimeras",		"pts":0},
 		{"id":21, "name":"15 Infantry, 8 Chimeras",		"pts":125},
 
@@ -128,9 +125,8 @@
 
 		{"max":1, "from":[70]},
 
-   		{"min":1, "max":1, "from":[10,11], "appliesTo":[500]},
    		{"min":1, "max":1, "from":[20,21], "appliesTo":[500]},
-   		{"max":3, "from":[11,21,48,50,52,55,53,54,57,58,55,59,60,61,62,63], "appliesTo":[500]},
+   		{"max":3, "from":[21,48,50,52,55,53,54,57,58,55,59,60,61,62,63], "appliesTo":[500]},
 
    		{"min":1, "max":1, "from":[22,23], "appliesTo":[501]},
    		{"max":3, "from":[23,49,51,53,54,57,58,56,66,59,60,61,64,65], "appliesTo":[501]},

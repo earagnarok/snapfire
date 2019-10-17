@@ -45,7 +45,7 @@
 			{"id":590, "name":"HELL-FORGE SUPPORT",		"pts":175, "units": "4 Chaos Squats, 2 Hades Land Raiders", "upgrades":[]},
 			{"id":591, "name":"ORDINATUS HERETICUS MINORIS",		"pts":50, "upgrades":[100,101,102,103]},
 			{"id":592, "name":"HELDRAKES",				"pts":225, "units": "2 Heldrakes", "upgrades":[]},
-			{"id":593, "name":"CHAOS BATTLESHIP",				"pts":150, "units": "Despoiler Battleship", "upgrades":[]}
+			{"id":593, "name":"CHAOS BATTLESHIP",				"pts":175, "units": "Despoiler Battleship", "upgrades":[]}
 		]},
 
 		{"name":"DAEMON POOL", "formations":[

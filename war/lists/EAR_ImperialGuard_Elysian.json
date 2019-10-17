@@ -4,8 +4,8 @@
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"Elysian Core Formations", "formations":[
-			{"id":502, "name":"Regimental HQ", "pts":250, "upgrades":[91,92,10,11], "units":"1 Elysian Supreme Commander unit and 7 Drop Troops units."},
-			{"id":500, "name":"Drop Troop Company", "pts":200, "upgrades":[91,92,10,11], "units":"1 Elysian Commander unit and 7 Drop Troops units."}
+			{"id":502, "name":"Regimental HQ", "pts":250, "upgrades":[91,92,10,11], "units":"Elysian Supreme Commander unit and 7 Drop Troops units."},
+			{"id":500, "name":"Drop Troop Company", "pts":200, "upgrades":[91,92,10,11], "units":"Elysian Commander unit and 7 Drop Troops units."}
 
 		]},
 		{"name":"Elysian Support Formations", "formations":[
@@ -26,7 +26,6 @@
 	],
 	"upgrades":[
 		{"id":91, "name":"Commissar", "pts":0},
-		{"id":92, "name":"Lord Commissar", "pts":50},
 		{"id":10, "name":"4 Valkyries", "pts":100},
 		{"id":11, "name":"8 Tauros Venators", "pts":100},
 		{"id":12, "name":"Grav Shutes", "pts":0},
@@ -45,9 +44,8 @@
 		{"maxPercent": 33.5, "name":"Navy Support formations", "from":[521,522,523,524]}
 	],
 	"upgradeConstraints":[
-		{"max":1, "perArmy":true, "from":[92]},	
-		{"max":6, "perArmy":true, "from":[91,92]},
-		{"max":1, "from":[91,92]},
+		{"max":6, "perArmy":true, "from":[91]},
+		{"max":1, "from":[91]},
 		{"max":1, "from":[10]},
 		{"max":1, "from":[11]},
 		{"max":1, "from":[12]},

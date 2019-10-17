@@ -28,11 +28,9 @@
 	"upgrades":[
 		{"id":9,  "name":"Leman Russ Vanquisher with a Minervan Commander and a Commissar",					"pts":0},
 		{"id":10, "name":"Leman Russ Vanquisher with Minervan Supreme Commander and a Commissar",			"pts":100},
-		{"id":11, "name":"Leman Russ Vanquisher with Minervan Supreme Commander and a Lord Commissar",		"pts":200},
 
         {"id":13, "name":"Minervan Commander, Commissar (must be in the same unit)",						"pts":0},
 		{"id":14, "name":"Minervan Supreme Commander, Commissar (must be in the same unit)",				"pts":100},
-		{"id":15, "name":"Minervan Supreme Commander, Lord Commissar (must be in the same unit)",			"pts":200},
 
 		{"id":17, "name":"Hellhound",		         "pts":25},
 
@@ -84,15 +82,15 @@
 
 	],
 	"upgradeConstraints":[
-		{"max":1, "perArmy":true, "from":[10,11,14,15]},
+		{"max":1, "perArmy":true, "from":[10,14]},
 		{"max":2, "from":[17]},
 		{"max":1, "from":[45,46]},
 		{"max":1, "from":[53]},
 
-   		{"min":1, "max":1, "from":[9,10,11], "appliesTo":[500]},
+   		{"min":1, "max":1, "from":[9,10], "appliesTo":[500]},
    		{"min":9, "max":9, "from":[20,22], "appliesTo":[500]},
 
-   		{"min":1, "max":1, "from":[13,14,15], "appliesTo":[501]},
+   		{"min":1, "max":1, "from":[13,14], "appliesTo":[501]},
    		{"min":3, "max":3, "from":[60,61,62,63], "appliesTo":[501]},
 
    		{"min":1, "max":1, "from":[26,28,29,30,27], "appliesTo":[511]},
