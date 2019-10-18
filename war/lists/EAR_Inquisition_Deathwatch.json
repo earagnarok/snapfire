@@ -51,8 +51,8 @@
       {"id": 22, "name": "2 Deathwatch Tacticals, 2 Deathwatch Devastators plus transport", "pts": 25},
       {"id": 23, "name": "2 Deathwatch Devastators, 2 Deathwatch Black Shields plus transport", "pts": 25},
 
-	  {"id": 30, "name": "3 Thudd Guns","pts": 25},
-	  {"id": 31, "name": "2 Heavy AA Guns","pts": 25},
+	  {"id": 30, "name": "3 Thudd Guns","pts": 50},
+	  {"id": 31, "name": "2 Heavy AA Guns","pts": 50},
 	  {"id": 32, "name": "3 Land Transporters","pts": 0},
 
       {"id": 35, "name": "3 Leman Russ Thunderers","pts": 125},
