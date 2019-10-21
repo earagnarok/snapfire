@@ -16,9 +16,8 @@
     	    {"id": 513, "name": "Dark Hunter Class Destroyer", "pts": 75, "upgrades": []}
 	  ]},
         {"name": "ORDO XENOS & PLANETARY DEFENSE FORCE FORMATIONS (Max 1 for each Deathwatch Detachment Formation)", "formations": [
-            {"id": 520, "name": "Ordo Xenos Inquisitor Task Force", "pts": 275, "units": "9 Arbitrators, 5 Arbites Repressors", "upgrades": [35]},
-            {"id": 519, "name": "Ordo Xenos Acolytes", "pts": 225, "units": "3 Ordo Xenos Acolytes, 3 Vendettas", "upgrades": []},
-            {"id": 518, "name": "Ordo Xenos Vulture Squadron", "pts": 225, "units": "3 Vultures", "upgrades": []},
+            {"id": 520, "name": "Ordo Xenos Inquisitor Task Force", "pts": 300, "units": "9 Arbitrators, 5 Arbites Repressors", "upgrades": [35]},
+            {"id": 519, "name": "Ordo Xenos Acolytes", "pts": 250, "units": "3 Ordo Xenos Acolytes, 3 Vendettas", "upgrades": [34]},
             {"id": 521, "name": "Planetary Defense Platoon", "pts": 150, "units": "6 PDF Conscripts", "upgrades": []},
             {"id": 522, "name": "Leman Russ Squadron", "pts": 250, "upgrades": []},
             {"id": 523, "name": "Sentinel Squadron", "pts": 100, "units": "4 Sentinels", "upgrades": []}
@@ -43,13 +42,14 @@
       {"id": 15, "name": "Land Raider Crusader", "pts": 25},
 
       {"id": 20, "name": "3 Deathwatch Tacticals plus transport","pts": 0},
-      {"id": 21, "name": "3 Deathwatch Black Shields plus transport", "pts": 0},
+      {"id": 21, "name": "3 Deathwatch Black Shields plus transport", "pts": 25},
       {"id": 22, "name": "3 Deathwatch Devastators plus transport", "pts": 50},
 
 	  {"id": 30, "name": "3 Thudd Guns","pts": 50},
 	  {"id": 31, "name": "2 Flakk Teams","pts": 50},
 	  {"id": 32, "name": "3 Land Transporters","pts": 0},
 
+      {"id": 34, "name": "Vulture","pts": 50},
       {"id": 35, "name": "3 Leman Russ Thunderers","pts": 125},
 
       {"id": 36, "name": "4 Leman Russ","pts": 0},
@@ -60,6 +60,8 @@
    "formationConstraints": [
       {"min": 1, "max": 1, "from": [513]},
       {"max": 1, "from": [520]},
+      {"max": 5, "from": [530]},
+      {"max": 3, "from": [531]},
       {"max": 1, "from": [600]},
       {"maxPercent": 33.5, "name": "Deathwatch Drop Detachments", "from": [530,531]},
       {"max": 1, "name": "Ordo Xenos & Planetary Defence Force Formations", "from": [518,519,520,521,522,523], "forEach": [501,510,511,512,513], "name2": "Deathwatch Detachment" }
@@ -69,6 +71,7 @@
 
 	  {"max": 1, "from": [13,15]},
 	  {"max": 1, "from": [14]},
+	  {"max": 2, "from": [34]},
 	  {"max": 1, "from": [35]},
 
 	  {"max": 1, "from": [3,4], "appliesTo": [501,510,511,512] },
