@@ -18,8 +18,8 @@
 		]},
 			{"name":"ALPHA LEGION CULTIST SUPPORT FORMATIONS (Max 1 for each Cultist Coven)", "formations": [
 			{ "id":532, "name":"Cultist Cavalry", "pts":225, "units":"6 Death Riders, 4 Chaos Hounds, Daemonic Pact", "upgrades":[] },
-			{ "id":533, "name":"Heavy Mortar Battery", "pts":200, "units":"3 Heavy Mortars, two Big Mutants", "upgrades":[48] },
-			{ "id":534, "name":"Macharius Squadron", "pts":200, "units":"2 Macharius",  "upgrades":[48] }
+			{ "id":533, "name":"Heavy Mortar Battery", "pts":175, "units":"3 Heavy Mortars, two Big Mutants", "upgrades":[48] },
+			{ "id":534, "name":"Macharius Platoon", "pts":200, "units":"2 Macharius",  "upgrades":[48] }
 		]},
 			{"name":"ALPHA LEGION NAVY (Max 33%)", "formations": [
 			{ "id":550, "name":"Xiphon Squadron", "pts":225, "units":"2 Xiphon Interceptors", "upgrades":[] },
