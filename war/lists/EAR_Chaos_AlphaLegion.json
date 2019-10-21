@@ -8,7 +8,7 @@
 			{ "id":401, "name":"Lesser Daemon Pool", "pts":0, "upgrades":[50,51] }
 		]},
 		{"name":"ALPHA LEGION CULTIST COVEN FORMATIONS", "formations": [
-				{ "id":500, "name":"Cultist Coven", "pts":130, "units":"Daemonic Pact", "upgrades":[40,43,44,45,46,47,48,49] }
+				{ "id":500, "name":"Cultist Coven", "pts":135, "units":"Daemonic Pact", "upgrades":[40,43,44,45,46,47,48,49] }
 		]},
 		{"name":"ALPHA LEGION ELITE DETACHMENTS (Max 1 for each Cultist Coven Detachment)", "formations": [
 			{ "id":501, "name":"Alpha Legion Marines", "pts":200, "upgrades":[30,31,32,12] },
@@ -32,7 +32,7 @@
 		{ "id":11, "name":"Alpha Legion Sorcerer", "pts":0 },
 		{ "id":12, "name":"'I'm Alpharius!'", "pts":75 },
 		{ "id":13, "name":"Aspiring Champion", "pts":0 },
-		{ "id":14, "name":"Daemon Prince", "pts":100 },
+		{ "id":14, "name":"Alpha Legion Daemon Prince", "pts":100 },
 
 		{ "id":20, "name":"4 Alpha Legion Marines plus transport", "pts":0 },
 		{ "id":21, "name":"2 Alpha Legion Marines, 2 Alpha Legion Havocs plus transport", "pts":35 },
@@ -79,7 +79,6 @@
 		{"max":1, "from":[46]},
 		{"max":3, "from":[47]},
 		{"max":1, "from":[48]},
-		{"max":2, "from":[49]},
 
 		{"min":1, "max":1, "from":[13,14], "appliesTo":[500]},
 
@@ -87,7 +86,8 @@
 
 		{"min":1, "max":1, "from":[20,21], "appliesTo":[501]},
 
-		{"min":7, "max":11, "from":[43,44], "appliesTo":[500]},
+		{"min":9, "max":13, "from":[43,44,49], "appliesTo":[500]},
+		{"max":6, "from":[49], "appliesTo":[500]},
 
 		{"max":2, "from":[32], "appliesTo":[501]},
 		{"max":3, "from":[32], "appliesTo":[523]}
