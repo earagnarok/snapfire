@@ -9,7 +9,7 @@
 			{"id":500, "name":"Daemon Pool", "pts":0, "upgrades":[71,72,74]}
 		]},
 			{"name":"EMPERORS CHILDREN CORE FORMATIONS", "formations":[
-			{"id":501, "name":"Emperors Children Retinue", "pts":250, "upgrades":[14,15,30,31,35,44,70,80]}
+			{"id":501, "name":"Emperors Children Retinue", "pts":250, "units": "3 Chaos Space Marines", "upgrades":[14,15,30,31,35,44,70,80]}
 		]},
 		{"name":"EMPERORS CHILDREN ELITE FORMATIONS", "formations":[
 			{"id":502, "name":"Emperors Children Terminators", "pts":375, "units": "4 Sirenshriek Terminators", "upgrades":[14,15,32,35,70,80]},
@@ -44,8 +44,8 @@
 
 		{"id":19, "name":"3 Noise Marines", "pts":0},
 		{"id":20, "name":"3 Chaos Space Marines", 		"pts":0},
-		{"id":21, "name":"3 Noise Marines", "pts":25},
-		{"id":22, "name":"3 Noise Marine Havocs", "pts":50},
+		{"id":21, "name":"3 Noise Marines", "pts":0},
+		{"id":22, "name":"3 Noise Marine Havocs", "pts":25},
 
 		{"id":30, "name":"Chaos Rhino", 	"pts":10},
 		{"id":31, "name":"Emperors Children Land Raider", 	"pts":50},
@@ -88,8 +88,7 @@
 		{"min":0, "max":1, "from":[14], "appliesTo":[501,502,504]},
 		{"min":0, "max":1, "from":[15], "appliesTo":[501,502]},
 
-		{"min":1, "max":1, "from":[19], "appliesTo":[501]},
-		{"min":1, "max":1, "from":[20,21,22], "appliesTo":[501]},
+		{"min":1, "max":1, "from":[21,22], "appliesTo":[501]},
 
 		{"max":1, "from":[35], "appliesTo":[501,502,503]},
 		{"max":1, "from":[44], "appliesTo":[501,506]},

@@ -1,6 +1,6 @@
 {
    "id": "EA-R World Eaters",
-   "version": "0.7.0",
+   "version": "0.7.1",
    "by": "EA-Ragnarok",
    "sections": [
       {"name": "INDIVIDUALS", "formations": [
@@ -8,7 +8,7 @@
       ]},
 
       {"name": "WORLD EATERS CORE FORMATIONS", "formations": [
-            {"id": 521, "name": "World Eater Retinue", "pts": 300, "upgrades": [26,25,27,22,30]}
+            {"id": 521, "name": "World Eater Retinue", "pts": 300, "units": "4 Chaos Space Marines, 4 Khorne Berzerkers", "upgrades": [26,25,27,22,30]}
        ]},
 
       {"name": "WORLD EATERS ELITE FORMATIONS (Max 1 for each World Eater Retinue)", "formations": [
@@ -24,7 +24,7 @@
             {"id": 542, "name": "Daemonic Assault Engines", "pts": 300, "units": "6 Daemonic Assault Engines", "upgrades": []},
             {"id": 544, "name": "Doomblasters", "pts": 225, "units": "4 Doomblasters", "upgrades": []},
             {"id": 543, "name": "Hellfire Cannons", "pts": 225, "units": "4 Hellfire Cannons", "upgrades": []},
-            {"id": 545, "name": "Forgefiends", "pts": 225, "units": "3 Forgefiends", "upgrades": []}
+            {"id": 545, "name": "Forgefiends", "pts": 250, "units": "3 Forgefiends", "upgrades": []}
        ]},
 
       {"name": "WAR ENGINES AND CHAOS NAVY (Max 33%)", "formations": [
@@ -80,7 +80,6 @@
    "upgradeConstraints": [
       {"max": 1, "from": [13,14], "perArmy": true},
       {"min": 1, "max": 1, "from": [73], "appliesTo": [501]},
-      {"max": 1, "min": 1, "from": [17,19], "appliesTo": [521]},
       {"min": 1, "from": [23,39,24], "appliesTo": [521]},
       {"max": 1, "from": [22]},
       {"max": 1, "from": [23]},
