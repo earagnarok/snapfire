@@ -12,7 +12,7 @@
 			{"id":501, "name":"Black Legion Retinue", "pts":275, "upgrades":[14,15,40,41,42,43,44,70,80]}
 		]},
 		{"name":"BLACK LEGION ELITE FORMATIONS", "formations":[
-			{"id":499, "name":"Cult Marines", "pts":275, "upgrades":[14,15,40,41,70,80]},
+			{"id":499, "name":"Cult Marines", "pts":275, "upgrades":[40,41,70,80]},
 			{"id":502, "name":"Chaos Terminators", "pts":275, "upgrades":[14,15,41,42,70,80]},
 			{"id":503, "name":"Chosen", "pts":150, "units":"4 Chosen, 2 Chaos Rhinos", "upgrades":[42,70]}
 		]},

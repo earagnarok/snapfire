@@ -8,17 +8,17 @@
       ]},
 
       {"name": "WORLD EATERS CORE FORMATIONS", "formations": [
-            {"id": 521, "name": "World Eater Retinue", "pts": 300, "units": "4 Chaos Space Marines, 4 Khorne Berzerkers", "upgrades": [26,25,27,22,30]}
+            {"id": 521, "name": "World Eaters Retinue", "pts": 300, "units": "4 Chaos Space Marines, 4 Khorne Berzerkers", "upgrades": [26,25,27,22,30]}
        ]},
 
       {"name": "WORLD EATERS ELITE FORMATIONS (Max 1 for each World Eater Retinue)", "formations": [
             {"id": 531, "name": "Juggernauts", "pts": 375, "units": "8 Juggernaut Riders, Daemonic Pact", "upgrades": [26,27]},
-            {"id": 532, "name": "World Eater Terminators", "pts": 375, "upgrades": [26,24,22,25,27,39]},
+            {"id": 532, "name": "World Eaters Terminators", "pts": 375, "upgrades": [26,24,22,25,27,39]},
             {"id": 533, "name": "Berzerker Bikes", "pts": 350, "units": "8 Khorne Berzerker Assault Bikes", "upgrades": [27,25]}
        ]},
 
       {"name": "WORLD EATERS SUPPORT FORMATIONS (Max 2 for each World Eater Retinue)", "formations": [
-            {"id": 534, "name": "World Eater Renegades", "pts": 175, "units": "Daemonic Pact", "upgrades": [30,33]},
+            {"id": 534, "name": "World Eaters Destroyers", "pts": 225, "units": "4 World Eaters Destroyers", "upgrades": [25]},
             {"id": 535, "name": "Predator Company", "pts": 200,  "upgrades": [30]},
             {"id": 541, "name": "Slaughterfiends", "pts": 25, "upgrades": [35]},
             {"id": 542, "name": "Daemonic Assault Engines", "pts": 300, "units": "6 Daemonic Assault Engines", "upgrades": []},
@@ -99,8 +99,6 @@
       {"min": 1, "max": 2, "from": [34], "appliesTo": [551]},
       {"min": 1, "max": 1, "from": [15,13,14], "appliesTo": [521,531,532]},
       {"min": 1, "max": 1, "from": [15], "appliesTo": [533]},
-      {"min": 1, "max": 1, "from": [28,29], "appliesTo": [534]},
-      {"min": 1, "max": 1, "from": [20,21], "appliesTo": [534]},
       {"min": 1, "max": 1, "from": [31,32], "appliesTo": [535]},
       {"min": 4, "max": 7, "from": [35], "appliesTo": [541]}
 
