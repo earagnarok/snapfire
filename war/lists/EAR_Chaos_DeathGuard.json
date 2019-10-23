@@ -19,7 +19,7 @@
       {"name": "DEATH GUARD SUPPORT FORMATIONS (Max 2 for each Death Guard Retinue)", "formations": [
             {"id": 533, "name": "Vindicators", "pts": 50, "upgrades": [31]},
             {"id": 534, "name": "Chaos Space Marines", "pts": 225, "units": "6 Chaos Space Marines, 3 Death Guard Rhinos", "upgrades": [25]},
-            {"id": 540, "name": "Plague Reaper", "pts": 200, "upgrades": []},
+            {"id": 540, "name": "Plague Reapers", "pts": 50, "upgrades": [29]},
             {"id": 541, "name": "Contagion Engines", "pts": 325, "units": "4 Contagion Engines", "upgrades": []},
             {"id": 542, "name": "Blight Drones", "pts": 250, "units": "7 Greater Blight Drones", "upgrades": []},
             {"id": 543, "name": "Plague Tower", "pts": 325, "upgrades": []},
@@ -32,7 +32,7 @@
             {"id": 553, "name": "Repugnant Titan", "pts": 600,  "upgrades": []},
             {"id": 554, "name": "Hell Blades", "pts": 200, "units": "3 Hell Blade Interceptors", "upgrades": []},
             {"id": 555, "name": "Hell Talons", "pts": 225, "units": "2 Hell Talon Fighter-Bombers", "upgrades": []},
-            {"id": 556, "name": "Harbringer", "pts": 350, "units": "Death Guard Harbringer Bomber", "upgrades": []},
+            {"id": 556, "name": "Blightbringer Bomber", "pts": 375, "upgrades": []},
             {"id": 557, "name": "Plagueship", "pts": 100, "upgrades": []}
          ]}
    ],
@@ -52,7 +52,7 @@
       {"id": 26, "name": "Champion of Nurgle", "pts": 50},
       {"id": 27, "name": "Icon Bearer ", "pts": 25},
       {"id": 28, "name": "Death Guard Stalker ", "pts": 50},
-      {"id": 29, "name": "3 Plague Marines", "pts": 25},
+      {"id": 29, "name": "Plague Reaper", "pts": 175},
       {"id": 30, "name": "2 Death Guard Vindicators", "pts": 50},
       {"id": 31, "name": "Death Guard Vindicator", "pts": 35},
 
@@ -88,7 +88,8 @@
       {"max": 1, "from": [32]},
       {"min": 1, "max": 1, "from": [15,16,13,14], "appliesTo": [521,532]},
       {"min": 1, "max": 1, "from": [17,18], "appliesTo": [521]},
-      {"min": 5, "max": 7, "from": [31], "appliesTo": [533]}
+      {"min": 5, "max": 7, "from": [31], "appliesTo": [533]},
+      {"min": 1, "max": 2, "from": [29], "appliesTo": [540]}
 
    ]
 }
