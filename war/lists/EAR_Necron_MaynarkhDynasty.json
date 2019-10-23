@@ -8,7 +8,7 @@
             {"id": 601, "name": "Necron Tomb Complex", "pts": 75, "units":"Tomb Complex", "upgrades": []}
          ]
       },
-      {"name": "NECRON CORE (At least one 'The Unbidden' formation, but no more than the number of Necron Phalanx)",
+      {"name": "NECRON CORE (Max 1 The Unbidden for each Necron Phalanx)",
          "formations": [
             {"id": 701, "name": "Necron Phalanx", "pts": 225, "units": "6 Necron Warriors", "upgrades": [100,101,102,103,99]},
             {"id": 702, "name": "The Unbidden", "pts": 200, "units": "6 Flayed Ones", "upgrades": []}

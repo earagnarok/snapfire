@@ -10,7 +10,7 @@
 			{"id":501, "name":"Bikes", 		"pts":325, "upgrades":[15,16,17,18]},
 			{"id":522, "name":"Scout Bikes",	"pts":150, "upgrades":[15,16,17,18]}
 		]},
-		{"name":"WHITE SCAR SUPPORT DETACHMENTS (Max two for each Core Detachment)", "formations":[
+		{"name":"WHITE SCAR SUPPORT DETACHMENTS (Max 2 for each Core Detachment)", "formations":[
 			{"id":504, "name":"Land Speeders",	"pts":200, "upgrades":[15,16,17,18]},
 			{"id":506, "name":"Predators",		"pts":250, "upgrades":[15,16,17,18,30,31,36,37]},
 			{"id":507, "name":"Scouts",		"pts":150, "upgrades":[15,16,17,18,38,39]},

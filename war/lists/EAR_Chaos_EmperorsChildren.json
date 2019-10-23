@@ -11,16 +11,16 @@
 			{"name":"EMPERORS CHILDREN CORE FORMATIONS", "formations":[
 			{"id":501, "name":"Emperors Children Retinue", "pts":250, "units": "3 Chaos Space Marines", "upgrades":[14,15,30,31,35,44,70,80]}
 		]},
-		{"name":"EMPERORS CHILDREN ELITE FORMATIONS", "formations":[
+		{"name":"EMPERORS CHILDREN ELITE FORMATIONS (Max 1 for each Core formation)", "formations":[
 			{"id":502, "name":"Emperors Children Terminators", "pts":375, "units": "4 Sirenshriek Terminators", "upgrades":[14,15,32,35,70,80]},
 			{"id":503, "name":"Chosen", "pts":150, "units":"4 Chosen, 2 Chaos Rhinos", "upgrades":[35,70]}
 		]},
-		{"name":"EMPERORS CHILDREN SUPPORT FORMATIONS", "formations":[
+		{"name":"EMPERORS CHILDREN SUPPORT FORMATIONS (Max 2 for each Core formation)", "formations":[
 			{"id":504, "name":"Bike Company",	"pts":250, "units":"6 Chaos Space Marines Bikes", "upgrades":[14,70]},
 			{"id":505, "name":"Raptor Cult",	"pts":175, "units":"4 Chaos Raptors", "upgrades":[70]},
 			{"id":506, "name":"Armoured Company", "pts":0, "upgrades":[44] }
 		]},
-		{"name":"EMPERORS CHILDREN DAEMON ENGINE, TITAN AND CHAOS NAVY FORMATIONS", "formations":[
+		{"name":"EMPERORS CHILDREN DAEMON ENGINE, TITAN AND CHAOS NAVY FORMATIONS (Max 33%)", "formations":[
 			{"id":511, "name":"Hell-Knights",	"pts":325, "units":"3 Hell-Knights",  "upgrades":[]},
 			{"id":512, "name":"Hell-Scourges", "pts":325,  "units":"3 Hell-Scourges", "upgrades":[]},
 			{"id":513, "name":"Slaneesh Defiler Pack", "pts":25, "upgrades":[50]},
@@ -36,8 +36,8 @@
 	{"id":10, "name":"Chaos Lord", 		"pts":0},
 		{"id":11, "name":"Sorcerer Lord", 		"pts":0},
 		{"id":12, "name":"Chaos Warlord", 		"pts":50},
-		{"id":13, "name":"Daemon Prince (replaces one unit of Chaos Space Marines or Noise Marines)", 		"pts":75},
-		{"id":16, "name":"Daemon Prince (replaces one unit of Emperor's Children Terminators)", 		"pts":75},
+		{"id":13, "name":"Daemon Prince (replaces one unit of Chaos Space Marines or Noise Marines)", 		"pts":100},
+		{"id":16, "name":"Daemon Prince (replaces one unit of Emperor's Children Terminators)", 		"pts":100},
 
 		{"id":14, "name":"Icon Bearer", "pts":25},
 		{"id":15, "name":"Chaos Champion", "pts":50},

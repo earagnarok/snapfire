@@ -89,7 +89,7 @@
       ]
     },
 	{
-      "name": "Secondary Synapse Swarms (One Secondary Synapse Swarm may be taken for each Primary Synapse Swarm)",
+      "name": "Secondary Synapse Swarms (Max 1 Secondary Synapse Swarm for each Primary Synapse Swarm)",
       "formations": [
 	  	    {
           "id": 512,
@@ -152,7 +152,7 @@
       ]
     },
     {
-      "name": "Common Independent Swarms (One Common Independent Swarm may be taken for each Primary Synapse Swarm. // Max 33% of the list may be taken from this section)",
+      "name": "Common Independent Swarms (Max 1 Common Independent Swarm for each Primary Synapse Swarm. // Max 33%)",
       "formations": [
         {
           "id": 506,
@@ -174,7 +174,7 @@
       ]
     },
     {
-      "name": "Rare Independent Swarms (One Rare Independent Swarm may be taken for each Primary Synapse Swarm. // Max 33% of the list may be taken from this section)",
+      "name": "Rare Independent Swarms (Max 1 Rare Independent Swarm for each Primary Synapse Swarm. // Max 33%)",
       "formations": [
     {
           "id": 510,

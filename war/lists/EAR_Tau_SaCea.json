@@ -1,6 +1,6 @@
 {
-   "id": "Tau Sa'Cae",
-   "version": "0.9.1",
+   "id": "EA-R Tau Sa'Cea",
+   "version": "1.0.0",
    "by": "EA-Ragnarok",
    "sections": [
       { "name": "CADRES",
@@ -9,7 +9,7 @@
             {"id": 531,"name": "Fire Warrior Cadre","pts": 225,"upgrades": [62,63,60,35,80,81,82,61,54,55]}
          ]
       },
-      {"name": "SUPPORT GROUPS",
+      {"name": "SUPPORT GROUPS (Max 3 for each Cadre)",
          "formations": [
             {"id": 516,"name": "Armour Support Group","pts": 0,"upgrades": [87,88,89,55]},
             {"id": 514,"name": "Broadside Group","pts": 300,"units": "6 XV88 Broadsides","upgrades": [35]},
@@ -20,7 +20,7 @@
             {"id": 513,"name": "Stealth Group","pts": 225,"units": "6 XV15 Stealth Units","upgrades": [35]}
          ]
       },
-      { "name": "AIR CASTE",
+      { "name": "AIR CASTE (Max 33%)",
          "formations": [
             {"id": 521,"name": "Barracuda Squadron","pts": 150,"units": "2 Barracuda Fighters","upgrades": []},
             {"id": 524,"name": "Manta Dropship","pts": 500,"upgrades": []},
