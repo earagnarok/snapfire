@@ -1,6 +1,6 @@
 {
-	"id":"EA-R Black Legion",
-	"version":"1.0.0",
+	"id":"EA-R Iron Warriors",
+	"version":"",
 	"notes":
 		["Add one free Lesser Daemon to the Lesser Daemon pool per Daemonic Pact"],
 		"by":"EA-Ragnarok",
@@ -13,7 +13,7 @@
 		]},
 		{"name":"BLACK LEGION ELITE FORMATIONS (Max 1 for each Core formation)", "formations":[
 			{"id":499, "name":"Cult Marines", "pts":225, "upgrades":[14,40,41,42,70,80]},
-			{"id":502, "name":"Chaos Terminators", "pts":275, "units":"4 Chaos Terminators", "upgrades":[14,41,42,51,70,80]},
+			{"id":502, "name":"Chaos Terminators", "pts":275, "upgrades":[14,41,42,70,80]},
 			{"id":503, "name":"Chosen", "pts":150, "units":"4 Chosen, 2 Chaos Rhinos", "upgrades":[42,70]}
 		]},
 		{"name":"BLACK LEGION SUPPORT FORMATIONS (Max 2 for each Core formation)", "formations":[
@@ -68,7 +68,7 @@
 		{"id":49, "name":"4 Chaos Space Marines, 4 Havocs", "pts":50},
 
 		{"id":50, "name":"Chaos Terminators", "pts":0},
-		{"id":51, "name":"Obliterators", "pts":75},
+		{"id":51, "name":"Obliterators", "pts":35},
 
 		{"id":60, "name":"Death Wheel", "pts":225},
 		{"id":61, "name":"Decimator", "pts":175},
@@ -110,6 +110,7 @@
 		{"min":0, "max":10, "from":[80], "appliesTo":[501,502]},
 
 		{"min":1, "max":1, "from":[10,11,12,15,16], "appliesTo":[502]},
+		{"min":4, "max":4, "from":[50,51], "appliesTo":[502]},
 		{"min":0, "max":2, "from":[51], "appliesTo":[502]},
 		{"min":0, "max":4, "from":[41], "appliesTo":[502]},
 
