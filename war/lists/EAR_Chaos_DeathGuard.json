@@ -8,7 +8,7 @@
       ]},
 
       {"name": "DEATH GUARD RETINUE", "formations": [
-            {"id": 521, "name": "Death Guard Retinue", "pts": 300,  "units": "4 Plague Marines", "upgrades": [22,23,24,25,26,27,28,30]}
+            {"id": 521, "name": "Death Guard Retinue", "pts": 275,  "units": "4 Plague Marines", "upgrades": [22,23,24,25,26,27,28,30]}
        ]},
 
       {"name": "DEATH ELITE FORMATIONS (Max 1 for each Death Guard Retinue)", "formations": [
@@ -38,14 +38,14 @@
    ],
    "upgrades": [
       {"id": 13, "name": "Chaos Warlord", "pts": 50},
-      {"id": 14, "name": "Daemon Prince of Nurgle (replaces the Chaos Lord and his unit)", "pts": 75},
+      {"id": 14, "name": "Daemon Prince of Nurgle (replaces the Chaos Lord and his unit)", "pts": 100},
       {"id": 15, "name": "Chaos Lord", "pts": 0},
       {"id": 16, "name": "Sorcerer Lord", "pts": 0},
       {"id": 17, "name": "3 Chaos Space Marines", "pts": 0},
       {"id": 18, "name": "3 Havocs", "pts": 35},
       {"id": 19, "name": "3 Plague Marines", "pts": 0},
       {"id": 20, "name": "Plaguehound Scout Titan", "pts": 250},
-      {"id": 22, "name": "2 Death Guard Dreadnoughts", "pts": 75},
+      {"id": 22, "name": "Death Guard Dreadnought", "pts": 50},
       {"id": 23, "name": "Death Guard Rhino", "pts": 10},
 	  {"id": 24, "name": "Death Guard Land Raider", "pts": 50},
       {"id": 25, "name": "Daemonic Pact", "pts": 25},
@@ -76,7 +76,7 @@
    "upgradeConstraints": [
       {"max": 1, "from": [13,14], "perArmy": true},
       {"min": 1, "max": 1, "from": [73], "appliesTo": [501]},
-      {"max": 1, "from": [22]},
+      {"max": 2, "from": [22]},
       {"max": 4, "from": [23,24], "appliesTo": [521]},
 
       {"max": 1, "from": [25]},

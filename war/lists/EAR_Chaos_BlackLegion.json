@@ -12,7 +12,7 @@
 			{"id":501, "name":"Black Legion Retinue", "pts":275, "upgrades":[14,15,40,41,42,43,44,70,80]}
 		]},
 		{"name":"BLACK LEGION ELITE FORMATIONS", "formations":[
-			{"id":499, "name":"Cult Marines", "pts":275, "upgrades":[40,41,70,80]},
+			{"id":499, "name":"Cult Marines", "pts":200, "units":"Icon Bearer",  "upgrades":[40,41,42,70,80]},
 			{"id":502, "name":"Chaos Terminators", "pts":275, "upgrades":[14,15,41,42,70,80]},
 			{"id":503, "name":"Chosen", "pts":150, "units":"4 Chosen, 2 Chaos Rhinos", "upgrades":[42,70]}
 		]},
@@ -54,14 +54,14 @@
 		{"id":40, "name":"Chaos Rhino", 	"pts":10},
 		{"id":41, "name":"Chaos Land Raider", 	"pts":50},
 
-		{"id":42, "name":"2 Chaos Dreadnoughts", "pts":75},
+		{"id":42, "name":"Chaos Dreadnought", "pts":50},
 		{"id":43, "name":"2 Chaos Vindicators", "pts":50},
 		{"id":44, "name":"Chaos Stalker", "pts":50},
 
-		{"id":45, "name":"Sorcerer Lord, 6 Noise Marines of Slaanesh", "pts":0},
-		{"id":46, "name":"Chaos Lord, 6 Plague Marines of Nurgle", "pts":0},
-		{"id":47, "name":"Chaos Lord, 6 Khorne Berzerkers", "pts":0},
-		{"id":48, "name":"Sorcerer Lord, 6 Rubric Marines of Tzeench", "pts":0},
+		{"id":45, "name":"Sorcerer Lord, 4 Noise Marines of Slaanesh", "pts":0},
+		{"id":46, "name":"Chaos Lord, 4 Plague Marines of Nurgle", "pts":0},
+		{"id":47, "name":"Chaos Lord, 4 Khorne Berzerkers", "pts":0},
+		{"id":48, "name":"Sorcerer Lord, 4 Rubric Marines of Tzeench", "pts":0},
 
 		{"id":49, "name":"4 Chaos Space Marines, 4 Havocs", "pts":50},
 
@@ -100,7 +100,7 @@
 		{"min":0, "max":1, "from":[14], "appliesTo":[499,501,502,504]},
 		{"min":0, "max":1, "from":[15], "appliesTo":[499,501,502]},
 
-		{"min":0, "max":3, "from":[40,41], "appliesTo":[499]},
+		{"min":0, "max":2, "from":[40,41], "appliesTo":[499]},
 		{"min":1, "max":1, "from":[45,46,47,48], "appliesTo":[499]},
 
 		{"min":1, "max":1, "from":[20,49], "appliesTo":[501]},
@@ -117,7 +117,7 @@
 
 		{"min":0, "max":1, "from":[80], "appliesTo":[505]},
 
-		{"min":0, "max":1, "from":[42], "appliesTo":[499,501,502,503]},
+		{"min":0, "max":2, "from":[42], "appliesTo":[499,501,502,503]},
 		{"min":0, "max":1, "from":[43], "appliesTo":[499,501,506,507]},
 		{"min":0, "max":1, "from":[44], "appliesTo":[499,501,506,507]},
 
