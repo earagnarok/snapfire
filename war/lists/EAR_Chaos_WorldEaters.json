@@ -23,7 +23,7 @@
             {"id": 541, "name": "Slaughterfiends", "pts": 25, "upgrades": [35]},
             {"id": 542, "name": "Daemonic Assault Engines", "pts": 300, "units": "6 Daemonic Assault Engines", "upgrades": []},
             {"id": 544, "name": "Doomblasters", "pts": 225, "units": "4 Doomblasters", "upgrades": []},
-            {"id": 543, "name": "Hellfire Cannons", "pts": 225, "units": "4 Hellfire Cannons", "upgrades": []},
+            {"id": 543, "name": "Hellfire Battery", "pts": 225, "units": "4 Hellfire Cannons", "upgrades": []},
             {"id": 545, "name": "Forgefiends", "pts": 250, "units": "3 Forgefiends", "upgrades": []}
        ]},
 
@@ -51,7 +51,7 @@
       {"id": 27, "name": "Icon Bearer", "pts": 25},
       {"id": 28, "name": "4 Chaos Space Marines", "pts": 0},
       {"id": 29, "name": "4 Khorne Berzerkers", "pts": 0},
-      {"id": 30, "name": "2 Chaos Vindicators", "pts": 50},
+      {"id": 30, "name": "Chaos Vindicator", "pts": 35},
       {"id": 31, "name": "4 Chaos Predators", "pts": 0},
       {"id": 32, "name": "6 Chaos Predators", "pts": 75},
       {"id": 33, "name": "2 Chaos Predators", "pts": 75},
@@ -88,7 +88,7 @@
       {"max": 1, "from": [26]},
       {"max": 1, "from": [27]},
       {"max": 1, "from": [28]},
-      {"max": 1, "from": [30]},
+      {"max": 2, "from": [30]},
       {"max": 1, "from": [31]},
       {"max": 1, "from": [33]},
       {"max": 2, "from": [38]},

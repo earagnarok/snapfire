@@ -53,7 +53,7 @@
       {"id": 27, "name": "Icon Bearer ", "pts": 25},
       {"id": 28, "name": "Death Guard Stalker ", "pts": 50},
       {"id": 29, "name": "Plague Reaper", "pts": 175},
-      {"id": 30, "name": "2 Death Guard Vindicators", "pts": 50},
+      {"id": 30, "name": "Death Guard Vindicator", "pts": 35},
       {"id": 31, "name": "Death Guard Vindicator", "pts": 35},
 
       {"id": 32, "name": "4 Death Guard Land Raiders", "pts": 200},
@@ -84,7 +84,7 @@
       {"max": 1, "from": [27]},
       {"max": 1, "from": [28]},
 	  {"max": 1, "from": [29]},
-      {"max": 1, "from": [30]},
+      {"max": 2, "from": [30]},
       {"max": 1, "from": [32]},
       {"min": 1, "max": 1, "from": [15,16,13,14], "appliesTo": [521,532]},
       {"min": 1, "max": 1, "from": [17,18], "appliesTo": [521]},

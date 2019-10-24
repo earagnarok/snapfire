@@ -29,7 +29,6 @@
 			{"id":514, "name":"Chaos Warhounds",	"pts":50, "upgrades":[62]},
 			{"id":515, "name":"Chaos Reaver Titan",		"pts":600, "upgrades":[]},
 			{"id":516, "name":"Chaos Warlord Titan",	"pts":750, "upgrades":[]},
-			{"id":517, "name":"Harbinger Bomber", 	"pts":350, "upgrades":[]},
 			{"id":518, "name":"Hell Blades",	"pts":200, "units":"3 Hell Blade Fighters", "upgrades":[]},
 			{"id":519, "name":"Hell Talons",	"pts":225, "units":"2 Hell Talon Fighter-Bombers", "upgrades":[]},
 			{"id":520, "name":"Devastation Class Cruiser",	"pts":150, "upgrades":[]},
@@ -57,7 +56,7 @@
 		{"id":41, "name":"Chaos Land Raider", 	"pts":50},
 
 		{"id":42, "name":"Chaos Dreadnought", "pts":50},
-		{"id":43, "name":"2 Chaos Vindicators", "pts":50},
+		{"id":43, "name":"Chaos Vindicator", "pts":35},
 		{"id":44, "name":"Chaos Stalker", "pts":50},
 
 		{"id":45, "name":"Sorcerer Lord, 4 Noise Marines of Slaanesh", "pts":0},
@@ -118,7 +117,7 @@
 		{"min":0, "max":1, "from":[80], "appliesTo":[505]},
 
 		{"min":0, "max":2, "from":[42], "appliesTo":[499,501,502,503]},
-		{"min":0, "max":1, "from":[43], "appliesTo":[499,501,506,507]},
+		{"min":0, "max":2, "from":[43], "appliesTo":[499,501,506,507]},
 		{"min":0, "max":1, "from":[44], "appliesTo":[499,501,506,507]},
 
 		{"min":1, "max":1, "from":[38,39], "appliesTo":[507]},
