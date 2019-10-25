@@ -9,21 +9,21 @@
 			{"id":500, "name":"Daemon Pool", "pts":0, "upgrades":[71,72,73]}
 		]},
 		{"name":"THOUSAND SONS CORE FORMATIONS", "formations":[
-			{"id":501, "name":"Thousand Sons Retinue", "pts":300, "units": "5 Rubric Marines", "upgrades":[20,21, 30, 40]}
+			{"id":501, "name":"Thousand Sons Retinue", "pts":375, "units": "5 Rubric Marines, 4 Chaos Space Marines, Daemonic Pact", "upgrades":[15, 20,21, 30, 40]}
 		]},
-		{"name":"THOUSAND SONS ELITE FORMATIONS (Max 1 for each Core formation)", "formations":[
-			{"id":502, "name":"Thousand Sons Terminators", "pts":400, "units": "3 Scarab Occult Terminators", "upgrades":[22]},
-			{"id":503, "name":"Thousand Sons Initiates", "pts":175,  "units": "3 Chaos Space Marines", "upgrades":[20,21, 30, 40]},
+		{"name":"THOUSAND SONS ELITE FORMATIONS (Max 2 for each Core formation)", "formations":[
+			{"id":502, "name":"Thousand Sons Terminators", "pts":400, "units": "3 Scarab Occult Terminators, Daemonic Pact", "upgrades":[15, 22]},
+			{"id":503, "name":"Thousand Sons Initiates", "pts":150,  "units": "4 Chaos Space Marines, Daemonic Pact", "upgrades":[15,16, 20,21, 30, 40]},
 			{"id":504, "name":"Predator Company", "pts":25, "upgrades":[30]},
-			{"id":507, "name":"Sorcerer Disc Riders", "pts":250, "units": "5 Sorcerer Disc Riders", "upgrades":[] }
+			{"id":507, "name":"Disc Riders", "pts":250, "units": "6 Sorcerer Disc Riders, Daemonic Pact", "upgrades":[15] }
 		]},
-		{"name":"CHAOS CULTISTS AND MINOR DAEMON ENGINE FORMATIONS (Max 2 for each Core formation)", "formations":[
-			{"id":505, "name":"Tzaangor Warhost",	"pts":200, "units":"9 Tzaangors, Daemonic Pact", "upgrades":[41,42]},
+		{"name":"THOUSAND SONS CULTIST FORMATIONS (Max 2 for each Core formation)", "formations":[
+			{"id":505, "name":"Tzaangor Host",	"pts":200, "units":"9 Tzaangors, Daemonic Pact", "upgrades":[41,42]},
 			{"id":506, "name":"Tzeench Defilers",	"pts":250, "units":"4 Decievers", "upgrades":[]},
 			{"id":508, "name":"Silver Towers",	"pts":300, "units":"4 Silver Towers", "upgrades":[]},
 			{"id":509, "name":"Mirrorfiends",	"pts":300, "units":"2 Mirrorfiends of Tzeench", "upgrades":[]}
 		]},
-		{"name":"DARK MECHANICUS, TRAITOR TITAN AND CHAOS NAVY FORMATIONS (Max 33%)", "formations":[
+		{"name":"DARK MECHANICUS AND CHAOS NAVY FORMATIONS (Max 33%)", "formations":[
 			{"id":510, "name":"Doomwings",	"pts":175, "units": "3 Doomwings", "upgrades":[]},
 			{"id":511, "name":"Firelords", "pts":25, "upgrades":[50]},
 			{"id":512, "name":"Warphound Pack", "pts":500,  "units": "2 Warphound Titans", "upgrades":[]},
@@ -32,19 +32,14 @@
 			]}
 	],
 	"upgrades":[
-		{"id":10, "name":"Rubric Marines with Aspiring Sorcerer", 				"pts":0},
+		{"id":10, "name":"Aspiring Sorcerer", 				"pts":0},
 		{"id":11, "name":"Scarab Occult Terminators with Aspiring Sorcerer", 	"pts":0},
-		{"id":12, "name":"Rubric Marines with Exalted Sorcerer", 				"pts":50},
+		{"id":12, "name":"Exalted Sorcerer", 				"pts":50},
 		{"id":13, "name":"Scarab Occult Terminators with Exalted Sorcerer", 	"pts":50},
-		{"id":14, "name":"Daemon Prince of Tzeench", 							"pts":100},
-		{"id":15, "name":"Sorcerer Disc Rider with Aspiring Sorcerer", 			"pts":0},
-		{"id":16, "name":"Sorcerer Disc Rider with Exalted Sorcerer", 			"pts":50},
+		{"id":14, "name":"Daemon Prince of Tzeench (Replaces the Aspiring Sorcerer and its unit)", 	"pts":100},
 
-		{"id":17, "name":"Chaos Space Marines", 								"pts":0},
-		{"id":18, "name":"Chaos Space Marines with Aspiring Sorcerer", 			"pts":0},
-		{"id":19, "name":"Chaos Space Marines with Champion of Tzeench", 		"pts":25},
-
-
+		{"id":15, "name":"Icon Bearer", 			"pts":25},
+		{"id":16, "name":"Champion of Tzeench", 			"pts":50},
 
 		{"id":20, "name":"Chaos Rhino", 	"pts":10},
 		{"id":21, "name":"Thousand Sons Land Raider", 	"pts":50},
@@ -62,14 +57,14 @@
 
 		{"id":71, "name":"Greater Daemon Pool point", "pts":50},
 		{"id":72, "name":"Lesser Daemon Pool point", "pts":15},
-		{"id":73, "name":"Lesser Daemon Pool point (One for each Daemonic Pact, Champion of Tzeench, Aspiring / Exalted Sorcerer or Daemon Prince of Tzeench)", "pts":0},
+		{"id":73, "name":"Lesser Daemon Pool point (Daemonic Pact)", "pts":0},
 		{"id":74, "name":"Greater Daemon Pool point (Free)", "pts":0}
 
 
 	],
 	"formationConstraints":[
 		{"max":1, "name":"Spacecraft", "from":[514]},
-		{"max":1, "name":"Thousand Sons Elite Formation", "from":[502,503,504,507], "forEach":[501], "name2":"Thousand Sons Core Formation"},
+		{"max":2, "name":"Thousand Sons Elite Formation", "from":[502,503,504,507], "forEach":[501], "name2":"Thousand Sons Core Formation"},
 		{"max":2, "name":"Thousand Sons Support Formations", "from":[505,506,508,509], "forEach":[501], "name2":"Thousand Sons Core Formation"},
 		{"min":1, "max":1, "from":[500]},
 		{"maxPercent": 33.5, "name":"War Engines, Titan & Chaos Navy", "from":[510,511,512,513,514]}
@@ -77,14 +72,13 @@
 	"upgradeConstraints":[
 		{"max":1, "perArmy":true, "from":[12,13,14,16]},
 
+		{"min":0, "max":1, "from":[15]},
+		{"min":0, "max":1, "from":[16]},
+
 		{"min":1, "max":1, "from":[10,12,14], "appliesTo":[501]},
 		{"min":1, "max":1, "from":[11,13,14], "appliesTo":[502]},
 
-		{"min":1, "max":1, "from":[18,19], "appliesTo":[503]},
-
-		{"min":1, "max":1, "from":[15,16,14], "appliesTo":[507]},
-
-		{"min":0, "max":3, "from":[20,21], "appliesTo":[501]},
+		{"min":0, "max":5, "from":[20,21], "appliesTo":[501]},
 		{"min":0, "max":2, "from":[20,21], "appliesTo":[503]},
 
 		{"min":0, "max":1, "from":[22], "appliesTo":[502]},
@@ -95,6 +89,8 @@
 		{"min":0, "max":2, "from":[40], "appliesTo":[501,503]},
 
 		{"min":0, "max":1, "from":[41,42], "appliesTo":[505]},
+
+		{"min":1, "max":1, "from":[10,12,14], "appliesTo":[507]},
 
 		{"min":2, "max":3, "from":[50], "appliesTo":[511]},
 
