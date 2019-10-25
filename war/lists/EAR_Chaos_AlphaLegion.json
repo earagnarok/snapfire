@@ -10,7 +10,7 @@
 		{"name":"ALPHA LEGION CULTIST COVEN FORMATIONS", "formations": [
 				{ "id":500, "name":"Cultist Coven", "pts":110, "upgrades":[40,43,44,45,46,47,48,49,39] }
 		]},
-		{"name":"ALPHA LEGION ELITE DETACHMENTS (Max 1 for each Cultist Coven Detachment)", "formations": [
+		{"name":"ALPHA LEGION ELITE DETACHMENTS (Max 1 for each Cultist Coven)", "formations": [
 			{ "id":501, "name":"Alpha Legion Marines", "pts":200, "upgrades":[30,31,32,12] },
 			{ "id":521, "name":"Headhunters", "pts":225, "units":"4 Headhunters plus transport", "upgrades":[30,31,12] },
 			{ "id":522, "name":"Destroyers", "pts":200,"units":"4 Alpha Legion Destroyers", "upgrades":[] },
