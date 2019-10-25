@@ -41,8 +41,8 @@
       {"id": 22,"name": "Custodian Class Battleship","pts": 25},     
       {"id": 18,"name": "KV-104 Riptide","pts": 100},
       {"id": 19,"name": "KV-139 Supremacy Suit - Heavy Rail Cannon","pts": 0},
-      {"id": 20,"name": "KV-139 Supremacy Suit - Nexus Missile System","pts": 0},
-      {"id": 21,"name": "KV-139 Supremacy Suit - Pulse Ordinance Multi-Driver","pts": 0}
+      {"id": 20,"name": "KV-139 Supremacy Suit - Nexus Missile Array","pts": 0},
+      {"id": 21,"name": "KV-139 Supremacy Suit - Pulse Ordnance Multi-Driver","pts": 0}
    ],
    "formationConstraints": [
       {"max": 1,"from": [534]},
