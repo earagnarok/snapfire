@@ -13,7 +13,7 @@
 		]},
 		{"name":"BLACK LEGION ELITE FORMATIONS (Max 1 for each Core formation)", "formations":[
 			{"id":502, "name":"Chaos Terminators", "pts":275, "units":"4 Chaos Terminators", "upgrades":[14,15,41,42,51,70,80]},
-			{"id":503, "name":"Chosen", "pts":150, "units":"4 Chosen, 2 Chaos Rhinos", "upgrades":[42,70]}
+			{"id":503, "name":"Chosen", "pts":150, "units":"4 Chosen", "upgrades":[70]}
 		]},
 		{"name":"BLACK LEGION SUPPORT FORMATIONS (Max 2 for each Core formation)", "formations":[
 			{"id":504, "name":"Bike Company",	"pts":300, "units":"8 Chaos Space Marines Bikes", "upgrades":[14,70]},
@@ -68,8 +68,8 @@
 		{"id":43, "name":"Chaos Vindicator", "pts":35},
 		{"id":44, "name":"Chaos Stalker", "pts":50},
 
-
-
+		{"id":46, "name":"2 Chaos Rhinos", 	"pts":0},
+		{"id":47, "name":"2 Chaos Dreadnoughts", "pts":75},
 
 
 		{"id":50, "name":"Chaos Terminators", "pts":0},
@@ -92,7 +92,6 @@
 	],
 	"formationConstraints":[
 		{"max":1, "name":"Spacecraft", "from":[520,521]},
-		{"max":1, "name":"Harbringer", "from":[517]},
 		{"max":1, "name":"Black Legion Elite Formation", "from":[502,503], "forEach":[501], "name2":"Black Legion Core Formation"},
 		{"max":2, "name":"Black Legion Support Formations", "from":[504,505,506,507], "forEach":[501], "name2":"Black Legion Core Formation"},
 		{"max":1, "from":[500]},
@@ -120,11 +119,13 @@
 		{"min":0, "max":2, "from":[51], "appliesTo":[502]},
 		{"min":0, "max":4, "from":[41], "appliesTo":[502]},
 
+		{"min":1, "max":1, "from":[46,47], "appliesTo":[503]},
+
 		{"min":1, "max":1, "from":[10,11], "appliesTo":[504,505,507]},
 
 		{"min":0, "max":1, "from":[80], "appliesTo":[505]},
 
-		{"min":0, "max":2, "from":[42], "appliesTo":[499,501,502,503]},
+		{"min":0, "max":2, "from":[42], "appliesTo":[499,501,502]},
 		{"min":0, "max":2, "from":[43], "appliesTo":[499,501,506,507]},
 		{"min":0, "max":1, "from":[44], "appliesTo":[499,501,506,507]},
 

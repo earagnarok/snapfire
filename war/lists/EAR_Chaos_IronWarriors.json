@@ -7,19 +7,19 @@
 	"sections":[
 		{"name":"IRON WARRIORS CORE FORMATIONS", "formations":[
 			{"id":500, "name":"Iron Warriors Retinue", "pts":250, "units":"8 Iron Warriors Marines", "upgrades":[40,41,42,43,44,80]},
-			{"id":501, "name":"Vindicator Company", "pts":250, "units":"6 Chaos Vindicators", "upgrades":[] },
+			{"id":501, "name":"Vindicator Company", "pts":250, "units":"6 Chaos Vindicators", "upgrades":[44] },
 			{"id":502, "name":"Havocs",	"pts":200, "units":"4 Havocs", "upgrades":[43,44]}
 		]},
 		{"name":"IRON WARRIORS ELITE FORMATIONS (Max 1 for each Core formation)", "formations":[
 			{"id":511, "name":"Obliterator Cult", "pts":300, "units":"3 Obliterators", "upgrades":[42,80]},
-			{"id":512, "name":"Chosen", "pts":150, "units":"4 Chosen, 2 Chaos Rhinos", "upgrades":[42]},
-			{"id":513, "name":"Tyrant Terminators", "pts":300, "units":"4 Tyrant Terminators", "upgrades":[42,80]}
+			{"id":512, "name":"Chosen", "pts":150, "units":"4 Chosen, 2 Chaos Rhinos", "upgrades":[43]},
+			{"id":513, "name":"Tyrant Terminators", "pts":300, "units":"4 Tyrant Terminators", "upgrades":[42,46,80]}
 		]},
-		{"name":"IRON WARRIORS SIEGE FORMATIONS (Max 2 for each Core formation)", "formations":[
-			{"id":520, "name":"Iron Warriors Artillery Emplacement", "pts":350, "units":"4 Chaos Basilisks, 4 Gun Emplacements", "upgrades":[] },
+		{"name":"IRON WARRIORS SIEGE FORMATIONS (Max 1 for each Core formation)", "formations":[
+			{"id":520, "name":"Iron Warriors Artillery Emplacement", "pts":325, "units":"4 Chaos Basilisks, 4 Gun Emplacements", "upgrades":[] },
 			{"id":521, "name":"Bezashk Medusa Emplacement",	"pts":250, "units":"4 Bezashk Medusa, 4 Gun Emplacement", "upgrades":[]},
 			{"id":522, "name":"Bezashk Destroyers",	"pts":250, "units":"4 Bezashk Destroyers", "upgrades":[]},
-			{"id":523, "name":"Iron Warriors Stormsword Platoon", "pts":200, "units":"Chaos Stormsword", "upgrades":[]},
+			{"id":523, "name":"Iron Warriors Stormsword", "pts":200, "units":"Chaos Stormsword", "upgrades":[]},
 			{"id":524, "name":"Dreadnought Assault", "pts":75, "upgrades":[45,80]}
 		]},
 		{"name":"DARK MECHANICUS, TRAITOR TITAN AND CHAOS NAVY FORMATIONS (Max 33%)", "formations":[
@@ -50,6 +50,7 @@
 		{"id":43, "name":"Chaos Vindicator", "pts":35},
 		{"id":44, "name":"Chaos Stalker", "pts":50},
 		{"id":45, "name":"Chaos Dreadnought", "pts":50},
+		{"id":46, "name":"Obliterator", "pts":75},
 
 		{"id":61, "name":"Decimator", "pts":175},
 		{"id":63, "name":"Defiler", "pts":50},
@@ -67,7 +68,7 @@
 		{"max":1, "name":"Spacecraft", "from":[538,539]},
 		{"max":1, "name":"Harbringer", "from":[536]},
 		{"max":1, "name":"Iron Warriors Elite Formation", "from":[511,512,513], "forEach":[500,501,502], "name2":"Iron Warriors Core Formations"},
-		{"max":2, "name":"Iron Warriors Siege Formations", "from":[520,521,522,523,524], "forEach":[500,501,502], "name2":"Iron Warriors Core Formation"},
+		{"max":1, "name":"Iron Warriors Siege Formation", "from":[520,521,522,523,524], "forEach":[500,501,502], "name2":"Iron Warriors Core Formation"},
 		{"maxPercent": 33.5, "name":"Dark Mechanicus, Traitor Titans & Chaos Navy", "from":[530,531,532,533,534,535,536,537,538,539]}
 	],
 	"upgradeConstraints":[
@@ -85,6 +86,7 @@
 		{"min":0, "max":2, "from":[42]},
 		{"min":0, "max":2, "from":[43]},
 		{"min":0, "max":1, "from":[44]},
+		{"min":0, "max":2, "from":[46]},
 
 		{"min":1, "max":1, "from":[38,39], "appliesTo":[507]},
 
