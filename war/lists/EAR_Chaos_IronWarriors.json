@@ -6,9 +6,9 @@
 		"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"IRON WARRIORS CORE FORMATIONS", "formations":[
-			{"id":500, "name":"Iron Warriors Retinue", "pts":250, "units":"8 Iron Warriors Marines", "upgrades":[40,41,42,43,44,80]},
+			{"id":500, "name":"Iron Warriors Retinue", "pts":275, "upgrades":[40,41,42,43,44,80]},
 			{"id":501, "name":"Vindicator Company", "pts":250, "units":"6 Chaos Vindicators", "upgrades":[44] },
-			{"id":502, "name":"Havocs",	"pts":200, "units":"4 Havocs", "upgrades":[43,44]}
+			{"id":502, "name":"Havocs",	"pts":300, "units":"4 Havocs, 2 Chaos Land Raiders", "upgrades":[43,44]}
 		]},
 		{"name":"IRON WARRIORS ELITE FORMATIONS (Max 1 for each Core formation)", "formations":[
 			{"id":511, "name":"Obliterator Cult", "pts":300, "units":"3 Obliterators", "upgrades":[42,80]},
@@ -16,17 +16,17 @@
 			{"id":513, "name":"Tyrant Terminators", "pts":300, "units":"4 Tyrant Terminators", "upgrades":[42,46,80]}
 		]},
 		{"name":"IRON WARRIORS SIEGE FORMATIONS (Max 1 for each Core formation)", "formations":[
-			{"id":520, "name":"Iron Warriors Artillery Emplacement", "pts":325, "units":"4 Chaos Basilisks, 4 Gun Emplacements", "upgrades":[] },
-			{"id":521, "name":"Bezashk Medusa Emplacement",	"pts":250, "units":"4 Bezashk Medusa, 4 Gun Emplacement", "upgrades":[]},
+			{"id":523, "name":"Iron Warriors Stormswords", "pts":350, "units":"2 Iron Warriors Stormswords", "upgrades":[42,43]},
+			{"id":520, "name":"Iron Warriors Artillery Emplacement", "pts":325, "units":"4 Iron Warriors Basilisks, 4 Gun Emplacements", "upgrades":[] },
+			{"id":521, "name":"Bezashk Medusa Emplacement",	"pts":250, "units":"4 Bezashk Medusa, 4 Gun Emplacements", "upgrades":[]},
 			{"id":522, "name":"Bezashk Destroyers",	"pts":250, "units":"4 Bezashk Destroyers", "upgrades":[]},
-			{"id":523, "name":"Iron Warriors Stormsword", "pts":200, "units":"Chaos Stormsword", "upgrades":[]},
-			{"id":524, "name":"Dreadnought Assault", "pts":75, "upgrades":[45,80]}
+			{"id":524, "name":"Dreadnought Assault Pack", "pts":50, "upgrades":[45,80]}
 		]},
 		{"name":"DARK MECHANICUS, TRAITOR TITAN AND CHAOS NAVY FORMATIONS (Max 33%)", "formations":[
 			{"id":530, "name":"Hellfire Battery",	"pts":225, "units":"4 Hellfire Cannons", "upgrades":[]},
-			{"id":531, "name":"Decimators", "pts":50, "upgrades":[61]},
+			{"id":531, "name":"Decimator", "pts":225, "upgrades":[]},
 			{"id":532, "name":"Defilers", "pts":25, "upgrades":[63]},
-			{"id":533, "name":"Ordinatus Hereticus Minoris", "pts":300, "upgrades":[]},
+			{"id":533, "name":"Ordinatus Hereticus Minoris", "pts":425, "upgrades":[]},
 			{"id":534, "name":"Chaos Reaver Titan",		"pts":600, "upgrades":[]},
 			{"id":535, "name":"Chaos Warlord Titan",	"pts":750, "upgrades":[]},
 			{"id":536, "name":"Harbinger Bomber", 	"pts":350, "upgrades":[]},
@@ -39,6 +39,9 @@
 		{"id":10, "name":"Iron Warriors Lord", 		"pts":0},
 		{"id":12, "name":"Iron Warriors Warsmith", 		"pts":50},
 		{"id":13, "name":"Daemon Prince (replaces one unit of Iron Warriors Marines, Havocs, or Tyrant Terminators)", 		"pts":100},
+
+		{"id":30, "name":"8 Chaos Space Marines", 	"pts":0},
+		{"id":31, "name":"8 Iron Warriors Assault Marines", 	"pts":0},
 
 		{"id":38, "name":"2 Chaos Rhinos", 	"pts":25},
 		{"id":39, "name":"2 Chaos Land Raiders", 	"pts":100},
@@ -76,9 +79,9 @@
 
 		{"min":1, "max":1, "from":[10,12,13], "appliesTo":[500,502,513]},
 
-		{"min":0, "max":4, "from":[40,41], "appliesTo":[500]},
+		{"min":1, "max":1, "from":[30,31], "appliesTo":[500]},
 
-		{"min":1, "max":1, "from":[38,39], "appliesTo":[502]},
+		{"min":0, "max":4, "from":[40,41], "appliesTo":[500]},
 
 
 		{"min":1, "max":1, "from":[10,11], "appliesTo":[504,505,507]},
@@ -90,12 +93,13 @@
 
 		{"min":1, "max":1, "from":[38,39], "appliesTo":[507]},
 
+		{"min":1, "max":1, "from":[38,39], "appliesTo":[507]},
+
 		{"min":4, "max":6, "from":[45], "appliesTo":[524]},
 
-		{"min":1, "max":2, "from":[61], "appliesTo":[531]},
 		{"min":4, "max":6, "from":[63], "appliesTo":[532]},
 
-		{"min":2, "max":2, "from":[70,71,72,73], "appliesTo":[533]}
+		{"min":3, "max":3, "from":[70,71,72,73], "appliesTo":[533]}
 
 	]
 }
