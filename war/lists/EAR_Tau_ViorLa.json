@@ -10,7 +10,7 @@
             {"id": 502,"name": "Pathfinder Group","pts": 200, "upgrades": [20, 23,24]}
          ]
       },
-      {"name": "SUPPORT GROUPS",
+      {"name": "SUPPORT GROUPS (Max 2 for each Cadre)",
          "formations": [
             {"id": 510,"name": "Broadside Group","pts": 300,"units": "6 XV88 Broadside Battlesuits","upgrades": [20]},
             {"id": 511,"name": "Stormsurge Group","pts": 250, "units": "2 KV128 Stormsurge Battlesuits", "upgrades": []},
@@ -19,7 +19,7 @@
             {"id": 514,"name": "Supremacy Suit","pts": 225, "upgrades": []}
          ]
       },
-      { "name": "AIR CASTE",
+      { "name": "AIR CASTE (Max 33%)",
          "formations": [
             {"id": 520,"name": "Razorshark Squadron","pts": 200,"units": "3 Razorshark Fighters","upgrades": []},
             {"id": 521,"name": "Sun Shark Squadron","pts": 200,"units": "2 Sun Shark Bombers","upgrades": []},

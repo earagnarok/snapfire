@@ -5,11 +5,11 @@
 	"sections":[
 		{"name":"IRON WARRIORS CORE FORMATIONS", "formations":[
 			{"id":500, "name":"Iron Warriors Retinue", "pts":225, "upgrades":[32,40,41,43,44,52,53,54,55,80]},
-			{"id":501, "name":"Vindicator Company", "pts":250, "units":"6 Chaos Vindicators", "upgrades":[44] },
+			{"id":501, "name":"Armoured Company", "pts":250, "upgrades":[44] },
 			{"id":502, "name":"Havocs",	"pts":300, "units":"4 Havocs, 2 Chaos Land Raiders", "upgrades":[43,44]}
 		]},
 		{"name":"IRON WARRIORS ELITE FORMATIONS (Max 1 for each Core formation)", "formations":[
-			{"id":511, "name":"Obliterator Cult", "pts":300, "units":"3 Obliterators", "upgrades":[52,53,54,55,80]},
+			{"id":511, "name":"Obliterator Cult", "pts":325, "units":"3 Obliterators", "upgrades":[52,53,54,55,80]},
 			{"id":513, "name":"Tyrant Terminators", "pts":275, "units":"4 Tyrant Terminators", "upgrades":[46,52,53,54,55,80]},
 			{"id":512, "name":"Chosen", "pts":150, "units":"4 Chosen, 2 Chaos Rhinos", "upgrades":[43]}
 		]},
@@ -38,8 +38,11 @@
 		{"id":12, "name":"Iron Warriors Warsmith", 		"pts":50},
 		{"id":13, "name":"Daemon Prince (replaces one unit of Iron Warriors Marines, Havocs, or Tyrant Terminators)", 		"pts":100},
 
+		{"id":20, "name":"6 Chaos Vindicators", "pts":0},
+		{"id":21, "name":"6 Chaos Predators", "pts":50},
+
 		{"id":30, "name":"6 Chaos Space Marines", 	"pts":0},
-		{"id":31, "name":"6 Iron Warriors Assault Marines", 	"pts":0},
+		{"id":31, "name":"6 Iron Warriors Assault Marines, 6 Dreadclaws", 	"pts":0},
 		{"id":32, "name":"2 Havocs", 	"pts":75},
 
 		{"id":38, "name":"2 Chaos Rhinos", 	"pts":25},
@@ -92,6 +95,7 @@
 
 		{"min":0, "max":4, "from":[40,41], "appliesTo":[500]},
 
+		{"min":1, "max":1, "from":[20,21], "appliesTo":[501]},
 
 		{"min":1, "max":1, "from":[10,11], "appliesTo":[504,505,507]},
 
