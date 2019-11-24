@@ -1,6 +1,6 @@
 {
 	"id":"EA-R Minervan Tank Legion",
-	"version":"0.6.1",
+	"version":"0.6.3",
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"MINERVAN COMPANIES", "formations":[
@@ -9,14 +9,14 @@
 			{"id":503, "name":"Artillery Company", 				"pts":400, "units":"Commissar-Captain", "upgrades":[45,46]}
 		]},
 		{"name":"MINERVAN SUPPORT FORMATIONS (Max 3 for each Company)", "formations":[
-			{"id":512, "name":"Leman Russ Platoon", 					"pts":350, "upgrades":[]},
-			{"id":509, "name":"Minervan Mechanized Platoon", 			"pts":275, "units":"2 Leman Russ Conqueror, 4 Infantry, 2 Chimeras", "upgrades":[17]},
+			{"id":512, "name":"Leman Russ Platoon", 					"pts":350, "upgrades":[17,45,46,53]},
+			{"id":509, "name":"Mechanized Infantry Company", 			"pts":350, "units":"Leman Russ Conqueror with a Commissar-Captain, eight Infantry, four Chimeras", "upgrades":[17,42,43,44,53]},
+			{"id":516, "name":"Artillery Battery",						"pts":200, "upgrades":[]},
 			{"id":513, "name":"Tank Hunter Squadron",					"pts":200,  "units":"3 Leman Russ Destroyers", "upgrades":[]},
 			{"id":510, "name":"Deathstrike Missile Battery",			"pts":200, "upgrades":[], "units":"2 Deathstrikes"},
 			{"id":511, "name":"Super-Heavy Platoon", 					"pts":175, "upgrades":[]},
-			{"id":514, "name":"Flak Battery",							"pts":150, "upgrades":[], "units":"3 Hydras"},
 			{"id":515, "name":"Salamander Squadron",					"pts":150, "units":"4 Salamander Scout Tanks", "upgrades":[]},
-			{"id":518, "name":"Light Artillery Battery",				"pts":100,  "units":"3 Griffons", "upgrades":[]}
+			{"id":518, "name":"Light Artillery Battery",				"pts":125,  "units":"3 Griffons", "upgrades":[]}
 		]},
 		{"name":"COLLEGIA TITANICA & IMPERIAL NAVY FORMATIONS (Max 33%)", "formations":[
 			{"id":527, "name":"Warhound Pack",			"pts":500, "upgrades":[70], "units":"2 Warhounds"},
@@ -55,17 +55,25 @@
 		{"id":40, "name":"Lunar Class Cruiser",			"pts":0},
 		{"id":41, "name":"Emperor Class Battleship",	"pts":50},
 
+		{"id":42, "name":"3 Leman Russ Conquerors",		"pts":125},
+        {"id":43, "name":"3 Leman Russ",				"pts":125},
+		{"id":44, "name":"3 Leman Russ Punishers",	"pts":125},
+
 		{"id":45, "name":"Hydra",		"pts":50},
 		{"id":46, "name":"2 Hydras",	"pts":75},
 
 		{"id":50, "name":"3 Basilisks",					"pts":0},
-		{"id":51, "name":"3 Bombards",					"pts":0},
-		{"id":52, "name":"3 Manticores",				"pts":25},
+		{"id":51, "name":"3 Bombards",					"pts":25},
+		{"id":52, "name":"3 Manticores",				"pts":50},
 
 		{"id":53, "name":"3 Griffons",					"pts":50},
 
 		{"id":54, "name":"6 Basilisks",					"pts":0},
 		{"id":55, "name":"6 Manticores",				"pts":50},
+
+		{"id":56, "name":"3 Basilisks",					"pts":0},
+		{"id":57, "name":"3 Bombards ",					"pts":25},
+		{"id":58, "name":"3 Manticores",				"pts":50},
 
         {"id":60, "name":"Baneblade",					"pts":0},
         {"id":61, "name":"Shadowsword",					"pts":0},
@@ -87,7 +95,8 @@
 	],
 	"upgradeConstraints":[
 		{"max":1, "perArmy":true, "from":[10,14]},
-		{"max":2, "from":[17]},
+		{"max":3, "from":[17]},
+		{"max":1, "from":[42,43,44]},
 		{"max":1, "from":[45,46]},
 		{"max":1, "from":[53]},
 
@@ -102,6 +111,8 @@
    		{"min":1, "max":1, "from":[26,28,29,27], "appliesTo":[511]},
 
   		{"min":1, "max":1, "from":[37,39,36,34,38], "appliesTo":[512]},
+
+ 		{"min":1, "max":1, "from":[56,57,58], "appliesTo":[516]},
 
   		{"min":1, "max":1, "from":[40,41], "appliesTo":[532]}
 	]
