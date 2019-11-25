@@ -14,9 +14,9 @@
 			{"id":512, "name":"Chosen", "pts":150, "units":"4 Chosen, 2 Chaos Rhinos", "upgrades":[43,52,53,54,55]}
 		]},
 		{"name":"IRON WARRIORS SIEGE FORMATIONS (Max 1 for each Core formation)", "formations":[
-			{"id":523, "name":"Iron Warriors Stormswords", "pts":350, "units":"2 Iron Warriors Stormswords", "upgrades":[43,52,53,54,55]},
-			{"id":520, "name":"Iron Warriors Artillery Emplacement", "pts":250, "upgrades":[] },
-			{"id":521, "name":"Bezashk Medusa Emplacement",	"pts":250, "units":"4 Bezashk Medusa, 4 Gun Emplacements", "upgrades":[]},
+			{"id":523, "name":"Stormswords", "pts":200, "upgrades":[43,52,53,54,55]},
+			{"id":520, "name":"Iron Warriors Artillery Battery", "pts":225, "upgrades":[] },
+			{"id":521, "name":"Bezashk Medusa Battery",	"pts":225, "units":"4 Bezashk Medusa", "upgrades":[]},
 			{"id":522, "name":"Bezashk Destroyers",	"pts":250, "units":"4 Bezashk Destroyers", "upgrades":[]}
 		]},
 		{"name":"DARK MECHANICUS, TRAITOR TITAN AND CHAOS NAVY FORMATIONS (Max 33%)", "formations":[
@@ -40,6 +40,10 @@
 		{"id":20, "name":"6 Chaos Vindicators", "pts":0},
 		{"id":21, "name":"6 Chaos Predators", "pts":50},
 
+		{"id":25, "name":"Iron Warriors Stormsword", "pts":0},
+		{"id":26, "name":"2 Iron Warriors Stormswords", "pts":150},
+		{"id":27, "name":"3 Iron Warriors Stormswords", "pts":300},
+
 		{"id":30, "name":"6 Chaos Space Marines", 	"pts":0},
 		{"id":31, "name":"6 Iron Warriors Assault Marines, 6 Dreadclaws", 	"pts":0},
 		{"id":32, "name":"2 Havocs", 	"pts":75},
@@ -59,8 +63,8 @@
 		{"id":48, "name":"5 Chaos Dreadnoughts", "pts":50},
 		{"id":49, "name":"6 Chaos Dreadnoughts", "pts":100},
 
-		{"id":50, "name":"3 Iron Warriors Basilisks, 3 Gun Emplacements", "pts":0},
-		{"id":51, "name":"4 Iron Warriors Basilisks, 4 Gun Emplacements", "pts":75},
+		{"id":50, "name":"3 Iron Warriors Basilisks", "pts":0},
+		{"id":51, "name":"4 Iron Warriors Basilisks", "pts":75},
 
 		{"id":52, "name":"Chaos Dreadnought", "pts":50},
 		{"id":53, "name":"2 Chaos Dreadnoughts", "pts":100},
@@ -113,6 +117,8 @@
 		{"min":0, "max":2, "from":[46], "appliesTo":[513]},
 
 		{"min":1, "max":1, "from":[50,51], "appliesTo":[520]},
+
+		{"min":1, "max":1, "from":[25,26,27], "appliesTo":[523]},
 
 		{"min":1, "max":1, "from":[47,48,49], "appliesTo":[524]},
 		{"min":0, "max":1, "from":[48,49,54,55], "appliesTo":[524]},
