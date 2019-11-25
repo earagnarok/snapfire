@@ -1,6 +1,6 @@
 {
    "id": "EA-R World Eaters",
-   "version": "0.7.1",
+   "version": "0.7.2",
    "by": "EA-Ragnarok",
    "sections": [
       {"name": "INDIVIDUALS", "formations": [
@@ -36,9 +36,9 @@
          ]}
    ],
    "upgrades": [
-      {"id": 13, "name": "Blood Lord", "pts": 75},
+      {"id": 13, "name": "Chaos Warlord", "pts": 50},
       {"id": 14, "name": "Daemon Prince of Khorne (replaces the Skull Lord's unit)", "pts": 100},
-      {"id": 15, "name": "Skull Lord", "pts": 0},
+      {"id": 15, "name": "Chaos Lord", "pts": 0},
       {"id": 17, "name": "4 Chaos Space Marines, 4 Khorne Berzerkers", "pts": 0},
       {"id": 19, "name": "8 Khorne Berzerkers", "pts": 0},
 	  {"id": 20, "name": "2 Chaos Rhinos", "pts": 0},
