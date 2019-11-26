@@ -8,7 +8,7 @@
       ]},
 
       {"name": "WORLD EATERS CORE FORMATIONS", "formations": [
-            {"id": 521, "name": "World Eaters Retinue", "pts": 300, "units": "4 World Eaters Marines, 4 Khorne Berzerkers", "upgrades": [26,25,27,22,30,33]}
+            {"id": 521, "name": "World Eaters Retinue", "pts": 300, "units": "4 World Eaters Assault Marines, 4 Khorne Berzerkers", "upgrades": [26,25,27,22,30,33]}
        ]},
 
       {"name": "WORLD EATERS ELITE FORMATIONS (Max 1 for each World Eater Retinue)", "formations": [
