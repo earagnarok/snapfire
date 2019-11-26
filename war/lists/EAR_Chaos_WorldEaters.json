@@ -8,7 +8,7 @@
       ]},
 
       {"name": "WORLD EATERS CORE FORMATIONS", "formations": [
-            {"id": 521, "name": "World Eaters Retinue", "pts": 300, "units": "4 Chaos Assault Marines, 4 Khorne Berzerkers", "upgrades": [26,25,27,22,30,33]}
+            {"id": 521, "name": "World Eaters Retinue", "pts": 300, "units": "4 World Eaters Marines, 4 Khorne Berzerkers", "upgrades": [26,25,27,22,30,33]}
        ]},
 
       {"name": "WORLD EATERS ELITE FORMATIONS (Max 1 for each World Eater Retinue)", "formations": [
@@ -20,7 +20,7 @@
       {"name": "WORLD EATERS SUPPORT FORMATIONS (Max 2 for each World Eater Retinue)", "formations": [
             {"id": 534, "name": "World Eaters Destroyers", "pts": 200, "units": "4 World Eaters Destroyers", "upgrades": [25]},
             {"id": 535, "name": "Predator Company", "pts": 200,  "upgrades": [30]},
-            {"id": 536, "name": "Chaos Space Marines", "pts": 225, "units": "6 Chaos Space Marines, 3 Chaos Rhinos",  "upgrades": [25]},
+            {"id": 536, "name": "World Eaters Marines", "pts": 225, "units": "6 World Eaters Marines, 3 Chaos Rhinos",  "upgrades": [25]},
             {"id": 541, "name": "Slaughterfiends", "pts": 25, "upgrades": [35]},
             {"id": 542, "name": "Daemonic Assault Engines", "pts": 300, "units": "6 Daemonic Assault Engines", "upgrades": []},
             {"id": 544, "name": "Doomblasters", "pts": 225, "units": "4 Doomblasters", "upgrades": []},
@@ -40,11 +40,9 @@
       {"id": 13, "name": "Chaos Warlord", "pts": 50},
       {"id": 14, "name": "Daemon Prince of Khorne (replaces the Warlord's unit)", "pts": 100},
       {"id": 15, "name": "Chaos Lord", "pts": 0},
-      {"id": 17, "name": "4 Chaos Space Marines, 4 Khorne Berzerkers", "pts": 0},
-      {"id": 19, "name": "8 Khorne Berzerkers", "pts": 0},
 	  {"id": 20, "name": "2 Chaos Rhinos", "pts": 0},
 	  {"id": 21, "name": "World Eaters Land Raider", "pts": 50},
-      {"id": 22, "name": "Chaos Dreadnought", "pts": 50},
+      {"id": 22, "name": "Berzerker Dreadnought", "pts": 50},
       {"id": 23, "name": "4 Chaos Rhinos", "pts": 0},
       {"id": 24, "name": "3 World Eaters Land Raiders", "pts": 100},
       {"id": 25, "name": "Daemonic Pact", "pts": 25},

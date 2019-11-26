@@ -14,7 +14,7 @@
 			{"id":512, "name":"Chosen", "pts":150, "units":"4 Chosen, 2 Chaos Rhinos", "upgrades":[43,52,53,54,55]}
 		]},
 		{"name":"IRON WARRIORS SIEGE FORMATIONS (Max 1 for each Core formation)", "formations":[
-			{"id":523, "name":"Stormswords", "pts":200, "upgrades":[43,52,53,54,55]},
+			{"id":523, "name":"Iron Warriors Stormswords", "pts":200, "upgrades":[43,52,53,54,55]},
 			{"id":520, "name":"Iron Warriors Artillery Battery", "pts":250, "upgrades":[] },
 			{"id":521, "name":"Bezashk Medusa Battery",	"pts":250, "units":"4 Bezashk Medusa", "upgrades":[]},
 			{"id":522, "name":"Bezashk Destroyers",	"pts":250, "units":"4 Bezashk Destroyers", "upgrades":[]}
@@ -35,7 +35,7 @@
 	"upgrades":[
 		{"id":10, "name":"Iron Warriors Lord", 		"pts":0},
 		{"id":12, "name":"Iron Warriors Warsmith", 		"pts":50},
-		{"id":13, "name":"Daemon Prince (replaces one unit of Chaos Space Marines, Chaos Assault Marines, Havocs, or Tyrant Terminators)", 		"pts":100},
+		{"id":13, "name":"Daemon Prince (replaces one unit of Chaos Space Marines, Iron Warriors Assault Marines, Havocs, or Tyrant Terminators)", 		"pts":100},
 
 		{"id":20, "name":"6 Chaos Vindicators", "pts":0},
 		{"id":21, "name":"6 Chaos Predators", "pts":50},
@@ -45,7 +45,7 @@
 		{"id":27, "name":"3 Iron Warriors Stormswords", "pts":300},
 
 		{"id":30, "name":"6 Chaos Space Marines", 	"pts":0},
-		{"id":31, "name":"6 Chaos Assault Marines, 6 Dreadclaws", 	"pts":0},
+		{"id":31, "name":"6 Iron Warriors Assault Marines, 6 Dreadclaws", 	"pts":0},
 		{"id":32, "name":"2 Havocs", 	"pts":75},
 
 		{"id":38, "name":"2 Chaos Rhinos", 	"pts":25},
