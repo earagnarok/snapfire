@@ -9,7 +9,7 @@
 			{"id":500, "name":"Daemon Pool", "pts":0, "upgrades":[71,72,73]}
 		]},
 		{"name":"THOUSAND SONS CORE FORMATIONS", "formations":[
-			{"id":501, "name":"Thousand Sons Retinue", "pts":375, "units": "5 Rubric Marines, 4 Chaos Space Marines, Daemonic Pact", "upgrades":[15, 20,21, 30, 40]}
+			{"id":501, "name":"Thousand Sons Retinue", "pts":350, "units": "5 Rubric Marines, 4 Chaos Space Marines, Daemonic Pact", "upgrades":[15,16, 20,21, 30, 40]}
 		]},
 		{"name":"THOUSAND SONS ELITE FORMATIONS (Max 2 for each Core formation)", "formations":[
 			{"id":502, "name":"Thousand Sons Terminators", "pts":400, "units": "3 Scarab Occult Terminators, Daemonic Pact", "upgrades":[15, 22]},
@@ -48,7 +48,7 @@
 
 		{"id":30, "name":"Thousand Sons Predator", 	"pts":50},
 
-		{"id":40, "name":"Chaos Dreadnought", "pts":50},
+		{"id":40, "name":"Thousand Sons Dreadnought", "pts":50},
 
 		{"id":41, "name":"Chaos Spawn", "pts":35},
 		{"id":42, "name":"Mutalith Vortex Beast", "pts":75},
@@ -70,7 +70,7 @@
 		{"maxPercent": 33.5, "name":"War Engines, Titan & Chaos Navy", "from":[510,511,512,513,514]}
 	],
 	"upgradeConstraints":[
-		{"max":1, "perArmy":true, "from":[12,13,14,16]},
+		{"max":1, "perArmy":true, "from":[12,13,14]},
 
 		{"min":0, "max":1, "from":[15]},
 		{"min":0, "max":1, "from":[16]},

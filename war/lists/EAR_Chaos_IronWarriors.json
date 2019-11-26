@@ -11,7 +11,7 @@
 		{"name":"IRON WARRIORS ELITE FORMATIONS (Max 1 for each Core formation)", "formations":[
 			{"id":524, "name":"Dreadnought Assault Pack", "pts":250, "upgrades":[54,55,80]},
 			{"id":513, "name":"Tyrant Terminators", "pts":275, "units":"4 Tyrant Terminators",  "upgrades":[46,52,53,54,55,80]},
-			{"id":512, "name":"Chosen", "pts":150, "units":"4 Chosen, 2 Chaos Rhinos", "upgrades":[43,52,53,54,55]}
+			{"id":512, "name":"Chosen", "pts":125, "units":"4 Chosen", "upgrades":[43]}
 		]},
 		{"name":"IRON WARRIORS SIEGE FORMATIONS (Max 1 for each Core formation)", "formations":[
 			{"id":523, "name":"Iron Warriors Stormswords", "pts":200, "upgrades":[43,52,53,54,55]},
@@ -68,8 +68,8 @@
 
 		{"id":52, "name":"Chaos Dreadnought", "pts":50},
 		{"id":53, "name":"2 Chaos Dreadnoughts", "pts":100},
-		{"id":54, "name":"Siege Dreadnought", "pts":50},
-		{"id":55, "name":"2 Siege Dreadnoughts", "pts":100},
+		{"id":54, "name":"Chaos Siege Dreadnought", "pts":50},
+		{"id":55, "name":"2 Chaos Siege Dreadnoughts", "pts":100},
 
 		{"id":61, "name":"Decimator", "pts":175},
 		{"id":63, "name":"Defiler", "pts":50},
@@ -113,6 +113,8 @@
 		{"min":1, "max":1, "from":[38,39], "appliesTo":[507]},
 
 		{"min":1, "max":1, "from":[38,39], "appliesTo":[507]},
+
+		{"min":1, "max":1, "from":[38,53,55], "appliesTo":[512]},
 
 		{"min":0, "max":2, "from":[46], "appliesTo":[513]},
 
