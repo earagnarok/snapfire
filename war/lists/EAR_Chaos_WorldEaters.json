@@ -20,7 +20,7 @@
       {"name": "WORLD EATERS SUPPORT FORMATIONS (Max 2 for each World Eater Retinue)", "formations": [
             {"id": 534, "name": "World Eaters Destroyers", "pts": 200, "units": "4 World Eaters Destroyers", "upgrades": [25]},
             {"id": 535, "name": "Predator Company", "pts": 200,  "upgrades": [30]},
-            {"id": 536, "name": "World Eaters Marines", "pts": 225, "units": "6 World Eaters Marines, 3 Chaos Rhinos",  "upgrades": [25]},
+            {"id": 536, "name": "Chaos Space Marines", "pts": 225, "units": "6 Chaos Space Marines, 3 Chaos Rhinos",  "upgrades": [25]},
             {"id": 541, "name": "Slaughterfiends", "pts": 25, "upgrades": [35]},
             {"id": 542, "name": "Daemonic Assault Engines", "pts": 300, "units": "6 Daemonic Assault Engines", "upgrades": []},
             {"id": 544, "name": "Doomblasters", "pts": 225, "units": "4 Doomblasters", "upgrades": []},
