@@ -12,13 +12,13 @@
 			{"id":515, "name":"Heavy Tank Emplacement",			"pts":350, "upgrades":[]},
 			{"id":520, "name":"Macharius Company", 				"pts":325,  "units":"2 Macharius", "upgrades":[]},
 			{"id":513, "name":"Deathstrike Emplacement",		"pts":250, "upgrades":[], "units":"Deathstrike Silo"},
-			{"id":518, "name":"Sapper Company",					"pts":250, "upgrades":[], "units":"1 Baran Commander with a Commissar, 7 Sappers, Hades Breaching Drill"},
+			{"id":518, "name":"Sapper Company",					"pts":250, "upgrades":[], "units":"Baran Commander with a Commissar, 7 Sappers, Hades Breaching Drill"},
 			{"id":511, "name":"Siege Artillery Emplacement", 	"pts":225, "upgrades":[]},
 			{"id":519, "name":"Super-Heavy Platoon", 			"pts":175, "upgrades":[]},
 			{"id":510, "name":"Howitzer Emplacement", 			"pts":175, "upgrades":[]},
 			{"id":514, "name":"Flak Emplacement", 				"pts":175, "upgrades":[], "units":"4 Heavy AA Guns, 4 Gun Emplacements"},
 			{"id":517, "name":"Death Rider Platoon",			"pts":150, "upgrades":[], "units":"6 Death Riders"},
-			{"id":516, "name":"Trench Recon Squadron",			"pts":125, "upgrades":[23], "units":"4 Siegfried Light Tanks"}
+			{"id":516, "name":"Siege Recon Squadron",			"pts":125, "upgrades":[23], "units":"4 Siegfried Light Tanks"}
 		]},
 		{"name":"IMPERIAL NAVY (max 25%)", "formations":[
 			{"id":530, "name":"Marauder Squadron",		"pts":225, "upgrades":[], "units":"2 Marauder Bombers"},
@@ -43,7 +43,7 @@
 		{"id":19, "name":"2 Trench Support Squads",					"pts":50},
 		{"id":22, "name":"4 Trench Support Squads",					"pts":100},
 
-		{"id":23, "name":"3 Griffons",								"pts":75},
+		{"id":23, "name":"3 Griffons",								"pts":100},
 		{"id":24, "name":"Snipers",									"pts":25},
 		{"id":27, "name":"2 Snipers",								"pts":50},
 		{"id":25, "name":"Fortifications (60cm Razor Wire, 60cm Trenches, 3 Bunkers)",		"pts":75},
@@ -72,7 +72,7 @@
 
 		{"min":1, "max":1, "from":[8,9,7], "appliesTo":[515]},
 
-		{"min":1, "max":1, "from":[16,15,17,26], "appliesTo":[519]},
+		{"min":1, "max":1, "from":[16,17,26], "appliesTo":[519]},
 
 		{"min":1, "max":1, "from":[40,41], "appliesTo":[520]},
 

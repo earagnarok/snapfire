@@ -5,17 +5,17 @@
 	"notes":[],
 	"sections":[
 		{"name":"Core Lances", "formations":[
-			{"id":500, "name":"Questoris", 		"pts":350, "upgrades":[9,8]}
+			{"id":500, "name":"Questoris", 		"pts":375, "upgrades":[9,8]}
 		]},
 		{"name":"Support Lances / / Max 1 per Core Lance", "formations":[
-			{"id":501, "name":"Cerastus",	"pts":300,  "upgrades":[9,8]},
+			{"id":501, "name":"Cerastus",	"pts":325,  "upgrades":[9,8]},
 			{"id":506, "name":"Dominus",	"pts":425,  "upgrades":[]}
 		]},
 		{"name":"Recon Lances / / Max 1 per Core or Support Lance", "formations":[
 			{"id":502, "name":"Arminger",			"pts":175, "upgrades":[]}
 		]},
 		{"name":"Relic Lances / / Max 1 of each Relic Lance per Army", "formations":[
-			{"id":503, "name":"Questoris Reliquae",	"pts":425,  "upgrades":[]},
+			{"id":503, "name":"Questoris Reliquae",	"pts":450,  "upgrades":[]},
 			{"id":504, "name":"Acastus Reliquae",	"pts":500,  "upgrades":[]},
 			{"id":505, "name":"Cerastus Reliquae",	"pts":225, "units":"Seneschal, Cerastus Knight-Atrapos",  "upgrades":[]}
 		]},
@@ -89,7 +89,7 @@
 	],
 	"upgradeConstraints":[
 
-		{"max":1, "perArmy":true, "from":[10]},
+		{"max":1, "perArmy":true, "from":[8,10]},
 
         {"max":1,"from":[13],"appliesTo":[520]},
 
