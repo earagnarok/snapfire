@@ -11,7 +11,7 @@
 		{"name":"MINERVAN SUPPORT FORMATIONS (Max 3 for each Company)", "formations":[
 			{"id":512, "name":"Leman Russ Platoon", 					"pts":350, "upgrades":[17,45,46,53]},
 			{"id":509, "name":"Mechanized Infantry Company", 			"pts":350, "units":"Leman Russ Conqueror with a Commissar-Captain, eight Infantry, four Chimeras", "upgrades":[17,42,43,44,53]},
-			{"id":516, "name":"Artillery Battery",						"pts":200, "upgrades":[]},
+			{"id":516, "name":"Artillery Battery",						"pts":225, "upgrades":[]},
 			{"id":513, "name":"Tank Hunter Squadron",					"pts":200,  "units":"3 Leman Russ Destroyers", "upgrades":[]},
 			{"id":510, "name":"Deathstrike Missile Battery",			"pts":200, "upgrades":[], "units":"2 Deathstrikes"},
 			{"id":511, "name":"Super-Heavy Platoon", 					"pts":175, "upgrades":[]},
@@ -63,17 +63,17 @@
 		{"id":46, "name":"2 Hydras",	"pts":75},
 
 		{"id":50, "name":"3 Basilisks",					"pts":0},
-		{"id":51, "name":"3 Bombards",					"pts":25},
-		{"id":52, "name":"3 Manticores",				"pts":50},
+		{"id":51, "name":"3 Bombards",					"pts":0},
+		{"id":52, "name":"3 Manticores",				"pts":25},
 
 		{"id":53, "name":"3 Griffons",					"pts":50},
 
 		{"id":54, "name":"6 Basilisks",					"pts":0},
-		{"id":55, "name":"6 Manticores",				"pts":75},
+		{"id":55, "name":"6 Manticores",				"pts":50},
 
 		{"id":56, "name":"3 Basilisks",					"pts":0},
-		{"id":57, "name":"3 Bombards ",					"pts":25},
-		{"id":58, "name":"3 Manticores",				"pts":50},
+		{"id":57, "name":"3 Bombards ",					"pts":0},
+		{"id":58, "name":"3 Manticores",				"pts":25},
 
         {"id":60, "name":"Baneblade",					"pts":0},
         {"id":61, "name":"Shadowsword",					"pts":0},

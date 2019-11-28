@@ -1,5 +1,5 @@
 {
-   "id": "Tau Kelshan",
+   "id": "EA-R Tau Kelshan",
    "version": "EA-Ragnarok",
    "by": "1.2",
    "sections": [
@@ -38,7 +38,7 @@
       {"id": 15,"name": "Shas'el","pts": 25},
       {"id": 16,"name": "Shas'o","pts": 75},
       {"id": 17,"name": "Protector Class Cruiser","pts": 0},
-      {"id": 22,"name": "Custodian Class Battleship","pts": 25},     
+      {"id": 22,"name": "Custodian Class Battleship","pts": 25},
       {"id": 18,"name": "KV-104 Riptide","pts": 100},
       {"id": 19,"name": "KV-139 Supremacy Suit - Heavy Rail Cannon","pts": 0},
       {"id": 20,"name": "KV-139 Supremacy Suit - Nexus Missile Array","pts": 0},

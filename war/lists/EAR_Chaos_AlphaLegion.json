@@ -23,14 +23,14 @@
 		]},
 			{"name":"ALPHA LEGION NAVY (Max 33%)", "formations": [
 			{ "id":550, "name":"Xiphon Squadron", "pts":225, "units":"2 Xiphon Interceptors", "upgrades":[] },
-			{ "id":551, "name":"Alpha Legion Thunderhawk", "pts":225, "upgrades":[] },
+			{ "id":551, "name":"Alpha Legion Thunderhawk", "pts":200, "upgrades":[] },
 			{ "id":553, "name":"Alpha Legion Strike Cruiser", "pts":200, "upgrades":[] }
 		]}
 	],
 	"upgrades":[
 		{ "id":10, "name":"Alpha Legion Lord", "pts":0 },
 		{ "id":11, "name":"Alpha Legion Sorcerer", "pts":0 },
-		{ "id":12, "name":"'I'm Alpharius!'", "pts":75 },
+		{ "id":12, "name":"'I'm Alpharius!' (Alpha Legion Lords all count as being the Supreme Commander)", "pts":75 },
 		{ "id":13, "name":"Aspiring Champion", "pts":0 },
 		{ "id":14, "name":"Daemon Prince", "pts":100 },
 

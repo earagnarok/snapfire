@@ -25,7 +25,7 @@
 		{"name":"Cult Support Formations (Max 1 for each Cult Core Formation)", "formations": [
 			{ "id":530, "name":"Cult Super-Heavy Platoon", "pts":200, "units":"Coven Locus", "upgrades":[] },
 			{ "id":531, "name":"Cult Leman Russ Platoon", "pts":375, "units":"Coven Locus",  "upgrades":[] },
-			{ "id":532, "name":"Cult Basilisk Battery", "pts":225, "units":"Coven Locus, 3 Cult Basilisks", "upgrades":[]},
+			{ "id":532, "name":"Cult Basilisk Battery", "pts":250, "units":"Coven Locus, 3 Cult Basilisks", "upgrades":[]},
 			{ "id":533, "name":"Cult Mechanized Platoon", "pts":250, "units":"Coven Locus, 6 Cult Infantry, 3 Cult Chimeras", "upgrades":[26,28]},
 			{ "id":535, "name":"Cult Flak Battery", "pts":175, "units":"Coven Locus, 3 Cult Hydras", "upgrades":[]}
 

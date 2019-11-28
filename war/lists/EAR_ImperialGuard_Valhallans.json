@@ -1,5 +1,5 @@
 {
-	"id":"Valhallan Ice Warriors",
+	"id":"EA-R Valhallan Ice Warriors",
 	"version":"0.6.0",
 	"by":"EA-Ragnarok",
 	"sections":[
@@ -31,7 +31,7 @@
 		{"id":28, "name":"Stormlord",					"pts":0},
 
 		{"id":30, "name":"6 Basilisks",					"pts":0},
-		{"id":31, "name":"6 Manticores",				"pts":75},
+		{"id":31, "name":"6 Manticores",				"pts":50},
 
 		{"id":37, "name":"Lunar Class Cruiser",			"pts":0},
 		{"id":38, "name":"Emperor Class Battleship",	"pts":50},

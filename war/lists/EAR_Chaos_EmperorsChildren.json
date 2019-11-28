@@ -21,8 +21,8 @@
 			{"id":506, "name":"Armoured Company", "pts":0, "upgrades":[44] }
 		]},
 		{"name":"EMPERORS CHILDREN DAEMON ENGINE, TITAN AND CHAOS NAVY FORMATIONS (Max 33%)", "formations":[
-			{"id":511, "name":"Hell-Knights",	"pts":325, "units":"3 Hell-Knights",  "upgrades":[]},
-			{"id":512, "name":"Hell-Scourges", "pts":325,  "units":"3 Hell-Scourges", "upgrades":[]},
+			{"id":511, "name":"Hell-Knights",	"pts":350, "units":"3 Hell-Knights",  "upgrades":[]},
+			{"id":512, "name":"Hell-Scourges", "pts":350,  "units":"3 Hell-Scourges", "upgrades":[]},
 			{"id":513, "name":"Slaneesh Defiler Pack", "pts":25, "upgrades":[50]},
 			{"id":514, "name":"Questor",	"pts":275, "units":"Questor Scout Titan", "upgrades":[]},
 			{"id":515, "name":"Subjugator Pack",	"pts":450, "units":"2 Subjugator Scout Titans", "upgrades":[]},

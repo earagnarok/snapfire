@@ -1,5 +1,5 @@
 {
-	"id":"EAR Death Korps of Krieg",
+	"id":"EA-R Death Korps of Krieg",
 	"version":"1.0.0",
 	"by":"EA-Ragnarok",
 	"sections":[
@@ -12,7 +12,7 @@
 			{ "id":510, "name":"Grenadier Company", "pts":300, "units":"DKoK Commander with a Commissar, 7 Grenadiers", "upgrades":[] },
 			{ "id":511, "name":"Leman Russ Platoon", "pts":350, "upgrades":[32] },
 			{ "id":512, "name":"Macharius Company", "pts":325, "units":"2 Macharius", "upgrades":[] },
-			{ "id":513, "name":"Earthshaker Battery", "pts":200, "upgrades":[] },
+			{ "id":513, "name":"Earthshaker Battery", "pts":225, "upgrades":[] },
 			{ "id":514, "name":"Siege Artillery Battery", "pts":225, "upgrades":[] },
 			{ "id":515, "name":"Siege Infantry Platoon", "pts":150, "units":"8 Siege Infantry", "upgrades":[32,35,36] },
 			{ "id":517, "name":"Rough Rider Platoon", "pts":150, "units":"6 Rough Riders", "upgrades":[] },
@@ -52,7 +52,7 @@
 		{ "id":36, "name":"2 Malcador Annihilators", "pts":175},
 
 		{ "id":42, "name":"Earthshaker Battery: 3 Earthshaker Guns, 3 Trojans", "pts":0},
-		{ "id":43, "name":"Earthshaker Company: 6 Earthshaker Guns, Commissar, 6 Trojans", "pts":200},
+		{ "id":43, "name":"Earthshaker Company: 6 Earthshaker Guns, Commissar, 6 Trojans", "pts":175},
 		{ "id":44, "name":"3 Bombards", "pts":0},
 		{ "id":45, "name":"4 Medusa", "pts":0},
 

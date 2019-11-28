@@ -5,51 +5,51 @@
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"BATTLE TITAN FORMATIONS / / Army must contain at least one Chaos Emperor Titan or Chaos Warlord Titan / / Army may not Mix Nurgle/Tzeench or Slaanesh/Khorne formations ", "formations":[
-			{"id":500, "name":"CHAOS EMPEROR TITAN", 		"pts":900, "upgrades":[10,11]},
+			{"id":500, "name":"Chaos Emperor Titan", 		"pts":900, "upgrades":[10,11]},
 
-			{"id":501, "name":"CHAOS WARLORD TITAN", 		"pts":750, "upgrades":[10,11]},
+			{"id":501, "name":"Chaos Warlord Titan", 		"pts":750, "upgrades":[10,11]},
 
-			{"id":502, "name":"CHAOS REAVER TITAN",			"pts":600, "upgrades":[11]}
+			{"id":502, "name":"Chaos Reaver Titan",			"pts":600, "upgrades":[11]}
 		]},
 
 		{"name": "SCOUT TITAN FORMATIONS / / Max 2 per Battle Titan formation. Army may not Mix Nurgle/Tzeench or Slaanesh/Khorne formations", "formations":[
-			{"id":510, "name":"QUESTOR of Slaanesh",	"pts":50, "upgrades":[70]},
-			{"id":511, "name":"SUBJUGATOR of Slaanesh",	"pts":50, "upgrades":[71]},
+			{"id":510, "name":"Questor of Slaanesh",	"pts":50, "upgrades":[70]},
+			{"id":511, "name":"Subjugator of Slaanesh",	"pts":50, "upgrades":[71]},
 
-			{"id":512, "name":"PLAGUEHOUND of Nurgle",	"pts":50, "upgrades":[72]},
-			{"id":513, "name":"BLOODHOUND of Khorne",	"pts":50, "upgrades":[73,74]},
-			{"id":514, "name":"WARPHOUND of Tzeench",	"pts":50, "upgrades":[75]}
+			{"id":512, "name":"Plaguehound of Nurgle",	"pts":50, "upgrades":[72]},
+			{"id":513, "name":"Bloodhound of Khorne",	"pts":50, "upgrades":[73,74]},
+			{"id":514, "name":"Warphound of Tzeench",	"pts":50, "upgrades":[75]}
 
 		]},
 
 		{"name":"DAEMON ENGINE FORMATIONS / / Max 1 per Battle Titan or Scout Titan formation. Army may not Mix Nurgle/Tzeench or Slaanesh/Khorne formations", "formations":[
-			{"id":540, "name":"HELL-STRIDERS of Slaanesh",			"pts":225, "units": "4 Hell-Striders", "upgrades":[]},
-			{"id":541, "name":"HELL-KNIGHTS of Slaanesh",			"pts":325, "units": "3 Hell-Knights", "upgrades":[]},
-			{"id":542, "name":"HELL-SCOURGES of Slaanesh",			"pts":325, "units": "3 Hell-Scourges",  "upgrades":[]},
+			{"id":540, "name":"Hell-Striders of Slaanesh",			"pts":225, "units": "4 Hell-Striders", "upgrades":[]},
+			{"id":541, "name":"Hell-Knights of Slaanesh",			"pts":325, "units": "3 Hell-Knights", "upgrades":[]},
+			{"id":542, "name":"Hell-Scourges of Slaanesh",			"pts":325, "units": "3 Hell-Scourges",  "upgrades":[]},
 
-			{"id":550, "name":"KNIGHTS of Nurgle",			"pts":300,  "units": "2 Knight-Desecrators",  "upgrades":[]},
-			{"id":551, "name":"DEFILERS of Nurgle",				"pts":250,  "units": "4 Desecrators",   "upgrades":[]},
+			{"id":550, "name":"Knights of Nurgle",			"pts":300,  "units": "2 Knight-Desecrators",  "upgrades":[]},
+			{"id":551, "name":"Defilers of Nurgle",				"pts":250,  "units": "4 Desecrators",   "upgrades":[]},
 
-			{"id":560, "name":"KNIGHTS of Khorne",			"pts":275, "units": "2 Knight-Rampagers", "upgrades":[]},
-			{"id":561, "name":"DEFILERS of Khorne",			"pts":225, "units": "4 Slaughterfiends", "upgrades":[]},
+			{"id":560, "name":"Knights of Khorne",			"pts":275, "units": "2 Knight-Rampagers", "upgrades":[]},
+			{"id":561, "name":"Defilers of Khorne",			"pts":225, "units": "4 Slaughterfiends", "upgrades":[]},
 
-			{"id":570, "name":"KNIGHTS of Tzeench",			"pts":275,  "units": "2 Knight-Despoilers", "upgrades":[]},
-			{"id":571, "name":"DEFILERS of Tzeench",				"pts":250, "units": "4 Decievers",  "upgrades":[]},
+			{"id":570, "name":"Knights of Tzeench",			"pts":275,  "units": "2 Knight-Despoilers", "upgrades":[]},
+			{"id":571, "name":"Defilers of Tzeench",				"pts":250, "units": "4 Decievers",  "upgrades":[]},
 
-			{"id":580, "name":"KNIGHTS of Chaos Undivided",			"pts":275,  "units": "2 Knight-Renegades",  "upgrades":[83]},
-			{"id":581, "name":"DEFILERS of Chaos Undivided",				"pts":225, "units": "4 Defilers", "upgrades":[92]},
-			{"id":582, "name":"ARMIGERS of Chaos Undivided",	"pts":225, "upgrades":[]}
+			{"id":580, "name":"Knights of Chaos Undivided",			"pts":275,  "units": "2 Knight-Renegades",  "upgrades":[83]},
+			{"id":581, "name":"Defilers of Chaos Undivided",				"pts":225, "units": "4 Defilers", "upgrades":[92]},
+			{"id":582, "name":"Armigers of Chaos Undivided",	"pts":225, "upgrades":[]}
 		]},
 
 			{"name":"HELL-FORGE & CHAOS NAVY ALLIES / / Max 33% of the army", "formations":[
-			{"id":590, "name":"HELL-FORGE SUPPORT",		"pts":175, "units": "4 Chaos Squats, 2 Hades Land Raiders", "upgrades":[]},
-			{"id":591, "name":"ORDINATUS HERETICUS MINORIS",		"pts":50, "upgrades":[100,101,102,103]},
-			{"id":592, "name":"HELDRAKES",				"pts":225, "units": "2 Heldrakes", "upgrades":[]},
-			{"id":593, "name":"CHAOS BATTLESHIP",				"pts":175, "units": "Despoiler Battleship", "upgrades":[]}
+			{"id":590, "name":"Hell-Forge Support",		"pts":175, "units": "4 Chaos Squats, 2 Hades Land Raiders", "upgrades":[]},
+			{"id":591, "name":"Ordinatus Hereticus Minoris",		"pts":50, "upgrades":[100,101,102,103]},
+			{"id":592, "name":"Heldrakes",				"pts":225, "units": "2 Heldrakes", "upgrades":[]},
+			{"id":593, "name":"Chaos Battleship",				"pts":175, "units": "Despoiler Battleship", "upgrades":[]}
 		]},
 
 		{"name":"DAEMON POOL", "formations":[
-      		{"id": 600, "name": "LESSER DAEMON POOL", "pts": 0, "upgrades": [450,451]}
+      		{"id": 600, "name": "Lesser Daemon Pool", "pts": 0, "upgrades": [450,451]}
 
       ]}
 

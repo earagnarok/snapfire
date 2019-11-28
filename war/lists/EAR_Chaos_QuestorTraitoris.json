@@ -1,48 +1,47 @@
 {
 	"id":"EA-R Questor Traitoris",
-	"version":"0.5.0",
+	"version":"0.5.1",
 	"notes":[],
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"DAEMONIC LANCE FORMATIONS / / Army may not Mix Nurgle/Tzeench or Slaanesh/Khorne formations ", "formations":[
-			{"id":500, "name":"HELL-KNIGHTS of Slaanesh",			"pts":325,  "units": "3 Hell-Knights", "upgrades":[]},
-			{"id":501, "name":"HELL-SCOURGES of Slaanesh",			"pts":325,  "units": "3 Hell-Scourges","upgrades":[]},
-			{"id":502, "name":"KNIGHTS of Nurgle",			"pts":50, "upgrades":[82]},
-			{"id":503, "name":"KNIGHTS of Khorne",			"pts":75, "upgrades":[83]},
-			{"id":504, "name":"KNIGHTS of Tzeench",			"pts":75, "upgrades":[84]},
-			{"id":505, "name":"KNIGHTS of Chaos Undivided",			"pts":75, "upgrades":[85]}
+			{"id":500, "name":"Hell-Knights of Slaanesh",			"pts":350,  "units": "3 Hell-Knights", "upgrades":[]},
+			{"id":501, "name":"Hell-Scourges of Slaanesh",			"pts":350,  "units": "3 Hell-Scourges","upgrades":[]},
+			{"id":502, "name":"Knights of Nurgle",			"pts":75, "upgrades":[82]},
+			{"id":503, "name":"Knights of Khorne",			"pts":50, "upgrades":[83]},
+			{"id":504, "name":"Knights of Tzeench",			"pts":50, "upgrades":[84]},
+			{"id":505, "name":"Knights of Chaos Undivided",			"pts":50, "upgrades":[85]}
 		]},
 
 		{"name": "DAEMONIC PACK FORMATIONS / / Max 1 per Daemonic Lance Formation / / Army may not Mix Nurgle/Tzeench or Slaanesh/Khorne formations", "formations":[
-			{"id":510, "name":"HELL-STRIDERS of Slaanesh",		"pts":225,  "units": "4 Hell-Striders", "upgrades":[]},
-			{"id":511, "name":"DEFILERS of Nurgle",				"pts":250, "units": "4 Desecrators", "upgrades":[]},
-			{"id":512, "name":"DEFILERS of Khorne",				"pts":225, "units": "4 Slaughterfiends", "upgrades":[]},
-			{"id":513, "name":"DEFILERS of Tzeench",			"pts":250, "units": "4 Decievers", "upgrades":[]},
-			{"id":514, "name":"DEFILERS of Chaos Undivided",	"pts":225, "units": "4 Defilers", "upgrades":[]},
-			{"id":515, "name":"ARMIGERS of Chaos Undivided",	"pts":225, "upgrades":[]}
+			{"id":510, "name":"Hell-Striders of Slaanesh",		"pts":225,  "units": "4 Hell-Striders", "upgrades":[]},
+			{"id":511, "name":"Defilers of Nurgle",				"pts":250, "units": "4 Desecrators", "upgrades":[]},
+			{"id":512, "name":"Defilers of Khorne",				"pts":225, "units": "4 Slaughterfiends", "upgrades":[]},
+			{"id":513, "name":"Defilers of Tzeench",			"pts":250, "units": "4 Decievers", "upgrades":[]},
+			{"id":514, "name":"Defilers of Chaos Undivided",	"pts":225, "units": "4 Defilers", "upgrades":[]},
+			{"id":515, "name":"Armigers of Chaos Undivided",	"pts":225, "upgrades":[]}
 		]},
 
 		{"name":"HELL-FORGE FORMATIONS / / Max 2 per Daemonic Lance Formation", "formations":[
-			{"id":522, "name":"GEIST RECON MANIPLE",		"pts":150, "units":"2 Chaos Squats, 2 Hell-Rhinos, 4 Geist Servitors", "upgrades":[]},
-			{"id":520, "name":"HELL-FORGE MANIPLE",		"pts":175, "units": "7 Chaos Squats", "upgrades":[50,51,52, 60,61,62,63,64]},
-			{"id":521, "name":"ARLATAX MANIPLE",		"pts":175, "units":"Hellwright, 4 Arlatax Battle-Automata", "upgrades":[]},
-			{"id":523, "name":"ORDINATUS HERETICUS MINORIS",		"pts":50, "upgrades":[60,61,62,63,64,65,66,67,68]},
-			{"id":524, "name":"EXTREMIS DIABOLUS",		"pts":425, "upgrades":[]}
+			{"id":520, "name":"Hell-Forge Maniple",		"pts":175, "units": "7 Chaos Squats", "upgrades":[50,51,52, 60,61,62,63,64]},
+			{"id":521, "name":"Arlatax Maniple",		"pts":175, "units":"Hellwright, 4 Arlatax Battle-Automata", "upgrades":[]},
+			{"id":523, "name":"Ordinatus Hereticus Minoris",		"pts":50, "upgrades":[60,61,62,63,64,65,66,67,68]},
+			{"id":524, "name":"Extremis Diabolus",		"pts":425, "upgrades":[]}
 		]},
 
 			{"name":"TRAITOR TITAN LEGION & CHAOS NAVY ALLIES / / Max 33% of the army / / Army may not Mix Nurgle/Tzeench or Slaanesh/Khorne formations", "formations":[
-				{"id":530, "name":"QUESTORS of Slaanesh", "units": "2 Questors",	"pts":500, "upgrades":[]},
-				{"id":531, "name":"SUBJUGATORS of Slaanesh",  "units": "2 Subjugators",	"pts":450, "upgrades":[]},
-				{"id":532, "name":"PLAGUEHOUNDS of Nurgle",  "units": "2 Plaguehounds",	"pts":500, "upgrades":[]},
-				{"id":533, "name":"BLOODHOUNDS of Khorne",	"pts":500, "upgrades":[]},
-				{"id":534, "name":"WARPHOUNDS of Tzeench",  "units": "2 Warphounds",	"pts":500, "upgrades":[]},
-				{"id":535, "name":"CHAOS WARHOUNDS of Chaos Undivided",  "units": "2 Chaos Warhounds",	"pts":500, "upgrades":[]},
-			{"id":536, "name":"HELDRAKES",				"pts":225, "units": "2 Heldrakes", "upgrades":[]},
-			{"id":537, "name":"CHAOS BATTLESHIP",				"pts":175, "units": "Despoiler Battleship", "upgrades":[]}
+				{"id":530, "name":"Questors of Slaanesh", "units": "2 Questors",	"pts":500, "upgrades":[]},
+				{"id":531, "name":"Subjugators of Slaanesh",  "units": "2 Subjugators",	"pts":450, "upgrades":[]},
+				{"id":532, "name":"Plaguehounds of Nurgle",  "units": "2 Plaguehounds",	"pts":500, "upgrades":[]},
+				{"id":533, "name":"Bloodhounds of Khorne",	"pts":500, "upgrades":[]},
+				{"id":534, "name":"Warphounds of Tzeench",  "units": "2 Warphounds",	"pts":500, "upgrades":[]},
+				{"id":535, "name":"Chaos Warhounds of Chaos Undivided",  "units": "2 Chaos Warhounds",	"pts":500, "upgrades":[]},
+				{"id":536, "name":"Heldrakes",				"pts":225, "units": "2 Heldrakes", "upgrades":[]},
+				{"id":537, "name":"Despoiler Battleship",				"pts":175, "upgrades":[]}
 		]},
 
 		{"name":"DAEMON POOL", "formations":[
-      		{"id": 600, "name": "LESSER DAEMON POOL", "pts": 0, "upgrades": [450]}
+      		{"id": 600, "name": "Lesser Daemon Pool", "pts": 0, "upgrades": [450]}
 
       ]}
 
@@ -73,9 +72,9 @@
 		{"id":73,	"name":"The Kaban Machine",	"pts":125},
 
 		{"id":82,	"name":"Knight-Desecrator of Nurgle",	"pts":125},
-		{"id":83,	"name":"Knight-Rampager of Khorne",	"pts":100},
-		{"id":84,	"name":"Knight-Despoiler of Tzeench",	"pts":100},
-		{"id":85,	"name":"Knight-Renegade of Chaos Undivided",	"pts":100},
+		{"id":83,	"name":"Knight-Rampager of Khorne",	"pts":125},
+		{"id":84,	"name":"Knight-Despoiler of Tzeench",	"pts":125},
+		{"id":85,	"name":"Knight-Renegade of Chaos Undivided",	"pts":125},
 
 		{"id":90,	"name":"4 Knight-Doomglaives of Chaos Undivided",	"pts":0},
 		{"id":91,	"name":"4 Knight-Perfidor of Chaos Undivided",	"pts":0},
