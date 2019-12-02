@@ -1,6 +1,6 @@
 {
-	"id":"Adeptus Mechanicus - Explorator Fleet",
-	"version":"1.12",
+	"id":"<a href=\"https://magnusdurr.github.io/list-view/site.html\">EA-R</a> Explorator Fleet",
+	"version":"Experimental 0.1.2 <a href=\"https://magnusdurr.github.io/list-view/index.html?race=AM&list=exploratorFleet\">Listview</a>",
 	"by":"EA-Ragnarok",
 	"notes":["If a Titan uses one weapon type only, then a Single Weapon System Surcharge upgrade must be purchased."],
 	"sections":[
@@ -14,7 +14,7 @@
 			{ "id":511, "name":"Sicarian Infiltrators", "pts":200, "units":"6 Sicarian Infiltrators", "upgrades":[61,70] },
 			{ "id":512, "name":"Sicarian Rustalkers", "pts":200, "units":"6 Sicarian Rustalkers", "upgrades":[61,70] },
 			{ "id":513, "name":"Fulgurite Electro-Priests", "pts":225, "units":"6 Fulgurite Electro-Priests", "upgrades":[70] },
-			{ "id":514, "name":"Ironstrider Cavaliers", "pts":175, "upgrades":[] },			
+			{ "id":514, "name":"Ironstrider Cavaliers", "pts":175, "upgrades":[] },
 			{ "id":515, "name":"Sydonian Dragoons", "pts":175, "upgrades":[] },
 			{ "id":516, "name":"Onager Cohort", "pts":-50, "upgrades":[] },
 			{ "id":517, "name":"Destroyer Maniple", "pts":200, "units":"6 Kataphron Destroyers", "upgrades":[61,70] },
@@ -37,7 +37,7 @@
 		]}
 
 	],
-	"upgrades":[	
+	"upgrades":[
 		{"id":13, "name":"Inferno Gun", 		"pts":0},
 		{"id":14, "name":"Vulcan Megabolter",		"pts":0},
 		{"id":15, "name":"Plasma Blastgun",		"pts":0},
@@ -128,7 +128,7 @@
 		{"max":1, "from":[77]},
 		{"max":1, "from":[77]},
 		{"max":1, "from":[77]},
-		
+
 		{"max":4, "from":[70]},
 		{"max":1, "from":[77]},
 		{"max":7, "from":[69]},
