@@ -1,6 +1,6 @@
 {
   "id": "EA-R Hive Fleet Hydra",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "by": "EA-Ragnarok",
   "sections": [
     {
@@ -9,7 +9,7 @@
         {
           "id": 501,
           "name": "Nexus Swarm (2-4 Instinctive Swarms)",
-          "pts": 450,
+          "pts": 475,
 		  "units": "Hydra Dominatrix",
           "upgrades": [
 			100,
@@ -83,7 +83,7 @@
       ]
     },
 	{
-      "name": "Secondary Synapse Swarms (One Secondary Synapse Swarm may be taken for each Primary Synapse Swarm)",
+      "name": "Secondary Synapse Swarms (1 Secondary Synapse Swarm may be taken for each Primary Synapse Swarm)",
       "formations": [
 	  	    {
           "id": 512,
@@ -144,7 +144,7 @@
       ]
     },
     {
-      "name": "Common Independent Swarms (One Common Independent Swarm may be taken for each Primary Synapse Swarm. // Max 33% of the list may be taken from this section)",
+      "name": "Common Independent Swarms (1 Common Independent Swarm may be taken for each Primary Synapse Swarm. // Max 33% of the list may be taken from this section)",
       "formations": [
         {
           "id": 506,
@@ -166,7 +166,7 @@
       ]
     },
     {
-      "name": "Rare Independent Swarms (One Rare Independent Swarm may be taken for each Primary Synapse Swarm. // Max 33% of the list may be taken from this section)",
+      "name": "Rare Independent Swarms (1 Rare Independent Swarm may be taken for each Primary Synapse Swarm. // Max 33% of the list may be taken from this section)",
       "formations": [
     {
           "id": 510,
@@ -193,12 +193,12 @@
     },
     {
       "id": 101,
-      "name": "Gaunts (4 Termagaunts, 1 Hormagaunt)",
+      "name": "Gaunts (4 Termagaunts, Hormagaunts)",
       "pts": 50
     },
 	    {
       "id": 102,
-      "name": "Gaunts (3 Termagaunts, 2 Hormagaunt)",
+      "name": "Gaunts (3 Termagaunts, 2 Hormagaunts)",
       "pts": 50
     },
 	    {
@@ -208,7 +208,7 @@
     },
 	    {
       "id": 104,
-      "name": "Gaunts (1 Termagaunts, 4 Hormagaunts)",
+      "name": "Gaunts (Termagaunts, 4 Hormagaunts)",
       "pts": 50
     },
 	    {
@@ -238,7 +238,7 @@
     },
     {
       "id": 111,
-      "name": "Spawner (1 Tervigon)",
+      "name": "Spawner (Tervigon)",
       "pts": 75
     },
 	    {
@@ -258,12 +258,12 @@
     },
     {
       "id": 115,
-      "name": "Hierodule (1 Barbed Hierodule)",
+      "name": "Hierodule (Barbed Hierodule)",
       "pts": 125
     },
     {
       "id": 116,
-      "name": "Hierodule (1 Scythed Hierodule)",
+      "name": "Hierodule (Scythed Hierodule)",
       "pts": 125
     },
     {
@@ -328,12 +328,12 @@
     },
     {
 	  "id": 180,
-      "name": "Gaunts (4 Termagaunts, 1 Hormagaunt)",
+      "name": "Gaunts (4 Termagaunts, Hormagaunts)",
       "pts": 50
     },
 	{
       "id": 181,
-      "name": "Gaunts (3 Termagaunts, 2 Hormagaunt)",
+      "name": "Gaunts (3 Termagaunts, 2 Hormagaunts)",
       "pts": 50
     },
 	    {
@@ -343,7 +343,7 @@
     },
 	    {
       "id": 183,
-      "name": "Gaunts (1 Termagaunts, 4 Hormagaunts)",
+      "name": "Gaunts (Termagaunts, 4 Hormagaunts)",
       "pts": 50
     },
 	    {

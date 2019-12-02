@@ -20,7 +20,7 @@
 			{"id":511, "name":"Whirlwinds",						"pts":275, "units":"4 Whirlwinds", "upgrades":[30,31,32]},
 			{"id":513, "name":"Predators",						"pts":250, "upgrades":[30,31,32]},
 			{"id":512, "name":"Ravenwing Support Squadron",				"pts":175, "upgrades":[]},
-			{"id":517, "name":"Dreadwing Relic Detachment",	  "units":"2 Glaives",	"pts":550, "upgrades":[]}
+			{"id":517, "name":"Dreadwing Relic Detachment",	  "units":"2 Glaives",	"pts":550, "upgrades":[42]}
 
 		]},
 
@@ -67,7 +67,7 @@
 		{"id":36, "name":"Razorback (Twin Heavy Bolter)",				"pts":25},
 		{"id":37, "name":"Razorback (Twin Lascannon)",					"pts":25},
 
-		{"id":41, "name":"2 Glaives",									"pts":550},
+		{"id":42, "name":"The formation gains the 'Independent' special rule",	"pts":50},
 
 		{"id":50, "name":"Strike Cruiser",								"pts":200},
 		{"id":51, "name":"Hunter Class Destroyer",						"pts":75}
@@ -80,6 +80,8 @@
 	],
 	"upgradeConstraints":[
 		{"max":1, "perArmy":true, "from":[13]},
+
+		{"max":1, "from":[42]},
 
 		{"min":0, "max":1, "from":[10,11,12,13], "appliesTo":[501,503,504]},
 
