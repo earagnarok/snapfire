@@ -12,7 +12,7 @@
             {"id": 512, "name": "Phantom Titan", "pts": 700, "upgrades": [11]}
          ]},
       {"name": "FIR LIRITHION SCOUT TITANS (Max 2 for each Battle Titan)", "formations": [
-            {"id": 521, "name": "2 Revenant Titans", "pts": 625, "upgrades": [25]}
+            {"id": 521, "name": "2 Revenant Titans", "pts": 650, "upgrades": [25]}
 
 	 ]},
       {"name": "FIR LIRITHION TROUPES (Max 3 for each Battle or Scout Titan formation)", "formations": [
@@ -32,7 +32,7 @@
    ],
    "upgrades": [
       {"id": 11, "name": "Bonesinger", 				"pts": 25},
-      {"id": 14, "name": "Revenant Titan", 			"pts": 250},
+
       {"id": 17, "name": "Cobra", 				"pts": 200},
       {"id": 18, "name": "Storm Serpent",			"pts": 200},
       {"id": 19, "name": "Scorpion", 				"pts": 200},
