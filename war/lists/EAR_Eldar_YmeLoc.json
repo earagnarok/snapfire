@@ -12,7 +12,7 @@
 			{"id":511, "name":"Swords of Vaul",	"pts":300, "upgrades":[40]}
 		]},
 		{"name":"TROUPES (Up to 2 for each Vaulhost)", "formations":[
-			{"id":520, "name":"Mounted Aspect Warrior Troupe", "pts":350,  "units":"2 Wave Serpents, 2 Falcons", "upgrades":[39]},
+			{"id":520, "name":"Mounted Aspect Warrior Troupe", "pts":375,  "units":"2 Wave Serpents, 2 Falcons", "upgrades":[39]},
 			{"id":524, "name":"Mounted Guardian Troupe", "units":"Farseer, 2 Wave Serpents, 2 Falcons", "pts":300, "upgrades":[]},
 			{"id":521, "name":"Night Spinner Troupe", "pts":175, "units":"3 Night Spinners", "upgrades":[]},
 			{"id":525, "name":"Fire Prism Troupe", "units":"3 Fire Prisms",	"pts":250, "upgrades":[]},
