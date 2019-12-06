@@ -34,8 +34,8 @@
          "name": "SPEED FREEK AIRCRAFT (Max 33%)",
          "formations": [
             {"id": 519, "name": "Dakkajet Skwadron", "pts": 0, "upgrades": [50]},
-            {"id": 520, "name": "Evil Sunz Bommer", "pts": 175, "units":"Bommer", "upgrades": []},
-            {"id": 521, "name": "Evil Sunz Landa", "pts": 225, "units":"Landa", "upgrades": []}
+            {"id": 520, "name": "Evil Sunz Bommer", "pts": 175, "upgrades": []},
+            {"id": 521, "name": "Evil Sunz Landa", "pts": 225, "upgrades": []}
          ]
       }
    ],
