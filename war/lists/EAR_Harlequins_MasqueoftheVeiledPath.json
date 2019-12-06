@@ -23,7 +23,7 @@
 
 			{"name":"VEILED PATH SAEDATHS (Max 1 Veiled Path Saedath for each Warhost/Wraithhost)", "formations":[
 			{"id":530, "name":"Cegorach's Escape",	"pts":200, "units":"Harlequin Avatar, 2 Harlequin Troupes, Death Jesters, 3 Starweavers", "upgrades":[]},
-			{"id":531, "name":"Serpent's Scales",	"pts":22, "units":"Harlequin Avatar, 3 Skyweavers, 2 Voidweavers", "upgrades":[]},
+			{"id":531, "name":"Serpent's Scales",	"pts":225, "units":"Harlequin Avatar, 3 Skyweavers, 2 Voidweavers", "upgrades":[]},
 			{"id":532, "name":"Devourer's Hunt",	"pts":225, "units":"Master Mime, 6 Mimes", "upgrades":[]},
 			{"id":533, "name":"Cegorach's Revenge",	"pts":325, "units":"Harlequin Avatar, 2 Harlequin Troupes, 2 Death Jesters, 4 Starweavers, 3 Skyweavers", "upgrades":[]},
 			{"id":534, "name":"Devourer's Feast",	"pts":350, "units":"Master Mime, Solitaire, 8 Mimes", "upgrades":[]},

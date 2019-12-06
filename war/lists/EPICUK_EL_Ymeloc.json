@@ -60,9 +60,9 @@
 	"formationConstraints":[
 		{"max":2, "name":"Troupes", "from":[520,521,524,525,526,527,528,529], "forEach":[510,511], "name2":"Warhost"},
 		{"max":1, "from":[501]},
-		{"max":1, "from":[502]},
+		{"min":1, "max":1, "from":[502]},
 		{"max":1, "from":[532]},
-		{"maxPercent":33, "name":"Aircraft & Titans", "from":[530,531,532,533,534,535,536]},
+		{"maxPercent":33.5, "name":"Aircraft & Titans", "from":[530,531,532,533,534,535,536]},
 		{"max":1, "name":"Spacecraft", "from":[530,531]}
 	],
 	"upgradeConstraints":[

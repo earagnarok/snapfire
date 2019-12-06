@@ -9,23 +9,23 @@
 		]},
 		{"name":"VAULHOSTS", "formations":[
 			{"id":510, "name":"Engines of Vaul", "pts":50, "upgrades":[40,34,35,36]},
-			{"id":511, "name":"Swords of Vaul",	"pts":300, "upgrades":[40]}
+			{"id":511, "name":"Swords of Vaul",	"pts":300, "upgrades":[]}
 		]},
 		{"name":"TROUPES (Up to 2 for each Vaulhost)", "formations":[
-			{"id":520, "name":"Mounted Aspect Warrior Troupe", "pts":375,  "units":"2 Wave Serpents, 2 Falcons", "upgrades":[39]},
-			{"id":524, "name":"Mounted Guardian Troupe", "units":"Farseer, 2 Wave Serpents, 2 Falcons", "pts":300, "upgrades":[]},
+			{"id":520, "name":"Mounted Aspect Warrior Troupe", "pts":325,  "units":"3 Wave Serpents", "upgrades":[39]},
+			{"id":524, "name":"Mounted Guardian Troupe", "units":"Farseer, 2 Wave Serpents, 2 Falcons", "pts":275, "upgrades":[]},
 			{"id":521, "name":"Night Spinner Troupe", "pts":175, "units":"3 Night Spinners", "upgrades":[]},
 			{"id":525, "name":"Fire Prism Troupe", "units":"3 Fire Prisms",	"pts":250, "upgrades":[]},
 			{"id":526, "name":"Warp Hunter Troupe", "units":"3 Warp Hunters", "pts":175, "upgrades":[]},
 			{"id":527, "name":"Wind Rider Troupe", "units":"6 Vypers",	"pts":200, "upgrades":[]},
-			{"id":528, "name":"Hornet Troupe", "pts":0,  "upgrades":[]},
+			{"id":528, "name":"Hornet Troupe", "pts":0,  "upgrades":[32]},
 			{"id":529, "name":"Lynx Troupe", "units":"2 Lynx",	"pts":300, "upgrades":[]}
 		]},
 		{"name":"SPACESHIPS, AIRCRAFT & TITANS (Max 33%)", "formations":[
 			{"id":530, "name":"Wraithship",	"pts":150, "upgrades":[]},
 			{"id":531, "name":"Dragonship",	"pts":300, "upgrades":[]},
 		 	{"id":532, "name":"Warlock Titan",	"pts":850, "upgrades":[]},
-			{"id":533, "name":"Phantom Titan",	"pts":700, "upgrades":[]},
+			{"id":533, "name":"Phantom Titan",	"pts":700, "upgrades":[40]},
 			{"id":534, "name":"Revenant Titans","pts":650, "units":"2 Revenant Titans", "upgrades":[]},
 			{"id":535, "name":"Nightwing Aerie",	"pts":75, "upgrades":[]},
 			{"id":536, "name":"Phoenix Aerie",   "pts":325, "units":"3 Phoenix Bombers", "upgrades":[]}
@@ -56,9 +56,6 @@
 		{"id":39, "name":"Exarch", 	"pts":25},
 		{"id":40, "name":"Bonesinger", 	"pts":50},
 
-		{"id":41, "name":"Wave Serpent",	"pts":50},
-		{"id":66, "name":"Wave Serpent",	"pts":0},
-
 		{"id":63, "name":"Nightwing",	"pts":75},
 
 		{"id":70, "name":"2x Titan Pulsar",	"pts":0},
@@ -83,7 +80,7 @@
 
 		{"min":6, "max":6, "from":[15,16,17,18,20,21], "appliesTo":[520]},
 
-		{"min":3, "max":6, "from":[32], "appliesTo":[528]},
+		{"min":4, "max":6, "from":[32], "appliesTo":[528]},
 
 	    {"min":1, "max":1, "from":[70,71], "appliesTo":[533]},
 

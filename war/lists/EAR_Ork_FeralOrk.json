@@ -7,10 +7,10 @@
 		{"name":"WAR HORDES", "formations":[
 			{"id":500, "name":"Warband",				"pts":-20,	"upgrades":[11,39,13,23,52,29,57,60,61,58,67,40,41,42]},
 			{"id":501, "name":"Warband (Big)",			"pts":-115, "upgrades":[11,39,13,23,52,29,57,60,61,58,67,40,41,42]},
-			{"id":502, "name":"Warband ('Uge)",		"pts":-210, "upgrades":[11,39,13,23,52,29,57,60,58,67,40,41,42]},
-			{"id":503, "name":"Wildboyz",				"pts":-5, "upgrades":[23,13, 52,29,57,60,61,58,67]},
+			{"id":502, "name":"Warband ('Uge)",		"pts":-210, "upgrades":[11,39,13,23,52,29,57,60,61,58,67,40,41,42]},
+			{"id":503, "name":"Wildboyz",				"pts":-5, "upgrades":[23,13, 52,29,57,60,58,67]},
 			{"id":504, "name":"Wildboyz (Big)",		"pts":-60,	"upgrades":[23,13, 52,29,57,60,61,58,67]},
-			{"id":505, "name":"Wildboyz ('Uge)",		"pts":-115,	"upgrades":[23,13, 52,29,57,60,58,67]},
+			{"id":505, "name":"Wildboyz ('Uge)",		"pts":-115,	"upgrades":[23,13, 52,29,57,60,61,58,67]},
 			{"id":506, "name":"Boarboyz Horde",		"pts":0,	"upgrades":[29,30,58,67]},
 			{"id":507, "name":"Boarboyz Horde (Big)",	"pts":-25,	"upgrades":[29,30,58,67]},
 			{"id":508, "name":"Boarboyz Horde ('Uge)","pts":-50,	        "upgrades":[29,30,58,67]},
@@ -18,7 +18,7 @@
 			{"id":510, "name":"Madboyz Horde",			"pts":35, 	"upgrades":[35,59]},
 			{"id":511, "name":"Junka Brigade",			"pts":25, "upgrades":[12,14,58,67]},
 			{"id":512, "name":"Junka Brigade (Big)",	"pts":-25, "upgrades":[12,14,58,67]},
-			{"id":514, "name":"Steam Gargant",			"pts":50,		"upgrades":[36,37,38]}
+			{"id":514, "name":"Steam Gargant",			"pts":50,		"upgrades":[36,37,38,67]}
 		]}
 	],
 	"upgrades":[
@@ -107,9 +107,9 @@
 		{"max":2, "from":[60], "appliesTo":[501,504]},
 		{"max":3, "from":[60], "appliesTo":[502,505]},
 
-		{"max":1, "from":[61], "appliesTo":[501,504]},
-		{"max":2, "from":[61], "appliesTo":[502,505]},
-		{"max":3, "from":[61], "appliesTo":[503]}
+		{"max":1, "from":[61], "appliesTo":[500,504]},
+		{"max":2, "from":[61], "appliesTo":[501,505]},
+		{"max":3, "from":[61], "appliesTo":[502]}
 
 
 

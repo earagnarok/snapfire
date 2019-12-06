@@ -8,7 +8,7 @@
  	    {"id": 501, "name": "Avatar", "pts": 0, "upgrades": []}
       ]},
       {"name": "FIR LIRITHION BATTLE TITANS", "formations": [
-            {"id": 511, "name": "Warlock Titan", "pts": 850, "units": "One Warlock Titan", "upgrades": [11]},
+            {"id": 511, "name": "Warlock Titan", "pts": 850, "units": "One Warlock Titan", "upgrades": []},
             {"id": 512, "name": "Phantom Titan", "pts": 700, "upgrades": [11]}
          ]},
       {"name": "FIR LIRITHION SCOUT TITANS (Max 2 for each Battle Titan)", "formations": [
@@ -16,7 +16,7 @@
 
 	 ]},
       {"name": "FIR LIRITHION TROUPES (Max 3 for each Battle or Scout Titan formation)", "formations": [
-	    {"id": 531, "name": "Engines of Vaul", "pts": 50, "upgrades": [17,18,19]},
+	    {"id": 531, "name": "Engines of Vaul", "pts": 50, "upgrades": [17,18,19, 11]},
         {"id": 532, "name": "Fire Gale Troupe", "pts": 300, "units": "Two Fire Gale Knights", "upgrades": []},
         {"id": 533, "name": "Bright Stallion Troupe", "pts": 250, "units": "Two Bright Stallion Knights", "upgrades": []},
 	    {"id": 534, "name": "Wraithknight Troupe", "pts": 325, "units": "Three Wraithknights", "upgrades": []},
@@ -31,7 +31,7 @@
         ]}
    ],
    "upgrades": [
-      {"id": 11, "name": "Bonesinger", 				"pts": 25},
+      {"id": 11, "name": "Bonesinger", 				"pts": 50},
 
       {"id": 17, "name": "Cobra", 				"pts": 200},
       {"id": 18, "name": "Storm Serpent",			"pts": 200},
