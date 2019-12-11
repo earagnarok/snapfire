@@ -16,7 +16,7 @@
 			{"id":509, "name":"Heavy Tank Platoon",			"pts":300, "upgrades":[], "units":"6 Ragnarok Heavy Tanks"},
 			{"id":508, "name":"Light Tank Platoon",			"pts":150, "upgrades":[], "units":"6 Siegfried Light Tanks"},
 			{"id":505, "name":"Rough Rider Platoon",			"pts":150, "upgrades":[], "units":"6 Rough Riders"},
-			{"id":510, "name":"Sapper Platoon",				"pts":250, "upgrades":[7], "units":"8 Sapper Units"},
+			{"id":510, "name":"Sapper Platoon",				"pts":250, "upgrades":[7], "units":"8 Sappers"},
 			{"id":507, "name":"Super-Heavy Platoon", 		"pts":200, "upgrades":[]}
 		]},
 		{"name":"BARAN FORTIFIED POSITIONS (Max 1 for each Baran Company formation)", "formations":[
