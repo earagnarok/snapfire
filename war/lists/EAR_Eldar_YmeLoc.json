@@ -1,6 +1,6 @@
 {
 	"id":"EA-R Yme-Loc Craftworld",
-	"version":"Alpha 0.6.0",
+	"version":"Alpha 0.6.1",
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"INDIVIDUALS", "formations":[
@@ -9,7 +9,9 @@
 		]},
 		{"name":"VAULHOSTS", "formations":[
 			{"id":510, "name":"Engines of Vaul", "pts":50, "upgrades":[40,34,35,36]},
-			{"id":511, "name":"Swords of Vaul",	"pts":300, "upgrades":[]}
+			{"id":512, "name":"Lynx Vaulhost", "units":"2 Lynx",	"pts":300, "upgrades":[]},
+			{"id":511, "name":"Falcon Vaulhost",	"pts":300, "upgrades":[]}
+
 		]},
 		{"name":"TROUPES (Up to 2 for each Vaulhost)", "formations":[
 			{"id":520, "name":"Mounted Aspect Warrior Troupe", "pts":325,  "units":"3 Wave Serpents", "upgrades":[39]},
@@ -18,8 +20,7 @@
 			{"id":525, "name":"Fire Prism Troupe", "units":"3 Fire Prisms",	"pts":250, "upgrades":[]},
 			{"id":526, "name":"Warp Hunter Troupe", "units":"3 Warp Hunters", "pts":175, "upgrades":[]},
 			{"id":527, "name":"Wind Rider Troupe", "units":"6 Vypers",	"pts":200, "upgrades":[]},
-			{"id":528, "name":"Hornet Troupe", "pts":0,  "upgrades":[32]},
-			{"id":529, "name":"Lynx Troupe", "units":"2 Lynx",	"pts":300, "upgrades":[]}
+			{"id":528, "name":"Hornet Troupe", "pts":0,  "upgrades":[32]}
 		]},
 		{"name":"SPACESHIPS, AIRCRAFT & TITANS (Max 33%)", "formations":[
 			{"id":530, "name":"Wraithship",	"pts":150, "upgrades":[]},
@@ -62,7 +63,7 @@
 		{"id":71, "name":"Titan Pulsar, Titan Power Fist",	"pts":0}
 	],
 	"formationConstraints":[
-		{"max":2, "name":"Troupes", "from":[520,521,524,525,526,527,528,529], "forEach":[510,511], "name2":"Vaulhost"},
+		{"max":2, "name":"Troupes", "from":[520,521,524,525,526,527,528], "forEach":[510,511,512], "name2":"Vaulhost"},
 		{"max":1, "from":[501]},
 		{"min":1, "max":1, "from":[502]},
 		{"max":1, "from":[532]},
