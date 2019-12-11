@@ -16,7 +16,7 @@
 			{"id":503, "name":"Chosen", "pts":150, "units":"4 Chosen", "upgrades":[70]}
 		]},
 		{"name":"EMPERORS CHILDREN SUPPORT FORMATIONS (Max 2 for each Core formation)", "formations":[
-			{"id":504, "name":"Bike Company",	"pts":250, "units":"6 Chaos Space Marines Bikes", "upgrades":[14,70]},
+			{"id":504, "name":"Bike Company",	"pts":250, "units":"6 Chaos Space Marine Bikes", "upgrades":[14,70]},
 			{"id":505, "name":"Raptor Cult",	"pts":175, "units":"4 Chaos Raptors", "upgrades":[70]},
 			{"id":506, "name":"Armoured Company", "pts":0, "upgrades":[44] }
 		]},
@@ -26,17 +26,17 @@
 			{"id":513, "name":"Slaneesh Defiler Pack", "pts":25, "upgrades":[50]},
 			{"id":514, "name":"Questor",	"pts":275, "units":"Questor Scout Titan", "upgrades":[]},
 			{"id":515, "name":"Subjugator Pack",	"pts":450, "units":"2 Subjugator Scout Titans", "upgrades":[]},
-			{"id":517, "name":"Chaos Thunderhawk",	"pts":200, "units":"1 Chaos Thunderhawk", "upgrades":[]},
-			{"id":518, "name":"Hell Blades",	"pts":200, "units":"3 Hell Blade Fighters", "upgrades":[]},
-			{"id":519, "name":"Hell Talons",	"pts":225, "units":"2 Hell Talon Bombers", "upgrades":[]},
-			{"id":520, "name":"Devastation Class Cruiser",	"pts":150,  "units":"1 Devastation Class Cruiser",  "upgrades":[]}
+			{"id":517, "name":"Chaos Thunderhawk",	"pts":200, "upgrades":[]},
+			{"id":518, "name":"Hell Blades",	"pts":200, "units":"3 Hell Blade Interceptors", "upgrades":[]},
+			{"id":519, "name":"Hell Talons",	"pts":225, "units":"2 Hell Talon Fighter-Bombers", "upgrades":[]},
+			{"id":520, "name":"Devastation Class Cruiser",	"pts":150,  "upgrades":[]}
 			]}
 	],
 	"upgrades":[
 	{"id":10, "name":"Chaos Lord", 		"pts":0},
 		{"id":11, "name":"Sorcerer Lord", 		"pts":0},
 		{"id":12, "name":"Chaos Warlord", 		"pts":50},
-		{"id":13, "name":"Daemon Prince (replaces one unit of Chaos Space Marines or Noise Marines)", 		"pts":100},
+		{"id":13, "name":"Daemon Prince (replaces one unit of Chaos Space Marines)", 		"pts":100},
 		{"id":16, "name":"Daemon Prince (replaces one unit of Emperor's Children Terminators)", 		"pts":100},
 
 		{"id":14, "name":"Icon Bearer", "pts":25},
@@ -54,7 +54,7 @@
 		{"id":31, "name":"Emperors Children Land Raider", 	"pts":50},
 		{"id":32, "name":"4 Emperors Children Land Raiders", 	"pts":200},
 
-		{"id":35, "name":"Emperors Children Dreadnought", "pts":75},
+		{"id":35, "name":"Emperors Children Dreadnought", "pts":50},
 
 		{"id":40, "name":"4 Emperors Children Predators", 	"pts":200},
 		{"id":41, "name":"4 Emperors Children Land Raiders", 	"pts":275},
@@ -70,7 +70,7 @@
 		{"id":73, "name":"Greater Daemon Pool point (Free)", "pts":0},
 		{"id":74, "name":"Lesser Daemon Pool point (Daemonic Pact)", "pts":0},
 
-		{"id":80, "name":"Dreadclaw Drop Pod", "pts":5}
+		{"id":80, "name":"Dreadclaw", "pts":5}
 
 
 	],

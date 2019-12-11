@@ -6,10 +6,10 @@
 {
 "name":"BATTLE TITAN FORMATIONS",
 "formations":[
-        {"id":500,"name":"Emperor Titan","pts":950, "upgrades":[10]},
+        {"id":500,"name":"Emperor Titan","pts":925, "upgrades":[]},
 
-		{"id":501,"name":"Warlord Titan (Deathbringer Class)","pts":750, "upgrades":[10,11]},
-        {"id":502,"name":"Warlord Titan (Nemesis Class)","pts":750, "upgrades":[10,11]},
+		{"id":501,"name":"Warlord Titan (Deathbringer Class)","pts":725, "upgrades":[]},
+        {"id":502,"name":"Warlord Titan (Nemesis Class)","pts":725, "upgrades":[]},
 
 		{"id":503,"name":"Reaver Titan (Hun Class)","pts":600, "upgrades":[11]},
         {"id":504,"name":"Reaver Titan (Goth Class)","pts":600, "upgrades":[11]}
@@ -35,7 +35,7 @@
 ],
 "upgrades":[
         {"id":10,"name":"Legate","pts":50},
-        {"id":11,"name":"Veteran Princeps","pts":0},
+        {"id":11,"name":"Veteran Princeps","pts":25},
         {"id":13,"name":"Independent: Warhound Pack acts as two separate formations during the battle","pts":50},
         {"id":14,"name":"Kastelan Robot","pts":25},
         {"id":15,"name":"Gorgon","pts":100},
@@ -74,6 +74,7 @@
 	    {"id":83,"name":"Titan Power Fist","pts":0},
         {"id":84,"name":"Laser Burner","pts":0},
 	    {"id":85,"name":"Melta Cannon","pts":0},
+        {"id":86,"name":"Titan Chainfist","pts":0},
 
 	    {"id":90,"name":"Warp Missile","pts":0},
 	    {"id":91,"name":"Deathstrike Missile","pts":0},
@@ -114,7 +115,7 @@
 ],
 "upgradeConstraints":[
         {"max":1, "perArmy":true, "from":[10]},
-        {"min":1,"max":1,"from":[11,10],"appliesTo":[500,501,502,503,504]},
+        {"min":1,"max":1,"from":[11,10],"appliesTo":[500,501,502]},
         {"max":1,"from":[13],"appliesTo":[510]},
         {"min":1,"max":1,"from":[150,151,152],"appliesTo":[510]},
 
@@ -130,11 +131,12 @@
         {"min":1,"max":1,"from":[60,61,62,63],"appliesTo":[502]},
 
         {"min":1,"max":1,"from":[70,71,72],"appliesTo":[503]},
-		{"min":2,"max":2,"from":[80,81,82,83,84,85],"appliesTo":[503]},
+		{"min":2,"max":2,"from":[80,81,82,83,86,84,85],"appliesTo":[503]},
         {"max":1,"from":[82],"appliesTo":[503]},
         {"max":1,"from":[83],"appliesTo":[503]},
         {"max":1,"from":[84],"appliesTo":[503]},
         {"max":1,"from":[85],"appliesTo":[503]},
+        {"max":1,"from":[85],"appliesTo":[506]},
 
         {"min":1,"max":1,"from":[90,91,93,94],"appliesTo":[504]},
         {"min":2,"max":2,"from":[95,96,97,98],"appliesTo":[504]},

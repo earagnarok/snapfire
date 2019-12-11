@@ -28,13 +28,13 @@
 	],
 	"upgrades":[
 		{"id":5, "name":"2 Land Raider Crusaders", 			"pts":0},
-		{"id":6, "name":"1 Land Raider Crusader, 2 Land Raiders", 			"pts":50},
+		{"id":6, "name":"Land Raider Crusader, 2 Land Raiders", 			"pts":50},
 		{"id":7, "name":"4 Land Raiders", 			"pts":100},
 
-		{"id":10, "name":"White Scar Attack Bike",		"pts":0},
-		{"id":11, "name":"White Scar Melta Bike",		"pts":0},
-		{"id":12, "name":"White Scar Scout Bikes",		"pts":0},
-		{"id":13, "name":"White Scar Assault Bikes",			"pts":0},
+		{"id":10, "name":"White Scars Attack Bike",		"pts":0},
+		{"id":11, "name":"White Scars Melta Bike",		"pts":0},
+		{"id":12, "name":"White Scars Scout Bikes",		"pts":0},
+		{"id":13, "name":"White Scars Assault Bikes",			"pts":0},
 
 		{"id":15, "name":"Captain",				"pts":50},
 		{"id":16, "name":"Chaplain", 				"pts":50},
@@ -50,13 +50,13 @@
 		{"id":32, "name":"Land Raider", 			"pts":50},
 		{"id":34, "name":"4 Scouts plus transport",				"pts":0},
 		{"id":35, "name":"4 Scouts with Sniper, plus transport",			"pts":25},
-		{"id":36, "name":"White Scar Vindicator",		"pts":50},
-		{"id":37, "name":"2 White Scar Vindicators",		"pts":75},
+		{"id":36, "name":"White Scars Vindicator",		"pts":50},
+		{"id":37, "name":"2 White Scars Vindicators",		"pts":75},
 		{"id":38, "name":"Razorback w/ Twin Lascannons",				"pts":25},
 		{"id":39, "name":"Razorback w/ Twin Heavy Bolters",				"pts":25},
 		{"id":40, "name":"Strike Cruiser",		"pts":0},
 		{"id":41, "name":"Battle Barge",		"pts":75},
-		{"id":50, "name":"Independent: Allows a Warhound Pack to operate as two independent formations. If one Warhound in a pack is destroyed, the other one in the pack receives a blastmarker",				"pts":50}
+		{"id":50, "name":"Independent",				"pts":50}
 
 	],
 	"formationConstraints":[

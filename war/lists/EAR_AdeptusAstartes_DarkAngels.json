@@ -43,7 +43,7 @@
 		{"id":18, "name":"3 Vindicators",								"pts":50},
 		{"id":19, "name":"4 Vindicators",								"pts":75},
 
-		{"id":20, "name":"Ravenwing Assault Bike",						"pts":0},
+		{"id":20, "name":"Ravenwing Assault Bikes",						"pts":0},
 		{"id":21, "name":"Ravenwing Attack Bike", 						"pts":0},
 
 		{"id":22, "name":"Predator Annihilator",						"pts":0},

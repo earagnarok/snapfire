@@ -1,25 +1,26 @@
 {
 "id":"EpicUK Titan Legion",
-"version":"v121013",
-"by":"EpicUK",
+"version":"v12-10-13",
+"notes":["At least 1 Battle Titan must be selected at 2000 points, with an additional required for every 1000 points"],
+"by":"EA-Ragnarok",
 "sections":[
 {
 "name":"COMPANIES",
 "formations":[
-        {"id":501,"name":"Warlord Battle Titan","pts":850,"units":"1 Warlord Battle Titan","upgrades":[10,11,12]},
-        {"id":502,"name":"Reaver Battle Titan","pts":650,"units":"1 Reaver Battle Titan","upgrades":[11,12]},
-        {"id":503,"name":"Warhound Scout Team","pts":550,"units":"2 Warhound Scout Titans","upgrades":[12]},
-        {"id":504,"name":"Warhound Scout Titan","pts":300,"units":"1 Warhound Scout Titan","upgrades":[12]}
+        {"id":501,"name":"Warlord Battle Titan","pts":850,"upgrades":[10,11,12]},
+        {"id":502,"name":"Reaver Battle Titan","pts":650,"upgrades":[11,12]},
+        {"id":503,"name":"Warhound Scout Pack","pts":550,"units":"2 Warhound Scout Titans","upgrades":[12]},
+        {"id":504,"name":"Warhound Scout Titan","pts":300,"upgrades":[12]}
 ]},
-{"name":"SUPPORT FORMATIONS",
+{"name":"SUPPORT FORMATIONS (Max 1 for each Battle Titan)",
 "formations":[{
         "id":521,"name":"Cybernetic Guards","pts":200,"units":"8 Robots","upgrades":[]}
 ]},
 {"name":"IMPERIAL NAVY",
 "formations":[
-        {"id":531,"name":"Orbital Support","pts":150,"units":"1 Adeptus Mechanicus Mars Cruiser","upgrades":[]},
-        {"id":532,"name":"Fighter Cohort","pts":150,"units":"2 Thunderbolt Fighter-bombers","upgrades":[]},
-        {"id":533,"name":"MarauderBombers","pts":250,"units":"2 Marauder Bombers","upgrades":[]}
+        {"id":531,"name":"Adeptus Mechanicus Mars Cruiser","pts":150,"upgrades":[]},
+        {"id":532,"name":"Thunderbolt Squadron","pts":150,"units":"2 Thunderbolt Fighters","upgrades":[]},
+        {"id":533,"name":"Marauder Squadron","pts":250,"units":"2 Marauder Bombers","upgrades":[]}
 ]}
 ],
 "upgrades":[
@@ -31,6 +32,7 @@
         {"id":15,"name":"Veteran Princeps + Plasma Destructor","pts":50},
         {"id":16,"name":"Veteran Princeps + Deathstrike Missile","pts":50},
         {"id":17,"name":"Veteran Princeps + Barrage Missile","pts":50},
+
         {"id":50,"name":"Quake Cannon","pts":0},
         {"id":51,"name":"Volcano Cannon","pts":0},
         {"id":52,"name":"Plasma Destructor","pts":0},
@@ -47,16 +49,27 @@
         {"id":68,"name":"Close Combat Arm","pts":0},
         {"id":69,"name":"Hydra Platfom (Carapace only)","pts":0},
         {"id":70,"name":"Carapace Landing Platform (Carapace only)","pts":0},
-        {"id":80,"name":"Rocket Launcher","pts":0},
-        {"id":81,"name":"Scout Turbo Laser","pts":0},
-        {"id":82,"name":"Plasma Blastgun","pts":0},
-        {"id":83,"name":"Scout Inferno Gun","pts":0}
+        {"id":80,"name":"2x Rocket Launcher","pts":0},
+        {"id":81,"name":"Rocket Launcher, Scout Turbo Laser","pts":0},
+        {"id":82,"name":"Rocket Launcher, Plasma Blastgun","pts":0},
+        {"id":83,"name":"Rocket Launcher, Scout Inferno Gun","pts":0},
+        {"id":84,"name":"Rocket Launcher, Vulcan Mega Bolter","pts":0},
+        {"id":90,"name":"2x Scout Turbo Laser","pts":0},
+        {"id":91,"name":"Scout Turbo Laser, Plasma Blastgun","pts":0},
+        {"id":92,"name":"Scout Turbo Laser, Scout Inferno Gun","pts":0},
+        {"id":93,"name":"Scout Turbo Laser, Vulcan Mega Bolter","pts":0},
+        {"id":94,"name":"2x Plasma Blastgun","pts":0},
+        {"id":95,"name":"Plasma Blastgun, Scout Inferno Gun","pts":0},
+        {"id":96,"name":"Plasma Blastgun, Vulcan Mega Bolter","pts":0},
+        {"id":97,"name":"2x Scout Inferno Gun","pts":0},
+        {"id":98,"name":"Scout Inferno Gun, Vulcan Mega Bolter","pts":0},
+        {"id":99,"name":"2x Vulcan Mega Bolter","pts":0}
 ],
 "formationConstraints":[
         {"min":1,"from":[501]},
         {"max":1, "perArmy":true, "from":[531]},
-        {"maxPercent":17,"name":"Imperial Navy","from":[531,532,533]},
-        {"max":1,"name":"Support Formations","from":[521],"forEach":[501,502,503,504],"name2":"Companies"}
+        {"maxPercent":17.5,"name":"Imperial Navy","from":[531,532,533]},
+        {"max":1,"name":"Robots","from":[521],"forEach":[501,502],"name2":"Battle Titan"}
 ],
 "upgradeConstraints":[
         {"max":1,"from":[11],"appliesTo":[501,502]},
@@ -67,7 +80,7 @@
         {"max":1, "perArmy":true, "from":[10]},
         {"min":4,"max":4,"from":[60,61,62,63,64,65,66,67,68,69,70,50,51,52,53,54,13,14,15,16,17],"appliesTo":[501]},
         {"min":3,"max":3,"from":[60,61,62,63,64,65,66,67,68,69,70,13,14,15,16,17],"appliesTo":[502]},
-        {"min":4,"max":4,"from":[64,80,81,82,83],"appliesTo":[503]},
-        {"min":2,"max":2,"from":[64,80,81,82,83],"appliesTo":[504]}
+        {"min":2,"max":2, "from":[80,81,82,83,84,90,91,92,93,94,95,96,97,98,99],"appliesTo":[503]},
+        {"min":1,"max":1, "from":[80,81,82,83,84,90,91,92,93,94,95,96,97,98,99],"appliesTo":[504]}
 ]
 }
