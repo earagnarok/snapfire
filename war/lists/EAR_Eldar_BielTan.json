@@ -34,7 +34,7 @@
    ],
    "upgrades": [
       {"id": 11, "name": "Rangers", "pts": 25},
-      {"id": 13, "name": "4 Wave Serpents (may only be taken if the entire formation can fit inside)", "pts": 150},
+      {"id": 13, "name": "4 Wave Serpents (may only be taken if the entire formation can fit inside)", "pts": 125},
       {"id": 15, "name": "Dire Avengers", "pts": 0},
       {"id": 16, "name": "Striking Scorpions", "pts": 0},
       {"id": 17, "name": "Howling Banshees", "pts": 0},

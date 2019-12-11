@@ -1,7 +1,7 @@
 {
 	"id":"NetEA Dark Eldar",
-	"version":"Army List Compendium 2012",
-	"by":"Iron Bloke and Borka",
+	"version":"2019-10-17",
+	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"INDIVIDUALS", "formations":[
 			{"id":530, "name":"Webway Portal",	"pts":50,		"upgrades":[]},
@@ -12,7 +12,7 @@
 			{"id":512, "name":"Kabal Syndicate",	"pts":200,	"upgrades":[17,18,53,14,56,19,23,61,70,71,72]},
 			{"id":513, "name":"Kabal Flotilla",	"pts":250,	"upgrades":[17,18,53,69]}
 		]},
-		{"name":"PARTISANS", "formations":[
+		{"name":"PARTISANS (Max 2 for each Kabal formation)", "formations":[
 			{"id":501, "name":"Haemonculi Coven",			"pts":250, "upgrades":[53,93,94,74,78]},
 			{"id":502, "name":"Talos Swarm",				"pts":200, "upgrades":[72,74,78]},
 			{"id":503, "name":"Wych Cult",					"pts":200, "upgrades":[75,76,77,53,70]},
@@ -20,15 +20,15 @@
 			{"id":505, "name":"Reaver Gang",				"pts":200, 	"upgrades":[53]},
 			{"id":506, "name":"Mandrake Throng",			"pts":225, "upgrades":[]},
 			{"id":507, "name":"Scourge Flight",				"pts":225, "upgrades":[53]},
-			{"id":508, "name":"Heavy Barges",				"pts":0,	"upgrades":[]}
+			{"id":508, "name":"Heavy Barges",				"pts":0,	"upgrades":[69]}
 		]},
-		{"name":"SPACESHIPS, AIRCRAFT & HORRORS", "formations":[
+		{"name":"DARK ELDAR NAVY & WAR ENGINES (Max 33%)", "formations":[
 			{"id":522, "name":"Torture Class Cruiser",		"pts":300, "upgrades":[]},
 			{"id":523, "name":"Corsair Escorts",			"pts":0, "upgrades":[11]},
 			{"id":524, "name":"Tormentor Titan",			"pts":500, "upgrades":[]},
-			{"id":525, "name":"Executioner Landing Module","pts":750, "upgrades":[]},
-			{"id":526, "name":"Fighter Formation",			"pts":0, "upgrades":[13]},
-			{"id":527, "name":"Bomber Formation",			"pts":0, "upgrades":[15]}
+			{"id":525, "name":"Executor Landing Module",	"pts":750, "upgrades":[]},
+			{"id":526, "name":"Raven Squadron",				"pts":0, "upgrades":[13]},
+			{"id":527, "name":"Razorwing Squadron",			"pts":0, "upgrades":[15]}
 		]}
 	],
 	"upgrades":[
@@ -87,7 +87,7 @@
 		{"id":94, "name":"2 Talos",			"pts":100}
 	],
 	"formationConstraints":[
-		{"maxPercent":33, "from":[522,523,524,525,526,527]},
+		{"maxPercent":33.5, "from":[522,523,524,525,526,527]},
 		{"max":1, "from":[530]},
 		{"max":1, "from":[531]},
 		{"max":1, "from":[511]},

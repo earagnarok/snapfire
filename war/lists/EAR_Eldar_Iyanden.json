@@ -8,12 +8,12 @@
   	    {"id": 508, "name": "Avatar", "pts": 0, "upgrades": []}
          ]},
       {"name": "WRAITHHOSTS", "formations": [
-            {"id": 510, "name": "Spirit Guard Wraithhost", "pts": 225, "upgrades": [53,55]},
-            {"id": 511, "name": "Spirit Blade Wraithhost", "pts": 175, "upgrades": [44,53,55]},
+            {"id": 510, "name": "Spirit Guard Wraithhost", "pts": 225, "upgrades": [51,52,53,55]},
+            {"id": 511, "name": "Spirit Blade Wraithhost", "pts": 175, "upgrades": [44,51,52,53,55]},
             {"id": 512, "name": "Spirit Walker Wraithhost", "pts": 350,  "units": "6 Wraithlords",  "upgrades": []}
         ]},
       {"name": "TROUPES (Max 2 for each Wraithhost)", "formations": [
-            {"id": 612, "name": "Guardian Warhost", "pts": 150, "units": "Farseer", "upgrades": [14,41,44,53,55]},
+            {"id": 612, "name": "Guardian Warhost", "pts": 150, "units": "Farseer", "upgrades": [14,41,44,51,52,53,55]},
             {"id": 613, "name": "Rangers", "pts": 0, "upgrades": [11]},
        	    {"id": 614, "name": "War Walker Troupe", "pts": 25,"upgrades": [71]},
             {"id": 615, "name": "Windrider Troupe", "pts": 200, "upgrades": []},
@@ -21,7 +21,7 @@
             {"id": 617, "name": "Night Spinner Troupe", "pts": 175, "units": "3 Night Spinners", "upgrades": []},
             {"id": 618, "name": "Engines of Vaul", "pts": 50, "upgrades": [47,48,49]},
             {"id": 619, "name": "Fire Prism Troupe", "pts": 250, "units": "3 Fire Prisms", "upgrades": []},
-            {"id": 620, "name": "Aspect Warrior Troupe", "pts": 250, "upgrades": [39,54]}
+            {"id": 620, "name": "Aspect Warrior Troupe", "pts": 225, "upgrades": [39]}
          ]},
       {"name": "SPACESHIPS, AIRCRAFT &amp; TITANS (Max 33%)", "formations": [
             {"id": 515, "name": "Wraithship", "pts": 150, "upgrades": []},
@@ -51,7 +51,7 @@
       {"id": 27, "name": "Jetbikes", "pts": 0},
       {"id": 28, "name": "Vyper", "pts": 0},
       {"id": 30, "name": "5 Falcons", "pts": 0},
-      {"id": 31, "name": "4 Falcons, 1 Firestorm", "pts": 0},
+      {"id": 31, "name": "4 Falcons, Firestorm", "pts": 0},
       {"id": 32, "name": "3 Falcons, 2 Firestorms", "pts": 0},
       {"id": 33, "name": "5 Falcons, 5 Guardians", "pts": 75},
       {"id": 39, "name": "Exarch", "pts": 25},
@@ -64,9 +64,10 @@
       {"id": 47, "name": "Cobra", "pts": 200},
       {"id": 48, "name": "Scorpion", "pts": 200},
       {"id": 49, "name": "Storm Serpent", "pts": 200},
-      {"id": 53, "name": "Wraithlord", "pts": 50},
-      {"id": 54, "name": "3 Wave Serpents (may only be taken if the entire formation can fit inside)", "pts": 100},
-      {"id": 55, "name": "4 Wave Serpents (may only be taken if the entire formation can fit inside)", "pts": 150},
+      {"id": 51, "name": "Wraithlord", "pts": 50},
+      {"id": 52, "name": "2 Wraithlords", "pts": 100},
+      {"id": 53, "name": "3 Wraithlords", "pts": 150},
+      {"id": 55, "name": "4 Wave Serpents", "pts": 150},
       {"id": 61, "name": "Spiritseer", "pts": 0},
       {"id": 62, "name": "Wraithseer", "pts": 100},
       {"id": 66, "name": "Phoenix Bombers", "pts": 75},
@@ -96,15 +97,17 @@
       {"max": 1, "from": [41]},
       {"max": 1, "from": [43]},
       {"max": 1, "from": [44]},
-      {"max": 3, "from": [53]},
 
       {"max": 1, "from": [39], "appliesTo": [620]},
 
       {"max": 1, "min": 1, "from": [80,81], "appliesTo": [518]},
 
       {"max": 3, "min": 2, "from": [67], "appliesTo": [520]},
-      {"max": 1, "from": [55,54]},
-
+      {"max": 1, "from": [55,46]},
+      {"max": 1, "from": [55,44]},
+      {"max": 1, "from": [55,43]},
+      {"max": 1, "from": [55,14]},
+      {"max": 1, "from": [55,51,52,53]},
 
       {"max": 6, "min": 5, "from": [11], "appliesTo": [613]},
       {"max": 1, "from": [46], "appliesTo": [501,502,503,504,505,530]},
