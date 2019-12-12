@@ -38,7 +38,7 @@
    ],
    "upgrades": [
       {"id": 13, "name": "Chaos Warlord", "pts": 50},
-      {"id": 14, "name": "Daemon Prince of Nurgle (replaces the Chaos Lord and his unit)", "pts": 100},
+      {"id": 14, "name": "Daemon Prince of Nurgle (replaces the Chaos Lord and its unit)", "pts": 100},
       {"id": 15, "name": "Chaos Lord", "pts": 0},
       {"id": 16, "name": "Sorcerer Lord", "pts": 0},
       {"id": 17, "name": "3 Chaos Space Marines", "pts": 0},

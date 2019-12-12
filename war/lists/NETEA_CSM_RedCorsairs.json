@@ -73,8 +73,8 @@
 		{ "id":90, "name":"Chaos Lord", "pts":0 },
 		{ "id":91, "name":"Sorcerer Lord", "pts":0 },
 		{ "id":92, "name":"Chaos Warlord (Supreme Commander)", "pts":50 },
-		{ "id":93, "name":"Daemon Prince (Replaces the Chaos Lord and his unit)", "pts":50 },
-		{ "id":94, "name":"Daemon Prince (Supreme Commander. Replaces the Chaos Lord and his unit)", "pts":100 }
+		{ "id":93, "name":"Daemon Prince (Replaces the Chaos Lord and its unit)", "pts":50 },
+		{ "id":94, "name":"Daemon Prince (Supreme Commander. Replaces the Chaos Lord and its unit)", "pts":100 }
 
 	],
 	"formationConstraints":[

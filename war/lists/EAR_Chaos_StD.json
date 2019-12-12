@@ -20,7 +20,7 @@
 			{"id":506, "name":"Super-Heavy Platoon", "pts":175, "upgrades":[]},
 			{"id":507, "name":"Leman Russ Platoon", "pts":350, "upgrades":[]}
 		]},
-		{"name":"SLAVES TO DARKNESS AIR SUPPORT & DARK MECHANICUS ALLIES / / Max 33% / / Army may not Mix Nurgle/Tzeench or Slaanesh/Khorne formations", "formations":[
+		{"name":"SLAVES TO DARKNESS AIR SUPPORT & DARK MECHANICUS ALLIES / / Max 33% / / Army may not Mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
 			{"id":531, "name":"Thunderbolt Squadron", "pts":150, "units":"2 Thunderbolt Fighters", "upgrades":[]},
 			{"id":532, "name":"Marauder Squadron", "pts":225, "units":"2 Marauder Bombers", "upgrades":[]},
 			{"id":510, "name":"Decimator of Chaos Undivided", "pts":225, "upgrades":[]},
@@ -32,8 +32,8 @@
 			{"id":516, "name":"Plague Tower of Nurgle", "pts":325, "upgrades":[]},
 			{"id":520, "name":"Daemonic Assault Engines of Khorne",	"pts":325, "units":"6 Daemonic Assault Engines", "upgrades":[]},
 			{"id":521, "name":"Khorne Lord of Battles", "pts":425, "upgrades":[]},
-			{"id":522, "name":"Silver Towers of Tzeench",	"pts":300, "units":"4 Silver Towers", "upgrades":[]},
-			{"id":523, "name":"Warp Palace of Tzeench", "pts":500, "upgrades":[]}
+			{"id":522, "name":"Silver Towers of Tzeentch",	"pts":300, "units":"4 Silver Towers", "upgrades":[]},
+			{"id":523, "name":"Warp Palace of Tzeentch", "pts":500, "upgrades":[]}
          ]
       }
    ],

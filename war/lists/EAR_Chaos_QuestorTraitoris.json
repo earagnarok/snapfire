@@ -4,20 +4,20 @@
 	"notes":[],
 	"by":"EA-Ragnarok",
 	"sections":[
-		{"name":"DAEMONIC LANCE FORMATIONS / / Army may not Mix Nurgle/Tzeench or Slaanesh/Khorne formations ", "formations":[
+		{"name":"DAEMONIC LANCE FORMATIONS / / Army may not Mix Nurgle/Tzeentch or Slaanesh/Khorne formations ", "formations":[
 			{"id":500, "name":"Hell-Knights of Slaanesh",			"pts":350,  "units": "3 Hell-Knights", "upgrades":[]},
 			{"id":501, "name":"Hell-Scourges of Slaanesh",			"pts":350,  "units": "3 Hell-Scourges","upgrades":[]},
 			{"id":502, "name":"Knights of Nurgle",			"pts":75, "upgrades":[82]},
 			{"id":503, "name":"Knights of Khorne",			"pts":50, "upgrades":[83]},
-			{"id":504, "name":"Knights of Tzeench",			"pts":50, "upgrades":[84]},
+			{"id":504, "name":"Knights of Tzeentch",			"pts":50, "upgrades":[84]},
 			{"id":505, "name":"Knights of Chaos Undivided",			"pts":50, "upgrades":[85]}
 		]},
 
-		{"name": "DAEMONIC PACK FORMATIONS / / Max 1 per Daemonic Lance Formation / / Army may not Mix Nurgle/Tzeench or Slaanesh/Khorne formations", "formations":[
+		{"name": "DAEMONIC PACK FORMATIONS / / Max 1 per Daemonic Lance Formation / / Army may not Mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
 			{"id":510, "name":"Hell-Striders of Slaanesh",		"pts":225,  "units": "4 Hell-Striders", "upgrades":[]},
 			{"id":511, "name":"Defilers of Nurgle",				"pts":250, "units": "4 Desecrators", "upgrades":[]},
 			{"id":512, "name":"Defilers of Khorne",				"pts":225, "units": "4 Slaughterfiends", "upgrades":[]},
-			{"id":513, "name":"Defilers of Tzeench",			"pts":250, "units": "4 Decievers", "upgrades":[]},
+			{"id":513, "name":"Defilers of Tzeentch",			"pts":250, "units": "4 Decievers", "upgrades":[]},
 			{"id":514, "name":"Defilers of Chaos Undivided",	"pts":225, "units": "4 Defilers", "upgrades":[]},
 			{"id":515, "name":"Armigers of Chaos Undivided",	"pts":225, "upgrades":[]}
 		]},
@@ -29,12 +29,12 @@
 			{"id":524, "name":"Extremis Diabolus",		"pts":425, "upgrades":[]}
 		]},
 
-			{"name":"TRAITOR TITAN LEGION & CHAOS NAVY ALLIES / / Max 33% of the army / / Army may not Mix Nurgle/Tzeench or Slaanesh/Khorne formations", "formations":[
+			{"name":"TRAITOR TITAN LEGION & CHAOS NAVY ALLIES / / Max 33% of the army / / Army may not Mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
 				{"id":530, "name":"Questors of Slaanesh", "units": "2 Questors",	"pts":500, "upgrades":[]},
 				{"id":531, "name":"Subjugators of Slaanesh",  "units": "2 Subjugators",	"pts":450, "upgrades":[]},
 				{"id":532, "name":"Plaguehounds of Nurgle",  "units": "2 Plaguehounds",	"pts":500, "upgrades":[]},
 				{"id":533, "name":"Bloodhounds of Khorne",	"pts":500, "upgrades":[]},
-				{"id":534, "name":"Warphounds of Tzeench",  "units": "2 Warphounds",	"pts":500, "upgrades":[]},
+				{"id":534, "name":"Warphounds of Tzeentch",  "units": "2 Warphounds",	"pts":500, "upgrades":[]},
 				{"id":535, "name":"Chaos Warhounds of Chaos Undivided",  "units": "2 Chaos Warhounds",	"pts":500, "upgrades":[]},
 				{"id":536, "name":"Heldrakes",				"pts":225, "units": "2 Heldrakes", "upgrades":[]},
 				{"id":537, "name":"Despoiler Battleship",				"pts":175, "upgrades":[]}
@@ -73,7 +73,7 @@
 
 		{"id":82,	"name":"Knight-Desecrator of Nurgle",	"pts":125},
 		{"id":83,	"name":"Knight-Rampager of Khorne",	"pts":125},
-		{"id":84,	"name":"Knight-Despoiler of Tzeench",	"pts":125},
+		{"id":84,	"name":"Knight-Despoiler of Tzeentch",	"pts":125},
 		{"id":85,	"name":"Knight-Renegade of Chaos Undivided",	"pts":125},
 
 		{"id":90,	"name":"4 Knight-Doomglaives of Chaos Undivided",	"pts":0},

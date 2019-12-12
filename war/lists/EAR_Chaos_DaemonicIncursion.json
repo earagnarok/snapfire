@@ -9,14 +9,14 @@
 		{"name":"Daemonic Incursion Specials", "formations":[
 			{"id":499, "name":"Chaos Gate", "pts":0,  "units":"Replace one objective on the Daemonic Incursion half of the table with a Chaos Gate",  "upgrades":[]}
 		]},
-		{"name":"1+ Exalted Greater Daemons (Max 1 for each part of 1000 points) / / Army may not Mix Nurgle/Tzeench or Slaanesh/Khorne formations", "formations":[
+		{"name":"1+ Exalted Greater Daemons (Max 1 for each part of 1000 points) / / Army may not Mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
 			{"id":665, "name":"Exalted Greater Daemon", "pts":300, "upgrades":[60]}
 		]},
-		{"name":"Daemon Legions / /  Army may not Mix Nurgle/Tzeench or Slaanesh/Khorne formations", "formations":[
+		{"name":"Daemon Legions / /  Army may not Mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
 			{"id":666, "name":"Slaneesh Legion of Excess", "pts":200, "units":"5 Lesser Daemon Pool points",  "upgrades":[60]},
 			{"id":667, "name":"Nurgle Plague Legion", "pts":200, "units":"5 Lesser Daemon Pool points", "upgrades":[60]},
 			{"id":668, "name":"Khorne Blood Legion", "pts":200, "units":"5 Lesser Daemon Pool points", "upgrades":[60]},
-			{"id":669, "name":"Tzeench Scintillating Legion", "pts":200, "units":"5 Lesser Daemon Pool points", "upgrades":[60]}
+			{"id":669, "name":"Tzeentch Scintillating Legion", "pts":200, "units":"5 Lesser Daemon Pool points", "upgrades":[60]}
 		]},
 		{"name":"PORTALS &amp; MORTALS (Max 25%)", "formations":[
 			{"id":501, "name":"Lost and the Damned", "pts":175,  "upgrades":[25]},
@@ -51,8 +51,8 @@
 		{"id":53, "name":"3 Heralds of Nurgle on Blight Flies", "pts":0},
 		{"id":54, "name":"3 Heralds of Khorne on Juggernauts", "pts":0},
 		{"id":55, "name":"3 Heralds of Khorne on Skull Cannons", "pts":0},
-		{"id":56, "name":"3 Heralds of Tzeench", "pts":0},
-		{"id":57, "name":"3 Heralds of Tzeench on Burning Chariots", "pts":0},
+		{"id":56, "name":"3 Heralds of Tzeentch", "pts":0},
+		{"id":57, "name":"3 Heralds of Tzeentch on Burning Chariots", "pts":0},
 
 		{"id":60, "name":"Soul Grinder", "pts":75},
 

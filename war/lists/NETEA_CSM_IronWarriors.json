@@ -37,8 +37,8 @@
 		],
 	"upgrades":[
 		{"id":17, "name":"Iron Warriors Lord", 		"pts":0},
-		{"id":18, "name":"Daemon Prince (Replaces the Iron Warriors Lord and his unit)", 	"pts":50},
-		{"id":19, "name":"Daemon Prince (Supreme Commander. Replaces the Iron Warriors Lord and his unit)", 	"pts":100},
+		{"id":18, "name":"Daemon Prince (Replaces the Iron Warriors Lord and its unit)", 	"pts":50},
+		{"id":19, "name":"Daemon Prince (Supreme Commander. Replaces the Iron Warriors Lord and its unit)", 	"pts":100},
 		{"id":20, "name":"Warsmith (Supreme Commander)", "pts":50},
 		{"id":21, "name":"Dreadnought Warsmith (Supreme Commander)", "pts":100},
 		{"id":27, "name":"Chaos Predator", 	"pts":50},

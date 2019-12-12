@@ -20,7 +20,7 @@
 			{"id":511, "name":"Whirlwinds",						"pts":275, "units":"4 Whirlwinds", "upgrades":[30,31,32]},
 			{"id":513, "name":"Predators",						"pts":250, "upgrades":[30,31,32]},
 			{"id":512, "name":"Ravenwing Support Squadron",				"pts":175, "upgrades":[]},
-			{"id":517, "name":"Dreadwing Relic Detachment",	  "units":"2 Glaives",	"pts":550, "upgrades":[42]}
+			{"id":517, "name":"Dreadwing Relic Detachment",	  "units":"2 Glaives",	"pts":550, "upgrades":[]}
 
 		]},
 

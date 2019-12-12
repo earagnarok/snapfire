@@ -4,7 +4,7 @@
 	"notes":[],
 	"by":"MrDieAlot",
 	"sections":[
-		{"name":"BATTLE TITANS / / Army may not mix factions that hate each other (Tzeench hates Nurgle & vice-versa, Khorne hates Slaanesh & vice-versa) ", "formations":[
+		{"name":"BATTLE TITANS / / Army may not mix factions that hate each other (Tzeentch hates Nurgle & vice-versa, Khorne hates Slaanesh & vice-versa) ", "formations":[
 			{"id":501, "name":"CARRION LORD   (Chaos Emperor Titan of Chaos Undivided)", "pts":1000,"upgrades":[10,11,8,9,12,13,14,15,31,33,34,35,36,51,52,53,54,55,56]},
 			{"id":502, "name":"SKULLHOARDER   (Chaos Emperor Titan of Khorne)", 		"pts":1000,"upgrades":[10,11,8,9,12,13,14,16,17,33,34,35,37,38,39,40,51,52,53,54,57,58]},
 			{"id":503, "name":"VICEKEEPER   (Chaos Emperor Titan of Slaanesh)", 		"pts":1000,"upgrades":[10,11,8,9,12,13,14,20,33,34,35,48,49,50,51,52,53,54]},

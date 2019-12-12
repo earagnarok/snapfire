@@ -4,7 +4,7 @@
 	"notes":[],
 	"by":"EA-Ragnarok",
 	"sections":[
-		{"name":"BATTLE TITAN FORMATIONS / / Army must contain at least one Chaos Emperor Titan or Chaos Warlord Titan / / Army may not Mix Nurgle/Tzeench or Slaanesh/Khorne formations ", "formations":[
+		{"name":"BATTLE TITAN FORMATIONS / / Army must contain at least one Chaos Emperor Titan or Chaos Warlord Titan / / Army may not Mix Nurgle/Tzeentch or Slaanesh/Khorne formations ", "formations":[
 			{"id":500, "name":"Chaos Emperor Titan", 		"pts":900, "upgrades":[10,11]},
 
 			{"id":501, "name":"Chaos Warlord Titan", 		"pts":750, "upgrades":[10,11]},
@@ -12,17 +12,17 @@
 			{"id":502, "name":"Chaos Reaver Titan",			"pts":600, "upgrades":[11]}
 		]},
 
-		{"name": "SCOUT TITAN FORMATIONS / / Max 2 per Battle Titan formation. Army may not Mix Nurgle/Tzeench or Slaanesh/Khorne formations", "formations":[
+		{"name": "SCOUT TITAN FORMATIONS / / Max 2 per Battle Titan formation. Army may not Mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
 			{"id":510, "name":"Questor of Slaanesh",	"pts":50, "upgrades":[70]},
 			{"id":511, "name":"Subjugator of Slaanesh",	"pts":50, "upgrades":[71]},
 
 			{"id":512, "name":"Plaguehound of Nurgle",	"pts":50, "upgrades":[72]},
 			{"id":513, "name":"Bloodhound of Khorne",	"pts":50, "upgrades":[73,74]},
-			{"id":514, "name":"Warphound of Tzeench",	"pts":50, "upgrades":[75]}
+			{"id":514, "name":"Warphound of Tzeentch",	"pts":50, "upgrades":[75]}
 
 		]},
 
-		{"name":"DAEMON ENGINE FORMATIONS / / Max 1 per Battle Titan or Scout Titan formation. Army may not Mix Nurgle/Tzeench or Slaanesh/Khorne formations", "formations":[
+		{"name":"DAEMON ENGINE FORMATIONS / / Max 1 per Battle Titan or Scout Titan formation. Army may not Mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
 			{"id":540, "name":"Hell-Striders of Slaanesh",			"pts":225, "units": "4 Hell-Striders", "upgrades":[]},
 			{"id":541, "name":"Hell-Knights of Slaanesh",			"pts":325, "units": "3 Hell-Knights", "upgrades":[]},
 			{"id":542, "name":"Hell-Scourges of Slaanesh",			"pts":325, "units": "3 Hell-Scourges",  "upgrades":[]},
@@ -33,8 +33,8 @@
 			{"id":560, "name":"Knights of Khorne",			"pts":275, "units": "2 Knight-Rampagers", "upgrades":[]},
 			{"id":561, "name":"Defilers of Khorne",			"pts":225, "units": "4 Slaughterfiends", "upgrades":[]},
 
-			{"id":570, "name":"Knights of Tzeench",			"pts":275,  "units": "2 Knight-Despoilers", "upgrades":[]},
-			{"id":571, "name":"Defilers of Tzeench",				"pts":250, "units": "4 Decievers",  "upgrades":[]},
+			{"id":570, "name":"Knights of Tzeentch",			"pts":275,  "units": "2 Knight-Despoilers", "upgrades":[]},
+			{"id":571, "name":"Defilers of Tzeentch",				"pts":250, "units": "4 Decievers",  "upgrades":[]},
 
 			{"id":580, "name":"Knights of Chaos Undivided",			"pts":275,  "units": "2 Knight-Renegades",  "upgrades":[83]},
 			{"id":581, "name":"Defilers of Chaos Undivided",				"pts":225, "units": "4 Defilers", "upgrades":[92]},
@@ -62,7 +62,7 @@
 		{"id":20,	"name":"Vicebringer Titan of Slaanesh",	"pts":0},
 		{"id":21,	"name":"Gloombringer Titan of Nurgle",	"pts":0},
 		{"id":22,	"name":"Strifebringer Titan of Khorne",	"pts":0},
-		{"id":23,	"name":"Changebringer Titan of Tzeench",	"pts":0},
+		{"id":23,	"name":"Changebringer Titan of Tzeentch",	"pts":0},
 
 		{"id":30,	"name":"Painlord Titan of Slaanesh with Beam of Ecstacy",	"pts":0},
 		{"id":31,	"name":"Painlord Titan of Slaanesh with Cyclone Cannon",	"pts":0},
@@ -78,9 +78,9 @@
 		{"id":42,	"name":"Banelord Titan of Khorne with Beam Blaster",	"pts":0},
 		{"id":43,	"name":"Banelord Titan of Khorne with Plasma Incinerator",	"pts":0},
 
-		{"id":45,	"name":"Warplord Titan of Tzeench with 2 Tzeench Cannons",	"pts":0},
-		{"id":46,	"name":"Warplord Titan of Tzeench with 2 Plasma Incinerators",	"pts":0},
-		{"id":47,	"name":"Warplord Titan of Tzeench with 2 Beam Blasters",	"pts":0},
+		{"id":45,	"name":"Warplord Titan of Tzeentch with 2 Tzeentch Cannons",	"pts":0},
+		{"id":46,	"name":"Warplord Titan of Tzeentch with 2 Plasma Incinerators",	"pts":0},
+		{"id":47,	"name":"Warplord Titan of Tzeentch with 2 Beam Blasters",	"pts":0},
 
 
 		{"id":50,	"name":"Reviler Titan of Slaanesh with Hex Cannon",	"pts":0},
@@ -95,9 +95,9 @@
 		{"id":61,	"name":"Ravager Titan of Khorne with Turbo Blaster",	"pts":0},
 		{"id":62,	"name":"Ravager Titan of Khorne with Plasma Cremator",	"pts":0},
 
-		{"id":65,	"name":"Mutator Titan of Tzeench with Coruscant Hail",	"pts":0},
-		{"id":66,	"name":"Mutator Titan of Tzeench with Hex Cannon",	"pts":0},
-		{"id":67,	"name":"Mutator Titan of Tzeench with Turbo Blaster",	"pts":0},
+		{"id":65,	"name":"Mutator Titan of Tzeentch with Coruscant Hail",	"pts":0},
+		{"id":66,	"name":"Mutator Titan of Tzeentch with Hex Cannon",	"pts":0},
+		{"id":67,	"name":"Mutator Titan of Tzeentch with Turbo Blaster",	"pts":0},
 
 
 		{"id":70,	"name":"Questor Scout Titan of Slaanesh",	"pts":225},
@@ -105,11 +105,11 @@
 		{"id":72,	"name":"Plaguehound Scout Titan of Nurgle",	"pts":225},
 		{"id":73,	"name":"Bloodhound of Khorne (with Deathstorm)",	"pts":225},
 		{"id":74,	"name":"Bloodhound of Khorne (with Plasma Furnace)",	"pts":225},
-		{"id":75,	"name":"Warphound of Tzeench",	"pts":225},
+		{"id":75,	"name":"Warphound of Tzeentch",	"pts":225},
 
 		{"id":80,	"name":"Knight-Desecrator of Nurgle",	"pts":0},
 		{"id":81,	"name":"Knight-Rampager of Khorne",	"pts":0},
-		{"id":82,	"name":"Knight-Mutator of Tzeench",	"pts":0},
+		{"id":82,	"name":"Knight-Mutator of Tzeentch",	"pts":0},
 		{"id":83,	"name":"Knight-Renegade of Chaos Undivided",	"pts":0},
 
 		{"id":86,	"name":"Slaughterfiend of Khorne",	"pts":35},
@@ -119,7 +119,7 @@
 		{"id":89,	"name":"Hell-Scourge of Slaanesh",	"pts":0},
 
 		{"id":90,	"name":"Desecrator of Nurgle",	"pts":50},
-		{"id":91,	"name":"Deciever of Tzeench",	"pts":50},
+		{"id":91,	"name":"Deciever of Tzeentch",	"pts":50},
 		{"id":92,	"name":"Defiler of Chaos Undivided",	"pts":50},
 		{"id":93,	"name":"4 Knight-Doomglaives of Chaos Undivided",	"pts":0},
 		{"id":94,	"name":"4 Knight-Perfidor of Chaos Undivided",	"pts":0},
