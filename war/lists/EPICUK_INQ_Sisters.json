@@ -63,9 +63,9 @@
 	  {"id": 60, "name": "6 Retributor Sisters","pts": 0},
 	  {"id": 61, "name": "4 Retributor Sisters, 2 Celestian Sisters","pts": 10},
 	  {"id": 62, "name": "4 Retributor Sisters, 2 Dominion Sisters","pts": 0},
-	  {"id": 70, "name": "4 Dominion Sister units, 2 Rhinos","pts": 0},
-	  {"id": 71, "name": "4 Dominion Sister units, 2 Repressors ","pts": 50},
-	  {"id": 72, "name": "4 Dominion Sister units, 4 Immolators","pts": 100}
+	  {"id": 70, "name": "4 Dominion Sisters, 2 Rhinos","pts": 0},
+	  {"id": 71, "name": "4 Dominion Sisters, 2 Repressors ","pts": 50},
+	  {"id": 72, "name": "4 Dominion Sisters, 4 Immolators","pts": 100}
 
    ],
    "formationConstraints": [

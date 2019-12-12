@@ -22,12 +22,12 @@
 			{"id":507, "name":"Armoured Company",	"pts":0, "upgrades":[27,28,54,66]},
 			{"id":508, "name":"Artillery Battery",	"pts":325, "units":"4 Chaos Basilisks", "upgrades":[64,66]},
 			{"id":509, "name":"Daemonic Artillery",	"pts":325, "units":"3 Daemonic Artillery units", "upgrades":[72,66]},
-			{"id":505, "name":"Super Heavy Company", "pts":0, "upgrades":[25]}
+			{"id":505, "name":"Decimators", "pts":0, "upgrades":[25]}
 		]},
 		{"name":"WAR ENGINES & CHAOS NAVY (Max 33%)", "formations":[
 			{"id":520, "name":"Siege Lord Titan",		"pts":850, "upgrades":[]},
 			{"id":521, "name":"Ravager Titan",			"pts":650, "upgrades":[]},
-			{"id":522, "name":"Ordinatus Medrendgard",			"pts":625, "upgrades":[]},
+			{"id":522, "name":"Ordinatus Medrendgard",			"spts":625, "upgrades":[]},
 			{"id":530, "name":"Hell Blade Squadron",	"pts":200, "units":"3 Hell Blade Interceptors", "upgrades":[]},
 			{"id":531, "name":"Hell Talon Squadron",	"pts":225, "units":"2 Hell Talon Fighter-Bombers", "upgrades":[]},
 			{"id":532, "name":"Harbinger",	"pts":400, "upgrades":[]},

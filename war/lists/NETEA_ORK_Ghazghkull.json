@@ -1,7 +1,7 @@
 {
    "id": "NetEA Ghazghkull Thraka's War Horde",
    "version": "2019-10-17",
-   "notes": ["The Warlord will join a Great Gargant. If none is available, he will instead join a unit of Nobz or a Gargant."],
+   "notes": ["The Warlord will join a Great Gargant if available. otherwise he will join a Gargant or a unit of Nobz if available."],
    "by": "EA-Ragnarok",
    "sections": [
       {
@@ -28,9 +28,9 @@
          ]
       },
       {
-         "name": "AIRCRAFT, SPACECRAFT &amp; GARGANTS (Max 33%)",
+         "name": "AIRCRAFT &amp; GARGANTS (Max 33%)",
          "formations": [
-            {"id": 517, "name": "Fighta Skwadron", "pts": 0, "upgrades": [49]},
+            {"id": 517, "name": "Fighta Sqwadron", "pts": 0, "upgrades": [49]},
             {"id": 518, "name": "Landa", "pts": 200, "upgrades": []},
             {"id": 522, "name": "Gargant", "pts": 650, "upgrades": [81]},
             {"id": 523, "name": "Great Gargant", "pts": 850, "upgrades": [81]}
@@ -44,9 +44,9 @@
       {"id": 51, "name": "Kommandos", "pts": 25},
       {"id": 52, "name": "Stormboyz", "pts": 25},
       {"id": 53, "name": "Warbuggy", "pts": 25},
-      {"id": 54, "name": "Warbike", "pts": 25},
+      {"id": 54, "name": "Warbikes", "pts": 25},
       {"id": 55, "name": "Skorcha", "pts": 25},
-      {"id": 56, "name": "Big Gun", "pts": 25},
+      {"id": 56, "name": "Big Gunz", "pts": 25},
       {"id": 57, "name": "Killa Kan", "pts": 25},
       {"id": 58, "name": "Battlewagon", "pts": 25},
       {"id": 59, "name": "Deth Kopta", "pts": 35},

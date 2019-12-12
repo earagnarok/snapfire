@@ -2,7 +2,7 @@
 	"id":"EA-R Slaves to Darkness",
 	"version":"0.9.4",
 	"notes":
-		["Add one free Lesser Daemon to the Lesser Daemon Pool per Daemonic Pact."],
+		["Add one free Lesser Daemon to the Lesser Daemon Pool per Daemonic Pact, Daemonic Icon."],
 		"by":"EA Ragnarok",
 	"sections":[
 		{"name":"DAEMONS", "formations":[
