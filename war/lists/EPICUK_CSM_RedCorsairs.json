@@ -12,7 +12,7 @@
 			{ "id":502, "name":"Terminator Retinue", "pts":100, "upgrades":[50,15,16,18,19,22,13,28,14,35] },
 			{ "id":503, "name":"Renegade Warband", "pts":275, "upgrades":[13,14,15,16,17,18,19,20,22,28,35] }
 		]},
-		{"name":"RED CORSAIRS SUPPORT", "formations": [
+		{"name":"RED CORSAIRS SUPPORT (Max 2 for each Core formation. 1+ Cult Marine formation or upgrade required for Brass Scorpions, Silver Towers, Blight Drones, Daemon Knights)", "formations": [
 			{ "id":510, "name":"Armoured Company", "pts":0, "upgrades":[51,19,18,22,28] },
 			{ "id":511, "name":"Spaceship", "pts":0},
 			{ "id":512, "name":"Chaos Thunderhawk Gunship", "pts":200},
@@ -41,7 +41,7 @@
 		{ "id":14, "name":"Icon Bearer", "pts":25 },
 		{ "id":15, "name":"Chaos Champion", "pts":50 },
 		{ "id":16, "name":"Chaos Dreadnought", "pts":50 },
-		{ "id":17, "name":"Drop Pod", "pts":10 },
+		{ "id":17, "name":"Chaos Drop Pod", "pts":10 },
 		{ "id":18, "name":"Chaos Hunter", "pts":50 },
 		{ "id":19, "name":"Chaos Land Raider", "pts":75 },
 		{ "id":20, "name":"Chaos Rhino", "pts":10 },

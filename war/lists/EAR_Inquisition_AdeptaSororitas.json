@@ -5,10 +5,10 @@
    "notes":[],
 
    "sections": [
-        {"name": "SORORITAS CORE DETACHMENTS", "formations": [
+        {"name": "SORORITAS CORE FORMATIONS", "formations": [
             {"id": 500, "name": "Mission", "pts": 225, "upgrades": [10,11,12,13, 16]}
 	  ]},
-        {"name": "SORORITAS SUPPORT DETACHMENTS (Max 2 for each Core Detachment)", "formations": [
+        {"name": "SORORITAS SUPPORT FORMATIONS (Max 2 for each Core Formation)", "formations": [
         {"id": 515, "name": "Immolation", "pts": 275, "units": "Three Celestian Sisters, three Sororitas Immolators", "upgrades": []},
 	    {"id": 510, "name": "Exorcism", "pts": 250, "upgrades": [16]},
 	    {"id": 511, "name": "Seraphim", "pts": 225,  "upgrades": []},
@@ -17,7 +17,7 @@
         {"id": 513, "name": "Dominion", "pts": 150, "units": "4 Dominion Sisters", "upgrades": [10,11,12]}
 
          ]},
-        {"name": "ORDO HERETICUS FORMATIONS (Max 2 for each Core Detachment)", "formations": [
+        {"name": "ORDO HERETICUS FORMATIONS (Max 2 for each Core Formation)", "formations": [
             {"id": 520, "name": "0-1 Ordo Hereticus Inquisitor Retinue", "pts": 175, "upgrades": [25]},
             {"id": 523, "name": "Penitence", "pts": 200, "units": "5 Penitent Engines", "upgrades": []},
             {"id": 522, "name": "Flagellant", "pts": 200, "units": "6 Arco-Flagellants", "upgrades": [20]},
@@ -60,7 +60,7 @@
 	  {"id": 30, "name": "4 Exorcist Prioris","pts": 0},
 	  {"id": 31, "name": "4 Exorcist Sanctorum","pts": 0},
 
-	  {"id": 35, "name": "3 Chimeras","pts": 75},
+	  {"id": 35, "name": "3 Chimera","pts": 75},
 	  {"id": 36, "name": "3 Valkyries","pts": 100}
 
    ],
@@ -68,8 +68,8 @@
       {"max": 1, "from": [534]},
       {"max": 1, "from": [520]},
       {"maxPercent": 25.1, "name": "Imperial Navy", "from": [532,533,534]},
-      {"max": 2, "name": "Sororitas Support Detachments", "from": [510,511,512,513,514,515], "forEach": [500], "name2": "Core Detachment" },
-      {"max": 2, "name": "Ordo Hereticus Formations", "from": [520,521,522,523], "forEach": [500], "name2": "Core Detachment" }
+      {"max": 2, "name": "Sororitas Support Formations", "from": [510,511,512,513,514,515], "forEach": [500], "name2": "Core Formation" },
+      {"max": 2, "name": "Ordo Hereticus Formations", "from": [520,521,522,523], "forEach": [500], "name2": "Core Formation" }
    ],
    "upgradeConstraints": [
 	  {"max": 1, "perArmy": true, "from": [2,7,24]},

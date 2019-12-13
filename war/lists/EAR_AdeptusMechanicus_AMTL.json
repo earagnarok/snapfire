@@ -99,7 +99,7 @@
 
     	{"id":130, "name":"Ordinatus Minoris (Hydra Flak Array)",	"pts":125},
 		{"id":131, "name":"Ordinatus Minoris (Titan Plasma Cannon)",			"pts":125},
-		{"id":132, "name":"Ordinatus Minoris (Turbo-laser Destructor)",		"pts":125},
+		{"id":132, "name":"Ordinatus Minoris (Turbo-Laser Destructor)",		"pts":125},
 		{"id":133, "name":"Ordinatus Minoris (Apocalypse Missile Launcher)",	"pts":125},
 
 		{"id":150, "name":"2 Warhound Titans (Standard Configuration)",		"pts":0},

@@ -21,7 +21,7 @@
 		]},
 		{"name":"DARK MECHANICUS, TRAITOR TITAN AND CHAOS NAVY FORMATIONS (Max 33%)", "formations":[
 			{"id":530, "name":"Hellfire Battery",	"pts":225, "units":"4 Hellfire Cannons", "upgrades":[]},
-			{"id":531, "name":"Decimator", "pts":225, "upgrades":[]},
+			{"id":531, "name":"Decimators", "pts":50, "upgrades":[61]},
 			{"id":532, "name":"Defilers", "pts":25, "upgrades":[63]},
 			{"id":533, "name":"Ordinatus Hereticus Minoris", "pts":425, "upgrades":[]},
 			{"id":534, "name":"Chaos Reaver Titan",		"pts":600, "upgrades":[]},
@@ -124,6 +124,8 @@
 
 		{"min":1, "max":1, "from":[47,48,49], "appliesTo":[524]},
 		{"min":0, "max":1, "from":[48,49,54,55], "appliesTo":[524]},
+
+		{"min":1, "max":2, "from":[61], "appliesTo":[531]},
 
 		{"min":4, "max":6, "from":[63], "appliesTo":[532]},
 

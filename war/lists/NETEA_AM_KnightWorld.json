@@ -12,8 +12,8 @@
       {"id":512, "name":"Warden Household", "pts":20, "upgrades":[20,21,22,13]}
     ]},
     {"name":"Support Levy (Max 1 Support Levy for each Knight Household)", "formations":[
-      {"id":520, "name":"AA Gun Battery", "pts":125, "units":"3 AA Guns", "upgrades":[3,4]},
-      {"id":521, "name":"Howitzer Battery", "pts":175, "units":"3 Howitzers", "upgrades":[3,4]},
+      {"id":520, "name":"AA Gun Battery", "pts":125, "units":"3 AA Guns", "upgrades":[]},
+      {"id":521, "name":"Howitzer Battery", "pts":175, "units":"3 Howitzers", "upgrades":[]},
       {"id":522, "name":"Infantry Platoon", "pts":175, "units":"Levy Command, 8 Infantry Levy", "upgrades":[1,5,14,11,15,17]},
       {"id":523, "name":"Rough Rider Platoon", "pts":150, "units":"6 Rough Riders", "upgrades":[1]}
     ]},

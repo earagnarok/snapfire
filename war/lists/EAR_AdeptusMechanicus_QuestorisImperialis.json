@@ -15,13 +15,13 @@
 		{"name":"RETAINER FORMATIONS (Max 1 per Core or Support Household)", "formations":[
 			{"id":521, "name":"Planetary Defence Company",	"pts":175, "units":"11 PDF Conscripts, 1 PDF Commander", "upgrades":[20,21,23,22]},
 			{"id":522, "name":"Flak Emplacement", 		"pts":125, "units":"3 Heavy AA, 3 Gun Emplacements", "upgrades":[]},
-			{"id":523, "name":"Howitzer Emplacement",		"pts":175, "units":"3 Howitzers, 3 Gun Emplacements", "upgrades":[]},
+			{"id":523, "name":"Howitzer Emplacement",		"pts":200, "units":"3 Howitzers, 3 Gun Emplacements", "upgrades":[]},
 			{"id":524, "name":"Rough Riders",		"pts":150, "units":"6 Rough Riders", "upgrades":[]},
 			{"id":525, "name":"Motorized PDF Platoon",			"pts":150, "units":"6 PDF Conscripts, 3 Land Transporters", "upgrades":[]}
 		]},
 		{"name":"IMPERIAL NAVY (Max 25%)", "formations":[
-			{"id":541, "name":"Thunderbolt Interceptors", "pts":150, "upgrades":[], "units":"2 Thunderbolt Fighters"},
-			{"id":542, "name":"Marauder Bombers", "pts":225, "upgrades":[], "units":"2 Marauder Bombers"}
+			{"id":541, "name":"Thunderbolt Squadron", "pts":150, "upgrades":[], "units":"2 Thunderbolt Fighters"},
+			{"id":542, "name":"Marauder Squadron", "pts":225, "upgrades":[], "units":"2 Marauder Bombers"}
 		]}
 
 

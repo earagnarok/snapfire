@@ -20,7 +20,7 @@
 			{"id":511, "name":"Whirlwinds",						"pts":275, "units":"4 Whirlwinds", "upgrades":[30,31,32]},
 			{"id":513, "name":"Predators",						"pts":250, "upgrades":[30,31,32]},
 			{"id":512, "name":"Ravenwing Support Squadron",				"pts":175, "upgrades":[]},
-			{"id":517, "name":"Dreadwing Relic Detachment",	  "units":"2 Glaives",	"pts":550, "upgrades":[]}
+			{"id":517, "name":"Dreadwing Relics",	  		"pts":50, "upgrades":[42]}
 
 		]},
 
@@ -67,21 +67,19 @@
 		{"id":36, "name":"Razorback (Twin Heavy Bolter)",				"pts":25},
 		{"id":37, "name":"Razorback (Twin Lascannon)",					"pts":25},
 
-		{"id":42, "name":"The formation gains the 'Independent' special rule",	"pts":50},
+		{"id":42, "name":"Glaive",	"pts":250},
 
 		{"id":50, "name":"Strike Cruiser",								"pts":200},
 		{"id":51, "name":"Hunter Class Destroyer",						"pts":75}
 	],
 	"formationConstraints":[
 		{"max":3, "name":"Support Detachments", "from":[502,504,509,510,511,512,513,516,517], "forEach":[501,504,505,514,515], "name2":"Core Detachment"},
-		{"max":1,"perArmy":true, "name":"Dreadwing Relic", "from":[517]},
+		{"max":1,"perArmy":true, "name":"Dreadwing Relics", "from":[517]},
 		{"max":1, "min":1, "perArmy":true, "name":"Spacecraft", "from":[522]},
 		{"maxPercent": 33.5, "name":"Dark Angels Navy", "from":[520,521,522]}
 	],
 	"upgradeConstraints":[
 		{"max":1, "perArmy":true, "from":[13]},
-
-		{"max":1, "from":[42]},
 
 		{"min":0, "max":1, "from":[10,11,12,13], "appliesTo":[501,503,504]},
 
@@ -103,6 +101,8 @@
 		{"min":0, "max":1, "from":[30,31,32], "appliesTo":[503,504,511]},
 
 		{"min":0, "max":3, "from":[33], "appliesTo":[503]},
+
+		{"min":1, "max":2, "from":[42], "appliesTo":[517]},
 
 		{"min":1, "max":1, "from":[51,50], "appliesTo":[522]}
 	]

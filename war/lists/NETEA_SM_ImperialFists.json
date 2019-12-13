@@ -19,14 +19,14 @@
                         { "id":512, "name":"Fellblade",                                "pts":325, "upgrades":[] },
                         { "id":513, "name":"Bastion",                                  "pts":200, "upgrades":[15,45,46,70,71] }
                 ]},
-                {"name":"STATIC DEFENSES, NAVY & TITAN LEGIONS (Max 33%)", "formations":[
+                {"name":"STATIC DEFENSES, NAVY & TITAN LEGIONS (Max 33%. Max 1 Hyperios and Tarantula for each Scout Detachment)", "formations":[
                     { "id":521, "name":"Fortified Positions", "pts":50, "upgrades":[] },
                     { "id":522, "name":"Hyperios Platforms",        "units":"3 Hyperios Platforms",              "pts":125, "upgrades":[] },
                     { "id":523, "name":"Tarantula Sentry Gun",     "pts":0, "upgrades": [] },
                     { "id":531, "name":"Storm Talons",  "units":"2 Storm Talons",  "pts":200, "upgrades":[] },
                     { "id":532, "name":"Thunderhawk Saturation Bomber",            "pts":250, "upgrades":[] },
-                    { "id":541, "name":"Reaver Class Titan",          "pts":650, "upgrades":[] },
-                    { "id":542, "name":"Warlord Class Titan (Deathstrike Configuration)",           "pts":825, "upgrades":[] }
+                    { "id":541, "name":"Reaver Titan",          "pts":650, "upgrades":[] },
+                    { "id":542, "name":"Warlord Titan (Deathstrike Configuration)",           "pts":825, "upgrades":[] }
                 ]}
         ],
         "upgrades":[

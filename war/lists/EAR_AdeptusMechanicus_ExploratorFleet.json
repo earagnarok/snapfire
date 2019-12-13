@@ -41,7 +41,7 @@
 		{"id":13, "name":"Inferno Gun", 		"pts":0},
 		{"id":14, "name":"Vulcan Megabolter",		"pts":0},
 		{"id":15, "name":"Plasma Blastgun",		"pts":0},
-		{"id":16, "name":"Turbo-laser Destructor",	"pts":25},
+		{"id":16, "name":"Turbo-Laser Destructor",	"pts":25},
 		{"id":30, "name":"Apocalypse Missile Launcher",	"pts":25},
 		{"id":25, "name":"Laser Burner",		"pts":0},
 		{"id":26, "name":"Corvus Assault Pod",		"pts":0},
