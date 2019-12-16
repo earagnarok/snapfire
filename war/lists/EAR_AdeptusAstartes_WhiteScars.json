@@ -21,8 +21,8 @@
 			{"id":505, "name":"Landing Craft",			"pts":350, "upgrades":[]}
 		]},
 		{"name":"WHITE SCAR AIRCRAFT & COLLEGIA TITANICA ALLIES (Max 33%)", "formations":[
-			{"id":513, "name":"Thunderhawk",			"pts":200, "units":"Thunderhawk Gunship", "upgrades":[]},
-			{"id":517, "name":"Storm Talon Squadron",			"pts":200, "units":"2 Storm Talon Gunships", "upgrades":[]},
+			{"id":513, "name":"Thunderhawk",			"pts":200, "units":"Thunderhawk", "upgrades":[]},
+			{"id":517, "name":"Storm Talons",			"pts":200, "units":"2 Storm Talons", "upgrades":[]},
 			{"id":524, "name":"Warhound Pack",			"pts":500, "units":"2 Warhounds", "upgrades":[50]}
 		]}
 	],

@@ -22,9 +22,9 @@
       {"id":522, "name":"Orbital Support", "pts":200, "upgrades":[16]}
     ]},
     {"name":"RAVEN GUARD AIRCRAFT & COLLEGIA TITANICA ALLIES (Max 33%)", "formations":[
-      {"id":532, "name":"Storm Talon Squadron", "pts":200, "units": "Two Storm Talons"},
+      {"id":532, "name":"Storm Talons", "pts":200, "units": "Two Storm Talons"},
       {"id":530, "name":"Storm Eagle", "pts":175},
-      {"id":531, "name":"Thunderhawk Gunship", "pts":200}
+      {"id":531, "name":"Thunderhawk", "pts":200}
     ]},
     {"name":"Titan Legion Battlegroups", "formations":[
       {"id":551, "name":"Warhound Pack", "pts":500, "units":"2 Warhound Class Titan", "upgrades":[21]}

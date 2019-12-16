@@ -23,8 +23,8 @@
 		]},
 
 		{"name":"BLOOD ANGELS AIRCRAFT AND TITAN ALLIES (Max 33%)", "formations":[
-			{"id":520, "name": "Storm Talon Squadron", "units":"2 Storm Talon Fighters",	"pts":200, "upgrades":[]},
-			{"id":521, "name": "Storm Raven Squadron",										"pts":25, "upgrades":[42]},
+			{"id":520, "name": "Storm Talons", "units":"2 Storm Talon Fighters",	"pts":200, "upgrades":[]},
+			{"id":521, "name": "Storm Ravens",										"pts":25, "upgrades":[42]},
 			{"id":522, "name": "Warhound Pack",												"pts":500, "upgrades":[]}
 
 		]}

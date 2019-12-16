@@ -23,7 +23,7 @@
 		]},
 
 		{"name":"AIRCRAFT AND NAVY (Max 33%)", "formations":[
-			{"id":530, "name": "Storm Talon Squadron", 	"units":"2 Storm Talon Gunships",	"pts":200, "upgrades":[]},
+			{"id":530, "name": "Storm Talons", 	"units":"2 Storm Talons",	"pts":200, "upgrades":[]},
 			{"id":531, "name": "Orion Assault Ship",	"units":" One Orion Assault Ship ",	"pts":225, "upgrades":[]}
 		]}
 	],

@@ -18,7 +18,7 @@
 			{ "id":521, "name":"Assault", "pts":150, "units":"4 Assaults", "upgrades":[1,2,3,4] },
 			{ "id":522, "name":"Fast Attack", "pts":200, "upgrades":[1,2,3,4] },
 			{ "id":523, "name":"Scout", "pts":150, "units":"plus transport", "upgrades": [1,2,3,4, 81,82] },
-			{ "id":524, "name":"Thunderhawk Gunship", "pts":200, "upgrades": [] },
+			{ "id":524, "name":"Thunderhawk", "pts":200, "upgrades": [] },
 
 			{ "id":531, "name":"Thunderbolt Squadron", "pts":175, "units":"2 Thunderbolt Fighters"},
 			{ "id":532, "name":"Marauder Squadron", "pts":250, "units":"2 Marauder Bombers"},

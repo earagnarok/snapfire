@@ -23,7 +23,7 @@
 		]},
 
 		{"name":"SPACE WOLVES AIRCRAFT AND FREEBLADE KNIGHTS (Max 33%)", "formations":[
-			{"id":530, "name": "Storm Talon Pack", "units":"2 Storm Talon Gunships",			"pts":200, "upgrades":[]},
+			{"id":530, "name": "Storm Talon Pack", "units":"2 Storm Talons",			"pts":200, "upgrades":[]},
 			{"id":531, "name": "Stormwolf Assault Boat",											"pts":175, "upgrades":[]},
 			{"id":532, "name": "Stormfang Gunship",													"pts":150, "upgrades":[]},
 			{"id":533, "name": "Knight-Freeblade 'Crimson Glaive' (Conflagration Cannon)", 			"pts":175, "upgrades":[]},

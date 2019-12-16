@@ -26,7 +26,7 @@
 			{"id":526, "name":"Wolf Scouts Pack",		"pts":225, "upgrades":[1,2,3]}
 		]},
 		{"name":"AIRCRAFT & TITAN LEGION ALLIES (Max 33%)", "formations":[
-			{"id":530, "name":"Thunderhawk Gunship",		"pts":200, "upgrades":[], "units":"Thunderhawk Gunship"},
+			{"id":530, "name":"Thunderhawk",		"pts":200, "upgrades":[], "units":"Thunderhawk"},
 			{"id":549, "name":"Thunderbolt Squadron",	"pts":175, "upgrades":[], "units":"2 Thunderbolt Fighters"},
 			{"id":550, "name":"Marauder Squadron",		"pts":250, "upgrades":[], "units":"2 Marauder Bombers"},
 			{"id":553, "name":"Reaver Titan",	"pts":650, "upgrades":[]},

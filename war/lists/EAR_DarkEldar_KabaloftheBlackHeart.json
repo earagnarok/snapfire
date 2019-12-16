@@ -22,7 +22,7 @@
 			{"id":505, "name":"Reaver Gang", "pts":50, "upgrades":[83,1]},
 			{"id":506, "name":"Mandrake Throng", "pts":200, "units":"6 Mandrakes", "upgrades":[]},
 			{"id":507, "name":"Scourge Flight", "pts":250, "units":"6 Scourges", "upgrades":[]},
-			{"id":508, "name":"Vessel of Pain", "pts":250, "upgrades":[]}
+			{"id":508, "name":"Vessels of Pain", "pts":50, "upgrades":[30]}
 		]},
 		{"name":"COMMORRAGH NAVY & WAR ENGINES (Max 33%)", "formations":[
 			{"id":522, "name":"Torture Class Cruiser", "pts":300, "upgrades":[]},
@@ -37,6 +37,8 @@
 		{"id":17, "name":"Dracon", "pts":50},
 		{"id":18, "name":"Succubus", "pts":25},
 		{"id":19, "name":"Haemonculus Ancient", "pts":25},
+
+		{"id":30, "name":"Vessel of Pain", "pts":200},
 
 		{"id":40, "name":"2 Venoms", "pts":25},
 		{"id":41, "name":"4 Venoms", "pts":50},
@@ -89,6 +91,7 @@
 		{"min":6, "max":8, "name":"Reaver Jet Bikes", "from":[83], "appliesTo":[505]},
 		{"max":4, "from":[62],  "appliesTo":[503]},
 		{"max":2, "from":[62],  "appliesTo":[504]},
+		{"min":1, "max":2, "from":[30],  "appliesTo":[508]},
 		{"max":1, "from":[73,74]},
 		{"max":2, "from":[61], "appliesTo":[511,512]},
 		{"max":1, "from":[55]},

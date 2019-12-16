@@ -20,7 +20,7 @@
                         {"id":514,"name":"Whirlwinds","pts":300,"units":"4 Whirlwinds","upgrades":[11,12,13,14,19,31]}
                         ]},
 		{"name":"DARK ANGELS SUPPORT (Max 33%)","formations":[
-                        {"id":512,"name":"Thunderhawk Gunship","pts":200},
+                        {"id":512,"name":"Thunderhawk","pts":200},
                         {"id":515,"name":"Nephilim","pts":225,"units":"2 Nephilim Fighters","upgrades":[]}
 						]}
                 ],

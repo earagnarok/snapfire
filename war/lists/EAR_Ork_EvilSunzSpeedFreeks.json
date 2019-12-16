@@ -35,7 +35,7 @@
          "formations": [
             {"id": 519, "name": "Dakkajet Skwadron", "pts": 0, "upgrades": [50]},
             {"id": 520, "name": "Evil Sunz Bommer", "pts": 175, "upgrades": []},
-            {"id": 521, "name": "Evil Sunz Landa", "pts": 225, "upgrades": []}
+            {"id": 521, "name": "Landa", "pts": 225, "upgrades": []}
          ]
       }
    ],
@@ -49,10 +49,10 @@
 
       {"id": 26, "name": "Warbike Outriders", "pts": 0},
 
-      {"id": 27, "name": "Nobz and Speed Freeks Trukk", "pts": 0},
+      {"id": 27, "name": "Nobz, Trukk", "pts": 0},
       {"id": 28, "name": "Nob Warbikes", "pts": 0},
 
-      {"id": 29, "name": "Boyz and Speed Freeks Trukk", "pts": 25},
+      {"id": 29, "name": "Boyz, Trukk", "pts": 25},
       {"id": 30, "name": "Battlewagon", "pts": 25},
       {"id": 31, "name": "Deth Kopta", "pts": 35},
       {"id": 32, "name": "Flakwagon", "pts": 35},

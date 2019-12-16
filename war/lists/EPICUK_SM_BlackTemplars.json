@@ -16,7 +16,7 @@
                         {"id":513, "name":"Vindicators", "pts":50, "upgrades":[11,12,14,15,19,31]}
                 ]},
                 {"name":"SUPPORT DETACHMENTS (Max 33%)", "formations":[
-                    {"id":512, "name":"Thunderhawk Gunship", "pts":200},
+                    {"id":512, "name":"Thunderhawk", "pts":200},
                     {"id":514, "name":"Thunderhawk Transporter", "pts":75, "upgrades":[34]},
                     {"id":515, "name":"Storm Talons", "pts":200, "units":"2 Storm Talons", "upgrades":[]}
                 ]}

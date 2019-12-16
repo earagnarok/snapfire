@@ -15,7 +15,7 @@
 		{"name":"RED CORSAIRS SUPPORT (Max 2 for each Core formation. 1+ Cult Marine formation or upgrade required for Brass Scorpions, Silver Towers, Blight Drones, Daemon Knights)", "formations": [
 			{ "id":510, "name":"Armoured Company", "pts":0, "upgrades":[51,19,18,22,28] },
 			{ "id":511, "name":"Spaceship", "pts":0},
-			{ "id":512, "name":"Chaos Thunderhawk Gunship", "pts":200},
+			{ "id":512, "name":"Chaos Thunderhawk", "pts":200},
 			{ "id":513, "name":"Chosen", "pts":200, "upgrades":[15,17,20,13] },
 			{ "id":518, "name":"Defiler Assault Pack", "units":"4 Defilers", "pts":275, "upgrades":[] },
 			{ "id":524, "name":"Raptor Cult", "pts":35, "upgrades":[54,13] },

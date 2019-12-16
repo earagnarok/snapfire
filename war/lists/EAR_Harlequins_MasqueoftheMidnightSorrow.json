@@ -17,7 +17,7 @@
 			{"id":504, "name":"Hellion Murder", "pts":200,  "units":"6 Hellions", "upgrades":[62]},
 			{"id":505, "name":"Reaver Gang", "pts":50, "upgrades":[83,1]},
 			{"id":507, "name":"Scourge Flight", "pts":250, "units":"6 Scourges", "upgrades":[]},
-			{"id":508, "name":"Vessel of Pain", "pts":250, "upgrades":[]}
+			{"id":508, "name":"Vessels of Pain", "pts":50, "upgrades":[20]}
 		]},
 
 		{"name":"MIDNIGHT SORROW SAEDATHS (Max 1 Midnight Sorrow Saedath for each Wraithkind Kabal)", "formations":[
@@ -41,6 +41,8 @@
 		{"id":1, "name":"Portable Webway Portal", "pts":0},
 		{"id":17, "name":"Dracon", "pts":50},
 		{"id":18, "name":"Succubus", "pts":25},
+
+		{"id":20, "name":"Vessel of Pain", "pts":200},
 
 		{"id":55, "name":"Archon, 4 Incubi", "pts":0},
 		{"id":56, "name":"Archon, 6 Incubi", "pts":50},
@@ -84,6 +86,7 @@
 		{"min":6, "max":8, "name":"Reaver Jet Bikes", "from":[83], "appliesTo":[505]},
 		{"max":4, "from":[62],  "appliesTo":[503]},
 		{"max":2, "from":[62],  "appliesTo":[511,512,504]},
+		{"min":1, "max":2, "from":[20],  "appliesTo":[508]},
 		{"max":1, "from":[73,74]},
 		{"max":2, "from":[61], "appliesTo":[511,512,513]},
 		{"max":1, "from":[55]},

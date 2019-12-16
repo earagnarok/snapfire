@@ -19,7 +19,7 @@
 
 		]},
 		{"name":"IRON HANDS AIRCRAFT AND IMPERIAL ALLIES (Max 33%)", "formations":[
-			{"id":520, "name":"Storm Talon Squadron", "pts":200, "units":"2 Storm Talons",	"upgrades":[]},
+			{"id":520, "name":"Storm Talons", "pts":200, "units":"2 Storm Talons",	"upgrades":[]},
 			{"id":521, "name":"Thunderhawk Transporter", "pts":75, "upgrades":[60]},
 			{"id":522, "name":"Warhound Pack", "pts":500, "upgrades":[]},
 			{"id":523, "name":"Reaver Titan", "pts":600, "upgrades":[]}

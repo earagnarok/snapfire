@@ -18,7 +18,7 @@
 		{"name":"NAVY & TITANS (Max 33%)", "formations":[
 			{"id":551, "name":"Thunderbolt Squadron", "pts":150, "units":"2 Thunderbolt Fighters" },
 			{"id":552, "name":"Marauder Squadron", "pts":250, "units":"2 Marauder Bombers" },
-			{"id":512, "name":"Thunderhawk Gunship", "pts":200},
+			{"id":512, "name":"Thunderhawk", "pts":200},
 			{"id":555, "name":"Warhound Pack", "pts":500, "units":"2 Warhound Titans" },
 			{"id":556, "name":"Warhound Titan", "pts":275}
 		]}

@@ -23,8 +23,8 @@
     {"name":"IMPERIAL & SPACE MARINE AIRCRAFT, TITAN LEGION ALLIES (Max 33%)", "formations":[
         {"id":530, "name":"Thunderbolt Squadron",	"pts":175, "upgrades":[], "units":"2 Thunderbolt Fighters"},
         {"id":531, "name":"Marauder Squadron",		"pts":250, "upgrades":[], "units":"2 Marauder Bombers"},
-        {"id":532, "name":"Thunderhawk Gunship",		"pts":200, "upgrades":[]},
-        {"id":533, "name":"Storm Talon Squadron",	"pts":200, "upgrades":[], "units":"2 Storm Talons"},
+        {"id":532, "name":"Thunderhawk",		"pts":200, "upgrades":[]},
+        {"id":533, "name":"Storm Talons",	"pts":200, "upgrades":[], "units":"2 Storm Talons"},
         {"id":534, "name":"Storm Eagle",		"pts":125, "upgrades":[]},
         {"id":535, "name":"Warhound Titan",		"pts":275, "upgrades":[]},
         {"id":536, "name":"Warhound Pack", "units":"2 Warhound Titans",	"pts":500, "upgrades":[]}

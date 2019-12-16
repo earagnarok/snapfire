@@ -23,7 +23,7 @@
 			{"id":528, "name":"Landing Craft", "pts":350, "upgrades":[]}
 		]},
 		{"name":"NAVY (Max 33%)", "formations":[
-			{"id":527, "name":"Thunderhawk Gunship", "pts":200, "upgrades":[]},
+			{"id":527, "name":"Thunderhawk", "pts":200, "upgrades":[]},
 			{"id":549, "name":"Thunderbolt Squadron", "pts":150, "upgrades":[], "units":"2 Thunderbolt Fighters"},
 			{"id":550, "name":"Marauder Squadron", "pts":250, "upgrades":[], "units":"2 Marauders Bombers"}
 		]}
