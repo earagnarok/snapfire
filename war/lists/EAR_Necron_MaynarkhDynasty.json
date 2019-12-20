@@ -8,13 +8,13 @@
             {"id": 601, "name": "Necron Tomb Complex", "pts": 75, "units":"Tomb Complex", "upgrades": []}
          ]
       },
-      {"name": "NECRON CORE (Max 1 The Unbidden for each Necron Phalanx)",
+      {"name": "NECRON CORE <br/> At least 1 The Unbidden formation in the army, but max 1 for each Necron Phalanx",
          "formations": [
             {"id": 701, "name": "Necron Phalanx", "pts": 225, "units": "6 Necron Warriors", "upgrades": [100,101,102,103,99]},
             {"id": 702, "name": "The Unbidden", "pts": 200, "units": "6 Flayed Ones", "upgrades": []}
          ]
       },
-      {"name": "NECRON SUPPORT (Max 2 for each Necron Phalanx)",
+      {"name": "NECRON SUPPORT <br/> Max 2 for each Necron Phalanx",
          "formations": [
             {"id": 501, "name": "Obelisk Phalanx", "pts": 300, "units": "6 Obelisks", "upgrades": []},
             {"id": 502, "name": "Destroyer Phalanx", "pts": 75, "upgrades": [100,101,99]},
@@ -24,7 +24,7 @@
             {"id": 506, "name": "Stalker Maniple", "pts": 175, "upgrades": []}
          ]
       },
-      {"name": "HARVESTERS (Max 33%)",
+      {"name": "HARVESTERS <br/> Max 33%",
          "formations": [
             {"id": 803, "name": "Harvester Engine", "pts": 450},
             {"id": 806, "name": "Night Shroud", "units":"Night Shroud Bomber", "pts": 175},

@@ -11,17 +11,17 @@
 			{"id":501, "name":"Black Legion Retinue", 	"pts":275, "units":"8 Chaos Space Marines", "upgrades":[52,53,54,70,71,72,73,56,57,58,59,60,61,62,63]},
 			{"id":502, "name":"Armoured Company",	"pts":0, "upgrades":[27,28,57,54]}
 		]},
-		{"name":"ELITE FORMATIONS (Max 1 for each Black Legion Retinue)", "formations":[
+		{"name":"ELITE FORMATIONS <br/> Max 1 for each Black Legion Retinue", "formations":[
 			{"id":503, "name":"Chaos Terminators", "pts":35, "upgrades":[32, 52, 56, 57, 63, 60, 53, 61]},
 			{"id":504, "name":"Chosen", "pts":125, "units":"4 Chaos Space Marine Chosen", "upgrades":[56, 58, 63, 62]}
 		]},
-		{"name":"SUPPORT FORMATIONS (Max 2 for each Black Legion Retinue or Armoured Company)", "formations":[
+		{"name":"SUPPORT FORMATIONS <br/> Max 2 for each Black Legion Retinue or Armoured Company", "formations":[
 			{"id":508, "name":"Bike Company",					"pts":300, "units":"8 Chaos Space Marine Bikes", "upgrades":[60, 56]},
 			{"id":509, "name":"Defiler Assault Pack",			"pts":275, "units":"4 Defilers", "upgrades":[]},
 			{"id":510, "name":"Raptor Cult",					"pts":35, "upgrades":[30,56]},
 			{"id":511, "name":"Chaos Space Marine Havocs", "units":"4 Havocs", "pts":225, "upgrades":[63,56,60,52] }
 		]},
-		{"name":"CHAOS NAVY & WAR ENGINE FORMATIONS (Max 33%)", "formations":[
+		{"name":"CHAOS NAVY & WAR ENGINE FORMATIONS <br/> Max 33%", "formations":[
 			{"id":530, "name":"Hell Blade Flight",				"pts":200, "units":"3 Hell Blade Fighters", "upgrades":[]},
 			{"id":531, "name":"Hell Talon Flight",				"pts":225, "units":"2 Hell Talon Fighter-Bombers", "upgrades":[]},
 			{"id":533, "name":"Devastation Class Cruiser",	"pts":150, "upgrades":[]},

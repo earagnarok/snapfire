@@ -2,7 +2,7 @@
 	"id":"EA-R Slaves to Darkness",
 	"version":"0.9.5",
 	"notes":
-		["Add one free Lesser Daemon to the Lesser Daemon Pool per Daemonic Pact, Daemonic Icon. No more Land Transporters / Chimeras than needed to transport the formation."],
+		["Add one free Lesser Daemon to the Lesser Daemon Pool per Daemonic Pact, Daemonic Icon.", "No more Land Transporters / Chimeras than needed to transport the formation.", "Max 4 different upgrades per formation (Land Transporters & Chimeras counts as a single upgrade)."],
 		"by":"EA Ragnarok",
 	"sections":[
 		{"name":"DAEMONS", "formations":[
@@ -11,7 +11,7 @@
 		{"name":"SLAVES TO DARKNESS CORE FORMATIONS", "formations":[
 			{"id":501, "name":"Traitor Guard", "pts":175, "units":"7 Infantry", "upgrades":[16,18,19,20,29,15,21,22,17,23,24,25,26]}
 		]},
-		{"name":"SLAVES TO DARKNESS SUPPORT FORMATIONS (Max 1 for each Slaves to Darkness Core formation)", "formations":[
+		{"name":"SLAVES TO DARKNESS SUPPORT FORMATIONS <br/> Max 1 for each Slaves to Darkness Core formation", "formations":[
 			{"id":508, "name":"Flak Battery", "pts":150, "units":"3 Hydras", "upgrades":[]},
 			{"id":502, "name":"Sentinel Squadron", "pts":100, "units":"4 Sentinels", "upgrades":[]},
 			{"id":503, "name":"Rough Rider Platoon", "pts":150, "units":"6 Rough Riders", "upgrades":[35]},
@@ -19,7 +19,7 @@
 			{"id":506, "name":"Super-Heavy Platoon", "pts":175, "upgrades":[]},
 			{"id":507, "name":"Leman Russ Platoon", "pts":350, "upgrades":[]}
 		]},
-		{"name":"SLAVES TO DARKNESS AIR SUPPORT & CHAOS ALLIES / / Max 33% / / Army may not Mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
+		{"name":"SLAVES TO DARKNESS AIR SUPPORT & CHAOS ALLIES <br/> Max 33% <br/> Army may not Mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
 			{"id":531, "name":"Thunderbolt Squadron", "pts":150, "units":"2 Thunderbolt Fighters", "upgrades":[]},
 			{"id":532, "name":"Marauder Squadron", "pts":225, "units":"2 Marauder Bombers", "upgrades":[]},
 			{"id":530, "name":"Chaos Space Marines of Chaos Undivided", "pts":275, "units":"6 Chaos Space Marines, 3 Chaos Rhinos, Daemonic Pact", "upgrades":[]},
@@ -48,7 +48,7 @@
 		{"id":14, "name":"Daemonic Icon", "pts":25},
 
 		{"id":15, "name":"Ogryns", "pts":25},
-		{"id":16, "name":"Hellhound", "pts":25},
+		{"id":16, "name":"Hellhound", "pts":[25]},
 
 
 		{"id":17, "name":"Technical", "pts":20},

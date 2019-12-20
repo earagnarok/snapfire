@@ -9,7 +9,7 @@
 			{"id":503, "name":"Tacticals",							"pts":275, "units":"6 Tacticals plus transport", "upgrades":[10,11,12,13, 31,32, 33,34, 35,36, 40,41,43]},
 			{"id":505, "name":"Assaults", 							"pts":225, "upgrades":[10,11,12,13, 35,36]}
 		]},
-		{"name":"BLOOD ANGELS SUPPORT DETACHMENTS (Max 3 for each Core Detachment)", "formations":[
+		{"name":"BLOOD ANGELS SUPPORT DETACHMENTS <br/> Max 3 for each Core Detachment", "formations":[
 			{"id":507, "name":"Whirlwinds",						"pts":275,  "upgrades":[10,11,12,13, 31,32]},
 			{"id":508, "name":"Land Raiders",					"pts":25,  "upgrades":[10,11,12,13, 31,32, 48,49]},
 			{"id":509, "name":"Baal Predators",					"pts":250, "upgrades":[10,11,12,13, 31,32]},
@@ -22,7 +22,7 @@
 			{"id":523, "name": "Orbital Support",											"pts":0, "upgrades":[]}
 		]},
 
-		{"name":"BLOOD ANGELS AIRCRAFT AND TITAN ALLIES (Max 33%)", "formations":[
+		{"name":"BLOOD ANGELS AIRCRAFT AND TITAN ALLIES <br/> Max 33%", "formations":[
 			{"id":520, "name": "Storm Talons", "units":"2 Storm Talon Fighters",	"pts":200, "upgrades":[]},
 			{"id":521, "name": "Storm Ravens",										"pts":25, "upgrades":[42]},
 			{"id":522, "name": "Warhound Pack",												"pts":500, "upgrades":[]}

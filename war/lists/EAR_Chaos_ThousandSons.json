@@ -11,19 +11,19 @@
 		{"name":"THOUSAND SONS CORE FORMATIONS", "formations":[
 			{"id":501, "name":"Thousand Sons Retinue", "pts":350, "units": "5 Rubric Marines, 4 Chaos Space Marines, Daemonic Pact", "upgrades":[15,16, 20,21, 30, 40]}
 		]},
-		{"name":"THOUSAND SONS ELITE FORMATIONS (Max 2 for each Core formation)", "formations":[
+		{"name":"THOUSAND SONS ELITE FORMATIONS <br/> Max 2 for each Core formation", "formations":[
 			{"id":502, "name":"Thousand Sons Terminators", "pts":400, "units": "3 Scarab Occult Terminators, Daemonic Pact", "upgrades":[15, 22]},
 			{"id":503, "name":"Thousand Sons Initiates", "pts":150,  "units": "4 Chaos Space Marines, Daemonic Pact", "upgrades":[15,16, 20,21, 30, 40]},
 			{"id":504, "name":"Predator Company", "pts":25, "upgrades":[30]},
 			{"id":507, "name":"Disc Riders", "pts":250, "units": "6 Sorcerer Disc Riders, Daemonic Pact", "upgrades":[15] }
 		]},
-		{"name":"THOUSAND SONS CULTIST FORMATIONS (Max 2 for each Core formation)", "formations":[
+		{"name":"THOUSAND SONS CULTIST FORMATIONS <br/> Max 2 for each Core formation", "formations":[
 			{"id":505, "name":"Tzaangor Host",	"pts":200, "units":"9 Tzaangors, Daemonic Pact", "upgrades":[41,42]},
 			{"id":506, "name":"Tzeentch Defilers",	"pts":250, "units":"4 Decievers", "upgrades":[]},
 			{"id":508, "name":"Silver Towers",	"pts":300, "units":"4 Silver Towers", "upgrades":[]},
 			{"id":509, "name":"Mirrorfiends",	"pts":300, "units":"2 Mirrorfiends of Tzeentch", "upgrades":[]}
 		]},
-		{"name":"DARK MECHANICUS AND CHAOS NAVY FORMATIONS (Max 33%)", "formations":[
+		{"name":"DARK MECHANICUS AND CHAOS NAVY FORMATIONS <br/> Max 33%", "formations":[
 			{"id":510, "name":"Doomwings",	"pts":175, "units": "3 Doomwings", "upgrades":[]},
 			{"id":511, "name":"Firelords", "pts":25, "upgrades":[50]},
 			{"id":512, "name":"Warphound Pack", "pts":500,  "units": "2 Warphound Titans", "upgrades":[]},

@@ -12,7 +12,7 @@
 			{"id":512, "name":"Kabal Syndicate",	"pts":200,	"upgrades":[17,18,53,14,56,19,23,61,70,71,72]},
 			{"id":513, "name":"Kabal Flotilla",	"pts":250,	"upgrades":[17,18,53,69]}
 		]},
-		{"name":"PARTISANS (Max 2 for each Kabal formation)", "formations":[
+		{"name":"PARTISANS <br/> Max 2 for each Kabal formation", "formations":[
 			{"id":501, "name":"Haemonculi Coven",			"pts":250, "upgrades":[53,93,94,74,78]},
 			{"id":502, "name":"Talos Swarm",				"pts":200, "upgrades":[72,74,78]},
 			{"id":503, "name":"Wych Cult",					"pts":200, "upgrades":[75,76,77,53,70]},
@@ -22,7 +22,7 @@
 			{"id":507, "name":"Scourge Flight",				"pts":225, "upgrades":[53]},
 			{"id":508, "name":"Heavy Barges",				"pts":0,	"upgrades":[69]}
 		]},
-		{"name":"DARK ELDAR NAVY & WAR ENGINES (Max 33%)", "formations":[
+		{"name":"DARK ELDAR NAVY & WAR ENGINES <br/> Max 33%", "formations":[
 			{"id":522, "name":"Torture Class Cruiser",		"pts":300, "upgrades":[]},
 			{"id":523, "name":"Corsair Escorts",			"pts":0, "upgrades":[11]},
 			{"id":524, "name":"Tormentor Titan",			"pts":500, "upgrades":[]},

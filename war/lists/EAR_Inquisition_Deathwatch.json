@@ -15,14 +15,14 @@
     	    {"id": 512, "name": "Deathwatch Assaults", "pts": 200, "units": "3 Deathwatch Assaults", "upgrades": [3,4, 14]},
     	    {"id": 513, "name": "Dark Hunter Class Destroyer", "pts": 75, "upgrades": []}
 	  ]},
-        {"name": "ORDO XENOS & PLANETARY DEFENSE FORCE FORMATIONS (Max 1 for each Deathwatch Detachment Formation)", "formations": [
+        {"name": "ORDO XENOS & PLANETARY DEFENSE FORCE FORMATIONS <br/> Max 1 for each Deathwatch Detachment Formation", "formations": [
             {"id": 520, "name": "Ordo Xenos Inquisitor Task Force", "pts": 300, "units": "9 Arbitrators, 5 Arbites Repressors", "upgrades": [35]},
             {"id": 519, "name": "Ordo Xenos Acolytes", "pts": 250, "units": "3 Ordo Xenos Acolytes, 3 Vendettas", "upgrades": [34]},
             {"id": 521, "name": "Planetary Defense Platoon", "pts": 150, "units": "6 PDF Conscripts", "upgrades": []},
             {"id": 522, "name": "Leman Russ Squadron", "pts": 200, "upgrades": []},
             {"id": 523, "name": "Armoured Sentinel Squadron", "pts": 125, "units": "4 Armoured Sentinels", "upgrades": []}
          ]},
-        {"name": "DEATHWATCH DROP DETACHMENTS (Max 33%)", "formations": [
+        {"name": "DEATHWATCH DROP DETACHMENTS <br/> Max 33%", "formations": [
             {"id": 530, "name": "Corvus Blackstar Dropship", "pts": 200, "upgrades": [] },
             {"id": 531, "name": "Deathwatch Thunderhawk Transporter", "pts": 200, "upgrades": [] }
          ]}

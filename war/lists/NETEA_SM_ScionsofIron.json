@@ -18,7 +18,7 @@
 			{ "id":514, "name":"Vindicator", "pts":25, "upgrades":[1,2,3, 34,35,36, 7] },
 			{ "id":515, "name":"Whirlwind", "pts":275, "units":"4 Whirlwinds", "upgrades":[1,2,3, 85] }
 		]},
-		{"name":"SCIONS OF IRON AIRCRAFT, IMPERIAL NAVY & TITAN LEGION ALLIES (Max 33%)", "formations":[
+		{"name":"SCIONS OF IRON AIRCRAFT, IMPERIAL NAVY & TITAN LEGION ALLIES <br/> Max 33%", "formations":[
 			{ "id":523, "name":"Thunderhawk (Saturation Bomber)", "pts":250},
 			{ "id":524, "name":"Thunderhawk (Close Air Support)", "pts":250},
 			{ "id":521, "name":"Thunderbolt Squadron", "pts":175, "units":"2 Thunderbolt Fighters"},

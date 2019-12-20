@@ -10,7 +10,7 @@
 			{"id":501, "name":"Bikes", 		"pts":325, "upgrades":[15,16,17,18]},
 			{"id":522, "name":"Scout Bikes",	"pts":150, "upgrades":[15,16,17,18]}
 		]},
-		{"name":"WHITE SCAR SUPPORT DETACHMENTS (Max 2 for each Core Detachment)", "formations":[
+		{"name":"WHITE SCAR SUPPORT DETACHMENTS <br/> Max 2 for each Core Detachment", "formations":[
 			{"id":504, "name":"Land Speeders",	"pts":200, "upgrades":[15,16,17,18]},
 			{"id":506, "name":"Predators",		"pts":250, "upgrades":[15,16,17,18,30,31,36,37]},
 			{"id":507, "name":"Scouts",		"pts":150, "upgrades":[15,16,17,18,38,39]},
@@ -20,7 +20,7 @@
 			{"id":515, "name":"Whirlwinds",		"pts":275, "units":"4 Whirlwinds", "upgrades":[15,16,17,18,30,31]},
 			{"id":505, "name":"Landing Craft",			"pts":350, "upgrades":[]}
 		]},
-		{"name":"WHITE SCAR AIRCRAFT & COLLEGIA TITANICA ALLIES (Max 33%)", "formations":[
+		{"name":"WHITE SCAR AIRCRAFT & COLLEGIA TITANICA ALLIES <br/> Max 33%", "formations":[
 			{"id":513, "name":"Thunderhawk",			"pts":200, "units":"Thunderhawk", "upgrades":[]},
 			{"id":517, "name":"Storm Talons",			"pts":200, "units":"2 Storm Talons", "upgrades":[]},
 			{"id":524, "name":"Warhound Pack",			"pts":500, "units":"2 Warhounds", "upgrades":[50]}

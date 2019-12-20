@@ -12,7 +12,7 @@
 			{ "id":502, "name":"Terminator Retinue", "pts":100, "upgrades":[50,15,16,18,19,22,13,28,14,35] },
 			{ "id":503, "name":"Renegade Warband", "pts":275, "upgrades":[13,14,15,16,17,18,19,20,22,28,35] }
 		]},
-		{"name":"RED CORSAIRS SUPPORT (Max 2 for each Core formation. 1+ Cult Marine formation or upgrade required for Brass Scorpions, Silver Towers, Blight Drones, Daemon Knights)", "formations": [
+		{"name":"RED CORSAIRS SUPPORT <br/> Max 2 for each Core formation <br/> 1+ Cult Marine formation or upgrade required for Brass Scorpions, Silver Towers, Blight Drones, Daemon Knights", "formations": [
 			{ "id":510, "name":"Armoured Company", "pts":0, "upgrades":[51,19,18,22,28] },
 			{ "id":511, "name":"Spaceship", "pts":0},
 			{ "id":512, "name":"Chaos Thunderhawk", "pts":200},
@@ -28,7 +28,7 @@
 			{ "id":522, "name":"Blight Drones of Nurgle", "units":"4 Blight Drones", "pts":200, "upgrades":[] },
 			{ "id":523, "name":"Daemon Knights of Slaanesh", "units":"4 Daemon Knights", "pts":250, "upgrades":[] }
 		]},
-		{"name":"CHAOS FLIGHTS (Max 33%)", "formations":[
+		{"name":"CHAOS FLIGHTS <br/> Max 33%", "formations":[
 			{"id": 531, "name": "Hell Blade Flight", "pts": 200, "units": "3 Hell Blade Interceptors", "upgrades": []},
             {"id": 532, "name": "Hell Talon Flight", "pts": 225, "units": "2 Hell Talon Fighter-Bombers", "upgrades": []}
 		]}

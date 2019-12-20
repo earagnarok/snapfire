@@ -28,7 +28,7 @@
          ]
       },
       {
-         "name": "AIRCRAFT &amp; GARGANTS (Max 33%)",
+         "name": "AIRCRAFT &amp; GARGANTS <br/> Max 33%",
          "formations": [
             {"id": 517, "name": "Fighta Sqwadron", "pts": 0, "upgrades": [49]},
             {"id": 518, "name": "Landa", "pts": 200, "upgrades": []},

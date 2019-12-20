@@ -4,7 +4,7 @@
   "by": "EA-Ragnarok",
   "sections": [
     {
-      "name": "Primary Synapse Swarms",
+      "name": "PRIMARY SYNAPSE SWARMS",
       "formations": [
         {
           "id": 501,
@@ -83,7 +83,7 @@
       ]
     },
 	{
-      "name": "Secondary Synapse Swarms (1 Secondary Synapse Swarm may be taken for each Primary Synapse Swarm)",
+      "name": "SECONDARY SYNAPSE SWARMS <br/> Max 1 for each Primary Synapse Swarm",
       "formations": [
 	  	    {
           "id": 512,
@@ -144,7 +144,7 @@
       ]
     },
     {
-      "name": "Common Independent Swarms (1 Common Independent Swarm may be taken for each Primary Synapse Swarm. // Max 33% of the list may be taken from this section)",
+      "name": "COMMON INDEPENDENT SWARMS <br/> Max 33% <br/> Max 1 for each Primary Synapse Swarm",
       "formations": [
         {
           "id": 506,
@@ -166,7 +166,7 @@
       ]
     },
     {
-      "name": "Rare Independent Swarms (1 Rare Independent Swarm may be taken for each Primary Synapse Swarm. // Max 33% of the list may be taken from this section)",
+      "name": "RARE INDEPENDENT SWARMS <br/> Max 33% <br/> Max 1 for each Primary Synapse Swarm",
       "formations": [
     {
           "id": 510,

@@ -5,7 +5,7 @@
    "by": "EA-Ragnarok",
    "sections": [
       {
-         "name": "WAR HORDES",
+         "name": "GOFF WAR HORDES",
          "formations": [
             {"id": 507, "name": "Blitz Brigade", "pts": 10, "upgrades": [53,54,55,62,59,61,68,69,70,73]},
             {"id": 508, "name": "Blitz Brigade (Big)", "pts": -30, "upgrades": [53,54,55,62,59,61,68,69,70,73]},
@@ -27,7 +27,7 @@
          ]
       },
       {
-         "name": "AIRCRAFT &amp; GARGANTS",
+         "name": "AIRCRAFT &amp; GARGANTS <br/> Max 33%",
          "formations": [
             {"id": 517, "name": "Fighta-Bommer Skwadron", "pts": 0, "upgrades": [49]},
             {"id": 518, "name": "Landa", "pts": 225,  "upgrades": []},

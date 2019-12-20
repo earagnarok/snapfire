@@ -12,7 +12,7 @@
          ]
       },
       {
-         "name": "INDEPENDENT SWARMS (Max 1 for each Synapse Swarm)",
+         "name": "INDEPENDENT SWARMS <br/> Max 1 for each Synapse Swarm",
          "formations": [
             {"id": 517, "name": "Biovore Swarm", "pts": 0, "upgrades": [16]},
             {"id": 518, "name": "Dactylis Swarm", "pts": 0, "upgrades": [31]},
@@ -22,7 +22,7 @@
          ]
       },
       {
-         "name": "TYRANID WAR ENGINES (Max 25%)",
+         "name": "TYRANID WAR ENGINES <br/> Max 25%",
          "formations": [
             {"id": 521, "name": "Harridian Swarm", "pts": 0, "upgrades": [38,21]},
             {"id": 522, "name": "Hierodule Bio-Titan", "pts": 350, "upgrades": []},

@@ -4,23 +4,23 @@
 	"notes":["Up to four different upgraded allowed on each formation."],
 	"by":"EA-Ragnarok",
 	"sections":[
-		{"name":"Daemon Pool", "formations": [
+		{"name":"DAEMON POOL", "formations": [
 			{ "id":500, "name":"Daemon Pool", "pts":0, "upgrades":[10,11,12] }
 		]},
-		{"name":"Emperor's Children Retinues", "formations": [
+		{"name":"EMPEROR'S CHILDREN RETINUES", "formations": [
 			{ "id":501, "name":"Emperor's Children Retinue", "pts":225, "units":"6 Chaos Space Marines", "upgrades":[17,19,27,29,38,20,21,22,23,24,25,26,18] }
 		]},
-		{"name":"Emperor's Children Elite Formations (Max 1 for each Retinue) ", "formations": [
+		{"name":"EMPEROR'S CHILDREN ELITE <br/> Max 1 for each Retinue ", "formations": [
 			{ "id":510, "name":"Chosen", "pts":125, "units":"4 Chaos Space Marine Chosen", "upgrades":[19,20,17,29] },
 			{ "id":511, "name":"Noise Marines", "pts":90, "upgrades":[31,22,19,20,17,21,38,29] },
 			{ "id":512, "name":"Emperor's Children Terminators", "pts":35, "upgrades":[37,22,19,20,17,21,30] }
 		]},
-		{"name":"Emperor's Children Support Formations (Max 1 for each Retinue)", "formations": [
+		{"name":"EMPEROR'S CHILDREN SUPPORT <br/> Max 1 for each Retinue", "formations": [
 			{ "id":521, "name":"Bike Company", "pts":300, "units":"8 Emperor's Children Bike units", "upgrades":[19,21] },
 			{ "id":522, "name":"Raptor Cult", "pts":35, "upgrades":[33,19] },
 			{ "id":523, "name":"Armoured Company", "pts":0, "upgrades":[28,30,27] }
 		]},
-		{"name":"Daemon Engines & Chaos Navy (Max 33%)", "formations":[
+		{"name":"DAEMON ENGINES & CHAOS NAVY <br/> Max 33%", "formations":[
 			{ "id":531, "name":"Questor", "pts":300, "upgrades":[] },
 			{ "id":532, "name":"Subjugator", "pts":250, "upgrades":[] },
 			{ "id":534, "name":"Knight Pack", "pts":0, "upgrades":[34,35,36] },

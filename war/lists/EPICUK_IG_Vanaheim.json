@@ -8,12 +8,12 @@
 			{"id":510, "name":"Regimental HQ", 			"pts":450, "upgrades":[13,14,15,1], "units":"Vanaheim Supreme Commander, 9 Vanaheim Infantry"},
 			{"id":511, "name":"Air Cavalry Company", 			"pts":250, "upgrades":[13,14,15,1], "units":"Vanaheim Commander, 9 Vanaheim Infantry"}
 		]},
-		{"name":"SUPPORT FORMATIONS (Max 2 for each Vanaheim Company)", "formations":[
+		{"name":"SUPPORT FORMATIONS <br/> Max 2 for each Vanaheim Company", "formations":[
 			{"id":501, "name":"Storm Trooper Platoon",			"pts":350, "upgrades":[1], "units":"8 Storm Troopers, 4 Valkyries"},
 			{"id":502, "name":"Sentinel Squadron",				"pts":100, "upgrades":[33, 1]},
 			{"id":503, "name":"Vulture Squadron",				"pts":300, "upgrades":[1], "units":"4 Vultures"}
 		]},
-		{"name":"IMPERIAL NAVY (Max 33%)", "formations":[
+		{"name":"IMPERIAL NAVY <br/> Max 33%", "formations":[
 			{"id":520, "name":"Thunderbolt Squadron",	"pts":150, "upgrades":[], "units":"2 Thunderbolt Fighters"},
             {"id":521, "name":"Lightning Squadron",	"pts":150, "upgrades":[], "units":"2 Lightning Strike Fighters"},
 			{"id":522, "name":"Marauder Squadron",		"pts":250, "upgrades":[], "units":"2 Marauder Bombers"},

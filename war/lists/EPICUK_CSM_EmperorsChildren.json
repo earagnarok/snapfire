@@ -8,17 +8,17 @@
             {"id": 501, "name": "Emperors Children Retinue", "pts": 275, "upgrades": [52,53,64,65,66,22,71,72,56,57,69,70,63,67,68,60,59,61,62,58]},
             {"id": 552, "name": "Daemon Pool", "pts": 0, "upgrades": [50,51,49]}
          ]},
-	  {"name": "EMPEROR'S CHILDREN ELITE (Max 1 for each Retinue)", "formations": [
+	  {"name": "EMPEROR'S CHILDREN ELITE <br/> Max 1 for each Retinue", "formations": [
             {"id": 503, "name": "Emperor's Children Terminators", "pts": 400, "units": "4 Emperor's Children Terminators", "upgrades": [52,56,57,69,70,63,67,68,60,53,64,65,66]},
             {"id": 551, "name": "Emperor's Children Bike Company", "pts": 300, "units": "6 Emperor's Children Bikes", "upgrades": [56]}
          ]},
-      {"name": "EMPEROR'S CHILDREN SUPPORT (Max 2 for each Retinue)", "formations": [
+      {"name": "EMPEROR'S CHILDREN SUPPORT <br/> Max 2 for each Retinue", "formations": [
             {"id": 506, "name": "Emperor's Children Defiler Pack", "pts": 275, "units": "4 Emperor's Children Defilers", "upgrades": [63,67,68]},
             {"id": 508, "name": "Chaos Space Marines", "pts": 250, "units": "6 Chaos Space Marines, 3 Chaos Rhinos", "upgrades": [56]},
             {"id": 509, "name": "Armoured Company", "pts": 0, "upgrades": [28,29,57,69,70,22,71,72]},
             {"id": 510, "name": "Daemonic Knights", "pts": 300, "units": "4 Chaos Daemon Knights", "upgrades": []}
          ]},
-      {"name": "CHAOS NAVY & TITANS (Max 33%)", "formations": [
+      {"name": "CHAOS NAVY & TITANS <br/> Max 33%", "formations": [
           {"id": 530, "name": "Hell Blade Flight", "pts": 200, "units": "3 Hell Blade Interceptors", "upgrades": []},
           {"id": 531, "name": "Hell Talon Flight", "pts": 225, "units": "2 Hell Talon Fighter-Bombers", "upgrades": []},
           {"id": 533, "name": "Devastation Class Cruiser", "pts": 150, "upgrades": []},

@@ -9,18 +9,18 @@
       {"id":502, "name":"Scout", "pts":150, "units": "plus transport", "upgrades":[1,2,3,4,19,5,6,7]},
       {"id":503, "name":"Tactical", "pts":200, "units": "Four Tacticals plus transport", "upgrades":[1,2,3,4,25,26,27,8,9,10]}
     ]},
-    {"name":"ELITE DETACHMENTS (Max 1 for each Raven Guard Detachment)", "formations":[
+    {"name":"ELITE DETACHMENTS <br/> Max 1 for each Raven Guard Detachment", "formations":[
       {"id":510, "name":"Sternguard Veteran", "pts":250, "units": "Four Sternguard Veterans plus transport", "upgrades":[1,2,3,4,25,26,27,8,9,10,11]},
       {"id":511, "name":"Terminator", "pts":350, "units": "Four Terminators", "upgrades":[1,2,3,4]},
       {"id":512, "name":"Vanguard Assault Veteran", "pts":250, "units": "Four Vanguard Assault Veterans", "upgrades":[1,2,3,4,5,6,7]},
       {"id":513, "name":"Vanguard Veteran", "pts":250, "units": "Four Vanguard Veterans plus transport", "upgrades":[1,2,3,4,25,26,27,8,9,10]}
     ]},
-    {"name":"SUPPORT DETACHMENTS (Max 1 for each Raven Guard Detachment)", "formations":[
+    {"name":"SUPPORT DETACHMENTS <br/> Max 1 for each Raven Guard Detachment", "formations":[
       {"id":520, "name":"Bike", "pts":200, "upgrades":[1,2,3,4,12,13]},
       {"id":521, "name":"Land Speeder", "pts":25, "upgrades":[1,2,3,4,15]},
       {"id":522, "name":"Orbital Support", "pts":200, "upgrades":[]}
     ]},
-    {"name":"IMPERIAL & SPACE MARINE AIRCRAFT, TITAN LEGION ALLIES (Max 33%)", "formations":[
+    {"name":"IMPERIAL & SPACE MARINE AIRCRAFT, TITAN LEGION ALLIES <br/> Max 33%", "formations":[
         {"id":530, "name":"Thunderbolt Squadron",	"pts":175, "upgrades":[], "units":"2 Thunderbolt Fighters"},
         {"id":531, "name":"Marauder Squadron",		"pts":250, "upgrades":[], "units":"2 Marauder Bombers"},
         {"id":532, "name":"Thunderhawk",		"pts":200, "upgrades":[]},

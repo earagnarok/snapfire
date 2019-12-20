@@ -11,16 +11,16 @@
 			{"name":"EMPERORS CHILDREN CORE FORMATIONS", "formations":[
 			{"id":501, "name":"Emperors Children Retinue", "pts":250, "units": "3 Chaos Space Marines", "upgrades":[14,15,30,31,35,44,70,80]}
 		]},
-		{"name":"EMPERORS CHILDREN ELITE FORMATIONS (Max 1 for each Core formation)", "formations":[
+		{"name":"EMPERORS CHILDREN ELITE FORMATIONS <br/> Max 1 for each Core formation", "formations":[
 			{"id":502, "name":"Emperors Children Terminators", "pts":375, "units": "4 Sirenshriek Terminators", "upgrades":[14,15,32,35,70,80]},
 			{"id":503, "name":"Chosen", "pts":150, "units":"4 Chosen", "upgrades":[70]}
 		]},
-		{"name":"EMPERORS CHILDREN SUPPORT FORMATIONS (Max 2 for each Core formation)", "formations":[
+		{"name":"EMPERORS CHILDREN SUPPORT FORMATIONS <br/> Max 2 for each Core formation", "formations":[
 			{"id":504, "name":"Bike Company",	"pts":250, "units":"6 Chaos Space Marine Bikes", "upgrades":[14,70]},
 			{"id":505, "name":"Raptor Cult",	"pts":175, "units":"4 Chaos Raptors", "upgrades":[70]},
 			{"id":506, "name":"Armoured Company", "pts":0, "upgrades":[44] }
 		]},
-		{"name":"EMPERORS CHILDREN DAEMON ENGINE, TITAN AND CHAOS NAVY FORMATIONS (Max 33%)", "formations":[
+		{"name":"EMPERORS CHILDREN DAEMON ENGINE, TITAN AND CHAOS NAVY FORMATIONS <br/> Max 33%", "formations":[
 			{"id":511, "name":"Hell-Knights",	"pts":350, "units":"3 Hell-Knights",  "upgrades":[]},
 			{"id":512, "name":"Hell-Scourges", "pts":350,  "units":"3 Hell-Scourges", "upgrades":[]},
 			{"id":513, "name":"Slaneesh Defiler Pack", "pts":25, "upgrades":[50]},

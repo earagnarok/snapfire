@@ -4,12 +4,14 @@
 	"notes":    ["Daemonic Pact does not include free Lesser Daemon"],
 		"by":"EA-Ragnarok",
 	"sections":[
-		{"name":"FORMATIONS", "formations":[
-			{"id":501, "name":"Stigmatus Coven", "pts":35, "upgrades":[11,12,13,31,43,33,34,35,36,38,39,40,42,30,32]},
+		{"name":"LOST AND THE DAMNED SPECIALS", "formations":[
 			{"id":502, "name":"Daemon Pool", "pts":0, "upgrades":[51,52]},
 			{"id":503, "name":"Plague Zombie Infestation", "pts":175, "units": "3D6 Plague Zombies"}
 		]},
-		{"name":"DAEMON ENGINES & TRAITOR SUPPORT (Max 1 for each Stigmatus Coven. Must be of the same faction, or of Chaos Undivided)", "formations":[
+		{"name":"STIGMATUS COVENS", "formations":[
+			{"id":501, "name":"Stigmatus Coven", "pts":35, "upgrades":[11,12,13,31,43,33,34,35,36,38,39,40,42,30,32]}
+		]},
+		{"name":"DAEMON ENGINES & TRAITOR SUPPORT <br/> Max 1 for each Stigmatus Coven. Must be of the same faction, or of Chaos Undivided", "formations":[
 			{"id":551, "name":"Khorne Lord of Battles", "pts":0, "upgrades":[54]},
 			{"id":552, "name":"Khorne Daemon Assault Engines", "pts":300, "units":"4 Daemon Assault Engines"},
 			{"id":553, "name":"Nurgle Plague Tower", "pts":0, "upgrades":[56]},

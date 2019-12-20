@@ -31,7 +31,7 @@
          ]
       },
       {
-         "name": "SPEED FREEK AIRCRAFT (Max 33%)",
+         "name": "SPEED FREEK AIRCRAFT <br/> Max 33%",
          "formations": [
             {"id": 519, "name": "Dakkajet Skwadron", "pts": 0, "upgrades": [50]},
             {"id": 520, "name": "Evil Sunz Bommer", "pts": 175, "upgrades": []},

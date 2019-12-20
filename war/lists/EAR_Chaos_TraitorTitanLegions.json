@@ -4,7 +4,7 @@
 	"notes":[],
 	"by":"EA-Ragnarok",
 	"sections":[
-		{"name":"BATTLE TITAN FORMATIONS / / Army must contain at least one Chaos Emperor Titan or Chaos Warlord Titan / / Army may not Mix Nurgle/Tzeentch or Slaanesh/Khorne formations ", "formations":[
+		{"name":"BATTLE TITAN FORMATIONS <br/> Army must contain at least 1 Chaos Emperor Titan or Chaos Warlord Titan <br/> Army may not Mix Nurgle/Tzeentch or Slaanesh/Khorne formations ", "formations":[
 			{"id":500, "name":"Chaos Emperor Titan", 		"pts":900, "upgrades":[10,11]},
 
 			{"id":501, "name":"Chaos Warlord Titan", 		"pts":750, "upgrades":[10,11]},
@@ -12,7 +12,7 @@
 			{"id":502, "name":"Chaos Reaver Titan",			"pts":600, "upgrades":[11]}
 		]},
 
-		{"name": "SCOUT TITAN FORMATIONS / / Max 2 per Battle Titan formation. Army may not Mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
+		{"name": "SCOUT TITAN FORMATIONS <br/> Max 2 per Battle Titan formation <br/> Army may not Mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
 			{"id":510, "name":"Questor of Slaanesh",	"pts":50, "upgrades":[70]},
 			{"id":511, "name":"Subjugator of Slaanesh",	"pts":50, "upgrades":[71]},
 
@@ -22,7 +22,7 @@
 
 		]},
 
-		{"name":"DAEMON ENGINE FORMATIONS / / Max 1 per Battle Titan or Scout Titan formation. Army may not Mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
+		{"name":"DAEMON ENGINE FORMATIONS <br/> Max 1 per Battle Titan or Scout Titan formation <br/> Army may not Mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
 			{"id":540, "name":"Hell-Striders of Slaanesh",			"pts":225, "units": "4 Hell-Striders", "upgrades":[]},
 			{"id":541, "name":"Hell-Knights of Slaanesh",			"pts":325, "units": "3 Hell-Knights", "upgrades":[]},
 			{"id":542, "name":"Hell-Scourges of Slaanesh",			"pts":325, "units": "3 Hell-Scourges",  "upgrades":[]},
@@ -41,7 +41,7 @@
 			{"id":582, "name":"Armigers of Chaos Undivided",	"pts":225, "upgrades":[]}
 		]},
 
-			{"name":"HELL-FORGE & CHAOS NAVY ALLIES / / Max 33% of the army", "formations":[
+			{"name":"HELL-FORGE & CHAOS NAVY ALLIES <br/> Max 33%", "formations":[
 			{"id":590, "name":"Hell-Forge Support",		"pts":175, "units": "4 Chaos Squats, 2 Hades Land Raiders", "upgrades":[]},
 			{"id":591, "name":"Ordinatus Hereticus Minoris",		"pts":50, "upgrades":[100,101,102,103]},
 			{"id":592, "name":"Heldrakes",				"pts":225, "units": "2 Heldrakes", "upgrades":[]},

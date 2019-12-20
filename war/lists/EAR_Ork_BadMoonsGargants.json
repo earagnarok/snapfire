@@ -5,7 +5,7 @@
    "by": "Mrdiealot",
    "sections": [
       {
-         "name": "GARGANT FORMATIONS (At least one Mega Gargant or Great Gargant)",
+         "name": "GARGANT FORMATIONS <br/> At least 1 Mega Gargant or Great Gargant in the army",
          "formations": [
             {"id": 501, "name": "Mega Gargant", "pts": 850, "upgrades": [10,11,12,13,14,15]},
             {"id": 502, "name": "Great Gargant", "pts": 700, "upgrades": [10,11,12,13,14,15]},
@@ -13,7 +13,7 @@
 	       ]
       },
 	  {
-		 "name": "ORK FORMATIONS (Five for each Mega Gargant, Four for each Great Gargant and Three for each Gargant)",
+		 "name": "ORK FORMATIONS <br/> 5 for each Mega Gargant, 4 for each Great Gargant and 3 for each Gargant",
          "formations": [
 
             {"id": 510, "name": "Big Mek Stompamob", "pts": 75, "upgrades": [100,101,102,103,110,111,112,113,114,115]},
@@ -34,7 +34,7 @@
          ]
       },
       {
-         "name": "EVIL SUNZ AIRCRAFT & SPACECRAFT (Max 25%)",
+         "name": "EVIL SUNZ AIRCRAFT & SPACECRAFT <br/> Max 25%",
          "formations": [
             {"id": 532, "name": "Kroozer", "pts": 0, "upgrades": []},
             {"id": 530, "name": "Fighta-Bommer Skwadron", "pts": 0, "upgrades": [20]},
@@ -94,7 +94,7 @@
    "formationConstraints": [
       {"max": 1, "name": "Mega Gargant", "from": [501]},
       {"max": 1, "name": "Spacecraft", "from": [532]},
-      {"maxPercent": 25.1, "name": "Evil Sunz Aircraft and Spacecraft", "from": [530,531,532]}
+      {"maxPercent": 25.5, "name": "Evil Sunz Aircraft and Spacecraft", "from": [530,531,532]}
    ],
    "upgradeConstraints": [
       {"max": 1, "from": [10], "perArmy": true},

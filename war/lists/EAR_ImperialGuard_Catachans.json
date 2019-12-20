@@ -7,7 +7,7 @@
 			{"id":500, "name":"Catachan Regimental HQ", "pts":200, "upgrades":[], "units":"Catachan Supreme Commander"},
 			{"id":501, "name":"Catachan Company", "pts":150, "upgrades":[], "units":"Catachan Commander"}
 		]},
-		{"name":"CATACHAN SUPPORT FORMATIONS (Max 2 for each Core Company Formation)", "formations":[
+		{"name":"CATACHAN SUPPORT FORMATIONS <br/> Max 2 for each Core Company Formation", "formations":[
 			{"id":512, "name":"Leman Russ Platoon", "pts":350, "upgrades":[20] },
 			{"id":517, "name":"Vulture Squadron", "pts":0, "upgrades":[12]},
 			{"id":510, "name":"Veteran Company", "pts":200, "upgrades":[22,10,11], "units":"Catachan Commander, 7 Death World Veterans"},
@@ -18,7 +18,7 @@
 			{"id":511, "name":"Catachan Sentinel Squadron", "pts":125, "upgrades":[], "units":"4 Catachan Sentinels"},
 			{"id":519, "name":"Sniper Platoon", "pts":100, "upgrades":[21], "units":"4 Snipers"}
 		]},
-		{"name":"IMPERIAL NAVY SUPPORT (Max 25%)", "formations":[
+		{"name":"IMPERIAL NAVY SUPPORT <br/> Max 25%", "formations":[
 			{"id":520, "name":"Thunderbolt Squadron", "pts":150, "upgrades":[], "units":"2 Thunderbolt Fighters"},
 			{"id":521, "name":"Marauder Bomber Squadron", "pts":225, "upgrades":[], "units":"2 Marauder Colossus"},
 			{"id":522, "name":"Orbital Support",	"pts":125, "upgrades":[]}

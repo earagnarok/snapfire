@@ -12,7 +12,7 @@
 			{"id":516, "name":"Super-Heavy Tank Company", 		"pts":500, "upgrades":[29,30,31,32,35,55,56,57,60,61,62,63,65,66,67,68,1]},
 		 	{"id":517, "name":"Artillery Company", 			"pts":550, "upgrades":[29,30,31,32,35,55,56,57,60,61,62,63,65,66,67,68,1]}
 		]},
-		{"name":"SUPPORT FORMATIONS (Max 2 for each Steel Legion Company)", "formations":[
+		{"name":"SUPPORT FORMATIONS <br/> Max 2 for each Steel Legion Company", "formations":[
 			{"id":500, "name":"Rough Rider Platoon", 			"pts":150, "upgrades":[1], "units":"6 Rough Riders"},
 			{"id":501, "name":"Storm Trooper Platoon",			"pts":200, "upgrades":[36, 1], "units":"8 Storm Troopers"},
 			{"id":502, "name":"Artillery Battery",				"pts":250, "upgrades":[1]},
@@ -23,7 +23,7 @@
 			{"id":509, "name":"Flak Battery",				"pts":150, "upgrades":[1], "units":"3 Hydra"},
 			{"id":510, "name":"Vulture Squadron",				"pts":300, "upgrades":[1], "units":"4 Vultures"}
 		]},
-		{"name":"IMPERIAL NAVY & TITAN LEGION ALLIES (Max 33%)", "formations":[
+		{"name":"IMPERIAL NAVY & TITAN LEGION ALLIES <br/> Max 33%", "formations":[
 			{"id":519, "name":"Thunderbolt Squadron",	"pts":150, "upgrades":[], "units":"2 Thunderbolt Fighters"},
 			{"id":520, "name":"Marauder Squadron",		"pts":250, "upgrades":[], "units":"2 Marauder Bombers"},
 			{"id":522, "name":"Warlord Titan",	"pts":850, "upgrades":[]},

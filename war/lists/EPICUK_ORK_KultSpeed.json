@@ -29,7 +29,7 @@
          ]
       },
       {
-         "name": "SPEED FREAK AIRCRAFT & KROOZERS (Max 25%)",
+         "name": "SPEED FREAK AIRCRAFT & KROOZERS <br/> Max 25%",
          "formations": [
              {"id": 522, "name": "Kroozer", "pts": 100, "upgrades": []},
             {"id": 519, "name": "Fighta Sqwadron", "pts": 0, "upgrades": [50]},

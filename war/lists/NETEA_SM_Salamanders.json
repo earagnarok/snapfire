@@ -14,7 +14,7 @@
 			{ "id":509, "name":"Vindicator", "pts":225, "units":"4 Vindicators", "upgrades":[1,2,3,4, 71,72,73,74,75] },
 			{ "id":510, "name":"Whirlwind", "pts":275, "units":"4 Whirlwinds", "upgrades":[1,2,3,4, 71,72,73,74,75] }
 		]},
-		{"name":"RESTRICTED, NAVY & TITAN LEGION ALLIES (Max 33%)", "formations": [
+		{"name":"RESTRICTED, NAVY & TITAN LEGION ALLIES <br/> Max 33%", "formations": [
 			{ "id":521, "name":"Assault", "pts":150, "units":"4 Assaults", "upgrades":[1,2,3,4] },
 			{ "id":522, "name":"Fast Attack", "pts":200, "upgrades":[1,2,3,4] },
 			{ "id":523, "name":"Scout", "pts":150, "units":"plus transport", "upgrades": [1,2,3,4, 81,82] },

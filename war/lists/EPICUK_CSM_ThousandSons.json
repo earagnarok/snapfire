@@ -8,14 +8,14 @@
 			{"id": 501, "name": "Thousand Sons Retinue", "pts": 275, "upgrades": [22,53,64,65,66,60,57,67,68,62]},
 			{"id": 552, "name": "Daemon Pool", "pts": 0, "upgrades": [50,51,52]}
 	]},
-      {"name": "THOUSAND SONS SUPPORT (Max 2 for each Core formation)", "formations": [
+      {"name": "THOUSAND SONS SUPPORT <br/> Max 2 for each Core formation", "formations": [
 			{"id": 503, "name": "Thousand Sons Terminators", "pts": 400, "units": "4 Thousand Sons Terminators", "upgrades": [22,63,70,71,53,64,65,66,56,60,57,67,68]},
 			{"id": 506, "name": "Thousand Sons Defiler Pack", "pts": 275, "units": "4 Thousand Sons Defilers",  "upgrades": [63]},
 			{"id": 508, "name": "Disc Riders", "pts": 275, "units": "8 Disc Riders", "upgrades": [56,60]},
 			{"id": 509, "name": "Armoured Company", "pts": 0, "upgrades": [29,30,57,67,68,28,72,73]},
 			{"id": 510, "name": "Silver Towers", "pts": 300, "units": "4 Silver Towers", "upgrades": []}
       ]},
-      {"name": "CHAOS NAVY & TITANS (Max 33%)", "formations": [
+      {"name": "CHAOS NAVY & TITANS <br/> Max 33%", "formations": [
           {"id": 530, "name": "Doomwings", "pts": 150, "units": "3 Doomwings", "upgrades": []},
           {"id": 531, "name": "Firelords", "pts": 50, "upgrades": [39]},
           {"id": 533, "name": "Devastation Class Cruiser", "pts": 150, "upgrades": []},

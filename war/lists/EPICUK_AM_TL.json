@@ -12,11 +12,11 @@
         {"id":503,"name":"Warhound Scout Pack","pts":550,"units":"2 Warhound Scout Titans","upgrades":[12]},
         {"id":504,"name":"Warhound Scout Titan","pts":300,"upgrades":[12]}
 ]},
-{"name":"SUPPORT FORMATIONS (Max 1 for each Battle Titan)",
+{"name":"SUPPORT FORMATIONS <br/> Max 1 for each Battle Titan",
 "formations":[{
         "id":521,"name":"Cybernetic Guards","pts":200,"units":"8 Robots","upgrades":[]}
 ]},
-{"name":"IMPERIAL NAVY",
+{"name":"IMPERIAL NAVY <br/> Max 17%",
 "formations":[
         {"id":531,"name":"Adeptus Mechanicus Mars Cruiser","pts":150,"upgrades":[]},
         {"id":532,"name":"Thunderbolt Squadron","pts":150,"units":"2 Thunderbolt Fighters","upgrades":[]},
@@ -68,7 +68,7 @@
 "formationConstraints":[
         {"min":1,"from":[501]},
         {"max":1, "perArmy":true, "from":[531]},
-        {"maxPercent":17.5,"name":"Imperial Navy","from":[531,532,533]},
+        {"maxPercent":17,"name":"Imperial Navy","from":[531,532,533]},
         {"max":1,"name":"Robots","from":[521],"forEach":[501,502],"name2":"Battle Titan"}
 ],
 "upgradeConstraints":[

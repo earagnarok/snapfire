@@ -8,7 +8,7 @@
 		 	{"id":513, "name":"Infantry Company", "pts":175, "upgrades":[31,32,29,34,33,28,30 ,1], "units":"Commander, 9 Siege Infantry"},
 			{"id":512, "name":"1 Regimental HQ", "pts":225, "upgrades":[31,32,29,34,33,28,30], "units":"Supreme Commander, 9 Siege Infantry"}
 		]},
-		{"name":"BARAN SUPPORT FORMATIONS (Max 2 Support formations for each Baran Company)", "formations":[
+		{"name":"BARAN SUPPORT FORMATIONS <br/> Max 2 for each Baran Company", "formations":[
 			{"id":501, "name":"Siege Artillery Battery", 			"pts":175, "upgrades":[1], "units":"3 Howitzers"},
 			{"id":500, "name":"Siege Grand Battery", 			"pts":450, "upgrades":[1], "units":"9 Howitzers"},
 			{"id":503, "name":"Bombard Battery",				"pts":250, "upgrades":[1], "units":"3 Bombards"},
@@ -20,10 +20,10 @@
 			{"id":510, "name":"Sapper Platoon",				"pts":200, "upgrades":[1], "units":"8 Sappers"},
 			{"id":507, "name":"Super-Heavy Platoon", 		"pts":200, "upgrades":[1]}
 		]},
-		{"name":"BARAN FORTIFIED POSITIONS (Max 1 for each Baran Company formation)", "formations":[
+		{"name":"BARAN FORTIFIED POSITIONS <br/> Max 1 for each Baran Company", "formations":[
 			{"id":530, "name":"Fortified Positions",	"pts":75, "upgrades":[], "units":"Up to 50cm trenches, 50cm razor wire, plus 6 Gun Emplacements or 3 Bunkers."}
 		]},
-		{"name":"IMPERIAL NAVY (Max 25%)", "formations":[
+		{"name":"IMPERIAL NAVY <br/> Max 25%", "formations":[
 			{"id":520, "name":"Marauder Squadron",		"pts":250, "upgrades":[], "units":"2 Marauder Bombers"},
 			{"id":519, "name":"Thunderbolt Squadron",	"pts":150, "upgrades":[], "units":"2 Thunderbolt Fighters"}
 		]}

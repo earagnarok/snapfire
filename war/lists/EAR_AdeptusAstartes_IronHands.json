@@ -7,7 +7,7 @@
 			{"id":500, "name":"Dreadnought Clan", "pts":300, "upgrades":[24,26,27,28,29,31,38,32,42,43,44,45]},
 			{"id":501, "name":"Mechanized Clan", "pts":300,	"upgrades":[31,38,32,33,34,35,36,42,43,44,45,50,51]}
 		]},
-		{"name":"IRON HANDS SUPPORT DETACHMENTS (Max 2 per Core Detachment)", "formations":[
+		{"name":"IRON HANDS SUPPORT DETACHMENTS <br/> Max 2 per Core Detachment", "formations":[
 			{"id":510, "name":"Dreadnought Talon", "pts":225, "upgrades":[26,27,28,29,30]},
 			{"id":511, "name":"Land Raiders", "pts":25,"upgrades":[31,38,40,41,50,51]},
 			{"id":512, "name":"Land Speeders", "pts":200, "upgrades":[]},
@@ -18,7 +18,7 @@
 			{"id":517, "name":"Orbital Support", "pts":200, "upgrades":[]}
 
 		]},
-		{"name":"IRON HANDS AIRCRAFT AND IMPERIAL ALLIES (Max 33%)", "formations":[
+		{"name":"IRON HANDS AIRCRAFT AND IMPERIAL ALLIES <br/> Max 33%", "formations":[
 			{"id":520, "name":"Storm Talons", "pts":200, "units":"2 Storm Talons",	"upgrades":[]},
 			{"id":521, "name":"Thunderhawk Transporter", "pts":75, "upgrades":[60]},
 			{"id":522, "name":"Warhound Pack", "pts":500, "upgrades":[]},

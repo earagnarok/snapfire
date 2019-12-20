@@ -11,13 +11,13 @@
             {"id": 521, "name": "World Eaters Retinue", "pts": 300, "units": "4 World Eaters Assault Marines, 4 Khorne Berzerkers", "upgrades": [26,25,27,22,30,33]}
        ]},
 
-      {"name": "WORLD EATERS ELITE FORMATIONS (Max 1 for each World Eater Retinue)", "formations": [
+      {"name": "WORLD EATERS ELITE FORMATIONS <br/> Max 1 for each World Eater Retinue", "formations": [
             {"id": 531, "name": "Juggernauts", "pts": 400, "units": "8 Juggernaut Riders, Daemonic Pact", "upgrades": [26,27]},
             {"id": 532, "name": "World Eaters Terminators", "pts": 375, "units": "4 Skullseeker Terminators", "upgrades": [21,26,22,25,27,30,38,39]},
             {"id": 533, "name": "Berzerker Bikes", "pts": 350, "units": "8 Khorne Berzerker Assault Bikes", "upgrades": [27,25]}
        ]},
 
-      {"name": "WORLD EATERS SUPPORT FORMATIONS (Max 2 for each World Eater Retinue)", "formations": [
+      {"name": "WORLD EATERS SUPPORT FORMATIONS <br/> Max 2 for each World Eater Retinue", "formations": [
             {"id": 534, "name": "World Eaters Destroyers", "pts": 200, "units": "4 World Eaters Destroyers", "upgrades": [25]},
             {"id": 535, "name": "Predator Company", "pts": 200,  "upgrades": [30]},
             {"id": 536, "name": "Chaos Space Marines", "pts": 225, "units": "6 Chaos Space Marines, 3 Chaos Rhinos",  "upgrades": [25]},
@@ -28,7 +28,7 @@
             {"id": 545, "name": "Forgefiends", "pts": 250, "units": "3 Forgefiends", "upgrades": []}
        ]},
 
-      {"name": "WAR ENGINES AND CHAOS NAVY (Max 33%)", "formations": [
+      {"name": "WAR ENGINES AND CHAOS NAVY <br/> Max 33%", "formations": [
             {"id": 551, "name": "Greater Brass Scorpion", "pts": 50, "upgrades": [34]},
             {"id": 552, "name": "Lord of Battles", "pts": 425, "upgrades": []},
             {"id": 553, "name": "Tower of Skulls", "pts": 550, "units": "Daemonic Pact", "upgrades": []},

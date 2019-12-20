@@ -12,7 +12,7 @@
 			{"id":512, "name":"Wraithkind Syndicate", "pts":150,	"upgrades":[17,61,62,70,71,1]},
 			{"id":513, "name":"Wraithkind Flotilla", "pts":250, "units":"4 Reapers", "upgrades":[61]}
 		]},
-		{"name":"WRAITHKIND PARTISANS (Max 1 Wraithkind Partisans for each Wraithkind Kabal)", "formations":[
+		{"name":"WRAITHKIND PARTISANS <br/> Max 1 Wraithkind Partisans for each Wraithkind Kabal", "formations":[
 			{"id":503, "name":"Wych Cult", "pts":150,  "units":"Succubus",  "upgrades":[62,1]},
 			{"id":504, "name":"Hellion Murder", "pts":200,  "units":"6 Hellions", "upgrades":[62]},
 			{"id":505, "name":"Reaver Gang", "pts":50, "upgrades":[83,1]},
@@ -20,7 +20,7 @@
 			{"id":508, "name":"Vessels of Pain", "pts":50, "upgrades":[20]}
 		]},
 
-		{"name":"MIDNIGHT SORROW SAEDATHS (Max 1 Midnight Sorrow Saedath for each Wraithkind Kabal)", "formations":[
+		{"name":"MIDNIGHT SORROW SAEDATHS <br/> Max 1 Midnight Sorrow Saedath for each Wraithkind Kabal", "formations":[
 			{"id":530, "name":"Cegorach's Escape",	"pts":200, "units":"Harlequin Avatar, 2 Harlequin Troupes, Death Jesters, 3 Starweavers", "upgrades":[1]},
 			{"id":531, "name":"Asuryan's Wager",	"pts":275, "units":"Harlequin Avatar, Harlequin Troupe, 3 Death Jesters, 4 Starweavers", "upgrades":[1]},
 			{"id":532, "name":"Serpent's Blood",	"pts":275, "units":"Harlequin Avatar, 4 Skyweavers, 3 Voidweavers", "upgrades":[1]},
@@ -29,7 +29,7 @@
 			{"id":535, "name":"Isha's Tears",		"pts":450, "units":"Harlequin Avatar, Shadowseer, 2 Harlequin Troupes, 4 Death Jesters, 6 Starweavers", "upgrades":[1]}
 		]},
 
-		{"name":"COMMORRAGH NAVY & WAR ENGINES", "formations":[
+		{"name":"COMMORRAGH NAVY & WAR ENGINES <br/> Max 33%", "formations":[
 			{"id":522, "name":"Torture Class Cruiser", "pts":300, "upgrades":[]},
 			{"id":523, "name":"Slavebringer Assault Boat", "pts":200, "upgrades":[]},
 			{"id":526, "name":"Razorwing Cast", "pts":200, "units":"2 Razorwing Interceptors", "upgrades":[]},

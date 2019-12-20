@@ -11,7 +11,7 @@
 			{"id":601, "name":"Ghost Warhost",							"pts":0, "upgrades":[60]},
 			{"id":603, "name":"Wraithlord Warhost",						"pts":350, "upgrades":[], "units":"6 Wraithlords"}
 		]},
-		{"name":"IYANDEN CRAFTWORLD TROUPES (Max 2 for each Warhost)", "formations":[
+		{"name":"IYANDEN CRAFTWORLD TROUPES <br/> Max 2 for each Warhost", "formations":[
 			{"id":701, "name":"Aspect Warrior Troupe", 						"pts":175,	"upgrades":[60,61,97]},
 			{"id":702, "name":"Ranger Troupe",								"pts":0, "upgrades":[22]},
 			{"id":703, "name":"Guardian Troupe",							"pts":150, 	"upgrades":[25,11,12,13,60]},
@@ -21,7 +21,7 @@
 			{"id":707, "name":"Night Spinner Troupe",						"pts":175, "upgrades":[], "units":"3 Night Spinners"},
 			{"id":708, "name":"Engines of Vaul Troupe",						"pts":0, "upgrades":[64,65,66]}
 		]},
-		{"name":"IYANDEN NAVY & TITANS (Max 33%)", "formations":[
+		{"name":"IYANDEN NAVY & TITANS <br/> Max 33%", "formations":[
 			{"id":515, "name":"Wraithship",	"pts":150, "upgrades":[]},
 			{"id":516, "name":"Dragonship",	"pts":300, "upgrades":[]},
 			{"id":802, "name":"Nightwings",				"pts":300, "upgrades":[], "units":"3 Nightwing Interceptors"},
@@ -88,7 +88,7 @@
 	"formationConstraints":[
 		{"max":2, "name":"Troupes", "from":[701,702,703,704,705,706,707,708], "forEach":[601,602,603], "name2":"Warhost"},
 		{"max":1, "name":"Wraithlord Warhost", "from":[603], "forEach":[601,602], "name2":"Spirit Wraithguard/Wraithblade Warhost"},
-		{"max":1, "from":[500]},
+		{"min":1, "max":1, "from":[500]},
 		{"max":1, "from":[501]},
 		{"max":1, "from":[515,516]},
 		{"maxPercent":33.5, "name":"Navy & Titans", "from":[515,516,802,803,804,805,806,807]}

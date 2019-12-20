@@ -17,7 +17,7 @@
 			{"id":510, "name":"Orbital Support",			"pts":200, "upgrades":[]}
 
 		]},
-		{"name":"AIRCRAFT & TITAN LEGION ALLIES (Max 33%)", "formations":[
+		{"name":"AIRCRAFT & TITAN LEGION ALLIES <br/> Max 33%", "formations":[
 			{"id":520, "name":"Thunderhawk",				"pts":200, "upgrades":[]},
 			{"id":521, "name":"Thunderbolt Squadron",	"pts":175, "units":"2 Thunderbolt Fighters", "upgrades":[]},
 			{"id":522, "name":"Marauder Squadron",		"pts":250, "units":"2 Marauder Bombers", "upgrades":[]},

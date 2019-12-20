@@ -9,7 +9,7 @@
 			{"id":501, "name":"Blood Claw Assault Pack", 				"pts":150, "units":"4 Blood Claw Assaults plus transport", "upgrades":[12,13, 34,35]},
 			{"id":502, "name":"Sky Claw Assault Pack",					"pts":150, "units":"4 Sky Claw Assaults", "upgrades":[12,13]}
 		]},
-		{"name":"SPACE WOLVES SUPPORT PACKS (Max 2 Support Packs for each Core Pack)", "formations":[
+		{"name":"SPACE WOLVES SUPPORT PACKS <br/> Max 2 Support Packs for each Core Pack", "formations":[
 			{"id":520, "name":"Wolf Guard Terminator Pack",		"pts":400,   "units":"plus transport", "upgrades":[12,13, 27,28,29,30, 33]},
 			{"id":521, "name":"Swift Claw Biker Pack", 			"pts":200,  "units":"4 Swift Claw Assault Bikes, 2 Fenrisian Wolves", "upgrades":[12,13]},
 			{"id":522, "name":"Wolf Scout Recon Pack",			"pts":175,  "units":"4 Wolf Scout Veterans plus transport", "upgrades":[12,13, 34,35]},
@@ -22,7 +22,7 @@
 
 		]},
 
-		{"name":"SPACE WOLVES AIRCRAFT AND FREEBLADE KNIGHTS (Max 33%)", "formations":[
+		{"name":"SPACE WOLVES AIRCRAFT AND FREEBLADE KNIGHTS <br/> Max 33%", "formations":[
 			{"id":530, "name": "Storm Talon Pack", "units":"2 Storm Talons",			"pts":200, "upgrades":[]},
 			{"id":531, "name": "Stormwolf Assault Boat",											"pts":175, "upgrades":[]},
 			{"id":532, "name": "Stormfang Gunship",													"pts":150, "upgrades":[]},

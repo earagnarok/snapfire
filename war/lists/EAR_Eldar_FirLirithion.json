@@ -11,18 +11,18 @@
             {"id": 511, "name": "Warlock Titan", "pts": 850, "units": "One Warlock Titan", "upgrades": []},
             {"id": 512, "name": "Phantom Titan", "pts": 700, "upgrades": [11]}
          ]},
-      {"name": "FIR LIRITHION SCOUT TITANS (Max 2 for each Battle Titan)", "formations": [
+      {"name": "FIR LIRITHION SCOUT TITANS <br/> Max 2 for each Battle Titan", "formations": [
             {"id": 521, "name": "2 Revenant Titans", "pts": 650, "upgrades": [25]}
 
 	 ]},
-      {"name": "FIR LIRITHION TROUPES (Max 3 for each Battle or Scout Titan formation)", "formations": [
+      {"name": "FIR LIRITHION TROUPES <br/> Max 3 for each Battle or Scout Titan formation", "formations": [
 	    {"id": 531, "name": "Engines of Vaul", "pts": 50, "upgrades": [17,18,19, 11]},
         {"id": 532, "name": "Fire Gale Troupe", "pts": 300, "units": "Two Fire Gale Knights", "upgrades": []},
         {"id": 533, "name": "Bright Stallion Troupe", "pts": 250, "units": "Two Bright Stallion Knights", "upgrades": []},
 	    {"id": 534, "name": "Wraithknight Troupe", "pts": 325, "units": "Three Wraithknights", "upgrades": []},
         {"id": 535, "name": "Spirit Guard Wraithhost", "pts": 225, "units": "Spiritseer", "upgrades": [41,47,55]}
 	]},
-      {"name": "CRAFTWORLD NAVY (Max 25%)", "formations": [
+      {"name": "CRAFTWORLD NAVY <br/> Max 25%", "formations": [
           {"id": 540, "name": "Nightwing Aerie", "pts": 75, "upgrades": [20]},
           {"id": 541, "name": "Phoenix Aerie", "pts": 100,  "upgrades": [21]},
           {"id": 542, "name": "Vampire Raider", "pts": 200, "upgrades": []},

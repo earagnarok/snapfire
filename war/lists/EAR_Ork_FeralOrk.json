@@ -4,7 +4,7 @@
 	"notes":["A Warlord must be selected and assigned to the formation with the most units (WE DC counts as one unit each)."],
 	"by":"EA-Ragnarok",
 	"sections":[
-		{"name":"WAR HORDES", "formations":[
+		{"name":"SNAKEBITE WAR HORDES", "formations":[
 			{"id":500, "name":"Warband",				"pts":-20,	"upgrades":[11,39,13,23,52,29,57,60,61,58,67,40,41,42]},
 			{"id":501, "name":"Warband (Big)",			"pts":-115, "upgrades":[11,39,13,23,52,29,57,60,61,58,67,40,41,42]},
 			{"id":502, "name":"Warband ('Uge)",		"pts":-210, "upgrades":[11,39,13,23,52,29,57,60,61,58,67,40,41,42]},

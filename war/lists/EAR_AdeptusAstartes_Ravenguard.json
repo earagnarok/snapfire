@@ -10,24 +10,23 @@
       {"id":502, "name":"Scouts", "pts":150, "units": "Four Scouts", "upgrades":[1,2,3,4,17,19,36,5,6,7]},
       {"id":503, "name":"Tacticals", "pts":200, "units": "Four Tacticals", "upgrades":[1,2,3,4,5,6,7,8,34,35,10]}
     ]},
-    {"name":"RAVEN GUARD ELITE", "formations":[
+    {"name":"RAVEN GUARD ELITE <br/> Max 1 for each Raven Guard Detachment", "formations":[
       {"id":510, "name":"Sternguard Veterans", "pts":250, "units": "Four Sternguard Veterans", "upgrades":[1,2,3,4,5,6,7,8,34,35,10,11]},
       {"id":511, "name":"Terminators", "pts":350, "units": "Four Terminators", "upgrades":[1,2,3,4]},
       {"id":512, "name":"Vanguard Assault Veterans", "pts":250, "units": "Four Vanguard Assault Veterans", "upgrades":[1,2,3,4,5,6,7]},
       {"id":513, "name":"Vanguard Veterans", "pts":250, "units": "Four Vanguard Veterans", "upgrades":[1,2,3,4,5,6,7,8,34,35,10]}
     ]},
-    {"name":"RAVEN GUARD SUPPORT", "formations":[
+    {"name":"RAVEN GUARD SUPPORT <br/> Max 1 for each Raven Guard Detachment", "formations":[
       {"id":520, "name":"Bikes", "pts":200, "upgrades":[1,2,3,4]},
       {"id":521, "name":"Land Speeders", "pts":25, "upgrades":[1,2,3,4,5,6,14,7,15]},
       {"id":522, "name":"Orbital Support", "pts":200, "upgrades":[16]}
     ]},
-    {"name":"RAVEN GUARD AIRCRAFT & COLLEGIA TITANICA ALLIES (Max 33%)", "formations":[
+    {"name":"RAVEN GUARD AIRCRAFT & COLLEGIA TITANICA ALLIES <br/> Max 33%", "formations":[
       {"id":532, "name":"Storm Talons", "pts":200, "units": "Two Storm Talons"},
       {"id":530, "name":"Storm Eagle", "pts":175},
-      {"id":531, "name":"Thunderhawk", "pts":200}
-    ]},
-    {"name":"Titan Legion Battlegroups", "formations":[
+      {"id":531, "name":"Thunderhawk", "pts":200},
       {"id":551, "name":"Warhound Pack", "pts":500, "units":"2 Warhound Class Titan", "upgrades":[21]}
+
     ]}
   ],
   "upgrades":[

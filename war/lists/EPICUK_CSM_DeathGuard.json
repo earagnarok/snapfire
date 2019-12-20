@@ -8,11 +8,11 @@
             {"id": 501, "name": "Death Guard Retinue", "pts": 300, "upgrades": [53,67,68,69,54,70,71,60,52,56,64,65,72,73,63,74,75,57,76,77,66,80,81,82]},
             {"id": 551, "name": "Daemon Pool", "pts": 0, "upgrades": [50,51,49]}
          ]},
-      {"name": "DEATH GUARD ELITE (Max 1 for each Death Guard Retinue)", "formations": [
-			{"id": 503, "name": "Death Guard Terminators", "pts": 400, "units": "4 Terminators", "upgrades": [52,63,74,75,53,67,68,69,56,60,57,76,77]},
-			{"id": 506, "name": "Death Guard Defiler Pack", "pts": 275, "units": "4 Defilers", "upgrades": [63,74,75]}
+      {"name": "DEATH GUARD ELITE <br/> Max 1 for each Death Guard Retinue", "formations": [
+			{"id": 503, "name": "Death Guard Terminators", "pts": 400, "units": "4 Death Guard Terminators", "upgrades": [52,63,74,75,53,67,68,69,56,60,57,76,77]},
+			{"id": 506, "name": "Death Guard Defiler Pack", "pts": 275, "units": "4 Death Guard Defilers", "upgrades": [63,74,75]}
          ]},
-	  {"name": "DEATH GUARD SUPPORT (Max 2 for each Death Guard Retinue)", "formations": [
+	  {"name": "DEATH GUARD SUPPORT <br/> Max 2 for each Death Guard Retinue", "formations": [
             {"id": 504, "name": "Plague Zombie Infestation", "pts": 175, "units": "3+2D6 Plague Zombies", "upgrades": []},
             {"id": 505, "name": "Plague Engines", "pts": 325, "upgrades": [64,57,76,77]},
             {"id": 507, "name": "Plague Reapers", "pts": 0, "upgrades": [37,57,76,77,65,72,73]},
@@ -20,7 +20,7 @@
             {"id": 509, "name": "Armoured Company", "pts": 0, "upgrades": [28,29,54,70,71,57,76,77]},
 	    {"id": 510, "name": "Blight Drones", "pts": 200, "units": "4 Blight Drones", "upgrades": []}
          ]},
-      {"name": "CHAOS NAVY & TITANS (Max 33%)", "formations": [
+      {"name": "CHAOS NAVY & TITANS <br/> Max 33%", "formations": [
           {"id": 530, "name": "Hell Blade Flight", "pts": 200, "units": "3 Hell Blade Interceptors", "upgrades": []},
           {"id": 531, "name": "Hell Talon Flight", "pts": 225, "units": "2 Hell Talon Fighter-Bombers", "upgrades": []},
           {"id": 533, "name": "Plague Ship", "pts": 100, "upgrades": []},

@@ -15,7 +15,7 @@
 			{"id":511, "name":"Terminators", "pts":600, "units":"4 Terminators and 4 Land Raiders", "upgrades":[11,12,13,14]},
 			{"id":514, "name":"Whirlwinds", "pts":300, "units":"4 Whirlwinds", "upgrades":[11,12,13,14,19,15]}
 		]},
-		{"name":"NAVY & TITANS (Max 33%)", "formations":[
+		{"name":"WHITE SCARS NAVY & TITANS <br/> Max 33%", "formations":[
 			{"id":551, "name":"Thunderbolt Squadron", "pts":150, "units":"2 Thunderbolt Fighters" },
 			{"id":552, "name":"Marauder Squadron", "pts":250, "units":"2 Marauder Bombers" },
 			{"id":512, "name":"Thunderhawk", "pts":200},

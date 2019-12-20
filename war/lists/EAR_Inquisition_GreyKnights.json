@@ -5,18 +5,18 @@
    "notes":[],
 
    "sections": [
-        {"name": "GREY KNIGHT CORE DETACHMENTS", "formations": [
+        {"name": "GREY KNIGHTS CORE DETACHMENTS", "formations": [
             {"id": 500, "name": "Grey Knight Strike Detachment", "pts": 325, "units": "3 Grey Knight Strike Squads plus transport", "upgrades": []},
             {"id": 501, "name": "Grey Knight Terminator Detachment", "pts": 325, "units": "2 Grey Knight Terminators plus transport", "upgrades": []}
 	  ]},
-        {"name": "GREY KNIGHT SUPPORT DETACHMENTS (Max 1 for each Core Detachment)", "formations": [
+        {"name": "GREY KNIGHTS SUPPORT DETACHMENTS <br/> Max 1 for each Core Detachment", "formations": [
 	    {"id": 510, "name": "Dreadknight Detachment", "pts": 350, "units": "2 Nemesis Dreadknights", "upgrades": []},
         {"id": 511, "name": "Interceptor Detachment", "pts": 275, "units": "3 Grey Knight Interceptor Squads", "upgrades": []},
 	    {"id": 512, "name": "Purgation Detachment", "pts": 300, "units": "2 Grey Knight Purgation Squads plus transport",  "upgrades": []},
 	    {"id": 513, "name": "Doomglaive Detachment", "pts": 325, "units": "4 Doomglaive Dreadnoughts plus transport", "upgrades": []}
 
          ]},
-        {"name": "ORDO MALLEUS FORMATIONS (Max 2 for each Core Detachment)", "formations": [
+        {"name": "ORDO MALLEUS FORMATIONS <br/> Max 2 for each Core Detachment", "formations": [
             {"id": 520, "name": "0-1 Ordo Malleus Inquisitor Retinue", "pts": 250, "units": "5 Kasrkin", "upgrades": [14]},
             {"id": 521, "name": "Shock Trooper Platoon", "pts": 225, "units": "6 Infantry units", "upgrades": [14]},
             {"id": 525, "name": "Whiteshield Platoon", "pts": 275, "units": "8 Whiteshields, Stormlord", "upgrades": []},
@@ -24,7 +24,7 @@
 	        {"id": 523, "name": "Leman Russ Squadron", "pts": 200, "upgrades": [14]},
 	        {"id": 524, "name": "Praetor Battery", "pts": 275, "units": "Praetor Assault Launcher", "upgrades": [14]}
          ]},
-        {"name": "GREY KNIGHT NAVY (Max 33%)", "formations": [
+        {"name": "GREY KNIGHTS NAVY <br/> Max 33%", "formations": [
             {"id": 530, "name": "Grey Knight Storm Talons", "pts": 250, "units": "2 Grey Knight Storm Talons", "upgrades": [] },
             {"id": 531, "name": "Grey Knight Thunderhawk Transporter", "pts": 250, "units": "1 Grey Knight Thunderhawk Transporter", "upgrades": [] },
             {"id": 532, "name": "Grey Knight Landing Craft", "pts": 400, "units": "1 Grey Knight Landing Craft", "upgrades": [] },

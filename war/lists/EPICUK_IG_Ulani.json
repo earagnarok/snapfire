@@ -9,7 +9,7 @@
             {"id": 521, "name": "Regimental HQ", "pts": 700, "units": "Ulani HQ Command Tank", "upgrades": [26,31,32,27,28,29,30, 1] },
             {"id": 522, "name": "Tank Company",  "pts": 400, "upgrades": [14,26,31,32,27,28,29,30,33,34,35, 1] }
          ]},
-      {	 "name": "ULANI SUPPORT FORMATIONS (Max 2 for each Ulani Company)",
+      {	 "name": "ULANI SUPPORT FORMATIONS <br/> Max 2 for each Ulani Company",
          "formations": [
             {"id": 501, "name": "Light Artillery Platoon", "pts": 100, "units": "3 Griffons", "upgrades": [1] },
             {"id": 502, "name": "Medium Artillery Platoon", "pts": 250, "units": "3 Basilisks", "upgrades": [1] },
@@ -20,7 +20,7 @@
             {"id": 508, "name": "Conqueror Support", "pts": 250, "units": "6 Leman Russ Conquerors", "upgrades": [1] },
             {"id": 509, "name": "Hellhound Support", "pts": 150, "units": "3 Hellhounds", "upgrades": [1] }
          ]},
-      {  "name": "IMPERIAL NAVY (Max 33%)",
+      {  "name": "IMPERIAL NAVY <br/> Max 33%",
          "formations": [
             {"id": 531, "name": "Thunderbolt Squadron", "pts": 150, "units": "2 Thunderbolt Fighters", "upgrades": [] },
             {"id": 532, "name": "Marauder Squadron", "pts": 250, "units": "2 Marauder Bombers", "upgrades": [] },

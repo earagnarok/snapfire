@@ -7,7 +7,7 @@
 		{"name":"SKITARII COHORTS", "formations":[
 			{"id":566, "name":"Skitarii",	"pts":225, "units":"Secutors, 9 Hypaspists", "upgrades":[101,102,103,104,105,106,107,108,109,110]}
 		]},
-		{"name":"SKITARII MANIPLES (Max 3 for each Skitarii Cohort)", "formations":[
+		{"name":"SKITARII MANIPLES <br/> Max 3 for each Skitarii Cohort", "formations":[
 			{"id":567, "name":"Sagitarii",	"pts":175, "units":"5 Sagitarii",	 "upgrades":[101,103,104,105,106,107,108,109,110]},
 			{"id":561, "name":"Sentry",			"pts":150, "units":"4 Robots, 3 Rapiers", "upgrades":[101]},
 			{"id":563, "name":"Praetorian",		"pts":225, "units":"5 Praetorians", "upgrades":[104,105,107,108,109,110]},
@@ -15,7 +15,7 @@
 			{"id":571, "name":"Ordinatus Minoris",	"pts":50, "upgrades":[107,108,109,110,112,113,114]},
 			{"id":572, "name":"Ordinatus Majoris",	"pts":500, "upgrades":[111,115,116]}
 		]},
-		{"name":"IMPERIAL NAVY, KNIGHTS & TITANS (Max 33%)", "formations":[
+		{"name":"IMPERIAL NAVY, KNIGHTS & TITANS <br/> Max 33%", "formations":[
 			{"id":564, "name":"Thunderbolt Squadron",					"pts":150, "units":"2 Thunderbolt Fighters", "upgrades":[]},
 			{"id":575, "name":"Marauder Squadron",						"pts":250, "units":"2 Marauder Bombers", "upgrades":[]},
 			{"id":565, "name":"Adeptus Mechanicus Cruiser",				"pts":150, "upgrades":[]},

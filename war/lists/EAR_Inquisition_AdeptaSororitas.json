@@ -8,7 +8,7 @@
         {"name": "SORORITAS CORE FORMATIONS", "formations": [
             {"id": 500, "name": "Mission", "pts": 225, "upgrades": [10,11,12,13, 16]}
 	  ]},
-        {"name": "SORORITAS SUPPORT FORMATIONS (Max 2 for each Core Formation)", "formations": [
+        {"name": "SORORITAS SUPPORT FORMATIONS <br/> Max 2 for each Core Formation", "formations": [
         {"id": 515, "name": "Immolation", "pts": 275, "units": "Three Celestian Sisters, three Sororitas Immolators", "upgrades": []},
 	    {"id": 510, "name": "Exorcism", "pts": 250, "upgrades": [16]},
 	    {"id": 511, "name": "Seraphim", "pts": 225,  "upgrades": []},
@@ -17,13 +17,13 @@
         {"id": 513, "name": "Dominion", "pts": 150, "units": "4 Dominion Sisters", "upgrades": [10,11,12]}
 
          ]},
-        {"name": "ORDO HERETICUS FORMATIONS (Max 2 for each Core Formation)", "formations": [
+        {"name": "ORDO HERETICUS FORMATIONS <br/> Max 2 for each Core Formation", "formations": [
             {"id": 520, "name": "0-1 Ordo Hereticus Inquisitor Retinue", "pts": 175, "upgrades": [25]},
             {"id": 523, "name": "Penitence", "pts": 200, "units": "5 Penitent Engines", "upgrades": []},
             {"id": 522, "name": "Flagellant", "pts": 200, "units": "6 Arco-Flagellants", "upgrades": [20]},
 	        {"id": 521, "name": "Redemption", "pts": 200, "units": "Ministorum Priest, 8 Redemptionists, 4 Ordo Hereticus Land Transporters", "upgrades": []}
          ]},
-        {"name": "IMPERIAL NAVY (Max 25%)", "formations": [
+        {"name": "IMPERIAL NAVY <br/> Max 25%", "formations": [
             {"id": 532, "name": "Lightning Squadron", "pts": 150, "units": "2 Lightning Interceptors", "upgrades": [] },
             {"id": 533, "name": "Marauder Squadron", "pts": 225, "units": "2 Marauder Bombers", "upgrades": [] },
 	        {"id": 534, "name": "Orbital Support", "pts": 125, "units": "Lunar Class Cruiser", "upgrades": [] }

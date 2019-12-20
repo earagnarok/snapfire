@@ -18,7 +18,7 @@
 			{"id":513, "name":"Vindicators", "pts":250, "units":"4 Vindicators", "upgrades":[11,12,13,14,19]},
 			{"id":514, "name":"Whirlwinds", "pts":300, "units":"4 Whirlwinds", "upgrades":[11,12,13,14,19]}
 		]},
-		{"name":"IMPERIAL NAVY & TITANS (Max 33%)", "formations":[
+		{"name":"IMPERIAL NAVY & TITANS <br/> Max 33%", "formations":[
 			{"id":551, "name":"Thunderbolt Squadron", "pts":150, "units":"2 Thunderbolt Fighters" },
 			{"id":552, "name":"Marauder Squadron", "pts":250, "units":"2 Marauder Bombers" },
 			{"id":512, "name":"Thunderhawk", "pts":200},

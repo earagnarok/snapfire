@@ -3,21 +3,21 @@
   "version":"2019-10-16",
   "by":"EA-Ragnarok",
   "sections":[
-    {"name":"Knight Households", "formations":[
+    {"name":"KNIGHT HOUSEHOLDS", "formations":[
       {"id":500, "name":"Knight Household", "pts":30, "upgrades":[8,10,13,25,26]}
     ]},
-    {"name":"Support Households (Max 1 Support Household for each Knight Household)", "formations":[
+    {"name":"SUPPORT HOUSEHOLDS <br/> Max 1 for each Knight Household", "formations":[
       {"id":510, "name":"Custodian Household", "pts":30, "upgrades":[6,7,13]},
       {"id":511, "name":"Lancer Household", "pts":30, "upgrades":[9,13,25,26]},
       {"id":512, "name":"Warden Household", "pts":20, "upgrades":[20,21,22,13]}
     ]},
-    {"name":"Support Levy (Max 1 Support Levy for each Knight Household)", "formations":[
+    {"name":"SUPPORT LEVY <br/> Max 1 for each Knight Household", "formations":[
       {"id":520, "name":"AA Gun Battery", "pts":125, "units":"3 AA Guns", "upgrades":[]},
       {"id":521, "name":"Howitzer Battery", "pts":175, "units":"3 Howitzers", "upgrades":[]},
       {"id":522, "name":"Infantry Platoon", "pts":175, "units":"Levy Command, 8 Infantry Levy", "upgrades":[1,5,14,11,15,17]},
       {"id":523, "name":"Rough Rider Platoon", "pts":150, "units":"6 Rough Riders", "upgrades":[1]}
     ]},
-    {"name":"Imperial Navy Aircraft (Max 25%)", "formations":[
+    {"name":"IMPERIAL NAVY <br/> Max 25%", "formations":[
       {"id":530, "name":"Marauder Squadron", "pts":250, "units":"2 Marauder Bombers", "upgrades":[]},
       {"id":531, "name":"Thunderbolt Squadron", "pts":150, "units":"2 Thunderbolt Fighters", "upgrades":[]}
     ]}

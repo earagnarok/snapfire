@@ -11,17 +11,17 @@
 		{"name":"BLACK LEGION CORE FORMATIONS", "formations":[
 			{"id":501, "name":"Black Legion Retinue", "pts":275, "upgrades":[14,15,40,41,42,43,44,70,80]}
 		]},
-		{"name":"BLACK LEGION ELITE FORMATIONS (Max 1 for each Core formation)", "formations":[
+		{"name":"BLACK LEGION ELITE FORMATIONS <br/> Max 1 for each Core formation", "formations":[
 			{"id":502, "name":"Chaos Terminators", "pts":275, "units":"4 Chaos Terminators", "upgrades":[14,15,41,42,51,70,80]},
 			{"id":503, "name":"Chosen", "pts":150, "units":"4 Chosen", "upgrades":[70]}
 		]},
-		{"name":"BLACK LEGION SUPPORT FORMATIONS (Max 2 for each Core formation)", "formations":[
+		{"name":"BLACK LEGION SUPPORT FORMATIONS <br/> Max 2 for each Core formation", "formations":[
 			{"id":504, "name":"Bike Company",	"pts":300, "units":"8 Chaos Space Marines Bikes", "upgrades":[14,70]},
 			{"id":505, "name":"Raptor Cult",	"pts":225, "units":"6 Chaos Raptors", "upgrades":[70]},
 			{"id":506, "name":"Predator Company", "units":"4 Chaos Predators", "pts":200, "upgrades":[43,44] },
 			{"id":507, "name":"Havocs",	"pts":200, "units":"4 Havocs", "upgrades":[43,44,70]}
 		]},
-		{"name":"BLACK LEGION DAEMON ENGINE, TITAN AND CHAOS NAVY FORMATIONS (Max 33%)", "formations":[
+		{"name":"BLACK LEGION DAEMON ENGINE, TITAN AND CHAOS NAVY FORMATIONS <br/> Max 33%", "formations":[
 			{"id":511, "name":"Death Wheels",	"pts":50, "upgrades":[60]},
 			{"id":512, "name":"Decimators", "pts":50, "upgrades":[61]},
 			{"id":513, "name":"Defilers", "pts":25, "upgrades":[63]},

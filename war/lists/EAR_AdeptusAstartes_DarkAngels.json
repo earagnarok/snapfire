@@ -12,7 +12,7 @@
 			{"id":514, "name":"Ares Siege Detachment",				"pts":350, "units":"3 Land Raider Ares",  "upgrades":[10,11,12,13]}
 
 		]},
-		{"name":"DARK ANGELS SUPPORT DETACHMENTS (Max 3 for each Core Detachment)", "formations":[
+		{"name":"DARK ANGELS SUPPORT DETACHMENTS <br/> Max 3 for each Core Detachment", "formations":[
 			{"id":502, "name":"Land Raiders",				"pts":25, "upgrades":[10,11,12,13, 30,31,32, 35]},
 			{"id":509, "name":"Assaults", 						"pts":250, "units":"Dark Angels Captain, 6 Assaults", "upgrades":[]},
 			{"id":504, "name":"Devastators",				"pts":250, "units":"4 Dark Angels Devastators plus transport", "upgrades":[10,11,12,13, 30,31,32, 36,37]},
@@ -24,7 +24,7 @@
 
 		]},
 
-		{"name":"DARK ANGELS AIRCRAFT AND SWORDWING (Max 33%. Swordwing Support is compulsory)", "formations":[
+		{"name":"DARK ANGELS AIRCRAFT AND SWORDWING <br/> Max 33% <br/> Swordwing Support is compulsory", "formations":[
 			{"id":520, "name": "Nephilim Squadron", "units":"2 Ravenwing Nephilim Interceptors",		"pts":225, "upgrades":[]},
 			{"id":521, "name": "Dark Talon Squadron",	"units":"2 Ravenwing Dark Talon Fighter-Bombers",			"pts":225, "upgrades":[]},
 			{"id":522, "name": "Swordwing Support",										"pts":0, "upgrades":[]}

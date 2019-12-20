@@ -13,7 +13,7 @@
 			{"id":511, "name":"Falcon Vaulhost",	"pts":300, "upgrades":[]}
 
 		]},
-		{"name":"TROUPES (Up to 2 for each Vaulhost)", "formations":[
+		{"name":"TROUPES <br/> Up to 2 for each Vaulhost", "formations":[
 			{"id":520, "name":"Mounted Aspect Warrior Troupe", "pts":325,  "units":"3 Wave Serpents", "upgrades":[39]},
 			{"id":524, "name":"Mounted Guardian Troupe", "units":"Farseer, 2 Wave Serpents, 2 Falcons", "pts":300, "upgrades":[]},
 			{"id":521, "name":"Night Spinner Troupe", "pts":175, "units":"3 Night Spinners", "upgrades":[]},
@@ -22,7 +22,7 @@
 			{"id":527, "name":"Wind Rider Troupe", "units":"6 Vypers",	"pts":200, "upgrades":[]},
 			{"id":528, "name":"Hornet Troupe", "pts":0,  "upgrades":[32]}
 		]},
-		{"name":"CRAFTWORLD NAVY & TITANS (Max 33%)", "formations":[
+		{"name":"CRAFTWORLD NAVY & TITANS <br/> Max 33%", "formations":[
 			{"id":530, "name":"Wraithship",	"pts":150, "upgrades":[]},
 			{"id":531, "name":"Dragonship",	"pts":300, "upgrades":[]},
 		 	{"id":532, "name":"Warlock Titan",	"pts":850, "upgrades":[]},

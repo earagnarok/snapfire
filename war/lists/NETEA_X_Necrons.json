@@ -7,13 +7,13 @@
             {"id": 601, "name": "Tomb Complex", "pts": 75, "upgrades": []}
          ]
       },
-      {"name": "NECRON PHALANXES",
+      {"name": "NECRON PHALANX",
          "formations": [
             {"id": 701, "name": "Infantry Phalanx", "pts": 225, "units": "Necron Lord, 6 Necron Warriors", "upgrades": [102,100,103,101]
             }
          ]
       },
-      {"name": "NECRON SUPPORT (Max 3 for each Necron Phalanx)",
+      {"name": "NECRON SUPPORT <br/> Max 3 for each Necron Phalanx",
          "formations": [
             {"id": 505, "name": "Armored Phalanx", "pts": 300, "units": "6 Obelisks"},
             {"id": 502, "name": "Eques Maniple", "pts": 350, "upgrades": [104,103]},
@@ -22,7 +22,7 @@
             {"id": 501, "name": "Venator Maniple", "pts": 200, "units": "6 Flayed Ones", "upgrades": [104,100,103,101]}
          ]
       },
-      {"name": "HARVESTERS (Max 33%)",
+      {"name": "HARVESTERS <br/> Max 33%",
          "formations": [
              {"id": 801, "name": "C`Tan", "pts": 0, "upgrades": [11,12]},
             {"id": 803, "name": "Harvester Engine", "pts": 600},

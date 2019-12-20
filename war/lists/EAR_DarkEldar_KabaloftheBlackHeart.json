@@ -14,7 +14,7 @@
 			{"id":512, "name":"Black Heart Syndicate", "pts":200,	"upgrades":[17,61,70,40,41,42,43,72,1]},
 			{"id":513, "name":"Black Heart Flotilla", "pts":25, "upgrades":[61]}
 		]},
-		{"name":"BLACK HEART PARTISANS (Max 2 for each Kabal)", "formations":[
+		{"name":"BLACK HEART PARTISANS <br/> Max 2 for each Kabal", "formations":[
 			{"id":501, "name":"Haemonculi Coven", "pts":225, "units":"2 Haemonculi, 4 Wracks", "upgrades":[19,65,70,40,41,42,72,73,74,1]},
 			{"id":502, "name":"Talos Swarm", "pts":225, "upgrades":[]},
 			{"id":503, "name":"Wych Cult", "pts":150,  "units":"Succubus",  "upgrades":[62,70,40,41,42,72,1]},
@@ -24,7 +24,7 @@
 			{"id":507, "name":"Scourge Flight", "pts":250, "units":"6 Scourges", "upgrades":[]},
 			{"id":508, "name":"Vessels of Pain", "pts":50, "upgrades":[30]}
 		]},
-		{"name":"COMMORRAGH NAVY & WAR ENGINES (Max 33%)", "formations":[
+		{"name":"COMMORRAGH NAVY & WAR ENGINES <br/> Max 33%", "formations":[
 			{"id":522, "name":"Torture Class Cruiser", "pts":300, "upgrades":[]},
 			{"id":523, "name":"Slavebringer Assault Boat", "pts":200, "upgrades":[]},
 			{"id":525, "name":"Executioner Landing Module", "pts":450, "upgrades":[]},

@@ -16,13 +16,13 @@
 
 ]},
 
-{"name":"SUPPORT FORMATIONS (Max 3 for each Battle Titan formation)",
+{"name":"SUPPORT FORMATIONS <br/> Max 3 for each Battle Titan formation",
 "formations":[
 	    {"id":510,"name":"Warhound Pack","pts":500, "upgrades":[13]},
 		{"id":520,"name":"Questoris Banner","pts":275, "upgrades":[]}
 ]},
 
-{"name":"ADEPTUS MECHANICUS ALLIES (Max 33%. Max 1 Lysander Fighter for each Warmonger Titan or Reaver Carapace Landing Pad)",
+{"name":"ADEPTUS MECHANICUS ALLIES <br/> Max 33% <br/> Max 1 Lysander Fighter for each Warmonger Titan or Reaver Carapace Landing Pad",
 "formations":[
         {"id":530,"name":"Skitarii Maniple","pts":225,"units":"9 Hypaspist, Magos","upgrades":[15]},
 		{"id":531,"name":"Kastelan Maniple","pts":50,"units":"Tech-Priest", "upgrades":[14]},
@@ -144,7 +144,7 @@
 
         {"min":1,"max":1,"from":[100,101,102,103,104,105],"appliesTo":[520]},
 
-        {"min":4,"max":7,"from":[14],"appliesTo":[531]},
+        {"min":5,"max":7,"from":[14],"appliesTo":[531]},
 
         {"min":1,"max":2,"from":[130,131,132,133],"appliesTo":[535]}
 ]

@@ -15,14 +15,14 @@
 	{"id": 519, "name": "Purge", "pts": 100, "upgrades": [16,17] }
 	  ]},
 
-        {"name": "SORORITAS SUPPORT (Max 1 for each Sororitas Company)", "formations": [
+        {"name": "SORORITAS SUPPORT <br/> Max 1 for each Sororitas Company", "formations": [
         {"id": 518, "name": "Inquisitor", "pts": 200, "units": "Inquisitor Hereticus", "upgrades": [21,13] },
 	    {"id": 600, "name": "Crusaders", "pts": 200, "units": "Priest, 10 Redemptionists", "upgrades": [13,15,30,31] },
         {"id": 602, "name": "Conclave", "pts": 250, "units": "6 Arco-Flagellants", "upgrades": [15,30,31,22,23,24] },
         {"id": 605, "name": "Pentinence", "pts": 35, "upgrades": [32] }
     ]},
 
-        {"name": "WAR ENGINES AND IMPERIAL NAVY", "formations": [
+        {"name": "WAR ENGINES AND IMPERIAL NAVY <br/> Max 33%", "formations": [
         {"id": 719, "name": "Lightning Squadron", "pts": 150, "units": "2 Lightning Strike Fighters", "upgrades": [] },
         {"id": 720, "name": "Marauder Squadron", "pts": 250, "units": "2 Marauder Bombers", "upgrades": [] },
 	{"id": 708, "name": "Lunar Class Cruiser", "pts": 150, "upgrades": [] }

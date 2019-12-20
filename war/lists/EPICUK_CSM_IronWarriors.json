@@ -8,13 +8,13 @@
                         {"id":502, "name":"Defiler Assault Pack",       "pts":275, "units":"4 Defilers", "upgrades":[57,73,74,63,70]},
                         {"id":541, "name":"Vindicator Company",   "pts":250, "units":"6 Chaos Vindicators", "upgrades":[54,71,72,90,91]}
                 ]},
-				{"name":"IRON WARRIORS SUPPORT (Max 2 for each Core formation)", "formations":[
+				{"name":"IRON WARRIORS SUPPORT <br/> Max 2 for each Core formation", "formations":[
                         {"id":507, "name":"Armoured Company",   "pts":0, "upgrades":[27,28,69,77,78,90,91]},
                         {"id":508, "name":"Artillery Battery",  "pts":275, "units":"4 Chaos Basilisks", "upgrades":[]},
                         {"id":506, "name":"Stormsword Company", "pts":550, "units":"3 Chaos Stormswords", "upgrades":[69,77,78,54,71,72,57,73,74]},
 						{"id":505, "name":"Havocs", "pts":0, "upgrades":[69,77,78,54,71,72,63,70,84]}
 				]},
-                {"name":"IRON WARRIORS ASSAULT (Max 1 for each Core formation)", "formations":[
+                {"name":"IRON WARRIORS ASSAULT <br/> Max 1 for each Core formation", "formations":[
                         {"id":503, "name":"Iron Warrior Terminators", "pts":35, "upgrades":[32,63,70,53,79,80,81,57,73,74,61,75,76]},
                         {"id":504, "name":"Chosen", "pts":125, "units":"4 Chaos Space Marine Chosen units", "upgrades":[62,58]},
                         {"id":511, "name":"Obliterators", "pts":425, "units":"5 Obliterators", "upgrades":[]},
@@ -22,7 +22,7 @@
                         {"id":513, "name":"Siegehammer", "pts":225, "units":"6 Iron Warrior Assault Marines", "upgrades":[62,63,70,54,71,72,58]},
                         {"id":514, "name":"Dreadnought Pack", "pts":250, "units":"5 Chaos Dreadnoughts", "upgrades":[57,73,74,58]}
                 ]},
-                {"name":"CHAOS NAVY & DARK MECHANICUS (Max 33%)", "formations":[
+                {"name":"CHAOS NAVY & DARK MECHANICUS <br/> Max 33%", "formations":[
                     {"id": 530, "name": "Hell Blade Flight", "pts": 200, "units": "3 Hell Blade Interceptors", "upgrades": []},
                     {"id": 531, "name": "Hell Talon Flight", "pts": 225, "units": "2 Hell Talon Fighter-Bombers", "upgrades": []},
                         {"id":532, "name":"Harbinger Bomber",   "pts":450, "upgrades":[]},

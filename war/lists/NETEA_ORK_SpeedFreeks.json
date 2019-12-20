@@ -31,7 +31,7 @@
          ]
       },
       {
-         "name": "SPEED FREEK AIRCRAFT (Max 33%)",
+         "name": "SPEED FREEK AIRCRAFT <br/> Max 33%",
          "formations": [
             {"id": 519, "name": "Fighta Sqwadron", "pts": 0, "upgrades": [50]},
             {"id": 521, "name": "Landa", "pts": 200, "upgrades": []}

@@ -8,7 +8,7 @@
 			{"id":501, "name":"Whiteshield Company", "pts":400, "upgrades":[30,31,32,33, 34,35,36], "units":"Cadian Commander with a Commissar, 15 Whiteshields, 2 Stormlord"},
 			{"id":502, "name":"Shock Trooper Company", "pts":400, "upgrades":[], "units":"Cadian Commander with Commissar, 11 Infantry, 2 Crassus Assault Transport"}
 		]},
-		{"name":"CADIAN SUPPORT FORMATIONS (Up to three for each Core Company)", "formations":[
+		{"name":"CADIAN SUPPORT FORMATIONS <br/> Up to 3 for each Core Company", "formations":[
 			{"id":509, "name":"Kasrkin Platoon", "pts":275, "upgrades":[], "units":"6 Kasrkin, Crassus Assault Transport"},
 			{"id":510, "name":"Praetor Battery", "pts":275, "upgrades":[], "units":"Praetor Assault Launcher"},
 			{"id":511, "name":"Siege Artillery Battery", "pts":225, "upgrades":[18]},
@@ -21,7 +21,7 @@
 			{"id":519, "name":"Deathstrike Battery",	"pts":200, "upgrades":[], "units":"2 Deathstrikes"}
 
 		]},
-		{"name":"COLLEGIA TITANICA AND IMPERIAL NAVY SUPPORT (Max 33%)", "formations":[
+		{"name":"COLLEGIA TITANICA AND IMPERIAL NAVY SUPPORT <br/> Max 33%", "formations":[
 			{"id":520, "name":"Warhound Pack",		"pts":500, "upgrades":[50], "units":"2 Warhounds"},
 			{"id":521, "name":"Reaver Titan",		"pts":600, "upgrades":[], "units":"Reaver Titan"},
 			{"id":530, "name":"Thunderbolt Fighters", "pts":150, "upgrades":[], "units":"2 Thunderbolt Fighters"},
