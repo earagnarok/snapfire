@@ -1,7 +1,7 @@
 {
 	"id":"EpicUK Yme-Loc Craftworld",
-	"version":"v140516",
-	"by":"Kyussinchains, EA-Ragnarok",
+	"version":"v14-05-16",
+	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"INDIVIDUALS", "formations":[
 			{"id":501, "name":"Gate of Vaul",	"pts":100,		"upgrades":[]},
@@ -11,7 +11,7 @@
 			{"id":510, "name":"Engines of Vaul", "pts":50, "upgrades":[40,33,34,35,36]},
 			{"id":511, "name":"Swords of Vaul",	"pts":0, "upgrades":[40,33]}
 		]},
-		{"name":"TROUPES", "formations":[
+		{"name":"TROUPES <br/> Max 2 for each Warhost", "formations":[
 			{"id":520, "name":"Mounted Aspect Warrior Troupe", "pts":400, "upgrades":[39]},
 			{"id":524, "name":"Mounted Guardian Troupe", "units":"Farseer, 2 Wave Serpents, 2 Falcons", "pts":300, "upgrades":[]},
 			{"id":521, "name":"Night Spinner Troupe", "pts":175, "units":"3 Night Spinners", "upgrades":[33]},
@@ -21,27 +21,27 @@
 			{"id":528, "name":"Hornet Troupe", "units":"5 Hornets",	"pts":225, "upgrades":[33]},
 			{"id":529, "name":"Lynx Troupe", "units":"2 Lynx",	"pts":300, "upgrades":[33]}
 		]},
-		{"name":"SPACESHIPS, AIRCRAFT & TITANS", "formations":[
+		{"name":"CRAFTWORLD NAVY & TITANS <br/> Max 33%", "formations":[
 			{"id":530, "name":"Wraithship",	"pts":150, "upgrades":[]},
 			{"id":531, "name":"Dragonship",	"pts":300, "upgrades":[]},
 		 	{"id":532, "name":"Warlock Titan",	"pts":850, "upgrades":[]},
 			{"id":533, "name":"Phantom Titan",	"pts":750, "upgrades":[]},
 			{"id":534, "name":"Revenant Titans","pts":650, "units":"2 Revenant Titans", "upgrades":[]},
 			{"id":535, "name":"Nightwings",	"pts":300, "units":"3 Nightwing Interceptors", "upgrades":[]},
-			{"id":536, "name":"Phoenix Bombers","pts":300, "units":"3 Phoenix Bombers", "upgrades":[]}
+			{"id":536, "name":"Phoenix","pts":300, "units":"3 Phoenix Bombers", "upgrades":[]}
 		]}
 	],
 	"upgrades":[
-		{"id":15, "name":"Dire Avenger",		"pts":0},
-		{"id":16, "name":"Striking Scorpion",	"pts":0},
-		{"id":17, "name":"Howling Banshee",	"pts":0},
-		{"id":18, "name":"Fire Dragon",		"pts":0},
-		{"id":20, "name":"Dark Reaper",		"pts":0},
-		{"id":21, "name":"Swooping Hawk",		"pts":0},
+		{"id":15, "name":"Dire Avengers",		"pts":0},
+		{"id":16, "name":"Striking Scorpions",	"pts":0},
+		{"id":17, "name":"Howling Banshees",	"pts":0},
+		{"id":18, "name":"Fire Dragons",		"pts":0},
+		{"id":20, "name":"Dark Reapers",		"pts":0},
+		{"id":21, "name":"Swooping Hawks",		"pts":0},
 		{"id":24, "name":"Guardians",				"pts":0},
 		{"id":25, "name":"Heavy Weapon Platform",	"pts":0},
 		{"id":30, "name":"Falcon",		"pts":50},
-		{"id":31, "name":"Fire Storm",	"pts":50},
+		{"id":31, "name":"Firestorm",	"pts":50},
 		{"id":33, "name":"Spirit Stones",	"pts":25},
 		{"id":34, "name":"Cobra",			"pts":200},
 		{"id":35, "name":"Scorpion",		"pts":200},
@@ -62,7 +62,7 @@
 		{"max":1, "from":[501]},
 		{"min":1, "max":1, "from":[502]},
 		{"max":1, "from":[532]},
-		{"maxPercent":33.5, "name":"Aircraft & Titans", "from":[530,531,532,533,534,535,536]},
+		{"maxPercent":33.5, "name":"Craftworld Navy & Titans", "from":[530,531,532,533,534,535,536]},
 		{"max":1, "name":"Spacecraft", "from":[530,531]}
 	],
 	"upgradeConstraints":[

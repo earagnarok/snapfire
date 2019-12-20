@@ -15,7 +15,7 @@
 			{"id":500, "name":"Pathfinder Troupe",					"pts":0, "upgrades":[12]},
 			{"id":501, "name":"Aspect Warrior Troupe", 			"pts":225,	"upgrades":[38,39,41,42]},
 			{"id":502, "name":"War Walker Troupe",				"pts":50, "upgrades":[13]},
-			{"id":503, "name":"Windrider Troupe",				"pts":200, 	"upgrades":[]},
+			{"id":503, "name":"Wind Rider Troupe",				"pts":200, 	"upgrades":[]},
 			{"id":504, "name":"Swords of Vaul Troupe",			"pts":0, "upgrades":[30,31,32]},
 			{"id":505, "name":"Night Spinner Troupe",			"pts":175, 	"units":"3 Night Spinners", "upgrades":[]},
 			{"id":506, "name":"Engines of Vaul Troupe",			"pts":0, "upgrades":[34,35,36]}
@@ -89,7 +89,7 @@
 		{"min":5, "max":6, "from":[30,31,32], "appliesTo":[504]},
 		{"max":2, "from":[31], "appliesTo":[504]},
 		{"min":6, "max":6, "from":[27,28], "appliesTo":[503]},
-		{"min":7, "max":7, "from":[24,25], "appliesTo":[511,512]},
+		{"min":7, "max":7, "from":[24,25], "appliesTo":[511]},
 		{"min":6, "max":6, "from":[15,16,17,18,19,20,21,22], "appliesTo":[501]},
 		{"min":4, "max":6, "from":[13], "appliesTo":[502]},
 		{"min":4, "max":6, "from":[12], "appliesTo":[500]},
