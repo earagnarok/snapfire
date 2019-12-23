@@ -35,7 +35,7 @@
    "upgrades": [
       {"id": 11, "name": "The Nightbringer", "pts": 300},
       {"id": 12, "name": "The Deceiver", "pts": 300},
-      {"id": 100, "name": "Tomb Spyders", "pts": 50},
+      {"id": 100, "name": "Tomb Spyder", "pts": 50},
       {"id": 101, "name": "Pariahs", "pts": 60},
       {"id": 102, "name": "Immortals", "pts": 40},
       {"id": 103, "name": "Wraiths", "pts": 50},

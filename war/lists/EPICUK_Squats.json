@@ -1,51 +1,48 @@
 {
 	"id":"EpicUK Squats",
-	"version":"v191115",
-	"notes":[
-		"If transport Upgrade is chosen, then you must take exactly enough transports of only one kind to transport all units in the formation."
-	],
-	"by":"Kyussinchains",
+	"version":"v19-11-15",
+	"by":"EA-Ragnarok",
 	"sections":[
-
-		{"name":"SQUAT BROTHERHOODS & GUILDS", "formations":[
+		{"name":"SQUAT INDIVIDUALS", "formations":[
+			{"id":520, "name":"Grand Warlord", 	"pts":50, "units":"Add one Grand Warlord character to a Warlord or Guildmaster in the army", "upgrades":[]},
+			{"id":521, "name":"Ancestor", 	"pts":25, "units":"Add one Living Ancestor to a Warlord, Leviathan, Colossus, Cyclops or Land Train in the army", "upgrades":[]}
+		]},
+		{"name":"SQUAT BROTHERHOODS", "formations":[
 			{"id":501, "name":"Warrior Brotherhood", 	"pts":250, "upgrades":[1,2,3,4,7,8,9,14,50] },
-			{"id":502, "name":"Berzerker Brotherhood", 	"pts":200, "upgrades":[1,2,3,4,7,8], "units":"1 Hearthguard unit and 7 Berzerker units"}
+			{"id":502, "name":"Berserker Brotherhood", 	"pts":200, "upgrades":[1,2,3,4,7,8], "units":"Hearthguards, 7 Squat Berserkers"}
 		]},
-		{"name":"SQUAT SUPPORT FORMATIONS", "formations":[
+		{"name":"SQUAT SUPPORT <br/> Max 3 for each Squat Brotherhood", "formations":[
 			{"id":511, "name":"Heavy Support", 	"pts":200, "upgrades":[50]},
-			{"id":514, "name":"Thunderfire", 	"pts":175,"units":"3 Thunderfire cannons plus transport"},
-			{"id":515, "name":"Thunderer", 	"pts":200, "units":"4 Thunderer units plus transport", "upgrades":[50]},
+			{"id":514, "name":"Thunderfire", 	"pts":175,"units":"3 Squat Thunderfires", "upgrades":[1]},
+			{"id":515, "name":"Thunderer", 	"pts":200, "units":"4 Thunderers", "upgrades":[1,2,3,4,50]},
 			{"id":518, "name":"Overlord", 	"pts":25, "upgrades":[20]},
-			{"id":516, "name":"Bikers", 	"pts":225},
-			{"id":517, "name":"Iron Eagle", "units":"4 Iron Eagles", "pts":250}
+			{"id":516, "name":"Bikers", 	"pts":225, "units":"Guildmaster","upgrades":[8]},
+			{"id":517, "name":"Iron Eagles", "units":"4 Iron Eagles", "pts":250}
 		]},
-		{"name":"WAR ENGINE FORMATIONS", "formations":[
+		{"name":"SQUAT WAR ENGINES <br/> Max 33%", "formations":[
 
 			{"id":531, "name":"Goliath", 	"pts":300, "units":"2 Goliath Mega Cannons"},
-			{"id":532, "name":"Leviathan", 	"pts":350, "units":"1 Leviathan","upgrades":[9]},
-			{"id":533, "name":"Colossus", 	"pts":475, "units":"1 Colossus","upgrades":[9]},
-			{"id":534, "name":"Cyclops", 	"pts":475, "units":"1 Cyclops","upgrades":[9]},
-			{"id":535, "name":"Land Train", "pts":200, "units":"1 Land Train Engine","upgrades":[9,30,31,32,33]}
+			{"id":532, "name":"Leviathan", 	"pts":350, "upgrades":[9]},
+			{"id":533, "name":"Colossus", 	"pts":475, "upgrades":[9]},
+			{"id":534, "name":"Cyclops", 	"pts":475, "upgrades":[9]},
+			{"id":535, "name":"Land Train", "pts":200, "units":"Land Train Engine","upgrades":[9,30,31,32,33]}
 		]}
 	],
 	"upgrades":[
 		{"id":1, "name":"Rhinos", "pts":0},
-		{"id":2, "name":"Termite Tunnellers", "pts":0},
-		{"id":3, "name":"2 Mole Tunnellers", "pts":100},
-		{"id":4, "name":"Hellbore Tunneller", "pts":125},
-
-		{"id":5, "name":"Guildmaster", "pts":0},
-		{"id":6, "name":"Grand Warlord", "pts":50},
+		{"id":2, "name":"Termites", "pts":0},
+		{"id":3, "name":"2 Moles", "pts":100},
+		{"id":4, "name":"Hellbore", "pts":125},
 
 		{"id":7, "name":"Warlord", "pts":50},
-		{"id":8, "name":"Grand Warlord", "pts":100},
-		{"id":9, "name":"Living Ancestor", "pts":25},
+		{"id":8, "name":"Grand Warlord", "pts":0},
+		{"id":9, "name":"Living Ancestor", "pts":0},
 
-		{"id":10, "name":"1 Hearthguard unit and 9 Warrior units", "pts":0},
-		{"id":11, "name":"1 Hearthguard unit and 13 Warrior units", "pts":75},
+		{"id":10, "name":"Hearthguards, 9 Squat Warriors", "pts":0},
+		{"id":11, "name":"Hearthguards, 13 Squat Warriors", "pts":75},
 
-		{"id":14, "name":"2 Thunderer units", "pts":75},
-		{"id":15, "name":"Bike", "pts":0},
+		{"id":14, "name":"2 Thunderers", "pts":75},
+		{"id":15, "name":"Bikes", "pts":0},
 		{"id":16, "name":"Trike", "pts":0},
 
 		{"id":20, "name":"Overlord Airship", "pts":225},
@@ -57,7 +54,7 @@
 		{"id":33, "name":"Mortar Battle Car", "pts":75},
 
 
-		{"id":50, "name":"4 Rapier units", "pts":100},
+		{"id":50, "name":"4 Rapiers", "pts":100},
 
 
 		{"id":60, "name":"Robot", "pts":0},
@@ -68,22 +65,25 @@
 
 	],
 	"formationConstraints":[
+
+		{"max":1, "name":"Grand Warlord", "from":[520]},
+		{"max":1, "name":"Living Ancestor", "from":[521]},
 		{"max":3, "name":"Support Formations", "from":[511,514,515,516,517,518], "forEach":[501,502], "name2":"Brotherhood"},
-		{"maxPercent":33, "name":"War Engine Formations", "from":[531,532,533,534,535]}
+		{"maxPercent":33.5, "name":"War Engine Formations", "from":[531,532,533,534,535]}
 
 	],
 	"upgradeConstraints":[
-		{"max":1, "name":"Warlord", "from":[7,8]},
+		{"max":1, "name":"Warlord", "from":[7]},
 		{"max":1,  "from":[8], "perArmy": true},
 		{"max":1,  "from":[9], "perArmy": true},
-		{"max":1,  "from":[1,2,3,4], "appliesTo":[501,502]},
+		{"max":1,  "from":[1,2,3,4]},
+		{"max":1,  "from":[2,50]},
 		{"min":1, "max":1, "from":[10,11], "appliesTo":[501]},
-		{"max":1,  "from":[50], "appliesTo":[501,511,515]},
+		{"max":1,  "from":[50], "appliesTo":[501,511]},
 		{"max":1,  "from":[14], "appliesTo":[501]},
 		{"min":6, "max":6, "from":[15,16], "appliesTo":[516]},
 		{"min":6, "max":6, "from":[60,61,62,63], "appliesTo":[511]},
 		{"max":3, "from":[16], "appliesTo":[516]},
-		{"min":1, "max":1, "from":[5,6], "appliesTo":[516]},
 
 		{"min":1, "max":2, "from":[20], "appliesTo":[518]},
 
