@@ -70,9 +70,9 @@
 		{"id":163, "name":"2 Acastus Knight-Asterius (2 Acastus Twin Conversion Beamers, Rad Cleanser, Ionic Shield)",	"pts":0},
 		{"id":164, "name":"2 Acastus Knight-Porphyrion (2 Magna Lascannons, 2 Autocannons, Helios Defense Missiles)",  "pts":0},
 
-		{"id":170, "name":"3 Eradication Beamer, 2 Icarus Array",				"pts":0},
-		{"id":171, "name":"3 Neutron Laser, 2 Icarus Array",				"pts":0},
-		{"id":172, "name":"3 Twin Heavy Phospor Blaster, 2 Icarus Array",				"pts":0},
+		{"id":170, "name":"3x Eradication Beamer, 2x Icarus Array",				"pts":0},
+		{"id":171, "name":"3x Neutron Laser, 2x Icarus Array",				"pts":0},
+		{"id":172, "name":"3x Twin Heavy Phospor Blaster, 2x Icarus Array",				"pts":0},
 
 		{"id":180, "name":"Ark Mechanicus Battleship",																			"pts":0}
 

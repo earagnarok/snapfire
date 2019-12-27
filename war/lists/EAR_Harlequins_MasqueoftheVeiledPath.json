@@ -13,7 +13,7 @@
 			{"id":511, "name":"Lugganath Wraithhost",	"units":"Spiritseer, 4 Wraithreapers, 4 Wave Serpents", "pts":375,"upgrades":[]}
 		]},
 
-		{"name":"LUGGANATH TROUPES <br/> Max 1 Troupe for each Warhost/Wraithhost", "formations":[
+		{"name":"LUGGANATH TROUPES <br/> Max 1 for each Warhost/Wraithhost", "formations":[
 			{"id":520, "name":"Corsair Scouts", 				"pts":150, "upgrades":[]},
 			{"id":521, "name":"Mounted Aspect Warrior Troupe", 	"pts":325, "units":"3 Wave Serpents", "upgrades":[10,11]},
 			{"id":522, "name":"Swords of Vaul", 				"pts":250, "upgrades": []},
@@ -21,7 +21,7 @@
 			{"id":525, "name":"Engines of Vaul",					"pts":50,	"upgrades":[50,51,52]}
 		]},
 
-			{"name":"VEILED PATH SAEDATHS <br/> Max 1 Veiled Path Saedath for each Warhost/Wraithhost", "formations":[
+			{"name":"VEILED PATH SAEDATHS <br/> Max 1 for each Warhost/Wraithhost", "formations":[
 			{"id":530, "name":"Cegorach's Escape",	"pts":200, "units":"Harlequin Avatar, 2 Harlequin Troupes, Death Jesters, 3 Starweavers", "upgrades":[]},
 			{"id":531, "name":"Serpent's Scales",	"pts":225, "units":"Harlequin Avatar, 3 Skyweavers, 2 Voidweavers", "upgrades":[]},
 			{"id":532, "name":"Devourer's Hunt",	"pts":225, "units":"Master Mime, 6 Mimes", "upgrades":[]},

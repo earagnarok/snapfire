@@ -98,11 +98,12 @@
       {"max": 3,"name": "Support Groups","from": [516,514,518,512,517,513],"forEach": [532,531],"name2": "Cadre"}
    ],
    "upgradeConstraints": [
+       {"max": 1,"perArmy": true,"from": [51]},
+       {"max": 1,"perArmy": true,"from": [60]},
+
       {"max": 1,"min": 1,"from": [16,17,18],"appliesTo": [532]},
       {"max": 1,"min": 1,"from": [50,51],"appliesTo": [532]},
-      {"max": 1,"perArmy": true,"from": [51]},
       {"max": 1,"from": [34,35,36],"appliesTo": [532,531,512,515,513],"name": "Drone"},
-      {"max": 1,"from": [60],"appliesTo": [531]},
       {"max": 1,"min": 1,"from": [31,32,64,65,66,67],"appliesTo": [531],"name": "Warriors"},
       {"max": 1,"from": [55],"appliesTo": [531,516]},
       {"max": 1,"from": [61],"appliesTo": [531]},

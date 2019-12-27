@@ -2,24 +2,22 @@
 	"id":"EA-R Kabal of the Black Heart",
 	"version":"0.7.3",
 	"by":"EA-Ragnarok",
-	"notes":["All Dark eldar formations with the 'transport' upgrade option may only select enough transports to transport the formation with no transport spaces left over after any upgrades have been added to the formation"],
-	"notes":[],
+	"notes":["Raiders / Venoms may carry Incubi, Warrior, Wych, Haemonculi and Wrack units. No Raider / Venom transport space may be left over after any other transport upgrades have been added to the formation."],
 	"sections":[
 		{"name":"DARK ELDAR SPECIALS", "formations":[
-			{"id":530, "name":"Wraithgate", "pts":50, "upgrades":[]},
-			{"id":531, "name":"Portable Webway Portal", "pts":50, "upgrades":[]}
+			{"id":530, "name":"Wraithgate", "pts":50, "upgrades":[]}
 		]},
 		{"name":"BLACK HEART KABALS", "formations":[
-			{"id":511, "name":"Black Heart Coterie", "pts":250, "upgrades":[57,61,70,40,41,42,43,72,1]},
-			{"id":512, "name":"Black Heart Syndicate", "pts":200,	"upgrades":[17,61,70,40,41,42,43,72,1]},
+			{"id":511, "name":"Black Heart Coterie", "pts":250, "upgrades":[57,61,70,40,41,42,43,72]},
+			{"id":512, "name":"Black Heart Syndicate", "pts":200,	"upgrades":[61,70,40,41,42,43,72,17,2]},
 			{"id":513, "name":"Black Heart Flotilla", "pts":25, "upgrades":[61]}
 		]},
 		{"name":"BLACK HEART PARTISANS <br/> Max 2 for each Kabal", "formations":[
-			{"id":501, "name":"Haemonculi Coven", "pts":225, "units":"2 Haemonculi, 4 Wracks", "upgrades":[19,65,70,40,41,42,72,73,74,1]},
+			{"id":501, "name":"Haemonculi Coven", "pts":225, "units":"2 Haemonculi, 4 Wracks", "upgrades":[65,70,40,41,42,72,73,74,19,3]},
 			{"id":502, "name":"Talos Swarm", "pts":225, "upgrades":[]},
-			{"id":503, "name":"Wych Cult", "pts":150,  "units":"Succubus",  "upgrades":[62,70,40,41,42,72,1]},
+			{"id":503, "name":"Wych Cult", "pts":175,  "upgrades":[62,70,40,41,42,72]},
 			{"id":504, "name":"Hellion Murder", "pts":200, "units":"6 Hellions", "upgrades":[62]},
-			{"id":505, "name":"Reaver Gang", "pts":50, "upgrades":[83,1]},
+			{"id":505, "name":"Reaver Gang", "pts":50, "upgrades":[83]},
 			{"id":506, "name":"Mandrake Throng", "pts":200, "units":"6 Mandrakes", "upgrades":[]},
 			{"id":507, "name":"Scourge Flight", "pts":250, "units":"6 Scourges", "upgrades":[]},
 			{"id":508, "name":"Vessels of Pain", "pts":50, "upgrades":[30]}
@@ -33,9 +31,14 @@
 		]}
 	],
 	"upgrades":[
-		{"id":1, "name":"Portable Webway Portal", "pts":0},
+		{"id":1, "name":"Archon w/ Portable Webway Portal", "pts":50},
+		{"id":2, "name":"Dracon w/ Portable Webway Portal", "pts":100},
+		{"id":3, "name":"Haemonculus Ancient w/ Portable Webway Portal", "pts":75},
+		{"id":4, "name":"Succubus w/ Portable Webway Portal", "pts":50},
+
+		{"id":16, "name":"Archon", "pts":0},
 		{"id":17, "name":"Dracon", "pts":50},
-		{"id":18, "name":"Succubus", "pts":25},
+		{"id":18, "name":"Succubus", "pts":0},
 		{"id":19, "name":"Haemonculus Ancient", "pts":25},
 
 		{"id":30, "name":"Vessel of Pain", "pts":200},
@@ -45,16 +48,16 @@
 		{"id":42, "name":"6 Venoms", "pts":75},
 		{"id":43, "name":"8 Venoms", "pts":100},
 
-		{"id":55, "name":"Archon, 4 Incubi", "pts":0},
-		{"id":56, "name":"Archon, 6 Incubi", "pts":75},
-		{"id":57, "name":"2 Warriors", "pts":50},
-		{"id":58, "name":"6 Warriors", "pts":0},
-		{"id":59, "name":"8 Warriors", "pts":50},
+		{"id":55, "name":"4 Incubi", "pts":0},
+		{"id":56, "name":"6 Incubi", "pts":75},
+		{"id":57, "name":"2 Dark Eldar Warriors", "pts":50},
+		{"id":58, "name":"6 Dark Eldar Warriors", "pts":0},
+		{"id":59, "name":"8 Dark Eldar Warriors", "pts":50},
 		{"id":61, "name":"Ravager", "pts":50},
 		{"id":62, "name":"Warp Beasts", "pts":25},
-		{"id":63, "name":"4 Wyches", "pts":0},
-		{"id":64, "name":"6 Wyches", "pts":50},
-		{"id":65, "name":"2 Grotesques", "pts":100},
+		{"id":63, "name":"4 Dark Eldar Wyches", "pts":0},
+		{"id":64, "name":"6 Dark Eldar Wyches", "pts":50},
+		{"id":65, "name":"2 Grotesques", "pts":50},
 		{"id":70, "name":"Raider", "pts":0},
 		{"id":71, "name":"2 Venoms", "pts":25},
 		{"id":72, "name":"Barge of Pleasure", "pts":125},
@@ -77,9 +80,11 @@
 		{"max":1, "name":"Spacecraft", "from":[522]}
 	],
 	"upgradeConstraints":[
-					{"max":1, "perArmy":true, "from":[1]},
-		{"max":1, "from":[17]},
-		{"max":1, "from":[18]},
+		{"max":1, "perArmy":true, "from":[1,2,3,4]},
+		{"min":1, "max":1, "from":[16,1], "appliesTo":[511]},
+		{"min":1, "max":1, "from":[18,4], "appliesTo":[503]},
+		{"max":1, "from":[2,17]},
+		{"max":1, "from":[3,18]},
 		{"max":1, "from":[19]},
 		{"max":1, "from":[40,41,42,43]},
 
@@ -95,7 +100,8 @@
 		{"max":1, "from":[73,74]},
 		{"max":2, "from":[61], "appliesTo":[511,512]},
 		{"max":1, "from":[55]},
-		{"max":1, "from":[57]}
+		{"max":1, "from":[57]},
+		{"max":1, "from":[65]}
 
 	]
 }

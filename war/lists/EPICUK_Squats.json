@@ -4,23 +4,22 @@
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"SQUAT INDIVIDUALS", "formations":[
-			{"id":520, "name":"Grand Warlord", 	"pts":50, "units":"Add one Grand Warlord character to a Warlord or Guildmaster in the army", "upgrades":[]},
-			{"id":521, "name":"Ancestor", 	"pts":25, "units":"Add one Living Ancestor to a Warlord, Leviathan, Colossus, Cyclops or Land Train in the army", "upgrades":[]}
+			{"id":520, "name":"Grand Warlord", 	"pts":50, "units":"Add one Grand Warlord character to a Squat Warlord or Guildmaster in the army", "upgrades":[]},
+			{"id":521, "name":"Ancestor", 	"pts":25, "units":"Add one Living Ancestor to a Squat Warlord, Leviathan, Colossus, Cyclops or Land Train in the army", "upgrades":[]}
 		]},
 		{"name":"SQUAT BROTHERHOODS", "formations":[
 			{"id":501, "name":"Warrior Brotherhood", 	"pts":250, "upgrades":[1,2,3,4,7,8,9,14,50] },
-			{"id":502, "name":"Berserker Brotherhood", 	"pts":200, "upgrades":[1,2,3,4,7,8], "units":"Hearthguards, 7 Squat Berserkers"}
+			{"id":502, "name":"Berserker Brotherhood", 	"pts":200, "upgrades":[1,2,3,4,7,8,9], "units":"Hearthguards, 7 Squat Berserkers"}
 		]},
 		{"name":"SQUAT SUPPORT <br/> Max 3 for each Squat Brotherhood", "formations":[
 			{"id":511, "name":"Heavy Support", 	"pts":200, "upgrades":[50]},
-			{"id":514, "name":"Thunderfire", 	"pts":175,"units":"3 Squat Thunderfires", "upgrades":[1]},
-			{"id":515, "name":"Thunderer", 	"pts":200, "units":"4 Thunderers", "upgrades":[1,2,3,4,50]},
-			{"id":518, "name":"Overlord", 	"pts":25, "upgrades":[20]},
+			{"id":514, "name":"Thunderfire Flak", 	"pts":175,"units":"3 Squat Thunderfires", "upgrades":[1]},
+			{"id":515, "name":"Thunderers", 	"pts":200, "units":"4 Thunderers", "upgrades":[1,2,3,4,50]},
+			{"id":518, "name":"Overlords", 	"pts":25, "upgrades":[20]},
 			{"id":516, "name":"Bikers", 	"pts":225, "units":"Guildmaster","upgrades":[8]},
 			{"id":517, "name":"Iron Eagles", "units":"4 Iron Eagles", "pts":250}
 		]},
 		{"name":"SQUAT WAR ENGINES <br/> Max 33%", "formations":[
-
 			{"id":531, "name":"Goliath", 	"pts":300, "units":"2 Goliath Mega Cannons"},
 			{"id":532, "name":"Leviathan", 	"pts":350, "upgrades":[9]},
 			{"id":533, "name":"Colossus", 	"pts":475, "upgrades":[9]},

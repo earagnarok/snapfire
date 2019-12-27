@@ -2,7 +2,7 @@
 	"id":"EpicUK Dark Eldar",
 	"version":"v05-06-15",
 	"by":"EA-Ragnarok",
-	"notes":["Raiders / Venoms may carry Incubi, Warrior, Wych, Haemonculi and Wrack units. No Raider / Venom transport space may be left over after any other transport upgrades have been added to the formation"],
+	"notes":["Raiders / Venoms may carry Incubi, Warrior, Wych, Haemonculi and Wrack units. No Raider / Venom transport space may be left over after any other transport upgrades have been added to the formation."],
 	"sections":[
 		{"name":"INDIVIDUALS", "formations":[
 			{"id":530, "name":"Wraithgate", "pts":50, "upgrades":[]},
