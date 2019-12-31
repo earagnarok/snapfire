@@ -17,7 +17,7 @@
 			{"id":521, "name":"Night Spinner Troupe", "pts":175, "units":"3 Night Spinners", "upgrades":[33]},
 			{"id":525, "name":"Fire Prism Troupe", "units":"3 Fire Prisms",	"pts":250, "upgrades":[33]},
 			{"id":526, "name":"Warp Hunter Troupe", "units":"3 Warp Hunters", "pts":175, "upgrades":[33]},
-			{"id":527, "name":"Wind Rider Troupe", "units":"6 Vyper units",	"pts":200, "upgrades":[33]},
+			{"id":527, "name":"Wind Rider Troupe", "units":"6 Vypers",	"pts":200, "upgrades":[33]},
 			{"id":528, "name":"Hornet Troupe", "units":"5 Hornets",	"pts":225, "upgrades":[33]},
 			{"id":529, "name":"Lynx Troupe", "units":"2 Lynx",	"pts":300, "upgrades":[33]}
 		]},

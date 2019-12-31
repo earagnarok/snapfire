@@ -9,12 +9,12 @@
       ]},
       {"name": "WARHOSTS", "formations": [
             {"id": 510, "name": "Aspect Warrior Warhost", "pts": 300, "upgrades": [13,39,40]},
-            {"id": 511, "name": "Guardian Warhost", "pts": 150, "upgrades": [13,43,44,45]}
+            {"id": 511, "name": "Guardian Warhost", "pts": 150, "upgrades": [13,43,44,45,46,47]}
          ]},
       {"name": "TROUPES <br/> Max 2 for each Warhost", "formations": [
             {"id": 500, "name": "Rangers", "pts": 0, "upgrades": [11]},
             {"id": 501, "name": "War Walker Troupe", "pts": 25, "upgrades": [42]},
-            {"id": 502, "name": "Windrider Troupe", "pts": 200, "upgrades": []},
+            {"id": 502, "name": "Wind Rider Troupe", "pts": 200, "upgrades": []},
             {"id": 503, "name": "Swords of Vaul", "pts": 250, "upgrades": []},
             {"id": 504, "name": "Night Spinner Troupe", "pts": 175, "units": "3 Night Spinners", "upgrades": []},
             {"id": 505, "name": "Engines of Vaul", "pts": 50, "upgrades": [34,35,36]},
@@ -34,7 +34,7 @@
    ],
    "upgrades": [
       {"id": 11, "name": "Rangers", "pts": 25},
-      {"id": 13, "name": "4 Wave Serpents (may only be taken if the entire formation can fit inside)", "pts": 125},
+      {"id": 13, "name": "4 Wave Serpents", "pts": 150},
       {"id": 15, "name": "Dire Avengers", "pts": 0},
       {"id": 16, "name": "Striking Scorpions", "pts": 0},
       {"id": 17, "name": "Howling Banshees", "pts": 0},
@@ -63,6 +63,8 @@
       {"id": 43, "name": "3 Support Weapon Platforms", "pts": 50},
       {"id": 44, "name": "2 Wraithguards", "pts": 75},
       {"id": 45, "name": "Wraithlord", "pts": 50},
+      {"id": 46, "name": "2 Wraithlords", "pts": 100},
+      {"id": 47, "name": "3 Wraithlords", "pts": 150},
 
       {"id": 52, "name": "Farseer", "pts": 0},
       {"id": 53, "name": "Phoenix Bombers", "pts": 75},
@@ -82,7 +84,9 @@
    "upgradeConstraints": [
       {"max": 8, "min": 8, "from": [15,16,17,18,19,20,21,22], "appliesTo": [510]},
       {"max": 1, "perArmy": true, "from": [40]},
-      {"max": 1, "from": [13]},
+      {"max": 1, "from": [13,43]},
+      {"max": 1, "from": [13,44]},
+      {"max": 1, "from": [13,45,46,47]},
       {"max": 1, "from": [40], "appliesTo": [510]},
       {"max": 2, "from": [39,40], "appliesTo": [510], "name": "Exarch"},
       {"max": 4, "from": [41,42], "appliesTo": [510], "name": "Aspect Transport"},

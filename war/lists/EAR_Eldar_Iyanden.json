@@ -74,8 +74,8 @@
       {"id": 67, "name": "Nightwing Interceptors", "pts": 75},
       {"id": 71, "name": "War Walker", "pts": 25},
 
-      {"id": 80, "name": "Phantom Titan (2 Titan Pulsars)", "pts": 0},
-      {"id": 81, "name": "Phantom Titan (Titan Pulsar, Eldar Titan Powerfist)", "pts": 0}
+      {"id": 80, "name": "2x Titan Pulsars", "pts": 0},
+      {"id": 81, "name": "Titan Pulsar, Titan Powerfist", "pts": 0}
    ],
    "formationConstraints": [
       {"max": 1, "from": [507]},
@@ -106,6 +106,7 @@
       {"max": 1, "from": [55,46]},
       {"max": 1, "from": [55,44]},
       {"max": 1, "from": [55,43]},
+      {"max": 1, "from": [55,41]},
       {"max": 1, "from": [55,14]},
       {"max": 1, "from": [55,51,52,53]},
 

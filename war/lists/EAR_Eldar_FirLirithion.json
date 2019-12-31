@@ -20,7 +20,7 @@
         {"id": 532, "name": "Fire Gale Troupe", "pts": 300, "units": "Two Fire Gale Knights", "upgrades": []},
         {"id": 533, "name": "Bright Stallion Troupe", "pts": 250, "units": "Two Bright Stallion Knights", "upgrades": []},
 	    {"id": 534, "name": "Wraithknight Troupe", "pts": 325, "units": "Three Wraithknights", "upgrades": []},
-        {"id": 535, "name": "Spirit Guard Wraithhost", "pts": 225, "units": "Spiritseer", "upgrades": [41,47,55]}
+        {"id": 535, "name": "Spirit Guard Wraithhost", "pts": 225, "units": "Spiritseer", "upgrades": [41,47,48,49,55]}
 	]},
       {"name": "CRAFTWORLD NAVY <br/> Max 25%", "formations": [
           {"id": 540, "name": "Nightwing Aerie", "pts": 75, "upgrades": [20]},
@@ -44,7 +44,9 @@
       {"id": 45, "name": "4 Wraithguards", "pts": 0},
       {"id": 46, "name": "6 Wraithguards", "pts": 75},
       {"id": 47, "name": "Wraithlord", "pts": 50},
-      {"id": 55, "name": "4 Wave Serpents (may only be taken if the entire formation can fit inside)", "pts": 150},
+      {"id": 48, "name": "2 Wraithlords", "pts": 100},
+      {"id": 49, "name": "3 Wraithlords", "pts": 150},
+      {"id": 55, "name": "4 Wave Serpents", "pts": 150},
 
       {"id": 60, "name": "Titan Pulsar", "pts": 0},
       {"id": 61, "name": "Dire Pulsar", "pts": 0},
@@ -67,9 +69,9 @@
 
       {"max": 1, "perArmy": true, "from": [11]},
 
-      {"max": 1, "from": [41]},
-      {"max": 3, "from": [47]},
-      {"max": 1, "from": [55]},
+      {"max": 1, "from": [55,41]},
+      {"max": 1, "from": [55,46]},
+      {"max": 1, "from": [55,47,48,49]},
 
       {"max": 2, "min": 2, "from": [60,61,62,63,64,65,66], "appliesTo": [512]},
       {"max": 1, "from": [65,66], "appliesTo": [512]},

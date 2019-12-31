@@ -17,12 +17,12 @@
 		{"name":"RELIC LANCES <br/> Max 1 of each Relic Lance per Army", "formations":[
 			{"id":503, "name":"Questoris Reliquae",	"pts":450,  "upgrades":[]},
 			{"id":504, "name":"Acastus Reliquae",	"pts":500,  "upgrades":[]},
-			{"id":505, "name":"Cerastus Reliquae",	"pts":225, "units":"Seneschal, Cerastus Knight-Atrapos",  "upgrades":[]}
+			{"id":505, "name":"Cerastus Reliquae",	"pts":200, "units":"Seneschal, Cerastus Knight-Atrapos",  "upgrades":[]}
 		]},
-		{"name":"FORGE WORLD ALLIES <br/> Max 33%", "formations":[
-			{"id":510, "name":"Hypaspist Maniple",		"pts":325,  "upgrades":[], "units":"Magos, Gorgon, 9 Hypaspists"},
+		{"name":"FORGE WORLD & COLLEGIA TITANICA ALLIES <br/> Max 33%", "formations":[
+			{"id":510, "name":"Vanguard Maniple",		"pts":200,  "upgrades":[], "units":"Magos, 9 Skitarii Vanguards"},
 
-			{"id":512, "name":"Dune Crawlers",		"pts":225,  "upgrades":[]},
+			{"id":512, "name":"Onager Cataphractii",		"pts":300, "units":"6 Onager Dunecrawlers", "upgrades":[]},
 
             {"id":514, "name":"Avenger Squadron",				"pts":175,  "upgrades":[], "units":"2 Avenger Strike Fighters"},
 
@@ -47,6 +47,9 @@
         {"id":71,"name":"2x Warhound Scout Titans (Support Configuration) Inferno Gun, Vulcan Mega Bolter","pts":0},
         {"id":72,"name":"2x Warhound Scout Titans (Standard Configuration) Plasma Blastgun, Vulcan Mega Bolter)","pts":0},
 
+		{"id":90, "name":"5 Skorpius Duneriders",	"pts":125},
+		{"id":91, "name":"Gorgon",					"pts":100},
+
 		{"id":100, "name":"3 Knight-Paladin (Rapid Fire Battle Cannon, 2 Hvy Stubbers, Reaper Chainsword)",						"pts":0},
 		{"id":101, "name":"3 Knight-Errant (Thermal Cannon, Hvy Stubber, Thunderstrike Gauntlet)",								"pts":0},
 		{"id":102, "name":"3 Knight-Crusader (Rapid Fire Battle Cannon, Gatling Cannon, 2 Hvy Stubbers, Icarus Autocannon)",	"pts":0},
@@ -70,9 +73,9 @@
 		{"id":163, "name":"2 Acastus Knight-Asterius (2 Acastus Twin Conversion Beamers, Rad Cleanser, Ionic Shield)",	"pts":0},
 		{"id":164, "name":"2 Acastus Knight-Porphyrion (2 Magna Lascannons, 2 Autocannons, Helios Defense Missiles)",  "pts":0},
 
-		{"id":170, "name":"3x Eradication Beamer, 2x Icarus Array",				"pts":0},
-		{"id":171, "name":"3x Neutron Laser, 2x Icarus Array",				"pts":0},
-		{"id":172, "name":"3x Twin Heavy Phospor Blaster, 2x Icarus Array",				"pts":0},
+		{"id":170, "name":"4x Eradication Beamer, 2x Icarus Array",				"pts":0},
+		{"id":171, "name":"4x Neutron Laser, 2x Icarus Array",				"pts":0},
+		{"id":172, "name":"4x Twin Heavy Phosphor Blasters, 2x Icarus Array",				"pts":0},
 
 		{"id":180, "name":"Ark Mechanicus Battleship",																			"pts":0}
 
@@ -121,6 +124,7 @@
 
 		{"min":1, "max":1, "from":[164,163], "appliesTo":[504]},
 
+		{"min":1, "max":1, "from":[91,90], "appliesTo":[510]},
 
 		{"min":1, "max":1, "from":[170,171,172], "appliesTo":[512]},
 
