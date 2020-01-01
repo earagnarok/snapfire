@@ -58,7 +58,7 @@
 		{"id": 40, "name": "5 Falcons", "pts": 0},
         {"id": 41, "name": "4 Falcons, Firestorm", "pts": 0},
         {"id": 42, "name": "3 Falcons, 2 Firestorms", "pts": 0},
-        {"id": 43, "name": "5 Falcons, 5 Guardians", "pts": 75},
+        {"id": 43, "name": "5 Falcons, 5 Guardians", "pts": 50},
 
 		{"id":50, "name":"Cobra", 					"pts":200},
 		{"id":51, "name":"Storm Serpent", 			"pts":200},

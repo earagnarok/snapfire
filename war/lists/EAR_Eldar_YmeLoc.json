@@ -9,13 +9,13 @@
 		]},
 		{"name":"VAULHOSTS", "formations":[
 			{"id":510, "name":"Engines of Vaul", "pts":50, "upgrades":[40,34,35,36]},
-			{"id":512, "name":"Lynx Vaulhost", "units":"2 Lynx",	"pts":300, "upgrades":[]},
-			{"id":511, "name":"Falcon Vaulhost",	"pts":300, "upgrades":[]}
+			{"id":511, "name":"Swords of Vaul",	"pts":300, "upgrades":[]}
 
 		]},
 		{"name":"TROUPES <br/> Up to 2 for each Vaulhost", "formations":[
 			{"id":520, "name":"Mounted Aspect Warrior Troupe", "pts":325,  "units":"3 Wave Serpents", "upgrades":[39]},
 			{"id":524, "name":"Mounted Guardian Troupe", "units":"Farseer, 2 Wave Serpents, 2 Falcons", "pts":300, "upgrades":[]},
+			{"id":522, "name":"Lynx Vaulhost", "units":"2 Lynx",	"pts":275, "upgrades":[]},
 			{"id":521, "name":"Night Spinner Troupe", "pts":175, "units":"3 Night Spinners", "upgrades":[]},
 			{"id":525, "name":"Fire Prism Troupe", "units":"3 Fire Prisms",	"pts":250, "upgrades":[]},
 			{"id":526, "name":"Warp Hunter Troupe", "units":"3 Warp Hunters", "pts":175, "upgrades":[]},
@@ -46,7 +46,7 @@
         {"id":26, "name":"6 Falcons",		"pts":0},
 		{"id":27, "name":"5 Falcons, Fire Storm",	"pts":0},
         {"id":28, "name":"4 Falcons, 2 Fire Storms",	"pts":0},
-        {"id":29, "name":"6 Falcons, 6 Guardians",	"pts":75},
+        {"id":29, "name":"6 Falcons, 6 Guardians",	"pts":50},
 
 		{"id":32, "name":"Hornet",	"pts":50},
 
@@ -63,7 +63,7 @@
 		{"id":71, "name":"Titan Pulsar, Titan Power Fist",	"pts":0}
 	],
 	"formationConstraints":[
-		{"max":2, "name":"Troupes", "from":[520,521,524,525,526,527,528], "forEach":[510,511,512], "name2":"Vaulhost"},
+		{"max":2, "name":"Troupes", "from":[520,521,522,524,525,526,527,528], "forEach":[510,511], "name2":"Vaulhost"},
 		{"max":1, "from":[501]},
 		{"min":1, "max":1, "from":[502]},
 		{"max":1, "from":[532]},

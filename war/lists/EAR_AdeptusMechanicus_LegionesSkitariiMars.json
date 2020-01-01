@@ -50,10 +50,10 @@
 		{"id":108, "name":"4 Skitarii Vanguards, 3 Rapiers, 2 Skitarii Rangers",	"pts":25},
 
 		{"id":110, "name":"4 Sicarian Ruststalkers, 2 Sicarian Infiltrators",				"pts":0},
-		{"id":111, "name":"2 Sicarian Ruststalkers, 2 Sicarian Infiltrators, 2 Archaeopters",		"pts":25},
+		{"id":111, "name":"2 Sicarian Ruststalkers, 2 Sicarian Infiltrators, 2 Archaeopters",		"pts":0},
 
 		{"id":112, "name":"6 Skitarii Rangers",				"pts":0},
-		{"id":113, "name":"4 Skitarii Rangers, 2 Archaeopters",		"pts":25},
+		{"id":113, "name":"4 Skitarii Rangers, 2 Archaeopters",		"pts":0},
 
 		{"id":114, "name":"Kastelan Robot",					"pts":25},
 

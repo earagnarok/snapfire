@@ -42,7 +42,7 @@
 		]},
 
 			{"name":"HELL-FORGE & CHAOS NAVY ALLIES <br/> Max 33%", "formations":[
-			{"id":590, "name":"Hell-Forge Support",		"pts":175, "units": "4 Chaos Squats, 2 Hades Land Raiders", "upgrades":[]},
+			{"id":590, "name":"Hell-Forge Support",		"pts":175, "units": "4 Chaos Squats, 2 Macrocarid Exploitators", "upgrades":[]},
 			{"id":591, "name":"Ordinatus Hereticus Minoris",		"pts":50, "upgrades":[100,101,102,103]},
 			{"id":592, "name":"Heldrakes",				"pts":225, "units": "2 Heldrakes", "upgrades":[]},
 			{"id":593, "name":"Chaos Battleship",				"pts":175, "units": "Despoiler Battleship", "upgrades":[]}

@@ -38,7 +38,7 @@
       {"id": 30, "name": "5 Falcons", "pts": 0},
       {"id": 31, "name": "4 Falcons, Firestorm", "pts": 0},
       {"id": 32, "name": "3 Falcons, 2 Firestorms", "pts": 0},
-      {"id": 33, "name": "5 Falcons, 5 Guardians", "pts": 75},
+      {"id": 33, "name": "5 Falcons, 5 Guardians", "pts": 50},
       {"id": 39, "name": "Exarch", "pts": 25},
 
       {"id": 49, "name": "Mounted Farseer", "pts": 25},

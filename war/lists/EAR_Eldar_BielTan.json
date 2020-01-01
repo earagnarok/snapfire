@@ -18,7 +18,7 @@
             {"id": 503, "name": "Swords of Vaul", "pts": 250, "upgrades": []},
             {"id": 504, "name": "Night Spinner Troupe", "pts": 175, "units": "3 Night Spinners", "upgrades": []},
             {"id": 505, "name": "Engines of Vaul", "pts": 50, "upgrades": [34,35,36]},
-	        {"id": 506, "name": "Void Spinner Troupe", "pts": 50, "upgrades": [37]},
+	        {"id": 506, "name": "Void Spinners", "pts": 50, "upgrades": [37]},
             {"id": 530, "name": "Fire Prism Troupe", "pts": 250, "units": "3 Fire Prisms", "upgrades": []}
 			]},
       {"name": "SPACESHIPS, AIRCRAFT &amp; TITANS <br/> Max 33%", "formations": [
@@ -48,9 +48,9 @@
       {"id": 27, "name": "Jetbikes", "pts": 0},
       {"id": 28, "name": "Vyper", "pts": 0},
       {"id": 30, "name": "5 Falcons", "pts": 0},
-      {"id": 31, "name": "4 Falcons, 1 Firestorm", "pts": 0},
+      {"id": 31, "name": "4 Falcons, Firestorm", "pts": 0},
       {"id": 32, "name": "3 Falcons, 2 Firestorms", "pts": 0},
-      {"id": 33, "name": "5 Falcons, 5 Guardians", "pts": 75},
+      {"id": 33, "name": "5 Falcons, 5 Guardians", "pts": 50},
       {"id": 34, "name": "Cobra", "pts": 200},
       {"id": 35, "name": "Scorpion", "pts": 200},
       {"id": 36, "name": "Storm Serpent", "pts": 200},
