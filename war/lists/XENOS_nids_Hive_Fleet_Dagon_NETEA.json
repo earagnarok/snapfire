@@ -196,27 +196,27 @@
   "upgrades": [
     {
       "id": 100,
-      "name": "Gaunts (5 Termagaunts)",
+      "name": "Gaunts (5 Termagants)",
       "pts": 50
     },
     {
       "id": 101,
-      "name": "Gaunts (4 Termagaunts, 1 Hormagaunt)",
+      "name": "Gaunts (4 Termagants, 1 Hormagaunt)",
       "pts": 50
     },
 	    {
       "id": 102,
-      "name": "Gaunts (3 Termagaunts, 2 Hormagaunt)",
+      "name": "Gaunts (3 Termagants, 2 Hormagaunt)",
       "pts": 50
     },
 	    {
       "id": 103,
-      "name": "Gaunts (2 Termagaunts, 3 Hormagaunts)",
+      "name": "Gaunts (2 Termagants, 3 Hormagaunts)",
       "pts": 50
     },
 	    {
       "id": 104,
-      "name": "Gaunts (1 Termagaunts, 4 Hormagaunts)",
+      "name": "Gaunts (1 Termagants, 4 Hormagaunts)",
       "pts": 50
     },
 	    {
@@ -286,7 +286,7 @@
     },
     {
       "id": 120,
-      "name": "Mycetic Spore // May transport Termagaunts, Hormagaunts, Biovores, Carnifex, Raveners, Hive Tyrants, Dagon Overlord, Tyranid Warriors, Zoanthropes // Transported units may not have Wings",
+      "name": "Mycetic Spore // May transport Termagants, Hormagaunts, Biovores, Carnifex, Raveners, Hive Tyrants, Dagon Overlord, Tyranid Warriors, Zoanthropes // Transported units may not have Wings",
       "pts": 50
     },
     {
@@ -336,27 +336,27 @@
     },
     {
 	  "id": 179,
-      "name": "Gaunts (5 Termagaunts)",
+      "name": "Gaunts (5 Termagants)",
       "pts": 50
     },
     {
 	  "id": 180,
-      "name": "Gaunts (4 Termagaunts, 1 Hormagaunt)",
+      "name": "Gaunts (4 Termagants, 1 Hormagaunt)",
       "pts": 50
     },
 	{
       "id": 181,
-      "name": "Gaunts (3 Termagaunts, 2 Hormagaunt)",
+      "name": "Gaunts (3 Termagants, 2 Hormagaunt)",
       "pts": 50
     },
 	    {
       "id": 182,
-      "name": "Gaunts (2 Termagaunts, 3 Hormagaunts)",
+      "name": "Gaunts (2 Termagants, 3 Hormagaunts)",
       "pts": 50
     },
 	    {
       "id": 183,
-      "name": "Gaunts (1 Termagaunts, 4 Hormagaunts)",
+      "name": "Gaunts (1 Termagants, 4 Hormagaunts)",
       "pts": 50
     },
 	    {

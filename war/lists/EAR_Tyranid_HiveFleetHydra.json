@@ -126,19 +126,26 @@
           {
           "id": 504,
           "name": "Infestation Swarm (1-2 Instinctive Swarms)",
-          "pts": 0,
+          "units": "Trygon Prime",
+          "pts": 150,
            "upgrades": [
 			117
           ]
         },
         {
           "id": 505,
-          "name": "Harasser Swarm (1-2 Instinctive Swarms)",
-          "pts": 0,
+          "name": "Harasser Spawn Swarm (1-2 Instinctive Swarms)",
+          "units": "Spawn Harridan",
+          "pts": 150,
           "upgrades": [
+            100,
+  			101,
+  			102,
+  			103,
+  			104,
+  			105,
             109,
-			107,
-            130
+			107
           ]
         }
       ]
@@ -188,27 +195,27 @@
   "upgrades": [
     {
       "id": 100,
-      "name": "Gaunts (5 Termagaunts)",
+      "name": "Gaunts (5 Termagants)",
       "pts": 50
     },
     {
       "id": 101,
-      "name": "Gaunts (4 Termagaunts, Hormagaunts)",
+      "name": "Gaunts (4 Termagants, Hormagaunts)",
       "pts": 50
     },
 	    {
       "id": 102,
-      "name": "Gaunts (3 Termagaunts, 2 Hormagaunts)",
+      "name": "Gaunts (3 Termagants, 2 Hormagaunts)",
       "pts": 50
     },
 	    {
       "id": 103,
-      "name": "Gaunts (2 Termagaunts, 3 Hormagaunts)",
+      "name": "Gaunts (2 Termagants, 3 Hormagaunts)",
       "pts": 50
     },
 	    {
       "id": 104,
-      "name": "Gaunts (Termagaunts, 4 Hormagaunts)",
+      "name": "Gaunts (Termagants, 4 Hormagaunts)",
       "pts": 50
     },
 	    {
@@ -273,7 +280,7 @@
     },
     {
       "id": 120,
-      "name": "Mycetic Spore // May transport Termagaunts, Hormagaunts, Biovores, Carnifex, Raveners, Hive Tyrants, Dagon Overlord, Tyranid Warriors, Zoanthropes // Transported units may not have Wings",
+      "name": "Mycetic Spore // May transport Termagants, Hormagaunts, Biovores, Carnifex, Raveners, Hive Tyrants, Dagon Overlord, Tyranid Warriors, Zoanthropes // Transported units may not have Wings",
       "pts": 50
     },
     {
@@ -323,27 +330,27 @@
     },
     {
 	  "id": 179,
-      "name": "Gaunts (5 Termagaunts)",
+      "name": "Gaunts (5 Termagants)",
       "pts": 50
     },
     {
 	  "id": 180,
-      "name": "Gaunts (4 Termagaunts, Hormagaunts)",
+      "name": "Gaunts (4 Termagants, Hormagaunts)",
       "pts": 50
     },
 	{
       "id": 181,
-      "name": "Gaunts (3 Termagaunts, 2 Hormagaunts)",
+      "name": "Gaunts (3 Termagants, 2 Hormagaunts)",
       "pts": 50
     },
 	    {
       "id": 182,
-      "name": "Gaunts (2 Termagaunts, 3 Hormagaunts)",
+      "name": "Gaunts (2 Termagants, 3 Hormagaunts)",
       "pts": 50
     },
 	    {
       "id": 183,
-      "name": "Gaunts (Termagaunts, 4 Hormagaunts)",
+      "name": "Gaunts (Termagants, 4 Hormagaunts)",
       "pts": 50
     },
 	    {
@@ -727,16 +734,6 @@
         509
       ]
     },
-	{
-      "max": 1,
-      "min": 1,
-      "from": [
-        214
-      ],
-      "appliesTo": [
-        504
-      ]
-    },
     {
       "max": 2,
       "min": 1,
@@ -748,19 +745,15 @@
       ]
     },
     {
-      "max": 1,
-      "min": 1,
-      "from": [
-        130
-      ],
-      "appliesTo": [
-        505
-      ]
-    },
-    {
       "max": 2,
       "min": 1,
       "from": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
         109,
 		107
       ],

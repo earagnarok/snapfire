@@ -15,7 +15,7 @@
       {"name": "TROUPES <br/> Max 3 per Warhost", "formations": [
             {"id": 502, "name": "Hornet Troupe", "pts": 0, "upgrades": [80]},
             {"id": 503, "name": "Swords of Vaul", "pts": 250, "upgrades": []},
-            {"id": 504, "name": "Night Spinner Troupe", "pts": 175, "units": "3 Night Spinners", "upgrades": []},
+            {"id": 504, "name": "Fire Spinner Troupe", "pts": 225, "units": "3 Night Spinners, Firestorm", "upgrades": []},
             {"id": 505, "name": "Engines of Vaul", "pts": 50, "upgrades": [51,52,53]},
             {"id": 506, "name": "Void Spinner", "pts": 50, "upgrades": [54]},
             {"id": 530, "name": "Fire Prism Troupe", "pts": 250, "units": "3 Fire Prisms", "upgrades": []},
