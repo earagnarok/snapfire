@@ -18,7 +18,7 @@
 		{"name":"BLACK LEGION SUPPORT FORMATIONS <br/> Max 2 for each Core formation", "formations":[
 			{"id":504, "name":"Bike Company",	"pts":300, "units":"8 Chaos Space Marines Bikes", "upgrades":[14,70]},
 			{"id":505, "name":"Raptor Cult",	"pts":225, "units":"6 Chaos Raptors", "upgrades":[70]},
-			{"id":506, "name":"Predator Company", "units":"4 Chaos Predators", "pts":200, "upgrades":[43,44] },
+			{"id":506, "name": "Armoured Company", "pts":200, "upgrades":[43,44] },
 			{"id":507, "name":"Havocs",	"pts":200, "units":"4 Havocs", "upgrades":[43,44,70]}
 		]},
 		{"name":"BLACK LEGION DAEMON ENGINE, TITAN AND CHAOS NAVY FORMATIONS <br/> Max 33%", "formations":[
@@ -57,6 +57,9 @@
 		{"id":29, "name":"4 Havocs, 4 Khorne Berzerkers", "pts":100},
 		{"id":30, "name":"4 Chaos Space Marines, 4 Rubric Marines", "pts":50},
 		{"id":31, "name":"4 Havocs, 4 Rubric Marines", "pts":100},
+
+		{"id":35, "name":"4 Chaos Predators", 	"pts":0},
+		{"id":36, "name":"4 Chaos Land Raiders", 	"pts":75},
 
 		{"id":38, "name":"2 Chaos Rhinos", 	"pts":25},
 		{"id":39, "name":"2 Chaos Land Raiders", 	"pts":100},
@@ -124,6 +127,8 @@
 		{"min":1, "max":1, "from":[10,11], "appliesTo":[504,505,507]},
 
 		{"min":0, "max":1, "from":[80], "appliesTo":[505]},
+
+		{"min":1, "max":1, "from":[35,36], "appliesTo":[506]},
 
 		{"min":0, "max":2, "from":[42], "appliesTo":[499,501,502]},
 		{"min":0, "max":2, "from":[43], "appliesTo":[499,501,506,507]},

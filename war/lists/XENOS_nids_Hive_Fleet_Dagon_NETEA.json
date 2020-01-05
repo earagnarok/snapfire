@@ -85,7 +85,7 @@
 			118,
 			120
           ]
-        }      
+        }
       ]
     },
 	{
@@ -94,7 +94,8 @@
 	  	    {
           "id": 512,
           "name": "Hive Swarm (1-2 Instinctive Swarms)",
-          "pts": 0,
+          "units": "Hive Nest",
+          "pts": 125,
           "upgrades": [
 			100,
 			101,
@@ -106,7 +107,7 @@
 			109,
 			111,
 			112
-		  
+
           ]
 		},
 	    {
@@ -127,7 +128,7 @@
 			114,
 			115,
 			116
-		  
+
           ]
 		},
           {
@@ -142,11 +143,11 @@
         {
           "id": 505,
           "name": "Harasser Swarm (1-2 Instinctive Swarms)",
-          "pts": 0,
+          "units": "Harridan",
+          "pts": 150,
           "upgrades": [
             109,
-			107,
-            130
+			107
           ]
         }
       ]
@@ -201,7 +202,7 @@
     },
     {
       "id": 101,
-      "name": "Gaunts (4 Termagants, 1 Hormagaunt)",
+      "name": "Gaunts (4 Termagants, Hormagaunt)",
       "pts": 50
     },
 	    {
@@ -216,7 +217,7 @@
     },
 	    {
       "id": 104,
-      "name": "Gaunts (1 Termagants, 4 Hormagaunts)",
+      "name": "Gaunts (Termagants, 4 Hormagaunts)",
       "pts": 50
     },
 	    {
@@ -266,12 +267,12 @@
     },
     {
       "id": 115,
-      "name": "Hierodule (1 Barbed Hierodule)",
+      "name": "Hierodule (Barbed Hierodule)",
       "pts": 125
     },
     {
       "id": 116,
-      "name": "Hierodule (1 Scythed Hierodule)",
+      "name": "Hierodule (Scythed Hierodule)",
       "pts": 125
     },
     {
@@ -288,11 +289,6 @@
       "id": 120,
       "name": "Mycetic Spore // May transport Termagants, Hormagaunts, Biovores, Carnifex, Raveners, Hive Tyrants, Dagon Overlord, Tyranid Warriors, Zoanthropes // Transported units may not have Wings",
       "pts": 50
-    },
-    {
-      "id": 130,
-      "name": "Harridan",
-      "pts": 150
     },
     {
       "id": 140,
@@ -341,7 +337,7 @@
     },
     {
 	  "id": 180,
-      "name": "Gaunts (4 Termagants, 1 Hormagaunt)",
+      "name": "Gaunts (4 Termagants, Hormagaunt)",
       "pts": 50
     },
 	{
@@ -356,7 +352,7 @@
     },
 	    {
       "id": 183,
-      "name": "Gaunts (1 Termagants, 4 Hormagaunts)",
+      "name": "Gaunts (Termagants, 4 Hormagaunts)",
       "pts": 50
     },
 	    {
@@ -438,11 +434,6 @@
       "id": 217,
       "name": "Scythed Hierodule Prime",
       "pts": 150
-    },
-		{
-      "id": 218,
-      "name": "Hive Nest",
-      "pts": 125
     }
   ],
   "formationConstraints": [
@@ -522,7 +513,7 @@
     }
   ],
   "upgradeConstraints": [
-  
+
     {
       "max": 1,
       "name": "Mycetic Spore",
@@ -693,16 +684,6 @@
       ],
       "appliesTo": [
         503
-      ]
-    },
-	{
-      "max": 1,
-      "min": 1,
-      "from": [
-		218
-      ],
-      "appliesTo": [
-        512
       ]
     },
 	{

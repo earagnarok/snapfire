@@ -27,8 +27,7 @@
             { "id":521, "name":"Hyperios Emplacement",       "pts":150,  "units":"3 Hyperios Sentries, 3 Gun Emplacements",     "upgrades":[] },
             { "id":523, "name":"Storm Talons",               "pts":200, "units":"2 Storm Talons", "upgrades":[] },
             { "id":524, "name":"Thunderhawk Bomber",         "pts":225, "upgrades":[] },
-            { "id":525, "name":"Reaver Titan",               "pts":600, "upgrades":[] },
-            { "id":526, "name":"Warlord Titan",              "pts":750, "upgrades":[] }
+            { "id":525, "name":"Reaver Titan",               "pts":600, "upgrades":[] }
 		]}
 	],
 	"upgrades":[

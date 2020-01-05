@@ -18,14 +18,14 @@
 			{"id":512, "name":"Blood Angels Terminators",		"pts":50, "upgrades":[10,11,12,13, 27,28, 33,34, 40,41,43]},
 			{"id":513, "name":"Scouts",							"pts":150, "upgrades":[10,11,12,13, 29,30]},
 			{"id":514, "name":"Land Speeders",					"pts":200, "upgrades":[]},
-			{"id":515, "name":"Landing Craft",					"pts":350, "units":"1 Landing Craft",  "upgrades":[]},
+			{"id":515, "name":"Landing Craft",					"pts":350,   "upgrades":[]},
 			{"id":523, "name": "Orbital Support",											"pts":0, "upgrades":[]}
 		]},
 
 		{"name":"BLOOD ANGELS AIRCRAFT AND TITAN ALLIES <br/> Max 33%", "formations":[
 			{"id":520, "name": "Storm Talons", "units":"2 Storm Talon Fighters",	"pts":200, "upgrades":[]},
 			{"id":521, "name": "Storm Ravens",										"pts":25, "upgrades":[42]},
-			{"id":522, "name": "Warhound Pack",												"pts":500, "upgrades":[]}
+			{"id":522, "name": "Warhound Pack",												"pts":500, "upgrades":[44]}
 
 		]}
 	],
@@ -76,6 +76,8 @@
 
 		{"id":42, "name":"Storm Raven",									"pts":75},
 
+		{"id":44, "name":"Independent",									"pts":50},
+
 		{"id":45, "name":"2 Warhounds (Standard Configuration)",		"pts":0},
 		{"id":46, "name":"2 Warhounds (Support Configuration)",			"pts":0},
 		{"id":47, "name":"2 Warhounds (Tank Hunter Configuration)",		"pts":50},
@@ -118,6 +120,8 @@
 		{"min":0, "max":1, "from":[31,32]},
 
 		{"min":0, "max":1, "from":[40,41,43]},
+
+		{"min":0, "max":1, "from":[44]},
 
 		{"min":3, "max":4, "from":[48,49], "appliesTo":[508]},
 		{"min":0, "max":3, "from":[33,34], "appliesTo":[503]},
