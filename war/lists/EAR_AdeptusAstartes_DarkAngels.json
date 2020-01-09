@@ -25,8 +25,8 @@
 		]},
 
 		{"name":"DARK ANGELS AIRCRAFT AND SWORDWING <br/> Max 33% <br/> Swordwing Support is compulsory", "formations":[
-			{"id":520, "name": "Nephilims", "units":"2 Ravenwing Nephilim Interceptors",		"pts":225, "upgrades":[]},
-			{"id":521, "name": "Dark Talons",	"units":"2 Ravenwing Dark Talon Fighters",			"pts":225, "upgrades":[]},
+			{"id":520, "name": "Nephilims", "units":"2 Ravenwing Nephilims",		"pts":225, "upgrades":[]},
+			{"id":521, "name": "Dark Talons",	"units":"2 Ravenwing Dark Talons",			"pts":225, "upgrades":[]},
 			{"id":522, "name": "Swordwing Support",										"pts":0, "upgrades":[]}
 		]}
 	],

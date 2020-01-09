@@ -4,8 +4,8 @@
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"VALHALLAN CORE COMPANIES", "formations":[
-			{"id":500, "name":"Regimental HQ", 				"pts":300, "units":"Valhallan Supreme Commander with a Ministorum Priest, 11 Valhallan Infantry", "upgrades":[45,46,47,49,51,53,64,65,70]},
-			{"id":501, "name":"Infantry Company", 			"pts":225, "units":"Valhallan Commander with a Ministorum Priest, 11 Valhallan Infantry", "upgrades":[45,46,47,49,51,53,64,65,70]},
+			{"id":500, "name":"Regimental HQ", 				"pts":300, "units":"Valhallan Supreme Commander with a Ministorum Priest, 11 Valhallan Infantry", "upgrades":[45,46,47,49,51,53,64,65,70,20,21]},
+			{"id":501, "name":"Infantry Company", 			"pts":225, "units":"Valhallan Commander with a Ministorum Priest, 11 Valhallan Infantry", "upgrades":[45,46,47,49,51,53,64,65,70,20,21]},
 	 		{"id":502, "name":"Artillery Company", 			"pts":400, "units":"Ministorum Priest", "upgrades":[45]}
 		]},
 		{"name":"VALHALLAN SUPPORT FORMATIONS <br/> Max 2 for each Core Company", "formations":[
@@ -17,15 +17,18 @@
 			{"id":515, "name":"Hellhound Squadron", 				"pts":125, "units":"3 Hellhounds", "upgrades":[]},
 			{"id":510, "name":"Sentinel Squadron",					"pts":100, "units":"4 Sentinels", "upgrades":[]}
 		]},
-		{"name":"ADEPTUS MINISTORUM, TUNNELERS AND IMPERIAL NAVY ALLIES <br/> Max 25%", "formations":[
+		{"name":"ADEPTUS MINISTORUM & IMPERIAL NAVY ALLIES <br/> Max 25%", "formations":[
 			{"id":520, "name":"Ministorum Flagellants",	"pts":200, "units":"6 Arco-Flagellants", "upgrades":[]},
-			{"id":521, "name":"Tunneler",				"pts":225, "units":"Hellbore", "upgrades":[]},
-			{"id":522, "name":"Thunderbolt Squadron",	"pts":150, "units":"2 Thunderbolt Fighters", "upgrades":[]},
+			{"id":521, "name":"Mission",				"pts":250, "units":"8 Battle Sisters, 4 Sororitas Repressors", "upgrades":[]},
+			{"id":522, "name":"Lightning Squadron",		"pts":150, "units":"2 Lightning Strike Fighters", "upgrades":[]},
 			{"id":523, "name":"Marauder Squadron",		"pts":225, "units":"2 Marauder Bombers", "upgrades":[]},
 			{"id":524, "name":"Orbital Support",		"pts":125, "upgrades":[]}
 		]}
 	],
 	"upgrades":[
+		{"id":20, "name":"2 Moles",					"pts":75},
+		{"id":21, "name":"Stormlord",					"pts":125},
+
 		{"id":26, "name":"Baneblade",					"pts":0},
 		{"id":27, "name":"Shadowsword",					"pts":25},
 		{"id":28, "name":"Stormlord",					"pts":0},
@@ -66,25 +69,19 @@
 
 	],
 	"upgradeConstraints":[
-		{"max":1, "from":[46,47]},
-		{"max":1, "from":[45]},
-		{"max":1, "from":[49,51]},
-
-		{"max":2, "from":[52]},
-
-		{"max":1, "from":[53]},
-		{"max":1, "from":[54]},
-
-		{"max":2, "from":[64]},
-
-		{"max":1, "from":[70]},
-
-   		{"max":4, "from":[45,46,47,49,51,53,54,64,65,70], "appliesTo":[500,501]},
+   		{"max":3, "from":[45,46,47,49,51,53,54,64,65,70], "appliesTo":[500,501]},
 
    		{"min":1, "max":1, "from":[30,31], "appliesTo":[502]},
 
    		{"min":1, "max":1, "from":[40,41], "appliesTo":[509]},
 
+		{"max":1, "from":[45,20,21], "appliesTo":[500,501]},
+		{"max":1, "from":[46,47,20,21], "appliesTo":[500,501]},
+		{"max":1, "from":[49,51,20,21], "appliesTo":[500,501]},
+		{"max":1, "from":[53,20,21], "appliesTo":[500,501]},
+		{"max":1, "from":[54,20,21], "appliesTo":[500,501]},
+		{"max":1, "from":[64,65,20,21], "appliesTo":[500,501]},
+		{"max":1, "from":[70,20,21], "appliesTo":[500,501]},
 
    		{"min":1, "max":1, "from":[26,28,27], "appliesTo":[512]},
 

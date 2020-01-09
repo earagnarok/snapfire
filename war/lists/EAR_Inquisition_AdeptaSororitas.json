@@ -6,13 +6,13 @@
 
    "sections": [
         {"name": "SORORITAS CORE FORMATIONS", "formations": [
-            {"id": 500, "name": "Mission", "pts": 225, "upgrades": [10,11,12,13, 16]}
+            {"id": 500, "name": "Mission", "pts": 200, "upgrades": [10,11,12,13, 16]}
 	  ]},
         {"name": "SORORITAS SUPPORT FORMATIONS <br/> Max 2 for each Core Formation", "formations": [
-        {"id": 515, "name": "Immolation", "pts": 275, "units": "Three Celestian Sisters, three Sororitas Immolators", "upgrades": []},
+        {"id": 515, "name": "Immolation", "pts": 275, "units": "Three Celestian Sisters, three Sororitas Immolators", "upgrades": [15]},
 	    {"id": 510, "name": "Exorcism", "pts": 250, "upgrades": [16]},
 	    {"id": 511, "name": "Seraphim", "pts": 225,  "upgrades": []},
-	    {"id": 512, "name": "Retribution", "pts":175, "units": "4 Retribution Sisters, 2 Sororitas Repressors", "upgrades": []},
+	    {"id": 512, "name": "Retribution", "pts":175, "units": "4 Retribution Sisters, 2 Sororitas Repressors", "upgrades": [15]},
         {"id": 514, "name": "Repentance", "pts": 150, "units": "4 Repentia Sisters, 2 Sororitas Repressors", "upgrades": []},
         {"id": 513, "name": "Dominion", "pts": 150, "units": "4 Dominion Sisters", "upgrades": [10,11,12]}
 
@@ -24,27 +24,31 @@
 	        {"id": 521, "name": "Redemption", "pts": 200, "units": "Ministorum Priest, 8 Redemptionists, 4 Ordo Hereticus Land Transporters", "upgrades": []}
          ]},
         {"name": "IMPERIAL NAVY <br/> Max 25%", "formations": [
-            {"id": 532, "name": "Lightning Squadron", "pts": 150, "units": "2 Lightning Interceptors", "upgrades": [] },
+            {"id": 532, "name": "Lightning Squadron", "pts": 150, "units": "2 Lightning Strike Fighters", "upgrades": [] },
             {"id": 533, "name": "Marauder Squadron", "pts": 225, "units": "2 Marauder Bombers", "upgrades": [] },
 	        {"id": 534, "name": "Orbital Support", "pts": 125, "units": "Lunar Class Cruiser", "upgrades": [] }
          ]}
    ],
    "upgrades": [
-	  {"id": 1, "name": "Palatine, 8 Battle Sisters","pts": 0},
-	  {"id": 2, "name": "Canoness, 8 Battle Sisters","pts": 75},
+	  {"id": 1, "name": "8 Battle Sisters","pts": 0},
+	  {"id": 2, "name": "Palatine, 8 Battle Sisters","pts": 25},
+      {"id": 3, "name": "Canoness, 8 Battle Sisters","pts": 75},
 
       {"id": 4, "name": "Palatine, 6 Seraphim Sisters","pts": 0},
 	  {"id": 5, "name": "Living Saint, 5 Seraphim Sisters","pts": 50},
 
-      {"id": 6, "name": "Palatine, 6 Battle Sisters, two Exorcist Prioris","pts": 50},
-	  {"id": 7, "name": "Canoness, 6 Battle Sisters, two Exorcist Prioris","pts": 125},
+      {"id": 6, "name": "6 Battle Sisters, two Exorcist Prioris","pts": 50},
+      {"id": 7, "name": "Palatine, 6 Battle Sisters, two Exorcist Prioris","pts": 75},
+      {"id": 8, "name": "Canoness, 6 Battle Sisters, two Exorcist Prioris","pts": 125},
 
 	  {"id": 9, "name": "Ministorum Priest","pts": 25},
 
       {"id": 10, "name": "Sororitas Rhino","pts": 10},
       {"id": 11, "name": "Sororitas Repressor","pts": 20},
       {"id": 12, "name": "Sororitas Immolator","pts": 40},
-      {"id": 13, "name": "Emperor's Chapel","pts": 150},
+      {"id": 13, "name": "Emperor's Chapel","pts": 175},
+
+      {"id": 15, "name": "Palatine","pts": 25},
 
       {"id": 16, "name": "Sororitas Hunter","pts": 50},
 
@@ -67,12 +71,12 @@
    "formationConstraints": [
       {"max": 1, "from": [534]},
       {"max": 1, "from": [520]},
-      {"maxPercent": 25.1, "name": "Imperial Navy", "from": [532,533,534]},
+      {"maxPercent": 25.5, "name": "Imperial Navy", "from": [532,533,534]},
       {"max": 2, "name": "Sororitas Support Formations", "from": [510,511,512,513,514,515], "forEach": [500], "name2": "Core Formation" },
       {"max": 2, "name": "Ordo Hereticus Formations", "from": [520,521,522,523], "forEach": [500], "name2": "Core Formation" }
    ],
    "upgradeConstraints": [
-	  {"max": 1, "perArmy": true, "from": [2,7,24]},
+	  {"max": 1, "perArmy": true, "from": [3,8,24]},
   	  {"max": 1, "perArmy": true, "from": [5]},
 
 	  {"max": 1, "from": [9]},
@@ -82,7 +86,7 @@
       {"max": 8, "from": [12]},
       {"max": 1, "from": [13]},
 
-	  {"max": 1, "from": [14,15]},
+	  {"max": 1, "from": [15]},
 	  {"max": 1, "from": [16,17]},
 
 	  {"max": 2, "from": [20]},
@@ -91,7 +95,7 @@
 
       {"max": 3, "from": [25]},
 
-	  {"min": 1, "max": 1, "from": [1,2,6,7], "appliesTo": [500] },
+	  {"min": 1, "max": 1, "from": [1,2,3,6,7,8], "appliesTo": [500] },
 
 	  {"min": 1, "max": 1, "from": [4,5], "appliesTo": [511] },
 
