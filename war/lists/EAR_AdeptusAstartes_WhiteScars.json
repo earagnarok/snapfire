@@ -23,7 +23,7 @@
 		{"name":"WHITE SCARS AIRCRAFT & COLLEGIA TITANICA ALLIES <br/> Max 33%", "formations":[
 			{"id":513, "name":"Thunderhawk",			"pts":200, "units":"Thunderhawk", "upgrades":[]},
 			{"id":517, "name":"Storm Talons",			"pts":200, "units":"2 Storm Talons", "upgrades":[]},
-			{"id":524, "name":"Warhound Pack",			"pts":500, "upgrades":[50]}
+			{"id":524, "name":"Warhound Pack",	"units":"2 Warhound Scout Titans",		"pts":500, "upgrades":[50]}
 		]}
 	],
 	"upgrades":[
@@ -56,9 +56,6 @@
 		{"id":39, "name":"Razorback w/ Twin Heavy Bolters",				"pts":25},
 		{"id":40, "name":"Strike Cruiser",		"pts":0},
 		{"id":41, "name":"Battle Barge",		"pts":75},
-		{"id":45, "name":"2 Warhounds (Standard Configuration)",		"pts":0},
-		{"id":46, "name":"2 Warhounds (Support Configuration)",			"pts":0},
-		{"id":47, "name":"2 Warhounds (Tank Hunter Configuration)",		"pts":50},
 		{"id":50, "name":"Independent",				"pts":50}
 
 	],
@@ -87,8 +84,6 @@
 		{"min":1, "max":1, "from":[34,35], "appliesTo": [507]},
 		{"min":1, "max":1, "from":[40,41], "appliesTo": [509]},
 		{"min":5, "max":5, "from":[12,10,11], "appliesTo": [522]},
-		{"max":1, "from":[10,11], "appliesTo":[522]},
-		{"min":1, "max":1, "from":[45,46,47], "appliesTo":[524]}
-
+		{"max":1, "from":[10,11], "appliesTo":[522]}
 	]
 }
