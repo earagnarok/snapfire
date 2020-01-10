@@ -23,7 +23,7 @@
 		{"name":"CODEX ASTARTES AIRCRAFT & COLLEGIA TITANICA ALLIES <br/> Max 33%", "formations":[
 			{"id":520, "name": "Storm Talons", "units":"2 Storm Talons",		"pts":200, "upgrades":[]},
 			{"id":521, "name": "Thunderhawk",			"pts":200, "upgrades":[]},
-			{"id":522, "name": "Warhound Pack",	"units":"2 Warhound Scout Titans",		"pts":500, "upgrades":[60]},
+			{"id":522, "name": "Warhound Pack",	"units":"2 Warhounds",		"pts":500, "upgrades":[60]},
 			{"id":523, "name": "Reaver Titan", 						"pts":600, "upgrades":[]}
 		]}
 	],
@@ -56,8 +56,8 @@
 
 		{"id":33, "name":"Land Raider", 					"pts":50},
 
-		{"id":34, "name":"Razorback w/ Twin Heavy Bolters",						"pts":25},
-		{"id":35, "name":"Razorback w/ Twin Lascannons",						"pts":25},
+		{"id":34, "name":"Razorback (Twin Heavy Bolters)",						"pts":25},
+		{"id":35, "name":"Razorback (Twin Lascannons)",						"pts":25},
 
 		{"id":37, "name":"Vindicator",						"pts":50},
 		{"id":38, "name":"2 Vindicators",						"pts":75},
