@@ -20,12 +20,12 @@
       },
       { "name": "SUPREMACY & AIR CASTE <br/> Max 33%",
          "formations": [
-            {"id": 519,"name": "Supremacy Suit", "units": "Shas'el", "pts": 275, "upgrades": []},
-            {"id": 520,"name": "Razorshark Squadron","pts": 200,"units": "3 Razorshark Fighters","upgrades": []},
-            {"id": 521,"name": "Sun Shark Squadron","pts": 200,"units": "2 Sun Shark Bombers","upgrades": []},
+            {"id": 519,"name": "Supremacy Suit", "units": "Shas'el", "pts": 300, "upgrades": []},
             {"id": 522,"name": "Manta","pts": 500,"upgrades": []},
             {"id": 524,"name": "Orca Dropship","pts": 175, "upgrades": []},
-            {"id": 523,"name": "Protector II Class Cruiser","pts": 200,"upgrades": []},
+            {"id": 520,"name": "Razorshark Squadron","pts": 200,"units": "3 Razorshark Fighters","upgrades": []},
+            {"id": 521,"name": "Sun Shark Squadron","pts": 200,"units": "2 Sun Shark Bombers","upgrades": []},
+            {"id": 523,"name": "Protector II Class Cruiser","pts": 200,"upgrades": []}
          ]
       }
    ],
