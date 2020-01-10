@@ -16,7 +16,7 @@
             {"id": 518,"name": "Kroot Kindred","pts": 175,"units": "Kroot Master Shaper","upgrades": [58,59]},
             {"id": 512,"name": "Pathfinder Group","pts": 200,"units": "4 Pathfinders, 2 Devilfish","upgrades": [35,54]},
             {"id": 515,"name": "Recon Skimmer Group","pts": 175,"upgrades": [35,54]},
-            {"id": 517,"name": "Skysweep Support Group","pts": 250,"units": "3 Skyray Gunships","upgrades": []},
+            {"id": 517,"name": "Skysweep Support Group","pts": 250,"units": "3 Sky Ray Gunships","upgrades": []},
             {"id": 513,"name": "Stealth Group","pts": 225,"units": "6 XV15 Stealth Battlesuits","upgrades": [35]}
          ]
       },
@@ -47,7 +47,7 @@
       {"id": 50,"name": "Shas'el","pts": 0},
       {"id": 51,"name": "Shas'o","pts": 75},
       {"id": 54,"name": "3 Piranhas","pts": 75},
-      {"id": 55,"name": "Skyray","pts": 100},
+      {"id": 55,"name": "Sky Ray","pts": 100},
       {"id": 58,"name": "3 Kroot Hounds","pts": 50},
       {"id": 59,"name": "3 Krootox","pts": 50},
 

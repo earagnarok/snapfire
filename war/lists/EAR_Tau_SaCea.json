@@ -6,7 +6,7 @@
       { "name": "CADRES",
          "formations": [
             {"id": 532,"name": "Crisis Battlesuit Cadre","pts": 225,"upgrades": []},
-            {"id": 531,"name": "Fire Warrior Cadre","pts": 225,"upgrades": [62,63,60,35,80,81,82,83,84,61,54,55]}
+            {"id": 531,"name": "Sa'cea Fire Warrior Cadre","pts": 225,"upgrades": [62,63,60,35,80,81,82,83,84,61,54,55]}
          ]
       },
       {"name": "SUPPORT GROUPS <br/> Max 3 for each Cadre",
@@ -16,14 +16,14 @@
             {"id": 518,"name": "Kroot Kindred","pts": 175,"units": "Kroot Master Shapers","upgrades": [58,59]},
             {"id": 512,"name": "Pathfinder Group","pts": 175, "units": "4 Pathfinders, 2 Devilfish", "upgrades": [35,54,61]},
             {"id": 515,"name": "Recon Skimmer Group","pts": 175,"upgrades": [35,54,61]},
-            {"id": 517,"name": "Skysweep Support Group","pts": 250,"units": "3 Skyray Gunships","upgrades": [35]},
+            {"id": 517,"name": "Skysweep Support Group","pts": 250,"units": "3 Sky Ray Gunships","upgrades": [35]},
             {"id": 513,"name": "Stealth Group","pts": 225,"units": "6 XV15 Stealth Battlesuits","upgrades": [35]}
          ]
       },
       { "name": "AIR CASTE <br/> Max 33%",
          "formations": [
             {"id": 521,"name": "Barracuda Squadron","pts": 150,"units": "2 Barracuda Fighters","upgrades": []},
-            {"id": 524,"name": "Manta Dropship","pts": 500,"upgrades": []},
+            {"id": 524,"name": "Manta","pts": 500,"upgrades": []},
             {"id": 526,"name": "Orca Dropship","pts": 175,"upgrades": []},
             {"id": 525,"name": "Spacecraft","pts": 175,"upgrades": []},
             {"id": 522,"name": "Tiger Shark Bombers","pts": 175,"units": "2 Tiger Shark Bombers","upgrades": [70]},
@@ -43,8 +43,8 @@
       {"id": 25,"name": "Tetra","pts": 0},
       {"id": 26,"name": "Piranha","pts": 0},
 
-      {"id": 31,"name": "8 Fire Warriors","pts": 0},
-      {"id": 32,"name": "6 Fire Warriors, 3 Devilfish","pts": 0},
+      {"id": 31,"name": "8 Sa'cea Fire Warriors","pts": 0},
+      {"id": 32,"name": "6 Sa'cea Fire Warriors, 3 Devilfish","pts": 0},
 
       {"id": 35,"name": "2 Gun Drones","pts": 25},
       {"id": 36,"name": "4 Gun Drones","pts": 50},
@@ -54,7 +54,7 @@
 
       {"id": 54,"name": "3 Piranhas","pts": 50},
 
-      {"id": 55,"name": "Skyray","pts": 100},
+      {"id": 55,"name": "Sky Ray","pts": 100},
 
       {"id": 58,"name": "2 Kroot Hounds","pts": 25},
       {"id": 59,"name": "3 Krootox","pts": 50},
@@ -65,8 +65,8 @@
       {"id": 62,"name": "Bonded Team","pts": 25},
       {"id": 63,"name": "3 XV88 Broadside Battlesuits","pts": 125},
 
-      {"id": 65,"name": "10 Fire Warriors, 5 Devilfish","pts": 100},
-      {"id": 66,"name": "12 Fire Warriors","pts": 75},
+      {"id": 65,"name": "10 Sa'cea Fire Warriors, 5 Devilfish","pts": 100},
+      {"id": 66,"name": "12 Sa'cea Fire Warriors","pts": 75},
 
       {"id": 70,"name": "6 Gun Drones","pts": 75},
 
