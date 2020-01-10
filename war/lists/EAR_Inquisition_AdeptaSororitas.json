@@ -2,7 +2,7 @@
    "id": "EA-R Adepta Sororitas",
    "version": "1.0.0",
    "by": "EA-Ragnarok",
-   "notes":[],
+   "notes":["No more transports than needed to carry the formation with no space left over."],
 
    "sections": [
         {"name": "SORORITAS CORE FORMATIONS", "formations": [
@@ -81,8 +81,7 @@
 
 	  {"max": 1, "from": [9]},
 
-      {"max": 4, "from": [10]},
-      {"max": 4, "from": [11]},
+      {"max": 4, "from": [10,11]},
       {"max": 8, "from": [12]},
       {"max": 1, "from": [13]},
 

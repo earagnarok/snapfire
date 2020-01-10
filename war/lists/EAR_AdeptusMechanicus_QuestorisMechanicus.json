@@ -26,7 +26,7 @@
 
             {"id":514, "name":"Avenger Squadron",				"pts":175,  "upgrades":[], "units":"2 Avenger Strike Fighters"},
 
-			{"id":520, "name":"Warhound Pack",	"pts":500, "upgrades":[13]},
+			{"id":520, "name":"Warhound Pack",	"pts":500, "upgrades":[]},
 
 			{"id":522, "name":"Orbital Support", 		"pts":175, "upgrades":[]}
 
@@ -41,11 +41,9 @@
         {"id":10,"name":"Baron","pts":50},
         {"id":11,"name":"Seneschal","pts":0},
 
-        {"id":13,"name":"Independent: The Warhound Pack acts as two separate formations during the battle","pts":50},
-
-	    {"id":70,"name":"2x Warhound Scout Titans (Tank Hunter Configuration) Plasma Blastgun, Scout Turbo Laser","pts":50},
-        {"id":71,"name":"2x Warhound Scout Titans (Support Configuration) Inferno Gun, Vulcan Mega Bolter","pts":0},
-        {"id":72,"name":"2x Warhound Scout Titans (Standard Configuration) Plasma Blastgun, Vulcan Mega Bolter)","pts":0},
+	    {"id":70,"name":"2 Warhounds (Tank Hunter Configuration)","pts":50},
+        {"id":71,"name":"2 Warhounds (Support Configuration)","pts":0},
+        {"id":72,"name":"2 Warhounds (Standard Configuration)","pts":0},
 
 		{"id":90, "name":"5 Skorpius Duneriders",	"pts":125},
 		{"id":91, "name":"Gorgon",					"pts":100},
