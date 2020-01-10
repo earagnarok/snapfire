@@ -29,7 +29,7 @@
       "formations": [
 	  	    {
           "id": 512,
-          "name": "Gaunt Spawn Swarm (1-2 Instinctive Swarms)",
+          "name": "Tervigon Spawn Swarm (1-2 Instinctive Swarms)",
           "units": "Tervigon Prime",
           "pts": 0,
           "upgrades": [100,101,102,103,104,105,110,111,118,113,114]},
@@ -46,7 +46,7 @@
            "upgrades": [117]},
         {
           "id": 505,
-          "name": "Gargoyle Spawn Swarm",
+          "name": "Harridan Spawn Swarm",
           "pts": 175,
           "upgrades": []}
       ]
@@ -100,19 +100,19 @@
     {"id": 112,      "name": "Tervigon Prime",      "pts": 175    },
     {"id": 113,      "name": "Bio-Attack (2 Haruspex)",      "pts": 75    },
     {"id": 114,      "name": "Bio-Attack (2 Malefactors)",      "pts": 75    },
-    {"id": 115,      "name": "Hierodule (Barbed Hierodule)",      "pts": 125    },
-    {"id": 116,      "name": "Hierodule (Scythed Hierodule)",      "pts": 125    },
+    {"id": 115,      "name": "Breacher (Barbed Hierodule)",      "pts": 125    },
+    {"id": 116,      "name": "Breacher (Scythed Hierodule)",      "pts": 125    },
     {"id": 117,      "name": "Burrower (2 Trygons)",      "pts": 100    },
     {"id": 118,      "name": "Spawner (Tervigon, 2 Hormagaunts)",      "pts": 75    },
-    {"id": 120,      "name": "Mycetic Spore <br/> May transport Termagants, Hormagaunts, Biovores, Carnifex, Raveners, Hive Tyrant, Swarmlord, Tyranid Warriors, Zoanthropes. Transported units may not have Wings",      "pts": 50    },
+    {"id": 120,      "name": "Mycetic Spore <br/> May transport Termagants, Hormagaunts, Biovores, Carnifex, Raveners, Hive Tyrant, Swarmlord, Tyranid Warriors, Zoanthropes. Transported units may not have Wings.",      "pts": 50    },
     {"id": 130,      "name": "Spawn Harridan, 4 Gargoyles",      "pts": 0    },
-    {"id": 131,      "name": "2 Spawn Harridans, 8 Gargoyles",      "pts": 125    },
+    {"id": 131,      "name": "2 Spawn Harridans, 8 Gargoyles",      "pts": 175    },
     {"id": 140,      "name": "Genestealers",      "pts": 25    },
     {"id": 141,      "name": "Broodlord",      "pts": 25    },
     {"id": 142,      "name": "Lictors",      "pts": 25    },
     {"id": 150,      "name": "2 Harpies",      "pts": 100    },
-    {"id": 160,      "name": "Hierophant",      "pts": 300    },
-    {"id": 161,      "name": "Hydraphant",      "pts": 525    },
+    {"id": 160,      "name": "Hierophant",      "pts": 325    },
+    {"id": 161,      "name": "Hydraphant",      "pts": 500    },
     {"id": 170,      "name": "Razorfiend (May carry 2 Mycetic Spores including cargo)",      "pts": 150    },
     {"id": 171,      "name": "Hive Ship (May carry 5 Mycetic Spores including cargo)",      "pts": 250    },
     {"id": 179,      "name": "Gaunts (5 Termagants)",      "pts": 50    },
