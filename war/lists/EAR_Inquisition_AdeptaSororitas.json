@@ -12,7 +12,7 @@
         {"id": 515, "name": "Immolation", "pts": 275, "units": "Three Celestian Sisters, three Sororitas Immolators", "upgrades": [15]},
 	    {"id": 510, "name": "Exorcism", "pts": 250, "upgrades": [16]},
 	    {"id": 511, "name": "Seraphim", "pts": 225,  "upgrades": []},
-	    {"id": 512, "name": "Retribution", "pts":175, "units": "4 Retribution Sisters, 2 Sororitas Repressors", "upgrades": [15]},
+	    {"id": 512, "name": "Retribution", "pts":200, "units": "4 Retribution Sisters, 2 Sororitas Repressors", "upgrades": [15]},
         {"id": 514, "name": "Repentance", "pts": 150, "units": "4 Repentia Sisters, 2 Sororitas Repressors", "upgrades": []},
         {"id": 513, "name": "Dominion", "pts": 150, "units": "4 Dominion Sisters", "upgrades": [10,11,12]}
 

@@ -40,7 +40,7 @@
 		{"id":19, "name":"Knight-Aggressor",					"pts":75},
 		{"id":20, "name":"3 Rapiers",						"pts":50},
 		{"id":21, "name":"3 Thudd Guns",					"pts":75},
-		{"id":22, "name":"60cm Razorwire and 60cm Trenches",	"pts":50},
+		{"id":22, "name":"60cm Trenches, 60cm Razorwire",	"pts":50},
 		{"id":23, "name":"Sniper",								"pts":25}
 
 	],

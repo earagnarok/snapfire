@@ -1,6 +1,6 @@
 {
 	"id":"EA-R Baran Siegemasters",
-	"version":"0.6.3",
+	"version":"0.6.4",
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"CORE COMPANIES", "formations":[
@@ -37,9 +37,9 @@
 		{"id":26, "name":"Shadowsword",								"pts":25},
 		{"id":17, "name":"Stormsword",								"pts":0},
 
-		{"id":18, "name":"4 Mole Launcher Squads",					"pts":100},
-		{"id":20, "name":"3 Rapiers",								"pts":50},
-		{"id":21, "name":"4 Thudd Guns",							"pts":100},
+		{"id":18, "name":"3 Mole Launcher Squads",					"pts":75},
+		{"id":20, "name":"4 Rapiers",								"pts":75},
+		{"id":21, "name":"3 Thudd Guns",							"pts":75},
 		{"id":19, "name":"2 Trench Support Squads",					"pts":50},
 		{"id":22, "name":"4 Trench Support Squads",					"pts":100},
 

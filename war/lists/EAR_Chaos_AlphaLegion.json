@@ -1,7 +1,7 @@
 {
 	"id":"EA-R Alpha Legion",
 	"by":"EA-Ragnarok",
-	"version":"0.7.0",
+	"version":"0.7.1",
 	"notes":[],
 	"sections":[
 		{"name":"ALPHA LEGION SPECIALS", "formations": [
@@ -17,7 +17,7 @@
 			{ "id":523, "name":"Lernaean Terminators", "pts":300,"units":"4 Lernaean Terminators plus transport", "upgrades":[30,31,32,12] }
 		]},
 			{"name":"ALPHA LEGION CULTIST SUPPORT FORMATIONS <br/> Max 1 for each Cultist Coven", "formations": [
-			{ "id":532, "name":"Cultist Cavalry", "pts":200, "units":"6 Death Riders, 4 Chaos Hounds", "upgrades":[39] },
+			{ "id":532, "name":"Cultist Cavalry", "pts":300, "units":"6 Death Riders, 4 Chaos Hounds, Daemonic Pact", "upgrades":[] },
 			{ "id":533, "name":"Heavy Mortar Battery", "pts":200, "units":"3 Heavy Mortars, two Big Mutants", "upgrades":[48] },
 			{ "id":534, "name":"Macharius Platoon", "pts":200, "units":"2 Macharius",  "upgrades":[48] }
 		]},
