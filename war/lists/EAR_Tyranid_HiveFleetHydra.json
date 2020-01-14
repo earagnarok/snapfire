@@ -15,7 +15,7 @@
         {
           "id": 502,
           "name": "Tyrant Swarm (2-4 Instinctive Swarms)",
-          "pts": 150,
+          "pts": 125,
           "upgrades": [100,101,102,103,104,105,107,108,109,121,122,113,114,115,116,117,120]},
         {
           "id": 503,
@@ -37,7 +37,7 @@
           "id": 509,
           "name": "Breacher Swarm (1-2 Instinctive Swarms)",
           "pts": 125,
-          "upgrades": [100,101,102,103,104,105,121,122,113,114,115,116]},
+          "upgrades": [100,101,102,103,104,105,117,121,122,113,114,115,116]},
           {
           "id": 504,
           "name": "Infestation Swarm (1-2 Instinctive Swarms)",
@@ -92,7 +92,7 @@
     {"id": 103,      "name": "Gaunts (2 Termagants, 3 Hormagaunts)",      "pts": 50    },
     {"id": 104,      "name": "Gaunts (Termagants, 4 Hormagaunts)",      "pts": 50    },
     {"id": 105,      "name": "Gaunts (5 Hormagaunts)",      "pts": 50    },
-    {"id": 107,      "name": "Bio-Bomber (2 Harpies)",      "pts": 100    },
+    {"id": 107,      "name": "Bio-Bomber (3 Harpies)",      "pts": 125    },
     {"id": 108,      "name": "Biovores (4 Biovores)",      "pts": 75    },
     {"id": 109,      "name": "Gargoyles (4 Gargoyles)",      "pts": 50    },
     {"id": 111,      "name": "Spawner (Tervigon, 2 Termagants)",      "pts": 75    },
@@ -110,9 +110,8 @@
     {"id": 131,      "name": "2 Spawn Harridans, 8 Gargoyles",      "pts": 175    },
     {"id": 140,      "name": "Genestealers",      "pts": 25    },
     {"id": 141,      "name": "Broodlord",      "pts": 25    },
-    {"id": 142,      "name": "Lictors",      "pts": 25    },
-    {"id": 150,      "name": "2 Harpies",      "pts": 100    },
-    {"id": 160,      "name": "Hierophant",      "pts": 325    },
+    {"id": 142,      "name": "Lictor",      "pts": 25    },
+    {"id": 160,      "name": "Hierophant",      "pts": 350    },
     {"id": 161,      "name": "Hydraphant",      "pts": 500    },
     {"id": 170,      "name": "Razorfiend (May carry 2 Mycetic Spores including cargo)",      "pts": 150    },
     {"id": 171,      "name": "Hive Ship (May carry 5 Mycetic Spores including cargo)",      "pts": 250    },
@@ -162,7 +161,7 @@
 	{"max": 1,"min": 1,"from": [179,180,181,182,183,184,185,186], "appliesTo": [503]},
 
 	{"max": 1,"min": 1,"from": [216,217],"appliesTo": [509]},
-	{"max": 2,"min": 1,"from": [100,101,102,103,104,105,121,122,113,114,115,116],"appliesTo": [509]},
+	{"max": 2,"min": 1,"from": [100,101,102,103,104,105,117,121,122,113,114,115,116],"appliesTo": [509]},
 
     {"max": 2,"min": 1,"from": [117],"appliesTo": [504]},
 
@@ -172,7 +171,6 @@
     {"max": 1,"min": 1,"from": [141],"appliesTo": [506]},
 
     {"max": 7,"min": 5,"from": [142],"appliesTo": [507]},
-    {"max": 4,"min": 2,"from": [150],"appliesTo": [508]},
     {"max": 1,"min": 1,"from": [160,161],"appliesTo": [510]},
     {"max": 1,"min": 1,"from": [170,171],"appliesTo": [511]},
 
