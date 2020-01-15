@@ -22,7 +22,7 @@
 			{ "id":534, "name":"Macharius Platoon", "pts":200, "units":"2 Macharius",  "upgrades":[48] }
 		]},
 			{"name":"ALPHA LEGION NAVY <br/> Max 33%", "formations": [
-			{ "id":550, "name":"Xiphon Squadron", "pts":225, "units":"2 Xiphon Interceptors", "upgrades":[] },
+			{ "id":550, "name":"Xiphon Squadron", "pts":200, "units":"2 Xiphon Interceptors", "upgrades":[] },
 			{ "id":551, "name":"Alpha Legion Thunderhawk", "pts":200, "upgrades":[] },
 			{ "id":553, "name":"Alpha Legion Strike Cruiser", "pts":200, "upgrades":[] }
 		]}
