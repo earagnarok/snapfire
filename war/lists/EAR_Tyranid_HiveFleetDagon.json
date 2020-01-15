@@ -60,12 +60,11 @@
     {
       "name": "COMMON INDEPENDENT SWARMS <br/> Max 33% <br/> Max 1 for each Primary Synapse Swarm",
       "formations": [
-        {
-          "id": 506,
-          "name": "Genestealer Swarm",
-          "pts": 0,
-          "upgrades": [140,141]
-    },
+          {"id": 506,
+            "name": "Genestealer Swarm",
+            "units": "Broodlord",
+            "pts": 25,
+            "upgrades": [140]},
     {
           "id": 507,
           "name": "Lictor Swarm",
@@ -99,7 +98,7 @@
     {"id": 103,"name": "Gaunts (2 Termagants, 3 Hormagaunts)","pts": 50},
     {"id": 104,"name": "Gaunts (Termagants, 4 Hormagaunts)","pts": 50},
     {"id": 105,"name": "Gaunts (5 Hormagaunts)","pts": 50},
-    {"id": 107,"name": "Bio-Bomber (3 Harpies)","pts": 125},
+    {"id": 107,"name": "Bio-Flyer (3 Harpies)","pts": 100},
     {"id": 108,"name": "Biovores (4 Biovores)","pts": 75},
     {"id": 109,"name": "Gargoyles (4 Gargoyles)","pts": 50},
     {"id": 111,"name": "Bio-Support (3 Dactylis)","pts": 125},
@@ -180,7 +179,6 @@
     {"max": 2,"min": 1,"from": [130],"appliesTo": [505]},
     {"max": 2,"min": 1,"from": [109,107],"appliesTo": [505]},
     {"max": 9,"min": 6,"from": [140],"appliesTo": [506]},
-    {"max": 1,"min": 1,"from": [141],"appliesTo": [506]},
     {"max": 7,"min": 5,"from": [142],"appliesTo": [507]},
     {"max": 1,"min": 1,"from": [160,161],"appliesTo": [510]},
     {"max": 1,"min": 1,"from": [170,171],"appliesTo": [511]}

@@ -31,7 +31,7 @@
           "id": 512,
           "name": "Tervigon Spawn Swarm (1-2 Instinctive Swarms)",
           "units": "Tervigon Prime",
-          "pts": 0,
+          "pts": 175,
           "upgrades": [100,101,102,103,104,105,121,122,111,118,113,114]},
 	    {
           "id": 509,
@@ -41,14 +41,13 @@
           {
           "id": 504,
           "name": "Infestation Swarm (1-2 Instinctive Swarms)",
-          "units": "Trygon Prime",
           "pts": 125,
            "upgrades": [117]},
         {
           "id": 505,
-          "name": "Harridan Spawn Swarm",
-          "pts": 175,
-          "upgrades": []}
+          "name": "Harridan Spawn Swarm (0-2 Instinctive Swarms)",
+          "pts": 200,
+          "upgrades": [107]}
       ]
     },
     {
@@ -56,13 +55,14 @@
       "formations": [
         {"id": 506,
           "name": "Genestealer Swarm",
-          "pts": 0,
-          "upgrades": [140,141]},
+          "units": "Broodlord",
+          "pts": 25,
+          "upgrades": [140]},
     {
           "id": 507,
-          "name": "Lictor Swarm",
-          "pts": 100,
-          "upgrades": [142]}
+          "name": "Infiltrator Swarm",
+          "pts": 225,
+          "upgrades": []}
       ]
     },
     {
@@ -92,13 +92,13 @@
     {"id": 103,      "name": "Gaunts (2 Termagants, 3 Hormagaunts)",      "pts": 50    },
     {"id": 104,      "name": "Gaunts (Termagants, 4 Hormagaunts)",      "pts": 50    },
     {"id": 105,      "name": "Gaunts (5 Hormagaunts)",      "pts": 50    },
-    {"id": 107,      "name": "Bio-Bomber (3 Harpies)",      "pts": 125    },
+    {"id": 107,      "name": "Bio-Flyer (3 Hive Crones)",      "pts": 100    },
     {"id": 108,      "name": "Biovores (4 Biovores)",      "pts": 75    },
     {"id": 109,      "name": "Gargoyles (4 Gargoyles)",      "pts": 50    },
     {"id": 111,      "name": "Spawner (Tervigon, 2 Termagants)",      "pts": 75    },
     {"id": 112,      "name": "Tervigon Prime",      "pts": 175    },
-    {"id": 113,      "name": "Bio-Attack (2 Haruspex)",      "pts": 75    },
-    {"id": 114,      "name": "Bio-Attack (2 Malefactors)",      "pts": 75    },
+    {"id": 113,      "name": "Bio-Support (3 Dactylis)","pts": 125},
+    {"id": 114,      "name": "Bio-Support (4 Exocrine)","pts": 125},
     {"id": 115,      "name": "Breacher (Barbed Hierodule)",      "pts": 125    },
     {"id": 116,      "name": "Breacher (Scythed Hierodule)",      "pts": 125    },
     {"id": 117,      "name": "Burrower (2 Trygons)",      "pts": 100    },
@@ -106,11 +106,16 @@
     {"id": 120,      "name": "Mycetic Spore <br/> May transport Termagants, Hormagaunts, Biovores, Carnifex, Raveners, Hive Tyrant, Swarmlord, Tyranid Warriors, Zoanthropes. Transported units may not have Wings.",      "pts": 50    },
     {"id": 121,      "name": "Carnifex (3 Barbed Carnifex)",      "pts": 125    },
     {"id": 122,      "name": "Carnifex (3 Screamer-Killer Carnifex)",      "pts": 125    },
-    {"id": 130,      "name": "Spawn Harridan, 4 Gargoyles",      "pts": 0    },
-    {"id": 131,      "name": "2 Spawn Harridans, 8 Gargoyles",      "pts": 175    },
+    {"id": 130,      "name": "Hive Harridan, 4 Gargoyles",      "pts": 0    },
+    {"id": 131,      "name": "2 Hive Harridans, 8 Gargoyles",      "pts": 200    },
+
+    {"id": 135,      "name": "Trygon Prime",      "pts": 0    },
+    {"id": 136,      "name": "Viragon",      "pts": 75    },
+
     {"id": 140,      "name": "Genestealers",      "pts": 25    },
     {"id": 141,      "name": "Broodlord",      "pts": 25    },
-    {"id": 142,      "name": "Lictor",      "pts": 25    },
+    {"id": 142,      "name": "5 Lictors",      "pts": 0    },
+    {"id": 143,      "name": "5 Dimachaerons",      "pts": 0    },
     {"id": 160,      "name": "Hierophant",      "pts": 350    },
     {"id": 161,      "name": "Hydraphant",      "pts": 500    },
     {"id": 170,      "name": "Razorfiend (May carry 2 Mycetic Spores including cargo)",      "pts": 150    },
@@ -163,14 +168,16 @@
 	{"max": 1,"min": 1,"from": [216,217],"appliesTo": [509]},
 	{"max": 2,"min": 1,"from": [100,101,102,103,104,105,117,121,122,113,114,115,116],"appliesTo": [509]},
 
+    {"max": 1,"min": 1,"from": [135,136],"appliesTo": [504]},
     {"max": 2,"min": 1,"from": [117],"appliesTo": [504]},
 
     {"max": 1,"min": 1,"from": [130,131],"appliesTo": [505]},
+    {"max": 2,"min": 0,"from": [107],"appliesTo": [505]},
 
     {"max": 9,"min": 6,"from": [140],"appliesTo": [506]},
-    {"max": 1,"min": 1,"from": [141],"appliesTo": [506]},
 
-    {"max": 7,"min": 5,"from": [142],"appliesTo": [507]},
+    {"max": 1,"min": 1,"from": [142,143],"appliesTo": [507]},
+
     {"max": 1,"min": 1,"from": [160,161],"appliesTo": [510]},
     {"max": 1,"min": 1,"from": [170,171],"appliesTo": [511]},
 
