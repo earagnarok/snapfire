@@ -1,23 +1,23 @@
 {
 	"id":"EA-R Alpha Legion",
 	"by":"EA-Ragnarok",
-	"version":"0.7.1",
+	"version":"0.7.2",
 	"notes":[],
 	"sections":[
 		{"name":"ALPHA LEGION SPECIALS", "formations": [
 			{ "id":401, "name":"Lesser Daemon Pool", "pts":0, "upgrades":[50,51] }
 		]},
 		{"name":"ALPHA LEGION CULTIST COVEN FORMATIONS", "formations": [
-				{ "id":500, "name":"Cultist Coven", "pts":110, "upgrades":[40,43,44,45,46,47,48,49,39] }
+				{ "id":500, "name":"Cultist Coven", "pts":110, "upgrades":[40,43,44,46,47,48,49] }
 		]},
 		{"name":"ALPHA LEGION ELITE DETACHMENTS <br/> Max 1 for each Cultist Coven", "formations": [
 			{ "id":501, "name":"Alpha Legion Marines", "pts":200, "upgrades":[30,31,32,12] },
-			{ "id":521, "name":"Headhunters", "pts":225, "units":"4 Headhunters plus transport", "upgrades":[30,31,12] },
+			{ "id":521, "name":"Headhunters", "pts":225, "units":"4 Alpha Legion Headhunters plus transport", "upgrades":[30,31,12] },
 			{ "id":522, "name":"Destroyers", "pts":200,"units":"4 Alpha Legion Destroyers", "upgrades":[] },
 			{ "id":523, "name":"Lernaean Terminators", "pts":300,"units":"4 Lernaean Terminators plus transport", "upgrades":[30,31,32,12] }
 		]},
 			{"name":"ALPHA LEGION CULTIST SUPPORT FORMATIONS <br/> Max 1 for each Cultist Coven", "formations": [
-			{ "id":532, "name":"Cultist Cavalry", "pts":300, "units":"6 Death Riders, 4 Chaos Hounds, Daemonic Pact", "upgrades":[] },
+			{ "id":532, "name":"Cultist Cavalry", "pts":225, "units":"6 Death Riders, 4 Chaos Hounds", "upgrades":[15] },
 			{ "id":533, "name":"Heavy Mortar Battery", "pts":200, "units":"3 Heavy Mortars, two Big Mutants", "upgrades":[48] },
 			{ "id":534, "name":"Macharius Platoon", "pts":200, "units":"2 Macharius",  "upgrades":[48] }
 		]},
@@ -34,6 +34,8 @@
 		{ "id":13, "name":"Aspiring Champion", "pts":0 },
 		{ "id":14, "name":"Daemon Prince", "pts":100 },
 
+		{ "id":15, "name":"Daemonic Icon", "pts":75 },
+
 		{ "id":20, "name":"4 Alpha Legion Marines plus transport", "pts":0 },
 		{ "id":21, "name":"2 Alpha Legion Marines, 2 Alpha Legion Havocs plus transport", "pts":35 },
 
@@ -42,7 +44,7 @@
 
 		{ "id":32, "name":"Alpha Legion Land Raider", "pts":50 },
 
-		{ "id":39, "name":"Daemonic Pact", "pts":25 },
+		{ "id":39, "name":"Daemon Prince with Daemonic Icon", "pts":125 },
 		{ "id":40, "name":"Land Transporter", "pts":10 },
 		{ "id":41, "name":"Technical", "pts":20 },
 		{ "id":42, "name":"3 Chaos Hounds", "pts":35 },
@@ -50,7 +52,7 @@
 		{ "id":43, "name":"Chaos Cultist", "pts":10 },
 		{ "id":44, "name":"Chaos Mutant", "pts":10 },
 
-		{ "id":45, "name":"Icon Bearer", "pts":25 },
+		{ "id":45, "name":"Aspiring Champion with Daemonic Icon", "pts":25 },
 
 		{ "id":46, "name":"Chaos Spawn", "pts":35 },
 		{ "id":47, "name":"Ragnarok Heavy Tank", "pts":50 },
@@ -58,12 +60,12 @@
 		{ "id":49, "name":"Big Mutant", "pts":25 },
 
 		{ "id":50, "name":"Lesser Daemon Pool Point", "pts":15 },
-		{ "id":51, "name":"Lesser Daemon Pool Point (Daemonic Pact)", "pts":0 }
+		{ "id":51, "name":"Lesser Daemon Pool Point (Daemonic Icon)", "pts":0 }
 	],
 	"formationConstraints":[
 		{"max":1, "name":"Spacecraft", "from":[553]},
 		{"max":1, "from":[400]},
-		{"min":1, "max":1, "from":[401]},
+		{"min":0, "max":1, "from":[401]},
 		{"max":1, "name":"Alpha Legion Elite Detachment", "from":[501,521,522,523], "forEach":[500], "name2":"Cultist Coven"},
 		{"max":1, "name":"Chaos Cultist Formations", "from":[532,533,534], "forEach":[500], "name2":"Cultist Coven"},
 		{"maxPercent": 33.5, "name":"Alpha Legion Navy", "from":[550,551,553]},
@@ -71,18 +73,17 @@
 		{"max":1, "perArmy":true, "from":[553]}
 	],
 	"upgradeConstraints":[
-		{"max":1, "perArmy":true, "from":[12,14]},
+		{"max":1, "perArmy":true, "from":[12,14,39], "name":"Supreme Commander"},
 
+		{"max":1, "from":[15]},
 		{"max":1, "from":[30,31]},
-		{"max":1, "from":[39]},
 		{"max":2, "from":[41]},
 		{"max":1, "from":[42]},
-		{"max":1, "from":[45]},
 		{"max":1, "from":[46]},
 		{"max":3, "from":[47]},
 		{"max":1, "from":[48]},
 
-		{"min":1, "max":1, "from":[13,14], "appliesTo":[500]},
+		{"min":1, "max":1, "from":[13,45,14,39], "appliesTo":[500]},
 
 		{"min":1, "max":1, "from":[10,11], "appliesTo":[501,521,523]},
 
