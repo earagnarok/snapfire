@@ -4,24 +4,25 @@
 	"version":"0.7.2",
 	"notes":[],
 	"sections":[
-		{"name":"ALPHA LEGION SPECIALS", "formations": [
+		{"name":"DAEMON POOL", "formations": [
 			{ "id":401, "name":"Lesser Daemon Pool", "pts":0, "upgrades":[50,51] }
 		]},
 		{"name":"ALPHA LEGION CULTIST COVEN FORMATIONS", "formations": [
-				{ "id":500, "name":"Cultist Coven", "pts":110, "upgrades":[40,43,44,46,47,48,49] }
+				{ "id":500, "name":"Cultist Coven", "pts":110, "upgrades":[40,41,43,44,46,47,48,49] }
 		]},
-		{"name":"ALPHA LEGION ELITE DETACHMENTS <br/> Max 1 for each Cultist Coven", "formations": [
+		{"name":"ALPHA LEGION CULTIST SUPPORT FORMATIONS <br/> Max 1 for each Cultist Coven", "formations": [
+		{ "id":532, "name":"Cultist Cavalry", "pts":225, "units":"6 Death Riders, 4 Chaos Hounds", "upgrades":[15] },
+		{ "id":533, "name":"Heavy Mortar Battery", "pts":200, "units":"3 Heavy Mortars, two Big Mutants", "upgrades":[48] },
+		{ "id":534, "name":"Macharius Platoon", "pts":200, "units":"2 Macharius",  "upgrades":[48] },
+		{ "id":535, "name":"Ragnarok Squadron", "pts":250, "units":"4 Ragnarok Heavy Tanks",  "upgrades":[48] }
+	]},
+		{"name":"ALPHA LEGION ELITE DETACHMENTS <br/> Max 1 for each Cultist Coven or Cultist Support Formation", "formations": [
 			{ "id":501, "name":"Alpha Legion Marines", "pts":200, "upgrades":[30,31,32,12] },
 			{ "id":521, "name":"Headhunters", "pts":225, "units":"4 Alpha Legion Headhunters plus transport", "upgrades":[30,31,12] },
 			{ "id":522, "name":"Destroyers", "pts":200,"units":"4 Alpha Legion Destroyers", "upgrades":[] },
-			{ "id":523, "name":"Lernaean Terminators", "pts":300,"units":"4 Lernaean Terminators plus transport", "upgrades":[30,31,32,12] }
+			{ "id":523, "name":"Lernaean Terminators", "pts":225,"units":"3 Lernaean Terminators plus transport", "upgrades":[30,31,32,12] }
 		]},
-			{"name":"ALPHA LEGION CULTIST SUPPORT FORMATIONS <br/> Max 1 for each Cultist Coven", "formations": [
-			{ "id":532, "name":"Cultist Cavalry", "pts":225, "units":"6 Death Riders, 4 Chaos Hounds", "upgrades":[15] },
-			{ "id":533, "name":"Heavy Mortar Battery", "pts":200, "units":"3 Heavy Mortars, two Big Mutants", "upgrades":[48] },
-			{ "id":534, "name":"Macharius Platoon", "pts":200, "units":"2 Macharius",  "upgrades":[48] }
-		]},
-			{"name":"ALPHA LEGION NAVY <br/> Max 33%", "formations": [
+			{"name":"ALPHA LEGION NAVY <br/> Max 33% <br/> Max 1 for each Alpha Legion Elite Detachment", "formations": [
 			{ "id":550, "name":"Xiphon Squadron", "pts":200, "units":"2 Xiphon Interceptors", "upgrades":[] },
 			{ "id":551, "name":"Alpha Legion Thunderhawk", "pts":200, "upgrades":[] },
 			{ "id":553, "name":"Alpha Legion Strike Cruiser", "pts":200, "upgrades":[] }
@@ -46,8 +47,7 @@
 
 		{ "id":39, "name":"Daemon Prince with Daemonic Icon", "pts":125 },
 		{ "id":40, "name":"Land Transporter", "pts":10 },
-		{ "id":41, "name":"Technical", "pts":20 },
-		{ "id":42, "name":"3 Chaos Hounds", "pts":35 },
+		{ "id":41, "name":"3 Heavy Mortars", "pts":100 },
 
 		{ "id":43, "name":"Chaos Cultist", "pts":10 },
 		{ "id":44, "name":"Chaos Mutant", "pts":10 },
@@ -55,7 +55,7 @@
 		{ "id":45, "name":"Aspiring Champion with Daemonic Icon", "pts":25 },
 
 		{ "id":46, "name":"Chaos Spawn", "pts":35 },
-		{ "id":47, "name":"Ragnarok Heavy Tank", "pts":50 },
+		{ "id":47, "name":"3 Ragnarok Heavy Tanks", "pts":150 },
 		{ "id":48, "name":"Hydra", "pts":50 },
 		{ "id":49, "name":"Big Mutant", "pts":25 },
 
@@ -66,26 +66,26 @@
 		{"max":1, "name":"Spacecraft", "from":[553]},
 		{"max":1, "from":[400]},
 		{"min":0, "max":1, "from":[401]},
-		{"max":1, "name":"Alpha Legion Elite Detachment", "from":[501,521,522,523], "forEach":[500], "name2":"Cultist Coven"},
-		{"max":1, "name":"Chaos Cultist Formations", "from":[532,533,534], "forEach":[500], "name2":"Cultist Coven"},
-		{"maxPercent": 33.5, "name":"Alpha Legion Navy", "from":[550,551,553]},
-
-		{"max":1, "perArmy":true, "from":[553]}
+		{"max":1, "name":"Alpha Legion Elite Detachment", "from":[501,521,522,523], "forEach":[500,532,533,534,535], "name2":"Cultist Coven or Cultist Support"},
+		{"max":1, "name":"Cultist Support Formation", "from":[532,533,534,535], "forEach":[500], "name2":"Cultist Coven"},
+		{"maxPercent": 33.5, "name":"Alpha Legion Navy Detachments", "from":[550,551,553]},
+		{"max":1, "name":"Alpha Legion Navy Detachment", "from":[550,551,553], "forEach":[501,521,522,523], "name2":"Alpha Legion Elite Detachment"}
 	],
 	"upgradeConstraints":[
 		{"max":1, "perArmy":true, "from":[12,14,39], "name":"Supreme Commander"},
 
 		{"max":1, "from":[15]},
 		{"max":1, "from":[30,31]},
-		{"max":2, "from":[41]},
+		{"max":1, "from":[41]},
 		{"max":1, "from":[42]},
 		{"max":1, "from":[46]},
-		{"max":3, "from":[47]},
+		{"max":1, "from":[47]},
 		{"max":1, "from":[48]},
 
 		{"min":1, "max":1, "from":[13,45,14,39], "appliesTo":[500]},
 
 		{"min":1, "max":1, "from":[10,11], "appliesTo":[501,521,523]},
+		{"max":1, "from":[11,12], "appliesTo":[501,521,523]},
 
 		{"min":1, "max":1, "from":[20,21], "appliesTo":[501]},
 
