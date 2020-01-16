@@ -5,17 +5,17 @@
    "sections": [
       { "name": "CADRES",
          "formations": [
-            {"id": 532,"name": "Crisis Battlesuit Cadre","pts": 225,"upgrades": []},
-            {"id": 531,"name": "Sa'cea Fire Warrior Cadre","pts": 225,"upgrades": [62,63,60,35,80,81,82,83,84,61,54,55]}
+            {"id": 532,"name": "Crisis Battlesuit Cadre","pts": 250,"upgrades": [35]},
+            {"id": 531,"name": "Sa'cea Fire Warrior Cadre","pts": 225,"upgrades": [62,63,60,35,80,83,84,55]}
          ]
       },
       {"name": "SUPPORT GROUPS <br/> Max 3 for each Cadre",
          "formations": [
-            {"id": 516,"name": "Hammerhead Group","pts": 200,"upgrades": [90,91,92,93,94,55]},
+            {"id": 516,"name": "Hammerhead Group","pts": 175,"upgrades": [35,55,54,61]},
             {"id": 514,"name": "Broadside Group","pts": 300,"units": "6 XV88 Broadside Battlesuits","upgrades": [35]},
             {"id": 518,"name": "Kroot Kindred","pts": 175,"units": "Kroot Master Shapers","upgrades": [58,59]},
             {"id": 512,"name": "Pathfinder Group","pts": 175, "units": "4 Pathfinders, 2 Devilfish", "upgrades": [35,54,61]},
-            {"id": 515,"name": "Recon Skimmer Group","pts": 175,"upgrades": [35,54,61]},
+            {"id": 515,"name": "Recon Skimmer Group","pts": 175,"upgrades": [35]},
             {"id": 517,"name": "Skysweep Support Group","pts": 250,"units": "3 Sky Ray Gunships","upgrades": [35]},
             {"id": 513,"name": "Stealth Group","pts": 225,"units": "6 XV15 Stealth Battlesuits","upgrades": [35]}
          ]
@@ -52,7 +52,7 @@
       {"id": 50,"name": "Shas'el","pts": 0},
       {"id": 51,"name": "Shas'o","pts": 75},
 
-      {"id": 54,"name": "3 Piranhas","pts": 50},
+      {"id": 54,"name": "2 Piranhas","pts": 50},
 
       {"id": 55,"name": "Sky Ray","pts": 100},
 
@@ -61,21 +61,19 @@
 
       {"id": 60,"name": "Ethereal","pts": 50},
 
-      {"id": 61,"name": "2 Tetras","pts": 50},
+      {"id": 61,"name": "Tetra","pts": 50},
       {"id": 62,"name": "Bonded Team","pts": 25},
       {"id": 63,"name": "3 XV88 Broadside Battlesuits","pts": 125},
 
       {"id": 65,"name": "10 Sa'cea Fire Warriors, 5 Devilfish","pts": 100},
       {"id": 66,"name": "12 Sa'cea Fire Warriors","pts": 75},
 
-      {"id": 70,"name": "6 Gun Drones","pts": 75},
+      {"id": 70,"name": "6 Gun Drones","pts": 100},
 
 
       {"id": 80,"name": "2 Ion Hammerheads","pts": 75},
-      {"id": 81,"name": "Rail Hammerhead","pts": 50},
-      {"id": 82,"name": "Fusion Hammerhead","pts": 50},
-      {"id": 83,"name": "2 Rail Hammerhead","pts": 100},
-      {"id": 84,"name": "2 Fusion Hammerhead","pts": 100},
+      {"id": 83,"name": "2 Rail Hammerheads","pts": 100},
+      {"id": 84,"name": "2 Fusion Hammerheads","pts": 100},
 
       {"id": 90,"name": "Extra Rail Hammerhead","pts": 50},
       {"id": 91,"name": "Extra Fusion Hammerhead","pts": 50},
@@ -84,7 +82,7 @@
       {"id": 94,"name": "Extra 2 Fusion Hammerheads","pts": 100},
 
       {"id": 100,"name": "4 Ion Hammerheads","pts": 0},
-      {"id": 101,"name": "4 Fusion Hammerheads","pts":0},
+      {"id": 101,"name": "4 Fusion Hammerheads","pts":25},
       {"id": 102,"name": "4 Rail Hammerheads","pts": 25},
 
       {"id": 110,"name": "Protector Class Cruiser","pts": 0},
@@ -104,11 +102,9 @@
 
        {"max": 1,"min": 1,"from": [16,17,18],"appliesTo": [532]},
       {"max": 1,"min": 1,"from": [50,51],"appliesTo": [532]},
-      {"max": 1,"min": 1,"from": [35,36],"appliesTo": [532]},
-      {"max": 1,"from": [35],"appliesTo": [514,517,531,512,515,513]},
+      {"max": 1,"from": [35,36]},
       {"max": 1,"min": 1,"from": [31,32,66,65],"appliesTo": [531]},
       {"max": 1,"from": [55],"appliesTo": [531,516]},
-      {"max": 1,"from": [61],"appliesTo": [531]},
       {"max": 1,"from": [54],"appliesTo": [531,512,515]},
       {"max": 1,"from": [56,57],"appliesTo": [531]},
       {"max": 1,"from": [62],"appliesTo": [531]},
@@ -120,7 +116,7 @@
       {"max": 1,"min": 1,"from": [19,20],"appliesTo": [ 518]},
       {"max": 6,"min": 6,"from": [25,26],"appliesTo": [515]},
       {"max": 1,"from": [70],"appliesTo": [522]},
-      {"max": 3,"from": [60,55,61,35,54,56,62,63,64,65,66,67,80,81,82,83,84],"appliesTo": [531,532]},
+      {"max": 3,"from": [60,55,61,35,54,56,62,63,64,65,66,67,80,81,82,83,84],"appliesTo": [531]},
       {"max": 1,"min": 1,"from": [100,101,102],"appliesTo": [516]},
       {"max": 1,"min": 1,"from": [110,111],"appliesTo": [525]}
 
