@@ -98,7 +98,7 @@
     {"id": 103,"name": "Gaunts (2 Termagants, 3 Hormagaunts)","pts": 50},
     {"id": 104,"name": "Gaunts (Termagants, 4 Hormagaunts)","pts": 50},
     {"id": 105,"name": "Gaunts (5 Hormagaunts)","pts": 50},
-    {"id": 107,"name": "Bio-Flyer (3 Harpies)","pts": 100},
+    {"id": 107,"name": "Bio-Flyer (3 Harpies)","pts": 125},
     {"id": 108,"name": "Biovores (4 Biovores)","pts": 75},
     {"id": 109,"name": "Gargoyles (4 Gargoyles)","pts": 50},
     {"id": 111,"name": "Bio-Support (3 Dactylis)","pts": 125},

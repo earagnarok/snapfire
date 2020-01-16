@@ -13,9 +13,10 @@
          "formations": [
             {"id": 502,"name": "Pathfinder Group",  "pts": 175, "upgrades": [20,25]},
             {"id": 510,"name": "Broadside Group","pts": 300,"units": "6 XV88 Broadside Battlesuits","upgrades": [20]},
-            {"id": 511,"name": "Stormsurge Group","pts": 250, "units": "2 KV128 Stormsurge Battlesuits", "upgrades": []},
-            {"id": 512,"name": "Heavy Battlesuit Group","pts": 350, "upgrades": []},
-            {"id": 513,"name": "Stealth Group","pts": 225, "upgrades": []}
+            {"id": 511,"name": "Stormsurge Group","pts": 275, "units": "2 KV128 Stormsurge Battlesuits", "upgrades": []},
+            {"id": 512,"name": "Heavy Battlesuit Group","pts": 325, "upgrades": []},
+            {"id": 513,"name": "Stealth Group","pts": 225, "upgrades": []},
+            {"id": 514,"name": "Drone Group","pts": 125,  "units": "6 Gun Drones", "upgrades": []}
          ]
       },
       { "name": "SUPREMACY & AIR CASTE <br/> Max 33%",
@@ -55,9 +56,9 @@
       {"id": 41,"name": "5 XV8 Crisis Battlesuits","pts": 50},
       {"id": 42,"name": "6 XV8 Crisis Battlesuits","pts": 75},
 
-      {"id": 45,"name": "3 XV104 Riptide Battlesuit (Ion Accelerator)","pts": 0},
-      {"id": 46,"name": "3 XV107 R'Varna Battlesuit (Pulse Submunition Cannons)","pts": 0},
-      {"id": 47,"name": "3 XV109 Y'Vahra Battlesuit (Plasma Flamer)","pts": 0},
+      {"id": 45,"name": "3 XV104 Riptide Battlesuits (Ion Accelerator)","pts": 0},
+      {"id": 46,"name": "3 XV107 R'Varna Battlesuits (Pulse Submunition Cannons)","pts": 0},
+      {"id": 47,"name": "3 XV109 Y'Vahra Battlesuits (Plasma Flamer)","pts": 0},
 
       {"id": 50,"name": "KV139 Supremacy Suit with Heavy Rail Cannon","pts": 0},
       {"id": 51,"name": "KV139 Supremacy Suit with Nexus Missile Array","pts": 0},
@@ -70,7 +71,7 @@
    "formationConstraints": [
       {"max": 1,"from": [523]},
       {"maxPercent": 33.5,"name": "Supremacy & Air Caste","from": [519,520,521,522,523,524]},
-      {"max": 3,"name": "Support Groups","from": [502,510,511,512,513],"forEach": [500,501],"name2": "Cadre"}
+      {"max": 3,"name": "Support Groups","from": [502,510,511,512,513,514],"forEach": [500,501],"name2": "Cadre"}
    ],
    "upgradeConstraints": [
 		{"max":1, "perArmy":true, "from":[10]},
@@ -98,6 +99,8 @@
       {"max": 1,"min": 1,"from": [45,46,47],"appliesTo": [512]},
 
       {"max": 1,"min": 1,"from": [55,56],"appliesTo": [513]},
+
+      {"max": 1,"min": 1,"from": [27,26],"appliesTo": [514]},
 
       {"max": 1,"min": 1,"from": [50,51,52],"appliesTo": [519]}
    ]
