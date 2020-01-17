@@ -22,7 +22,7 @@
       },
       { "name": "AIR CASTE <br/> Max 33%",
          "formations": [
-            {"id": 524,"name": "Manta","pts": 500,"upgrades": []},
+            {"id": 524,"name": "Manta","pts": 525,"upgrades": []},
             {"id": 526,"name": "Orca Dropship","pts": 175,"upgrades": []},
             {"id": 521,"name": "Barracuda Squadron","pts": 150,"units": "2 Barracuda Fighters","upgrades": []},
             {"id": 522,"name": "Tiger Shark Bombers","pts": 175,"units": "2 Tiger Shark Bombers","upgrades": [70]},
