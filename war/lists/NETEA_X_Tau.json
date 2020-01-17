@@ -6,7 +6,7 @@
       { "name": "CADRES",
          "formations": [
             {"id": 532,"name": "Crisis Battlesuit Cadre","pts": 250,"upgrades": [35]},
-            {"id": 531,"name": "Fire Warrior Cadre","pts": 225,"upgrades": [62,63,60,35,61,54,55]}
+            {"id": 531,"name": "Fire Warrior Cadre","pts": 225,"upgrades": [62,63,60,35,61,54,55,80,81,82,83,84]}
          ]
       },
       {"name": "SUPPORT GROUPS <br/> Max 3 for each Cadre",
@@ -36,7 +36,6 @@
       {"id": 18,"name": "6 XV8 Crisis Battlesuits","pts": 75},
       {"id": 19,"name": "9 Kroot Warriors","pts": 0},
       {"id": 20,"name": "14 Kroot Warriors","pts": 75},
-      {"id": 22,"name": "Hammerhead gunship","pts": 50},
       {"id": 25,"name": "Tetra","pts": 0},
       {"id": 26,"name": "Piranha","pts": 0},
 
@@ -65,8 +64,8 @@
       {"id": 80,"name": "2 Ion Hammerheads","pts": 75},
       {"id": 81,"name": "Rail Hammerhead","pts": 50},
       {"id": 82,"name": "Fusion Hammerhead","pts": 50},
-      {"id": 83,"name": "2 Rail Hammerhead","pts": 100},
-      {"id": 84,"name": "2 Fusion Hammerhead","pts": 100},
+      {"id": 83,"name": "2 Rail Hammerheads","pts": 100},
+      {"id": 84,"name": "2 Fusion Hammerheads","pts": 100},
 
       {"id": 90,"name": "Extra Rail Hammerhead","pts": 50},
       {"id": 91,"name": "Extra Fusion Hammerhead","pts": 50},
@@ -101,9 +100,14 @@
      {"max": 1,"from": [58],"appliesTo": [518]},
      {"max": 1,"from": [59],"appliesTo": [518]},
      {"max": 1,"from": [70],"appliesTo": [522]},
-     {"max": 1,"from": [90,91,92,93,94]},
+     {"max": 1,"from": [80,81,82,83,84]},
 
-     {"max": 3,"from": [60,55,61,35,54,56,62,63,64,65,66,67],"appliesTo": [531,532]},
+     {"max": 2,"from": [90,91]},
+     {"max": 1,"from": [90,92,93,94]},
+     {"max": 1,"from": [91,92,93,94]},
+
+
+     {"max": 3,"from": [60,55,61,35,54,56,62,63,64,65,66,67,80,81,82,83,84],"appliesTo": [531,532]},
 
       {"max": 1,"min": 1,"from": [17,18],"appliesTo": [532]},
       {"max": 1,"min": 1,"from": [50,51],"appliesTo": [532]},
