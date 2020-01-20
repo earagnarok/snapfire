@@ -23,7 +23,7 @@
          "formations": [
             {"id": 519,"name": "Supremacy Suit", "pts": 325, "upgrades": []},
             {"id": 522,"name": "Manta","pts": 550,"upgrades": []},
-            {"id": 524,"name": "Orca Dropship","pts": 175, "upgrades": []},
+            {"id": 524,"name": "Orca Dropship","pts": 150, "upgrades": []},
             {"id": 520,"name": "Razorshark Squadron","pts": 200,"units": "3 Razorshark Fighters","upgrades": []},
             {"id": 521,"name": "Sun Shark Squadron","pts": 200,"units": "2 Sun Shark Bombers","upgrades": []},
             {"id": 523,"name": "Protector II Class Cruiser","pts": 200,"upgrades": []}
@@ -54,8 +54,8 @@
       {"id": 36,"name": "4 Pathfinders, 2 Devilfish","pts": 0},
 
       {"id": 40,"name": "4 XV8 Crisis Battlesuits","pts": 0},
-      {"id": 41,"name": "5 XV8 Crisis Battlesuits","pts": 50},
-      {"id": 42,"name": "6 XV8 Crisis Battlesuits","pts": 75},
+      {"id": 41,"name": "6 XV8 Crisis Battlesuits","pts": 75},
+      {"id": 42,"name": "8 XV8 Crisis Battlesuits","pts": 150},
 
       {"id": 45,"name": "3 XV104 Riptide Battlesuits (Ion Accelerator)","pts": 0},
       {"id": 46,"name": "3 XV107 R'Varna Battlesuits (Pulse Submunition Cannons)","pts": 0},
