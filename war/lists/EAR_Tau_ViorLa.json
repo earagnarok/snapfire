@@ -6,7 +6,7 @@
       { "name": "VIOR'LA CADRES",
          "formations": [
             {"id": 500,"name": "Crisis Battlesuit Cadre","pts": 250, "upgrades": [20]},
-            {"id": 501,"name": "Vior'la Fire Warrior Cadre","pts": 225,"upgrades": [11, 20,21,22,25, 26,27]}
+            {"id": 501,"name": "Fire Warrior Breacher Cadre","pts": 225,"upgrades": [11, 20,21,22,25, 26,27]}
          ]
       },
       {"name": "VIOR'LA SUPPORT GROUPS <br/> Max 3 for each Cadre",
@@ -22,11 +22,10 @@
       { "name": "VIOR'LA SUPREMACY & AIR CASTE <br/> Max 33%",
          "formations": [
             {"id": 519,"name": "Supremacy Suit", "pts": 325, "upgrades": []},
-            {"id": 522,"name": "Manta","pts": 550,"upgrades": []},
             {"id": 524,"name": "Orca Dropship","pts": 150, "upgrades": []},
             {"id": 520,"name": "Razorshark Squadron","pts": 200,"units": "3 Razorshark Fighters","upgrades": []},
             {"id": 521,"name": "Sun Shark Squadron","pts": 200,"units": "2 Sun Shark Bombers","upgrades": []},
-            {"id": 523,"name": "Protector II Class Cruiser","pts": 200,"upgrades": []}
+            {"id": 523,"name": "Spacecraft","pts": 175,"upgrades": []}
          ]
       }
    ],
@@ -45,10 +44,10 @@
       {"id": 27,"name": "Tetra","pts": 50},
       {"id": 28,"name": "Piranha","pts": 25},
 
-      {"id": 30,"name": "8 Vior'la Fire Warriors","pts": 0},
-      {"id": 31,"name": "6 Vior'la Fire Warriors, 3 Devilfish","pts": 0},
-      {"id": 32,"name": "12 Vior'la Fire Warriors","pts": 75},
-      {"id": 33,"name": "10 Vior'la Fire Warriors, 5 Devilfish","pts": 100},
+      {"id": 30,"name": "8 Fire Warrior Breachers","pts": 0},
+      {"id": 31,"name": "6 Fire Warrior Breachers, 3 Devilfish","pts": 0},
+      {"id": 32,"name": "12 Fire Warrior Breachers","pts": 75},
+      {"id": 33,"name": "10 Fire Warrior Breachers, 5 Devilfish","pts": 100},
 
       {"id": 35,"name": "6 Pathfinders","pts": 25},
       {"id": 36,"name": "4 Pathfinders, 2 Devilfish","pts": 0},
@@ -66,7 +65,10 @@
       {"id": 52,"name": "KV139 Supremacy Suit with Pulse Ordnance Multi-Driver","pts": 0},
 
       {"id": 55,"name": "6 XV15 Stealth Battlesuits","pts": 0},
-      {"id": 56,"name": "3 XV15 Stealth Battlesuits, 3 XV95 Ghostkeel Battlesuit","pts": 50}
+      {"id": 56,"name": "3 XV15 Stealth Battlesuits, 3 XV95 Ghostkeel Battlesuit","pts": 50},
+
+      {"id": 110,"name": "Protector Class Cruiser","pts": 0},
+      {"id": 111,"name": "Custodian Class Battleship","pts": 25}
 
    ],
    "formationConstraints": [
@@ -103,6 +105,8 @@
 
       {"max": 3,"min": 1,"from": [28],"appliesTo": [514]},
 
-      {"max": 1,"min": 1,"from": [50,51,52],"appliesTo": [519]}
+      {"max": 1,"min": 1,"from": [50,51,52],"appliesTo": [519]},
+
+      {"max": 1,"min": 1,"from": [110,111],"appliesTo": [523]}
    ]
 }
