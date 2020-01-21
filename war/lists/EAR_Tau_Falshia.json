@@ -6,13 +6,13 @@
       { "name": "FAL'SHIA CADRES",
          "formations": [
              {"id": 532,"name": "Crisis Battlesuit Cadre","pts": 250,"upgrades": [35,63]},
-             {"id": 531,"name": "Fire Warrior Ascender Cadre","pts": 225,"upgrades": [62,63,60,35,80,81,82,83,84,55]}
+             {"id": 531,"name": "Fire Warrior Radiant Cadre","pts": 225,"upgrades": [62,63,60,35,80,81,82,83,84,55]}
          ]
       },
       {"name": "FAL'SHIA SUPPORT GROUPS <br/> Max 3 for each Cadre",
          "formations": [
              {"id": 516,"name": "Hammerhead Group","pts": 200,"upgrades": [55,63,80,81,82,83,84]},
-             {"id": 518,"name": "Kroot Kindred","pts": 175,"units": "Kroot Master Shapers","upgrades": [58,59]},
+             {"id": 518,"name": "Kroot Kindred","pts": 175,"units": "Kroot Master Shapers, 9 Kroot Warriors","upgrades": [58,59,57]},
              {"id": 512,"name": "Pathfinder Group","pts": 175, "units": "4 Pathfinders, 2 Devilfish", "upgrades": [35,63]},
              {"id": 517,"name": "Skysweep Support Group","pts": 250,"units": "3 Sky Ray Gunships","upgrades": [35]},
             {"id": 513,"name": "Stealth Group","pts": 225, "upgrades": []},
@@ -37,12 +37,10 @@
        {"id": 17,"name": "5 XV8 Crisis Battlesuits","pts": 50},
        {"id": 18,"name": "6 XV8 Crisis Battlesuits","pts": 75},
 
-      {"id": 19,"name": "9 Kroot Warriors","pts": 0},
-      {"id": 20,"name": "13 Kroot Warriors","pts": 50},
 
-      {"id": 31,"name": "8 Fire Warrior Ascenders","pts": 0},
-      {"id": 32,"name": "6 Fire Warrior Ascenders, 3 Devilfish","pts": 0},
-      {"id": 33,"name": "4 Fire Warrior Ascenders, 2 Pathfinders, 3 Devilfish","pts": 50},
+      {"id": 31,"name": "8 Fire Warrior Radiants","pts": 0},
+      {"id": 32,"name": "6 Fire Warrior Radiants, 3 Devilfish","pts": 0},
+      {"id": 33,"name": "4 Fire Warrior Radiants, 2 Pathfinders, 3 Devilfish","pts": 50},
 
       {"id": 35,"name": "2 Gun Drones","pts": 25},
 
@@ -51,6 +49,7 @@
 
       {"id": 55,"name": "Sky Ray","pts": 100},
 
+      {"id": 57,"name": "2 Great Knarlocs","pts": 50},
       {"id": 58,"name": "2 Kroot Hounds","pts": 25},
       {"id": 59,"name": "3 Krootox","pts": 50},
 
@@ -58,12 +57,12 @@
 
       {"id": 62,"name": "Bonded Team","pts": 25},
 
-      {"id": 63,"name": "3 Vespid Stingwings","pts": 50},
+      {"id": 63,"name": "2 Vespid Stingwings","pts": 50},
 
       {"id": 70,"name": "6 Gun Drones","pts": 100},
 
       {"id": 75,"name": "6 XV15 Stealth Battlesuits","pts": 0},
-      {"id": 76,"name": "3 XV15 Stealth Battlesuits, 3 XV95 Ghostkeel Battlesuit","pts": 50},
+      {"id": 76,"name": "3 XV15 Stealth Battlesuits, 3 XV95 Ghostkeel Battlesuits","pts": 50},
 
       {"id": 80,"name": "2 Ion Hammerheads","pts": 75},
       {"id": 81,"name": "Rail Hammerhead","pts": 50},
@@ -92,6 +91,9 @@
        {"max": 1,"perArmy": true,"from": [51]},
        {"max": 1,"perArmy": true,"from": [60]},
 
+       {"max": 1,"from": [57]},
+       {"max": 1,"from": [58]},
+       {"max": 1,"from": [59]},
        {"max": 1, "from": [54,61]},
       {"max": 1,"from": [63]},
 
@@ -101,15 +103,13 @@
       {"max": 1,"min": 1,"from": [31,32,33],"appliesTo": [531]},
       {"max": 1,"from": [55],"appliesTo": [531,516]},
       {"max": 1,"from": [54],"appliesTo": [531,512,515]},
-      {"max": 1,"from": [56,57],"appliesTo": [531]},
+
       {"max": 1,"from": [62],"appliesTo": [531]},
 
       {"max": 1,"min": 1,"from": [75,76],"appliesTo": [513]},
-      {"max": 1,"from": [58],"appliesTo": [518]},
-      {"max": 1,"from": [59],"appliesTo": [518]},
+
       {"max": 1,"from": [80,81,82,83,84]},
       {"max": 1,"from": [90,91,92,93,94]},
-      {"max": 1,"min": 1,"from": [19,20],"appliesTo": [518]},
       {"max": 6,"min": 6,"from": [25,26],"appliesTo": [515]},
       {"max": 1,"from": [70],"appliesTo": [522]},
       {"max": 3,"from": [60,55,61,35,54,56,62,63,64,65,66,67,80,81,82,83,84],"appliesTo": [531]},
