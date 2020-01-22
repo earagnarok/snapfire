@@ -1,12 +1,12 @@
 {
    "id": "EA-R Tau Vior'la",
-   "version": "Alpha 0.6.0",
+   "version": "Alpha 0.6.1",
    "by": "EA-Ragnarok",
    "sections": [
       { "name": "VIOR'LA CADRES",
          "formations": [
             {"id": 500,"name": "Crisis Battlesuit Cadre","pts": 250, "upgrades": [20]},
-            {"id": 501,"name": "Fire Warrior Breacher Cadre","pts": 225,"upgrades": [11, 20,21,22,25, 26,27]}
+            {"id": 501,"name": "Fire Warrior Breacher Cadre","pts": 250,"upgrades": [11, 20,21,22,25, 26,27]}
          ]
       },
       {"name": "VIOR'LA SUPPORT GROUPS <br/> Max 3 for each Cadre",
@@ -52,9 +52,12 @@
       {"id": 35,"name": "6 Pathfinders","pts": 25},
       {"id": 36,"name": "4 Pathfinders, 2 Devilfish","pts": 0},
 
-      {"id": 40,"name": "4 XV8 Crisis Battlesuits","pts": 0},
-      {"id": 41,"name": "6 XV8 Crisis Battlesuits","pts": 75},
-      {"id": 42,"name": "8 XV8 Crisis Battlesuits","pts": 150},
+      {"id": 37,"name": "Shas'el, 4 XV8 Crisis Battlesuits","pts": 0},
+      {"id": 38,"name": "Shas'el, 6 XV8 Crisis Battlesuits","pts": 75},
+      {"id": 39,"name": "Shas'el with XV84 Crisis Battlesuits, 3 XV8 Crisis Battlesuits","pts": 75},
+      {"id": 40,"name": "Shas'o, 4 XV8 Crisis Battlesuits","pts": 75},
+      {"id": 41,"name": "Shas'o, 6 XV8 Crisis Battlesuits","pts": 150},
+      {"id": 42,"name": "Shas'o with XV84 Crisis Battlesuits, 3 XV8 Crisis Battlesuits","pts": 150},
 
       {"id": 45,"name": "3 XV104 Riptide Battlesuits (Ion Accelerator)","pts": 0},
       {"id": 46,"name": "3 XV107 R'Varna Battlesuits (Pulse Submunition Cannons)","pts": 0},
@@ -77,7 +80,7 @@
       {"max": 3,"name": "Support Groups","from": [502,510,511,512,513,514],"forEach": [500,501],"name2": "Cadre"}
    ],
    "upgradeConstraints": [
-		{"max":1, "perArmy":true, "from":[10]},
+		{"max":1, "perArmy":true, "from":[10,40,41,42]},
 		{"max":1, "perArmy":true, "from":[11]},
 
       {"max": 1, "from": [12]},
@@ -91,9 +94,9 @@
 
       {"max": 3, "from": [10,11,12,20,21,22,25,26,27,32,33,35], "appliesTo": [501]},
 
-      {"max": 1,"min": 1,"from": [9,10],"appliesTo": [500,519]},
+      {"max": 1,"min": 1,"from": [9,10],"appliesTo": [519]},
 
-      {"max": 1,"min": 1,"from": [40,41,42],"appliesTo": [500]},
+      {"max": 1,"min": 1,"from": [37,38,39,40,41,42],"appliesTo": [500]},
 
       {"max": 1,"min": 1,"from": [30,31,32,33],"appliesTo": [501]},
 

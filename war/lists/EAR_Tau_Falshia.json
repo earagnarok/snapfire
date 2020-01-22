@@ -11,9 +11,9 @@
       },
       {"name": "FAL'SHIA SUPPORT GROUPS <br/> Max 3 for each Cadre",
          "formations": [
-             {"id": 516,"name": "Hammerhead Group","pts": 200,"upgrades": [55,63,80,81,82,83,84]},
+             {"id": 516,"name": "Hammerhead Group","pts": 200,"upgrades": [55,63,71,72]},
              {"id": 518,"name": "Kroot Kindred","pts": 175,"units": "Kroot Master Shapers, 9 Kroot Warriors","upgrades": [58,59,57]},
-             {"id": 512,"name": "Pathfinder Group","pts": 175, "units": "4 Pathfinders, 2 Devilfish", "upgrades": [35,63]},
+             {"id": 512,"name": "Pathfinder Group","pts": 175, "units": "4 Pathfinders, 2 Devilfish", "upgrades": [71,72,63]},
              {"id": 517,"name": "Skysweep Support Group","pts": 250,"units": "3 Sky Ray Gunships","upgrades": [35]},
             {"id": 513,"name": "Stealth Group","pts": 225, "upgrades": []},
             {"id": 510,"name": "Stormsurge Group","pts": 250, "units": "2 KV128 Stormsurge Battlesuits", "upgrades": []}
@@ -37,7 +37,6 @@
        {"id": 17,"name": "5 XV8 Crisis Battlesuits","pts": 50},
        {"id": 18,"name": "6 XV8 Crisis Battlesuits","pts": 75},
 
-
       {"id": 31,"name": "8 Fire Warrior Radiants","pts": 0},
       {"id": 32,"name": "6 Fire Warrior Radiants, 3 Devilfish","pts": 0},
       {"id": 33,"name": "4 Fire Warrior Radiants, 2 Pathfinders, 3 Devilfish","pts": 50},
@@ -60,6 +59,9 @@
       {"id": 63,"name": "3 Vespid Stingwings","pts": 50},
 
       {"id": 70,"name": "6 Gun Drones","pts": 100},
+
+      {"id": 71,"name": "2 Piranha","pts": 50},
+      {"id": 72,"name": "Tetra","pts": 50},
 
       {"id": 75,"name": "6 XV15 Stealth Battlesuits","pts": 0},
       {"id": 76,"name": "3 XV15 Stealth Battlesuits, 3 XV95 Ghostkeel Battlesuits","pts": 50},
@@ -96,6 +98,7 @@
        {"max": 1,"from": [59]},
        {"max": 1, "from": [54,61]},
       {"max": 1,"from": [63]},
+      {"max": 1,"from": [71,72]},
 
        {"max": 1,"min": 1,"from": [16,17,18],"appliesTo": [532]},
       {"max": 1,"min": 1,"from": [50,51],"appliesTo": [532]},
@@ -113,8 +116,13 @@
       {"max": 6,"min": 6,"from": [25,26],"appliesTo": [515]},
       {"max": 1,"from": [70],"appliesTo": [522]},
       {"max": 3,"from": [60,55,61,35,54,56,62,63,64,65,66,67,80,81,82,83,84],"appliesTo": [531]},
-      {"max": 1,"min": 1,"from": [100,101,102,103,104,105,106,107],"appliesTo": [516]},
+
+      {"max": 1,"min": 0,"from": [105,81,83],"appliesTo": [516]},
+      {"max": 1,"min": 0,"from": [102,82,84],"appliesTo": [516]},
+      {"max": 1,"min": 0,"from": [100,80],"appliesTo": [516]},
+      {"max": 1,"min": 1,"from": [100,102,105],"appliesTo": [516]},
       {"max": 1,"min": 0,"from": [101,103,104,106,107,80,81,82,83,84],"appliesTo": [516]},
+
       {"max": 1,"min": 1,"from": [110,111],"appliesTo": [525]}
 
    ]
