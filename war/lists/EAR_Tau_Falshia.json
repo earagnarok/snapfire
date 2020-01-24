@@ -11,11 +11,11 @@
       },
       {"name": "FAL'SHIA SUPPORT GROUPS <br/> Max 3 for each Cadre",
          "formations": [
-             {"id": 516,"name": "Hammerhead Group","pts": 200,"upgrades": [35,55,63,71]},
+             {"id": 516,"name": "Hammerhead Group","pts": 200,"upgrades": [35,55,63,78]},
              {"id": 518,"name": "Kroot Kindred","pts": 175,"units": "Kroot Master Shapers, 9 Kroot Warriors","upgrades": [58,59,57]},
-             {"id": 512,"name": "Pathfinder Group","pts": 175, "units": "4 Pathfinders, 2 Devilfish", "upgrades": [71,35]},
+             {"id": 512,"name": "Pathfinder Group","pts": 175, "units": "4 Pathfinders, 2 Devilfish", "upgrades": [35]},
             {"id": 513,"name": "XV25 Stealth Group","pts": 200, "units": "4 XV25 Stealth Battlesuits", "upgrades": [35]},
-            {"id": 510,"name": "XV88 Broadside Group","pts": 300,"units": "6 XV88 Broadside Battlesuits","upgrades": [35]},
+            {"id": 515,"name": "XV9 Hazard Close Support Group","pts": 300, "units": "6 XV9-04 Hazard Battlesuits", "upgrades": [35]},
             {"id": 514,"name": "Drone Group","pts": 150,  "upgrades": []}
          ]
       },
@@ -38,10 +38,11 @@
        {"id": 18,"name": "6 XV8 Crisis Battlesuits","pts": 75},
 
       {"id": 28,"name": "Piranha","pts": 25},
+      {"id": 29,"name": "Tetra","pts": 25},
 
       {"id": 31,"name": "8 Fire Warrior Radiants","pts": 0},
       {"id": 32,"name": "6 Fire Warrior Radiants, 3 Devilfish","pts": 0},
-      {"id": 33,"name": "4 Fire Warrior Radiants, 2 Pathfinders, 3 Devilfish","pts": 50},
+      {"id": 33,"name": "5 Fire Warrior Radiants, Pathfinders, 3 Devilfish","pts": 50},
 
       {"id": 35,"name": "2 Gun Drones","pts": 25},
       {"id": 36,"name": "6 Gun Drones","pts": 0},
@@ -64,13 +65,13 @@
 
       {"id": 70,"name": "6 Gun Drones","pts": 100},
 
-      {"id": 71,"name": "2 Piranha","pts": 50},
-      {"id": 72,"name": "Tetra","pts": 50},
+      {"id": 71,"name": "3 XV9-04 Hazard Battlesuits","pts": 125},
+
 
       {"id": 75,"name": "6 XV15 Stealth Battlesuits","pts": 0},
       {"id": 76,"name": "3 XV15 Stealth Battlesuits, 3 XV95 Ghostkeel Battlesuits","pts": 50},
 
-      {"id": 78,"name": "3 XV88 Broadside Battlesuits","pts": 125},
+      {"id": 78,"name": "3 Swordfish","pts": 100},
 
       {"id": 100,"name": "4 Ion Hammerheads","pts": 0},
       {"id": 101,"name": "6 Ion Hammerheads","pts": 75},
@@ -87,7 +88,7 @@
    "formationConstraints": [
       {"max": 1,"from": [525]},
       {"maxPercent": 33.5,"name": "Air Caste","from": [520,521,522,523,524,525,526]},
-      {"max": 3,"name": "Support Groups","from": [516,514,518,512,517,513,510],"forEach": [532,531],"name2": "Cadre"}
+      {"max": 3,"name": "Support Groups","from": [516,514,518,512,517,513,510,515],"forEach": [532,531],"name2": "Cadre"}
    ],
    "upgradeConstraints": [
        {"max": 1,"perArmy": true,"from": [51]},
@@ -105,7 +106,7 @@
        {"max": 1,"min": 1,"from": [16,17,18],"appliesTo": [532]},
       {"max": 1,"min": 1,"from": [50,51],"appliesTo": [532]},
       {"max": 1,"from": [35,36]},
-      {"max": 1,"min": 1,"from": [31,32],"appliesTo": [531]},
+      {"max": 1,"min": 1,"from": [31,32,33],"appliesTo": [531]},
       {"max": 1,"from": [55],"appliesTo": [531,516]},
       {"max": 1,"from": [54],"appliesTo": [531,512,515]},
 
@@ -115,9 +116,8 @@
 
       {"max": 1,"from": [80,81,82,83,84]},
       {"max": 1,"from": [90,91,92,93,94]},
-      {"max": 6,"min": 6,"from": [25,26],"appliesTo": [515]},
       {"max": 1,"from": [70],"appliesTo": [522]},
-      {"max": 3,"from": [60,55,61,35,54,56,62,63,64,65,66,67,78],"appliesTo": [531]},
+      {"max": 3,"from": [60,55,61,35,54,56,62,63,64,33,65,66,67,78,71],"appliesTo": [531]},
       {"max": 3,"from": [35,63,17,18,51],"appliesTo": [532]},
 
       {"max": 1,"min": 0,"from": [105,81,83],"appliesTo": [516]},
@@ -125,7 +125,7 @@
       {"max": 1,"min": 0,"from": [100,80],"appliesTo": [516]},
       {"max": 1,"min": 1,"from": [100,102,105],"appliesTo": [516]},
       {"max": 1,"min": 0,"from": [101,103,104,106,107,80,81,82,83,84],"appliesTo": [516]},
-      {"max": 3,"from": [35,63,71,72,55],"appliesTo": [516]},
+      {"max": 3,"from": [35,63,78,72,55],"appliesTo": [516]},
 
       {"max": 1,"min": 1,"from": [110,111],"appliesTo": [525]}
 

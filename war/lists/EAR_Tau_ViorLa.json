@@ -11,8 +11,8 @@
       },
       {"name": "VIOR'LA SUPPORT GROUPS <br/> Max 3 for each Cadre",
          "formations": [
-             {"id": 502,"name": "Pathfinder Group","pts": 175, "units": "4 Pathfinders, 2 Devilfish", "upgrades": [20,26]},
-            {"id": 515,"name": "Recon Skimmer Group","pts": 25,"upgrades": [20,26]},
+             {"id": 502,"name": "Pathfinder Group","pts": 175, "units": "4 Pathfinders, 2 Devilfish", "upgrades": [20]},
+            {"id": 515,"name": "Recon Skimmer Group","pts": 25,"upgrades": [26]},
             {"id": 511,"name": "KV128 Stormsurge Group","pts": 250, "units": "2 KV128 Stormsurge Battlesuits", "upgrades": []},
             {"id": 512,"name": "XV10* Heavy Battlesuit Group","pts": 325, "upgrades": []},
             {"id": 513,"name": "XV95 Stealth Group","pts": 250, "units": "4 XV95 Ghostkeel Battlesuits", "upgrades": [20]},
@@ -101,7 +101,8 @@
 
       {"max": 1,"min": 1,"from": [34,35],"appliesTo": [514]},
 
-      {"max": 6,"min": 6,"from": [29,28],"appliesTo": [515]},
+      {"max": 8,"min": 6,"from": [28,29],"appliesTo": [515]},
+      {"max": 6, "from": [29],"appliesTo": [515]},
 
       {"max": 1,"min": 1,"from": [50,51,52],"appliesTo": [519]},
 
