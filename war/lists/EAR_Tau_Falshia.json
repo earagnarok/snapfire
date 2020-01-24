@@ -6,7 +6,7 @@
       { "name": "FAL'SHIA CADRES",
          "formations": [
              {"id": 532,"name": "XV8 Crisis Battlesuit Cadre","pts": 250,"upgrades": [35,63]},
-             {"id": 531,"name": "Fire Warrior Radiant Cadre","pts": 225,"upgrades": [62,63,60,35,78,55]}
+             {"id": 531,"name": "Fire Warrior Radiant Cadre","pts": 225,"upgrades": [62,63,60,35,78,55,71]}
          ]
       },
       {"name": "FAL'SHIA SUPPORT GROUPS <br/> Max 3 for each Cadre",
