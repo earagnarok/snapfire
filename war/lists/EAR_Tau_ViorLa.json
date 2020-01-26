@@ -13,7 +13,7 @@
          "formations": [
              {"id": 502,"name": "Pathfinder Group","pts": 175, "units": "4 Pathfinders, 2 Devilfish", "upgrades": [20]},
             {"id": 515,"name": "Recon Skimmer Group","pts": 25,"upgrades": [26]},
-            {"id": 511,"name": "KV128 Stormsurge Group","pts": 250, "units": "2 KV128 Stormsurge Battlesuits", "upgrades": []},
+            {"id": 511,"name": "KV128 Stormsurge Group","pts": 300, "units": "2 KV128 Stormsurge Ballistic Suits", "upgrades": []},
             {"id": 512,"name": "XV10* Heavy Battlesuit Group","pts": 325, "upgrades": []},
             {"id": 513,"name": "XV95 Stealth Group","pts": 250, "units": "4 XV95 Ghostkeel Battlesuits", "upgrades": [20]},
             {"id": 514,"name": "Drone Group","pts": 150, "upgrades": []}
