@@ -19,7 +19,7 @@
 			{"id":506, "name":"Super-Heavy Platoon", "pts":175, "upgrades":[]},
 			{"id":507, "name":"Leman Russ Platoon", "pts":350, "upgrades":[]}
 		]},
-		{"name":"SLAVES TO DARKNESS AIR SUPPORT & CHAOS ALLIES <br/> Max 33% <br/> Army may not Mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
+		{"name":"SLAVES TO DARKNESS AIR SUPPORT & CHAOS ALLIES <br/> Max 33% <br/> Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
 			{"id":531, "name":"Thunderbolt Squadron", "pts":150, "units":"2 Thunderbolt Fighters", "upgrades":[]},
 			{"id":532, "name":"Marauder Squadron", "pts":225, "units":"2 Marauder Bombers", "upgrades":[]},
 			{"id":530, "name":"Chaos Space Marines of Chaos Undivided", "pts":275, "units":"6 Chaos Space Marines, 3 Chaos Rhinos, Daemonic Pact", "upgrades":[]},

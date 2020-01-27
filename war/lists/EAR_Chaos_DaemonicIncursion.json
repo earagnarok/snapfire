@@ -9,10 +9,10 @@
 		{"name":"DAEMONIC INCURSION SPECIALS", "formations":[
 			{"id":499, "name":"Chaos Gate", "pts":0,  "units":"Replace one objective on the Daemonic Incursion half of the table with a Chaos Gate",  "upgrades":[]}
 		]},
-		{"name":"1+ EXALTED GREATER DAEMONS <br/> Max 1 for each part of 1000 points <br/> Army may not Mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
+		{"name":"1+ EXALTED GREATER DAEMONS <br/> Max 1 for each part of 1000 points <br/> Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
 			{"id":665, "name":"Exalted Greater Daemon", "pts":300, "upgrades":[60]}
 		]},
-		{"name":"DAEMON LEGIONS <br/> Army may not Mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
+		{"name":"DAEMON LEGIONS <br/> Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
 			{"id":666, "name":"Slaneesh Legion of Excess", "pts":200, "units":"5 Lesser Daemon Pool points",  "upgrades":[60]},
 			{"id":667, "name":"Nurgle Plague Legion", "pts":200, "units":"5 Lesser Daemon Pool points", "upgrades":[60]},
 			{"id":668, "name":"Khorne Blood Legion", "pts":200, "units":"5 Lesser Daemon Pool points", "upgrades":[60]},

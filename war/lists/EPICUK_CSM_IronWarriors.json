@@ -25,7 +25,7 @@
                 {"name":"CHAOS NAVY & DARK MECHANICUS <br/> Max 33%", "formations":[
                     {"id": 530, "name": "Hell Blade Flight", "pts": 200, "units": "3 Hell Blade Interceptors", "upgrades": []},
                     {"id": 531, "name": "Hell Talon Flight", "pts": 225, "units": "2 Hell Talon Fighter-Bombers", "upgrades": []},
-                        {"id":532, "name":"Harbinger Bomber",   "pts":450, "upgrades":[]},
+                        {"id":532, "name":"Harbringer Bomber",   "pts":450, "upgrades":[]},
                         {"id":533, "name":"Devastation Class Cruiser",  "pts":150, "upgrades":[]},
                         {"id":534, "name":"Despoiler Class Battleship","pts":250, "upgrades":[]},
                         {"id":520, "name":"Siegelord Titan",            "pts":800, "upgrades":[]},

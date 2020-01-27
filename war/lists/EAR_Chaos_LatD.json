@@ -11,7 +11,7 @@
 		{"name":"LOST AND THE DAMNED CORE FORMATIONS", "formations":[
 			{"id":501, "name":"Cultist Coven", "pts":135, "units":"Daemonic Pact", "upgrades":[14,15,16,17,18,19]}
 		]},
-		{"name":"LOST AND THE DAMNED SUPPORT COVEN FORMATIONS <br/> Max 2 for each Cultist Coven <br/> Max 1 for each part of 1000 points in the army <br/> Army may not Mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
+		{"name":"LOST AND THE DAMNED SUPPORT COVEN FORMATIONS <br/> Max 2 for each Cultist Coven <br/> Max 1 for each part of 1000 points in the army <br/> Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
 			{"id":530, "name":"Chaos Space Marines of Chaos Undivided", "pts":275, "units":"6 Chaos Space Marines, 3 Chaos Rhinos, Daemonic Pact", "upgrades":[]},
 			{"id":502, "name":"Hellfire Cannons of Chaos Undivided", "pts":225, "units":"4 Hellfire Cannons", "upgrades":[]},
 			{"id":503, "name":"Forgefiends of Chaos Undivided", "pts":250, "units":"3 Forgefiends", "upgrades":[]},

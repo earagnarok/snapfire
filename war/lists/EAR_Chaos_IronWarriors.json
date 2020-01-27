@@ -26,7 +26,7 @@
 			{"id":533, "name":"Ordinatus Hereticus Minoris", "pts":425, "upgrades":[]},
 			{"id":534, "name":"Ordinatus Cyclothrathe", "pts":475, "upgrades":[]},
 			{"id":535, "name":"Chaos Warlord Titan",	"pts":750, "upgrades":[]},
-			{"id":536, "name":"Harbinger Bomber", 	"pts":350, "upgrades":[]},
+			{"id":536, "name":"Harbringer Bomber", 	"pts":350, "upgrades":[]},
 			{"id":537, "name":"Heldrakes",	"pts":225, "units":"2 Heldrakes", "upgrades":[]},
 			{"id":538, "name":"Devastation Class Cruiser",	"pts":150, "upgrades":[]},
 			{"id":539, "name":"Despoiler Class Battleship","pts":200, "upgrades":[]}
@@ -80,7 +80,7 @@
 		{"id":70,	"name":"Ordinatus Hereticus Minoris w/ Turbo Blaster",	"pts":0},
 		{"id":71,	"name":"Ordinatus Hereticus Minoris w/ Doom Burner",	"pts":0},
 		{"id":72,	"name":"Ordinatus Hereticus Minoris w/ Plasma Cremator",	"pts":0},
-		{"id":73,	"name":"Ordinatus Hereticus Minoris w/ Twin Hades Autocannon",	"pts":0},
+		{"id":73,	"name":"Ordinatus Hereticus Minoris w/ Twin Hades Autocannons",	"pts":0},
 
 		{"id":80, "name":"Dreadclaw", "pts":5}
 

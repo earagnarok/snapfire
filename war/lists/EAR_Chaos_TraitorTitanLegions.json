@@ -4,7 +4,7 @@
 	"notes":[],
 	"by":"EA-Ragnarok",
 	"sections":[
-		{"name":"BATTLE TITAN FORMATIONS <br/> Army must contain at least 1 Chaos Emperor Titan or Chaos Warlord Titan <br/> Army may not Mix Nurgle/Tzeentch or Slaanesh/Khorne formations ", "formations":[
+		{"name":"BATTLE TITAN FORMATIONS <br/> Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations ", "formations":[
 			{"id":500, "name":"Chaos Emperor Titan", 		"pts":900, "upgrades":[10]},
 
 			{"id":501, "name":"Chaos Warlord Titan", 		"pts":750, "upgrades":[10,11]},
@@ -12,37 +12,34 @@
 			{"id":502, "name":"Chaos Reaver Titan",			"pts":600, "upgrades":[11]}
 		]},
 
-		{"name": "SCOUT TITAN FORMATIONS <br/> Max 2 per Battle Titan formation <br/> Army may not Mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
-			{"id":510, "name":"Questor of Slaanesh",	"pts":50, "upgrades":[70]},
-			{"id":511, "name":"Subjugator of Slaanesh",	"pts":50, "upgrades":[71]},
-
-			{"id":512, "name":"Plaguehound of Nurgle",	"pts":50, "upgrades":[72]},
-			{"id":513, "name":"Bloodhound of Khorne",	"pts":50, "upgrades":[73,74]},
-			{"id":514, "name":"Warphound of Tzeentch",	"pts":50, "upgrades":[75]}
-
+		{"name": "SCOUT TITAN FORMATIONS <br/> Max 2 per Battle Titan formation <br/> Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
+			{"id":510, "name":"Questors of Slaanesh", "units": "2 Questors of Slaanesh", "pts":500, "upgrades":[]},
+			{"id":511, "name":"Subjugators of Slaanesh", "units": "2 Subjugators of Slaanesh",	"pts":450, "upgrades":[]},
+			{"id":513, "name":"Chaos Warhound Pack",	"pts":500, "upgrades":[]}
 		]},
 
-		{"name":"DAEMON ENGINE FORMATIONS <br/> Max 1 per Battle Titan or Scout Titan formation <br/> Army may not Mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
+		{"name":"DAEMON ENGINE FORMATIONS <br/> Max 2 per Battle Titan or Scout Titan Pack. <br/> Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
 			{"id":540, "name":"Hell-Striders of Slaanesh",			"pts":25, "upgrades":[87]},
-			{"id":541, "name":"Hell-Knights of Slaanesh",			"pts":50, "upgrades":[88]},
-			{"id":542, "name":"Hell-Scourges of Slaanesh",			"pts":50, "upgrades":[89]},
+			{"id":541, "name":"Hell-Knights of Slaanesh",			"pts":25, "upgrades":[88]},
+			{"id":542, "name":"Hell-Scourges of Slaanesh",			"pts":25, "upgrades":[89]},
 
-			{"id":550, "name":"Knights of Nurgle",			"pts":75,  "upgrades":[80]},
+			{"id":550, "name":"Knights of Nurgle",			"pts":25,  "upgrades":[80]},
 			{"id":551, "name":"Defilers of Nurgle",				"pts":50,  "upgrades":[90]},
 
-			{"id":560, "name":"Knights of Khorne",			"pts":75, "upgrades":[81]},
+			{"id":560, "name":"Knights of Khorne",			"pts":25, "upgrades":[81]},
 			{"id":561, "name":"Defilers of Khorne",			"pts":25, "upgrades":[86]},
 
-			{"id":570, "name":"Knights of Tzeentch",			"pts":75,  "upgrades":[82]},
+			{"id":570, "name":"Knights of Tzeentch",			"pts":25,  "upgrades":[82]},
 			{"id":571, "name":"Defilers of Tzeentch",				"pts":50, "upgrades":[91]}
 
 		]},
 
-			{"name":"UNDIVIDED, HELL-FORGE & CHAOS NAVY ALLIES <br/> Max 25%", "formations":[
-			{"id":580, "name":"Knights of Chaos Undivided",			"pts":75,  "upgrades":[83]},
-			{"id":581, "name":"Defilers of Chaos Undivided",				"pts":25, "upgrades":[92]},
-			{"id":582, "name":"Armigers of Chaos Undivided",	"pts":175, "upgrades":[]},
-			{"id":590, "name":"Hell-Forge Support",		"pts":200, "units": "4 Chaos Squats, 2 Macrocarid Exploitators", "upgrades":[]},
+			{"name":"UNDIVIDED, HELL-FORGE & CHAOS NAVY ALLIES <br/> Max 33%", "formations":[
+			{"id":583, "name":"Chaos Warhound of Chaos Undivided", 		"pts":275,  "upgrades":[]},
+			{"id":580, "name":"Knights of Chaos Undivided", "units": "2 Knight-Renegades of Chaos Undivided",			"pts":275,  "upgrades":[]},
+			{"id":581, "name":"Defilers of Chaos Undivided",	 "units": "4 Defilers of Chaos Undivided",			"pts":225, "upgrades":[]},
+			{"id":582, "name":"Armigers of Chaos Undivided",	"pts":225, "upgrades":[]},
+			{"id":590, "name":"Hell-Forge Maniple",		"pts":275, "units": "Hellwright, 11 Chaos Squats, 6 Chaos Rhinos", "upgrades":[]},
 			{"id":591, "name":"Ordinatus Hereticus Minoris",		"pts":50, "upgrades":[100,101,102,103]},
 			{"id":592, "name":"Heldrakes",				"pts":225, "units": "2 Heldrakes", "upgrades":[]},
 			{"id":593, "name":"Chaos Battleship",				"pts":175, "units": "Despoiler Battleship", "upgrades":[]}
@@ -100,17 +97,20 @@
 		{"id":67,	"name":"Mutator Titan of Tzeentch with Turbo Blaster",	"pts":0},
 
 
-		{"id":70,	"name":"Questor Scout Titan of Slaanesh",	"pts":225},
-		{"id":71,	"name":"Subjugator Scout Titan of Slaanesh",	"pts":200},
-		{"id":72,	"name":"Plaguehound Scout Titan of Nurgle",	"pts":225},
-		{"id":73,	"name":"Bloodhound of Khorne (with Deathstorm)",	"pts":225},
-		{"id":74,	"name":"Bloodhound of Khorne (with Plasma Furnace)",	"pts":225},
-		{"id":75,	"name":"Warphound of Tzeentch",	"pts":225},
+		{"id":70,	"name":"Plaguehound Scout Titan of Nurgle",	"pts":0},
+		{"id":71,	"name":"Bloodhound of Khorne (with Deathstorm)",	"pts":0},
+		{"id":72,	"name":"Bloodhound of Khorne (with Plasma Furnace)",	"pts":0},
+		{"id":73,	"name":"Warphound of Tzeentch",	"pts":0},
 
-		{"id":80,	"name":"Knight-Desecrator of Nurgle",	"pts":100},
-		{"id":81,	"name":"Knight-Rampager of Khorne",	"pts":100},
-		{"id":82,	"name":"Knight-Despoiler of Tzeentch",	"pts":100},
-		{"id":83,	"name":"Knight-Renegade of Chaos Undivided",	"pts":100},
+		{"id":74,	"name":"2 Plaguehound Scout Titans of Nurgle",	"pts":0},
+		{"id":75,	"name":"2 Bloodhounds of Khorne (with Deathstorm)",	"pts":0},
+		{"id":76,	"name":"2 Bloodhounds of Khorne (with Plasma Furnace)",	"pts":0},
+		{"id":77,	"name":"2 Warphounds of Tzeentch",	"pts":0},
+
+		{"id":80,	"name":"Knight-Desecrator of Nurgle",	"pts":125},
+		{"id":81,	"name":"Knight-Rampager of Khorne",	"pts":125},
+		{"id":82,	"name":"Knight-Despoiler of Tzeentch",	"pts":125},
+		{"id":83,	"name":"Knight-Renegade of Chaos Undivided",	"pts":125},
 
 		{"id":86,	"name":"Slaughterfiend of Khorne",	"pts":50},
 
@@ -122,18 +122,16 @@
 		{"id":91,	"name":"Deciever of Tzeentch",	"pts":50},
 		{"id":92,	"name":"Defiler of Chaos Undivided",	"pts":50},
 
-		{"id":93,	"name":"3 Knight-Doomglaives of Chaos Undivided",	"pts":0},
-		{"id":94,	"name":"3 Knight-Perfidor of Chaos Undivided",	"pts":0},
-		{"id":95,	"name":"4 Knight-Doomglaives of Chaos Undivided",	"pts":50},
-		{"id":96,	"name":"4 Knight-Perfidor of Chaos Undivided",	"pts":50},
+		{"id":95,	"name":"4 Knight-Doomglaives of Chaos Undivided",	"pts":0},
+		{"id":96,	"name":"4 Knight-Perfidor of Chaos Undivided",	"pts":0},
 
 		{"id":100,	"name":"Ordinatus Hereticus Minoris w/ Turbo Blaster",	"pts":125},
 		{"id":101,	"name":"Ordinatus Hereticus Minoris w/ Doom Burner",	"pts":125},
 		{"id":102,	"name":"Ordinatus Hereticus Minoris w/ Plasma Cremator",	"pts":125},
-		{"id":103,	"name":"Ordinatus Hereticus Minoris w/ Twin Hades Autocannon",	"pts":125},
+		{"id":103,	"name":"Ordinatus Hereticus Minoris w/ Twin Hades Autocannons",	"pts":125},
 
 		{"id":450,	"name":"Lesser Daemon Pool Point",	"pts":15},
-		{"id":451,	"name":"Lesser Daemon Pool Point (2 for each Eye of the Gods, Daemonic Herald)",	"pts":0}
+		{"id":451,	"name":"Lesser Daemon Pool Point (3 for each Eye of the Gods, Daemonic Herald)",	"pts":0}
 
 
 
@@ -143,8 +141,8 @@
 		{"max": 1, "from": [593]},
 		{"min": 1, "max": 1, "from": [600]},
   	{"max": 2, "name": "Scout Titan formations", "from": [510,511,512,513,514],  "forEach": [500,501,502], "name2": "Battle Titan" },
-  	{"max": 1, "name": "Daemon Engine formations", "from": [540,541,542,550,551,560,561,570,571],  "forEach": [500,501,502,510,511,512,513,514], "name2": "Battle or Scout Titan formation" },
-		{"maxPercent": 25.5, "name": "Undivided, Hell-Forge and Chaos Navy Allies", "from": [580,581,582,590,591,592,593]}
+  	{"max": 2, "name": "Daemon Engine formations", "from": [540,541,542,550,551,560,561,570,571],  "forEach": [500,501,502,510,511,512,513,514], "name2": "Battle or Scout Titan Pack formation" },
+		{"maxPercent": 33.5, "name": "Undivided, Hell-Forge and Chaos Navy Allies", "from": [580,581,582,583,590,591,592,593]}
 
 	],
 	"upgradeConstraints":[
@@ -157,11 +155,8 @@
       {"min": 1, "max": 1, "from": [30,31,32,33,35,36,37,40,41,42,43,45,46,47], "appliesTo": [501]},
       {"min": 1, "max": 1, "from": [50,51,52,55,56,57,60,61,62,65,66,67], "appliesTo": [502]},
 
-      {"min": 1, "max": 2, "from": [70], "appliesTo": [510]},
-      {"min": 1, "max": 2, "from": [71], "appliesTo": [511]},
-      {"min": 1, "max": 2, "from": [72], "appliesTo": [512]},
-      {"min": 1, "max": 2, "from": [73,74], "appliesTo": [513]},
-      {"min": 1, "max": 2, "from": [75], "appliesTo": [514]},
+      {"min": 1, "max": 2, "from": [70,71,72,73], "appliesTo": [512]},
+      {"min": 1, "max": 2, "from": [74,75,76,77], "appliesTo": [513]},
 
       {"min": 3, "max": 5, "from": [87], "appliesTo": [540]},
       {"min": 2, "max": 3, "from": [88], "appliesTo": [541]},
@@ -176,11 +171,9 @@
 	  {"min": 1, "max": 2, "from": [82], "appliesTo": [570]},
       {"min": 3, "max": 5, "from": [91], "appliesTo": [571]},
 
-	  {"min": 1, "max": 2, "from": [83], "appliesTo": [580]},
-      {"min": 3, "max": 5, "from": [92], "appliesTo": [581]},
-      {"min": 1, "max": 1, "from": [93,94,95,96], "appliesTo": [582]},
+      {"min": 1, "max": 1, "from": [95,96], "appliesTo": [582]},
 
-      {"min": 1, "max": 2, "from": [100,101,102,103], "appliesTo": [591]}
+      {"min": 2, "max": 2, "from": [100,101,102,103], "appliesTo": [591]}
 
 
 

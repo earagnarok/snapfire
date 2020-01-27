@@ -27,7 +27,7 @@
 			{ "id":533, "name":"Chaos Thunderhawk", "pts":200, "upgrades":[] },
 			{ "id":541, "name":"Hell Blade Squadron", "pts":200, "units":"3 Hell Blade Interceptors", "upgrades":[] },
 			{ "id":542, "name":"Hell Talon Squadron", "pts":225, "units":"2 Hell Talon Fighters-Bombers", "upgrades":[] },
-			{ "id":543, "name":"Harbinger", "pts":400, "upgrades":[] },
+			{ "id":543, "name":"Harbringer", "pts":400, "upgrades":[] },
 			{ "id":551, "name":"Devastation Class Cruiser", "pts":150, "upgrades":[] },
 			{ "id":552, "name":"Despoiler Class Battleship", "pts":250, "upgrades":[] }
 

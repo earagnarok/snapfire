@@ -67,7 +67,7 @@
 		{"name": "CHAOS NAVY / / Max 25%", "formations": [
 			{"id": 530, "name": "HELL BLADE SQUADRON", "pts": 200, "units": "Three Hell Blade Fighters", "upgrades": []},
 			{"id": 531, "name": "HELL TALON SQUADRON", "pts": 225, "units": "Two Hell Talon Fighter-Bombers", "upgrades": []},
-			{"id": 532, "name": "HARBRINGER BOMBER", "pts": 350, "units": "One Harbinger Bomber", "upgrades": []},
+			{"id": 532, "name": "HARBRINGER BOMBER", "pts": 350, "units": "One Harbringer Bomber", "upgrades": []},
 			{"id": 533, "name": "CHAOS BATTLESHIP", "pts": 200, "units": "One Despoiler Class Battleship", "upgrades": []}
       ]}
 

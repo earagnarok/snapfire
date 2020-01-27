@@ -22,7 +22,7 @@
 			{"id":511, "name":"Havocs", "units":"4 Havocs", "pts":225, "upgrades":[63,56,60,52] }
 		]},
 		{"name":"CHAOS NAVY & WAR ENGINE FORMATIONS <br/> Max 33%", "formations":[
-			{"id":532, "name":"Harbinger", 					"pts":400, "upgrades":[]},
+			{"id":532, "name":"Harbringer", 					"pts":400, "upgrades":[]},
 			{"id":530, "name":"Hell Blades",				"pts":200, "units":"3 Hell Blade Fighters", "upgrades":[]},
 			{"id":531, "name":"Hell Talons",				"pts":225, "units":"2 Hell Talon Fighter-Bombers", "upgrades":[]},
 			{"id":533, "name":"Devastation Class Cruiser",	"pts":150, "upgrades":[]},

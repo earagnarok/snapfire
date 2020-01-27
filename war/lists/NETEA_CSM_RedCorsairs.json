@@ -32,7 +32,7 @@
 		{"name":"CHAOS NAVY <br/> Max 33%", "formations":[
 			{ "id":531, "name":"Hell Blade Squadron", "units":"3 Hell Blade Interceptors", "pts":200},
 			{ "id":532, "name":"Hell Talon Squadron", "units":"2 Hell Talon Fighter-Bombers", "pts":225},
-			{ "id":533, "name":"Harbinger", "pts":400}
+			{ "id":533, "name":"Harbringer", "pts":400}
 
 		]}
 	],
