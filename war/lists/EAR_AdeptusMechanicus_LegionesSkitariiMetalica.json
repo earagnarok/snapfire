@@ -26,7 +26,7 @@
 		    {"id":522,"name":"Warlord Titan","pts":750, "upgrades":[]},
 
 			{"id":523, "name":"Avenger Squadron",			"pts":175, "units":"2 Avenger Strike Fighters", "upgrades":[]},
-			{"id":525, "name":"Orbital Support",		"pts":200, "units":"Ark Mechanicus Battleship", "upgrades":[]}
+			{"id":525, "name":"Ark Mechanicus Battleship",		"pts":200, "upgrades":[]}
 		]}
 
 

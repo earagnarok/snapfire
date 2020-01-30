@@ -28,9 +28,9 @@
 
 			{"id":520, "name":"Warhound Pack",	"pts":500, "upgrades":[]},
 
-			{"id":521, "name":"Warbringer Titan (Nemesis Class)",	"pts":650, "upgrades":[]},
+			{"id":521, "name":"Warbringer Titan",	"pts":650, "upgrades":[]},
 
-			{"id":522, "name":"Mechanicus Battleship", 		"pts":200, "upgrades":[]}
+			{"id":522, "name":"Ark Mechanicus Battleship", "pts":200, "upgrades":[]}
 
 		]}
 	],
@@ -77,7 +77,15 @@
 		{"id":171, "name":"4x Neutron Laser, 2x Icarus Array",				"pts":0},
 		{"id":172, "name":"4x Twin Heavy Phosphor Blasters, 2x Icarus Array",				"pts":0},
 
-		{"id":180, "name":"Ark Mechanicus Battleship",																			"pts":0}
+		{"id":190,"name":"Nemesis Quake Cannon","pts":0},
+	    {"id":191,"name":"Belicosa Volcano Cannon","pts":0},
+		{"id":192,"name":"Sunfury Plasma Destructor","pts":0},
+
+		{"id":200,"name":"Titan Plasma Cannon","pts":0},
+	    {"id":201,"name":"Laser Blaster","pts":0},
+		{"id":202,"name":"Turbo-Laser Destructor","pts":0},
+        {"id":203,"name":"Gatling Blaster","pts":0},
+	    {"id":204,"name":"Volcano Cannon","pts":0}
 
     ],
 	"formationConstraints":[
@@ -129,7 +137,9 @@
 
         {"min":1,"max":1,"from":[72,71,70],"appliesTo":[520]},
 
-		{"min":1, "max":1, "from":[180], "appliesTo":[522]}
+        {"min":1,"max":1,"from":[190,191,192],"appliesTo":[521]},
+        {"min":0,"max":1,"from":[204],"appliesTo":[521]},
+        {"min":2,"max":2,"from":[202,201,200,203,204],"appliesTo":[521]}
 
 
 	]
