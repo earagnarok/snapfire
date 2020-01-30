@@ -12,7 +12,7 @@
 			{"id":509, "name":"Kasrkin Platoon", "pts":275, "upgrades":[], "units":"6 Kasrkin, Crassus Assault Transport"},
 			{"id":510, "name":"Praetor Battery", "pts":275, "upgrades":[], "units":"Praetor Assault Launcher"},
 			{"id":511, "name":"Siege Artillery Battery", "pts":225, "upgrades":[18]},
-			{"id":512, "name":"Leman Russ Platoon", "pts":350, "upgrades":[18]},
+			{"id":512, "name":"Leman Russ Platoon", "pts":375, "upgrades":[18]},
 			{"id":513, "name":"Flak Battery", "pts":150, "upgrades":[], "units":"3 Hydras"},
 			{"id":514, "name":"Hellhound Platoon", "pts":250, "upgrades":[18], "units":"6 Hellhounds"},
 			{"id":515, "name":"Whiteshield Platoon", "pts":275, "upgrades":[], "units":"8 Whiteshields, Stormlord"},

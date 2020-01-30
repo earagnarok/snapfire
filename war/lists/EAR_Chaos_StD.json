@@ -17,7 +17,7 @@
 			{"id":503, "name":"Rough Rider Platoon", "pts":150, "units":"6 Rough Riders", "upgrades":[35]},
 			{"id":504, "name":"Artillery Battery", "pts":225, "units":"3 Basilisks", "upgrades":[]},
 			{"id":506, "name":"Super-Heavy Platoon", "pts":175, "upgrades":[]},
-			{"id":507, "name":"Leman Russ Platoon", "pts":350, "upgrades":[]}
+			{"id":507, "name":"Leman Russ Platoon", "pts":375, "upgrades":[22]}
 		]},
 		{"name":"SLAVES TO DARKNESS AIR SUPPORT & CHAOS ALLIES <br/> Max 33% <br/> Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
 			{"id":531, "name":"Thunderbolt Squadron", "pts":150, "units":"2 Thunderbolt Fighters", "upgrades":[]},

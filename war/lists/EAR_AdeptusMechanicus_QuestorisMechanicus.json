@@ -28,7 +28,9 @@
 
 			{"id":520, "name":"Warhound Pack",	"pts":500, "upgrades":[]},
 
-			{"id":522, "name":"Orbital Support", 		"pts":175, "upgrades":[]}
+			{"id":521, "name":"Warbringer Titan (Nemesis Class)",	"pts":650, "upgrades":[]},
+
+			{"id":522, "name":"Mechanicus Battleship", 		"pts":200, "upgrades":[]}
 
 		]}
 	],

@@ -23,9 +23,10 @@
 		    {"id":519,"name":"Questoris Banner", "pts":275, "upgrades":[]},
 
 		    {"id":520,"name":"Warhound Pack","pts":500, "upgrades":[]},
+			{"id":521, "name":"Warbringer Titan (Nemesis Class)",	"pts":650, "upgrades":[]},
 
 			{"id":523, "name":"Avenger Squadron",			"pts":175, "units":"2 Avenger Strike Fighters", "upgrades":[]},
-			{"id":525, "name":"Orbital Support",		"pts":175, "units":"Ark Mechanicus Battleship", "upgrades":[]}
+			{"id":525, "name":"Orbital Support",		"pts":200, "units":"Ark Mechanicus Battleship", "upgrades":[]}
 		]}
 
 

@@ -12,7 +12,7 @@
 			{"id":514, "name":"Kastelan Maniple",		"pts":50, "units":"Tech-Priest", "upgrades":[114]},
 			{"id":511, "name":"Castellax Maniple",		"pts":175, "units":"4 Castellax Battle-Automata, Tech-Priest", "upgrades":[]},
 			{"id":512, "name":"Praetorian Maniple",		"pts":250, "units":"5 Praetorian Combat Servitors, Tech-Priest", "upgrades":[]},
-			{"id":513, "name":"Cataphractii Maniple",		"pts":350, "upgrades":[107]},
+			{"id":513, "name":"Cataphractii Maniple",		"pts":375, "upgrades":[107]},
 			{"id":515, "name":"Minoris Cohort",		"pts":50, "upgrades":[130,131,132,133,135,136,137]},
 			{"id":516, "name":"Ordinatus Majoris",		"pts":425, "upgrades":[]}
 		]},
@@ -26,7 +26,7 @@
 		    {"id":522,"name":"Warlord Titan","pts":750, "upgrades":[]},
 
 			{"id":523, "name":"Avenger Squadron",			"pts":175, "units":"2 Avenger Strike Fighters", "upgrades":[]},
-			{"id":525, "name":"Orbital Support",		"pts":175, "units":"Ark Mechanicus Battleship", "upgrades":[]}
+			{"id":525, "name":"Orbital Support",		"pts":200, "units":"Ark Mechanicus Battleship", "upgrades":[]}
 		]}
 
 
