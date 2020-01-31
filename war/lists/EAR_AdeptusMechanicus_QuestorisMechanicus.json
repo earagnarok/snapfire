@@ -1,6 +1,6 @@
 {
 	"id":"<a href=\"https://magnusdurr.github.io/list-view/site.html\">EA-R</a> Questoris Mechanicus",
-	"version":"Alpha 0.8.0 <a href=\"https://magnusdurr.github.io/list-view/index.html?race=AM&list=questorismechanicus\">Listview</a>",
+	"version":"Alpha 0.8.1 <a href=\"https://magnusdurr.github.io/list-view/index.html?race=AM&list=questorismechanicus\">Listview</a>",
 	"by":"EA-Ragnarok",
 	"notes":[],
 	"sections":[
@@ -64,8 +64,8 @@
 		{"id":120, "name":"4 Knight-Warglaives (Thermal Spear, Reaper Chain-Cleaver)",			 								"pts":0},
 		{"id":121, "name":"4 Knight-Helverins (2 Autocannons)",																	"pts":0},
 
-		{"id":130, "name":"2 Knight-Valiants (Conflagration C., Thundercoil H., Siegebreaker C., 4 Shieldbreaker M., Ion A.)",	"pts":0},
-		{"id":131, "name":"2 Knight-Castellans (Vulcano Lance, Plasma Decimator, 2 Siegebreaker C., 2 Shieldbreaker M.)",		"pts":0},
+		{"id":130, "name":"2 Knight-Valiants (Conflagration C. Thundercoil H. Siegebreaker C. 4 Shieldbreaker M.)",	"pts":0},
+		{"id":131, "name":"2 Knight-Castellans (Vulcano Lance, Plasma Decimator, 2 Siegebreaker C. 2 Shieldbreaker M.)",		"pts":0},
 
 		{"id":160, "name":"3 Questoris Relic Knight-Styrix (Volkite Chieroville, Rad Cleanser, Siege Claw)",					"pts":0},
 		{"id":161, "name":"3 Questoris Relic Knight-Magaeras (Lightning C, Rad Cleanser, Siege Claw, Ionic Shield)",				"pts":0},
@@ -78,14 +78,15 @@
 		{"id":172, "name":"4x Twin Heavy Phosphor Blasters, 2x Icarus Array",				"pts":0},
 
 		{"id":190,"name":"Nemesis Quake Cannon","pts":0},
-	    {"id":191,"name":"Belicosa Volcano Cannon","pts":0},
-		{"id":192,"name":"Sunfury Plasma Destructor","pts":0},
+	    {"id":191,"name":"Volcano Cannon","pts":0},
+		{"id":192,"name":"Plasma Destructor","pts":0},
 
 		{"id":200,"name":"Titan Plasma Cannon","pts":0},
 	    {"id":201,"name":"Laser Blaster","pts":0},
 		{"id":202,"name":"Turbo-Laser Destructor","pts":0},
         {"id":203,"name":"Gatling Blaster","pts":0},
-	    {"id":204,"name":"Volcano Cannon","pts":0}
+	    {"id":204,"name":"Volcano Cannon","pts":0},
+		{"id":205,"name":"Plasma Destructor","pts":0}
 
     ],
 	"formationConstraints":[
@@ -138,8 +139,8 @@
         {"min":1,"max":1,"from":[72,71,70],"appliesTo":[520]},
 
         {"min":1,"max":1,"from":[190,191,192],"appliesTo":[521]},
-        {"min":0,"max":1,"from":[204],"appliesTo":[521]},
-        {"min":2,"max":2,"from":[202,201,200,203,204],"appliesTo":[521]}
+        {"min":0,"max":1,"from":[204,205],"appliesTo":[521]},
+        {"min":2,"max":2,"from":[202,201,200,203,204,205],"appliesTo":[521]}
 
 
 	]

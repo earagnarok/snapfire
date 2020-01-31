@@ -30,19 +30,17 @@
 			{"id":561, "name":"Defilers of Khorne",			"pts":25, "upgrades":[86]},
 
 			{"id":570, "name":"Knights of Tzeentch",			"pts":25,  "upgrades":[82]},
-			{"id":571, "name":"Defilers of Tzeentch",				"pts":50, "upgrades":[91]}
+			{"id":571, "name":"Defilers of Tzeentch",				"pts":50, "upgrades":[91]},
 
+			{"id":580, "name":"Knights of Chaos Undivided", 	"pts":25,  "upgrades":[]},
+			{"id":582, "name":"Armigers of Chaos Undivided",	"pts":175, "upgrades":[]}
 		]},
 
-			{"name":"UNDIVIDED, HELL-FORGE & CHAOS NAVY ALLIES <br/> Max 33%", "formations":[
-			{"id":583, "name":"Chaos Warhound of Chaos Undivided", 		"pts":275,  "upgrades":[]},
-			{"id":580, "name":"Knights of Chaos Undivided", "units": "2 Knight-Renegades of Chaos Undivided",			"pts":275,  "upgrades":[]},
-			{"id":581, "name":"Defilers of Chaos Undivided",	 "units": "4 Defilers of Chaos Undivided",			"pts":225, "upgrades":[]},
-			{"id":582, "name":"Armigers of Chaos Undivided",	"pts":225, "upgrades":[]},
-			{"id":590, "name":"Hell-Forge Maniple",		"pts":275, "units": "Hellwright, 11 Chaos Squats, 6 Chaos Rhinos", "upgrades":[]},
-			{"id":591, "name":"Ordinatus Hereticus Minoris",		"pts":50, "upgrades":[100,101,102,103]},
+			{"name":"HELL-FORGE & CHAOS NAVY ALLIES <br/> Max 25%", "formations":[
+			{"id":590, "name":"Hell-Forge Support",		"pts":200, "units": "6 Chaos Squats, Triaros Armoured Despoiler", "upgrades":[]},
+			{"id":591, "name":"Ordinatus Hereticus Minoris",		"pts":50, "upgrades":[]},
 			{"id":592, "name":"Heldrakes",				"pts":225, "units": "2 Heldrakes", "upgrades":[]},
-			{"id":593, "name":"Chaos Battleship",				"pts":175, "units": "Despoiler Battleship", "upgrades":[]}
+			{"id":593, "name":"Despoiler Battleship",				"pts":200, "upgrades":[]}
 		]},
 
 		{"name":"DAEMON POOL", "formations":[
@@ -106,6 +104,7 @@
 		{"id":75,	"name":"2 Bloodhounds of Khorne (with Deathstorm)",	"pts":0},
 		{"id":76,	"name":"2 Bloodhounds of Khorne (with Plasma Furnace)",	"pts":0},
 		{"id":77,	"name":"2 Warphounds of Tzeentch",	"pts":0},
+		{"id":78,	"name":"2 Chaos Warhounds of Chaos Undivided",	"pts":0},
 
 		{"id":80,	"name":"Knight-Desecrator of Nurgle",	"pts":125},
 		{"id":81,	"name":"Knight-Rampager of Khorne",	"pts":125},
@@ -122,8 +121,11 @@
 		{"id":91,	"name":"Deciever of Tzeentch",	"pts":50},
 		{"id":92,	"name":"Defiler of Chaos Undivided",	"pts":50},
 
-		{"id":95,	"name":"4 Knight-Doomglaives of Chaos Undivided",	"pts":0},
-		{"id":96,	"name":"4 Knight-Perfidor of Chaos Undivided",	"pts":0},
+		{"id":95,	"name":"3 Knight-Doomglaives of Chaos Undivided",	"pts":0},
+		{"id":96,	"name":"3 Knight-Perfidor of Chaos Undivided",	"pts":0},
+		{"id":97,	"name":"4 Knight-Doomglaives of Chaos Undivided",	"pts":50},
+		{"id":98,	"name":"4 Knight-Perfidor of Chaos Undivided",	"pts":50},
+
 
 		{"id":100,	"name":"Ordinatus Hereticus Minoris w/ Turbo Blaster",	"pts":125},
 		{"id":101,	"name":"Ordinatus Hereticus Minoris w/ Doom Burner",	"pts":125},
@@ -141,8 +143,8 @@
 		{"max": 1, "from": [593]},
 		{"min": 1, "max": 1, "from": [600]},
   	{"max": 2, "name": "Scout Titan formations", "from": [510,511,512,513,514],  "forEach": [500,501,502], "name2": "Battle Titan" },
-  	{"max": 2, "name": "Daemon Engine formations", "from": [540,541,542,550,551,560,561,570,571],  "forEach": [500,501,502,510,511,512,513,514], "name2": "Battle or Scout Titan Pack formation" },
-		{"maxPercent": 33.5, "name": "Undivided, Hell-Forge and Chaos Navy Allies", "from": [580,581,582,583,590,591,592,593]}
+  	{"max": 2, "name": "Daemon Engine formations", "from": [540,541,542,550,551,560,561,570,571,580,582],  "forEach": [500,501,502,510,511,512,513,514], "name2": "Battle or Scout Titan Pack formation" },
+		{"maxPercent": 25.5, "name": "Hell-Forge and Chaos Navy Allies", "from": [590,591,592,593]}
 
 	],
 	"upgradeConstraints":[
@@ -155,8 +157,7 @@
       {"min": 1, "max": 1, "from": [30,31,32,33,35,36,37,40,41,42,43,45,46,47], "appliesTo": [501]},
       {"min": 1, "max": 1, "from": [50,51,52,55,56,57,60,61,62,65,66,67], "appliesTo": [502]},
 
-      {"min": 1, "max": 2, "from": [70,71,72,73], "appliesTo": [512]},
-      {"min": 1, "max": 2, "from": [74,75,76,77], "appliesTo": [513]},
+      {"min": 1, "max": 1, "from": [74,75,76,77,78], "appliesTo": [513]},
 
       {"min": 3, "max": 5, "from": [87], "appliesTo": [540]},
       {"min": 2, "max": 3, "from": [88], "appliesTo": [541]},
@@ -171,7 +172,9 @@
 	  {"min": 1, "max": 2, "from": [82], "appliesTo": [570]},
       {"min": 3, "max": 5, "from": [91], "appliesTo": [571]},
 
-      {"min": 1, "max": 1, "from": [95,96], "appliesTo": [582]},
+	  {"min": 1, "max": 2, "from": [83], "appliesTo": [580]},
+
+      {"min": 1, "max": 1, "from": [95,96,97,98], "appliesTo": [582]},
 
       {"min": 2, "max": 2, "from": [100,101,102,103], "appliesTo": [591]}
 

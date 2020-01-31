@@ -4,33 +4,31 @@
 	"notes":[],
 	"by":"EA-Ragnarok",
 	"sections":[
-		{"name":"HELL-FORGE CORE FORMATIONS", "formations":[
-			{"id":520, "name":"Hell-Forge Maniple",		"pts":225, "units": "11 Chaos Squats", "upgrades":[50,52,53, 54,55, 60,61,62,63]}
+		{"name":"HELL-FORGE CORE FORMATIONS <br/> Max 1 Chrono-Gladiators formation for each Hell-Forge Maniple <br/>", "formations":[
+			{"id":520, "name":"Hell-Forge Maniple",		"pts":225, "upgrades":[50,53, 54,55, 60,61,62,63]},
+			{"id":525, "name":"Chrono-Gladiators",		"pts":200, "units":"6 Chrono-Gladiators", "upgrades":[]}
 		]},
-		{"name":"DAEMONIC PACK FORMATIONS <br/> Max 1 for each Hell-Forge Core formation <br/> Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
-			{"id":510, "name":"Hell-Striders of Slaanesh",		"pts":25,  "upgrades":[92]},
-			{"id":511, "name":"Defilers of Nurgle",				"pts":50,  "upgrades":[94]},
-			{"id":512, "name":"Defilers of Khorne",				"pts":25,  "upgrades":[93]},
-			{"id":513, "name":"Defilers of Tzeentch",			"pts":50, "upgrades":[95]},
-			{"id":514, "name":"Defilers of Chaos Undivided",	"pts":25,  "upgrades":[96]}
-		]},
-		{"name":"DAEMONIC LANCE FORMATIONS <br/> Max 3 for each Hell-Forge Core formation <br/> Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
+		{"name":"DAEMONIC LANCE FORMATIONS <br/> Max 2 for each Hell-Forge Core formation <br/> Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
 			{"id":500, "name":"Hell-Knights of Slaanesh",			"pts":325,  "units": "3 Hell-Knights", "upgrades":[]},
 			{"id":501, "name":"Hell-Scourges of Slaanesh",			"pts":325,  "units": "3 Hell-Scourges","upgrades":[]},
 			{"id":502, "name":"Knights of Nurgle",			"pts":25, "upgrades":[82]},
 			{"id":503, "name":"Knights of Khorne",			"pts":25, "upgrades":[83]},
 			{"id":504, "name":"Knights of Tzeentch",			"pts":25, "upgrades":[84]},
-			{"id":505, "name":"Knights of Chaos Undivided",			"pts":25, "upgrades":[85]},
+			{"id":505, "name":"Knights of Chaos Undivided",			"pts":25, "upgrades":[85]}
+		]},
+		{"name":"DAEMONIC PACK FORMATIONS <br/> Max 1 for each Daemonic Lance formation <br/> Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
+			{"id":510, "name":"Hell-Striders of Slaanesh",		"pts":25,  "upgrades":[92]},
+			{"id":511, "name":"Defilers of Nurgle",				"pts":50,  "upgrades":[94]},
+			{"id":512, "name":"Defilers of Khorne",				"pts":25,  "upgrades":[93]},
+			{"id":513, "name":"Defilers of Tzeentch",			"pts":50, "upgrades":[95]},
 			{"id":515, "name":"Armigers of Chaos Undivided",	"pts":25, "upgrades":[]}
 		]},
-			{"name":"HELL-FORGE SUPPORT & CHAOS NAVY ALLIES <br/> Max 33%", "formations":[
-				{"id":521, "name":"Arlatax Maniple",		"pts":175, "units":"Hellwright, 4 Arlatax Battle-Automata", "upgrades":[]},
-				{"id":525, "name":"Chrono-Gladiators",		"pts":200, "units":"6 Chrono-Gladiators", "upgrades":[]},
+			{"name":"ORDINATUS SUPPORT & CHAOS NAVY ALLIES <br/> Max 33%", "formations":[
 				{"id":523, "name":"Ordinatus Hereticus Minoris",		"pts":50, "upgrades":[60,61,62,63,65,66,67,68]},
 				{"id":524, "name":"Extremis Diabolus",		"pts":425, "upgrades":[]},
 				{"id":536, "name":"Heldrakes",				"pts":225, "units": "2 Heldrakes", "upgrades":[]},
 				{"id":538, "name":"Harbringer Bomber", 	"pts":350, "upgrades":[]},
-				{"id":537, "name":"Despoiler Battleship",				"pts":175, "upgrades":[]}
+				{"id":537, "name":"Despoiler Battleship",				"pts":200, "upgrades":[]}
 		]},
 
 		{"name":"DAEMON POOL", "formations":[
@@ -44,8 +42,10 @@
 		{"id":10,	"name":"Hellwright",	"pts":0},
 		{"id":11,	"name":"Hellwright w/ Arch-Heretek",	"pts":100},
 
+		{"id":20,	"name":"11 Chaos Squats",	"pts":0},
+		{"id":21,	"name":"7 Chaos Squats, 4 Phospexors",	"pts":25},
+
 		{"id":50,	"name":"Chaos Rhino",	"pts":10},
-		{"id":52,	"name":"Macrocarid Exploitator",	"pts":50},
 		{"id":53,	"name":"Triaros Armoured Despoiler",	"pts":75},
 		{"id":54,	"name":"2 Krios Venator",	"pts":125},
 		{"id":55,	"name":"2 Krios Lightning",	"pts":125},
@@ -92,9 +92,10 @@
 		{"max": 1, "from": [537]},
 		{"max": 1, "from": [538]},
 		{"max": 1, "from": [600]},
-      	{"max": 3, "name": "Daemonic Lance", "from": [500,501,502,503,504,505,515],  "forEach": [520], "name2": "Hell-Forge Core" },
-      	{"max": 1, "name": "Daemonic Pack", "from": [510,511,512,513,514],  "forEach": [520], "name2": "Hell-Forge Core" },
-		{"maxPercent": 33.5, "name": "Hell-Forge Support and Chaos Navy Allies", "from": [521,522,523,524,525,536,537,538]}
+      	{"max": 1, "name": "Chrono-Gladiators", "from": [525],  "forEach": [520], "name2": "Hell-Forge Maniple" },
+      	{"max": 2, "name": "Daemonic Lance", "from": [500,501,502,503,504,505],  "forEach": [520,525], "name2": "Hell-Forge Core" },
+      	{"max": 1, "name": "Daemonic Pack", "from": [510,511,512,513,514,515],  "forEach": [500,501,502,503,504,505], "name2": "Daemonic Lance" },
+		{"maxPercent": 33.5, "name": "Ordinatus Support and Chaos Navy Allies", "from": [521,522,523,524,536,537,538]}
 
 	],
 	"upgradeConstraints":[
@@ -102,7 +103,6 @@
 	{"max": 1, "from": [11], "perArmy": true},
 
       {"min": 0, "max": 6, "from": [50], "appliesTo": [520]},
-      {"min": 0, "max": 4, "from": [52], "appliesTo": [520]},
       {"min": 0, "max": 2, "from": [53], "appliesTo": [520]},
 
       {"max": 1, "from": [54,55,60,61,62,63], "appliesTo": [520]},
@@ -122,7 +122,7 @@
 
       {"min": 1, "max": 1, "from": [90,91], "appliesTo": [515]},
 
-
+      {"min": 1, "max": 1, "from": [20,21], "appliesTo": [520]},
 
       {"min": 2, "max": 3, "from": [60,61,62,63,65,66,67,68], "appliesTo": [523]},
       {"max": 1, "from": [65,66,67,68], "appliesTo": [523]},

@@ -21,7 +21,7 @@
 			{"id":517, "name":"Fellblade Relics",	         	"pts":50, "upgrades":[69]}
 		]},
 
-		{"name":"IMPERIAL FISTS STATIC DEFENSES, NAVY & COLLEGIA TITANICA ALLIES <br/> Max 33% <br/> Max 1 Tarantula or Hyperios Emplacement for each Support Battery or Scout detachment", "formations":[
+		{"name":"IMPERIAL FISTS STATIC DEFENSES, NAVY & COLLEGIA TITANICA ALLIES <br/> Max 33% <br/> Max 1 Tarantula or Hyperios Emplacement for each Support Battery or Scouts detachment", "formations":[
             { "id":520, "name":"Fortified Positions",        "pts":50, "units":"2 Bunkers, 60cm Trenches and/or Minefields", "upgrades":[] },
             { "id":522, "name":"Tarantula Emplacement",      "pts":100, "upgrades": [] },
             { "id":521, "name":"Hyperios Emplacement",       "pts":150,  "units":"3 Hyperios Sentries, 3 Gun Emplacements",     "upgrades":[] },

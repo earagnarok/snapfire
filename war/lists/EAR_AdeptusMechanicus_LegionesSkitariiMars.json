@@ -10,7 +10,7 @@
 			{"id":507, "name":"Sicarian Killclade",			"pts":150, "units":"4 Sicarian Ruststalkers, 2 Sicarian Infiltrators",		 "upgrades":[]},
 			{"id":509, "name":"Dragoon Cohort",			"pts":150, "units":"6 Sydonian Dragoons",	 "upgrades":[]},
 			{"id":510, "name":"Ironstrider Cohort",			"pts":150, "units":"6 Ironstrider Ballistarius",	 "upgrades":[]},
-			{"id":508, "name":"Ranger Cohort",			"pts":150,  "units":"4 Skitarii Rangers",		 "upgrades":[]},
+			{"id":508, "name":"Ranger Cohort",			"pts":150,  "units":"4 Skitarii Rangers",		 "upgrades":[112]},
 			{"id":514, "name":"Kastelan Maniple",		"pts":50, "units":"Tech-Priest", "upgrades":[114]},
 			{"id":511, "name":"Kataphron Maniple",		"pts":250, "units":"Tech-Priest", "upgrades":[]},
 			{"id":512, "name":"Onager Cataphractii", "units":"6 Onager Dunecrawlers",	"pts":300, "upgrades":[]},
@@ -46,15 +46,14 @@
 		{"id":101, "name":"Magos Dominus",					"pts":100},
 
 		{"id":105, "name":"9 Skitarii Vanguards",						"pts":0},
-		{"id":106, "name":"7 Skitarii Vanguards, 2 Skitarii Rangers",	"pts":25},
-		{"id":107, "name":"6 Skitarii Vanguards, 3 Rapiers",						"pts":0},
+		{"id":107, "name":"7 Skitarii Vanguards, 2 Skitarii Rangers",	"pts":25},
+		{"id":106, "name":"6 Skitarii Vanguards, 3 Rapiers",						"pts":0},
 		{"id":108, "name":"4 Skitarii Vanguards, 3 Rapiers, 2 Skitarii Rangers",	"pts":25},
 
 		{"id":110, "name":"4 Sicarian Ruststalkers, 2 Sicarian Infiltrators",				"pts":0},
 		{"id":111, "name":"2 Sicarian Ruststalkers, 2 Sicarian Infiltrators, 2 Archaeopters",		"pts":0},
 
-		{"id":112, "name":"6 Skitarii Rangers",				"pts":0},
-		{"id":113, "name":"4 Skitarii Rangers, 2 Archaeopters",		"pts":0},
+		{"id":112, "name":"2 Scorpius Duneriders",				"pts":50},
 
 		{"id":114, "name":"Kastelan Robot",					"pts":25},
 
@@ -93,15 +92,15 @@
 		{"id":172, "name":"4x Twin Heavy Phosphor Blasters, 2x Icarus Array",				"pts":0},
 
 		{"id":190,"name":"Nemesis Quake Cannon","pts":0},
-	    {"id":191,"name":"Belicosa Volcano Cannon","pts":0},
-		{"id":192,"name":"Sunfury Plasma Destructor","pts":0},
+	    {"id":191,"name":"Volcano Cannon","pts":0},
+		{"id":192,"name":"Plasma Destructor","pts":0},
 
 		{"id":200,"name":"Titan Plasma Cannon","pts":0},
 	    {"id":201,"name":"Laser Blaster","pts":0},
 		{"id":202,"name":"Turbo-Laser Destructor","pts":0},
         {"id":203,"name":"Gatling Blaster","pts":0},
-	    {"id":204,"name":"Volcano Cannon","pts":0}
-
+	    {"id":204,"name":"Volcano Cannon","pts":0},
+		{"id":205,"name":"Plasma Destructor","pts":0}
 
 	],
 	"formationConstraints":[
@@ -120,6 +119,8 @@
 		{"max":1, "min":1, "from":[105,106,107,108], "appliesTo":[501]},
 		{"min":0, "max":1, "from":[130,131,132,133], "appliesTo":[501]},
 
+		{"max":1, "min":0, "from":[112], "appliesTo":[508]},
+
 		{"max":1, "min":1, "from":[170,171,172], "appliesTo":[512]},
 
 		{"max":1, "min":1, "from":[115,116], "appliesTo":[511]},
@@ -135,8 +136,8 @@
 
    		{"max":1,"min":1, "from":[150,151,152], "appliesTo":[520]},
 
-        {"min":1,"max":1,"from":[190,191,192],"appliesTo":[521]},
-		{"min":0,"max":1,"from":[204],"appliesTo":[521]},
-        {"min":2,"max":2,"from":[202,201,200,203,204],"appliesTo":[521]}
+		{"min":1,"max":1,"from":[190,191,192],"appliesTo":[521]},
+        {"min":0,"max":1,"from":[204,205],"appliesTo":[521]},
+        {"min":2,"max":2,"from":[202,201,200,203,204,205],"appliesTo":[521]}
 	]
 }

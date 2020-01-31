@@ -22,7 +22,7 @@
 		{"id":520,"name":"Questoris Banner","pts":275, "upgrades":[]}
 ]},
 
-{"name":"ADEPTUS MECHANICUS ALLIES <br/> Max 33% <br/> Max 1 Lysander Fighter for each Warmonger Titan or Reaver Carapace Landing Pad",
+{"name":"ADEPTUS MECHANICUS ALLIES <br/> Max 33% <br/> Max 1 Lysander Fighter for each Warmonger Titan or Anvilus Carapace Landing Pad",
 "formations":[
         {"id":530,"name":"Skitarii Maniple","pts":225,"units":"9 Hypaspist, Magos","upgrades":[15]},
 		{"id":531,"name":"Kastelan Maniple","pts":50,"units":"Tech-Priest", "upgrades":[14]},
@@ -79,13 +79,14 @@
 	    {"id":90,"name":"Warp Missile","pts":0},
 	    {"id":91,"name":"Deathstrike Missile","pts":0},
 	    {"id":92,"name":"Quad Hydra Autocannon","pts":0},
-	    {"id":93,"name":"Carapace Landing Pad","pts":0},
+	    {"id":93,"name":"Anvilus Carapace Landing Pad","pts":0},
 	    {"id":94,"name":"Titan Plasma Cannon","pts":0},
 
 	    {"id":95,"name":"Apocalypse Missile Launcher","pts":0},
 	    {"id":96,"name":"Titan Plasma Cannon","pts":0},
 	    {"id":97,"name":"Laser Blaster","pts":0},
 	    {"id":98,"name":"Volcano Cannon","pts":0},
+        {"id":99,"name":"Plasma Destructor","pts":0},
 
 
 
@@ -139,8 +140,8 @@
         {"max":1,"from":[85],"appliesTo":[506]},
 
         {"min":1,"max":1,"from":[90,91,93,94],"appliesTo":[504]},
-        {"min":2,"max":2,"from":[95,96,97,98],"appliesTo":[504]},
-        {"max":1,"from":[98],"appliesTo":[504]},
+        {"min":2,"max":2,"from":[95,96,97,98,99],"appliesTo":[504]},
+        {"max":1,"from":[98,99],"appliesTo":[504]},
 
         {"min":1,"max":1,"from":[100,101,102,103,104,105],"appliesTo":[520]},
 

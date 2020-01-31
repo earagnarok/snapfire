@@ -17,18 +17,18 @@
 			{"id":504, "name":"Armoured Company", "pts":0, "upgrades":[]},
 			{"id":507, "name":"Disc Riders", "pts":250, "units": "6 Sorcerer Disc Riders, Daemonic Pact", "upgrades":[15] }
 		]},
-		{"name":"THOUSAND SONS CULTIST FORMATIONS <br/> Max 2 for each Core formation", "formations":[
-			{"id":505, "name":"Tzaangor Host",	"pts":200, "units":"9 Tzaangors, Daemonic Pact", "upgrades":[41,42]},
+		{"name":"THOUSAND SONS CULT FORMATIONS <br/> Max 2 for each Core formation", "formations":[
+			{"id":505, "name":"Tzaangor Host",	"pts":175, "units":"9 Tzaangors, Daemonic Pact", "upgrades":[41,42]},
 			{"id":506, "name":"Tzeentch Defilers",	"pts":250, "units":"4 Decievers", "upgrades":[]},
 			{"id":508, "name":"Silver Towers",	"pts":300, "units":"4 Silver Towers", "upgrades":[]},
 			{"id":509, "name":"Mirrorfiends",	"pts":300, "units":"2 Mirrorfiends of Tzeentch", "upgrades":[]}
 		]},
-		{"name":"DARK MECHANICUS AND CHAOS NAVY FORMATIONS <br/> Max 33%", "formations":[
+		{"name":"DARK MECHANICUS AND THOUSAND SONS NAVY FORMATIONS <br/> Max 33%", "formations":[
 			{"id":510, "name":"Doomwings",	"pts":175, "units": "3 Doomwings", "upgrades":[]},
 			{"id":511, "name":"Firelords", "pts":25, "upgrades":[50]},
 			{"id":512, "name":"Warphound Pack", "pts":500,  "units": "2 Warphound Titans", "upgrades":[]},
 			{"id":513, "name":"Warp Palace of Tzeentch",	"pts":500,  "upgrades":[]},
-			{"id":514, "name":"Chaos Cruiser",		"units": "Devastation Class Cruiser", 	"pts":150, "upgrades":[]}
+			{"id":514, "name":"Devastation Class Cruiser",	"pts":150, "upgrades":[]}
 			]}
 	],
 	"upgrades":[
@@ -68,9 +68,9 @@
 	"formationConstraints":[
 		{"max":1, "name":"Spacecraft", "from":[514]},
 		{"max":2, "name":"Thousand Sons Elite Formation", "from":[502,503,504,507], "forEach":[501], "name2":"Thousand Sons Core Formation"},
-		{"max":2, "name":"Thousand Sons Support Formations", "from":[505,506,508,509], "forEach":[501], "name2":"Thousand Sons Core Formation"},
+		{"max":2, "name":"Thousand Sons Cult Formations", "from":[505,506,508,509], "forEach":[501], "name2":"Thousand Sons Core Formation"},
 		{"min":1, "max":1, "from":[500]},
-		{"maxPercent": 33.5, "name":"War Engines, Titan & Chaos Navy", "from":[510,511,512,513,514]}
+		{"maxPercent": 33.5, "name":"Dark Mechanicus and Thousand Sons Navy", "from":[510,511,512,513,514]}
 	],
 	"upgradeConstraints":[
 		{"max":1, "perArmy":true, "from":[12,13,14]},
