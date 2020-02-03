@@ -22,7 +22,7 @@
 		{"name":"FORGE WORLD & COLLEGIA TITANICA ALLIES <br/> Max 33%", "formations":[
 			{"id":510, "name":"Vanguard Maniple",		"pts":200,  "upgrades":[], "units":"Magos, 9 Skitarii Vanguards"},
 
-			{"id":512, "name":"Onager Cataphractii",		"pts":300, "units":"6 Onager Dunecrawlers", "upgrades":[]},
+			{"id":512, "name":"Onager Cataphractii",		"pts":325, "units":"6 Onager Dunecrawlers", "upgrades":[]},
 
             {"id":514, "name":"Avenger Squadron",				"pts":175,  "upgrades":[], "units":"2 Avenger Strike Fighters"},
 

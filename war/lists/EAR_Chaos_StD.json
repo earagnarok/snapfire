@@ -22,7 +22,7 @@
 		{"name":"SLAVES TO DARKNESS AIR SUPPORT & CHAOS ALLIES <br/> Max 33% <br/> Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
 			{"id":531, "name":"Thunderbolt Squadron", "pts":150, "units":"2 Thunderbolt Fighters", "upgrades":[]},
 			{"id":532, "name":"Marauder Squadron", "pts":225, "units":"2 Marauder Bombers", "upgrades":[]},
-			{"id":530, "name":"Chaos Space Marines of Chaos Undivided", "pts":275, "units":"6 Chaos Space Marines, 3 Chaos Rhinos, Daemonic Pact", "upgrades":[]},
+			{"id":530, "name":"Chaos Space Marines of Chaos Undivided", "pts":250, "units":"6 Chaos Space Marines, 3 Chaos Rhinos", "upgrades":[36]},
 			{"id":510, "name":"Decimator of Chaos Undivided", "pts":225, "upgrades":[]},
 			{"id":512, "name":"Defilers of Chaos Undivided",	"pts":225, "units":"4 Defilers", "upgrades":[]},
 			{"id":511, "name":"Death Wheel of Chaos Undivided", "pts":275, "upgrades":[]},
@@ -44,6 +44,7 @@
 		{"id":11, "name":"Fallen Commander with Daemonic Icon and Arch-Heretic", 		"pts":75},
 		{"id":6, "name":"Daemon Prince", 		"pts":100},
 		{"id":12, "name":"Daemon Prince with Daemonic Icon", 		"pts":125},
+
 
 		{"id":14, "name":"Daemonic Icon", "pts":25},
 
@@ -73,7 +74,7 @@
 		{"id":30, "name":"Baneblade", "pts":0},
 		{"id":31, "name":"Shadowsword", "pts":25},
 		{"id":32, "name":"Leman Russ", "pts":0},
-		{"id":33, "name":"Leman Russ Demolishers", "pts":0},
+		{"id":33, "name":"Leman Russ Demolisher", "pts":0},
 
 		{"id":35, "name":"Daemonic Icon", "pts":75},
 		{"id":36, "name":"Daemonic Pact", "pts":25},

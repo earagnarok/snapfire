@@ -5,7 +5,7 @@
    "by": "Mrdiealot",
    "sections": [
       {
-         "name": "GARGANT FORMATIONS <br/> At least 1 Mega Gargant or Great Gargant in the army",
+         "name": "BAD MOONS GARGANTS FORMATIONS <br/> At least 1 Mega Gargant or Great Gargant",
          "formations": [
             {"id": 501, "name": "Mega Gargant", "pts": 850, "upgrades": [10,11,12,13,14,15]},
             {"id": 502, "name": "Great Gargant", "pts": 700, "upgrades": [10,11,12,13,14,15]},
@@ -13,12 +13,10 @@
 	       ]
       },
 	  {
-		 "name": "ORK FORMATIONS <br/> 5 for each Mega Gargant, 4 for each Great Gargant and 3 for each Gargant",
+		 "name": "BAD MOONS BIG MEK MOBS <br/> Max 4 for each Gargant",
          "formations": [
 
             {"id": 510, "name": "Big Mek Stompamob", "pts": 75, "upgrades": [100,101,102,103,110,111,112,113,114,115]},
-            {"id": 511, "name": "Big Mek Stompamob (Big)", "pts": 50, "upgrades": [100,101,102,103,110,111,112,113,114,115]},
-            {"id": 512, "name": "Big Mek Stompamob ('Uge)", "pts": 0, "upgrades": [100,101,102,103,110,111,112,113,114,115]},
 
             {"id": 513, "name": "Big Mek Dreadmob", "pts": 15, "upgrades": [100,101,102]},
             {"id": 514, "name": "Big Mek Dreadmob (Big)", "pts": -20, "upgrades": [100,101,102]},
@@ -44,12 +42,12 @@
       }
    ],
    "upgrades": [
-      {"id": 10, "name": "Big Mek (Compulsory)", "pts": 0},
-      {"id": 11, "name": "Add 1 Oddboy (Replace a Big Gun with a Supa-Zzap-Gun)", "pts": 50},
-      {"id": 12, "name": "Add 1 Oddboy (Replace a Big Gun with a Soopagun)", "pts": 50},
-      {"id": 13, "name": "Add 1 Oddboy (Replace a Big Gun with a Weirdboy Tower)", "pts": 50},
-      {"id": 14, "name": "Add 1 Oddboy (D3+1 Powerfields)", "pts": 50},
-	  {"id": 15, "name": "Add 1 Oddboy ('Uge Banner of Mork (or possibly Gork))", "pts": 50},
+      {"id": 10, "name": "Big Mek", "pts": 0},
+      {"id": 11, "name": "Oddboy (Supa-Zzap-Gun)", "pts": 50},
+      {"id": 12, "name": "Oddboy (Soopagun)", "pts": 50},
+      {"id": 13, "name": "Oddboy (Weirdboy Tower)", "pts": 50},
+      {"id": 14, "name": "Oddboy (D3+1 Powerfields)", "pts": 50},
+	  {"id": 15, "name": "Oddboy ('Uge Banner of Mork (or possibly Gork))", "pts": 50},
 
 
       {"id": 20, "name": "Fighta-Bommer", "pts": 50},
@@ -61,32 +59,32 @@
       {"id": 104, "name": "Deth Kopta", "pts": 35},
       {"id": 105, "name": "Gunwagon", "pts": 35},
 
-      {"id": 110, "name": "Supa Stompa w/ Gaze of Mork, 2+1 Soopaguns", "pts": 275},
-      {"id": 111, "name": "Supa Stompa w/ Gaze of Mork, 2 Soopaguns, 1 Zzap-Gun", "pts": 275},
-      {"id": 112, "name": "Supa Stompa w/ Gaze of Mork, 1 Soopagun, 1 Killa-Choppa, 1 Zzap-Gun", "pts": 275},
-      {"id": 113, "name": "Supa Stompa w/ Gaze of Mork, 1 Soopagun, 1 Killa-Choppa, 1 Soopagun", "pts": 275},
-      {"id": 114, "name": "Supa Stompa w/ Gaze of Mork, 2 Soopaguns, 1 Dakka Kannon", "pts": 275},
-      {"id": 115, "name": "Supa Stompa w/ Gaze of Mork, 1 Soopagun, 1 Killa-Choppa, 1 Dakka Kannon", "pts": 275},
+      {"id": 110, "name": "Supa Stompa w/ Gaze of Mork, 3 Soopaguns", "pts": 275},
+      {"id": 111, "name": "Supa Stompa w/ Gaze of Mork, 2 Soopaguns, Zzap-Gun", "pts": 275},
+      {"id": 112, "name": "Supa Stompa w/ Gaze of Mork, Soopagun, Killa-Choppa, Zzap-Gun", "pts": 275},
+      {"id": 113, "name": "Supa Stompa w/ Gaze of Mork, Soopagun, Killa-Choppa, Soopagun", "pts": 275},
+      {"id": 114, "name": "Supa Stompa w/ Gaze of Mork, 2 Soopaguns, Dakka Kannon", "pts": 275},
+      {"id": 115, "name": "Supa Stompa w/ Gaze of Mork, Soopagun, Killa-Choppa, Dakka Kannon", "pts": 275},
 
-      {"id": 120, "name": "'ED Gaze of Mork", "pts": 0},
-      {"id": 121, "name": "'ED Flak Gun", "pts": 0},
-      {"id": 122, "name": "'ED D3 Power Fields", "pts": 0},
-      {"id": 123, "name": "'ED Grot-Guided Missile", "pts": 0},
+      {"id": 120, "name": "Gaze of Mork ('Ed)", "pts": 0},
+      {"id": 121, "name": "Flak Gun ('Ed)", "pts": 0},
+      {"id": 122, "name": "D3 Power Fields ('Ed)", "pts": 0},
+      {"id": 123, "name": "Grot-Guided Missile ('Ed)", "pts": 0},
 
-      {"id": 130, "name": "ARM Soopagun", "pts": 0},
-      {"id": 131, "name": "ARM Dakka Kannon", "pts": 0},
-      {"id": 132, "name": "ARM Mega-Choppa", "pts": 0},
-      {"id": 133, "name": "ARM Zzap-Gun", "pts": 0},
+      {"id": 130, "name": "Soopagun (Arm)", "pts": 0},
+      {"id": 131, "name": "Dakka Kannon (Arm)", "pts": 0},
+      {"id": 132, "name": "Mega-Choppa (Arm)", "pts": 0},
+      {"id": 133, "name": "Zzap-Gun (Arm)", "pts": 0},
 
-      {"id": 134, "name": "BELLY Supa-Skorcha", "pts": 0},
-      {"id": 135, "name": "BELLY Supa-Zzap-Gun", "pts": 0},
-      {"id": 136, "name": "BELLY Snapper", "pts": 0},
-      {"id": 137, "name": "BELLY Soopagun", "pts": 0},
+      {"id": 134, "name": "Supa-Skorcha (Belly)", "pts": 0},
+      {"id": 135, "name": "Supa-Zzap-Gun (Belly)", "pts": 0},
+      {"id": 136, "name": "Snapper (Belly)", "pts": 0},
+      {"id": 137, "name": "Soopagun (Belly)", "pts": 0},
 
-      {"id": 140, "name": "ARM Twin Soopagun", "pts": 0},
-      {"id": 141, "name": "ARM Dakka-Dakka Kannon", "pts": 0},
-      {"id": 142, "name": "ARM Mega-Lobba", "pts": 0},
-      {"id": 143, "name": "ARM Lifta-Droppa", "pts": 0},
+      {"id": 140, "name": "Twin Soopagun (Arm)", "pts": 0},
+      {"id": 141, "name": "Dakka-Dakka Kannon (Arm)", "pts": 0},
+      {"id": 142, "name": "Mega-Lobba (Arm)", "pts": 0},
+      {"id": 143, "name": "Lifta-Droppa (Arm)", "pts": 0},
 
       {"id": 201, "name": "Kill Kroozer", "pts": 100},
       {"id": 202, "name": "Battlekroozer", "pts": 150}
@@ -94,6 +92,7 @@
    "formationConstraints": [
       {"max": 1, "name": "Mega Gargant", "from": [501]},
       {"max": 1, "name": "Spacecraft", "from": [532]},
+      {"max": 4, "name": "Big Mek Mobs", "from": [510,513,514,515,516,517,518,519,520,521],  "forEach": [501,502,503], "name2": "Gargant" },
       {"maxPercent": 25.5, "name": "Evil Sunz Aircraft and Spacecraft", "from": [530,531,532]}
    ],
    "upgradeConstraints": [

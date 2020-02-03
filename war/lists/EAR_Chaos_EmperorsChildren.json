@@ -40,7 +40,7 @@
 		{"id":16, "name":"Daemon Prince (replaces one unit of Emperor's Children Terminators)", 		"pts":100},
 
 		{"id":14, "name":"Icon Bearer", "pts":25},
-		{"id":15, "name":"Chaos Champion", "pts":50},
+		{"id":15, "name":"Champion of Chaos", "pts":50},
 
 		{"id":19, "name":"3 Noise Marines", "pts":0},
 		{"id":20, "name":"3 Chaos Space Marines", 		"pts":0},
