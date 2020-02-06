@@ -28,7 +28,7 @@
 
       {"name": "ZOMBIES, SPACESHIPS, AIRCRAFT &amp; TITANS <br/> Max 33%", "formations": [
             {"id": 551, "name": "Plague Zombie Infestation", "pts": 175, "units": "3 + 2D6 Plague Zombies", "upgrades": []},
-            {"id": 552, "name": "Plaguehounds", "pts": 500, "units": "2 Plaguehounds", "upgrades": []},
+            {"id": 552, "name": "Plaguehounds", "pts": 50, "upgrades": [20]},
             {"id": 553, "name": "Repugnant Titan", "pts": 600,  "upgrades": []},
             {"id": 554, "name": "Hell Blades", "pts": 200, "units": "3 Hell Blade Interceptors", "upgrades": []},
             {"id": 555, "name": "Hell Talons", "pts": 225, "units": "2 Hell Talon Fighter-Bombers", "upgrades": []},
@@ -44,7 +44,7 @@
       {"id": 17, "name": "3 Chaos Space Marines", "pts": 0},
       {"id": 18, "name": "3 Havocs", "pts": 35},
       {"id": 19, "name": "3 Plague Marines", "pts": 0},
-      {"id": 20, "name": "Plaguehound Scout Titan", "pts": 250},
+      {"id": 20, "name": "Plaguehound Titan", "pts": 225},
       {"id": 22, "name": "Chaos Dreadnought", "pts": 50},
       {"id": 23, "name": "Death Guard Rhino", "pts": 10},
 	  {"id": 24, "name": "Death Guard Land Raider", "pts": 50},
@@ -57,6 +57,8 @@
       {"id": 31, "name": "Death Guard Vindicator", "pts": 35},
 
       {"id": 32, "name": "4 Death Guard Land Raiders", "pts": 200},
+
+
 
 		{"id":71, "name":"Greater Daemon Pool point", "pts":50},
 		{"id":72, "name":"Lesser Daemon Pool point", "pts":15},
@@ -88,7 +90,9 @@
       {"min": 1, "max": 1, "from": [15,16,13,14], "appliesTo": [521,532]},
       {"min": 1, "max": 1, "from": [17,18], "appliesTo": [521]},
       {"min": 5, "max": 7, "from": [31], "appliesTo": [533]},
-      {"min": 1, "max": 2, "from": [29], "appliesTo": [540]}
+      {"min": 1, "max": 2, "from": [29], "appliesTo": [540]},
+
+      {"min": 1, "max": 2, "from": [20], "appliesTo": [552]}
 
    ]
 }

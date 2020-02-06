@@ -24,7 +24,7 @@
 
 		]},
 
-		{"name":"DARK ANGELS AIRCRAFT AND SWORDWING <br/> Max 33% <br/> Swordwing Support is compulsory", "formations":[
+		{"name":"DARK ANGELS AIRCRAFT AND SWORDWING <br/> Max 33%", "formations":[
 			{"id":520, "name": "Nephilims", "units":"2 Ravenwing Nephilims",		"pts":225, "upgrades":[]},
 			{"id":521, "name": "Dark Talons",	"units":"2 Ravenwing Dark Talons",			"pts":225, "upgrades":[]},
 			{"id":522, "name": "Swordwing Support",										"pts":0, "upgrades":[]}
@@ -70,7 +70,7 @@
 		{"id":42, "name":"Glaive",	"pts":250},
 
 		{"id":50, "name":"Strike Cruiser",								"pts":200},
-		{"id":51, "name":"Hunter Class Destroyer",						"pts":75}
+		{"id":51, "name":"Hunter Class Destroyer",						"pts":100}
 	],
 	"formationConstraints":[
 		{"max":3, "name":"Support Detachments", "from":[502,504,509,510,511,512,513,516,517], "forEach":[501,504,505,514,515], "name2":"Core Detachment"},

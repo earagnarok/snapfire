@@ -24,8 +24,8 @@
 		]},
 			{"name":"ALPHA LEGION NAVY <br/> Max 33% <br/> Max 1 for each Alpha Legion Elite Detachment", "formations": [
 			{ "id":550, "name":"Xiphon Squadron", "pts":200, "units":"2 Xiphon Interceptors", "upgrades":[] },
-			{ "id":551, "name":"Alpha Legion Thunderhawk", "pts":200, "upgrades":[] },
-			{ "id":553, "name":"Alpha Legion Strike Cruiser", "pts":200, "upgrades":[] }
+			{ "id":551, "name":"Alpha Legion Thunderhawk", "pts":225, "upgrades":[] },
+			{ "id":553, "name":"Chaos Strike Cruiser", "pts":200, "upgrades":[] }
 		]}
 	],
 	"upgrades":[
@@ -49,8 +49,8 @@
 		{ "id":40, "name":"Land Transporter", "pts":10 },
 		{ "id":41, "name":"3 Heavy Mortars", "pts":100 },
 
-		{ "id":43, "name":"Chaos Cultist", "pts":10 },
-		{ "id":44, "name":"Chaos Mutant", "pts":10 },
+		{ "id":43, "name":"Chaos Cultists", "pts":10 },
+		{ "id":44, "name":"Mutants", "pts":10 },
 
 		{ "id":45, "name":"Aspiring Champion with Daemonic Icon", "pts":25 },
 

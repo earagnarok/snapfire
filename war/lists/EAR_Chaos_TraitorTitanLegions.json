@@ -13,7 +13,8 @@
 		]},
 
 		{"name": "SCOUT TITAN FORMATIONS <br/> Max 3 per Battle Titan formation <br/> Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
-			{"id":513, "name":"Chaos Scout Titan",	"pts":75, "units": "Daemonic Locus", "upgrades":[]}
+			{"id":513, "name":"Chaos Warhound",	"pts":75, "units": "Daemonic Locus", "upgrades":[]},
+			{"id":514, "name":"Slaanesh Scout Titan",	"pts":75, "units": "Daemonic Locus", "upgrades":[]}
 		]},
 
 		{"name":"DAEMON ENGINE FORMATIONS <br/> Max 3 per Battle Titan formation <br/> Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
@@ -161,7 +162,8 @@
       {"min": 1, "max": 2, "from": [68], "appliesTo": [510]},
       {"min": 1, "max": 2, "from": [69], "appliesTo": [511]},
 
-      {"min": 1, "max": 1, "from": [69,68,70,71,72,73,74], "appliesTo": [513]},
+      {"min": 1, "max": 1, "from": [70,71,72,73,74], "appliesTo": [513]},
+      {"min": 1, "max": 1, "from": [69,68], "appliesTo": [514]},
 
       {"min": 4, "max": 5, "from": [87], "appliesTo": [540]},
 

@@ -9,8 +9,8 @@
 			{"id":525, "name":"Chrono-Gladiators",		"pts":200, "units":"6 Chrono-Gladiators", "upgrades":[]}
 		]},
 		{"name":"DAEMONIC LANCE FORMATIONS <br/> Max 2 for each Hell-Forge Core formation <br/> Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
-			{"id":500, "name":"Hell-Knights of Slaanesh",			"pts":325,  "units": "3 Hell-Knights", "upgrades":[]},
-			{"id":501, "name":"Hell-Scourges of Slaanesh",			"pts":325,  "units": "3 Hell-Scourges","upgrades":[]},
+			{"id":500, "name":"Hell-Knights of Slaanesh",			"pts":350,  "units": "3 Hell-Knights", "upgrades":[]},
+			{"id":501, "name":"Hell-Scourges of Slaanesh",			"pts":350,  "units": "3 Hell-Scourges","upgrades":[]},
 			{"id":502, "name":"Knights of Nurgle",			"pts":25, "upgrades":[82]},
 			{"id":503, "name":"Knights of Khorne",			"pts":25, "upgrades":[83]},
 			{"id":504, "name":"Knights of Tzeentch",			"pts":25, "upgrades":[84]},
