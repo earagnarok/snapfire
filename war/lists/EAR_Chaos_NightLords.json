@@ -17,7 +17,7 @@
 			{"id":512, "name":"Dreadnought Assault", "pts":200, "upgrades":[46]}
 		]},
 		{"name":"NIGHT LORDS SUPPORT FORMATIONS <br/> Max 2 for each Core formation", "formations":[
-			{"id":520, "name":"Night Lords Terror Company", "pts":200, "units":"4 Night Lords Assault Marines", "upgrades":[15,42,46]},
+			{"id":520, "name":"Night Lords Terror Company", "pts":175, "units":"4 Night Lords Assault Marines", "upgrades":[15,42,46]},
 			{"id":521, "name":"Bike Company",	"pts":300, "units":"8 Chaos Space Marine Assault Bikes", "upgrades":[15]},
 			{"id":522, "name":"Night Lords Support Company",	"pts":250, "upgrades":[15,43,44]},
 			{"id":524, "name":"Chaos Strike Cruiser",	"pts":200, "upgrades":[]}
@@ -25,15 +25,15 @@
 		{"name":"NIGHT LORDS STATIC DEFENSES & AIRCRAFT <br/> Max 33% <br/> Max 1 Tarantula formation for each Chosen formation", "formations":[
 			{"id":530, "name":"Hell Blades",	"pts":200, "units":"3 Hell Blade Fighters", "upgrades":[]},
 			{"id":531, "name":"Hell Talons",	"pts":225, "units":"2 Hell Talon Fighter-Bombers", "upgrades":[]},
-			{ "id":532, "name":"Chaos Strike Eagle", "pts":175, "upgrades":[] },
+			{ "id":532, "name":"Night Lords Strike Eagle", "pts":175, "upgrades":[] },
 			{ "id":533, "name":"Night Lords Thunderhawk", "pts":225, "upgrades":[] },
 			{"id":534, "name":"Tarantula",	"pts":100, "upgrades":[]}
 		]}
 	],
 	"upgrades":[
-		{"id":9, "name":"Night Lord Sergeant", 		"pts":0},
-		{"id":10, "name":"Night Lord Captain", 		"pts":50},
-		{"id":11, "name":"Night Lord First Captain", 		"pts":100},
+		{"id":9, "name":"Night Lords Sergeant", 		"pts":0},
+		{"id":10, "name":"Night Lords Captain", 		"pts":50},
+		{"id":11, "name":"Night Lords First Captain", 		"pts":100},
 
 		{"id":15, "name":"Icon Bearer", 		"pts":25},
 
