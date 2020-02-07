@@ -17,7 +17,7 @@
 		]},
 		{"name":"BLACK LEGION SUPPORT FORMATIONS <br/> Max 2 for each Core formation", "formations":[
 			{"id":504, "name":"Bike Company",	"pts":300, "units":"8 Chaos Space Marines Bikes", "upgrades":[14,70]},
-			{"id":505, "name":"Raptor Cult",	"pts":225, "units":"6 Raptors", "upgrades":[70]},
+			{"id":505, "name":"Raptor Cult",	"pts":55,  "upgrades":[21,70]},
 			{"id":506, "name": "Armoured Company", "pts":200, "upgrades":[43,44] },
 			{"id":507, "name":"Havocs",	"pts":200, "units":"4 Havocs", "upgrades":[43,44,70]}
 		]},
@@ -45,7 +45,7 @@
 		{"id":15, "name":"Champion of Chaos", "pts":50},
 
 
-		{"id":21, "name":"Raptor", 			"pts":35},
+		{"id":21, "name":"Raptors", 			"pts":30},
 
 		{"id":22, "name":"8 Chaos Space Marines", 		"pts":0},
 		{"id":23, "name":"4 Chaos Space Marines, 4 Havocs", "pts":50},
@@ -126,6 +126,7 @@
 
 		{"min":1, "max":1, "from":[10,11], "appliesTo":[504,505,507]},
 
+		{"min":4, "max":8, "from":[21], "appliesTo":[505]},
 		{"min":0, "max":1, "from":[80], "appliesTo":[505]},
 
 		{"min":1, "max":1, "from":[35,36], "appliesTo":[506]},
