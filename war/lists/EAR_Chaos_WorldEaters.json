@@ -18,7 +18,7 @@
        ]},
 
       {"name": "WORLD EATERS SUPPORT FORMATIONS <br/> Max 2 for each World Eater Retinue", "formations": [
-            {"id": 534, "name": "World Eaters Destroyers", "pts": 200, "units": "4 World Eaters Destroyers", "upgrades": [25]},
+            {"id": 534, "name": "Chaos Destroyers", "pts": 200, "units": "4 Chaos Destroyers", "upgrades": [25]},
             {"id": 535, "name": "Predator Company", "pts": 200,  "upgrades": [30]},
             {"id": 536, "name": "Chaos Space Marines", "pts": 225, "units": "6 Chaos Space Marines, 3 Chaos Rhinos",  "upgrades": [25]},
             {"id": 541, "name": "Slaughterfiends", "pts": 25, "upgrades": [35]},
