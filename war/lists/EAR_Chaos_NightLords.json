@@ -1,6 +1,6 @@
 {
 	"id":"EA-R Night Lords",
-	"version":"0.5.0",
+	"version":"0.6.0",
 	"notes":
 		["Add one free Lesser Daemon to the Lesser Daemon pool per Daemonic Pact"],
 		"by":"EA-Ragnarok",
@@ -9,18 +9,18 @@
 			{"id":500, "name":"Daemon Pool", "pts":0, "upgrades":[72,73]}
 		]},
 		{"name":"NIGHT LORDS CORE FORMATIONS", "formations":[
-			{"id":501, "name":"Night Raptor Cult",	"pts":45,  "upgrades":[20,15]}
+			{"id":501, "name":"Night Raptor Company",	"pts":40,  "upgrades":[20,15]}
 		]},
 		{"name":"NIGHT LORDS ELITE FORMATIONS <br/> Max 1 for each Core formation", "formations":[
-			{"id":510, "name":"Terminator Company", "pts":275, "units":"4 Chaos Terminators", "upgrades":[15,42,44,45,46]},
+			{"id":510, "name":"Terminator Company", "pts":275, "units":"4 Atramentar Terminators", "upgrades":[15,24,42,46]},
 			{"id":512, "name":"Warp Talon Cult", "pts":225, "units":"3 Warp Talons, Daemonic Pact", "upgrades":[]},
 			{"id":511, "name":"Chosen", "pts":150, "units":"4 Night Lords Chosen", "upgrades":[]}
 		]},
 		{"name":"NIGHT LORDS SUPPORT FORMATIONS <br/> Max 2 for each Core formation", "formations":[
 			{"id":519, "name":"Destroyers", "pts":200, "units":"4 Chaos Destroyers", "upgrades":[]},
-			{"id":522, "name":"Night Lords Support Company", "pts":250, "units":"6 Chaos Space Marines", "upgrades":[15,44]},
-			{"id":520, "name":"Night Lords Terror Company", "pts":225, "units":"4 Night Lords Assault Marines", "upgrades":[15,46]},
-			{"id":521, "name":"Bike Company",	"pts":250, "units":"6 Chaos Space Marine Assault Bikes", "upgrades":[15]}
+			{"id":520, "name":"Terror Company", "pts":225,  "units":"4 Night Lords Assault Marines", "upgrades":[15,46]},
+			{"id":522, "name":"Support Company", "pts":250,  "units":"6 Chaos Space Marines", "upgrades":[15,44]},
+			{"id":521, "name":"Attack Company",	"pts":250, "units":"6 Chaos Attack Bikes", "upgrades":[15,44]}
 		]},
 		{"name":"NIGHT LORDS NAVY <br/> Max 33%", "formations":[
 			{"id":530, "name":"Hell Blades",	"pts":200, "units":"3 Hell Blade Fighters", "upgrades":[]},
@@ -37,10 +37,11 @@
 
 		{"id":15, "name":"Icon Bearer", 		"pts":25},
 
-		{"id":20, "name":"Raptors", 	"pts":30},
+		{"id":20, "name":"Night Raptors", 	"pts":35},
 
 		{"id":22, "name":"3 Chaos Rhinos", 	"pts":0},
 		{"id":23, "name":"3 Chaos Land Raiders", 	"pts":125},
+		{"id":24, "name":"2 Chaos Spartan Assault Tanks", 	"pts": 125},
 
 		{"id":25, "name":"2 Chaos Rhinos", 	"pts":25},
 		{ "id":26, "name":"4 Chaos Tarantulas","pts":50 },
@@ -50,7 +51,6 @@
 
 		{"id":42, "name":"2 Night Lords Dreadnoughts", "pts":75},
 		{"id":44, "name":"Chaos Stalker", "pts":50},
-		{"id":45, "name":"4 Chaos Land Raiders", 	"pts":200},
 		{"id":46, "name":"Dreadclaw", 	"pts":5},
 
 
@@ -72,6 +72,7 @@
 
 		{"min":0, "max":1, "from":[15]},
 
+		{"min":0, "max":1, "from":[24]},
 		{"min":0, "max":1, "from":[42]},
 		{"min":0, "max":2, "from":[43]},
 		{"min":0, "max":1, "from":[44]},

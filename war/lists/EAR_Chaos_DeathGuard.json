@@ -1,6 +1,6 @@
 {
    "id": "EA-R Death Guard",
-   "version": "0.7.1",
+   "version": "0.7.5",
    "by": "EA-Ragnarok",
    "sections": [
       {"name": "INDIVIDUALS", "formations": [
@@ -8,17 +8,17 @@
       ]},
 
       {"name": "DEATH GUARD RETINUE", "formations": [
-            {"id": 521, "name": "Death Guard Retinue", "pts": 300,  "units": "4 Plague Marines", "upgrades": [22,23,24,25,26,27,28,30]}
+            {"id": 521, "name": "Death Guard Retinue", "pts": 325,  "units": "4 Plague Marines, Daemonic Pact", "upgrades": [22,23,24,26,27,28,30]}
        ]},
 
       {"name": "DEATH ELITE FORMATIONS <br/> Max 1 for each Death Guard Retinue", "formations": [
-            {"id": 531, "name": "Chosen", "pts": 150, "units": "4 Chosen, 2 Death Guard Rhinos", "upgrades": [25,30]},
-            {"id": 532, "name": "Terminators", "pts": 375, "units": "4 Blightlord Terminators", "upgrades": [25,26,27,30,32]}
+            {"id": 531, "name": "Chosen", "pts": 175, "units": "4 Chosen, 2 Death Guard Rhinos, Daemonic Pact", "upgrades": [30]},
+            {"id": 532, "name": "Death Guard Terminators", "pts": 400, "units": "4 Blightlord Terminators, Daemonic Pact", "upgrades": [26,27,30,32]},
+            {"id": 533, "name": "Armored Company", "pts": 200, "upgrades": [28]}
        ]},
 
-      {"name": "DEATH GUARD SUPPORT FORMATIONS <br/> Max 2 for each Death Guard Retinue", "formations": [
-            {"id": 533, "name": "Vindicators", "pts": 50, "upgrades": [31]},
-            {"id": 534, "name": "Chaos Space Marines", "pts": 225, "units": "6 Chaos Space Marines, 3 Death Guard Rhinos", "upgrades": [25]},
+      {"name": "DEATH GUARD SUPPORT FORMATIONS <br/> Max 3 for each Death Guard Retinue", "formations": [
+            {"id": 534, "name": "Chaos Space Marines", "pts": 250, "units": "6 Chaos Space Marines, 3 Death Guard Rhinos, Daemonic Pact", "upgrades": [30]},
             {"id": 540, "name": "Plague Reapers", "pts": 50, "upgrades": [29]},
             {"id": 541, "name": "Contagion Engines", "pts": 325, "units": "4 Contagion Engines", "upgrades": []},
             {"id": 542, "name": "Blight Drones", "pts": 250, "units": "7 Greater Blight Drones", "upgrades": []},
@@ -46,19 +46,22 @@
       {"id": 19, "name": "3 Plague Marines", "pts": 0},
       {"id": 20, "name": "Plaguehound Titan", "pts": 225},
       {"id": 22, "name": "Chaos Dreadnought", "pts": 50},
-      {"id": 23, "name": "Death Guard Rhino", "pts": 10},
-	  {"id": 24, "name": "Death Guard Land Raider", "pts": 50},
+      {"id": 23, "name": "4 Death Guard Rhinos", "pts": 50},
+	  {"id": 24, "name": "2 Chaos Spartan Assault Tanks", "pts": 150},
       {"id": 25, "name": "Daemonic Pact", "pts": 25},
       {"id": 26, "name": "Champion of Chaos", "pts": 50},
       {"id": 27, "name": "Icon Bearer ", "pts": 25},
       {"id": 28, "name": "Death Guard Stalker ", "pts": 50},
       {"id": 29, "name": "Plague Reaper", "pts": 175},
-      {"id": 30, "name": "Death Guard Vindicator", "pts": 35},
+      {"id": 30, "name": "3 Death Guard Vindicators", "pts": 100},
       {"id": 31, "name": "Death Guard Vindicator", "pts": 35},
 
-      {"id": 32, "name": "4 Death Guard Land Raiders", "pts": 200},
+      {"id": 32, "name": "2 Chaos Spartan Assault Tanks", "pts": 150},
 
-
+      {"id": 40, "name": "4 Death Guard Vindicators", "pts": 0},
+      {"id": 41, "name": "7 Death Guard Vindicators", "pts": 100},
+      {"id": 42, "name": "4 Death Guard Land Raiders", "pts": 100},
+      {"id": 43, "name": "4 Death Guard Land Raiders, 3 Death Guard Vindicators", "pts": 200},
 
 		{"id":71, "name":"Greater Daemon Pool point", "pts":50},
 		{"id":72, "name":"Lesser Daemon Pool point", "pts":15},
@@ -72,24 +75,24 @@
       {"max": 1, "name": "Spacecraft", "from": [557]},
       {"min": 1,"max": 1, "from": [501]},
       {"maxPercent": 33.5, "name": "War Engines & Allies", "from": [551,552,553,554,555,556,557]},
-      {"max": 1, "name": "Elite Formations", "from": [531,532],  "forEach": [521], "name2": "Death Guard Retinue"},
-      {"max": 2, "name": "Support Formations", "from": [533,534,540,541,542,543,544],  "forEach": [521], "name2": "Death Guard Retinue"}
+      {"max": 1, "name": "Elite Formations", "from": [531,532,533],  "forEach": [521], "name2": "Death Guard Retinue"},
+      {"max": 3, "name": "Support Formations", "from": [534,540,541,542,543,544],  "forEach": [521], "name2": "Death Guard Retinue"}
    ],
    "upgradeConstraints": [
       {"max": 1, "from": [13,14], "perArmy": true},
       {"min": 1, "max": 1, "from": [73], "appliesTo": [501]},
       {"max": 2, "from": [22]},
-      {"max": 4, "from": [23,24], "appliesTo": [521]},
+      {"max": 1, "from": [23,24], "appliesTo": [521]},
 
       {"max": 1, "from": [25]},
       {"max": 1, "from": [26]},
       {"max": 1, "from": [27]},
       {"max": 1, "from": [28]},
-      {"max": 2, "from": [30]},
+      {"max": 1, "from": [30]},
       {"max": 1, "from": [32]},
       {"min": 1, "max": 1, "from": [15,16,13,14], "appliesTo": [521,532]},
       {"min": 1, "max": 1, "from": [17,18], "appliesTo": [521]},
-      {"min": 5, "max": 7, "from": [31], "appliesTo": [533]},
+      {"min": 1, "max": 1, "from": [40,41,42,43], "appliesTo": [533]},
       {"min": 1, "max": 2, "from": [29], "appliesTo": [540]},
 
       {"min": 1, "max": 2, "from": [20], "appliesTo": [552]}

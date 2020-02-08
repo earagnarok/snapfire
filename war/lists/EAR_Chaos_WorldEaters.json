@@ -1,6 +1,6 @@
 {
    "id": "EA-R World Eaters",
-   "version": "0.7.2",
+   "version": "0.7.5",
    "by": "EA-Ragnarok",
    "sections": [
       {"name": "INDIVIDUALS", "formations": [
@@ -8,19 +8,19 @@
       ]},
 
       {"name": "WORLD EATERS CORE FORMATIONS", "formations": [
-            {"id": 521, "name": "World Eaters Retinue", "pts": 300, "units": "4 World Eaters Assault Marines, 4 Khorne Berzerkers", "upgrades": [26,25,27,22,30,33]}
+            {"id": 521, "name": "World Eaters Retinue", "pts": 350, "units": "4 World Eaters Assault Marines, 4 Khorne Berzerkers, Daemonic Pact", "upgrades": [26,27,22,30]}
        ]},
 
       {"name": "WORLD EATERS ELITE FORMATIONS <br/> Max 1 for each World Eater Retinue", "formations": [
             {"id": 531, "name": "Juggernauts", "pts": 400, "units": "8 Juggernaut Riders, Daemonic Pact", "upgrades": [26,27]},
-            {"id": 532, "name": "World Eaters Terminators", "pts": 375, "units": "4 Skullseeker Terminators", "upgrades": [21,26,22,25,27,30,38,39]},
-            {"id": 533, "name": "Berzerker Bikes", "pts": 350, "units": "8 Khorne Berzerker Assault Bikes", "upgrades": [27,25]}
+            {"id": 532, "name": "World Eaters Terminators", "pts": 400, "units": "4 Skullseeker Terminators, Daemonic Pact", "upgrades": [21,26,22,27,39]},
+            {"id": 533, "name": "Berzerker Bikes", "pts": 375, "units": "8 Khorne Berzerker Assault Bikes, Daemonic Pact", "upgrades": [27]},
+            {"id": 530, "name": "Mutilator Cult", "pts": 250, "units": "2 Mutilators, Daemonic Pact",  "upgrades": []}
        ]},
 
-      {"name": "WORLD EATERS SUPPORT FORMATIONS <br/> Max 2 for each World Eater Retinue", "formations": [
-            {"id": 534, "name": "Chaos Destroyers", "pts": 200, "units": "4 Chaos Destroyers", "upgrades": [25]},
-            {"id": 535, "name": "Predator Company", "pts": 200,  "upgrades": [30]},
-            {"id": 536, "name": "Chaos Space Marines", "pts": 225, "units": "6 Chaos Space Marines, 3 Chaos Rhinos",  "upgrades": [25]},
+      {"name": "WORLD EATERS SUPPORT FORMATIONS <br/> Max 3 for each World Eater Retinue", "formations": [
+            {"id": 534, "name": "Destroyers", "pts": 225, "units": "4 Chaos Destroyers, Daemonic Pact", "upgrades": []},
+            {"id": 536, "name": "Chaos Space Marines", "pts": 250, "units": "6 Chaos Space Marines, 3 Chaos Rhinos, Daemonic Pact",  "upgrades": [30]},
             {"id": 541, "name": "Slaughterfiends", "pts": 25, "upgrades": [35]},
             {"id": 542, "name": "Daemonic Assault Engines", "pts": 325, "units": "6 Daemonic Assault Engines", "upgrades": []},
             {"id": 544, "name": "Doomblasters", "pts": 225, "units": "4 Doomblasters", "upgrades": []},
@@ -41,16 +41,16 @@
       {"id": 14, "name": "Daemon Prince of Khorne (replaces the Warlord's unit)", "pts": 100},
       {"id": 15, "name": "Chaos Lord", "pts": 0},
 	  {"id": 20, "name": "2 Chaos Rhinos", "pts": 0},
-	  {"id": 21, "name": "World Eaters Land Raider", "pts": 50},
+	  {"id": 21, "name": "2 Chaos Spartan Assault Tanks", "pts": 125},
       {"id": 22, "name": "Berzerker Dreadnought", "pts": 50},
       {"id": 23, "name": "4 Chaos Rhinos", "pts": 0},
-      {"id": 24, "name": "3 World Eaters Land Raiders", "pts": 100},
+      {"id": 24, "name": "2 Chaos Spartan Assault Tanks", "pts": 125},
       {"id": 25, "name": "Daemonic Pact", "pts": 25},
       {"id": 26, "name": "Champion of Chaos", "pts": 50},
       {"id": 27, "name": "Icon Bearer", "pts": 25},
       {"id": 28, "name": "4 Chaos Space Marines", "pts": 0},
       {"id": 29, "name": "4 Khorne Berzerkers", "pts": 0},
-      {"id": 30, "name": "Chaos Vindicator", "pts": 35},
+      {"id": 30, "name": "2 World Eaters Vindicators", "pts": 75},
       {"id": 31, "name": "4 Chaos Predators", "pts": 0},
       {"id": 32, "name": "6 Chaos Predators", "pts": 75},
       {"id": 33, "name": "2 Chaos Predators", "pts": 75},
@@ -58,7 +58,7 @@
       {"id": 34, "name": "Greater Brass Scorpion", "pts": 175},
       {"id": 35, "name": "Slaughterfiend", "pts": 50},
       {"id": 37, "name": "Skullseeker Terminators", "pts": 0},
-      {"id": 38, "name": "Mutilators", "pts": 50},
+      {"id": 38, "name": "Mutilators", "pts": 75},
       {"id": 39, "name": "Dreadclaws", "pts": 0},
       {"id": 40, "name": "Devastator Class Cruiser ", "pts": 0},
       {"id": 41, "name": "Despoiler Class Battleship", "pts": 50},
@@ -73,14 +73,14 @@
       {"max": 1, "name": "Spacecraft", "from": [557]},
       {"min": 1,"max": 1, "from": [501]},
       {"maxPercent": 33.5, "name": "War Engines & Allies", "from": [551,552,553,554,555,557]},
-      {"max": 1, "name": "Elite Formations", "from": [531,532,533],  "forEach": [521], "name2": "World Eater Retinue"},
-      {"max": 2, "name": "Support Formations", "from": [534,535,536,541,542,543,544,545],  "forEach": [521], "name2": "World Eater Retinue"}
+      {"max": 1, "name": "Elite Formations", "from": [530,531,532,533],  "forEach": [521], "name2": "World Eater Retinue"},
+      {"max": 3, "name": "Support Formations", "from": [534,535,536,541,542,543,544,545],  "forEach": [521], "name2": "World Eater Retinue"}
    ],
    "upgradeConstraints": [
       {"max": 1, "from": [13,14], "perArmy": true},
       {"min": 1, "max": 1, "from": [73], "appliesTo": [501]},
       {"min": 1, "from": [23,39,24], "appliesTo": [521]},
-      {"max": 3, "from": [21]},
+      {"max": 1, "from": [21]},
       {"max": 2, "from": [22]},
       {"max": 1, "from": [23]},
       {"max": 1, "from": [24]},
@@ -88,18 +88,16 @@
       {"max": 1, "from": [26]},
       {"max": 1, "from": [27]},
       {"max": 1, "from": [28]},
-      {"max": 2, "from": [30]},
+      {"max": 1, "from": [30]},
       {"max": 1, "from": [31]},
       {"max": 1, "from": [33]},
       {"max": 2, "from": [38]},
-      {"max": 1, "from": [39]},
-      {"max": 1, "from": [23,24,39]},
+      {"max": 1, "from": [39,24,21]},
+      {"max": 1, "from": [39,30]},
       {"min": 1, "max": 1, "from": [40,41], "appliesTo": [557]},
-      {"min": 0, "max": 2, "from": [38], "appliesTo": [532]},
       {"min": 1, "max": 2, "from": [34], "appliesTo": [551]},
       {"min": 1, "max": 1, "from": [15,13,14], "appliesTo": [521,531,532]},
-      {"min": 1, "max": 1, "from": [15], "appliesTo": [533]},
-      {"min": 1, "max": 1, "from": [31,32], "appliesTo": [535]},
+      {"min": 1, "max": 1, "from": [15,13,14], "appliesTo": [533]},
       {"min": 4, "max": 7, "from": [35], "appliesTo": [541]}
 
    ]
