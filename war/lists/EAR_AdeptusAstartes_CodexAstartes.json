@@ -20,9 +20,11 @@
 			{"id":516, "name":"Whirlwinds",				"pts":275, "units":"4 Whirlwinds", "upgrades":[10,11,12,13, 31,32]}
 		]},
 
-		{"name":"CODEX ASTARTES AIRCRAFT & COLLEGIA TITANICA ALLIES <br/> Max 33%", "formations":[
+		{"name":"CODEX ASTARTES, IMPERIAL AIRCRAFT & COLLEGIA TITANICA ALLIES <br/> Max 33%", "formations":[
 			{"id":520, "name": "Storm Talons", "units":"2 Storm Talons",		"pts":200, "upgrades":[]},
 			{"id":521, "name": "Thunderhawk",			"pts":200, "upgrades":[]},
+			{"id":532, "name":"Thunderbolt Squadron",	"pts":175, "upgrades":[], "units":"2 Thunderbolt Fighters"},
+			{"id":533, "name":"Marauder Squadron",		"pts":225, "upgrades":[], "units":"2 Marauder Bombers"},
 			{"id":522, "name": "Warhound Pack",	"units":"2 Warhounds",		"pts":500, "upgrades":[60]},
 			{"id":523, "name": "Reaver Titan", 						"pts":600, "upgrades":[]}
 		]}
@@ -73,7 +75,7 @@
 	],
 	"formationConstraints":[
 		{"max":1,"perArmy":true, "name":"Spacecraft", "from":[513]},
-		{"maxPercent": 33.5, "name":"Aircraft, Navy & Titans", "from":[520,521,522,523,524,530,531]}
+		{"maxPercent": 33.5, "name":"Aircraft, Navy & Titans", "from":[520,521,522,523,524,530,531,532,533]}
 	],
 	"upgradeConstraints":[
 		{"max":1, "perArmy":true, "from":[13]},

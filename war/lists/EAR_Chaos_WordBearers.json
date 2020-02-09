@@ -16,7 +16,7 @@
 			{"id":502, "name":"Chaos Terminators", "pts":150, "units":"Daemonic Pact", "upgrades":[50,14,41,47,80]},
 			{"id":505, "name":"Iconoclasts",	"pts":225, "units":"Diabolist, 4 Word Bearers Iconoclasts, Daemonic Pact", "upgrades":[14]},
 			{"id":504, "name":"Bike Company",	"pts":325, "units":"Diabolist, 8 Chaos Assault Bikes, Daemonic Pact", "upgrades":[14]},
-			{"id":507, "name":"Havocs",	"pts":250, "units":"Diabolist, 4 Havocs, Daemonic Pact", "upgrades":[14]}
+			{"id":507, "name":"Havocs",	"pts":225, "units":"Diabolist, 4 Havocs, Daemonic Pact", "upgrades":[14]}
 		]},
 		{"name":"DAEMON ENGINE FORMATIONS <br/> Max 1 for each Cultist Coven", "formations":[
 			{"id":513, "name":"Defiler Pack", "pts":25, "upgrades":[63]},
