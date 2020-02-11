@@ -24,14 +24,14 @@
 			{"id":515, "name":"Armigers of Chaos Undivided",	"pts":25, "upgrades":[]}
 		]},
 			{"name":"ORDINATUS SUPPORT & CHAOS NAVY ALLIES <br/> Max 33%", "formations":[
-				{"id":523, "name":"Ordinatus Hereticus Minoris",		"pts":50, "upgrades":[60,61,62,63,65,66,67,68]},
+				{"id":523, "name":"Ordinatus Hereticus Minoris",		"pts":75, "upgrades":[60,61,62,63,65,66,67,68]},
 				{"id":524, "name":"Extremis Diabolus",		"pts":425, "upgrades":[]},
 				{"id":536, "name":"Heldrakes",				"pts":225, "units": "2 Heldrakes", "upgrades":[]},
 				{"id":538, "name":"Harbringer Bomber", 	"pts":350, "upgrades":[]},
 				{"id":537, "name":"Despoiler Battleship",				"pts":200, "upgrades":[]}
 		]},
 
-		{"name":"DAEMON POOL", "formations":[
+		{"name":"DAEMONS", "formations":[
       		{"id": 600, "name": "Lesser Daemon Pool", "pts": 0, "upgrades": [450]}
 
       ]}

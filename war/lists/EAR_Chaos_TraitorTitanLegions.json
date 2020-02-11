@@ -24,13 +24,13 @@
 
 			{"name":"HELL-FORGE & CHAOS NAVY ALLIES <br/> Max 33%", "formations":[
 			{"id":590, "name":"Hell-Forge Maniple",		"pts":225, "units": "Hellwright, 11 Chaos Squats", "upgrades":[110]},
-			{"id":591, "name":"Ordinatus Hereticus Minoris",		"pts":50, "upgrades":[]},
+			{"id":591, "name":"Ordinatus Hereticus Minoris",		"pts":75, "upgrades":[]},
 			{"id":592, "name":"Heldrakes",				"pts":225, "units": "2 Heldrakes", "upgrades":[]},
 			{"id":594, "name":"Harbringer Bomber",				"pts":350, "upgrades":[]},
 			{"id":593, "name":"Despoiler Battleship",				"pts":200, "upgrades":[]}
 		]},
 
-		{"name":"DAEMON POOL", "formations":[
+		{"name":"DAEMONS", "formations":[
       		{"id": 600, "name": "Lesser Daemon Pool", "pts": 0, "upgrades": [450,451]}
 
       ]}

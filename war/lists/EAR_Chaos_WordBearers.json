@@ -5,7 +5,7 @@
 		["Add one free Lesser Daemon to the Lesser Daemon pool per Daemonic Pact"],
 		"by":"EA-Ragnarok",
 	"sections":[
-		{"name":"DAEMON POOL", "formations":[
+		{"name":"DAEMONS", "formations":[
 			{"id":666, "name":"Daemon Pool", "pts":0, "upgrades":[71,72,73]}
 		]},
 		{"name":"WORD BEARERS CORE FORMATIONS <br/> Max 2 Cultist Covens for each Word Bearers Retinue", "formations":[

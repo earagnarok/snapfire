@@ -15,7 +15,7 @@
 			{"id":511, "name":"Kataphron Maniple",		"pts":250, "units":"Tech-Priest", "upgrades":[]},
 			{"id":512, "name":"Onager Cataphractii", "units":"6 Onager Dunecrawlers",	"pts":325, "upgrades":[]},
 			{"id":513, "name":"Skorpius Cataphractii",		"pts":325, "units":"6 Skorpius Disintegrators", "upgrades":[]},
-			{"id":515, "name":"Minoris Maniple",		"pts":50, "upgrades":[130,131,132,133,135,136,137]},
+			{"id":515, "name":"Minoris Maniple",		"pts":75, "upgrades":[130,131,132,133,135,136,137]},
 			{"id":516, "name":"Ordinatus Majoris",		"pts":425, "upgrades":[]}
 		]},
 

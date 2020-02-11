@@ -3,7 +3,7 @@
    "version": "0.7.5",
    "by": "EA-Ragnarok",
    "sections": [
-      {"name": "INDIVIDUALS", "formations": [
+      {"name": "DAEMONS", "formations": [
 	    {"id": 501, "name": "Daemon Pool", "pts": 0, "upgrades": [71,72,74]}
       ]},
 
@@ -20,7 +20,7 @@
 
       {"name": "WORLD EATERS SUPPORT FORMATIONS <br/> Max 3 for each World Eater Retinue", "formations": [
             {"id": 534, "name": "Destroyers", "pts": 225, "units": "4 Chaos Destroyers, Daemonic Pact", "upgrades": []},
-            {"id": 536, "name": "Chaos Space Marines", "pts": 250, "units": "6 Chaos Space Marines, 3 Chaos Rhinos, Daemonic Pact",  "upgrades": [30]},
+            {"id": 536, "name": "Chaos Space Marines", "pts": 275, "units": "6 Chaos Space Marines, 3 Chaos Rhinos, Daemonic Pact",  "upgrades": [30]},
             {"id": 541, "name": "Slaughterfiends", "pts": 25, "upgrades": [35]},
             {"id": 542, "name": "Daemonic Assault Engines", "pts": 325, "units": "6 Daemonic Assault Engines", "upgrades": []},
             {"id": 544, "name": "Doomblasters", "pts": 225, "units": "4 Doomblasters", "upgrades": []},

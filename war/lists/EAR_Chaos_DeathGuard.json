@@ -3,7 +3,7 @@
    "version": "0.7.5",
    "by": "EA-Ragnarok",
    "sections": [
-      {"name": "INDIVIDUALS", "formations": [
+      {"name": "DAEMONS", "formations": [
 	    {"id": 501, "name": "Daemon Pool", "pts": 0, "upgrades": [71,72,74]}
       ]},
 
@@ -13,17 +13,18 @@
 
       {"name": "DEATH ELITE FORMATIONS <br/> Max 1 for each Death Guard Retinue", "formations": [
             {"id": 531, "name": "Chosen", "pts": 175, "units": "4 Chosen, 2 Death Guard Rhinos, Daemonic Pact", "upgrades": [30]},
-            {"id": 532, "name": "Death Guard Terminators", "pts": 400, "units": "4 Blightlord Terminators, Daemonic Pact", "upgrades": [26,27,30,32]},
-            {"id": 533, "name": "Armored Company", "pts": 200, "upgrades": [28]}
+            {"id": 533, "name": "Armored Company", "pts": 200, "upgrades": [28]},
+            {"id": 532, "name": "Death Guard Terminators", "pts": 400, "units": "4 Blightlord Terminators, Daemonic Pact", "upgrades": [26,27,30,32]}
+
        ]},
 
       {"name": "DEATH GUARD SUPPORT FORMATIONS <br/> Max 3 for each Death Guard Retinue", "formations": [
-            {"id": 534, "name": "Chaos Space Marines", "pts": 250, "units": "6 Chaos Space Marines, 3 Death Guard Rhinos, Daemonic Pact", "upgrades": [30]},
-            {"id": 540, "name": "Plague Reapers", "pts": 50, "upgrades": [29]},
-            {"id": 541, "name": "Contagion Engines", "pts": 325, "units": "4 Contagion Engines", "upgrades": []},
+          {"id": 540, "name": "Plague Reapers", "pts": 50, "upgrades": [29]},
+            {"id": 534, "name": "Chaos Space Marines", "pts": 275, "units": "6 Chaos Space Marines, 3 Death Guard Rhinos, Daemonic Pact", "upgrades": [30]},
+            {"id": 544, "name": "Nurgle Defilers", "pts": 250, "units": "4 Desecrators", "upgrades": []},
             {"id": 542, "name": "Blight Drones", "pts": 250, "units": "7 Greater Blight Drones", "upgrades": []},
-            {"id": 543, "name": "Plague Tower", "pts": 325, "upgrades": []},
-            {"id": 544, "name": "Nurgle Defilers", "pts": 250, "units": "4 Desecrators", "upgrades": []}
+            {"id": 541, "name": "Contagion Engines", "pts": 325, "units": "4 Contagion Engines", "upgrades": []},
+            {"id": 543, "name": "Plague Tower", "pts": 325, "upgrades": []}
        ]},
 
       {"name": "ZOMBIES, SPACESHIPS, AIRCRAFT &amp; TITANS <br/> Max 33%", "formations": [

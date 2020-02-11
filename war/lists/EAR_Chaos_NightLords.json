@@ -9,7 +9,7 @@
 			{"id":500, "name":"Daemon Pool", "pts":0, "upgrades":[72,73]}
 		]},
 		{"name":"NIGHT LORDS CORE FORMATIONS", "formations":[
-			{"id":501, "name":"Night Raptor Company",	"pts":40,  "upgrades":[20,15]}
+			{"id":501, "name":"Night Raptor Company",	"pts":45,  "upgrades":[20,15]}
 		]},
 		{"name":"NIGHT LORDS ELITE FORMATIONS <br/> Max 1 for each Core formation", "formations":[
 			{"id":510, "name":"Terminator Company", "pts":275, "units":"4 Atramentar Terminators", "upgrades":[15,24,42,46]},
@@ -34,10 +34,11 @@
 		{"id":9, "name":"Night Lords Sergeant", 		"pts":0},
 		{"id":10, "name":"Night Lords Captain", 		"pts":50},
 		{"id":11, "name":"Night Lords First Captain", 		"pts":100},
+		{"id":12, "name":"Night Lords Daemon Prince (replaces the Night Lords Captain and its unit)", 		"pts":150},
 
 		{"id":15, "name":"Icon Bearer", 		"pts":25},
 
-		{"id":20, "name":"Night Raptors", 	"pts":35},
+		{"id":20, "name":"Raptors", 	"pts":30},
 
 		{"id":22, "name":"3 Chaos Rhinos", 	"pts":0},
 		{"id":23, "name":"3 Chaos Land Raiders", 	"pts":125},
@@ -68,7 +69,7 @@
 		{"maxPercent": 33.5, "name":"Night Lords Navy", "from":[530,531,532,533,534,535]}
 	],
 	"upgradeConstraints":[
-		{"max":1, "perArmy":true, "from":[11]},
+		{"max":1, "perArmy":true, "from":[11,12]},
 
 		{"min":0, "max":1, "from":[15]},
 
@@ -80,8 +81,7 @@
 		{"min":0, "max":6, "from":[46], "appliesTo":[510]},
 		{"min":0, "max":8, "from":[46], "appliesTo":[520]},
 
-		{"min":1, "max":1, "from":[10,11], "appliesTo":[501,510,520,521,522]},
-		{"min":1, "max":1, "from":[9,10], "appliesTo":[]},
+		{"min":1, "max":1, "from":[10,11,12], "appliesTo":[501,510,520,521,522]},
 
 		{"min":6, "max":8, "from":[20], "appliesTo":[501]},
 

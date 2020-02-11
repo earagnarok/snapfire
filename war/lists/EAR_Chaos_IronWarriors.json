@@ -6,18 +6,18 @@
 		{"name":"IRON WARRIORS CORE FORMATIONS", "formations":[
 			{"id":500, "name":"Iron Warriors Retinue", "pts":225, "upgrades":[32,39,40,41,42,43,44,52,53,54,55,80]},
 			{"id":501, "name":"Iron Warriors Armoured Company", "pts":250, "upgrades":[44] },
-			{"id":502, "name":"Havocs",	"pts":300, "units":"4 Havocs, 2 Chaos Land Raiders", "upgrades":[43,44]}
+			{"id":502, "name":"Havocs",	"pts":300, "units":"4 Iron Warriors Havocs, 2 Chaos Land Raiders", "upgrades":[43,44]}
 		]},
 		{"name":"IRON WARRIORS ELITE FORMATIONS <br/> Max 1 for each Core formation", "formations":[
 			{"id":524, "name":"Dreadnought Assault Pack", "pts":250, "upgrades":[54,55,80]},
-			{"id":513, "name":"Tyrant Terminators", "pts":275, "units":"4 Tyrant Terminators",  "upgrades":[46,52,53,54,55,80]},
+			{"id":513, "name":"Siege Terminators", "pts":275, "units":"4 Tyrant Siege Terminators",  "upgrades":[46,52,53,54,55,80]},
 			{"id":512, "name":"Chosen", "pts":125, "units":"4 Chosen", "upgrades":[43]}
 		]},
 		{"name":"IRON WARRIORS SIEGE FORMATIONS <br/> Max 1 for each Core formation", "formations":[
 			{"id":523, "name":"Iron Warriors Stormswords", "pts":200, "upgrades":[43,52,53,54,55]},
+			{"id":522, "name":"Bezashk Destroyers",	"pts":250, "units":"4 Bezashk Destroyers", "upgrades":[]},
 			{"id":520, "name":"Iron Warriors Artillery Battery", "pts":250, "upgrades":[] },
-			{"id":521, "name":"Bezashk Medusa Battery",	"pts":250, "units":"4 Bezashk Medusa", "upgrades":[]},
-			{"id":522, "name":"Bezashk Destroyers",	"pts":250, "units":"4 Bezashk Destroyers", "upgrades":[]}
+			{"id":521, "name":"Bezashk Medusa Battery",	"pts":250, "units":"4 Bezashk Medusa", "upgrades":[]}
 		]},
 		{"name":"DARK MECHANICUS, TRAITOR TITAN AND CHAOS NAVY FORMATIONS <br/> Max 33%", "formations":[
 			{"id":530, "name":"Hellfire Battery",	"pts":225, "units":"4 Hellfire Cannons", "upgrades":[]},
@@ -47,7 +47,7 @@
 
 		{"id":30, "name":"6 Chaos Space Marines", 	"pts":0},
 		{"id":31, "name":"6 Iron Warriors Assault Marines, 6 Dreadclaws", 	"pts":50},
-		{"id":32, "name":"2 Havocs", 	"pts":75},
+		{"id":32, "name":"2 Iron Warriors Havocs", 	"pts":75},
 
 		{"id":36, "name":"2 Chaos Land Raiders", 	"pts":100},
 		{"id":37, "name":"2 Chaos Rhinos", 	"pts":25},
