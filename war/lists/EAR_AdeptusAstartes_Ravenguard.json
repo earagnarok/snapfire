@@ -17,7 +17,7 @@
     ]},
     {"name":"RAVEN GUARD SUPPORT DETACHMENTS <br/> Max 1 for each Raven Guard Core Detachment", "formations":[
       {"id":520, "name":"Bikes", "pts":200, "upgrades":[1,2,3,4]},
-      {"id":521, "name":"Land Speeders", "pts":25, "upgrades":[1,2,3,4]},
+      {"id":521, "name":"Land Speeders", "pts":50, "upgrades":[1,2,3,4]},
       {"id":522, "name":"Orbital Support", "pts":200, "upgrades":[]}
     ]},
     {"name":"RAVEN GUARD AIRCRAFT & COLLEGIA TITANICA ALLIES <br/> Max 33%", "formations":[
@@ -34,9 +34,9 @@
     {"id":3, "name":"Chaplain", "pts":50},
     {"id":4, "name":"Librarian", "pts":50},
 
-    {"id":5, "name":"Land Speeder", "pts":35},
-    {"id":6, "name":"Land Speeder Tornado", "pts":35},
-    {"id":7, "name":"Land Speeder Typhoon", "pts":45},
+    {"id":5, "name":"Land Speeder", "pts":30},
+    {"id":6, "name":"Land Speeder Tornado", "pts":30},
+    {"id":7, "name":"Land Speeder Typhoon", "pts":40},
 
     {"id":8, "name":"Hunter", "pts":75},
     {"id":9, "name":"Stalker", "pts":50},
@@ -60,17 +60,17 @@
     {"id":27, "name":"Assault Terminators", "pts":0},
     {"id":28, "name":"Terminators", "pts":0},
 
-    {"id":30, "name":"Land Speeder (Planetfall)", "pts":35},
-    {"id":31, "name":"Land Speeder Tornado (Planetfall)", "pts":35},
-    {"id":32, "name":"Land Speeder Typhoon (Planetfall)", "pts":45},
+    {"id":30, "name":"Land Speeder (Planetfall)", "pts":30},
+    {"id":31, "name":"Land Speeder Tornado (Planetfall)", "pts":30},
+    {"id":32, "name":"Land Speeder Typhoon (Planetfall)", "pts":40},
     {"id":33, "name":"Land Speeder Tempest (Planetfall)", "pts":50},
 
     {"id":34, "name":"Razorback (Twin Heavy Bolters)",						"pts":25},
     {"id":35, "name":"Razorback (Twin Lascannons)",						"pts":25},
 
-    {"id":40, "name":"Land Speeder", "pts":35},
-    {"id":41, "name":"Land Speeder Tornado", "pts":35},
-    {"id":42, "name":"Land Speeder Typhoon", "pts":45},
+    {"id":40, "name":"Land Speeder", "pts":30},
+    {"id":41, "name":"Land Speeder Tornado", "pts":30},
+    {"id":42, "name":"Land Speeder Typhoon", "pts":40},
     {"id":43, "name":"Land Speeder Tempest", "pts":50}
   ],
   "formationConstraints":[
