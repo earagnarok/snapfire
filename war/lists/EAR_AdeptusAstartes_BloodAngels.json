@@ -10,9 +10,9 @@
 			{"id":505, "name":"Assaults", 							"pts":175,  "upgrades":[10,11,12,13,14, 35,36]}
 		]},
 		{"name":"BLOOD ANGELS SUPPORT DETACHMENTS <br/> Max 2 for each Core Detachment", "formations":[
-			{"id":507, "name":"Whirlwinds",						"pts":275,  "upgrades":[10,11,12,13, 31,32]},
+			{"id":507, "name":"Whirlwinds",						"pts":275, "units":"4 Blood Angels Whirlwinds", "upgrades":[10,11,12,13, 31,32]},
 			{"id":508, "name":"Land Raiders",					"pts":25,  "upgrades":[10,11,12,13, 31,32, 48,49]},
-			{"id":509, "name":"Baal Predators",					"pts":250, "upgrades":[10,11,12,13, 31,32]},
+			{"id":509, "name":"Baal Predators",					"pts":275, "units":"2 Baal Predator Hades, 2 Baal Predator Infernus", "upgrades":[10,11,12,13, 31,32]},
 			{"id":510, "name":"Bikes",							"pts":200, "upgrades":[10,11,12,13]},
 			{"id":511, "name":"Devastators",					"pts":250, "units":"4 Devastators plus transport", "upgrades":[10,11,12,13, 31,32, 33,34, 35,36, 40,41,43]},
 			{"id":512, "name":"Blood Angels Terminators",		"pts":50, "upgrades":[10,11,12,13, 27,28, 33,34, 40,41,43]},
@@ -57,17 +57,17 @@
 		{"id":27, "name":"Terminators",									"pts":75},
 		{"id":28, "name":"Assault Terminators",							"pts":75},
 
-		{"id":29, "name":"Razorback (Twin Lascannons)", 				"pts":25},
-		{"id":30, "name":"Razorback (Twin Heavy Bolters)", 			"pts":25},
+		{"id":29, "name":"Blood Angels Razorback (Twin Lascannons)", 				"pts":25},
+		{"id":30, "name":"Blood Angels Razorback (Twin Heavy Bolters)", 			"pts":25},
 
-		{"id":31, "name":"Hunter", 										"pts":75},
-		{"id":32, "name":"Stalker", 									"pts":50},
+		{"id":31, "name":"Blood Angels Hunter", 										"pts":75},
+		{"id":32, "name":"Blood Angels Stalker", 									"pts":50},
 
 		{"id":33, "name":"Land Raider", 								"pts":50},
 		{"id":34, "name":"Land Raider Redeemer",						"pts":50},
 
-		{"id":35, "name":"Baal Predator Hades",							"pts":50},
-		{"id":36, "name":"Baal Predator Infernus",						"pts":50},
+		{"id":35, "name":"2 Baal Predator Hades",							"pts":125},
+		{"id":36, "name":"2 Baal Predator Infernus",						"pts":125},
 
 		{"id":40, "name":"Furioso Dreadnought",						"pts":50},
 		{"id":41, "name":"2 Furioso Dreadnoughts",						"pts":75},
@@ -106,8 +106,6 @@
 
 		{"min":5, "max":5, "from":[19,20,21], "appliesTo":[510]},
 
-		{"min":1, "max":1, "from":[22,23], "appliesTo":[509]},
-
 		{"min":5, "max":5, "from":[24,25,26], "appliesTo":[514]},
 
 		{"min":3, "max":4, "from":[27,28], "appliesTo":[512]},
@@ -126,7 +124,7 @@
 		{"min":0, "max":3, "from":[33,34], "appliesTo":[503]},
 		{"min":0, "max":2, "from":[33,34], "appliesTo":[511]},
 
-		{"min":0, "max":2, "from":[35,36], "appliesTo":[501,503,505, 511]},
+		{"min":0, "max":1, "from":[35,36], "appliesTo":[501,503,505, 511]},
 
 		{"min":0, "max":1, "from":[40,41], "appliesTo":[503,511]},
 
