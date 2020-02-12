@@ -6,11 +6,11 @@
 	"sections":[
 		{"name":"IRON HANDS CORE DETACHMENTS", "formations":[
 			{"id":500, "name":"Dreadnought Clan", "pts":300, "upgrades":[24,26,27,28,29,31,38,58,59,32,42,43,44,45]},
-			{"id":501, "name":"Mechanized Clan", "pts":300,	"upgrades":[31,38,58,59,32,33,34,35,42,43,44,45,50,49]}
+			{"id":501, "name":"Mechanized Clan", "pts":300,	"upgrades":[31,38,58,59,32,33,34,35,42,43,44,46,45,50,49]}
 		]},
 		{"name":"IRON HANDS SUPPORT DETACHMENTS <br/> Max 2 per Core Detachment", "formations":[
 			{"id":510, "name":"Dreadnought Talon", "pts":225, "upgrades":[26,27,28,29,30]},
-			{"id":511, "name":"Land Raiders", "pts":25,"upgrades":[31,38,58,59,40,41,50]},
+			{"id":511, "name":"Land Raiders", "pts":25,"upgrades":[31,38,58,59,40,41,39,50]},
 			{"id":512, "name":"Land Speeders", "pts":200, "upgrades":[]},
 			{"id":513, "name":"Predator", "pts":250, "upgrades":[31,38,58,59]},
 			{"id":514, "name":"Scouts", "pts":150, "units":"4 Scouts plus transport", "upgrades":[33,34,35,37]},
@@ -57,13 +57,15 @@
 		{"id":37, "name":"Sniper",					"pts":25},
 		{"id":38, "name":"2 Hunters",				"pts":125},
 
+		{"id":39, "name":"Land Raider Helios (Hyperios)",		"pts":100},
 		{"id":40, "name":"Land Raider",				"pts":75},
-		{"id":41, "name":"Land Raider Helios",		"pts":100},
+		{"id":41, "name":"Land Raider Helios (Whirlwind)",		"pts":100},
 
 		{"id":42, "name":"Land Raider",				"pts":50},
 		{"id":43, "name":"Land Raider Anvilarium",	"pts":50},
-		{"id":44, "name":"Land Raider Helios",		"pts":75},
+		{"id":44, "name":"Land Raider Helios (Hyperios)",		"pts":75},
 		{"id":45, "name":"Land Raider Prometheus",	"pts":75},
+		{"id":46, "name":"Land Raider Helios (Whirlwind)",		"pts":75},
 
 		{"id":49, "name":"Upgrade all Rhinos to Siege Rhinos",		"pts":0},
 		{"id":50, "name":"Vindicator",		"pts":[50,25]},
@@ -128,7 +130,7 @@
 
 		{"max":1, "from":[105]},
 
-		{"min":4, "max":4, "from":[40,41], "appliesTo":[511]},
+		{"min":4, "max":4, "from":[40,41,39], "appliesTo":[511]},
 
 		{"min":5, "max":5, "from":[80,81,82], "appliesTo":[512]},
 

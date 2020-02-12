@@ -5,33 +5,33 @@
 
 	"sections":[
 		{"name":"BLOOD ANGELS CORE DETACHMENTS", "formations":[
-			{"id":500, "name":"1 Death Company", 					"pts":275, "units":"Chaplain",  "upgrades":[]},
-			{"id":503, "name":"Tacticals",							"pts":275, "units":"6 Tacticals plus transport", "upgrades":[10,11,12,13, 31,32, 33,34, 35,36, 40,41,43]},
+			{"id":500, "name":"1 Death Company", 					"pts":250, "units":"Chaplain",  "upgrades":[]},
+			{"id":503, "name":"Tacticals",							"pts":275, "units":"6 Tacticals plus transport", "upgrades":[10,11,12,13, 31,32, 33,34, 35,36, 40]},
 			{"id":505, "name":"Assaults", 							"pts":175,  "upgrades":[10,11,12,13,14, 35,36]}
 		]},
 		{"name":"BLOOD ANGELS SUPPORT DETACHMENTS <br/> Max 2 for each Core Detachment", "formations":[
 			{"id":507, "name":"Whirlwinds",						"pts":275, "units":"4 Blood Angels Whirlwinds", "upgrades":[10,11,12,13, 31,32]},
-			{"id":508, "name":"Land Raiders",					"pts":25,  "upgrades":[10,11,12,13, 31,32, 48,49]},
-			{"id":509, "name":"Baal Predators",					"pts":275, "units":"2 Baal Predator Hades, 2 Baal Predator Infernus", "upgrades":[10,11,12,13, 31,32]},
+			{"id":508, "name":"Land Raiders",					"pts":25,  "upgrades":[10,11,12,13, 31,32]},
+			{"id":509, "name":"Baal Predators",					"pts":250, "upgrades":[10,11,12,13, 31,32]},
 			{"id":510, "name":"Bikes",							"pts":200, "upgrades":[10,11,12,13]},
-			{"id":511, "name":"Devastators",					"pts":250, "units":"4 Devastators plus transport", "upgrades":[10,11,12,13, 31,32, 33,34, 35,36, 40,41,43]},
-			{"id":512, "name":"Blood Angels Terminators",		"pts":50, "upgrades":[10,11,12,13, 27,28, 33,34, 40,41,43]},
+			{"id":511, "name":"Devastators",					"pts":250, "units":"4 Devastators plus transport", "upgrades":[10,11,12,13, 31,32, 33,34, 35,36, 40]},
+			{"id":512, "name":"Blood Angels Terminators",		"pts":50, "upgrades":[10,11,12,13, 33,34, 40]},
 			{"id":513, "name":"Scouts",							"pts":150, "upgrades":[10,11,12,13, 29,30]},
 			{"id":514, "name":"Land Speeders",					"pts":200, "upgrades":[]},
-			{"id":515, "name":"Landing Craft",					"pts":350,   "upgrades":[]},
 			{"id":523, "name": "Orbital Support",											"pts":0, "upgrades":[]}
 		]},
 
 		{"name":"BLOOD ANGELS AIRCRAFT AND TITAN ALLIES <br/> Max 33%", "formations":[
 			{"id":520, "name": "Storm Talons", "units":"2 Storm Talons",	"pts":200, "upgrades":[]},
 			{"id":521, "name": "Storm Ravens",										"pts":25, "upgrades":[42]},
+			{"id":515, "name":"Landing Craft",					"pts":350,   "upgrades":[]},
 			{"id":522, "name": "Warhound Pack",		"units":"2 Warhounds",	"pts":500, "upgrades":[60]}
 
 		]}
 	],
 	"upgrades":[
 		{"id":1, "name":"4 Death Company Marines, two Death Company Rhinos",				"pts":0},
-		{"id":2, "name":"4 Death Company Assaults", 										"pts":0},
+		{"id":2, "name":"4 Death Company Assaults", 										"pts":50},
 		{"id":3, "name":"4 Death Company Marines, Death Company Dreadnought, Drop Pods", 	"pts":100},
 
 		{"id":10, "name":"Captain",		"pts":50},
@@ -43,12 +43,12 @@
 		{"id":15, "name":"4 Scouts plus transport",								"pts":0},
 		{"id":17, "name":"4 Scouts with 'Sniper' plus transport",				"pts":25},
 
-		{"id":19, "name":"Assault Bike",						"pts":0},
+		{"id":19, "name":"Assault Bikes",						"pts":0},
 		{"id":20, "name":"Melta Bike",							"pts":0},
 		{"id":21, "name":"Attack Bike", 						"pts":0},
 
-		{"id":22, "name":"4 Baal Predator Hades",						"pts":0},
-		{"id":23, "name":"4 Baal Predator Infernus",					"pts":0},
+		{"id":22, "name":"Baal Predator Hades",						"pts":0},
+		{"id":23, "name":"Baal Predator Infernus",					"pts":0},
 
 		{"id":24, "name":"Land Speeder",								"pts":0},
 		{"id":25, "name":"Land Speeder Tornado",						"pts":0},
@@ -66,12 +66,10 @@
 		{"id":33, "name":"Land Raider", 								"pts":50},
 		{"id":34, "name":"Land Raider Redeemer",						"pts":50},
 
-		{"id":35, "name":"2 Baal Predator Hades",							"pts":125},
-		{"id":36, "name":"2 Baal Predator Infernus",						"pts":125},
+		{"id":35, "name":"2 Baal Predator Hades",							"pts":100},
+		{"id":36, "name":"2 Baal Predator Infernus",						"pts":100},
 
-		{"id":40, "name":"Furioso Dreadnought",						"pts":50},
-		{"id":41, "name":"2 Furioso Dreadnoughts",						"pts":75},
-		{"id":43, "name":"3 Furioso Dreadnoughts",						"pts":100},
+		{"id":40, "name":"Furioso Dreadnought",						"pts":[50,25,25]},
 
 		{"id":42, "name":"Storm Raven",									"pts":75},
 
@@ -92,8 +90,8 @@
 		{"max":1,"perArmy":true, "name":"Sanguinary Guard", "from":[501]},
 		{"max":1, "perArmy":true, "name":"Spacecraft", "from":[523]},
 
-		{"max":2, "name":"Support Detachments", "from":[507,508,509,510,511,512,513,514,515,523], "forEach":[500,503,505], "name2":"Core Detachment"},
-		{"maxPercent": 33.5, "name":"Aircraft, Navy & Titans", "from":[520,521,522]}
+		{"max":2, "name":"Support Detachments", "from":[507,508,509,510,511,512,513,514,523], "forEach":[500,503,505], "name2":"Core Detachment"},
+		{"maxPercent": 33.5, "name":"Aircraft, Navy & Titans", "from":[520,521,515,522]}
 	],
 	"upgradeConstraints":[
 		{"max":1,"perArmy":true, "from":[13,14]},
@@ -108,27 +106,27 @@
 
 		{"min":5, "max":5, "from":[24,25,26], "appliesTo":[514]},
 
-		{"min":3, "max":4, "from":[27,28], "appliesTo":[512]},
+		{"min":3, "max":3, "from":[27,28], "appliesTo":[512]},
 
 		{"min":0, "max":4, "from":[29,30], "appliesTo":[513]},
 
 		{"min":0, "max":1, "from":[31,32]},
 
-		{"min":0, "max":1, "from":[40,41,43]},
+		{"min":0, "max":3, "from":[40]},
 
 		{"min":0, "max":1, "from":[44]},
 
 		{"min":0, "max":1, "from":[60]},
 
-		{"min":3, "max":4, "from":[48,49], "appliesTo":[508]},
+		{"min":4, "max":4, "from":[48,49], "appliesTo":[508]},
 		{"min":0, "max":3, "from":[33,34], "appliesTo":[503]},
 		{"min":0, "max":2, "from":[33,34], "appliesTo":[511]},
 
 		{"min":0, "max":1, "from":[35,36], "appliesTo":[501,503,505, 511]},
 
-		{"min":0, "max":1, "from":[40,41], "appliesTo":[503,511]},
-
 		{"min":1, "max":1, "from":[44,45], "appliesTo":[505]},
+
+		{"min":4, "max":4, "from":[22,23], "appliesTo":[509]},
 
 		{"min":2, "max":3, "from":[42], "appliesTo":[521]},
 

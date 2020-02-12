@@ -24,7 +24,7 @@
 
 			{"name":"HELL-FORGE & CHAOS NAVY ALLIES <br/> Max 33%", "formations":[
 			{"id":590, "name":"Hell-Forge Maniple",		"pts":225, "units": "Hellwright, 11 Chaos Squats", "upgrades":[110]},
-			{"id":591, "name":"Ordinatus Hereticus Minoris",		"pts":75, "upgrades":[]},
+			{"id":591, "name":"Ordinatus Hereticus",		"pts":75, "upgrades":[]},
 			{"id":592, "name":"Heldrakes",				"pts":225, "units": "2 Heldrakes", "upgrades":[]},
 			{"id":594, "name":"Harbringer Bomber",				"pts":350, "upgrades":[]},
 			{"id":593, "name":"Despoiler Battleship",				"pts":200, "upgrades":[]}
@@ -123,10 +123,10 @@
 		{"id":99,	"name":"4 Knight-Perfidor of Chaos Undivided",	"pts":50},
 
 
-		{"id":100,	"name":"Ordinatus Hereticus Minoris w/ Turbo Blaster",	"pts":125},
-		{"id":101,	"name":"Ordinatus Hereticus Minoris w/ Doom Burner",	"pts":125},
-		{"id":102,	"name":"Ordinatus Hereticus Minoris w/ Plasma Cremator",	"pts":125},
-		{"id":103,	"name":"Ordinatus Hereticus Minoris w/ Twin Hades Autocannons",	"pts":125},
+		{"id":100,	"name":"Ordinatus Hereticus w/ Turbo Blaster",	"pts":125},
+		{"id":101,	"name":"Ordinatus Hereticus w/ Doom Burner",	"pts":125},
+		{"id":102,	"name":"Ordinatus Hereticus w/ Plasma Cremator",	"pts":125},
+		{"id":103,	"name":"Ordinatus Hereticus w/ Twin Hades Autocannons",	"pts":125},
 
 		{"id":110,	"name":"6 Chaos Rhinos",	"pts":50},
 

@@ -24,7 +24,7 @@
 			{"id":515, "name":"Armigers of Chaos Undivided",	"pts":25, "upgrades":[]}
 		]},
 			{"name":"ORDINATUS SUPPORT & CHAOS NAVY ALLIES <br/> Max 33%", "formations":[
-				{"id":523, "name":"Ordinatus Hereticus Minoris",		"pts":75, "upgrades":[60,61,62,63,65,66,67,68]},
+				{"id":523, "name":"Ordinatus Hereticus",		"pts":75, "upgrades":[60,61,62,63,65,66,67,68]},
 				{"id":524, "name":"Extremis Diabolus",		"pts":425, "upgrades":[]},
 				{"id":536, "name":"Heldrakes",				"pts":225, "units": "2 Heldrakes", "upgrades":[]},
 				{"id":538, "name":"Harbringer Bomber", 	"pts":350, "upgrades":[]},
@@ -50,15 +50,15 @@
 		{"id":54,	"name":"2 Krios Venator",	"pts":125},
 		{"id":55,	"name":"2 Krios Lightning",	"pts":125},
 
-		{"id":60,	"name":"Ordinatus Hereticus Minoris w/ Turbo Blaster",	"pts":125},
-		{"id":61,	"name":"Ordinatus Hereticus Minoris w/ Doom Burner",	"pts":125},
-		{"id":62,	"name":"Ordinatus Hereticus Minoris w/ Plasma Cremator",	"pts":125},
-		{"id":63,	"name":"Ordinatus Hereticus Minoris w/ Twin Hades Autocannons",	"pts":125},
+		{"id":60,	"name":"Ordinatus Hereticus w/ Turbo Blaster",	"pts":125},
+		{"id":61,	"name":"Ordinatus Hereticus w/ Doom Burner",	"pts":125},
+		{"id":62,	"name":"Ordinatus Hereticus w/ Plasma Cremator",	"pts":125},
+		{"id":63,	"name":"Ordinatus Hereticus w/ Twin Hades Autocannons",	"pts":125},
 
-		{"id":65,	"name":"Ordinatus Hereticus Minoris w/ Plasma Incinerator",	"pts":150},
-		{"id":66,	"name":"Ordinatus Hereticus Minoris w/ Chaos Cannon",	"pts":150},
-		{"id":67,	"name":"Ordinatus Hereticus Minoris w/ Cyclone Cannon",	"pts":150},
-		{"id":68,	"name":"Ordinatus Hereticus Minoris w/ 4x Havoc Barrage Missiles",	"pts":150},
+		{"id":65,	"name":"Ordinatus Hereticus w/ Plasma Incinerator",	"pts":150},
+		{"id":66,	"name":"Ordinatus Hereticus w/ Chaos Cannon",	"pts":150},
+		{"id":67,	"name":"Ordinatus Hereticus w/ Cyclone Cannon",	"pts":150},
+		{"id":68,	"name":"Ordinatus Hereticus w/ 4x Havoc Barrage Missiles",	"pts":150},
 
 		{"id":70,	"name":"Ordinatus Retlaxi",	"pts":0},
 		{"id":71,	"name":"Ordinatus Temporia",	"pts":25},

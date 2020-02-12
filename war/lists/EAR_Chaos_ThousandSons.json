@@ -14,14 +14,13 @@
 		]},
 		{"name":"THOUSAND SONS SUPPORT FORMATIONS <br/> Max 3 for each Core formation", "formations":[
 			{"id":505, "name":"Tzaangor Host",	"pts":200, "units":"8 Tzaangors, Daemonic Pact", "upgrades":[]},
+			{"id":506, "name":"Defilers of Tzeentch",	"pts":200, "units":"3 Decievers", "upgrades":[]},
 			{"id":503, "name":"Havocs", "pts":225,  "units": "4 Thousand Sons Havocs, 2 Chaos Rhinos, Daemonic Pact", "upgrades":[15, 30]},
 			{"id":504, "name":"Armoured Company", "pts":0, "upgrades":[]},
 			{"id":507, "name":"Disc Riders", "pts":250, "units": "6 Sorcerer Disc Riders, Daemonic Pact", "upgrades":[15,16] },
 			{"id":508, "name":"Silver Towers of Tzeench",	"pts":300, "units":"4 Silver Towers", "upgrades":[]}
-
 		]},
 		{"name":"DARK MECHANICUS AND THOUSAND SONS NAVY FORMATIONS <br/> Max 33%", "formations":[
-			{"id":506, "name":"Defilers of Tzeentch",	"pts":250, "units":"4 Decievers", "upgrades":[]},
 			{"id":509, "name":"Knights of Tzeentch",	"units":"2 Knight-Despoilers",		"pts":275, "upgrades":[]},
 			{"id":512, "name":"Warphounds", "pts":50,  "upgrades":[80]},
 			{"id":513, "name":"Warp Palace",	"pts":500,  "upgrades":[]},
@@ -60,6 +59,8 @@
 		{"id":41, "name":"Chaos Spawn", "pts":0},
 		{"id":42, "name":"Mutalith Vortex Beast", "pts":75},
 
+		{"id":45, "name":"Deciever", "pts":50},
+
 		{"id":50, "name":"Firelord", "pts":100},
 
 		{"id":71, "name":"Greater Daemon Pool point", "pts":50},
@@ -73,9 +74,10 @@
 	],
 	"formationConstraints":[
 		{"max":1, "name":"Spacecraft", "from":[514]},
-		{"max":3, "name":"Thousand Sons Support Formations", "from":[503,504,507,505,508], "forEach":[501,502], "name2":"Thousand Sons Core Formation"},
+		{"max":1, "name":"Thousand Sons Terminators", "from":[502], "forEach":[501], "name2":"Thousand Sons Retinue"},
+		{"max":3, "name":"Support Formations", "from":[503,504,506,507,505,508], "forEach":[501,502], "name2":"Core Formation"},
 		{"min":1, "max":1, "from":[500]},
-		{"maxPercent": 33.5, "name":"Dark Mechanicus and Thousand Sons Navy", "from":[506,509,510,511,512,513,514]}
+		{"maxPercent": 33.5, "name":"Dark Mechanicus and Thousand Sons Navy", "from":[509,510,511,512,513,514]}
 	],
 	"upgradeConstraints":[
 		{"max":1, "perArmy":true, "from":[12,13,14]},
