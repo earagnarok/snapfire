@@ -7,7 +7,7 @@
 		{"name":"IMPERIAL FISTS CORE DETACHMENTS", "formations":[
 			{"id":501, "name":"Tacticals",					"pts":275, "units":"6 Tacticals plus transport", "upgrades":[10,11,12,13, 15,16, 26,27, 28,29,30, 50,51]},
             {"id":502, "name":"Devastators",				"pts":250, "units":"4 Devastators plus transport", "upgrades":[10,11,12,13, 26,27, 50,51, 55,56,57]},
-            {"id":503, "name":"Land Raiders",		     	"pts":25,  "upgrades":[10,11,12,13, 35,36, 15,16, 26,27]},
+            {"id":503, "name":"Land Raiders",		     	"pts":25,  "upgrades":[10,11,12,13, 15,16, 26,27]},
             {"id":504, "name":"Vindicators",		      	"pts":225, "upgrades":[10,11,12,13, 15,16]}
 		]},
 		{"name":"IMPERIAL FISTS SUPPORT DETACHMENTS <br/> Max 3 for each Core Detachment", "formations":[
