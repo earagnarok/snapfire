@@ -5,18 +5,18 @@
 	"notes":[],
 	"sections":[
 		{"name":"CORE LANCES", "formations":[
-			{"id":500, "name":"Questoris", 		"pts":375, "upgrades":[9,8]}
+			{"id":500, "name":"Questoris", 		"pts":350, "upgrades":[9,8]}
 		]},
 		{"name":"SUPPORT LANCES <br/> Max 1 per Core Lance", "formations":[
-			{"id":501, "name":"Cerastus",	"pts":325,  "upgrades":[9,8]},
-			{"id":506, "name":"Dominus",	"pts":450,  "upgrades":[]}
+			{"id":501, "name":"Cerastus",	"pts":300,  "upgrades":[9,8]},
+			{"id":506, "name":"Dominus",	"pts":400,  "upgrades":[]}
 		]},
 		{"name":"RECON LANCES <br/> Max 1 per Core or Support Lance", "formations":[
 			{"id":502, "name":"Arminger",			"pts":175, "upgrades":[]}
 		]},
 		{"name":"RELIC LANCES <br/> Max 1 Relic Lance for each 1500 points in the army", "formations":[
-			{"id":503, "name":"Questoris Reliquae",	"pts":450,  "upgrades":[]},
-			{"id":504, "name":"Acastus Reliquae",	"pts":500,  "upgrades":[]},
+			{"id":503, "name":"Questoris Reliquae",	"pts":400,  "upgrades":[]},
+			{"id":504, "name":"Acastus Reliquae",	"pts":450,  "upgrades":[]},
 			{"id":505, "name":"Cerastus Reliquae",	"pts":200, "units":"Seneschal, Cerastus Knight-Atrapos",  "upgrades":[]}
 		]},
 		{"name":"FORGE WORLD & COLLEGIA TITANICA ALLIES <br/> Max 33%", "formations":[

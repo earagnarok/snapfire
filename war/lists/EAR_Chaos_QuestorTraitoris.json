@@ -9,12 +9,12 @@
 			{"id":525, "name":"Chrono-Gladiators",		"pts":200, "units":"6 Chrono-Gladiators", "upgrades":[]}
 		]},
 		{"name":"DAEMONIC LANCE FORMATIONS <br/> Max 2 for each Hell-Forge Core formation <br/> Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
-			{"id":500, "name":"Hell-Knights of Slaanesh",			"pts":350,  "units": "3 Hell-Knights", "upgrades":[]},
-			{"id":501, "name":"Hell-Scourges of Slaanesh",			"pts":350,  "units": "3 Hell-Scourges","upgrades":[]},
-			{"id":502, "name":"Knights of Nurgle",			"pts":25, "upgrades":[82]},
-			{"id":503, "name":"Knights of Khorne",			"pts":25, "upgrades":[83]},
-			{"id":504, "name":"Knights of Tzeentch",			"pts":25, "upgrades":[84]},
-			{"id":505, "name":"Knights of Chaos Undivided",			"pts":25, "upgrades":[85]}
+			{"id":500, "name":"Hell-Knights of Slaanesh",			"pts":50,  "upgrades":[80]},
+			{"id":501, "name":"Hell-Scourges of Slaanesh",			"pts":50,  "upgrades":[81]},
+			{"id":502, "name":"Knights of Nurgle",			"pts":50, "upgrades":[82]},
+			{"id":503, "name":"Knights of Khorne",			"pts":50, "upgrades":[83]},
+			{"id":504, "name":"Knights of Tzeentch",			"pts":50, "upgrades":[84]},
+			{"id":505, "name":"Knights of Chaos Undivided",			"pts":50, "upgrades":[85]}
 		]},
 		{"name":"DAEMONIC PACK FORMATIONS <br/> Max 1 for each Daemonic Lance formation <br/> Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
 			{"id":510, "name":"Hell-Striders of Slaanesh",		"pts":25,  "upgrades":[92]},
@@ -65,10 +65,12 @@
 		{"id":72,	"name":"Ordinatus Cyclothrathe",	"pts":50},
 		{"id":73,	"name":"The Kaban Machine",	"pts":125},
 
-		{"id":82,	"name":"Knight-Desecrator of Nurgle",	"pts":125},
-		{"id":83,	"name":"Knight-Rampager of Khorne",	"pts":125},
-		{"id":84,	"name":"Knight-Despoiler of Tzeentch",	"pts":125},
-		{"id":85,	"name":"Knight-Renegade of Chaos Undivided",	"pts":125},
+		{"id":80,	"name":"Hell-Knight of Slaanesh",	"pts":100},
+		{"id":81,	"name":"Hell-Scourge of Slaanesh",	"pts":100},
+		{"id":82,	"name":"Knight-Desecrator of Nurgle",	"pts":100},
+		{"id":83,	"name":"Knight-Rampager of Khorne",	"pts":100},
+		{"id":84,	"name":"Knight-Despoiler of Tzeentch",	"pts":100},
+		{"id":85,	"name":"Knight-Renegade of Chaos Undivided",	"pts":100},
 
 		{"id":90,	"name":"4 Knight-Doomglaives of Chaos Undivided",	"pts":200},
 		{"id":91,	"name":"4 Knight-Perfidor of Chaos Undivided",	"pts":200},
@@ -109,6 +111,8 @@
 
       {"min": 1, "max": 1, "from": [10,11], "appliesTo": [520]},
 
+	  {"min": 2, "max": 3, "from": [80], "appliesTo": [500]},
+      {"min": 2, "max": 3, "from": [81], "appliesTo": [501]},
       {"min": 2, "max": 3, "from": [82], "appliesTo": [502]},
       {"min": 2, "max": 3, "from": [83], "appliesTo": [503]},
       {"min": 2, "max": 3, "from": [84], "appliesTo": [504]},
