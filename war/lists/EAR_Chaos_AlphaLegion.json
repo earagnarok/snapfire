@@ -24,8 +24,9 @@
 			{ "id":523, "name":"Lernaean Terminators", "pts":250,"units":"3 Lernaean Terminators plus transport", "upgrades":[30,32,12] }
 		]},
 			{"name":"ALPHA LEGION NAVY <br/> Max 25%", "formations": [
-			{ "id":550, "name":"Xiphon Squadron", "pts":200, "units":"2 Xiphon Interceptors", "upgrades":[] },
 			{ "id":551, "name":"Alpha Legion Storm Eagle", "pts":175, "upgrades":[] },
+			{ "id":552, "name":"Alpha Legion Fire Raptor", "pts":175, "upgrades":[] },
+			{ "id":550, "name":"Xiphon Squadron", "pts":225, "units":"2 Alpha Legion Xiphon Interceptors", "upgrades":[] },
 			{ "id":553, "name":"Chaos Strike Cruiser", "pts":200, "upgrades":[] }
 		]}
 	],
@@ -70,7 +71,7 @@
 		{"max":1, "name":"Alpha Legion Marines", "from":[501], "forEach":[500], "name2":"Cultist Coven"},
 		{"max":1, "name":"Alpha Legion Elite formations", "from":[520,521,522,523], "forEach":[501], "name2":"Alpha Legion Marines formation"},
 		{"max":1, "name":"Cultist Support Formation", "from":[532,533,534,535], "forEach":[500], "name2":"Cultist Coven"},
-		{"maxPercent": 25.5, "name":"Alpha Legion Navy Detachments", "from":[550,551,553]}
+		{"maxPercent": 25.5, "name":"Alpha Legion Navy Detachments", "from":[550,551,552,553]}
 	],
 	"upgradeConstraints":[
 		{"max":1, "perArmy":true, "from":[12,14,39], "name":"Supreme Commander"},

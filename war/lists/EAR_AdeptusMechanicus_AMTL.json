@@ -18,16 +18,17 @@
 
 {"name":"SUPPORT FORMATIONS <br/> Max 3 for each Battle Titan formation",
 "formations":[
-	    {"id":510,"name":"Warhound Pack","pts":500, "upgrades":[13]},
+	    {"id":510,"name":"Warhounds","pts":0, "upgrades":[]},
 		{"id":520,"name":"Questoris Banner","pts":250, "upgrades":[]}
 ]},
 
-{"name":"ADEPTUS MECHANICUS ALLIES <br/> Max 33% <br/> Max 1 Lysander Fighter for each Warmonger Titan or Anvilus Carapace Landing Pad",
+{"name":"ADEPTUS MECHANICUS ALLIES <br/> Max 33% <br/> Max 1 Lysander Fighter for each Warmonger Titan <br/> or Anvilus Carapace Landing Pad",
 "formations":[
         {"id":530,"name":"Skitarii Maniple","pts":225,"units":"Magos, 9 Hypaspists","upgrades":[15]},
 		{"id":531,"name":"Kastelan Maniple","pts":50,"units":"Tech-Priest", "upgrades":[14]},
+        {"id":536, "name":"Castellax Maniple",		"pts":175, "units":"4 Castellax Battle-Automata, Tech-Priest", "upgrades":[]},
 		{"id":532,"name":"Avenger Squadron","pts":175,"units":"2 Avenger Strike Fighters","upgrades":[]},
-        {"id":533,"name":"Lysander Fighter","pts":75 ,"upgrades":[]},
+        {"id":533,"name":"Lysander Fighter","pts":100 ,"upgrades":[]},
 		{"id":534,"name":"Ark Mechanicus Battleship","pts":200,"upgrades":[]},
         {"id":535,"name":"Minoris","pts":75, "upgrades":[130,131,132,133]}
 ]}
@@ -103,9 +104,13 @@
 		{"id":132, "name":"Ordinatus Minoris (Turbo-Laser Destructor)",		"pts":125},
 		{"id":133, "name":"Ordinatus Minoris (Apocalypse Missile Launcher)",	"pts":125},
 
-		{"id":150, "name":"2 Warhound Titans (Standard Configuration)",		"pts":0},
-		{"id":151, "name":"2 Warhound Titans (Support Configuration)",		"pts":0},
-		{"id":152, "name":"2 Warhound Titans (Tank Hunter Configuration)",		"pts":50}
+		{"id":150, "name":"Warhound Titan (Standard Configuration)",		"pts":275},
+		{"id":151, "name":"Warhound Titan (Support Configuration)",		"pts":275},
+		{"id":152, "name":"Warhound Titan (Tank Hunter Configuration)",		"pts":300},
+
+        {"id":153, "name":"2 Warhound Titans (Standard Configuration)",		"pts":500},
+		{"id":154, "name":"2 Warhound Titans (Support Configuration)",		"pts":500},
+		{"id":155, "name":"2 Warhound Titans (Tank Hunter Configuration)",		"pts":550}
 
 ],
 "formationConstraints":[
@@ -117,8 +122,9 @@
 "upgradeConstraints":[
         {"max":1, "perArmy":true, "from":[10]},
         {"min":1,"max":1,"from":[11,10],"appliesTo":[500,501,502]},
-        {"max":1,"from":[13],"appliesTo":[510]},
-        {"min":1,"max":1,"from":[150,151,152],"appliesTo":[510]},
+        {"min":1,"max":1,"from":[150,151,152,153,154,155],"appliesTo":[510]},
+
+        {"max":1,"from":[11],"appliesTo":[503,504]},
 
         {"max":1,"from":[15],"appliesTo":[530]},
 
@@ -137,7 +143,7 @@
         {"max":1,"from":[83],"appliesTo":[503]},
         {"max":1,"from":[84],"appliesTo":[503]},
         {"max":1,"from":[85],"appliesTo":[503]},
-        {"max":1,"from":[85],"appliesTo":[506]},
+        {"max":1,"from":[86],"appliesTo":[503]},
 
         {"min":1,"max":1,"from":[90,91,93,94],"appliesTo":[504]},
         {"min":2,"max":2,"from":[95,96,97,98,99],"appliesTo":[504]},

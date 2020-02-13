@@ -22,12 +22,12 @@
 			{"id":522, "name":"Support Company", "pts":250,  "units":"6 Chaos Space Marines", "upgrades":[15,44]},
 			{"id":521, "name":"Attack Company",	"pts":250, "units":"6 Chaos Attack Bikes", "upgrades":[15,44]}
 		]},
-		{"name":"NIGHT LORDS NAVY <br/> Max 33%", "formations":[
-			{"id":530, "name":"Hell Blades",	"pts":200, "units":"3 Hell Blade Fighters", "upgrades":[]},
-			{"id":531, "name":"Hell Talons",	"pts":225, "units":"2 Hell Talon Fighter-Bombers", "upgrades":[]},
-			{ "id":533, "name":"Night Lords Thunderhawk", "pts":225, "upgrades":[] },
-			{"id":535, "name":"Devastation Class Cruiser",	"pts":150, "upgrades":[]}
-
+		{"name":"NIGHT LORDS STATIC DEFENSES & NAVY <br/> Max 33%", "formations":[
+			{"id":529, "name":"Tarantula",	"pts":100, "units":"4 Chaos Tarantulas", "upgrades":[]},
+			{"id":531, "name":"Chaos Fire Raptor",	"pts":175,  "upgrades":[]},
+			{"id":530, "name":"Xiphon Squadron",	"pts":225, "units":"2 Chaos Xiphon Interceptors", "upgrades":[]},
+			{"id":533, "name":"Chaos Thunderhawk", "pts":225, "upgrades":[] },
+			{"id":535, "name":"Chaos Strike Cruiser",	"pts":200, "upgrades":[]}
 		]}
 	],
 	"upgrades":[
@@ -65,8 +65,9 @@
 		{"max":1, "name":"Spacecraft", "from":[535]},
 		{"max":1, "name":"Night Lords Elite Formation", "from":[510,511,512], "forEach":[501,502], "name2":"Night Lords Core Formation"},
 		{"max":2, "name":"Night Lords Support Formations", "from":[519,520,521,522], "forEach":[501,502], "name2":"Night Lords Core Formation"},
+		{"max":1, "name":"Tarantula formation", "from":[529], "forEach":[511], "name2":"Chosen formation"},
 		{"min":1, "max":1, "from":[500]},
-		{"maxPercent": 33.5, "name":"Night Lords Navy", "from":[530,531,532,533,534,535]}
+		{"maxPercent": 33.5, "name":"Night Lords Static Defenses & Navy", "from":[529,530,531,532,533,534,535]}
 	],
 	"upgradeConstraints":[
 		{"max":1, "perArmy":true, "from":[11,12]},
@@ -85,7 +86,7 @@
 
 		{"min":6, "max":8, "from":[20], "appliesTo":[501]},
 
-		{"min":1, "max":1, "from":[25,26,42], "appliesTo":[511]},
+		{"min":1, "max":1, "from":[25,42], "appliesTo":[511]},
 
 		{"min":1, "max":1, "from":[32,33], "appliesTo":[520]},
 
