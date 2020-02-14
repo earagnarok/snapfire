@@ -25,8 +25,8 @@
 		]},
 			{"name":"ALPHA LEGION NAVY <br/> Max 25%", "formations": [
 			{ "id":551, "name":"Alpha Legion Storm Eagle", "pts":175, "upgrades":[] },
-			{ "id":552, "name":"Alpha Legion Fire Raptor", "pts":175, "upgrades":[] },
-			{ "id":550, "name":"Xiphon Squadron", "pts":225, "units":"2 Alpha Legion Xiphon Interceptors", "upgrades":[] },
+			{ "id":552, "name":"Chaos Fire Raptor", "pts":175, "upgrades":[] },
+			{ "id":550, "name":"Xiphon Squadron", "pts":225, "units":"2 Chaos Xiphon Interceptors", "upgrades":[] },
 			{ "id":553, "name":"Chaos Strike Cruiser", "pts":200, "upgrades":[] }
 		]}
 	],
