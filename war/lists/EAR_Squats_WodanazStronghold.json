@@ -8,7 +8,7 @@
 			{"id":501, "name":"Squat Brotherhood",	"pts":200,  "upgrades":[133,140,141,142,143,144,145,100,101]},
 			{"id":509, "name":"Berserker Brotherhood",	"pts":200, "units":"Squat Hearthguards, 7 Squat Berserkers", "upgrades":[]}
 		]},
-		{"name":"WODANAZ STRONGHOLD SUPPORT <br/> Max 3 for each Brotherhood", "formations":[
+		{"name":"WODANAZ STRONGHOLD SUPPORT <br/> Max 2 for each Brotherhood", "formations":[
 			{"id":517, "name":"Thunderfire Battery",		"pts":150,  "units":"3 Squat Thunderfires",  "upgrades":[117]},
 			{"id":514, "name":"Sentry Battery",					"pts":150, "upgrades":[]},
 			{"id":510, "name":"Bikers",			"pts":175, "upgrades":[116]},
@@ -75,7 +75,7 @@
 
 		],
 	"formationConstraints":[
-		{"max":3, "name":"Wodanaz Stronghold Support Formations", "from":[510,511,513,514,515,516,517], "forEach":[501,509], "name2":"Brotherhood"},
+		{"max":2, "name":"Wodanaz Stronghold Support Formations", "from":[510,511,513,514,515,516,517], "forEach":[501,509], "name2":"Brotherhood"},
 		{"maxPercent":33.5, "name":"Wodanaz Stronghold War Engines", "from":[512,520,521,522,523,524,525,526]}
 	],
 	"upgradeConstraints":[

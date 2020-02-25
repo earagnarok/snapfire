@@ -19,7 +19,7 @@
 
 		{"name":"DAEMON ENGINE FORMATIONS <br/> Max 3 per Battle Titan formation <br/> Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
 			{"id":550, "name":"Chaos Knight",			"pts":25, "units": "Daemonic Locus", "upgrades":[]},
-			{"id":551, "name":"Defilers",				"pts":175,  "upgrades":[]}
+			{"id":551, "name":"Defilers",				"pts":200, "units": "Daemonic Pact", "upgrades":[]}
 		]},
 
 			{"name":"HELL-FORGE & CHAOS NAVY ALLIES <br/> Max 33%", "formations":[
@@ -39,7 +39,7 @@
 	],
 	"upgrades":[
 		{"id":9,	"name":"Daemonic Locus",	"pts":25},
-		{"id":10,	"name":"Eye of the Gods",	"pts":75},
+		{"id":10,	"name":"Eye of the Gods",	"pts":100},
 		{"id":11,	"name":"Daemonic Herald",	"pts":50},
 
 		{"id":20,	"name":"Vicebringer Titan of Slaanesh",	"pts":0},
@@ -131,7 +131,7 @@
 		{"id":110,	"name":"6 Chaos Rhinos",	"pts":50},
 
 		{"id":450,	"name":"Lesser Daemon Pool Point",	"pts":15},
-		{"id":451,	"name":"Lesser Daemon Pool Point (3 for each Eye of the Gods and Daemonic Herald. 1 for each Daemonic Locus)",	"pts":0}
+		{"id":451,	"name":"Lesser Daemon Pool Point (1 for each Daemonic Pact. 2 extra for each Eye of the Gods, 1 extra for each Daemonic Herald",	"pts":0}
 
 
 

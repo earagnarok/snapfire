@@ -1,6 +1,6 @@
 {
 	"id":"EA-R Catachan Jungle Fighters",
-	"version":"0.7.1",
+	"version":"0.7.2",
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"CATACHAN CORE COMPANY FORMATIONS", "formations":[
@@ -20,8 +20,8 @@
 		]},
 		{"name":"IMPERIAL NAVY SUPPORT <br/> Max 25%", "formations":[
 			{"id":520, "name":"Thunderbolt Squadron", "pts":150, "upgrades":[], "units":"2 Thunderbolt Fighters"},
-			{"id":521, "name":"Marauder Bomber Squadron", "pts":225, "upgrades":[], "units":"2 Marauder Colossus"},
-			{"id":522, "name":"Orbital Support",	"pts":125, "upgrades":[]}
+			{"id":523, "name":"Marauder Squadron", "pts":225, "upgrades":[]},
+			{"id":522, "name":"Orbital Support",	"pts":150, "upgrades":[]}
 		]}
 	],
 	"upgrades":[
@@ -60,7 +60,7 @@
 		{"max":1, "from":[516]},
 		{"max":1, "from":[522]},
 		{"max":2, "name":"Support Formations", "from":[510,511,512,514,515,516,517,518,519], "forEach":[500,501], "name2":"Core Company"},
-		{"maxPercent": 25.5, "name":"Imperial Navy Formations", "from":[520,521,522]}
+		{"maxPercent": 25.5, "name":"Imperial Navy Formations", "from":[520,521,522,523]}
 	],
 	"upgradeConstraints":[
 		{"max":2, "from":[16]},
