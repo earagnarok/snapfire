@@ -24,7 +24,7 @@
 	        {"id": 521, "name": "Redemption", "pts": 200, "units": "Ministorum Priest, 8 Redemptionists, 4 Ordo Hereticus Land Transporters", "upgrades": []}
          ]},
         {"name": "IMPERIAL NAVY <br/> Max 25%", "formations": [
-            {"id": 532, "name": "Lightning Squadron", "pts": 150, "units": "2 Lightning Interceptor", "upgrades": [] },
+            {"id": 532, "name": "Lightning Squadron", "pts": 150, "units": "2 Lightning Interceptors", "upgrades": [] },
             {"id": 533, "name": "Marauder Destroyer", "pts": 175, "upgrades": [] },
 	        {"id": 534, "name": "Orbital Support", "pts": 150, "units": "Lunar Class Cruiser", "upgrades": [] }
          ]}
