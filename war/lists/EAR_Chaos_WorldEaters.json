@@ -22,7 +22,7 @@
             {"id": 534, "name": "Destroyers", "pts": 225, "units": "4 Chaos Destroyers, Daemonic Pact", "upgrades": []},
             {"id": 536, "name": "Chaos Space Marines", "pts": 275, "units": "6 Chaos Space Marines, 3 Chaos Rhinos, Daemonic Pact",  "upgrades": [30]},
             {"id": 541, "name": "Slaughterfiends", "pts": 25, "upgrades": [35]},
-            {"id": 542, "name": "Daemonic Assault Engines", "pts": 325, "units": "6 Daemonic Assault Engines", "upgrades": []},
+            {"id": 542, "name": "Daemonic Assault Engines", "pts": 225, "units": "4 Daemonic Assault Engines", "upgrades": []},
             {"id": 544, "name": "Doomblasters", "pts": 225, "units": "4 Doomblasters", "upgrades": []},
             {"id": 543, "name": "Hellfire Battery", "pts": 225, "units": "4 Hellfire Cannons", "upgrades": []},
             {"id": 545, "name": "Forgefiends", "pts": 200, "units": "2 Forgefiends", "upgrades": []}
@@ -31,7 +31,7 @@
       {"name": "WAR ENGINES AND CHAOS NAVY <br/> Max 33%", "formations": [
             {"id": 551, "name": "Greater Brass Scorpion", "pts": 50, "upgrades": [34]},
             {"id": 552, "name": "Lord of Battles", "pts": 425, "upgrades": []},
-            {"id": 553, "name": "Tower of Skulls", "pts": 550, "units": "Daemonic Pact", "upgrades": []},
+            {"id": 553, "name": "Tower of Skulls", "pts": 600, "units": "Daemonic Pact", "upgrades": []},
             {"id": 554, "name": "Heldrakes", "pts": 225, "units": "2 Heldrakes", "upgrades": []},
             {"id": 557, "name": "Orbital Support", "pts": 150, "upgrades": []}
          ]}

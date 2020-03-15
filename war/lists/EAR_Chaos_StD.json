@@ -1,6 +1,6 @@
 {
 	"id":"EA-R Slaves to Darkness",
-	"version":"0.9.5",
+	"version":"Approved 1.0.0",
 	"notes":
 		["Add one free Lesser Daemon to the Lesser Daemon Pool per Daemonic Pact, Daemonic Icon.", "No more Land Transporters / Chimeras than needed to transport the formation.", "Max 5 different upgrades per formation (Land Transporters & Chimeras counts as a single upgrade)."],
 		"by":"EA Ragnarok",
@@ -30,7 +30,7 @@
 			{"id":515, "name":"Questor of Slaanesh", "pts":275, "upgrades":[]},
 			{"id":517, "name":"Plague Reaper of Nurgle", "pts":225, "upgrades":[]},
 			{"id":516, "name":"Plague Tower of Nurgle", "pts":325, "upgrades":[]},
-			{"id":520, "name":"Daemonic Assault Engines of Khorne",	"pts":325, "units":"6 Daemonic Assault Engines", "upgrades":[]},
+			{"id":520, "name":"Daemonic Assault Engines of Khorne",	"pts":225, "units":"4 Daemonic Assault Engines", "upgrades":[]},
 			{"id":521, "name":"Khorne Lord of Battles", "pts":425, "upgrades":[]},
 			{"id":522, "name":"Silver Towers of Tzeentch",	"pts":300, "units":"4 Silver Towers", "upgrades":[]},
 			{"id":523, "name":"Warp Palace of Tzeentch", "pts":500, "upgrades":[]}

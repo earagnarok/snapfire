@@ -13,7 +13,7 @@
 			{"id":512, "name":"Tauros Recon Squadron", "pts":150, "upgrades":[21], "units":"4 Tauros"},
 			{"id":513, "name":"Mortar Battery", "pts":175, "upgrades":[21], "units":"3 Heavy Mortars"},
 			{"id":514, "name":"Support Sentinels", "pts":175, "upgrades":[12], "units":"4 Support Sentinels"},
-			{"id":518, "name":"Vulture Squadron", "pts":225, "upgrades":[]},
+			{"id":518, "name":"Vulture Squadron", "pts":300, "upgrades":[]},
 			{"id":519, "name":"Elysian Flakk Platoon", "pts":200, "upgrades":[], "units":"2 Elysian Flakk Teams, 2 Vendettas"}
 		]},
 		{"name":"STATIC DEFENSES & IMPERIAL NAVY <br/> Max 33% <br/> Max 1 Tarantula formation for each Tauros Recon Squadron", "formations":[
@@ -26,8 +26,8 @@
 		]}
 	],
 	"upgrades":[
-		{"id":10, "name":"3 Vultures", "pts":0},
-		{"id":11, "name":"4 Vultures", "pts":75},
+		{"id":10, "name":"4 Vultures", "pts":0},
+		{"id":11, "name":"3 Vultures, 2 Vendettas", "pts":25},
 
 		{"id":12, "name":"2 Vendettas", "pts":75},
 
