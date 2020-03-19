@@ -12,11 +12,11 @@
 			{"id":513, "name":"Wraithkind Flotilla", "pts":250, "units":"4 Reapers", "upgrades":[61]}
 		]},
 		{"name":"WRAITHKIND PARTISANS <br/> Max 1 for each Wraithkind Kabal", "formations":[
-			{"id":503, "name":"Wych Cult", "pts":150,  "upgrades":[62]},
+			{"id":503, "name":"Wych Cult", "pts":200,  "upgrades":[62]},
 			{"id":504, "name":"Hellion Murder", "pts":200,  "units":"6 Hellions", "upgrades":[62]},
 			{"id":505, "name":"Reaver Gang", "pts":50, "upgrades":[83]},
 			{"id":507, "name":"Scourge Flight", "pts":250, "units":"6 Scourges", "upgrades":[]},
-			{"id":508, "name":"Vessels of Pain", "pts":50, "upgrades":[20]}
+			{"id":508, "name":"Vessel of Pain", "pts":250, "upgrades":[]}
 		]},
 
 		{"name":"MIDNIGHT SORROW SAEDATHS <br/> Max 1 for each Wraithkind Kabal", "formations":[
@@ -93,7 +93,6 @@
 		{"min":6, "max":8, "name":"Reaver Jet Bikes", "from":[83], "appliesTo":[505]},
 		{"max":4, "from":[62],  "appliesTo":[503]},
 		{"max":2, "from":[62],  "appliesTo":[511,512,504]},
-		{"min":1, "max":2, "from":[20],  "appliesTo":[508]},
 		{"max":1, "from":[73,74]},
 		{"max":2, "from":[61], "appliesTo":[511,512,513]},
 		{"max":1, "from":[55]},

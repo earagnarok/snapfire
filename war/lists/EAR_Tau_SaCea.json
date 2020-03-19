@@ -1,12 +1,12 @@
 {
    "id": "EA-R Tau Sa'cea",
-   "version": "0.9.0",
+   "version": "Approved 1.0.0",
    "by": "EA-Ragnarok",
    "sections": [
       { "name": "SA'CEA CADRES",
          "formations": [
             {"id": 532,"name": "XV8 Crisis Battlesuit Cadre","pts": 250,"upgrades": [35]},
-            {"id": 531,"name": "Fire Warrior Strike Cadre","pts": 225,"upgrades": [62,63,60,35,54,80,81,82,83,84,55]}
+            {"id": 531,"name": "Fire Warrior Strike Cadre","pts": 225,"upgrades": [62,63,64,60,35,54,80,81,82,83,84,55]}
          ]
       },
       {"name": "SA'CEA SUPPORT GROUPS <br/> Max 3 for each Cadre",
@@ -45,7 +45,6 @@
 
       {"id": 31,"name": "8 Fire Warriors","pts": 0},
       {"id": 32,"name": "6 Fire Warriors, 3 Devilfish","pts": 0},
-      {"id": 33,"name": "5 Fire Warriors, Pathfinders, 3 Devilfish","pts": 50},
 
       {"id": 35,"name": "2 Gun Drones","pts": 25},
       {"id": 36,"name": "4 Gun Drones","pts": 50},
@@ -65,8 +64,8 @@
       {"id": 61,"name": "Tetra","pts": 50},
       {"id": 62,"name": "Bonded Team","pts": 25},
       {"id": 63,"name": "3 XV88 Broadside Battlesuits","pts": 125},
+      {"id": 64,"name": "2 Pathfinders, Devilfish","pts": 100},
 
-      {"id": 64,"name": "9 Fire Warriors, Pathfinders, 5 Devilfish","pts": 150},
       {"id": 65,"name": "10 Fire Warriors, 5 Devilfish","pts": 100},
       {"id": 66,"name": "12 Fire Warriors","pts": 75},
 
@@ -106,7 +105,8 @@
        {"max": 1,"min": 1,"from": [16,17,18],"appliesTo": [532]},
       {"max": 1,"min": 1,"from": [50,51],"appliesTo": [532]},
       {"max": 1,"from": [35,36]},
-      {"max": 1,"min": 1,"from": [31,32,33,66,65,64],"appliesTo": [531]},
+      {"max": 1,"from": [64]},
+      {"max": 1,"min": 1,"from": [31,32,66,65],"appliesTo": [531]},
       {"max": 1,"from": [55],"appliesTo": [531,516]},
       {"max": 1,"from": [54],"appliesTo": [531,512,515]},
       {"max": 1,"from": [56,57],"appliesTo": [531]},

@@ -6,7 +6,7 @@
       { "name": "FAL'SHIA CADRES",
          "formations": [
              {"id": 532,"name": "XV8 Crisis Battlesuit Cadre","pts": 250,"upgrades": [35,63]},
-             {"id": 531,"name": "Fire Warrior Radiant Cadre","pts": 225,"upgrades": [62,63,60,35,78,55,71]}
+             {"id": 531,"name": "Fire Warrior Radiant Cadre","pts": 225,"upgrades": [33,62,63,60,35,78,55,71]}
          ]
       },
       {"name": "FAL'SHIA SUPPORT GROUPS <br/> Max 3 for each Cadre",
@@ -42,7 +42,8 @@
 
       {"id": 31,"name": "8 Fire Warrior Radiants","pts": 0},
       {"id": 32,"name": "6 Fire Warrior Radiants, 3 Devilfish","pts": 0},
-      {"id": 33,"name": "5 Fire Warrior Radiants, Pathfinders, 3 Devilfish","pts": 50},
+
+      {"id": 33,"name": "2 Pathfinders, Devilfish","pts": 100},
 
       {"id": 35,"name": "2 Gun Drones","pts": 25},
       {"id": 36,"name": "6 Gun Drones","pts": 0},
@@ -94,6 +95,7 @@
        {"max": 1,"perArmy": true,"from": [51]},
        {"max": 1,"perArmy": true,"from": [60]},
 
+       {"max": 1,"from": [33]},
        {"max": 1,"from": [57]},
        {"max": 1,"from": [58]},
        {"max": 1,"from": [59]},
@@ -106,7 +108,7 @@
        {"max": 1,"min": 1,"from": [16,17,18],"appliesTo": [532]},
       {"max": 1,"min": 1,"from": [50,51],"appliesTo": [532]},
       {"max": 1,"from": [35,36]},
-      {"max": 1,"min": 1,"from": [31,32,33],"appliesTo": [531]},
+      {"max": 1,"min": 1,"from": [31,32],"appliesTo": [531]},
       {"max": 1,"from": [55],"appliesTo": [531,516]},
       {"max": 1,"from": [54],"appliesTo": [531,512,515]},
 
