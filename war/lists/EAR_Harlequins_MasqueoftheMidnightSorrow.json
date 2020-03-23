@@ -7,12 +7,12 @@
 			{"id":561, "name":"Wraithgate", "pts":0, "upgrades":[]}
 		]},
 		{"name":"WRAITHKIND KABALS", "formations":[
-			{"id":511, "name":"Wraithkind Coterie", "pts":225, "upgrades":[57,61,62,70,71]},
-			{"id":512, "name":"Wraithkind Syndicate", "pts":150,	"upgrades":[17,61,62,70,71,17,2]},
+			{"id":511, "name":"Wraithkind Coterie", "pts":225, "upgrades":[57,61,62,69,70,71]},
+			{"id":512, "name":"Wraithkind Syndicate", "pts":200,	"upgrades":[17,61,62,69,70,71,17,2]},
 			{"id":513, "name":"Wraithkind Flotilla", "pts":250, "units":"4 Reapers", "upgrades":[61]}
 		]},
 		{"name":"WRAITHKIND PARTISANS <br/> Max 1 for each Wraithkind Kabal", "formations":[
-			{"id":503, "name":"Wych Cult", "pts":175,  "upgrades":[62]},
+			{"id":503, "name":"Wych Cult", "pts":175,  "upgrades":[62,69]},
 			{"id":504, "name":"Hellion Murder", "pts":175,  "units":"6 Hellions", "upgrades":[62]},
 			{"id":505, "name":"Reaver Gang", "pts":25, "upgrades":[83]},
 			{"id":507, "name":"Scourge Flight", "pts":250, "units":"6 Scourges", "upgrades":[]},
@@ -50,18 +50,19 @@
 		{"id":20, "name":"Vessel of Pain", "pts":200},
 
 		{"id":55, "name":"4 Incubi", "pts":0},
-		{"id":56, "name":"6 Incubi", "pts":50},
-		{"id":57, "name":"2 Warriors", "pts":25},
-		{"id":58, "name":"4 Warriors", "pts":0},
-		{"id":59, "name":"6 Warriors", "pts":25},
+		{"id":56, "name":"6 Incubi", "pts":75},
+		{"id":57, "name":"2 Dark Eldar Warriors", "pts":50},
+		{"id":58, "name":"6 Dark Eldar Warriors", "pts":0},
+		{"id":59, "name":"8 Dark Eldar Warriors", "pts":50},
 		{"id":61, "name":"Ravager", "pts":50},
 		{"id":62, "name":"Warp Beasts", "pts":25},
 
+		{"id":69, "name":"Raider", "pts":0},
 		{"id":70, "name":"Tantalus", "pts":25},
 		{"id":71, "name":"Barge of Pleasure", "pts":125},
 
-		{"id":63, "name":"4 Wyches, 2 Raiders", "pts":0},
-		{"id":64, "name":"6 Wyches, 3 Raiders", "pts":50},
+		{"id":63, "name":"4 Wyches", "pts":0},
+		{"id":64, "name":"6 Wyches", "pts":50},
 
 		{"id":83, "name":"Reaver Jet Bikes", "pts":25}
 
@@ -92,6 +93,7 @@
 		{"min":1, "max":1, "from":[63,64], "appliesTo":[503]},
 		{"min":6, "max":8, "name":"Reaver Jet Bikes", "from":[83], "appliesTo":[505]},
 		{"max":2, "from":[62],  "appliesTo":[503,511,512,504]},
+		{"max":1, "from":[71]},
 		{"max":1, "from":[73,74]},
 		{"max":2, "from":[61], "appliesTo":[511,512,513]},
 		{"max":1, "from":[55]},

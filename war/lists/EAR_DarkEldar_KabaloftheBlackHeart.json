@@ -95,6 +95,7 @@
 		{"min":1, "max":1, "from":[63,64], "appliesTo":[503]},
 		{"min":6, "max":8, "name":"Reaver Jet Bikes", "from":[83], "appliesTo":[505]},
 		{"max":2, "from":[62],  "appliesTo":[503,504]},
+		{"max":1, "from":[72]},
 		{"max":1, "from":[73,74]},
 		{"max":2, "from":[61], "appliesTo":[511,512]},
 		{"max":1, "from":[55]},
