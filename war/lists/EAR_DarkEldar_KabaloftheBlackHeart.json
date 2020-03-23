@@ -27,7 +27,7 @@
 			{"id":527, "name":"Voidraven Cast", "pts":225, "units":"2 Void Raven Interdictors", "upgrades":[]},
 			{"id":523, "name":"Slavebringer Assault Boat", "pts":200, "upgrades":[]},
 			{"id":525, "name":"Executioner Landing Module", "pts":450, "upgrades":[]},
-			{"id":522, "name":"Torture Class Cruiser", "pts":225, "upgrades":[]}
+			{"id":522, "name":"Torture Class Cruiser", "pts":250, "upgrades":[]}
 		]}
 	],
 	"upgrades":[
