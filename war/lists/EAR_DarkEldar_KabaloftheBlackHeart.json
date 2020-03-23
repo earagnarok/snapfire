@@ -2,13 +2,13 @@
 	"id":"EA-R Kabal of the Black Heart",
 	"version":"0.7.5",
 	"by":"EA-Ragnarok",
-	"notes":["Raiders / Venoms may carry Incubi, Warrior, Wych, Haemonculi and Wrack units. No Raider / Venom transport space may be left over after any other transport upgrades have been added to the formation."],
+	"notes":["Raiders / Venoms may carry Incubi, Warrior, Wych, Haemonculi and Wrack units. No Raider / Venom / Barge of Pleasure transport space may be left over."],
 	"sections":[
 		{"name":"DARK ELDAR SPECIALS", "formations":[
 			{"id":530, "name":"Wraithgate", "pts":50, "upgrades":[]}
 		]},
 		{"name":"BLACK HEART KABALS", "formations":[
-			{"id":511, "name":"Black Heart Coterie", "pts":250, "upgrades":[57,61,70,40,41,42,43,72]},
+			{"id":511, "name":"Black Heart Coterie", "pts":225, "upgrades":[57,61,70,40,41,42,43,72]},
 			{"id":512, "name":"Black Heart Syndicate", "pts":200,	"upgrades":[61,70,40,41,42,43,72,17,2]},
 			{"id":513, "name":"Black Heart Flotilla", "pts":25, "upgrades":[61]}
 		]},

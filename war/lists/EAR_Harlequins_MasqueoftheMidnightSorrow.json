@@ -2,6 +2,7 @@
 	"id":"EA-R Kabal of the Wraithkind / Masque of the Midnight Sorrow",
 	"version":"0.6.3",
 	"by":"EA-Ragnarok",
+	"notes":["No Raider / Tantalus / Barge of Pleasure transport space may be left over."],
 	"sections":[
 		{"name":"WRAITHKIND SPECIALS", "formations":[
 			{"id":561, "name":"Wraithgate", "pts":0, "upgrades":[]}
@@ -12,7 +13,7 @@
 			{"id":513, "name":"Wraithkind Flotilla", "pts":250, "units":"4 Reapers", "upgrades":[61]}
 		]},
 		{"name":"WRAITHKIND PARTISANS <br/> Max 1 for each Wraithkind Kabal", "formations":[
-			{"id":503, "name":"Wych Cult", "pts":175,  "upgrades":[62,69]},
+			{"id":503, "name":"Wych Cult", "pts":175,  "upgrades":[62,69,70,71]},
 			{"id":504, "name":"Hellion Murder", "pts":175,  "units":"6 Hellions", "upgrades":[62]},
 			{"id":505, "name":"Reaver Gang", "pts":25, "upgrades":[83]},
 			{"id":507, "name":"Scourge Flight", "pts":250, "units":"6 Scourges", "upgrades":[]},
