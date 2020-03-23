@@ -1,6 +1,6 @@
 {
    "id": "EA-R Death Guard",
-   "version": "0.7.5",
+   "version": "0.7.6",
    "by": "EA-Ragnarok",
    "sections": [
       {"name": "DAEMONS", "formations": [
@@ -13,7 +13,7 @@
        ]},
       {"name": "DEATH ELITE FORMATIONS <br/> Max 1 for each Death Guard Core Formation", "formations": [
             {"id": 531, "name": "Chosen", "pts": 175, "units": "4 Chosen, 2 Death Guard Rhinos, Daemonic Pact", "upgrades": [30]},
-            {"id": 533, "name": "Armored Company", "pts": 200, "upgrades": [28]},
+            {"id": 533, "name": "Armored Company", "pts": 250, "upgrades": [28]},
             {"id": 534, "name": "Chaos Space Marines", "pts": 275, "units": "6 Chaos Space Marines, 3 Death Guard Rhinos, Daemonic Pact", "upgrades": [30]}
        ]},
       {"name": "DEATH GUARD SUPPORT FORMATIONS <br/> Max 3 for each Death Guard Core Formation", "formations": [
@@ -50,16 +50,16 @@
       {"id": 27, "name": "Icon Bearer ", "pts": 25},
       {"id": 28, "name": "Death Guard Stalker ", "pts": 50},
       {"id": 29, "name": "Plague Reaper", "pts": 175},
-      {"id": 30, "name": "3 Death Guard Vindicators", "pts": 100},
+      {"id": 30, "name": "2 Death Guard Vindicators", "pts": 50},
       {"id": 31, "name": "Death Guard Vindicator", "pts": 35},
 
       {"id": 32, "name": "2 Chaos Spartan Assault Tanks", "pts": 150},
       {"id": 33, "name": "4 Death Guard Land Raiders", "pts": 200},
 
-      {"id": 40, "name": "4 Death Guard Vindicators", "pts": 0},
-      {"id": 41, "name": "7 Death Guard Vindicators", "pts": 100},
-      {"id": 42, "name": "4 Death Guard Land Raiders", "pts": 100},
-      {"id": 43, "name": "4 Death Guard Land Raiders, 3 Death Guard Vindicators", "pts": 200},
+      {"id": 40, "name": "5 Death Guard Vindicators", "pts": 0},
+      {"id": 41, "name": "7 Death Guard Vindicators", "pts": 50},
+      {"id": 42, "name": "4 Death Guard Land Raiders", "pts": 50},
+      {"id": 43, "name": "4 Death Guard Land Raiders, 2 Death Guard Vindicators", "pts": 150},
 
 		{"id":71, "name":"Greater Daemon Pool point", "pts":50},
 		{"id":72, "name":"Lesser Daemon Pool point", "pts":15},

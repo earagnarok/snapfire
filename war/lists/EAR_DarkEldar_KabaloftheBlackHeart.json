@@ -15,29 +15,29 @@
 		{"name":"BLACK HEART PARTISANS <br/> Max 2 for each Kabal", "formations":[
 			{"id":501, "name":"Haemonculi Coven", "pts":225, "units":"2 Haemonculi, 4 Wracks", "upgrades":[65,70,40,41,42,72,73,74,19,3]},
 			{"id":502, "name":"Talos Swarm", "pts":225, "upgrades":[]},
-			{"id":503, "name":"Wych Cult", "pts":200,  "upgrades":[62,70,40,41,42,72]},
-			{"id":504, "name":"Hellion Murder", "pts":200, "units":"6 Hellions", "upgrades":[62]},
-			{"id":505, "name":"Reaver Gang", "pts":50, "upgrades":[83]},
+			{"id":503, "name":"Wych Cult", "pts":175,  "upgrades":[62,70,40,41,42,72]},
+			{"id":504, "name":"Hellion Murder", "pts":175, "units":"6 Hellions", "upgrades":[62]},
+			{"id":505, "name":"Reaver Gang", "pts":25, "upgrades":[83]},
 			{"id":506, "name":"Mandrake Throng", "pts":200, "units":"6 Mandrakes", "upgrades":[]},
 			{"id":507, "name":"Scourge Flight", "pts":250, "units":"6 Scourges", "upgrades":[]},
 			{"id":508, "name":"Vessel of Pain", "pts":250, "upgrades":[]}
 		]},
 		{"name":"COMMORRAGH NAVY & WAR ENGINES <br/> Max 33%", "formations":[
-			{"id":522, "name":"Torture Class Cruiser", "pts":300, "upgrades":[]},
+			{"id":526, "name":"Razorwing Cast", "pts":200, "units":"2 Razorwing Fighters", "upgrades":[]},
+			{"id":527, "name":"Voidraven Cast", "pts":225, "units":"2 Void Raven Interdictors", "upgrades":[]},
 			{"id":523, "name":"Slavebringer Assault Boat", "pts":200, "upgrades":[]},
 			{"id":525, "name":"Executioner Landing Module", "pts":450, "upgrades":[]},
-			{"id":526, "name":"Razorwing Cast", "pts":200, "units":"2 Razorwing Fighters", "upgrades":[]},
-			{"id":527, "name":"Voidraven Cast", "pts":225, "units":"2 Void Raven Interdictors", "upgrades":[]}
+			{"id":522, "name":"Torture Class Cruiser", "pts":225, "upgrades":[]}
 		]}
 	],
 	"upgrades":[
 		{"id":1, "name":"Archon w/ Portable Webway Portal", "pts":50},
-		{"id":2, "name":"Dracon w/ Portable Webway Portal", "pts":100},
+		{"id":2, "name":"Dracon w/ Portable Webway Portal", "pts":75},
 		{"id":3, "name":"Haemonculus Ancient w/ Portable Webway Portal", "pts":75},
 		{"id":4, "name":"Succubus w/ Portable Webway Portal", "pts":50},
 
 		{"id":16, "name":"Archon", "pts":0},
-		{"id":17, "name":"Dracon", "pts":50},
+		{"id":17, "name":"Dracon", "pts":25},
 		{"id":18, "name":"Succubus", "pts":0},
 		{"id":19, "name":"Haemonculus Ancient", "pts":25},
 
@@ -94,8 +94,7 @@
 		{"min":1, "max":1, "from":[75,76,77], "appliesTo":[502]},
 		{"min":1, "max":1, "from":[63,64], "appliesTo":[503]},
 		{"min":6, "max":8, "name":"Reaver Jet Bikes", "from":[83], "appliesTo":[505]},
-		{"max":4, "from":[62],  "appliesTo":[503]},
-		{"max":2, "from":[62],  "appliesTo":[504]},
+		{"max":2, "from":[62],  "appliesTo":[503,504]},
 		{"max":1, "from":[73,74]},
 		{"max":2, "from":[61], "appliesTo":[511,512]},
 		{"max":1, "from":[55]},

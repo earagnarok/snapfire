@@ -1,7 +1,7 @@
 {
 	"id":"EA-R Squats - Wodanaz Stronghold",
 	"version":"0.8.0",
-	"notes":["No more transports than needed to carry the formation with no space left over.", "Hellbore and Leviathan may transport 12 units, Squat Warlord counts as two."],
+	"notes":["No more transports than needed to carry the formation with no space left over.", "Hellbore and Leviathan may transport 12 units, and may only be taken if the rest of the formation fits inside. Squat Warlord and Grand Warlord counts as two."],
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"WODANAZ STRONGHOLD BROTHERHOODS", "formations":[
@@ -68,9 +68,9 @@
 		{"id":140, "name":"Rhino",				"pts":10},
 		{"id":141, "name":"Land Raider",				"pts":50},
 		{"id":142, "name":"Termite",				"pts":20},
-		{"id":143, "name":"Hellbore (May only be taken if the rest of the formation fits inside)",				"pts":100},
-		{"id":144, "name":"Leviathan (May only be taken if the rest of the formation fits inside)",				"pts":300},
-		{"id":145, "name":"Leviathan w/ Living Ancestor (May only be taken if the rest of the formation fits inside)",				"pts":325}
+		{"id":143, "name":"Hellbore",				"pts":100},
+		{"id":144, "name":"Leviathan",				"pts":300},
+		{"id":145, "name":"Leviathan w/ Living Ancestor",				"pts":325}
 
 
 		],
