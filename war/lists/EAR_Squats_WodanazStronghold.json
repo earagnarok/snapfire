@@ -1,7 +1,7 @@
 {
 	"id":"EA-R Squats - Wodanaz Stronghold",
 	"version":"0.8.0",
-	"notes":["No more transports than needed to carry the formation with no space left over.", "Hellbore and Leviathan may transport 12 units, and may only be taken if the rest of the formation fits inside. Squat Warlord and Grand Warlord counts as two."],
+	"notes":["No more transports than needed to carry the formation with no space left over.", "Leviathan may transport 12 units, and may only be taken if the rest of the formation fits inside. Squat Warlord and Grand Warlord counts as two."],
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"WODANAZ STRONGHOLD BROTHERHOODS", "formations":[
@@ -19,6 +19,7 @@
 		]},
 
 		{"name":"WODANAZ STRONGHOLD WAR ENGINES <br/> Max 33%", "formations":[
+			{"id":521, "name":"Hellbore",			"pts":200, "upgrades":[]},
 			{"id":512, "name":"Overlord",			"pts":250, "upgrades":[]},
 		    {"id":520, "name":"Goliath Battery",		"pts":325, "units":"2 Goliath Mega Cannons", "upgrades":[]},
 			{"id":525, "name":"Land Train",			"pts":175, "units":"Land Train Engine", "upgrades":[111, 120,121,122,123]},
@@ -50,7 +51,7 @@
 
 		{"id":120, "name":"Dragon Battle Car",			                  "pts":75},
 		{"id":121, "name":"Siege Mortar Battle Car",			       	"pts":75},
-		{"id":122, "name":"Berserker Battle Car, unit of Squat Berserkers",                     	"pts":75},
+		{"id":122, "name":"Berserker Battle Car, 2 Squat Berserkers",                     	"pts":75},
 		{"id":123, "name":"Bomb Battle Car",	                 		"pts":125},
 
 		{"id":124, "name":"Kastelan Robot",					"pts":25},
