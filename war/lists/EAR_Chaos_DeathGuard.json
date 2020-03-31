@@ -9,23 +9,22 @@
 
       {"name": "DEATH GUARD RETINUE <br/> Max 1 Death Guard Terminators for each Death Guard Retinue", "formations": [
             {"id": 521, "name": "Death Guard Retinue", "pts": 325,  "units": "4 Plague Marines, Daemonic Pact", "upgrades": [22,23,24,33,26,27,28,30]},
-            {"id": 532, "name": "Death Guard Terminators", "pts": 375, "units": "4 Blightlord Terminators, Daemonic Pact", "upgrades": [26,27,30,32,33]}
+            {"id": 532, "name": "Death Guard Terminators", "pts": 400, "units": "4 Blightlord Terminators, Daemonic Pact", "upgrades": [26,27,30,32,33]}
        ]},
       {"name": "DEATH ELITE FORMATIONS <br/> Max 1 for each Death Guard Core Formation", "formations": [
             {"id": 531, "name": "Chosen", "pts": 175, "units": "4 Chosen, 2 Death Guard Rhinos, Daemonic Pact", "upgrades": [30]},
-            {"id": 533, "name": "Armored Company", "pts": 250, "upgrades": [28]},
-            {"id": 534, "name": "Chaos Space Marines", "pts": 275, "units": "6 Chaos Space Marines, 3 Death Guard Rhinos, Daemonic Pact", "upgrades": [30]}
+            {"id": 533, "name": "Armored Company", "pts": 250, "upgrades": [28]}
        ]},
       {"name": "DEATH GUARD SUPPORT FORMATIONS <br/> Max 3 for each Death Guard Core Formation", "formations": [
-          {"id": 540, "name": "Plague Reapers", "pts": 50, "upgrades": [29]},
-            {"id": 544, "name": "Nurgle Defilers", "pts": 250, "units": "4 Desecrators", "upgrades": []},
+          {"id": 544, "name": "Nurgle Defilers", "pts": 50, "upgrades": [21]},
+          {"id": 540, "name": "Plague Reaper", "pts": 225, "upgrades": []},
             {"id": 542, "name": "Blight Drones", "pts": 250, "units": "7 Greater Blight Drones", "upgrades": []},
             {"id": 541, "name": "Contagion Engines", "pts": 325, "units": "4 Contagion Engines", "upgrades": []},
             {"id": 543, "name": "Plague Tower", "pts": 325, "upgrades": []}
        ]},
       {"name": "ZOMBIES, SPACESHIPS, AIRCRAFT &amp; TITANS <br/> Max 33%", "formations": [
             {"id": 551, "name": "Plague Zombie Infestation", "pts": 175, "units": "3 + 2D6 Plague Zombies", "upgrades": []},
-            {"id": 552, "name": "Plaguehounds", "pts": 50, "upgrades": [20]},
+            {"id": 552, "name": "Plaguehound", "pts": 275, "upgrades": []},
             {"id": 553, "name": "Repugnant Titan", "pts": 600,  "upgrades": []},
             {"id": 554, "name": "Hell Blades", "pts": 200, "units": "3 Hell Blade Interceptors", "upgrades": []},
             {"id": 555, "name": "Hell Talons", "pts": 225, "units": "2 Hell Talon Fighter-Bombers", "upgrades": []},
@@ -42,8 +41,9 @@
       {"id": 18, "name": "3 Havocs", "pts": 35},
       {"id": 19, "name": "3 Plague Marines", "pts": 0},
       {"id": 20, "name": "Plaguehound Titan", "pts": 225},
+      {"id": 21, "name": "Desecrator", "pts": 50},
       {"id": 22, "name": "Chaos Dreadnought", "pts": 50},
-      {"id": 23, "name": "4 Death Guard Rhinos", "pts": 50},
+      {"id": 23, "name": "4 Death Guard Rhinos", "pts": 40},
 	  {"id": 24, "name": "2 Chaos Spartan Assault Tanks", "pts": 150},
       {"id": 25, "name": "Daemonic Pact", "pts": 25},
       {"id": 26, "name": "Champion of Chaos", "pts": 50},
@@ -92,9 +92,7 @@
       {"min": 1, "max": 1, "from": [15,16,13,14], "appliesTo": [521,532]},
       {"min": 1, "max": 1, "from": [17,18], "appliesTo": [521]},
       {"min": 1, "max": 1, "from": [40,41,42,43], "appliesTo": [533]},
-      {"min": 1, "max": 2, "from": [29], "appliesTo": [540]},
-
-      {"min": 1, "max": 2, "from": [20], "appliesTo": [552]}
+      {"min": 3, "max": 5, "from": [21], "appliesTo": [544]}
 
    ]
 }
