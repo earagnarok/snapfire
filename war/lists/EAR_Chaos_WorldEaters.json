@@ -27,7 +27,7 @@
        ]},
 
       {"name": "WAR ENGINES AND CHAOS NAVY <br/> Max 33%", "formations": [
-            {"id": 551, "name": "Greater Brass Scorpion", "pts": 50, "upgrades": [34]},
+            {"id": 551, "name": "Greater Brass Scorpion", "pts": 200, "upgrades": []},
             {"id": 552, "name": "Lord of Battles", "pts": 425, "upgrades": []},
             {"id": 553, "name": "Tower of Skulls", "pts": 600, "units": "Daemonic Pact", "upgrades": []},
             {"id":554, "name":"Hell Blade Squadron",	"pts":200, "units":"3 Hell Blade Fighters", "upgrades":[]},
@@ -100,7 +100,6 @@
       {"max": 1, "from": [39,30]},
       {"max": 1, "from": [39,18]},
       {"min": 1, "max": 1, "from": [40,41], "appliesTo": [557]},
-      {"min": 1, "max": 2, "from": [34], "appliesTo": [551]},
       {"min": 1, "max": 1, "from": [15,13,14], "appliesTo": [521,531,532]},
       {"min": 1, "max": 1, "from": [15,13,14], "appliesTo": [533]},
       {"min": 4, "max": 8, "from": [35], "appliesTo": [541]}
