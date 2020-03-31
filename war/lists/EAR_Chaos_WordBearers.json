@@ -1,6 +1,6 @@
 {
 	"id":"EA-R Word Bearers",
-	"version":"Alpha 0.5.0",
+	"version":"Alpha 0.5.1",
 	"notes":
 		["Add one free Lesser Daemon to the Lesser Daemon pool per Daemonic Pact"],
 		"by":"EA-Ragnarok",
@@ -9,25 +9,25 @@
 			{"id":666, "name":"Daemon Pool", "pts":0, "upgrades":[71,72,73]}
 		]},
 		{"name":"WORD BEARERS CORE FORMATIONS <br/> Max 2 Cultist Covens for each Word Bearers Retinue", "formations":[
-			{"id":500, "name":"Word Bearers Retinue", "pts":350, "units":"Daemonic Pact", "upgrades":[14,40,41,47,80]},
+			{"id":500, "name":"Word Bearers Retinue", "pts":350, "units":"Daemonic Pact", "upgrades":[14,40,41,47,45,80]},
 			{"id":501, "name":"Cultist Coven", "pts":225, "units":"Aspiring Champion, Daemonic Pact", "upgrades":[14,20,21,17]}
 		]},
 		{"name":"WORD BEARERS ELITE FORMATIONS <br/> Max 2 for each Word Bearers Retinue", "formations":[
 			{"id":502, "name":"Chaos Terminators", "pts":150, "units":"Daemonic Pact", "upgrades":[50,14,41,47,80]},
 			{"id":505, "name":"Iconoclasts",	"pts":225, "units":"Diabolist, 4 Word Bearers Iconoclasts, Daemonic Pact", "upgrades":[14]},
 			{"id":504, "name":"Bike Company",	"pts":325, "units":"Diabolist, 8 Chaos Assault Bikes, Daemonic Pact", "upgrades":[14]},
-			{"id":507, "name":"Havocs",	"pts":225, "units":"Diabolist, 4 Havocs, Daemonic Pact", "upgrades":[14]}
+			{"id":507, "name":"Havocs",	"pts":225, "units":"Diabolist, 4 Havocs, Daemonic Pact", "upgrades":[14,45]}
 		]},
 		{"name":"DAEMON ENGINE FORMATIONS <br/> Max 1 for each Cultist Coven", "formations":[
+            {"id":515, "name":"Forgefiends", "pts": 200, "units": "2 Forgefiends", "upgrades": []},
 			{"id":513, "name":"Defiler Pack", "pts":25, "upgrades":[63]},
-			{"id":514, "name":"Hellfire Battery", "pts": 225, "units": "4 Hellfire Cannons", "upgrades": []},
-            {"id":515, "name":"Forgefiends", "pts": 200, "units": "2 Forgefiends", "upgrades": []}
+			{"id":512, "name":"Decimator", "pts":225, "upgrades":[]},
+			{"id":511, "name":"Death Wheel",	"pts":275, "upgrades":[]}
 		]},
-		{"name":"DARK MECHANICUS WAR ENGINES AND CHAOS NAVY FORMATIONS <br/> Max 33%", "formations":[
-			{"id":511, "name":"Death Wheels",	"pts":50, "upgrades":[60]},
-			{"id":512, "name":"Decimators", "pts":50, "upgrades":[61]},
-			{"id":517, "name":"Possessed Stormbird",	 "pts":300, "upgrades":[]},
+		{"name":"CHAOS NAVY FORMATIONS <br/> Max 25%", "formations":[
             {"id":516, "name":"Heldrakes", "pts": 225, "units": "2 Heldrakes", "upgrades": []},
+			{"id":517, "name":"Word Bearers Stormbird",	 "pts":300, "upgrades":[]},
+			{"id":536, "name":"Harbringer Bomber", 	"pts":325, "upgrades":[]},
 			{"id":520, "name":"Devastation Class Cruiser",	"pts":150, "upgrades":[]},
 			{"id":521, "name":"Despoiler Class Battleship","pts":200, "upgrades":[]}
 			]}
@@ -58,6 +58,7 @@
 
 		{"id":40, "name":"Chaos Rhino", 	"pts":10},
 		{"id":41, "name":"Chaos Land Raider", 	"pts":50},
+		{"id":45, "name":"Chaos Stalker", "pts":50},
 
 		{"id":47, "name":"Chaos Dreadnought", "pts":50},
 
@@ -79,12 +80,12 @@
 	],
 	"formationConstraints":[
 		{"max":1, "name":"Spacecraft", "from":[520,521]},
-		{"max":1, "name":"Spacecraft", "from":[517]},
+		{"max":1, "from":[536]},
 		{"max":2, "name":"Word Bearers Cultist Coven", "from":[501], "forEach":[500], "name2":"Word Bearers Retinue"},
-		{"max":1, "name":"Daemon Engine formations", "from":[513,514,515], "forEach":[501], "name2":"Word Bearers Cultist Coven"},
+		{"max":1, "name":"Daemon Engine formations", "from":[513,514,515,511,512], "forEach":[501], "name2":"Word Bearers Cultist Coven"},
 		{"max":2, "name":"Word Bearers Elite formations", "from":[502,503,504,505,506,507], "forEach":[500], "name2":"Word Bearers Retinue"},
 		{"min":1, "max":1, "from":[666]},
-		{"maxPercent": 33.5, "name":"Dark Mechanicus & Chaos Navy", "from":[511,512,516,517,518,519,520,521]}
+		{"maxPercent": 25.5, "name":"Chaos Navy", "from":[516,517,518,519,520,521,536]}
 	],
 	"upgradeConstraints":[
 		{"max":1, "perArmy":true, "from":[12,13,10]},
@@ -93,6 +94,7 @@
 		{"min":0, "max":1, "from":[17]},
 		{"min":0, "max":2, "from":[20]},
 		{"min":0, "max":6, "from":[21]},
+		{"min":0, "max":1, "from":[45]},
 		{"min":0, "max":3, "from":[47]},
 
 		{"min":1, "max":1, "from":[11,12,13], "appliesTo":[500,502]},
@@ -107,8 +109,6 @@
 
 		{"min":1, "max":1, "from":[38,39], "appliesTo":[507]},
 
-		{"min":1, "max":2, "from":[60], "appliesTo":[511]},
-		{"min":1, "max":2, "from":[61], "appliesTo":[512]},
 		{"min":4, "max":6, "from":[63], "appliesTo":[513]}
 
 	]

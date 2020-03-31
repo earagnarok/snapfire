@@ -26,9 +26,8 @@
             {"id": 551, "name": "Plague Zombie Infestation", "pts": 175, "units": "3 + 2D6 Plague Zombies", "upgrades": []},
             {"id": 552, "name": "Plaguehound", "pts": 275, "upgrades": []},
             {"id": 553, "name": "Repugnant Titan", "pts": 600,  "upgrades": []},
-            {"id": 554, "name": "Hell Blades", "pts": 200, "units": "3 Hell Blade Interceptors", "upgrades": []},
-            {"id": 555, "name": "Hell Talons", "pts": 225, "units": "2 Hell Talon Fighter-Bombers", "upgrades": []},
-            {"id": 556, "name": "Blightbringer Bomber", "pts": 375, "upgrades": []},
+            {"id": 554, "name": "Heldrakes", "pts": 225, "units": "2 Heldrakes", "upgrades": []},
+            {"id": 556, "name": "Blightbringer Bomber", "pts": 350, "upgrades": []},
             {"id": 557, "name": "Plagueship", "pts": 100, "upgrades": []}
          ]}
    ],
