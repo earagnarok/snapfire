@@ -15,8 +15,8 @@
       {"name": "WORLD EATERS ELITE FORMATIONS <br/> Max 1 for each World Eaters Core Formation", "formations": [
           {"id": 534, "name": "Destroyers", "pts": 225, "units": "4 Chaos Destroyers, Daemonic Pact", "upgrades": []},
           {"id": 536, "name": "Chaos Space Marines", "pts": 275, "units": "6 Chaos Space Marines, 3 Chaos Rhinos, Daemonic Pact",  "upgrades": [18,30]},
-            {"id": 531, "name": "Juggernauts", "pts": 300, "units": "6 Juggernaut Riders, Daemonic Pact", "upgrades": [26,27]},
-            {"id": 533, "name": "Berzerker Bikes", "pts": 300, "units": "6 Khorne Berzerker Assault Bikes, Daemonic Pact", "upgrades": [27]}
+            {"id": 533, "name": "Berzerker Bikes", "pts": 300, "units": "6 Khorne Berzerker Assault Bikes, Daemonic Pact", "upgrades": [27]},
+            {"id": 531, "name": "Juggernauts", "pts": 375, "units": "8 Juggernaut Riders, Daemonic Pact", "upgrades": [26,27]}
        ]},
 
       {"name": "WORLD EATERS SUPPORT FORMATIONS <br/> Max 2 for each World Eaters Core Formation", "formations": [
