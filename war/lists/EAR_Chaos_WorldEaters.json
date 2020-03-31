@@ -8,7 +8,7 @@
       ]},
 
       {"name": "WORLD EATERS CORE FORMATIONS <br/> Max 1 World Eaters Terminators for each World Eaters Retinue", "formations": [
-            {"id": 521, "name": "World Eaters Retinue", "pts": 350, "units": "4 World Eaters Assault Marines, 4 Khorne Berzerkers, Daemonic Pact", "upgrades": [26,27,22,18,30]},
+            {"id": 521, "name": "World Eaters Retinue", "pts": 325, "units": "4 World Eaters Assault Marines, 4 Khorne Berzerkers, Daemonic Pact", "upgrades": [26,27,22,18,30]},
             {"id": 532, "name": "World Eaters Terminators", "pts": 400, "units": "4 Skullseeker Terminators, Daemonic Pact", "upgrades": [17,21,26,22,27,39]}
        ]},
 
