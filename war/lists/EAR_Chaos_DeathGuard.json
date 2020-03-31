@@ -15,7 +15,8 @@
             {"id": 531, "name": "Chosen", "pts": 175, "units": "4 Chosen, 2 Death Guard Rhinos, Daemonic Pact", "upgrades": [30]},
             {"id": 533, "name": "Armored Company", "pts": 250, "upgrades": [28]}
        ]},
-      {"name": "DEATH GUARD SUPPORT FORMATIONS <br/> Max 3 for each Death Guard Core Formation", "formations": [
+      {"name": "DEATH GUARD SUPPORT FORMATIONS <br/> Max 2 for each Death Guard Core Formation", "formations": [
+          {"id": 551, "name": "Plague Zombie Infestation", "pts": 175, "units": "3 + 2D6 Plague Zombies", "upgrades": []},
           {"id": 544, "name": "Nurgle Defilers", "pts": 50, "upgrades": [21]},
           {"id": 540, "name": "Plague Reaper", "pts": 225, "upgrades": []},
             {"id": 542, "name": "Blight Drones", "pts": 250, "units": "7 Greater Blight Drones", "upgrades": []},
@@ -23,7 +24,6 @@
             {"id": 543, "name": "Plague Tower", "pts": 325, "upgrades": []}
        ]},
       {"name": "ZOMBIES, SPACESHIPS, AIRCRAFT &amp; TITANS <br/> Max 33%", "formations": [
-            {"id": 551, "name": "Plague Zombie Infestation", "pts": 175, "units": "3 + 2D6 Plague Zombies", "upgrades": []},
             {"id": 552, "name": "Plaguehound", "pts": 275, "upgrades": []},
             {"id": 553, "name": "Repugnant Titan", "pts": 600,  "upgrades": []},
             {"id": 554, "name": "Heldrakes", "pts": 225, "units": "2 Heldrakes", "upgrades": []},
@@ -71,10 +71,10 @@
       {"max": 1, "from": [556]},
       {"max": 1, "name": "Spacecraft", "from": [557]},
       {"min": 1,"max": 1, "from": [501]},
-      {"maxPercent": 33.5, "name": "War Engines & Allies", "from": [551,552,553,554,555,556,557]},
+      {"maxPercent": 33.5, "name": "Traitor Titans and Chaos Navy", "from": [552,553,554,555,556,557]},
       {"max": 1, "name": "Death Guard Terminators", "from": [532],  "forEach": [521], "name2": "Death Guard Retinue"},
       {"max": 1, "name": "Elite Formations", "from": [531,533,534],  "forEach": [521,532], "name2": "Death Guard Core Formation"},
-      {"max": 3, "name": "Support Formations", "from": [540,541,542,543,544],  "forEach": [521,532], "name2": "Death Guard Core Formation"}
+      {"max": 2, "name": "Support Formations", "from": [540,541,542,543,544,551],  "forEach": [521,532], "name2": "Death Guard Core Formation"}
    ],
    "upgradeConstraints": [
       {"max": 1, "from": [13,14], "perArmy": true},
