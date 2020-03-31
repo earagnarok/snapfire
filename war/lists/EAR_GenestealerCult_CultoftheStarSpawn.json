@@ -41,7 +41,7 @@
 		{"id":19, "name":"3 Coven Goliaths",					"pts":100},
 		{"id":21, "name":"Cult Chimera",						"pts":25},
 		{"id":22, "name":"4 Coven Limousines",					"pts":75},
-		{"id":23, "name":"4 Coven Goliaths",					"pts":150},
+		{"id":23, "name":"4 Coven Goliaths",					"pts":125},
 
 		{"id":24, "name":"Coven Technical",						"pts":20},
 		{"id":25, "name":"Cult Hydra",							"pts":50},

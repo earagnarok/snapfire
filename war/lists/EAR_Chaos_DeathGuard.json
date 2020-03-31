@@ -9,7 +9,7 @@
 
       {"name": "DEATH GUARD RETINUE <br/> Max 1 Death Guard Terminators for each Death Guard Retinue", "formations": [
             {"id": 521, "name": "Death Guard Retinue", "pts": 325,  "units": "4 Plague Marines, Daemonic Pact", "upgrades": [22,23,24,33,26,27,28,30]},
-            {"id": 532, "name": "Death Guard Terminators", "pts": 400, "units": "4 Blightlord Terminators, Daemonic Pact", "upgrades": [26,27,30,32,33]}
+            {"id": 532, "name": "Death Guard Terminators", "pts": 375, "units": "4 Blightlord Terminators, Daemonic Pact", "upgrades": [26,27,30,32,33]}
        ]},
       {"name": "DEATH ELITE FORMATIONS <br/> Max 1 for each Death Guard Core Formation", "formations": [
             {"id": 531, "name": "Chosen", "pts": 175, "units": "4 Chosen, 2 Death Guard Rhinos, Daemonic Pact", "upgrades": [30]},
@@ -59,7 +59,7 @@
       {"id": 40, "name": "5 Death Guard Vindicators", "pts": 0},
       {"id": 41, "name": "7 Death Guard Vindicators", "pts": 50},
       {"id": 42, "name": "4 Death Guard Land Raiders", "pts": 50},
-      {"id": 43, "name": "4 Death Guard Land Raiders, 2 Death Guard Vindicators", "pts": 150},
+      {"id": 43, "name": "4 Death Guard Land Raiders, 2 Death Guard Vindicators", "pts": 100},
 
 		{"id":71, "name":"Greater Daemon Pool point", "pts":50},
 		{"id":72, "name":"Lesser Daemon Pool point", "pts":15},
