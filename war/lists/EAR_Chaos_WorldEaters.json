@@ -61,7 +61,7 @@
       {"id": 37, "name": "Skullseeker Terminators", "pts": 0},
       {"id": 38, "name": "Mutilators", "pts": 75},
       {"id": 39, "name": "Dreadclaws", "pts": 0},
-      {"id": 40, "name": "Devastator Class Cruiser ", "pts": 0},
+      {"id": 40, "name": "Devastation Class Cruiser ", "pts": 0},
       {"id": 41, "name": "Despoiler Class Battleship", "pts": 50},
 
 		{"id":71, "name":"Greater Daemon Pool point", "pts":50},
