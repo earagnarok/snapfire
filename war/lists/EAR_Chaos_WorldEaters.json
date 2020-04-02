@@ -14,7 +14,7 @@
 
       {"name": "WORLD EATERS ELITE FORMATIONS <br/> Max 1 for each World Eaters Core Formation", "formations": [
           {"id": 534, "name": "Destroyers", "pts": 225, "units": "4 Chaos Destroyers, Daemonic Pact", "upgrades": []},
-          {"id": 536, "name": "Chaos Space Marines", "pts": 275, "units": "6 Chaos Space Marines, 3 Chaos Rhinos, Daemonic Pact",  "upgrades": [18,30]},
+          {"id": 536, "name": "Chaos Space Marines", "pts": 275, "units": "6 Chaos Space Marines, Daemonic Pact",  "upgrades": [18,30]},
             {"id": 533, "name": "Berzerker Bikes", "pts": 300, "units": "6 Khorne Berzerker Assault Bikes, Daemonic Pact", "upgrades": [27]},
             {"id": 531, "name": "Juggernauts", "pts": 375, "units": "8 Juggernaut Riders, Daemonic Pact", "upgrades": [26,27]}
        ]},
@@ -42,10 +42,10 @@
       {"id": 17, "name": "Mutilators", "pts": 50},
       {"id": 18, "name": "Chaos Stalker", "pts": 50},
 	  {"id": 20, "name": "2 Chaos Rhinos", "pts": 0},
-	  {"id": 21, "name": "2 Chaos Spartan Assault Tanks", "pts": 125},
+	  {"id": 21, "name": "2 Chaos Spartan Assault Tanks", "pts": 100},
       {"id": 22, "name": "Berzerker Dreadnought", "pts": 50},
       {"id": 23, "name": "4 Chaos Rhinos", "pts": 0},
-      {"id": 24, "name": "2 Chaos Spartan Assault Tanks", "pts": 125},
+      {"id": 24, "name": "2 Chaos Spartan Assault Tanks", "pts": 100},
       {"id": 25, "name": "Daemonic Pact", "pts": 25},
       {"id": 26, "name": "Champion of Chaos", "pts": 50},
       {"id": 27, "name": "Icon Bearer", "pts": 25},
@@ -63,6 +63,9 @@
       {"id": 39, "name": "Dreadclaws", "pts": 0},
       {"id": 40, "name": "Devastation Class Cruiser ", "pts": 0},
       {"id": 41, "name": "Despoiler Class Battleship", "pts": 50},
+
+      {"id": 50, "name": "3 Chaos Rhinos", "pts": 0},
+      {"id": 51, "name": "3 Chaos Land Raiders", "pts": 125},
 
 		{"id":71, "name":"Greater Daemon Pool point", "pts":50},
 		{"id":72, "name":"Lesser Daemon Pool point", "pts":15},
@@ -102,6 +105,7 @@
       {"min": 1, "max": 1, "from": [40,41], "appliesTo": [557]},
       {"min": 1, "max": 1, "from": [15,13,14], "appliesTo": [521,531,532]},
       {"min": 1, "max": 1, "from": [15,13,14], "appliesTo": [533]},
+      {"min": 1, "max": 1, "from": [50,51], "appliesTo": [536]},
       {"min": 4, "max": 8, "from": [35], "appliesTo": [541]}
 
    ]

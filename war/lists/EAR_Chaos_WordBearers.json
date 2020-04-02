@@ -27,7 +27,7 @@
 		{"name":"CHAOS NAVY FORMATIONS <br/> Max 25%", "formations":[
             {"id":516, "name":"Heldrakes", "pts": 225, "units": "2 Heldrakes", "upgrades": []},
 			{"id":517, "name":"Word Bearers Stormbird",	 "pts":300, "upgrades":[]},
-			{"id":536, "name":"Harbringer Bomber", 	"pts":325, "upgrades":[]},
+			{"id":536, "name":"Harbringer Bomber", 	"pts":300, "upgrades":[]},
 			{"id":520, "name":"Devastation Class Cruiser",	"pts":150, "upgrades":[]},
 			{"id":521, "name":"Despoiler Class Battleship","pts":200, "upgrades":[]}
 			]}
