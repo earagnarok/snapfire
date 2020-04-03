@@ -7,19 +7,19 @@
 	    {"id": 501, "name": "Daemon Pool", "pts": 0, "upgrades": [71,72,74]}
       ]},
 
-      {"name": "DEATH GUARD RETINUE <br/> Max 1 Death Guard Terminators for each Death Guard Retinue", "formations": [
-            {"id": 521, "name": "Death Guard Retinue", "pts": 300,  "units": "4 Plague Marines, Daemonic Pact", "upgrades": [22,23,24,33,26,27,28,30]},
-            {"id": 532, "name": "Death Guard Terminators", "pts": 350, "units": "4 Blightlord Terminators, Daemonic Pact", "upgrades": [26,27,30,32,33]}
+      {"name": "DEATH GUARD CORE FORMATIONS", "formations": [
+            {"id": 521, "name": "Death Guard Retinue", "pts": 300,  "units": "4 Plague Marines, Daemonic Pact", "upgrades": [22,23,24,33,26,27,28,30]}
        ]},
-      {"name": "DEATH ELITE FORMATIONS <br/> Max 1 for each Death Guard Core Formation", "formations": [
+      {"name": "DEATH GUARD ELITE FORMATIONS <br/> Max 1 for each Death Guard Core Formation", "formations": [
             {"id": 531, "name": "Chosen", "pts": 175, "units": "4 Chosen, 2 Death Guard Rhinos, Daemonic Pact", "upgrades": [30]},
-            {"id": 533, "name": "Armored Company", "pts": 225, "upgrades": [28]}
+            {"id": 533, "name": "Armored Company", "pts": 225, "upgrades": [28]},
+            {"id": 532, "name": "Death Guard Terminators", "pts": 350, "units": "4 Blightlord Terminators, Daemonic Pact", "upgrades": [26,27,30,32,33]}
        ]},
       {"name": "DEATH GUARD SUPPORT FORMATIONS <br/> Max 2 for each Death Guard Core Formation", "formations": [
           {"id": 551, "name": "Plague Zombie Infestation", "pts": 175, "units": "7 + 1D6 Plague Zombies", "upgrades": []},
-          {"id": 544, "name": "Nurgle Defilers", "pts": 25, "upgrades": [21]},
+          {"id": 544, "name": "Nurgle Defiler Pack", "pts": 25, "upgrades": [21]},
           {"id": 540, "name": "Plague Reaper", "pts": 225, "upgrades": []},
-            {"id": 542, "name": "Blight Drones", "pts": 250, "units": "7 Greater Blight Drones", "upgrades": []},
+            {"id": 542, "name": "Blight Drones", "pts": 250, "units": "7 Blight Drones", "upgrades": []},
             {"id": 541, "name": "Contagion Engines", "pts": 325, "units": "4 Contagion Engines", "upgrades": []},
             {"id": 543, "name": "Plague Tower", "pts": 325, "upgrades": []}
        ]},
@@ -72,9 +72,8 @@
       {"max": 1, "name": "Spacecraft", "from": [557]},
       {"min": 1,"max": 1, "from": [501]},
       {"maxPercent": 33.5, "name": "Traitor Titans and Chaos Navy", "from": [552,553,554,555,556,557]},
-      {"max": 1, "name": "Death Guard Terminators", "from": [532],  "forEach": [521], "name2": "Death Guard Retinue"},
-      {"max": 1, "name": "Elite Formations", "from": [531,533,534],  "forEach": [521,532], "name2": "Death Guard Core Formation"},
-      {"max": 2, "name": "Support Formations", "from": [540,541,542,543,544,551],  "forEach": [521,532], "name2": "Death Guard Core Formation"}
+      {"max": 1, "name": "Elite Formations", "from": [531,533,534,532],  "forEach": [521], "name2": "Death Guard Core Formation"},
+      {"max": 2, "name": "Support Formations", "from": [540,541,542,543,544,551],  "forEach": [521], "name2": "Death Guard Core Formation"}
    ],
    "upgradeConstraints": [
       {"max": 1, "from": [13,14], "perArmy": true},
