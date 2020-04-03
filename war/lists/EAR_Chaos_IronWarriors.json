@@ -9,15 +9,16 @@
 			{"id":502, "name":"Havocs",	"pts":300, "units":"4 Iron Warriors Havocs, 2 Chaos Land Raiders", "upgrades":[43,44]}
 		]},
 		{"name":"IRON WARRIORS ELITE FORMATIONS <br/> Max 1 for each Core formation", "formations":[
+			{"id":512, "name":"Chosen", "pts":125, "units":"4 Chosen", "upgrades":[43]},
+			{"id":522, "name":"Bezashk Destroyers",	"pts":225, "units":"4 Bezashk Destroyers", "upgrades":[]},
 			{"id":524, "name":"Dreadnought Assault Pack", "pts":250, "upgrades":[54,55,80]},
-			{"id":513, "name":"Tyrant Terminators", "pts":275, "units":"4 Tyrant Siege Terminators",  "upgrades":[46,52,53,54,55,80]},
-			{"id":512, "name":"Chosen", "pts":125, "units":"4 Chosen", "upgrades":[43]}
+			{"id":513, "name":"Tyrant Terminators", "pts":275, "units":"4 Tyrant Siege Terminators",  "upgrades":[46,52,53,54,55,80]}
 		]},
 		{"name":"IRON WARRIORS SIEGE FORMATIONS <br/> Max 1 for each Core formation", "formations":[
-			{"id":523, "name":"Siege Engine", "pts":200, "units":"Iron Warriors Stormsword", "upgrades":[43,52,53,54,55]},
-			{"id":522, "name":"Bezashk Destroyers",	"pts":250, "units":"4 Bezashk Destroyers", "upgrades":[]},
+			{"id":523, "name":"Heavy Siege Engine", "pts":200, "units":"Iron Warriors Stormsword", "upgrades":[43,52,53,54,55]},
+			{"id":522, "name":"Bezashk Siege Battery",	"pts":250, "units":"4 Bezashk Medusa", "upgrades":[]},
 			{"id":520, "name":"Iron Warriors Artillery Battery", "pts":250, "upgrades":[] },
-			{"id":521, "name":"Bezashk Medusa Battery",	"pts":250, "units":"4 Bezashk Medusa", "upgrades":[]}
+			{"id":521, "name":"Heavy Siege Tanks",	"pts":50, "upgrades":[57]}
 		]},
 		{"name":"DARK MECHANICUS, TRAITOR TITAN AND CHAOS NAVY FORMATIONS <br/> Max 33%", "formations":[
 			{"id":532, "name":"Defilers", "pts":25, "upgrades":[63]},
@@ -57,7 +58,7 @@
 		{"id":41, "name":"Chaos Land Raider", 	"pts":50},
 
 		{"id":42, "name":"2 Obliterators", "pts":150},
-		{"id":43, "name":"Chaos Vindicator", "pts":35},
+		{"id":43, "name":"2 Chaos Vindicators", "pts":75},
 		{"id":44, "name":"Chaos Stalker", "pts":50},
 		{"id":46, "name":"Obliterators", "pts":75},
 
@@ -72,6 +73,8 @@
 		{"id":53, "name":"2 Chaos Dreadnoughts", "pts":100},
 		{"id":54, "name":"Chaos Siege Dreadnought", "pts":50},
 		{"id":55, "name":"2 Chaos Siege Dreadnoughts", "pts":100},
+
+		{"id":57, "name":"Chaos Typhon Heavy Siege Tank", "pts":125},
 
 		{"id":61, "name":"Decimator", "pts":175},
 		{"id":63, "name":"Defiler", "pts":50},
@@ -112,7 +115,7 @@
 		{"min":0, "max":1, "from":[32]},
 		{"min":0, "max":1, "from":[52,53,54,55]},
 		{"min":0, "max":1, "from":[42]},
-		{"min":0, "max":2, "from":[43]},
+		{"min":0, "max":1, "from":[43]},
 		{"min":0, "max":1, "from":[44]},
 		{"min":0, "max":2, "from":[48,49]},
 
@@ -123,6 +126,8 @@
 		{"min":0, "max":2, "from":[46], "appliesTo":[513]},
 
 		{"min":1, "max":1, "from":[50,51], "appliesTo":[520]},
+
+		{"min":2, "max":3, "from":[57], "appliesTo":[521]},
 
 		{"min":1, "max":1, "from":[47,48,49], "appliesTo":[524]},
 		{"min":0, "max":1, "from":[48,49,54,55], "appliesTo":[524]},

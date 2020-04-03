@@ -22,7 +22,8 @@
             {"id":515, "name":"Forgefiends", "pts": 200, "units": "2 Forgefiends", "upgrades": []},
 			{"id":513, "name":"Defiler Pack", "pts":25, "upgrades":[63]},
 			{"id":512, "name":"Decimator", "pts":225, "upgrades":[]},
-			{"id":511, "name":"Death Wheel",	"pts":275, "upgrades":[]}
+			{"id":511, "name":"Death Wheel",	"pts":275, "upgrades":[]},
+			{"id":514, "name":"Cerberus",	"pts":300, "units": "2 Word Bearers Cerberus Heavy Tank Destroyers", "upgrades":[]}
 		]},
 		{"name":"CHAOS NAVY FORMATIONS <br/> Max 25%", "formations":[
             {"id":516, "name":"Heldrakes", "pts": 225, "units": "2 Heldrakes", "upgrades": []},

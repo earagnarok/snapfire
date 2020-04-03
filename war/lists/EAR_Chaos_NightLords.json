@@ -42,7 +42,7 @@
 
 		{"id":22, "name":"3 Chaos Rhinos", 	"pts":0},
 		{"id":23, "name":"3 Chaos Land Raiders", 	"pts":125},
-		{"id":24, "name":"2 Chaos Spartan Assault Tanks", 	"pts": 125},
+		{"id":24, "name":"2 Chaos Spartan Assault Tanks", 	"pts": 150},
 
 		{"id":25, "name":"2 Chaos Rhinos", 	"pts":25},
 		{ "id":26, "name":"4 Chaos Tarantulas","pts":50 },
