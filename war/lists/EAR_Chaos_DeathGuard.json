@@ -20,7 +20,7 @@
           {"id": 544, "name": "Nurgle Defiler Pack", "pts": 25, "upgrades": [21]},
           {"id": 540, "name": "Plague Reaper", "pts": 225, "upgrades": []},
             {"id": 542, "name": "Blight Drones", "pts": 250, "units": "7 Blight Drones", "upgrades": []},
-            {"id": 543, "name": "Plague Tower", "pts": 275, "upgrades": []},
+            {"id": 543, "name": "Plague Tower", "pts": 250, "upgrades": []},
             {"id": 541, "name": "Contagion Engines", "pts": 325, "units": "4 Contagion Engines", "upgrades": []}
 
        ]},

@@ -20,7 +20,7 @@
 			{"id":506, "name":"Subjugators of Slaanesh", "pts":50, "upgrades":[31] },
 			{"id":507, "name":"Questors of Slaanesh",	"pts":50, "upgrades":[32]},
 			{"id":510, "name":"Nurgle Plague Zombie Infestation",	"pts":175, "units":"7 + 1D6 Plague Zombies", "upgrades":[]},
-			{"id":508, "name":"Plague Tower of Nurgle", "pts":275, "upgrades":[]},
+			{"id":508, "name":"Plague Tower of Nurgle", "pts":250, "upgrades":[]},
 			{"id":509, "name":"Contagion Engines of Nurgle", "pts":325, "units":"4 Contagion Engines", "upgrades":[]},
 			{"id":512, "name":"Doomblasters of Khorne", "pts":175, "units":"3 Doomblasters", "upgrades":[]},
 			{"id":502, "name":"Cannons of Khorne", "pts":225, "units":"4 Cannons of Khorne", "upgrades":[]},
