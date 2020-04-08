@@ -140,7 +140,6 @@
 	"formationConstraints":[
 		{"max": 1, "from": [500]},
 		{"max": 1, "from": [593]},
-		{"max": 1, "from": [594]},
 		{"min": 1, "max": 1, "from": [600]},
   	{"max": 3, "name": "Scout Titan formations", "from": [510,511,512,513,514],  "forEach": [500,501,502], "name2": "Battle Titan formation" },
   	{"max": 3, "name": "Daemon Engine formations", "from": [540,541,542,550,551,560,561,570,571,580,582],  "forEach": [500,501,502], "name2": "Battle Titan formation" },
