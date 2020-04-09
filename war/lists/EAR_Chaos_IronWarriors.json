@@ -25,7 +25,6 @@
 			{"id":531, "name":"Decimator", "pts":225, "upgrades":[]},
 			{"id":533, "name":"Ordinatus Hereticus", "pts":325, "upgrades":[]},
 			{"id":534, "name":"Ordinatus Cyclothrathe", "pts":475, "upgrades":[]},
-			{"id":535, "name":"Chaos Warlord Titan",	"pts":750, "upgrades":[]},
 			{"id":537, "name":"Heldrakes",	"pts":225, "units":"2 Heldrakes", "upgrades":[]},
 			{"id":536, "name":"Harbringer Bomber", 	"pts":300, "upgrades":[]},
 			{"id":538, "name":"Devastation Class Cruiser",	"pts":150, "upgrades":[]},

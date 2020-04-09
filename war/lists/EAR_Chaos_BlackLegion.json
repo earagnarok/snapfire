@@ -17,15 +17,15 @@
 		]},
 		{"name":"BLACK LEGION SUPPORT FORMATIONS <br/> Max 2 for each Core formation", "formations":[
 			{"id":505, "name":"Raptor Cult",	"pts":55,  "upgrades":[21,70]},
-			{"id":506, "name": "Armoured Company", "pts":200, "upgrades":[43,44] },
+			{"id":506, "name":"Armoured Company", "pts":200, "upgrades":[43,44] },
 			{"id":507, "name":"Havocs",	"pts":200, "units":"4 Havocs", "upgrades":[43,44,70]},
 			{"id":504, "name":"Bike Company",	"pts":300, "units":"8 Chaos Space Marines Bikes", "upgrades":[14,70]}
 
 		]},
 		{"name":"BLACK LEGION DAEMON ENGINE, TITAN AND CHAOS NAVY FORMATIONS <br/> Max 33%", "formations":[
-			{"id":511, "name":"Death Wheel",	"pts":275, "upgrades":[]},
 			{"id":512, "name":"Decimator", "pts":225, "upgrades":[]},
 			{"id":513, "name":"Defilers", "pts":25, "upgrades":[63]},
+			{"id":511, "name":"Death Wheel",	"pts":275, "upgrades":[]},
 			{"id":514, "name":"Chaos Warhound",	"pts":275, "upgrades":[]},
 			{"id":515, "name":"Chaos Reaver Titan",		"pts":600, "upgrades":[]},
 			{"id":516, "name":"Chaos Warlord Titan",	"pts":750, "upgrades":[]},
