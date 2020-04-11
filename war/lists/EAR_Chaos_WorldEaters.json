@@ -21,7 +21,7 @@
 
       {"name": "WORLD EATERS SUPPORT FORMATIONS <br/> Max 2 for each World Eaters Core Formation", "formations": [
           {"id": 544, "name": "Doomblasters", "pts": 175, "units": "3 Doomblasters", "upgrades": []},
-          {"id": 551, "name": "Greater Brass Scorpion", "pts": 200, "upgrades": []},
+          {"id": 551, "name": "Greater Brass Scorpions", "pts": 50, "upgrades": [34]},
           {"id": 543, "name": "Cannons of Khorne", "pts": 225, "units": "4 Cannons of Khorne", "upgrades": []},
             {"id": 541, "name": "Khorne Defiler Pack", "pts": 25, "upgrades": [35]},
             {"id": 542, "name": "Daemonic Assault Engines", "pts": 225, "units": "4 Daemonic Assault Engines", "upgrades": []}
@@ -56,7 +56,7 @@
       {"id": 32, "name": "6 Chaos Predators", "pts": 75},
       {"id": 33, "name": "2 Chaos Predators", "pts": 75},
 
-      {"id": 34, "name": "Greater Brass Scorpion", "pts": 175},
+      {"id": 34, "name": "Greater Brass Scorpion", "pts": 150},
       {"id": 35, "name": "Slaughterfiend", "pts": 50},
       {"id": 37, "name": "Skullseeker Terminators", "pts": 0},
       {"id": 38, "name": "Mutilators", "pts": 75},
@@ -106,7 +106,8 @@
       {"min": 1, "max": 1, "from": [15,13,14], "appliesTo": [521,531,532]},
       {"min": 1, "max": 1, "from": [15,13,14], "appliesTo": [533]},
       {"min": 1, "max": 1, "from": [50,51], "appliesTo": [536]},
-      {"min": 4, "max": 5, "from": [35], "appliesTo": [541]}
+      {"min": 4, "max": 5, "from": [35], "appliesTo": [541]},
+      {"min": 1, "max": 3, "from": [34], "appliesTo": [551]}
 
    ]
 }
