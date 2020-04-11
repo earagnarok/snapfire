@@ -7,7 +7,7 @@
 		{"name":"BLOOD ANGELS CORE DETACHMENTS", "formations":[
 			{"id":500, "name":"1 Death Company", 					"pts":250, "units":"Chaplain",  "upgrades":[]},
 			{"id":503, "name":"Tacticals",							"pts":275, "units":"6 Tacticals plus transport", "upgrades":[10,11,12,13, 31,32, 33,34, 35,36, 40]},
-			{"id":505, "name":"Assaults", 							"pts":175,  "upgrades":[10,11,12,13,14, 35,36]}
+			{"id":505, "name":"Assaults", 							"pts":150, "units":"4 Assaults",  "upgrades":[10,11,12,13,14, 35,36]}
 		]},
 		{"name":"BLOOD ANGELS SUPPORT DETACHMENTS <br/> Max 2 for each Core Detachment", "formations":[
 			{"id":507, "name":"Whirlwinds",						"pts":275, "units":"4 Blood Angels Whirlwinds", "upgrades":[10,11,12,13, 31,32]},
@@ -18,7 +18,6 @@
 			{"id":512, "name":"Blood Angels Terminators",		"pts":50, "upgrades":[10,11,12,13, 33,34, 40]},
 			{"id":513, "name":"Scouts",							"pts":150, "upgrades":[10,11,12,13, 29,30]},
 			{"id":514, "name":"Land Speeders",					"pts":200, "upgrades":[]},
-			{"id":515, "name":"Landing Craft",					"pts":350,   "upgrades":[]},
 			{"id":523, "name": "Orbital Support",											"pts":0, "upgrades":[]}
 		]},
 
@@ -31,7 +30,7 @@
 	],
 	"upgrades":[
 		{"id":1, "name":"4 Death Company Marines, two Death Company Rhinos",				"pts":0},
-		{"id":2, "name":"4 Death Company Assaults", 										"pts":50},
+		{"id":2, "name":"4 Death Company Assaults", 										"pts":0},
 		{"id":3, "name":"4 Death Company Marines, Death Company Dreadnought, Drop Pods", 	"pts":100},
 
 		{"id":10, "name":"Captain",		"pts":50},
@@ -123,8 +122,6 @@
 		{"min":0, "max":2, "from":[33,34], "appliesTo":[511]},
 
 		{"min":0, "max":1, "from":[35,36], "appliesTo":[501,503,505, 511]},
-
-		{"min":1, "max":1, "from":[44,45], "appliesTo":[505]},
 
 		{"min":4, "max":4, "from":[22,23], "appliesTo":[509]},
 

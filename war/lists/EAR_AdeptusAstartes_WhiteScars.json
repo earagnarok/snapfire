@@ -6,9 +6,10 @@
 
 	"sections":[
 		{"name":"WHITE SCARS CORE DETACHMENTS", "formations":[
-			{"id":500, "name":"Assaults", 		"pts":175, "units":"4 Assaults", "upgrades":[15,16,17,18,36,37]},
-			{"id":501, "name":"Bikes", 		"pts":325, "upgrades":[15,16,17,18]},
-			{"id":522, "name":"Scout Bikes",	"pts":150, "upgrades":[15,16,17,18]}
+			{"id":500, "name":"Assaults", 		"pts":150, "units":"4 Assaults", "upgrades":[15,16,17,18,36,37]},
+			{"id":522, "name":"Scout Bikes",	"pts":150, "upgrades":[15,16,17,18]},
+			{"id":501, "name":"Bikes", 		"pts":325, "upgrades":[15,16,17,18]}
+
 		]},
 		{"name":"WHITE SCARS SUPPORT DETACHMENTS <br/> Max 2 for each Core Detachment", "formations":[
 			{"id":504, "name":"Land Speeders",	"pts":200, "upgrades":[15,16,17,18]},

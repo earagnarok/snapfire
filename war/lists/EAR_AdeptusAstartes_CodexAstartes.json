@@ -5,7 +5,7 @@
 
 	"sections":[
 		{"name":"CODEX ASTARTES DETACHMENTS", "formations":[
-			{"id":500, "name":"Assaults", 				"pts":175, "units":"4 Assaults", "upgrades":[10,11,12,13, 37,38]},
+			{"id":500, "name":"Assaults", 				"pts":150, "units":"4 Assaults", "upgrades":[10,11,12,13, 37,38]},
 			{"id":501, "name":"Bikes", 					"pts":200, "upgrades":[10,11,12,13]},
 			{"id":502, "name":"Land Raiders",			"pts":25, "upgrades":[10,11,12,13, 31,32, 40]},
 			{"id":503, "name":"Predators",				"pts":250, "upgrades":[10,11,12,13, 31,32]},

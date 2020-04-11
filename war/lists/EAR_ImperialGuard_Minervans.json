@@ -20,8 +20,8 @@
 		]},
 		{"name":"COLLEGIA TITANICA & IMPERIAL NAVY FORMATIONS <br/> Max 33%", "formations":[
 			{"id":527, "name":"Warhound Pack",			"pts":500, "upgrades":[70], "units":"2 Warhounds"},
-			{"id":530, "name":"Thunderbolt Fighters",	"pts":150, "upgrades":[], "units":"2 Thunderbolts"},
-			{"id":531, "name":"Marauder Bombers",		"pts":225, "upgrades":[], "units":"2 Marauders"},
+			{"id":530, "name":"Thunderbolt Squadron",	"pts":150, "upgrades":[], "units":"2 Thunderbolt Fighters"},
+			{"id":531, "name":"Marauder Squadron",		"pts":225, "upgrades":[], "units":"2 Marauder Bombers"},
 			{"id":532, "name":"Orbital Support",		"pts":125, "upgrades":[]}
 		]}
 	],
