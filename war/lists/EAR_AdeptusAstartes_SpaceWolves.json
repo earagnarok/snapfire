@@ -13,7 +13,7 @@
 			{"id":520, "name":"Wolf Guard Terminator Pack",		"pts":400,   "units":"plus transport", "upgrades":[12,13, 27,28,29,30, 33]},
 			{"id":521, "name":"Swift Claw Biker Pack", 			"pts":200,  "units":"4 Swift Claw Assault Bikes, 2 Fenrisian Wolves", "upgrades":[12,13]},
 			{"id":522, "name":"Wolf Scout Recon Pack",			"pts":175,  "units":"4 Wolf Scout Veterans plus transport", "upgrades":[12,13, 34,35]},
-			{"id":523, "name":"Land Raider Pack",			"pts":125,  "upgrades":[31,32]},
+			{"id":523, "name":"Land Raider Pack",			"pts":250,  "units":"3 Land Raiders",  "upgrades":[31,32,40]},
 			{"id":524, "name":"Predator Pack",				"pts":250, "upgrades":[31,32]},
 			{"id":525, "name":"Vindicator Pack",			"pts":225,  "units":"4 Vindicators", "upgrades":[31,32]},
 			{"id":526, "name":"Whirlwind Pack",				"pts":275, "units":"4 Whirlwinds", "upgrades":[31,32]},
@@ -98,8 +98,6 @@
 		{"min":1, "max":1, "from":[15,16], "appliesTo":[500]},
 
 		{"min":4, "max":4, "from":[25,26], "appliesTo":[520]},
-
-		{"min":4, "max":4, "from":[33,40], "appliesTo":[523]},
 
 		{"min":4, "max":4, "from":[22,23], "appliesTo":[524]},
 
