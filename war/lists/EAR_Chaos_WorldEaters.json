@@ -15,8 +15,8 @@
       {"name": "WORLD EATERS ELITE FORMATIONS <br/> Max 1 for each World Eaters Core Formation", "formations": [
           {"id": 534, "name": "Destroyers", "pts": 225, "units": "4 Chaos Destroyers, Daemonic Pact", "upgrades": []},
           {"id": 536, "name": "Chaos Space Marines", "pts": 275, "units": "6 Chaos Space Marines, Daemonic Pact",  "upgrades": [18,30]},
-            {"id": 533, "name": "Berzerker Bikes", "pts": 300, "units": "6 Khorne Berzerker Assault Bikes, Daemonic Pact", "upgrades": [27]},
-            {"id": 531, "name": "Juggernauts", "pts": 300, "units": "6 Juggernaut Riders, Daemonic Pact", "upgrades": [26,27]}
+            {"id": 533, "name": "Berzerker Bikes", "pts": 300, "units": "6 Khorne Berzerker Assault Bikes, Daemonic Pact", "upgrades": [26,27]},
+            {"id": 531, "name": "Juggernauts", "pts": 325, "units": "6 Juggernaut Riders, Daemonic Pact", "upgrades": [26,27]}
        ]},
 
       {"name": "WORLD EATERS SUPPORT FORMATIONS <br/> Max 2 for each World Eaters Core Formation", "formations": [
@@ -24,7 +24,7 @@
           {"id": 551, "name": "Greater Brass Scorpions", "pts": 50, "upgrades": [34]},
           {"id": 543, "name": "Cannons of Khorne", "pts": 225, "units": "4 Cannons of Khorne", "upgrades": []},
             {"id": 541, "name": "Khorne Defiler Pack", "pts": 25, "upgrades": [35]},
-            {"id": 542, "name": "Daemonic Assault Engines", "pts": 225, "units": "4 Daemonic Assault Engines", "upgrades": []}
+            {"id": 542, "name": "Daemonic Assault Engines", "pts": 25,  "upgrades": [31]}
        ]},
 
       {"name": "WAR ENGINES AND CHAOS NAVY <br/> Max 33%", "formations": [
@@ -52,9 +52,7 @@
       {"id": 28, "name": "4 Chaos Space Marines", "pts": 0},
       {"id": 29, "name": "4 Khorne Berzerkers", "pts": 0},
       {"id": 30, "name": "2 World Eaters Vindicators", "pts": 50},
-      {"id": 31, "name": "4 Chaos Predators", "pts": 0},
-      {"id": 32, "name": "6 Chaos Predators", "pts": 75},
-      {"id": 33, "name": "2 Chaos Predators", "pts": 75},
+      {"id": 31, "name": "Daemonic Assault Engine", "pts": 50},
 
       {"id": 34, "name": "Greater Brass Scorpion", "pts": 175},
       {"id": 35, "name": "Slaughterfiend", "pts": 50},
@@ -96,7 +94,6 @@
       {"max": 1, "from": [27]},
       {"max": 1, "from": [28]},
       {"max": 1, "from": [30]},
-      {"max": 1, "from": [31]},
       {"max": 1, "from": [33]},
       {"max": 2, "from": [38]},
       {"max": 1, "from": [39,24,21]},
@@ -107,6 +104,7 @@
       {"min": 1, "max": 1, "from": [15,13,14], "appliesTo": [533]},
       {"min": 1, "max": 1, "from": [50,51], "appliesTo": [536]},
       {"min": 4, "max": 5, "from": [35], "appliesTo": [541]},
+      {"min": 4, "max": 5, "from": [31], "appliesTo": [542]},
       {"min": 1, "max": 3, "from": [34], "appliesTo": [551]}
 
    ]
