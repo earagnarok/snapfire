@@ -21,7 +21,7 @@
 			{"id":521, "name":"Heavy Siege Tanks",	"pts":25, "upgrades":[57]}
 		]},
 		{"name":"DARK MECHANICUS, TRAITOR TITAN AND CHAOS NAVY FORMATIONS <br/> Max 33%", "formations":[
-			{"id":532, "name":"Maulerfiends", "pts":225, "units":"4 Maulerfiends", "upgrades":[]},
+			{"id":532, "name":"Maulerfiends", "pts":200, "units":"4 Maulerfiends", "upgrades":[]},
 			{"id":533, "name":"Ordinatus Hereticus", "pts":325, "upgrades":[]},
 			{"id":534, "name":"Ordinatus Cyclothrathe", "pts":475, "upgrades":[]},
 			{"id":537, "name":"Heldrakes",	"pts":225, "units":"2 Heldrakes", "upgrades":[]},
