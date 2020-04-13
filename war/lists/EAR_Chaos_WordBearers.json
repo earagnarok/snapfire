@@ -19,13 +19,14 @@
 			{"id":502, "name":"Chaos Terminators", "pts":150, "units":"Daemonic Pact", "upgrades":[50,14,41,47,80]}
 		]},
 		{"name":"DAEMON ENGINE FORMATIONS <br/> Max 2 for each Cultist Coven", "formations":[
+			{"id":512, "name":"Cerberites", "pts":175, "units": "3 Cerberites", "upgrades":[]},
             {"id":515, "name":"Forgefiends", "pts": 225, "units": "3 Forgefiends", "upgrades": []},
-			{"id":513, "name":"Defiler Pack", "pts":25, "upgrades":[63]},
-			{"id":512, "name":"Decimator", "pts":225, "upgrades":[]},
-			{"id":511, "name":"Death Wheel",	"pts":275, "upgrades":[]},
-			{"id":510, "name":"Shrine of Chaos",	"pts":300, "upgrades":[]}
+			{"id":513, "name":"Maulerfiends", "pts":225, "units": "4 Maulerfiends", "upgrades":[]},
+			{"id":514, "name":"Defilers", "pts":225, "units": "4 Defilers", "upgrades":[]}
 		]},
-		{"name":"CHAOS NAVY FORMATIONS <br/> Max 25%", "formations":[
+		{"name":"WAR ENGINES & CHAOS NAVY FORMATIONS <br/> Max 33%", "formations":[
+			{"id":511, "name":"Death Wheel",	"pts":275, "upgrades":[]},
+			{"id":510, "name":"Shrine of Chaos",	"pts":300, "upgrades":[]},
             {"id":516, "name":"Heldrakes", "pts": 225, "units": "2 Heldrakes", "upgrades": []},
 			{"id":517, "name":"Chaos Stormbird",	 "pts":300, "upgrades":[]},
 			{"id":536, "name":"Harbringer Bomber", 	"pts":300, "upgrades":[]},
@@ -82,10 +83,10 @@
 	"formationConstraints":[
 		{"max":1, "name":"Spacecraft", "from":[520,521]},
 		{"max":1, "name":"Word Bearers Cultist Coven", "from":[501], "forEach":[500], "name2":"Word Bearers Retinue"},
-		{"max":2, "name":"Daemon Engine formations", "from":[513,514,515,511,512,510], "forEach":[501], "name2":"Word Bearers Cultist Coven"},
+		{"max":2, "name":"Daemon Engine formations", "from":[513,514,515,512], "forEach":[501], "name2":"Word Bearers Cultist Coven"},
 		{"max":2, "name":"Word Bearers Elite formations", "from":[502,503,504,505,506,507], "forEach":[500], "name2":"Word Bearers Retinue"},
 		{"min":1, "max":1, "from":[666]},
-		{"maxPercent": 25.5, "name":"Chaos Navy", "from":[516,517,518,519,520,521,536]}
+		{"maxPercent": 33.5, "name":"War Engines & Chaos Navy", "from":[511,516,517,518,519,520,521,536,510]}
 	],
 	"upgradeConstraints":[
 		{"max":1, "perArmy":true, "from":[12,13,10]},
@@ -107,9 +108,7 @@
 		{"min":4, "max":6, "from":[50], "appliesTo":[502]},
 		{"min":0, "max":6, "from":[41], "appliesTo":[502]},
 
-		{"min":1, "max":1, "from":[38,39], "appliesTo":[507]},
-
-		{"min":4, "max":6, "from":[63], "appliesTo":[513]}
+		{"min":1, "max":1, "from":[38,39], "appliesTo":[507]}
 
 	]
 }

@@ -16,15 +16,15 @@
           {"id": 534, "name": "Destroyers", "pts": 225, "units": "4 Chaos Destroyers, Daemonic Pact", "upgrades": []},
           {"id": 536, "name": "Chaos Space Marines", "pts": 275, "units": "6 Chaos Space Marines, Daemonic Pact",  "upgrades": [18,30]},
             {"id": 533, "name": "Berzerker Bikes", "pts": 300, "units": "6 Khorne Berzerker Assault Bikes, Daemonic Pact", "upgrades": [26,27]},
-            {"id": 531, "name": "Juggernauts", "pts": 325, "units": "6 Juggernaut Riders, Daemonic Pact", "upgrades": [26,27]}
+            {"id": 531, "name": "Juggernauts", "pts": 300, "units": "6 Juggernaut Riders, Daemonic Pact", "upgrades": [26,27]}
        ]},
 
       {"name": "WORLD EATERS SUPPORT FORMATIONS <br/> Max 2 for each World Eaters Core Formation", "formations": [
           {"id": 544, "name": "Doomblasters", "pts": 175, "units": "3 Doomblasters", "upgrades": []},
+            {"id": 541, "name": "Khorne Defiler Pack", "pts": 0, "upgrades": [35]},
           {"id": 551, "name": "Greater Brass Scorpions", "pts": 50, "upgrades": [34]},
           {"id": 543, "name": "Cannons of Khorne", "pts": 225, "units": "4 Cannons of Khorne", "upgrades": []},
-            {"id": 541, "name": "Khorne Defiler Pack", "pts": 25, "upgrades": [35]},
-            {"id": 542, "name": "Daemonic Assault Engines", "pts": 25,  "upgrades": [31]}
+            {"id": 542, "name": "Daemonic Assault Engines", "pts": 225, "units": "4 Daemonic Assault Engines",  "upgrades": []}
        ]},
 
       {"name": "WAR ENGINES AND CHAOS NAVY <br/> Max 33%", "formations": [
@@ -103,8 +103,7 @@
       {"min": 1, "max": 1, "from": [15,13,14], "appliesTo": [521,531,532]},
       {"min": 1, "max": 1, "from": [15,13,14], "appliesTo": [533]},
       {"min": 1, "max": 1, "from": [50,51], "appliesTo": [536]},
-      {"min": 4, "max": 5, "from": [35], "appliesTo": [541]},
-      {"min": 4, "max": 5, "from": [31], "appliesTo": [542]},
+      {"min": 4, "max": 6, "from": [35], "appliesTo": [541]},
       {"min": 1, "max": 3, "from": [34], "appliesTo": [551]}
 
    ]

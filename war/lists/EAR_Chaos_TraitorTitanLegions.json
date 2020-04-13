@@ -19,7 +19,7 @@
 
 		{"name":"DAEMON ENGINE FORMATIONS <br/> Max 3 per Battle Titan formation <br/> Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
 			{"id":550, "name":"Chaos Knight",			"pts":25, "units": "Daemonic Locus", "upgrades":[]},
-			{"id":551, "name":"Defilers",				"pts":225, "upgrades":[140]}
+			{"id":551, "name":"Defilers",				"pts":200, "upgrades":[]}
 		]},
 
 			{"name":"HELL-FORGE & CHAOS NAVY ALLIES <br/> Max 33%", "formations":[
@@ -117,19 +117,11 @@
 
 		{"id":110,	"name":"6 Chaos Rhinos",	"pts":50},
 
-		{"id":120,	"name":"4 Defilers of Chaos Undivided",	"pts":0},
-		{"id":121,	"name":"4 Debasers of Slaanesh",	"pts":0},
-		{"id":122,	"name":"4 Desecrators of Nurgle",	"pts":0},
+		{"id":120,	"name":"4 Defilers of Chaos Undivided",	"pts":25},
+		{"id":121,	"name":"4 Debasers of Slaanesh",	"pts":25},
+		{"id":122,	"name":"4 Desecrators of Nurgle",	"pts":25},
 		{"id":123,	"name":"4 Slaughterfiends of Khorne",	"pts":0},
-		{"id":124,	"name":"4 Decievers of Tzeentch",	"pts":25},
-
-		{"id":130,	"name":"5 Defilers of Chaos Undivided",	"pts":50},
-		{"id":131,	"name":"5 Debasers of Slaanesh",	"pts":50},
-		{"id":132,	"name":"5 Desecrators of Nurgle",	"pts":50},
-		{"id":133,	"name":"5 Slaughterfiends of Khorne",	"pts":50},
-		{"id":134,	"name":"5 Decievers of Tzeentch",	"pts":75},
-
-		{"id":140,	"name":"Daemonic Pact",	"pts":25},
+		{"id":124,	"name":"4 Decievers of Tzeentch",	"pts":50},
 
 		{"id":450,	"name":"Lesser Daemon Pool Point",	"pts":15},
 		{"id":451,	"name":"Lesser Daemon Pool Point (1 for each Daemonic Pact. 1 extra for each Daemonic Herald, 2 extra for each Eye of the Gods",	"pts":0}
@@ -169,7 +161,7 @@
       {"min": 4, "max": 5, "from": [87], "appliesTo": [540]},
 
       {"min": 1, "max": 1, "from": [88,89,80,81,82,83], "appliesTo": [550]},
-      {"min": 1, "max": 1, "from": [120,121,122,123,124, 130,131,132,133,134], "appliesTo": [551]},
+      {"min": 1, "max": 1, "from": [123,121,122,120,124], "appliesTo": [551]},
 
   	  {"min": 1, "max": 1, "from": [98,99], "appliesTo": [582]},
 

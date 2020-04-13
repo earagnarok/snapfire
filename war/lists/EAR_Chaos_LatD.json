@@ -24,7 +24,7 @@
 			{"id":509, "name":"Contagion Engines of Nurgle", "pts":325, "units":"4 Contagion Engines", "upgrades":[]},
 			{"id":512, "name":"Doomblasters of Khorne", "pts":175, "units":"3 Doomblasters", "upgrades":[]},
 			{"id":502, "name":"Cannons of Khorne", "pts":225, "units":"4 Cannons of Khorne", "upgrades":[]},
-			{"id":511, "name":"Daemonic Assault Engines of Khorne",	"pts":225, "units":"4 Daemonic Assault Engines", "upgrades":[]},
+			{"id":511, "name":"Daemonic Assault Engines of Khorne",	"pts":250, "units":"4 Daemonic Assault Engines", "upgrades":[]},
 			{"id":513, "name":"Khorne Lord of Battles", 	"pts":425, "upgrades":[]},
 			{"id":514, "name":"Silver Towers of Tzeentch",	"pts":300, "units":"4 Silver Towers", "upgrades":[]},
 			{"id":515, "name":"Warp Palace of Tzeentch",	"pts":500, "upgrades":[]},

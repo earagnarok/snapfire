@@ -19,7 +19,7 @@
 		{"name":"DAEMONIC PACK FORMATIONS <br/> Max 1 for each Daemonic Lance formation <br/> Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
 			{"id":510, "name":"Hell-Striders of Slaanesh",		"pts":25,  "upgrades":[92]},
 			{"id":511, "name":"Defilers of Nurgle",				"pts":25,  "upgrades":[94]},
-			{"id":512, "name":"Defilers of Khorne",				"pts":25,  "upgrades":[93]},
+			{"id":512, "name":"Defilers of Khorne",				"pts":0,  "upgrades":[93]},
 			{"id":513, "name":"Defilers of Tzeentch",			"pts":50, "upgrades":[95]},
 			{"id":515, "name":"Armigers of Chaos Undivided",	"pts":25, "upgrades":[]}
 		]},
