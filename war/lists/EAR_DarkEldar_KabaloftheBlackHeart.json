@@ -13,12 +13,12 @@
 			{"id":513, "name":"Black Heart Flotilla", "pts":25, "upgrades":[61]}
 		]},
 		{"name":"BLACK HEART PARTISANS <br/> Max 2 for each Kabal", "formations":[
+			{"id":505, "name":"Reaver Gang", "pts":25, "upgrades":[83]},
+			{"id":503, "name":"Wych Cult", "pts":200, "units":"4 Wyches", "upgrades":[70,40,41,72]},
+			{"id":504, "name":"Hellion Murder", "pts":200, "units":"6 Hellions", "upgrades":[62]},
+			{"id":506, "name":"Mandrake Throng", "pts":200, "units":"6 Mandrakes", "upgrades":[]},
 			{"id":501, "name":"Haemonculi Coven", "pts":225, "units":"2 Haemonculi, 4 Wracks", "upgrades":[65,70,40,41,72,73,74]},
 			{"id":502, "name":"Talos Swarm", "pts":225, "upgrades":[]},
-			{"id":503, "name":"Wych Cult", "pts":175, "units":"4 Wyches", "upgrades":[70,40,41,72]},
-			{"id":504, "name":"Hellion Murder", "pts":175, "units":"6 Hellions", "upgrades":[62]},
-			{"id":505, "name":"Reaver Gang", "pts":25, "upgrades":[83]},
-			{"id":506, "name":"Mandrake Throng", "pts":200, "units":"6 Mandrakes", "upgrades":[]},
 			{"id":507, "name":"Scourge Flight", "pts":250, "units":"6 Scourges", "upgrades":[]}
 		]},
 		{"name":"COMMORRAGH NAVY & WAR ENGINES <br/> Max 33%", "formations":[
@@ -32,7 +32,7 @@
 	],
 	"upgrades":[
 		{"id":1, "name":"Archon w/ Portable Webway Portal", "pts":50},
-		{"id":2, "name":"Dracon w/ Portable Webway Portal", "pts":75},
+		{"id":2, "name":"Dracon w/ Portable Webway Portal", "pts":100},
 		{"id":3, "name":"Haemonculus Ancient w/ Portable Webway Portal", "pts":50},
 		{"id":4, "name":"Succubus w/ Portable Webway Portal", "pts":50},
 
@@ -54,7 +54,7 @@
 		{"id":58, "name":"6 Dark Eldar Warriors", "pts":0},
 		{"id":59, "name":"8 Dark Eldar Warriors", "pts":50},
 		{"id":61, "name":"Ravager", "pts":50},
-		{"id":62, "name":"3 Warp Beasts", "pts":50},
+		{"id":62, "name":"Warp Beasts", "pts":25},
 		{"id":63, "name":"4 Dark Eldar Wyches", "pts":0},
 		{"id":64, "name":"6 Dark Eldar Wyches", "pts":50},
 		{"id":65, "name":"2 Grotesques", "pts":50},
@@ -93,7 +93,7 @@
 		{"min":4, "max":6, "name":"Ravagers", "from":[61], "appliesTo":[513]},
 		{"min":1, "max":1, "from":[75,76,77], "appliesTo":[502]},
 		{"min":6, "max":8, "name":"Reaver Jet Bikes", "from":[83], "appliesTo":[505]},
-		{"max":1, "from":[62],  "appliesTo":[504]},
+		{"max":2, "from":[62],  "appliesTo":[504]},
 		{"max":1, "from":[72]},
 		{"max":1, "from":[73,74]},
 		{"max":2, "from":[61], "appliesTo":[511,512]},
