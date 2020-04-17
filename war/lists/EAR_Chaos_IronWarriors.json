@@ -10,7 +10,7 @@
 		]},
 		{"name":"IRON WARRIORS ELITE FORMATIONS <br/> Max 1 for each Core formation", "formations":[
 			{"id":512, "name":"Chosen", "pts":125, "units":"4 Chosen", "upgrades":[43]},
-			{"id":522, "name":"Bezashk Destroyers",	"pts":225, "units":"4 Bezashk Destroyers", "upgrades":[]},
+			{"id":522, "name":"Bezashk Destroyers",	"pts":200, "units":"4 Bezashk Destroyers", "upgrades":[]},
 			{"id":524, "name":"Dreadnought Assault Pack", "pts":250, "upgrades":[54,55,80]},
 			{"id":513, "name":"Tyrant Terminators", "pts":275, "units":"4 Tyrant Siege Terminators",  "upgrades":[46,52,53,54,55,80]}
 		]},

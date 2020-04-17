@@ -20,7 +20,7 @@
 		{"name":"ALPHA LEGION ELITE FORMATIONS <br/> Max 1 for each Alpha Legion Marines", "formations": [
 			{ "id":520, "name":"Predators", "pts":250, "units":"4 Alpha Legion Predators", "upgrades":[] },
 			{ "id":521, "name":"Headhunters", "pts":250, "units":"4 Alpha Legion Headhunters plus transport", "upgrades":[30,12] },
-			{ "id":522, "name":"Destroyers", "pts":225,"units":"4 Alpha Legion Destroyers", "upgrades":[] },
+			{ "id":522, "name":"Destroyers", "pts":200,"units":"4 Alpha Legion Destroyers", "upgrades":[] },
 			{ "id":523, "name":"Lernaean Terminators", "pts":250,"units":"3 Lernaean Terminators plus transport", "upgrades":[30,32,12] }
 		]},
 			{"name":"ALPHA LEGION NAVY <br/> Max 25%", "formations": [
@@ -85,7 +85,7 @@
 
 		{"min":1, "max":1, "from":[13,45,14,39], "appliesTo":[500]},
 
-		{"min":1, "max":1, "from":[10,11], "appliesTo":[501,521,522,523]},
+		{"min":1, "max":1, "from":[10,11], "appliesTo":[501,521,523]},
 		{"max":1, "from":[11,12], "appliesTo":[501,521,523]},
 
 		{"min":1, "max":1, "from":[20,21], "appliesTo":[501]},
