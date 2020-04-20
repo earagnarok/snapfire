@@ -15,7 +15,7 @@
 		{"name":"IMPERIAL FISTS SUPPORT DETACHMENTS <br/> Max 2 for each Core Detachment", "formations":[
             {"id":510, "name":"Land Speeders",	         		"pts":200, "upgrades":[10,11,12,13]},
             {"id":511, "name":"Terminators",	               	"pts":325, "units":"4 Terminators", "upgrades":[10,11,12,13, 26,27, 28,29]},
-            {"id":512, "name":"Centurions",		                "pts":275, "upgrades":[26,27, 28,29, 65,66,67,68]},
+            {"id":512, "name":"Centurions",		                "pts":250, "upgrades":[26,27, 28,29, 65,66,67,68]},
 			{"id":513, "name":"Scouts",							"pts":150, "units":"4 Scouts plus transport",  "upgrades":[26,27, 44, 50,51]},
 			{"id":515, "name":"Predators",						"pts":250, "upgrades":[10,11,12,13, 15,16]},
 			{"id":516, "name":"Support Battery",				"pts":250, "upgrades":[10,11,12,13, 65,66,67,68]},
@@ -64,8 +64,8 @@
         { "id":40, "name":"Predator Annihilator",  "pts":0},
         { "id":41, "name":"Predator Destructor",   "pts":0},
 
-        { "id":42, "name":"4 Assault Centurions", "pts":0 },
-        { "id":43, "name":"4 Devastator Centurions","pts":0 },
+        { "id":42, "name":"Assault Centurions", "pts":0 },
+        { "id":43, "name":"Devastator Centurions","pts":0 },
 
         { "id":44, "name":"Snipers","pts":25 },
 
@@ -116,7 +116,7 @@
         {"min":5, "max":5, "from":[19,20,21], "appliesTo":[510]},
 		{"min":0, "max":4, "from":[28], "appliesTo":[512]},
 		{"min":0, "max":2, "from":[29], "appliesTo":[512]},
-        {"min":1, "max":1, "from":[42,43], "appliesTo":[512]},
+        {"min":4, "max":4, "from":[42,43], "appliesTo":[512]},
         {"min":1, "max":1, "from":[38,39], "appliesTo":[514]},
         {"min":4, "max":4, "from":[40,41], "appliesTo":[515]},
         {"min":6, "max":6, "from":[45,46], "appliesTo":[516]},
