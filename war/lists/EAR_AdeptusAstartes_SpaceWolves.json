@@ -35,8 +35,8 @@
 		{"id":10, "name":"Wolf Lord Captain",		"pts":0},
 		{"id":11, "name":"Great Wolf Supreme Commander",	"pts":50},
 
-		{"id":12, "name":"Chaplain", 		"pts":50},
-		{"id":13, "name":"Librarian", 		"pts":50},
+		{"id":12, "name":"Chaplain", 		"pts":25},
+		{"id":13, "name":"Librarian", 		"pts":25},
 
 		{"id":15, "name":"8 Grey Hunter Tacticals",								"pts":0},
 		{"id":16, "name":"5 Grey Hunter Tacticals, 3 Long Fang Devastators",	"pts":50},

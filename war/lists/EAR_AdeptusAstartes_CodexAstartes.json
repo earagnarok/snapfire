@@ -30,10 +30,10 @@
 		]}
 	],
 	"upgrades":[
-		{"id":10, "name":"Captain",		"pts":50},
-		{"id":11, "name":"Chaplain", 		"pts":50},
-		{"id":12, "name":"Librarian", 		"pts":50},
-		{"id":13, "name":"Supreme Commander",	"pts":100},
+		{"id":10, "name":"Captain",		"pts":25},
+		{"id":12, "name":"Chaplain", 		"pts":50},
+		{"id":11, "name":"Librarian", 		"pts":25},
+		{"id":13, "name":"Supreme Commander",	"pts":75},
 
 		{"id":15, "name":"4 Scouts plus transport",							"pts":0},
 		{"id":17, "name":"4 Scouts with 'Sniper' plus transport",				"pts":25},

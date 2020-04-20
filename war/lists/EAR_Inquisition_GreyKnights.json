@@ -32,8 +32,8 @@
          ]}
    ],
    "upgrades": [
-      {"id":10, "name":"Blood Ravens Librarian", 		"pts":50},
-      {"id":11, "name":"Blood Ravens Supreme Commander",	"pts":100},
+      {"id":10, "name":"Blood Ravens Librarian", 		"pts":25},
+      {"id":11, "name":"Blood Ravens Supreme Commander",	"pts":75},
 
       {"id":13, "name":"Grey Knights Captain","pts": 75},
 
