@@ -11,9 +11,8 @@
 		{"name":"MINERVAN SUPPORT FORMATIONS <br/> Max 3 for each Company", "formations":[
 			{"id":512, "name":"Leman Russ Platoon", 					"pts":375, "upgrades":[17,45,46,53]},
 			{"id":509, "name":"Mechanized Infantry Company", 			"pts":350, "units":"Leman Russ Conqueror with a Commissar-Captain, eight Infantry, four Chimeras", "upgrades":[17,42,43,44,53]},
-			{"id":516, "name":"Artillery Battery",						"pts":225, "upgrades":[]},
+			{"id":516, "name":"Artillery Battery",						"pts":225, "upgrades":[25]},
 			{"id":513, "name":"Tank Hunter Squadron",					"pts":200,  "units":"3 Leman Russ Destroyers", "upgrades":[]},
-			{"id":510, "name":"Deathstrike Missile Battery",			"pts":200, "upgrades":[], "units":"2 Deathstrikes"},
 			{"id":511, "name":"Super-Heavy Platoon", 					"pts":175, "upgrades":[]},
 			{"id":515, "name":"Salamander Squadron",					"pts":150, "units":"4 Salamander Scout Tanks", "upgrades":[]},
 			{"id":518, "name":"Light Artillery Battery",				"pts":125,  "units":"3 Griffons", "upgrades":[]}
@@ -37,6 +36,7 @@
 		{"id":20, "name":"9 Leman Russ",				"pts":0},
 		{"id":24, "name":"9 Leman Russ Punishers",	"pts":0},
 
+		{"id":25, "name":"Deathstrike",					"pts":75},
 
 		{"id":26, "name":"Baneblade",					"pts":0},
 		{"id":27, "name":"Shadowsword",					"pts":25},
@@ -96,6 +96,7 @@
 	"upgradeConstraints":[
 		{"max":1, "perArmy":true, "from":[10,14]},
 		{"max":3, "from":[17]},
+		{"max":1, "from":[25]},
 		{"max":1, "from":[42,43,44]},
 		{"max":1, "from":[45,46]},
 		{"max":1, "from":[53]},

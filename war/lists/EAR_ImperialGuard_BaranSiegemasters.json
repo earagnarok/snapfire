@@ -11,9 +11,8 @@
 		{"name":"SUPPORT FORMATIONS <br/> 2 for each Core Company", "formations":[
 			{"id":515, "name":"Heavy Tank Emplacement",			"pts":375, "upgrades":[]},
 			{"id":520, "name":"Macharius Company", 				"pts":325,  "units":"2 Macharius", "upgrades":[]},
-			{"id":513, "name":"Deathstrike Emplacement",		"pts":250, "upgrades":[], "units":"Deathstrike Silo"},
 			{"id":518, "name":"Sapper Company",					"pts":250, "upgrades":[], "units":"Baran Commander with a Commissar, 7 Sappers, Hades Breaching Drill"},
-			{"id":511, "name":"Siege Artillery Emplacement", 	"pts":225, "upgrades":[]},
+			{"id":511, "name":"Artillery Emplacement", 			"pts":250, "upgrades":[15]},
 			{"id":519, "name":"Super-Heavy Platoon", 			"pts":175, "upgrades":[]},
 			{"id":510, "name":"Howitzer Emplacement", 			"pts":175, "upgrades":[]},
 			{"id":514, "name":"Flak Emplacement", 				"pts":175, "upgrades":[], "units":"4 Heavy AA Guns, 4 Gun Emplacements"},
@@ -31,8 +30,11 @@
 		{"id":9, "name":"Heavy Tank Company: Commissar, 2 Malcadors, 6 Ragnarok Heavy Tanks, 6 Gun Emplacements",	"pts":200},
 		{"id":10, "name":"Howitzer Battery: 3 Howitzers, 3 Gun Emplacements",			"pts":0},
 		{"id":11, "name":"Howitzer Company: Commissar, 6 Howitzers, 6 Gun Emplacements",	"pts":175},
-		{"id":12, "name":"3 Bombards and 3 Gun Emplacements",								"pts":0},
-		{"id":13, "name":"4 Medusa and 4 Gun Emplacements",								"pts":0},
+		{"id":12, "name":"3 Basilisk and 3 Gun Emplacements",								"pts":0},
+		{"id":13, "name":"3 Bombards and 3 Gun Emplacements",								"pts":0},
+		{"id":14, "name":"4 Medusa and 4 Gun Emplacements",								"pts":0},
+		{"id":15, "name":"Deathstrike and Gun Emplacement",								"pts":75},
+
 		{"id":16, "name":"Baneblade",								"pts":0},
 		{"id":26, "name":"Shadowsword",								"pts":25},
 		{"id":17, "name":"Stormsword",								"pts":0},
@@ -68,7 +70,7 @@
 
 		{"min":1, "max":1, "from":[10,11], "appliesTo":[510]},
 
-		{"min":1, "max":1, "from":[12,13], "appliesTo":[511]},
+		{"min":1, "max":1, "from":[12,13,14], "appliesTo":[511]},
 
 		{"min":1, "max":1, "from":[8,9,7], "appliesTo":[515]},
 
@@ -76,6 +78,7 @@
 
 		{"min":1, "max":1, "from":[40,41], "appliesTo":[520]},
 
+		{"max":1, "from":[15]},
 		{"max":1, "from":[18]},
 		{"max":1, "from":[20]},
 		{"max":1, "from":[21]},

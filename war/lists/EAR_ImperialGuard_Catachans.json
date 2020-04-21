@@ -11,7 +11,7 @@
 			{"id":512, "name":"Leman Russ Platoon", "pts":375, "upgrades":[20] },
 			{"id":517, "name":"Vulture Squadron", "pts":300, "upgrades":[]},
 			{"id":510, "name":"Veteran Company", "pts":200, "upgrades":[22,10,11], "units":"Catachan Commander, 7 Death World Veterans"},
-			{"id":516, "name":"Deathstrike Battery", "pts":200, "units":"2 Deathstrikes", "upgrades":[]},
+			{"id":516, "name":"Artillery Battery", "pts":225, "units":"3 Basilisks", "upgrades":[30]},
 			{"id":515, "name":"Super-Heavy Platoon", "pts":175, "upgrades":[16,20] },
 			{"id":518, "name":"Mortar Battery", "pts":150, "upgrades":[16], "units":"3 Heavy Mortars"},
 			{"id":514, "name":"Hellhound Squadron", "pts":125, "upgrades":[], "units":"3 Hellhounds"},
@@ -50,6 +50,8 @@
 		{ "id":27, "name":"6 Leman Russ Exterminators", "pts":0},
 		{ "id":28, "name":"6 Leman Russ", "pts":0},
 
+		{ "id":30, "name":"Deathstrike", "pts":75 },
+
 		{ "id":50, "name":"Hellhammer", "pts":0 },
 		{ "id":51, "name":"Shadowsword", "pts":25 },
 		{ "id":52, "name":"Stormblade", "pts":0 },
@@ -70,6 +72,7 @@
 		{"max":1, "from":[20]},
 		{"max":1, "from":[21]},
 		{"max":1, "from":[24]},
+		{"max":1, "from":[30]},
 
 		{"min":1, "max":1, "from":[22,17,18,10,11], "appliesTo":[500,501]},
 		{"min":7, "max":7, "from":[13,15], "appliesTo":[500,501]},

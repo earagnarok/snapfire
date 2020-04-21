@@ -5,10 +5,10 @@
 
 	"sections":[
 		{"name":"IMPERIAL FISTS CORE DETACHMENTS", "formations":[
-			{"id":501, "name":"Tacticals",					"pts":275, "units":"6 Tacticals", "upgrades":[10,11,12,13, 15,16, 26,27, 28,29,30, 50,51]},
-            {"id":502, "name":"Devastators",				"pts":250, "units":"4 Devastators", "upgrades":[10,11,12,13, 15,16, 26,27, 28,29,30, 50,51]},
+			{"id":501, "name":"Tacticals",					"pts":275, "units":"6 Tacticals", "upgrades":[10,11,12,13, 15,16, 26,27, 28,29, 50,51]},
+            {"id":502, "name":"Devastators",				"pts":250, "units":"4 Devastators", "upgrades":[10,11,12,13, 15,16, 26,27, 28,29, 50,51]},
 			{"id":514, "name":"Whirlwinds",						"pts":275, "upgrades":[10,11,12,13, 15,16]},
-            {"id":503, "name":"Land Raiders",		     	"pts":250, "units":"3 Land Raiders", "upgrades":[15,16, 26,27, 36]},
+            {"id":503, "name":"Land Raiders",		     	"pts":250, "units":"3 Land Raiders", "upgrades":[15,16, 26,27]},
             {"id":504, "name":"Vindicators",		      	"pts":225, "upgrades":[10,11,12,13, 15,16]}
 
 		]},

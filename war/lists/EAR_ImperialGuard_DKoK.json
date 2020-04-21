@@ -12,11 +12,10 @@
 			{ "id":510, "name":"Grenadier Company", "pts":300, "units":"DKoK Commander with a Commissar, 7 Grenadiers", "upgrades":[32] },
 			{ "id":511, "name":"Leman Russ Platoon", "pts":375, "upgrades":[32] },
 			{ "id":512, "name":"Macharius Company", "pts":325, "units":"2 Macharius", "upgrades":[] },
-			{ "id":513, "name":"Earthshaker Battery", "pts":225, "upgrades":[] },
-			{ "id":514, "name":"Siege Artillery Battery", "pts":225, "upgrades":[] },
+			{ "id":513, "name":"Earthshaker Battery", "pts":225, "upgrades":[21] },
+			{ "id":514, "name":"Siege Artillery Battery", "pts":225, "upgrades":[21] },
 			{ "id":515, "name":"Siege Infantry Company", "pts":200, "units":"DKoK Commander with a Commissar, 9 Siege Infantry", "upgrades":[16,17,18,19,35,36,20] },
 			{ "id":517, "name":"Rough Rider Platoon", "pts":150, "units":"6 Rough Riders", "upgrades":[] },
-			{ "id":518, "name":"Deathstrike Battery", "pts":200, "units":"2 Deathstrikes", "upgrades":[] },
 			{ "id":519, "name":"Flak Battery", "pts":150, "units":"3 Heavy AA Guns, 3 Trojans", "upgrades":[] },
 			{ "id":520, "name":"Super-Heavy Platoon", "pts":175, "upgrades":[] }
 		]},
@@ -37,6 +36,8 @@
 		{"id":18, "name":"4 Rapiers",								"pts":75},
 		{"id":19, "name":"3 Thudd Guns",							"pts":75},
 		{"id":20, "name":"60cm Trenches, 60cm Razorwire",	"pts":50},
+
+		{ "id":21, "name":"Deathstrike", "pts":75},
 
 		{ "id":22, "name":"4 Storm Chimeras", "pts":0},
 		{ "id":23, "name":"Gorgon", "pts":25},
