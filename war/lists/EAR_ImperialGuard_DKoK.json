@@ -14,7 +14,7 @@
 			{ "id":512, "name":"Macharius Company", "pts":325, "units":"2 Macharius", "upgrades":[] },
 			{ "id":513, "name":"Earthshaker Battery", "pts":225, "upgrades":[21] },
 			{ "id":514, "name":"Siege Artillery Battery", "pts":225, "upgrades":[21] },
-			{ "id":515, "name":"Siege Infantry Company", "pts":200, "units":"DKoK Commander with a Commissar, 9 Siege Infantry", "upgrades":[16,17,18,19,35,36,20] },
+			{ "id":515, "name":"Siege Infantry Company", "pts":200, "units":"DKoK Commander with a Commissar, 9 Siege Infantry", "upgrades":[16,17,18,19,20] },
 			{ "id":517, "name":"Rough Rider Platoon", "pts":150, "units":"6 Rough Riders", "upgrades":[] },
 			{ "id":519, "name":"Flak Battery", "pts":150, "units":"3 Heavy AA Guns, 3 Trojans", "upgrades":[] },
 			{ "id":520, "name":"Super-Heavy Platoon", "pts":175, "upgrades":[] }
