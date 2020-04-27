@@ -50,7 +50,7 @@
 		{ "id":27, "name":"6 Leman Russ Exterminators", "pts":0},
 		{ "id":28, "name":"6 Leman Russ", "pts":0},
 
-		{ "id":30, "name":"Deathstrike", "pts":75 },
+		{ "id":30, "name":"Deathstrike", "pts":50 },
 
 		{ "id":50, "name":"Hellhammer", "pts":0 },
 		{ "id":51, "name":"Shadowsword", "pts":25 },

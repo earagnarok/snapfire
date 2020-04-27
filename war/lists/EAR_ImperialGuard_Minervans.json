@@ -36,7 +36,7 @@
 		{"id":20, "name":"9 Leman Russ",				"pts":0},
 		{"id":24, "name":"9 Leman Russ Punishers",	"pts":0},
 
-		{"id":25, "name":"Deathstrike",					"pts":75},
+		{"id":25, "name":"Deathstrike",					"pts":50},
 
 		{"id":26, "name":"Baneblade",					"pts":0},
 		{"id":27, "name":"Shadowsword",					"pts":25},

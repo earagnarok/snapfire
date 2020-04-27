@@ -37,7 +37,7 @@
 		{"id":19, "name":"3 Thudd Guns",							"pts":75},
 		{"id":20, "name":"60cm Trenches, 60cm Razorwire",	"pts":50},
 
-		{ "id":21, "name":"Deathstrike", "pts":75},
+		{ "id":21, "name":"Deathstrike", "pts":50},
 
 		{ "id":22, "name":"4 Storm Chimeras", "pts":0},
 		{ "id":23, "name":"Gorgon", "pts":25},

@@ -53,7 +53,7 @@
 
 		{"id":54, "name":"3 Ragnarok Heavy Tanks",		"pts":150},
 
-		{"id":60, "name":"Deathstrike",		"pts":75},
+		{"id":60, "name":"Deathstrike",		"pts":50},
 
 		{"id":64, "name":"Snipers",						"pts":25},
 		{"id":65, "name":"2 Snipers",					"pts":50},
