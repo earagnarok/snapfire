@@ -1,0 +1,148 @@
+{
+  "id": "EA-R Genestealer Cult",
+  "version": "0.9",
+  "by": "EA-Ragnarok",
+  "sections": [
+    {
+      "name": "Acolyte Formations",
+      "formations": [
+        {
+          "id": 500,
+          "name": "Broodcoven",
+          "units": "Genestealer Patriarch",
+          "pts": 125,
+          "upgrades": [ 13, 14, 20, 21, 30, 31 ]
+        },
+        {
+          "id": 501,
+          "name": "Acolyte Coven",
+          "pts": 0,
+          "upgrades": [ 13, 14, 20, 21, 30, 31, 91, 92 ]
+        }
+      ]
+    },
+    {
+      "name": "Neophyte Formations <br> one per Acolyte Formation",
+      "formations": [
+        {
+          "id": 510,
+          "name": "Infantry Platoon",
+          "pts": 0,
+          "upgrades": [ 42, 50, 51 ]
+        },
+        {
+          "id": 511,
+          "name": "Neophyte Outriders",
+          "pts": 50,
+          "upgrades": [ 32 ]
+        },
+        {
+          "id": 513,
+          "name": "Mechanized Infantry Platoon",
+          "pts": 0,
+          "upgrades": [ 50, 51, 53 ]
+        }
+      ]
+    },
+    {
+      "name": "Neophyte Support Formations <br> one per Neophyte Formation",
+      "formations": [
+        {
+          "id": 512,
+          "name": "Leman Russ Platoon",
+          "units": "6x Leman Russ",
+          "pts": 375,
+          "upgrades": [  ]
+        },
+        {
+          "id": 514,
+          "name": "Sentinel Squadron",
+          "units": "4x Sentinel",
+          "pts": 100,
+          "upgrades": [ ]
+        },
+        {
+          "id": 515,
+          "name": "Thunderbolts",
+          "units": "Two Thunderbolts",
+          "pts": 150,
+          "upgrades": [ ]
+        }
+      ]
+    },
+    {
+      "name": "Purestrain Formations <br> max 25%",
+      "formations": [
+        {
+          "id": 530,
+          "name": "Genestealer Swarm",
+          "units": "Brood Lord",
+          "pts": 25,
+          "upgrades": [ 60 ]
+        }
+      ]
+    }
+  ],
+  "upgrades": [
+    { "id": 10, "name": "Acolyte Honourguard", "pts": 25 },
+    { "id": 11, "name": "Acolyte Iconward", "pts": 25 },
+		{ "id": 12, "name": "Acolytes", "pts": 25 },
+		{ "id": 13, "name": "Hybrid Aberrants", "pts": 30 },
+		{ "id": 14, "name": "Hybrid Metamorph", "pts": 20 },
+
+		{ "id":20, "name":"Land Transporter", "pts": 15 },
+		{ "id":21, "name":"Technical", "pts": 25 },
+
+		{ "id":30, "name":"Goliath Truck", "pts": 25 },
+		{ "id":31, "name":"Goliath Rockgrinder", "pts": 30 },
+		{ "id":32, "name":"Ridge Runner", "pts": 20 },
+
+    { "id":40, "name":"Neophyte Commander", "pts": 50 },
+    { "id":41, "name":"Neophytes", "pts": 25 },
+    { "id":42, "name":"2x Neophyte Fire Support", "pts": 75 },
+    { "id":43, "name":"Neophyte Outrider", "pts": 25 },
+
+    { "id":50, "name":"Hydra", "pts": 50 },
+    { "id":51, "name":"3x Leman Russ", "pts": 125 },
+    { "id":52, "name":"Chimera", "pts": 25 },
+    { "id":53, "name":"Hellhound", "pts": 25 },
+
+    { "id":60, "name":"Genestealer", "pts": 25 },
+
+		{ "id":91, "name":"Genestealer Magus", "pts": 50 },
+		{ "id":92, "name":"Genestealer Primus", "pts": 50 }
+  ],
+  "formationConstraints": [
+    { "min": 1, "max": 1, "from": [ 500 ] },
+    {"max":1, "name":"Neophyte Formation", "from":[510, 511, 513], "forEach":[500, 501], "name2":"Acolyte Formation"},
+    {"max":1, "name":"Neophyte Support Formation", "from":[512, 514, 515], "forEach":[510, 511, 513], "name2":"Neophyte Formation"},
+    {"maxPercent": 25, "name":"Purestrain Formations", "from":[530]}
+  ],
+  "upgradeConstraints": [
+		{"min": 6, "max": 6, "from": [ 10 ], "appliesTo": [ 500 ] },
+
+		{"min": 1, "max": 1, "from": [ 11 ], "appliesTo": [ 501 ] },
+		{"min": 7, "max": 7, "from": [ 12 ], "appliesTo": [ 501 ] },
+
+    {"min": 1, "max": 1, "from": [ 40 ], "appliesTo": [ 510 ] },
+    {"min": 7, "max": 7, "from": [ 41 ], "appliesTo": [ 510 ] },
+
+    {"min": 6, "max": 6, "from": [ 43 ], "appliesTo": [ 511 ] },
+
+    {"min": 1, "max": 1, "from": [ 40 ], "appliesTo": [ 513 ] },
+    {"min": 5, "max": 5, "from": [ 41 ], "appliesTo": [ 513 ] },
+    {"min": 3, "max": 3, "from": [ 52 ], "appliesTo": [ 513 ] },
+
+    {"min": 6, "max": 9, "from": [ 60 ], "appliesTo": [ 530 ] },
+
+		{"max": 5, "from": [ 13, 14 ], "name": "Hybrids" },
+		{"max": 1, "from": [ 91, 92 ], "name": "Coven Leader" },
+		{"max": 2, "from": [ 21 ] },
+
+    {"max": 3, "from": [ 32 ] },
+    {"max": 1, "from": [ 42 ] },
+    {"max": 1, "from": [ 50 ] },
+    {"max": 1, "from": [ 51 ] },
+    {"max": 3, "from": [ 53 ] }
+  ]
+}
