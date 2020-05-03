@@ -47,7 +47,7 @@
 		{"id":117, "name":"3 Squat Rhinos",				"pts":25},
 
 		{"id":118, "name":"4 Squat Rhinos",				"pts":0},
-		{"id":119, "name":"4 Termites",				"pts":0},
+		{"id":119, "name":"4 Termites",				"pts":25},
 
 		{"id":120, "name":"Dragon Battle Car",			                  "pts":75},
 		{"id":121, "name":"Siege Mortar Battle Car",			       	"pts":75},
@@ -66,9 +66,9 @@
 		{"id":136, "name":"2 Termites",				"pts":0},
 		{"id":137, "name":"2 Land Raiders",				"pts":75},
 
-		{"id":140, "name":"Rhino",				"pts":10},
+		{"id":140, "name":"Squat Rhino",				"pts":10},
 		{"id":141, "name":"Land Raider",				"pts":50},
-		{"id":142, "name":"Termite",				"pts":10},
+		{"id":142, "name":"Termite",				"pts":15},
 		{"id":143, "name":"Hellbore Transport",				"pts":25},
 		{"id":144, "name":"Leviathan",				"pts":275},
 		{"id":145, "name":"Leviathan w/ Living Ancestor",				"pts":300}

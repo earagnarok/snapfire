@@ -22,21 +22,21 @@
             {"id": 514, "name": "Big Mek Dreadmob (Big)", "pts": -20, "upgrades": [100,101,102]},
             {"id": 515, "name": "Big Mek Dreadmob ('Uge)", "pts": -55, "upgrades": [100,101,102]},
 
-            {"id": 516, "name": "Big Mek Loota Warband", "pts": 225, "units":"4 Boyz, 2 Grotz, Gunfortress", "upgrades": [11,12,13,14,102,104,105]},
-            {"id": 517, "name": "Big Mek Loota Warband (Big)", "pts": 375, "units":"8 Boyz, 4 Grotz, 2 Gunfortress", "upgrades": [11,12,13,14,102,104,105]},
-            {"id": 518, "name": "Big Mek Loota Warband ('Uge)", "pts": 525, "units":"12 Boyz, 6 Grotz, 3 Gunfortress", "upgrades": [11,12,13,14,102,104,105]},
+            {"id": 516, "name": "Big Mek Loota Warband", "pts": 200, "units":"4 Boyz, 2 Grotz, Gunfortress", "upgrades": [11,12,14,102,104,105]},
+            {"id": 517, "name": "Big Mek Loota Warband (Big)", "pts": 350, "units":"8 Boyz, 4 Grotz, 2 Gunfortress", "upgrades": [11,12,14,102,104,105]},
+            {"id": 518, "name": "Big Mek Loota Warband ('Uge)", "pts": 500, "units":"12 Boyz, 6 Grotz, 3 Gunfortress", "upgrades": [11,12,14,102,104,105]},
 
-            {"id": 519, "name": "Big Mek Runn'n Gunz", "pts": 225, "units":"4 Big Guns, 2 Grotz, Battlefortress", "upgrades": [11,12,13,14,102,104,105]},
-            {"id": 520, "name": "Big Mek Runn'n Gunz (Big)", "pts": 375, "units":"8 Big Guns, 4 Grotz, 2 Battlefortress", "upgrades": [11,12,13,14,102,104,105]},
-            {"id": 521, "name": "Big Mek Runn'n Gunz ('Uge)", "pts": 525, "units":"12 Big Guns, 6 Grotz, 3 Battlefortress", "upgrades": [11,12,13,14,102,104,105]}
+            {"id": 519, "name": "Big Mek Runn'n Gunz", "pts": 200, "units":"4 Big Guns, 2 Grotz, Battlefortress", "upgrades": [11,12,14,102,104,105]},
+            {"id": 520, "name": "Big Mek Runn'n Gunz (Big)", "pts": 350, "units":"8 Big Guns, 4 Grotz, 2 Battlefortress", "upgrades": [11,12,14,102,104,105]},
+            {"id": 521, "name": "Big Mek Runn'n Gunz ('Uge)", "pts": 500, "units":"12 Big Guns, 6 Grotz, 3 Battlefortress", "upgrades": [11,12,14,102,104,105]}
          ]
       },
       {
-         "name": "EVIL SUNZ AIRCRAFT & SPACECRAFT <br/> Max 25%",
+         "name": "BAD MOONS 'CRAFT <br/> Max 33%",
          "formations": [
-            {"id": 532, "name": "Kroozer", "pts": 0, "upgrades": []},
             {"id": 530, "name": "Fighta-Bommer Skwadron", "pts": 0, "upgrades": [20]},
-            {"id": 531, "name": "Bad Moons Bommer", "pts": 175, "upgrades": []}
+            {"id": 531, "name": "Bommer", "pts": 175, "upgrades": []},
+            {"id": 532, "name": "Kroozer", "pts": 0, "upgrades": []}
 
          ]
       }
@@ -56,7 +56,7 @@
       {"id": 101, "name": "Deff Dread", "pts": 35},
       {"id": 102, "name": "Flakwagon", "pts": 35},
       {"id": 103, "name": "Stompa", "pts": 50},
-      {"id": 104, "name": "Deth Kopta", "pts": 35},
+      {"id": 104, "name": "Deffkopta", "pts": 35},
       {"id": 105, "name": "Gunwagon", "pts": 35},
 
       {"id": 110, "name": "Supa Stompa w/ Gaze of Mork, 3 Soopaguns", "pts": 275},
@@ -93,7 +93,7 @@
       {"max": 1, "name": "Mega Gargant", "from": [501]},
       {"max": 1, "name": "Spacecraft", "from": [532]},
       {"max": 4, "name": "Big Mek Mobs", "from": [510,513,514,515,516,517,518,519,520,521],  "forEach": [501,502,503], "name2": "Gargant" },
-      {"maxPercent": 25.5, "name": "Evil Sunz Aircraft and Spacecraft", "from": [530,531,532]}
+      {"maxPercent": 33.5, "name": "Bad Moons 'Craft", "from": [530,531,532]}
    ],
    "upgradeConstraints": [
       {"max": 1, "from": [10], "perArmy": true},
@@ -109,8 +109,6 @@
       {"max": 3, "from": [11,12,13,14], "appliesTo": [521]},
 
       {"min": 2, "from": [103], "appliesTo": [510]},
-      {"min": 4, "from": [103], "appliesTo": [511]},
-      {"min": 6, "from": [103], "appliesTo": [512]},
 
       {"min": 1, "from": [101], "appliesTo": [513]},
       {"min": 2, "from": [101], "appliesTo": [514]},
@@ -120,8 +118,6 @@
       {"min": 9, "from": [100], "appliesTo": [515]},
 
       {"max": 1, "from": [110,111,112,113,114,115], "appliesTo": [510]},
-      {"max": 2, "from": [110,111,112,113,114,115], "appliesTo": [511]},
-      {"max": 3, "from": [110,111,112,113,114,115], "appliesTo": [512]},
 
       {"min": 1, "max": 1, "from": [120,121,122,123], "appliesTo": [502]},
       {"min": 2, "max": 2, "from": [140,141,142,143], "appliesTo": [502]},
