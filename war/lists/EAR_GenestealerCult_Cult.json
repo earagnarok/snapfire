@@ -27,21 +27,21 @@
       "formations": [
           {
             "id": 511,
-            "name": "Neophyte Outriders",
+            "name": "Outrider Squadron",
             "units": "6 Neophyte Outriders",
             "pts": 175,
             "upgrades": [ 32 ]
           },
         {
           "id": 510,
-          "name": "Infantry Platoon",
+          "name": "Neophyte Platoon",
           "units": "8 Neophytes",
           "pts": 200,
           "upgrades": [ 42, 50 ]
         },
         {
           "id": 512,
-          "name": "Mechanized Infantry Platoon",
+          "name": "Mechanized Neophyte Platoon",
           "units": "6 Neophytes, 3 Chimera",
           "pts": 250,
           "upgrades": [ 53, 50 ]
