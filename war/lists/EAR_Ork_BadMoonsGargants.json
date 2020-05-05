@@ -22,13 +22,9 @@
             {"id": 514, "name": "Big Mek Dreadmob (Big)", "pts": -20, "upgrades": [100,101,102]},
             {"id": 515, "name": "Big Mek Dreadmob ('Uge)", "pts": -55, "upgrades": [100,101,102]},
 
-            {"id": 516, "name": "Big Mek Loota Warband", "pts": 200, "units":"4 Boyz, 2 Grotz, Gunfortress", "upgrades": [11,12,14,102,104,105]},
-            {"id": 517, "name": "Big Mek Loota Warband (Big)", "pts": 350, "units":"8 Boyz, 4 Grotz, 2 Gunfortress", "upgrades": [11,12,14,102,104,105]},
-            {"id": 518, "name": "Big Mek Loota Warband ('Uge)", "pts": 500, "units":"12 Boyz, 6 Grotz, 3 Gunfortress", "upgrades": [11,12,14,102,104,105]},
+            {"id": 516, "name": "Big Mek Loota Warband", "pts": 225, "units":"4 Boyz, 2 Grotz, Gunfortress", "upgrades": [11,12,14,102,104,105]},
 
-            {"id": 519, "name": "Big Mek Runn'n Gunz", "pts": 200, "units":"4 Big Guns, 2 Grotz, Battlefortress", "upgrades": [11,12,14,102,104,105]},
-            {"id": 520, "name": "Big Mek Runn'n Gunz (Big)", "pts": 350, "units":"8 Big Guns, 4 Grotz, 2 Battlefortress", "upgrades": [11,12,14,102,104,105]},
-            {"id": 521, "name": "Big Mek Runn'n Gunz ('Uge)", "pts": 500, "units":"12 Big Guns, 6 Grotz, 3 Battlefortress", "upgrades": [11,12,14,102,104,105]}
+            {"id": 519, "name": "Big Mek Runn'n Gunz", "pts": 225, "units":"4 Big Guns, 2 Grotz, Battlefortress", "upgrades": [11,12,14,102,104,105]}
          ]
       },
       {
