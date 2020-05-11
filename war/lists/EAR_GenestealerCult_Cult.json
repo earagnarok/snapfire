@@ -1,6 +1,7 @@
 {
   "id": "EA-R Cult of the Rusted Claw",
   "version": "0.5.0",
+	"notes":["No more transports than needed to transport the formation."],
   "by": "EA-Ragnarok",
   "sections": [
     {
@@ -9,7 +10,7 @@
         {
           "id": 500,
           "name": "Broodcoven",
-          "units": "Genestealer Patriarch, 6 Acolyte Honourguards",
+          "units": "Genestealer Patriarch, 6 Acolyte Honour Guards",
           "pts": 275,
           "upgrades": [ 13, 14, 21, 19, 30, 31, 60 ]
         },
@@ -94,7 +95,7 @@
 		{ "id": 12, "name": "Genestealer Magus", "pts": 50 },
 		{ "id": 13, "name": "Hybrid Aberrants", "pts": 25 },
 		{ "id": 14, "name": "Hybrid Metamorphs", "pts": 20 },
-        { "id": 15, "name": "Mineshaft Infiltrators: The all units in the formation gains the 'Tunnelers' special rule (may have no other upgrades)", "pts": 0 },
+        { "id": 15, "name": "Mineshaft Infiltrators: All units in the formation gains the 'Tunnelers' special rule (may have no other upgrades)", "pts": 0 },
 
         { "id":19, "name":"Coven Limousine", "pts": 15 },
 		{ "id":20, "name":"Land Transporter", "pts": 10 },
