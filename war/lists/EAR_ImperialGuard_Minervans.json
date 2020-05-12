@@ -10,7 +10,7 @@
 		]},
 		{"name":"MINERVAN SUPPORT FORMATIONS <br/> Max 3 for each Company", "formations":[
 			{"id":512, "name":"Leman Russ Platoon", 					"pts":375, "upgrades":[17,45,46,53]},
-			{"id":509, "name":"Mechanized Infantry Company", 			"pts":350, "units":"Leman Russ Conqueror with a Commissar-Captain, eight Infantry, four Chimeras", "upgrades":[17,42,43,44,53]},
+			{"id":509, "name":"Mechanized Infantry Company", 			"pts":375, "units":"Leman Russ Conqueror with a Commissar-Captain, eight Infantry, four Chimeras", "upgrades":[17,42,43,44,53]},
 			{"id":516, "name":"Artillery Battery",						"pts":225, "upgrades":[25]},
 			{"id":513, "name":"Tank Hunter Squadron",					"pts":200,  "units":"3 Leman Russ Destroyers", "upgrades":[]},
 			{"id":511, "name":"Super-Heavy Platoon", 					"pts":175, "upgrades":[]},
