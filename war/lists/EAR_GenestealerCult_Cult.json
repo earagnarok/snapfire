@@ -17,7 +17,7 @@
         {
           "id": 501,
           "name": "Acolyte Coven",
-          "pts": 200,
+          "pts": 95,
           "upgrades": [ 15, 13, 14, 16, 20, 21, 30, 31]
         }
       ]
