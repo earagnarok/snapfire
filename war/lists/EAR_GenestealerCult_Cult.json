@@ -95,7 +95,7 @@
 		{ "id": 12, "name": "Acolyte Praetorians with Genestealer Magus", "pts": 50 },
 		{ "id": 13, "name": "Aberrants", "pts": 15 },
 		{ "id": 14, "name": "Metamorph Hybrids", "pts": 10 },
-        { "id": 15, "name": "Mineshaft Infiltrators: All units in the formation gains the 'Tunnelers' special rule (may only have Hybrids upgrade)", "pts": 0 },
+        { "id": 15, "name": "Mineshaft Infiltrators: All units in the formation gains the 'Tunnelers' special rule (may have no other upgrades)", "pts": 0 },
 		{ "id": 16, "name": "Acolyte Hybrids", "pts": 0 },
 
         { "id":19, "name":"Coven Limousine", "pts": 15 },
