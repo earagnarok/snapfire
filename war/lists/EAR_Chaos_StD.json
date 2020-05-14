@@ -25,7 +25,7 @@
 			{"id":530, "name":"Chaos Space Marines of Chaos Undivided", "pts":250, "units":"6 Chaos Space Marines, 3 Chaos Rhinos", "upgrades":[36]},
 			{"id":510, "name":"Decimator of Chaos Undivided", "pts":225, "upgrades":[]},
 			{"id":512, "name":"Defilers of Chaos Undivided",	"pts":225, "units":"4 Defilers", "upgrades":[]},
-			{"id":511, "name":"Death Wheel of Chaos Undivided", "pts":275, "upgrades":[]},
+			{"id":511, "name":"Death Wheel of Chaos Undivided", "pts":300, "upgrades":[]},
 			{"id":514, "name":"Subjugator of Slaanesh", "pts":275, "upgrades":[] },
 			{"id":515, "name":"Questor of Slaanesh", "pts":275, "upgrades":[]},
 			{"id":517, "name":"Plague Reaper of Nurgle", "pts":225, "upgrades":[]},

@@ -10,15 +10,15 @@
         {
           "id": 500,
           "name": "Broodcoven",
-          "units": "Genestealer Patriarch, 6 Acolyte Praetorians",
+          "units": "Genestealer Patriarch, 8 Acolyte Praetorians",
           "pts": 275,
-          "upgrades": [ 21, 19, 30, 31, 16 ]
+          "upgrades": [ 21, 19, 30, 31, 16]
         },
         {
           "id": 501,
           "name": "Acolyte Coven",
-          "pts": 95,
-          "upgrades": [ 15, 13, 14, 16, 20, 21, 30, 31]
+          "pts": 70,
+          "upgrades": [ 15, 16, 13, 14, 20, 21, 30, 31]
         }
       ]
     },
@@ -93,9 +93,9 @@
     { "id": 10, "name": "Acolyte Praetorians with Hybrid Iconward", "pts": 0 },
     { "id": 11, "name": "Acolyte Praetorians with Genestealer Primus", "pts": 50 },
 		{ "id": 12, "name": "Acolyte Praetorians with Genestealer Magus", "pts": 50 },
-		{ "id": 13, "name": "Aberrants", "pts": 30 },
-		{ "id": 14, "name": "Metamorph Hybrids", "pts": 25 },
-        { "id": 15, "name": "Mineshaft Infiltrators: All units in the formation gains the 'Tunnelers' special rule (may have no other upgrades)", "pts": 0 },
+		{ "id": 13, "name": "Metamorph Hybrids", "pts": 30 },
+		{ "id": 14, "name": "Aberrants", "pts": 35 },
+        { "id": 15, "name": "Mineshaft Infiltrators: All units in the formation gains the 'Tunnelers' special rule (may only be upgraded with Aberrants and Metamorphs)", "pts": 25 },
 		{ "id": 16, "name": "Acolyte Hybrids", "pts": 15 },
 
         { "id":19, "name":"Coven Limousine", "pts": 15 },
