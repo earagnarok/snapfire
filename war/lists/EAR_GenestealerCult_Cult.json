@@ -74,9 +74,9 @@
       },
     {
       "id": 516,
-      "name": "Cult Leman Russ Platoon",
-      "units": "6 Leman Russ",
-      "pts": 400,
+      "name": "Cult Leman Russ Squadron",
+      "units": "4 Leman Russ",
+      "pts": 300,
       "upgrades": [  ]
     },
     {
