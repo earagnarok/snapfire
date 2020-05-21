@@ -17,7 +17,7 @@
 		{"name":"RELIC LANCES <br/> Max 1 Relic Lance for each 1500 points in the army", "formations":[
 			{"id":503, "name":"Questoris Reliquae",	"pts":400,  "upgrades":[]},
 			{"id":504, "name":"Acastus Reliquae",	"pts":450,  "upgrades":[]},
-			{"id":505, "name":"Cerastus Reliquae",	"pts":200, "units":"Seneschal, Cerastus Knight-Atrapos",  "upgrades":[]}
+			{"id":505, "name":"Cerastus Reliquae",	"pts":375, "units":"Seneschal, 2 Cerastus Knight-Atrapos",  "upgrades":[]}
 		]},
 		{"name":"FORGE WORLD & COLLEGIA TITANICA ALLIES <br/> Max 33%", "formations":[
 			{"id":510, "name":"Vanguard Maniple",		"pts":200,  "upgrades":[], "units":"Magos, 9 Skitarii Vanguards"},
@@ -27,8 +27,6 @@
             {"id":514, "name":"Avenger Squadron",				"pts":175,  "upgrades":[], "units":"2 Avenger Strike Fighters"},
 
 			{"id":520, "name":"Warhound Pack",	"pts":500, "upgrades":[]},
-
-			{"id":521, "name":"Warbringer Titan",	"pts":650, "upgrades":[]},
 
 			{"id":522, "name":"Ark Mechanicus Battleship", "pts":200, "upgrades":[]}
 
@@ -65,7 +63,7 @@
 		{"id":121, "name":"4 Knight-Helverins (2 Autocannons)",																	"pts":0},
 
 		{"id":130, "name":"2 Knight-Valiants (Conflagration C. Thundercoil H. Siegebreaker C. 4 Shieldbreaker M.)",	"pts":0},
-		{"id":131, "name":"2 Knight-Castellans (Vulcano Lance, Plasma Decimator, 2 Siegebreaker C. 2 Shieldbreaker M.)",		"pts":0},
+		{"id":131, "name":"2 Knight-Castellans (Volcano Lance, Plasma Decimator, 2 Siegebreaker C. 2 Shieldbreaker M.)",		"pts":0},
 
 		{"id":160, "name":"3 Questoris Relic Knight-Styrix (Volkite Chieroville, Rad Cleanser, Siege Claw)",					"pts":0},
 		{"id":161, "name":"3 Questoris Relic Knight-Magaeras (Lightning C, Rad Cleanser, Siege Claw, Ionic Shield)",				"pts":0},

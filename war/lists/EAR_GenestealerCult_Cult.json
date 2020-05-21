@@ -17,7 +17,7 @@
         {
           "id": 501,
           "name": "Acolyte Coven",
-          "pts": 70,
+          "pts": 95,
           "upgrades": [ 15, 16, 13, 14, 20, 21, 30, 31]
         }
       ]
@@ -47,9 +47,9 @@
           {
             "id": 511,
             "name": "Outrider Squadron",
-            "units": "Hybrid Iconward, 6 Neophyte Outriders",
+            "units": "Hybrid Iconward",
             "pts": 175,
-            "upgrades": [ 32 ]
+            "upgrades": [ 21 ]
           },
         {
           "id": 510,
@@ -77,7 +77,7 @@
       "name": "Cult Leman Russ Squadron",
       "units": "4 Leman Russ",
       "pts": 300,
-      "upgrades": [  ]
+      "upgrades": [ ]
     },
     {
       "id": 515,
@@ -95,7 +95,7 @@
 		{ "id": 12, "name": "Acolyte Praetorians with Genestealer Magus", "pts": 50 },
 		{ "id": 13, "name": "Metamorph Hybrids", "pts": 30 },
 		{ "id": 14, "name": "Aberrants", "pts": 35 },
-        { "id": 15, "name": "Mineshaft Infiltrators: All units in the formation gains the 'Tunnelers' special rule (may only be upgraded with Aberrants and Metamorphs)", "pts": 25 },
+        { "id": 15, "name": "Mineshaft Infiltrators: All units in the formation gains the 'Tunnelers' special rule (may only be upgraded with Acolytes, Aberrants and Metamorphs)", "pts": 25 },
 		{ "id": 16, "name": "Acolyte Hybrids", "pts": 15 },
 
         { "id":19, "name":"Coven Limousine", "pts": 15 },
@@ -105,7 +105,8 @@
 		{ "id":30, "name":"Goliath Truck", "pts": 25 },
 		{ "id":31, "name":"Goliath Rockgrinder", "pts": 25 },
 
-		{ "id":32, "name":"Ridge Runner", "pts": 20 },
+		{ "id":32, "name":"Neophyte Outriders", "pts": 0 },
+        { "id":33, "name":"Ridgerunner", "pts": 15 },
 
     { "id":42, "name":"2 Neophyte Fire Supports", "pts": 75 },
 
@@ -129,12 +130,14 @@
 		{"min": 0, "max": 1, "from": [ 15, 11 ], "appliesTo": [ 501 ] },
 		{"min": 0, "max": 1, "from": [ 15, 12 ], "appliesTo": [ 501 ] },
 
+		{"min": 6, "max": 6, "from": [ 32, 33 ], "appliesTo": [ 511 ] },
+		{"min": 0, "max": 3, "from": [ 33 ], "appliesTo": [ 511 ] },
+
     {"min": 6, "max": 9, "from": [ 60 ], "appliesTo": [ 530 ] },
 
 		{"max": 1, "from": [ 91, 92 ], "name": "Coven Leader" },
 		{"max": 2, "from": [ 21 ] },
 
-    {"max": 2, "from": [ 32 ] },
     {"max": 1, "from": [ 42 ] },
     {"max": 1, "from": [ 50 ] },
     {"max": 2, "from": [ 53 ] }

@@ -59,7 +59,7 @@
 		{"id":143, "name":"Knight-Gallant w. Seneschal (Icarus Autocannon, Hvy Stubber, Questoris Shock Lance, Thunderstrike Gauntlet, Reaper Chainsword)","pts":100},
 		{"id":144, "name":"Knight-Warden w. Seneschal (Gatling Cannon, Ironstorm Missiles, Hvy Stubber, Reaper Chainsword)",								"pts":100},		
 		{"id":145, "name":"Knight-Valiant w. Seneschal (Conflagration C., Thundercoil H., Siegebreaker C., 4 Shieldbreaker M., Meltaguns, Ion A.)",		"pts":150},
-		{"id":146, "name":"Knight-Castellan w. Seneschal (Vulcano Lance, Plasma Decimator, 2 Siegebreaker C., 2 Shieldbreaker M., Meltaguns)",				"pts":150},	
+		{"id":146, "name":"Knight-Castellan w. Seneschal (Volcano Lance, Plasma Decimator, 2 Siegebreaker C., 2 Shieldbreaker M., Meltaguns)",				"pts":150},	
 		{"id":149, "name":"Knight-Preceptor w Seneschal (Las-Impulsor, Hvy Stubber, Thunderstrike Gauntlet)",												"pts":100},
 
 		{"id":150, "name":"Knight-Paladin w. Baron (Questoris Battle Cannon, 2 Hvy Stubbers, Questoris Shock Lance, Reaper Chainsword)",					"pts":150},
@@ -68,7 +68,7 @@
 		{"id":153, "name":"Knight-Gallant w. Baron (Icarus Autocannon, Hvy Stubber, Questoris Shock Lance, Thunderstrike Gauntlet, Reaper Chainsword)",	"pts":150},
 		{"id":154, "name":"Knight-Warden w. Baron (Gatling Cannon, Ironstorm Missiles, Hvy Stubber, Reaper Chainsword)",									"pts":150},	
 		{"id":155, "name":"Knight-Valiant w. Baron (Conflagration C., Thundercoil H., Siegebreaker C., 4 Shieldbreaker M., Meltaguns, Ion A.)",			"pts":200},
-		{"id":156, "name":"Knight-Castellan w. Baron  (Vulcano Lance, Plasma Decimator, 2 Siegebreaker C., 2 Shieldbreaker M., Meltaguns)",				"pts":200},
+		{"id":156, "name":"Knight-Castellan w. Baron  (Volcano Lance, Plasma Decimator, 2 Siegebreaker C., 2 Shieldbreaker M., Meltaguns)",				"pts":200},
 		{"id":159, "name":"Knight-Preceptor w Baron (Las-Impulsor, Hvy Stubber, Thunderstrike Gauntlet)",													"pts":150},
 		
 		{"id":160, "name":"Questoris Relic Knight-Styrix (Volkite Chieroville, Rad Cleanser, Siege Claw)",													"pts":75},

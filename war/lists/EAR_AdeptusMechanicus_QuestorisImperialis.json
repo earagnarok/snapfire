@@ -7,17 +7,17 @@
 			{"id":501, "name":"Protector Household",	"pts":75, "upgrades":[13,10,11]}
 		]},
 		{"name":"SUPPORT HOUSEHOLDS <br/> Max 2 per Core Household", "formations":[
-			{"id":511, "name":"Custodian Household",	"pts":50, "upgrades":[14,24,12]},
-			{"id":512, "name":"Vanguard Household", 	"pts":75, "upgrades":[15,12]},
-			{"id":513, "name":"Guardian Household",		"pts":100, "upgrades":[16,17,18,12]},
-			{"id":514, "name":"Aggressor Household",	"pts":75, "upgrades":[19,12]}
+			{"id":511, "name":"Custodian Household",	"pts":75, "upgrades":[14,24,12]},
+			{"id":514, "name":"Aggressor Household",	"pts":75, "upgrades":[19,12]},
+			{"id":512, "name":"Vanguard Household", 	"pts":100, "upgrades":[15,12]},
+			{"id":513, "name":"Guardian Household",		"pts":125, "upgrades":[16,17,18,12]}
 		]},
 		{"name":"RETAINER FORMATIONS <br/> Max 1 per Core or Support Household", "formations":[
-			{"id":521, "name":"Planetary Defence Company",	"pts":175, "units":"PDF Commander, 11 PDF Conscripts", "upgrades":[20,21,23,22]},
+			{"id":521, "name":"Planetary Defence Platoon",	"pts":150, "units":"8 PDF Infantry", "upgrades":[20,21,23,26,22,25]},
+			{"id":524, "name":"Rough Rider Platoon",		"pts":150, "units":"6 Rough Riders", "upgrades":[]},
 			{"id":522, "name":"Flak Emplacement", 		"pts":175, "units":"4 Heavy AA, 4 Gun Emplacements", "upgrades":[]},
-			{"id":523, "name":"Howitzer Emplacement",		"pts":250, "units":"4 Howitzers, 4 Gun Emplacements", "upgrades":[]},
-			{"id":524, "name":"Rough Riders",		"pts":150, "units":"6 Rough Riders", "upgrades":[]},
-			{"id":525, "name":"Motorized PDF Platoon",			"pts":150, "units":"6 PDF Conscripts, 3 Land Transporters", "upgrades":[]}
+			{"id":523, "name":"Howitzer Emplacement",		"pts":250, "units":"4 Howitzers, 4 Gun Emplacements", "upgrades":[]}
+
 		]},
 		{"name":"IMPERIAL NAVY <br/> Max 25%", "formations":[
 			{"id":541, "name":"Thunderbolt Squadron", "pts":150, "upgrades":[], "units":"2 Thunderbolt Fighters"},
@@ -38,10 +38,12 @@
    		{"id":17, "name":"Knight-Guardian Skysweeper",			"pts":50},
 		{"id":18, "name":"Knight-Guardian Vanquisher",			"pts":50},
 		{"id":19, "name":"Knight-Aggressor",					"pts":75},
-		{"id":20, "name":"3 Rapiers",						"pts":50},
+		{"id":20, "name":"4 Rapiers",						"pts":75},
 		{"id":21, "name":"3 Thudd Guns",					"pts":75},
 		{"id":22, "name":"60cm Trenches, 60cm Razorwire",	"pts":50},
-		{"id":23, "name":"Sniper",								"pts":25}
+		{"id":23, "name":"Snipers",								"pts":25},
+		{"id":26, "name":"2 Snipers",								"pts":50},
+		{"id":25, "name":"4 Land Transporters",						"pts":50}
 
 	],
 	"formationConstraints":[
@@ -58,9 +60,8 @@
 		{"min":3, "max":5, "from":[15], "appliesTo":[512]},
 		{"min":4, "max":6, "from":[16,17,18], "appliesTo":[513]},
 		{"min":3, "max":5, "from":[19], "appliesTo":[514]},
-		{"max":1, "from":[20]},
-		{"max":1, "from":[22]},
-		{"max":1, "from":[21]},
-		{"max":2, "from":[23]}
+		{"max":1, "from":[20,21,25]},
+		{"max":1, "from":[22,25]},
+		{"max":1, "from":[23,26,25]}
 	]
 }
