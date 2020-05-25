@@ -14,7 +14,7 @@
 			{ "id":512, "name":"Macharius Company", "pts":325, "units":"2 Macharius", "upgrades":[] },
 			{ "id":513, "name":"Earthshaker Emplacement", "pts":275, "upgrades":[21] },
 			{ "id":514, "name":"Siege Artillery Battery", "pts":225, "upgrades":[21] },
-			{ "id":515, "name":"Siege Infantry Platoon", "pts":200, "units":"8 Siege Infantry, 32cm Trenches, 40cm Razor Wire", "upgrades":[16,17,18,19] },
+			{ "id":515, "name":"Siege Infantry Company", "pts":275, "units":"DKoK Commander with a Commissar, 9 Siege Infantry, 40cm Trenches, 40cm Razor Wire", "upgrades":[16,17,18,19] },
 			{ "id":519, "name":"Flak Emplacement", "pts":175, "upgrades":[] },
 			{ "id":520, "name":"Super-Heavy Platoon", "pts":175, "upgrades":[] },
 			{ "id":521, "name":"Armoured Sentinel Squadron", "pts":125, "units":"4 Armoured Sentinels", "upgrades":[] }
@@ -45,12 +45,12 @@
 		{ "id":24, "name":"Macharius Command Tank with a Commissar (Twin Vanquishers)", "pts":0 },
 		{ "id":25, "name":"Macharius Command Tank with a Commissar (Vulcan Mega-Bolter)", "pts":0 },
 
-		{ "id":26, "name":"6 Leman Russ Demolishers", "pts":0},
+		{ "id":26, "name":"6 Leman Russ Thunderers", "pts":0},
 		{ "id":27, "name":"6 Leman Russ Annihilators", "pts":0},
 		{ "id":28, "name":"6 Leman Russ", "pts":0},
 
 		{ "id":29, "name":"3 Leman Russ Annihilators", "pts":150},
-		{ "id":30, "name":"3 Leman Russ Demolishers", "pts":150},
+		{ "id":30, "name":"3 Leman Russ Thunderers", "pts":150},
 		{ "id":31, "name":"3 Leman Russ", "pts":150},
 
 		{ "id":32, "name":"Hellhound", "pts":25},
