@@ -48,8 +48,8 @@
             "id": 511,
             "name": "Outrider Squadron",
             "units": "Hybrid Iconward",
-            "pts": 175,
-            "upgrades": [ 21 ]
+            "pts": 150,
+            "upgrades": [ 33 ]
           },
         {
           "id": 510,
@@ -93,7 +93,7 @@
     { "id": 10, "name": "Acolyte Praetorians with Hybrid Iconward", "pts": 0 },
     { "id": 11, "name": "Acolyte Praetorians with Genestealer Primus", "pts": 50 },
 		{ "id": 12, "name": "Acolyte Praetorians with Genestealer Magus", "pts": 50 },
-		{ "id": 13, "name": "Metamorph Hybrids", "pts": 30 },
+		{ "id": 13, "name": "Metamorph Hybrids", "pts": 25 },
 		{ "id": 14, "name": "Aberrants", "pts": 25 },
         { "id": 15, "name": "Mineshaft Infiltrators: All units in the formation gains the 'Tunnelers' special rule (may only be upgraded with Acolytes, Aberrants and Metamorphs)", "pts": 25 },
 		{ "id": 16, "name": "Acolyte Hybrids", "pts": 15 },
@@ -106,7 +106,7 @@
 		{ "id":31, "name":"Goliath Rockgrinder", "pts": 25 },
 
 		{ "id":32, "name":"Neophyte Outriders", "pts": 0 },
-        { "id":33, "name":"Ridgerunner", "pts": 15 },
+        { "id":33, "name":"Ridgerunner", "pts": 20 },
 
     { "id":42, "name":"2 Neophyte Fire Supports", "pts": 75 },
 
@@ -130,7 +130,7 @@
 		{"min": 0, "max": 1, "from": [ 15, 11 ], "appliesTo": [ 501 ] },
 		{"min": 0, "max": 1, "from": [ 15, 12 ], "appliesTo": [ 501 ] },
 
-		{"min": 6, "max": 6, "from": [ 32, 33 ], "appliesTo": [ 511 ] },
+		{"min": 6, "max": 6, "from": [ 32 ], "appliesTo": [ 511 ] },
 		{"min": 0, "max": 3, "from": [ 33 ], "appliesTo": [ 511 ] },
 
     {"min": 6, "max": 9, "from": [ 60 ], "appliesTo": [ 530 ] },
