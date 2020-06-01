@@ -11,13 +11,13 @@
 			{"id":501, "name":"Cerastus",	"pts":300,  "upgrades":[9,8]},
 			{"id":506, "name":"Dominus",	"pts":400,  "upgrades":[]}
 		]},
-		{"name":"RECON LANCES <br/> Max 1 per Core or Support Lance", "formations":[
-			{"id":502, "name":"Arminger",			"pts":175, "upgrades":[]}
-		]},
 		{"name":"RELIC LANCES <br/> Max 1 Relic Lance for each 1500 points in the army", "formations":[
-			{"id":503, "name":"Questoris Reliquae",	"pts":400,  "upgrades":[]},
-			{"id":505, "name":"Cerastus Reliquae",	"pts":400, "units":"Seneschal, 2 Cerastus Knight-Atrapos",  "upgrades":[]},
-			{"id":504, "name":"Acastus Reliquae",	"pts":450,  "upgrades":[]}
+			{"id":505, "name":"Cerastus Reliquae",	"pts":400, "units":"2 Cerastus Knight-Atrapos",  "upgrades":[]},
+			{"id":503, "name":"Questoris Reliquae",	"pts":425,  "upgrades":[]},
+			{"id":504, "name":"Acastus Reliquae",	"pts":475,  "upgrades":[]}
+		]},
+		{"name":"RECON LANCES <br/> Max 1 per Core, Support, or Relic Lance", "formations":[
+			{"id":502, "name":"Arminger",			"pts":175, "upgrades":[106]}
 		]},
 		{"name":"FORGE WORLD & COLLEGIA TITANICA ALLIES <br/> Max 33%", "formations":[
 			{"id":510, "name":"Vanguard Maniple",		"pts":200,  "upgrades":[], "units":"Magos, 9 Skitarii Vanguards"},
@@ -35,10 +35,10 @@
 
 	"upgrades":[
 
-		{"id":8,"name":"Baron","pts":75},
+		{"id":8,"name":"Baron","pts":100},
         {"id":9,"name":"Seneschal","pts":25},
 
-        {"id":10,"name":"Baron","pts":50},
+        {"id":10,"name":"Baron","pts":75},
         {"id":11,"name":"Seneschal","pts":0},
 
 	    {"id":70,"name":"2 Warhounds (Tank Hunter Configuration)","pts":50},
@@ -55,12 +55,14 @@
 		{"id":104, "name":"3 Knight-Wardens (Gatling Cannon, Ironstorm Missiles, Hvy Stubber, Reaper Chainsword)",				"pts":0},
 		{"id":105, "name":"3 Knight-Preceptors (Las-Impulsor, Hvy Stubber, Thunderstrike Gauntlet)",								"pts":0},
 
+		{"id":106, "name":"Knight-Preceptor (Las-Impulsor, Hvy Stubber, Thunderstrike Gauntlet)",								"pts":125},
+
 		{"id":110, "name":"2 Cerastus Knight-Lancers (Cerastus Shock Lance, Ion Gauntlet Shield)",								"pts":0},
 		{"id":111, "name":"2 Cerastus Knight-Castigators (Castigator Cannon, Tempest Warblade)",									"pts":0},
 		{"id":112, "name":"2 Cerastus Knight-Acherons (Flame Cannon, Reaper Chainfist)",											"pts":0},
 
-		{"id":120, "name":"4 Knight-Warglaives (Thermal Spear, Reaper Chain-Cleaver)",			 								"pts":0},
-		{"id":121, "name":"4 Knight-Helverins (2 Autocannons)",																	"pts":0},
+		{"id":120, "name":"4 Knight-Warglaives (Thermal Spear, Reaper Chain-Cleaver, Hvy Stubber)",			 								"pts":0},
+		{"id":121, "name":"4 Knight-Helverins (Twin Autocannons, Hvy Stubber)",																	"pts":0},
 
 		{"id":130, "name":"2 Knight-Valiants (Conflagration C. Thundercoil H. Siegebreaker C. 4 Shieldbreaker M.)",	"pts":0},
 		{"id":131, "name":"2 Knight-Castellans (Volcano Lance, Plasma Decimator, 2 Siegebreaker C. 2 Shieldbreaker M.)",		"pts":0},
@@ -89,8 +91,8 @@
     ],
 	"formationConstraints":[
 		{"max":1, "name":"Support Lance", "from":[501,506], "forEach":[500], "name2":"Core Lance"},
-		{"max":1, "name":"Recon Lance", "from":[502], "forEach":[500,501,506], "name2":"Core or Support Lance"},
-		{"maxPercent": 33.5, "name":"Mechanicus Allies", "from":[510,512,513,514,520,521]},
+		{"max":1, "name":"Recon Lance", "from":[502], "forEach":[500,501,506, 503,504,505], "name2":"Core, Support, or Relic Lance"},
+		{"maxPercent": 33.5, "name":"Mechanicus Allies", "from":[510,512,513,514,520,521,522]},
 		{"max":1, "perPoints":1500, "from":[503,504,505]},
 		{"max":1, "perArmy":true, "from":[522]}
 
@@ -100,9 +102,10 @@
 		{"max":1, "perArmy":true, "from":[8,10]},
 
         {"max":1,"from":[13],"appliesTo":[520]},
+        {"max":1,"from":[106],"appliesTo":[502]},
 
 
-		{"min":0, "max":1, "from":[8,9], "appliesTo":[500]},
+		{"min":0, "max":1, "from":[9,8], "appliesTo":[500]},
 
 		{"min":1, "max":1, "from":[100,101,102,103,104,105], "appliesTo":[500]},
 
@@ -112,7 +115,7 @@
 		{"min":1, "max":1, "from":[130,131], "appliesTo":[506]},
 
 
-		{"min":0, "max":1, "from":[8,9], "appliesTo":[501]},
+		{"min":0, "max":1, "from":[9,8], "appliesTo":[501]},
 
 		{"min":1, "max":1, "from":[110,111,112], "appliesTo":[501]},
 
@@ -128,6 +131,8 @@
 		{"min":1, "max":1, "from":[11,10], "appliesTo":[504]},
 
 		{"min":1, "max":1, "from":[164,163], "appliesTo":[504]},
+
+		{"min":1, "max":1, "from":[11,10], "appliesTo":[505]},
 
 		{"min":1, "max":1, "from":[91,90], "appliesTo":[510]},
 
