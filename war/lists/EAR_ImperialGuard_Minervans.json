@@ -15,7 +15,7 @@
 			{"id":513, "name":"Tank Hunter Squadron",					"pts":200,  "units":"3 Leman Russ Destroyers", "upgrades":[]},
 			{"id":511, "name":"Super-Heavy Platoon", 					"pts":175, "upgrades":[]},
 			{"id":515, "name":"Salamander Squadron",					"pts":150, "units":"4 Salamander Scout Tanks", "upgrades":[]},
-			{"id":518, "name":"Light Artillery Battery",				"pts":125,  "units":"3 Griffons", "upgrades":[]}
+			{"id":518, "name":"Griffon Battery",				"pts":200,  "units":"4 Griffons", "upgrades":[]}
 		]},
 		{"name":"COLLEGIA TITANICA & IMPERIAL NAVY FORMATIONS <br/> Max 33%", "formations":[
 			{"id":527, "name":"Warhound Pack",			"pts":500, "upgrades":[70], "units":"2 Warhounds"},
