@@ -44,7 +44,7 @@
 		{"id":14, "name":"Icon Bearer", "pts":25},
 
 		{"id":15, "name":"Chaos Spawn", "pts":35},
-		{"id":16, "name":"3 Chaos Hounds", "pts":35},
+		{"id":16, "name":"Chaos Hounds", "pts":15},
 		{"id":17, "name":"Chaos Altar", "pts":150},
 		{"id":18, "name":"Technical", "pts":20},
 		{"id":19, "name":"Land Transporter", "pts":10},
@@ -101,7 +101,7 @@
 		{"max":3, "from":[22], "appliesTo":[501]},
 
 		{"max":1, "from":[15], "appliesTo":[501]},
-		{"max":1, "from":[16], "appliesTo":[501]},
+		{"max":3, "from":[16], "appliesTo":[501]},
 		{"max":1, "from":[17], "appliesTo":[501]},
 		{"max":4, "from":[18], "appliesTo":[501]},
 
