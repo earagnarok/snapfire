@@ -75,6 +75,12 @@
       {"id": 55,"name": "Standard Configuration (Pulse Driver Cannon, Destroyer Missiles)","pts": 0},
       {"id": 56,"name": "Support Configuration (Pulse Blastcannon, Twin Smart Missiles Systems)","pts": 0},
 
+      {"id": 60,"name": "4 Gun Drones, 2 Marker Drones","pts": 125},
+      {"id": 61,"name": "4 Gun Drones, 2 Shield Drones","pts": 125},
+      {"id": 62,"name": "4 Missile Drones, 2 Marker Drones","pts": 125},
+      {"id": 63,"name": "4 Missile Drones, 2 Shield Drones","pts": 125},
+
+
       {"id": 110,"name": "Protector Class Cruiser","pts": 0},
       {"id": 111,"name": "Custodian Class Battleship","pts": 25}
 
@@ -104,7 +110,7 @@
 
       {"max": 1,"min": 1,"from": [30,31],"appliesTo": [501]},
 
-      {"max": 1,"min": 1,"from": [34,35],"appliesTo": [502]},
+      {"max": 1,"min": 1,"from": [34,60,61,35,62,63],"appliesTo": [502]},
 
       {"max": 1,"min": 1,"from": [40,41,42,43,44,45,46,47,48],"appliesTo": [512]},
 
