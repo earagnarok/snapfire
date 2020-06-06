@@ -19,7 +19,7 @@
 {"name":"SUPPORT FORMATIONS <br/> Max 3 for each Battle Titan formation",
 "formations":[
 	    {"id":510,"name":"Warhounds","pts":0, "upgrades":[]},
-		{"id":520,"name":"Questoris Banner","pts":250, "upgrades":[]}
+		{"id":520,"name":"Questoris Banner","pts":300, "upgrades":[]}
 ]},
 
 {"name":"ADEPTUS MECHANICUS ALLIES <br/> Max 33% <br/> Max 1 Lysander Fighter for each Warmonger Titan <br/> or Anvilus Carapace Landing Pad",
@@ -92,10 +92,10 @@
 
 
 
-		{"id":100, "name":"2 Knight-Paladins (Rapid Fire Battle Cannon, 2 Hvy Stubbers, Chainsword)",													"pts":0},
+		{"id":100, "name":"2 Knight-Paladins (Rapid Fire Battle Cannon, 2 Hvy Stubbers, Chainsword, Icarus Autocannons)",													"pts":0},
 		{"id":101, "name":"2 Knight-Errants (Thermal Cannon, Hvy Stubber, Gauntlet)",											         				"pts":0},
-		{"id":102, "name":"2 Knight-Crusaders (Rapid Fire Battle Cannon, Gatling Cannon, 2 Hvy Stubbers, Icarus Autocannon)",							"pts":0},
-		{"id":103, "name":"2 Knight-Gallants (Icarus Autocannon, Hvy Stubber, Gauntlet, Chainsword)",							             			"pts":0},
+		{"id":102, "name":"2 Knight-Crusaders (Rapid Fire Battle Cannon, Gatling Cannon, 2 Hvy Stubbers)",							"pts":0},
+		{"id":103, "name":"2 Knight-Gallants (Icarus Autocannons, Hvy Stubber, Gauntlet, Chainsword)",							             			"pts":0},
 		{"id":104, "name":"2 Knight-Wardens (Gatling Cannon, Ironstorm Missiles, Hvy Stubber, Chainsword)",											     "pts":0},
 		{"id":105, "name":"2 Knight-Preceptors (Las-Impulsor, Hvy Stubber, Gauntlet)",											        				"pts":0},
 
