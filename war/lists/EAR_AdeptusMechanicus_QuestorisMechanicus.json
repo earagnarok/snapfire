@@ -20,11 +20,11 @@
 			{"id":504, "name":"Acastus Reliquae",	"pts":300,  "upgrades":[]}
 		]},
 		{"name":"FORGE WORLD ALLIES <br/> Max 33%", "formations":[
-			{"id":535,"name":"Minoris","pts":75, "upgrades":[180,181,182,183]},
-
 			{"id":510, "name":"Vanguard Maniple",		"pts":200,  "upgrades":[], "units":"Magos, 9 Skitarii Vanguards"},
 
 			{"id":512, "name":"Onager Cataphractii",		"pts":325, "units":"6 Onager Dunecrawlers", "upgrades":[]},
+
+			{"id":513, "name":"Skorpius Cataphractii",		"pts":325, "units":"6 Skorpius Disintegrators", "upgrades":[]},
 
             {"id":514, "name":"Avenger Squadron",				"pts":175,  "upgrades":[], "units":"2 Avenger Strike Fighters"},
 
