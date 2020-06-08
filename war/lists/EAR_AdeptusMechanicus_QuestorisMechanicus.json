@@ -5,14 +5,14 @@
 	"notes":[],
 	"sections":[
 		{"name":"CORE BANNERS", "formations":[
-			{"id":500, "name":"Questoris", 		"pts":300, "upgrades":[9,8]}
+			{"id":500, "name":"Questoris", 		"pts":275, "upgrades":[9,8]}
 		]},
 		{"name":"SUPPORT BANNERS <br/> Max 1 per Core Banner", "formations":[
 			{"id":506, "name":"Dominus",	"pts":250,  "upgrades":[]},
-			{"id":501, "name":"Cerastus",	"pts":325,  "upgrades":[9,8]}
+			{"id":501, "name":"Cerastus",	"pts":300,  "upgrades":[9,8]}
 		]},
 		{"name":"RECON BANNERS <br/> Max 1 per Core or Support Banner", "formations":[
-			{"id":502, "name":"Arminger",			"pts":200, "upgrades":[106]}
+			{"id":502, "name":"Arminger",			"pts":175, "upgrades":[106]}
 		]},
 		{"name":"RELIC BANNERS <br/> Max 1 Relic Banner for each 1500 points in the army", "formations":[
 			{"id":507, "name":"Armiger Reliquae",	"pts":225, "units":"3 Armiger Relic Knight-Moirax",  "upgrades":[]},
@@ -62,8 +62,8 @@
 		{"id":111, "name":"2 Cerastus Knight-Castigator (Castigator Cannon, Tempest Warblade)",									"pts":0},
 		{"id":112, "name":"2 Cerastus Knight-Acheron (Flame Cannon, Reaper Chainfist)",											"pts":0},
 
-		{"id":120, "name":"4 Knight-Warglaives (Thermal Spear, Reaper Chain-Cleaver, Hvy Stubber)",			 								"pts":0},
-		{"id":121, "name":"4 Knight-Helverins (Twin Autocannons, Hvy Stubber)",																	"pts":0},
+		{"id":120, "name":"3 Knight-Warglaives (Thermal Spear, Reaper Chain-Cleaver, Hvy Stubber)",			 								"pts":0},
+		{"id":121, "name":"3 Knight-Helverins (Twin Autocannons, Hvy Stubber)",																	"pts":0},
 
 		{"id":130, "name":"Knight-Valiant (Conflagration C. Thundercoil H. Siegebreaker C. 4 Shieldbreaker M.)",	"pts":0},
 		{"id":131, "name":"Knight-Castellan (Volcano Lance, Plasma Decimator, 2 Siegebreaker C. 2 Shieldbreaker M.)",		"pts":0},

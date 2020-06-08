@@ -19,7 +19,7 @@
 {"name":"SUPPORT FORMATIONS <br/> Max 3 for each Battle Titan formation",
 "formations":[
 	    {"id":510,"name":"Warhounds","pts":0, "upgrades":[]},
-		{"id":520,"name":"Questoris Banner","pts":300, "upgrades":[]}
+		{"id":520,"name":"Questoris Banner","pts":275, "upgrades":[]}
 ]},
 
 {"name":"ADEPTUS MECHANICUS ALLIES <br/> Max 33% <br/> Max 1 Lysander Fighter for each Warmonger Titan <br/> or Anvilus Carapace Landing Pad",
