@@ -21,11 +21,11 @@
 			{"id":504, "name":"Acastus Reliquae",	"pts":300,  "upgrades":[]}
 		]},
 		{"name":"FORGE WORLD ALLIES <br/> Max 33%", "formations":[
-			{"id":510, "name":"Vanguard Maniple",		"pts":200,  "upgrades":[], "units":"Magos, 9 Skitarii Vanguards"},
+			{"id":510, "name":"Vanguard Maniple",		"pts":200,  "upgrades":[175,176,177,178], "units":"Magos, 9 Skitarii Vanguards"},
 
 			{"id":512, "name":"Onager Cataphractii",		"pts":325, "units":"6 Onager Dunecrawlers", "upgrades":[]},
 
-			{"id":513, "name":"Skorpius Cataphractii",		"pts":325, "units":"6 Skorpius Disintegrators", "upgrades":[]},
+			{"id":513, "name":"Minoris Cohort",		"pts":325, "upgrades":[]},
 
             {"id":514, "name":"Avenger Squadron",				"pts":175,  "upgrades":[], "units":"2 Avenger Strike Fighters"},
 
@@ -49,7 +49,7 @@
 		{"id":90, "name":"5 Skorpius Duneriders",	"pts":125},
 		{"id":91, "name":"Gorgon",					"pts":100},
 
-		{"id":100, "name":"2 Knight-Paladins (Rapid Fire Battle Cannon, 2 Hvy Stubbers, Reaper Chainsword, Icarus Autocannons)",						"pts":0},
+		{"id":100, "name":"2 Knight-Paladins (Rapid Fire Battle Cannon, 2 Hvy Stubbers, Reaper Chainsword)",						"pts":0},
 		{"id":101, "name":"2 Knight-Errants (Thermal Cannon, Hvy Stubber, Thunderstrike Gauntlet)",								"pts":0},
 		{"id":102, "name":"2 Knight-Crusaders (Rapid Fire Battle Cannon, Gatling Cannon, 2 Hvy Stubbers)",	"pts":0},
 		{"id":103, "name":"2 Knight-Gallants (Icarus Autocannons, Hvy Stubber, Thunderstrike Gauntlet, Reaper Chainsword)",		"pts":0},
@@ -78,10 +78,15 @@
 		{"id":171, "name":"4x Neutron Laser, 2x Icarus Array",				"pts":0},
 		{"id":172, "name":"4x Twin Heavy Phosphor Blasters, 2x Icarus Array",				"pts":0},
 
-		{"id":180, "name":"Ordinatus Minoris (Heavy Icarus Array)",	"pts":125},
-		{"id":181, "name":"Ordinatus Minoris (Titan Plasma Cannon)",			"pts":125},
-		{"id":182, "name":"Ordinatus Minoris (Turbo-Laser Destructor)",		"pts":125},
-		{"id":183, "name":"Ordinatus Minoris (Apocalypse Missile Launcher)",	"pts":125}
+		{"id":175, "name":"2 Onager Dunecrawlers (Icarus Array)",				"pts":75},
+		{"id":176, "name":"2 Onager Dunecrawlers (Eradication Beamer)",				"pts":75},
+		{"id":177, "name":"2 Onager Dunecrawlers (Neutron Laser)",				"pts":75},
+		{"id":178, "name":"2 Onager Dunecrawlers (Twin Heavy Phosphor Blasters)",				"pts":75},
+
+		{"id":180, "name":"Ordinatus Minoris (Heavy Icarus Array)",	"pts":0},
+		{"id":181, "name":"Ordinatus Minoris (Titan Plasma Cannon)",			"pts":0},
+		{"id":182, "name":"Ordinatus Minoris (Turbo-Laser Destructor)",		"pts":0},
+		{"id":183, "name":"Ordinatus Minoris (Apocalypse Missile Launcher)",	"pts":0}
 
     ],
 	"formationConstraints":[
@@ -98,7 +103,7 @@
 
         {"max":1,"from":[13],"appliesTo":[520]},
         {"max":1,"from":[106],"appliesTo":[502]},
-
+		{"max":1, "from":[175,176,177,178]},
 
 		{"min":0, "max":1, "from":[9,8], "appliesTo":[500]},
 
@@ -133,13 +138,14 @@
 
 		{"min":1, "max":1, "from":[170,171,172], "appliesTo":[512]},
 
+        {"min":2,"max":2,"from":[180,181,182,183],"appliesTo":[513]},
 
         {"min":1,"max":1,"from":[72,71,70],"appliesTo":[520]},
 
         {"min":1,"max":1,"from":[190,191,192],"appliesTo":[521]},
         {"min":0,"max":1,"from":[204,205],"appliesTo":[521]},
-        {"min":2,"max":2,"from":[202,201,200,203,204,205],"appliesTo":[521]},
+        {"min":2,"max":2,"from":[202,201,200,203,204,205],"appliesTo":[521]}
 
-        {"min":1,"max":2,"from":[180,181,182,183],"appliesTo":[535]}
+
 	]
 }

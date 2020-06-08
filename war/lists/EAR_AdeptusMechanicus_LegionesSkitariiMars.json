@@ -73,7 +73,7 @@
 		{"id":136, "name":"Ordinatus Minoris (Volcano Cannon)",			"pts":150},
 		{"id":137, "name":"Ordinatus Minoris (Plasma Destructor)",		"pts":150},
 
-		{"id":140, "name":"2 Knight-Paladin (Rapid Fire Battle Cannon, 2 Hvy Stubbers, Chainsword, Icarus Autocannons)",													"pts":0},
+		{"id":140, "name":"2 Knight-Paladin (Rapid Fire Battle Cannon, 2 Hvy Stubbers, Chainsword)",													"pts":0},
 		{"id":141, "name":"2 Knight-Errant (Thermal Cannon, Hvy Stubber, Gauntlet)",											         				"pts":0},
 		{"id":142, "name":"2 Knight-Crusader (Rapid Fire Battle Cannon, Gatling Cannon, 2 Hvy Stubbers)",							"pts":0},
 		{"id":143, "name":"2 Knight-Gallant (Icarus Autocannons, Hvy Stubber, Gauntlet, Chainsword)",							             			"pts":0},
