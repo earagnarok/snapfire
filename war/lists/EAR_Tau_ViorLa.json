@@ -6,7 +6,7 @@
       { "name": "VIOR'LA CADRES",
          "formations": [
             {"id": 500,"name": "XV8 Crisis Battlesuit Cadre","pts": 300, "upgrades": [9,10, 15,16,17,18]},
-            {"id": 512,"name": "Heavy Battlesuit Cadre","pts": 325, "upgrades": [9,10, 15,16,17,18]}
+            {"id": 512,"name": "Heavy Battlesuit Cadre","pts": 300, "upgrades": [9,10, 15,16,17,18]}
          ]
       },
       {"name": "VIOR'LA SUPPORT GROUPS <br/> Max 2 for each Cadre",
