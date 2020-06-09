@@ -13,7 +13,7 @@
 			{"id":510, "name":"Veteran Company", "pts":200, "upgrades":[22,10,11], "units":"Catachan Commander, 7 Death World Veterans"},
 			{"id":516, "name":"Artillery Battery", "pts":225, "units":"3 Basilisks", "upgrades":[30]},
 			{"id":515, "name":"Super-Heavy Platoon", "pts":175, "upgrades":[16,20] },
-			{"id":518, "name":"Mortar Battery", "pts":150, "upgrades":[16], "units":"3 Heavy Mortars"},
+			{"id":518, "name":"Griffon Battery", "pts":200, "upgrades":[], "units":"4 Griffons"},
 			{"id":514, "name":"Hellhound Squadron", "pts":125, "upgrades":[], "units":"3 Hellhounds"},
 			{"id":511, "name":"Catachan Sentinel Squadron", "pts":125, "upgrades":[], "units":"4 Catachan Sentinels"},
 			{"id":519, "name":"Sniper Platoon", "pts":100, "upgrades":[21], "units":"4 Snipers"}
