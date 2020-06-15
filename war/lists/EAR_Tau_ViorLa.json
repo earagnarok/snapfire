@@ -35,8 +35,9 @@
 
       {"id": 15,"name": "2 Missile Drones","pts": 25},
       {"id": 16,"name": "2 Gun Drones","pts": 25},
-      {"id": 17,"name": "2 Marker Drones","pts": 50},
-      {"id": 18,"name": "2 Shield Drones","pts": 50},
+      {"id": 17,"name": "2 Shield Drones","pts": 25},
+      {"id": 18,"name": "2 Marker Drones","pts": 50},
+
 
       {"id": 22,"name": "3 XV88 Broadsides","pts": 125},
       {"id": 25,"name": "Sky Ray","pts": 100},
@@ -48,8 +49,8 @@
       {"id": 30,"name": "8 Fire Warriors","pts": 0},
       {"id": 31,"name": "6 Fire Warriors, 3 Devilfish","pts": 0},
 
-      {"id": 32,"name": "XV15 Stealth Battlesuits","pts": 0},
-      {"id": 33,"name": "XV95 Ghostkeel Battlesuit","pts": 25},
+      {"id": 32,"name": "6 XV15 Stealth Battlesuits","pts": 0},
+      {"id": 33,"name": "3 XV15 Stealth Battlesuits, 3 XV95 Ghostkeel Battlesuit","pts": 50},
 
       {"id": 34,"name": "6 Gun Drones","pts": 100},
       {"id": 35,"name": "6 Missile Drones","pts": 100},
@@ -76,10 +77,10 @@
       {"id": 55,"name": "Standard Configuration (Pulse Driver Cannon, Destroyer Missiles)","pts": 0},
       {"id": 56,"name": "Support Configuration (Pulse Blastcannon, Twin Smart Missiles Systems)","pts": 0},
 
-      {"id": 60,"name": "4 Gun Drones, 2 Marker Drones","pts": 125},
-      {"id": 61,"name": "4 Gun Drones, 2 Shield Drones","pts": 125},
-      {"id": 62,"name": "4 Missile Drones, 2 Marker Drones","pts": 125},
-      {"id": 63,"name": "4 Missile Drones, 2 Shield Drones","pts": 125},
+      {"id": 60,"name": "4 Gun Drones, 2 Shield Drones","pts": 100},
+      {"id": 61,"name": "4 Gun Drones, 2 Marker Drones","pts": 125},
+      {"id": 62,"name": "4 Missile Drones, 2 Shield Drones","pts": 100},
+      {"id": 63,"name": "4 Missile Drones, 2 Marker Drones","pts": 125},
 
 
       {"id": 110,"name": "Protector Class Cruiser","pts": 0},
@@ -118,7 +119,7 @@
       {"max": 8,"min": 6,"from": [28,29],"appliesTo": [515]},
       {"max": 6, "from": [29],"appliesTo": [515]},
 
-      {"max": 6,"min": 6,"from": [32,33],"appliesTo": [516]},
+      {"max": 1,"min": 1,"from": [32,33],"appliesTo": [516]},
       {"max": 3,"min": 0,"from": [33],"appliesTo": [516]},
 
       {"max": 1,"min": 1,"from": [55,56],"appliesTo": [511]},

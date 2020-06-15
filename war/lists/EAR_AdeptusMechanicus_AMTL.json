@@ -27,10 +27,10 @@
         {"id":530,"name":"Skitarii Maniple","pts":225,"units":"Magos, 9 Hypaspists","upgrades":[15]},
 		{"id":531,"name":"Kastelan Maniple","pts":50,"units":"Tech-Priest", "upgrades":[14]},
         {"id":536, "name":"Castellax Maniple",		"pts":175, "units":"4 Castellax Battle-Automata, Tech-Priest", "upgrades":[]},
+        {"id":535,"name":"Minoris","pts":75, "upgrades":[130,131,132,133]},
 		{"id":532,"name":"Avenger Squadron","pts":175,"units":"2 Avenger Strike Fighters","upgrades":[]},
-        {"id":533,"name":"Lysander Fighter","pts":100 ,"upgrades":[]},
-		{"id":534,"name":"Ark Mechanicus Battleship","pts":200,"upgrades":[]},
-        {"id":535,"name":"Minoris","pts":75, "upgrades":[130,131,132,133]}
+        {"id":533,"name":"Lysander Fighter","pts":75 ,"upgrades":[]},
+		{"id":534,"name":"Ark Mechanicus Battleship","pts":200,"upgrades":[]}
 ]}
 
 ],

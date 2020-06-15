@@ -4,8 +4,8 @@
 	"by":"EA-Ragnarok",
 	"notes":[],
 	"sections":[
-		{"name":"CORE LANCES", "formations":[
-			{"id":500, "name":"Questoris", 		"pts":400, "upgrades":[9,8]}
+		{"name":"CORE BANNERS", "formations":[
+			{"id":500, "name":"Questoris", 		"pts":275, "upgrades":[9,8]}
 		]},
 		{"name":"SUPPORT BANNERS <br/> Max 1 per Core Banner", "formations":[
 			{"id":506, "name":"Dominus",	"pts":250,  "upgrades":[]},
@@ -49,12 +49,12 @@
 		{"id":90, "name":"5 Skorpius Duneriders",	"pts":125},
 		{"id":91, "name":"Gorgon",					"pts":100},
 
-		{"id":100, "name":"3 Knight-Paladins (Rapid Fire Battle Cannon, 2 Hvy Stubbers, Reaper Chainsword)",						"pts":0},
-		{"id":101, "name":"3 Knight-Errants (Thermal Cannon, Hvy Stubber, Thunderstrike Gauntlet)",								"pts":0},
-		{"id":102, "name":"3 Knight-Crusaders (Rapid Fire Battle Cannon, Gatling Cannon, 2 Hvy Stubbers)",	"pts":0},
-		{"id":103, "name":"3 Knight-Gallants (Icarus Autocannons, Hvy Stubber, Thunderstrike Gauntlet, Reaper Chainsword)",		"pts":0},
-		{"id":104, "name":"3 Knight-Wardens (Gatling Cannon, Ironstorm Missiles, Hvy Stubber, Reaper Chainsword)",				"pts":0},
-		{"id":105, "name":"3 Knight-Preceptors (Las-Impulsor, Hvy Stubber, Thunderstrike Gauntlet)",								"pts":0},
+		{"id":100, "name":"2 Knight-Paladins (Rapid Fire Battle Cannon, 2 Hvy Stubbers, Reaper Chainsword)",						"pts":0},
+		{"id":101, "name":"2 Knight-Errants (Thermal Cannon, Hvy Stubber, Thunderstrike Gauntlet)",								"pts":0},
+		{"id":102, "name":"2 Knight-Crusaders (Rapid Fire Battle Cannon, Gatling Cannon, 2 Hvy Stubbers)",	"pts":0},
+		{"id":103, "name":"2 Knight-Gallants (Icarus Autocannons, Hvy Stubber, Thunderstrike Gauntlet, Reaper Chainsword)",		"pts":0},
+		{"id":104, "name":"2 Knight-Wardens (Gatling Cannon, Ironstorm Missiles, Hvy Stubber, Reaper Chainsword)",				"pts":0},
+		{"id":105, "name":"2 Knight-Preceptors (Las-Impulsor, Hvy Stubber, Thunderstrike Gauntlet)",								"pts":0},
 
 		{"id":106, "name":"Knight-Preceptor (Las-Impulsor, Hvy Stubber, Thunderstrike Gauntlet)",								"pts":150},
 
@@ -73,7 +73,7 @@
 		{"id":160, "name":"Questoris Relic Knight-Styrix (Volkite Chieroville, Rad Cleanser, Siege Claw, Ionic Flare Shield)",					"pts":0},
 		{"id":161, "name":"Questoris Relic Knight-Magaera (Lightning C, Rad Cleanser, Siege Claw, Ionic Flare Shield)",				"pts":0},
 
-		{"id":163, "name":"Acastus Knight-Asterius (2 Conversion Beam Cannons, 2 Volkite Culvertin, Karacnos Mortar Battery)",	"pts":0},
+		{"id":163, "name":"Acastus Knight-Asterius (2 Conversion Beam Cannons, 2 Volkite Culvertins, Karacnos Mortar Battery)",	"pts":0},
 		{"id":164, "name":"Acastus Knight-Porphyrion (2 Magna Lascannons, 2 Autocannons, Helios Defense Missiles)",  "pts":0},
 
 		{"id":170, "name":"4x Eradication Beamer, 2x Icarus Array",				"pts":0},
@@ -92,8 +92,8 @@
 
     ],
 	"formationConstraints":[
-		{"max":1, "name":"Support Banner", "from":[501,506], "forEach":[500], "name2":"Core Lance"},
-		{"max":1, "name":"Recon Banner", "from":[502], "forEach":[500,501,506], "name2":"Core Lance or Support Banner"},
+		{"max":1, "name":"Support Banner", "from":[501,506], "forEach":[500], "name2":"Core Banner"},
+		{"max":1, "name":"Recon Banner", "from":[502], "forEach":[500,501,506], "name2":"Core or Support Banner"},
 		{"maxPercent": 33.5, "name":"Mechanicus Allies", "from":[510,512,513,514,520,521,522,535]},
 		{"max":1, "perPoints":1500, "from":[503,504,505]},
 		{"max":1, "perArmy":true, "from":[522]}
