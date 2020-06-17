@@ -15,22 +15,18 @@
 		{"name": "SUPPORT FORMATIONS <br/> Max 4 per Battle Titan formation <br/> Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
 			{"id":513, "name":"Chaos Warhound",		"pts":275, "upgrades":[]},
 			{"id":514, "name":"Slaanesh Scout Titan", "pts":275, "upgrades":[]},
-			{"id":550, "name":"Chaos Knights",			"pts":275, "units": "Daemonic Pact", "upgrades":[]}
+			{"id":518, "name":"Cerberites of Chaos Undivided", "pts":175, "units": "3 Cerberites", "upgrades":[]},
+			{"id":519, "name":"Maulerfiends of Chaos Undivided", "pts":200, "units": "4 Maulerfiends", "upgrades":[]},
+			{"id":503, "name":"Forgefiends of Chaos Undivided", "pts":225, "units":"3 Forgefiends", "upgrades":[]},
+			{"id":551, "name":"Defilers",				"pts":200, "upgrades":[]}
 		]},
 			{"name":"HELL-FORGE & CHAOS NAVY ALLIES <br/> Max 33%", "formations":[
-				{"id":551, "name":"Defilers",				"pts":200, "upgrades":[]},
 			{"id":590, "name":"Hell-Forge Maniple",		"pts":225, "units": "Hellwright, 11 Chaos Squats", "upgrades":[110]},
 			{"id":591, "name":"Ordinatus Hereticus",		"pts":75, "upgrades":[]},
 			{"id":592, "name":"Heldrakes",				"pts":225, "units": "2 Heldrakes", "upgrades":[]},
 			{"id":594, "name":"Harbringer Bomber",				"pts":300, "upgrades":[]},
 			{"id":593, "name":"Despoiler Battleship",				"pts":200, "upgrades":[]}
-		]},
-
-		{"name":"DAEMONS", "formations":[
-      		{"id": 600, "name": "Lesser Daemon Pool", "pts": 0, "upgrades": [450,451]}
-
-      ]}
-
+		]}
 
 	],
 	"upgrades":[
@@ -126,9 +122,8 @@
 	"formationConstraints":[
 		{"max": 1, "from": [500]},
 		{"max": 1, "from": [593]},
-		{"min": 1, "max": 1, "from": [600]},
-  	{"max": 4, "name": "Support formations", "from": [510,511,512,513,514,540,541,542,550,560,561,570,571,580,582],  "forEach": [500,501,502], "name2": "Battle Titan formation" },
- 		{"maxPercent": 33.5, "name": "Hell-Forge and Chaos Navy Allies", "from": [551,590,591,592,593,594]}
+  	{"max": 4, "name": "Support formations", "from": [513,514,515,550,551],  "forEach": [500,501,502], "name2": "Battle Titan formation" },
+ 		{"maxPercent": 33.5, "name": "Hell-Forge and Chaos Navy Allies", "from": [590,591,592,593,594]}
 
 	],
 	"upgradeConstraints":[
@@ -150,7 +145,8 @@
 
       {"min": 4, "max": 5, "from": [87], "appliesTo": [540]},
 
-      {"min": 1, "max": 1, "from": [80,81,82,83,84,85], "appliesTo": [550]},
+      {"min": 1, "max": 1, "from": [84,85,80,81,82,83], "appliesTo": [550]},
+
       {"min": 1, "max": 1, "from": [123,121,122,120,124], "appliesTo": [551]},
 
   	  {"min": 1, "max": 1, "from": [98,99], "appliesTo": [582]},

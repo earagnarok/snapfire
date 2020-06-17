@@ -25,8 +25,8 @@
 			{"id":514, "name":"Defilers", "pts":225, "units": "4 Defilers", "upgrades":[]}
 		]},
 		{"name":"WAR ENGINES & CHAOS NAVY FORMATIONS <br/> Max 33%", "formations":[
+			{"id":518, "name":"Dreadblade", "pts":250, "units": "Daemonic Pact", "upgrades":[]},
 			{"id":511, "name":"Death Wheel",	"pts":300, "upgrades":[]},
-			{"id":510, "name":"Shrine of Chaos",	"pts":300, "upgrades":[]},
             {"id":516, "name":"Heldrakes", "pts": 225, "units": "2 Heldrakes", "upgrades": []},
 			{"id":536, "name":"Harbringer Bomber", 	"pts":300, "upgrades":[]},
 			{"id":517, "name":"Chaos Stormbird",	 "pts":350, "upgrades":[]},
@@ -72,6 +72,11 @@
 
 		{"id":63, "name":"Defiler", "pts":50},
 
+		{"id":65, "name":"Knight-Dreadblade 'Incarnate Slaughter' (Hyperwave Clarion, Thunderstrike Gauntlet)", "pts":0},
+		{"id":66, "name":"Knight-Dreadblade 'Gilded King' (Rapid Fire Battle Cannon, Ironstorm Missile Pod)", "pts":0},
+		{"id":67, "name":"Knight-Dreadblade 'Hatred of Krastellan' (Heavy Neutron Laser)", "pts":0},
+		{"id":68, "name":"Knight-Dreadblade 'Litany of Destruction' (Laser Destructor, Stormspear Rocket Pod)", "pts":0},
+
 		{"id":71, "name":"Greater Daemon Pool point", "pts":50},
 		{"id":72, "name":"Lesser Daemon Pool point", "pts":15},
 		{"id":73, "name":"Lesser Daemon Pool point (Daemonic Pact)", "pts":0},
@@ -81,6 +86,7 @@
 
 	],
 	"formationConstraints":[
+		{"max":1, "name":"Dreadblade", "from":[518]},
 		{"max":1, "name":"Spacecraft", "from":[520,521]},
 		{"max":1, "name":"Word Bearers Cultist Coven", "from":[501], "forEach":[500], "name2":"Word Bearers Retinue"},
 		{"max":2, "name":"Daemon Engine formations", "from":[513,514,515,512], "forEach":[501], "name2":"Word Bearers Cultist Coven"},
@@ -108,7 +114,9 @@
 		{"min":4, "max":6, "from":[50], "appliesTo":[502]},
 		{"min":0, "max":6, "from":[41], "appliesTo":[502]},
 
-		{"min":1, "max":1, "from":[38,39], "appliesTo":[507]}
+		{"min":1, "max":1, "from":[38,39], "appliesTo":[507]},
+
+		{"min":1, "max":1, "from":[65,66,67,68], "appliesTo":[518]}
 
 	]
 }
