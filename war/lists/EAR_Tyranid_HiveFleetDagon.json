@@ -32,7 +32,7 @@
       "formations": [
 	  	    {
           "id": 512,
-          "name": "Hive Swarm (1-2 Instinctive Swarms)",
+          "name": "Nest Swarm (1-2 Instinctive Swarms)",
           "units": "Hive Nest",
           "pts": 125,
           "upgrades": [100,101,102,103,104,105,108,109,111,112]
@@ -41,7 +41,7 @@
           "id": 509,
           "name": "Breacher Swarm (1-2 Instinctive Swarms)",
           "pts": 0,
-          "upgrades": [100,101,102,103,104,105,117,118,121,122,113,114,115,116]
+          "upgrades": [100,101,102,103,104,105,109,117,118,121,122,113,114]
 		},
           {
           "id": 504,
@@ -173,7 +173,7 @@
 	{"max": 2,"min": 1,"from": [100,101,102,103,104,105,108,109],"appliesTo": [512]},
 	{"max": 1,"min": 0,"from": [111,112],"appliesTo": [512]},
 	{"max": 1,"min": 1,"from": [216,217],"appliesTo": [509]},
-	{"max": 2,"min": 1,"from": [100,101,102,103,104,105,117,118,121,122,113,114,115,116],"appliesTo": [509]},
+	{"max": 2,"min": 1,"from": [100,101,102,103,104,105,109,117,118,121,122,113,114],"appliesTo": [509]},
 	{"max": 1,"min": 1,"from": [215,214],"appliesTo": [504]},
     {"max": 2,"min": 1,"from": [118,117],"appliesTo": [504]},
     {"max": 2,"min": 1,"from": [130],"appliesTo": [505]},
