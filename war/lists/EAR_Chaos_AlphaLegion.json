@@ -8,13 +8,13 @@
 			{ "id":401, "name":"Daemon Pool", "pts":0, "upgrades":[50,51] }
 		]},
 		{"name":"ALPHA LEGION CORE FORMATIONS <br/> Max 1 Cultist Coven for each Alpha Legion Marines", "formations": [
-				{ "id":501, "name":"Alpha Legion Marines", "pts":200, "upgrades":[30,31,32,12] },
+				{ "id":501, "name":"Alpha Legion Marines", "pts":200, "upgrades":[30,31,32,33,12] },
 				{ "id":500, "name":"Cultist Coven", "pts":225, "units":"7 Chaos Cultists",  "upgrades":[45,48,18] }
 		]},
 		{"name":"ALPHA LEGION ELITE FORMATIONS <br/> Max 1 for each Alpha Legion Marines", "formations": [
-			{ "id":522, "name":"Destroyers", "pts":200,"units":"4 Alpha Legion Destroyers", "upgrades":[] },
+			{ "id":522, "name":"Destroyers", "pts":200,"units":"4 Alpha Legion Destroyers", "upgrades":[33] },
 			{ "id":521, "name":"Headhunters", "pts":250, "units":"4 Alpha Legion Headhunters plus transport", "upgrades":[31,12] },
-			{ "id":520, "name":"Sicarians", "pts":300, "units":"4 Alpha Legion Sicarian Battle Tanks", "upgrades":[] },
+			{ "id":520, "name":"Sicarians", "pts":300, "units":"4 Alpha Legion Sicarian Battle Tanks", "upgrades":[31] },
 			{ "id":523, "name":"Lernaean Terminators", "pts":275,"units":"4 Lernaean Terminators plus transport", "upgrades":[30,12] }
 		]},
 		{"name":"ALPHA LEGION CULTIST SUPPORT FORMATIONS <br/> Max 2 for each Cultist Coven", "formations": [
@@ -50,6 +50,7 @@
 		{ "id":30, "name":"Alpha Legion Dreadnought", "pts":35 },
 		{ "id":31, "name":"Alpha Legion Vindicator", "pts":35 },
 		{ "id":32, "name":"Alpha Legion Land Raider", "pts":50 },
+		{ "id":33, "name":"Alpha Legion Predator", "pts":50 },
 
 		{ "id":38, "name":"Aspiring Champion with Daemonic Icon", "pts":25 },
 		{ "id":39, "name":"Daemon Prince with Daemonic Icon", "pts":125 },
@@ -80,6 +81,7 @@
 		{"max":2, "from":[18]},
 		{"max":2, "from":[30]},
 		{"max":2, "from":[31]},
+		{"max":2, "from":[33]},
 		{"max":3, "from":[44]},
 		{"max":3, "from":[45]},
 		{"max":1, "from":[46]},
