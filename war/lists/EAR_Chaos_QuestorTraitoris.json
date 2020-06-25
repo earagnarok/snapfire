@@ -5,7 +5,7 @@
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"HELL-FORGE CORE FORMATIONS", "formations":[
-			{"id":520, "name":"Hell-Forge Maniple",		"pts":225, "upgrades":[50,53, 54,55, 60,61,62,63]}
+			{"id":520, "name":"Hell-Forge Maniple",		"pts":225, "upgrades":[50,53, 54,55, 60,61,62,63, 69]}
 		]},
 		{"name":"DAEMONIC BANNER FORMATIONS <br/> Max 3 for each Hell-Forge Core formation <br/> Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
 			{"id":500, "name":"Hell-Knights of Slaanesh",		"units":"Daemonic Pact",	"pts":75,  "upgrades":[80]},
@@ -20,8 +20,8 @@
 		]},
 		{"name":"ORDINATUS SUPPORT & CHAOS NAVY ALLIES <br/> Max 33%", "formations":[
 			{"id":525, "name":"Chrono-Gladiators",		"pts":200, "units":"6 Chrono-Gladiators", "upgrades":[]},
-				{"id":523, "name":"Ordinatus Hereticus",		"pts":75, "upgrades":[60,61,62,63,65,66,67,68]},
-				{"id":524, "name":"Extremis Diabolus",		"pts":425, "upgrades":[]},
+				{"id":523, "name":"Ordinatus Hereticus",		"pts":75, "upgrades":[69]},
+				{"id":524, "name":"Extremis Diabolus",		"pts":425, "upgrades":[12]},
 				{"id":526, "name":"Chaos Warbringer",				"pts":650, "upgrades":[]},
 				{"id":536, "name":"Heldrakes",				"pts":225, "units": "2 Heldrakes", "upgrades":[]},
 				{"id":538, "name":"Harbringer Bomber", 	"pts":300, "upgrades":[]},
@@ -38,6 +38,7 @@
 	"upgrades":[
 		{"id":10,	"name":"Hellwright",	"pts":0},
 		{"id":11,	"name":"Hellwright w/ Arch-Heretek",	"pts":100},
+		{"id":12,	"name":"Arch-Heretek",	"pts":100},
 
 		{"id":20,	"name":"11 Chaos Squats",	"pts":0},
 		{"id":21,	"name":"7 Chaos Squats, 4 Phospexors",	"pts":25},
@@ -57,10 +58,12 @@
 		{"id":67,	"name":"Ordinatus Hereticus w/ Cyclone Cannon",	"pts":150},
 		{"id":68,	"name":"Ordinatus Hereticus w/ 4x Havoc Barrage Missiles",	"pts":150},
 
+		{"id":69,	"name":"The Kaban Machine",	"pts":200},
+
 		{"id":70,	"name":"Ordinatus Retlaxi",	"pts":0},
 		{"id":71,	"name":"Ordinatus Temporia",	"pts":25},
 		{"id":72,	"name":"Ordinatus Cyclothrathe",	"pts":50},
-		{"id":73,	"name":"The Kaban Machine",	"pts":150},
+
 
 		{"id":80,	"name":"Hell-Knight of Slaanesh",	"pts":100},
 		{"id":81,	"name":"Hell-Scourge of Slaanesh",	"pts":100},
@@ -101,7 +104,8 @@
 	],
 	"upgradeConstraints":[
 
-	{"max": 1, "from": [11,73], "name": "Supreme Commander",  "perArmy": true},
+	{"max": 1, "from": [11,12], "name": "Supreme Commander",  "perArmy": true},
+	{"max": 1, "from": [69], "name": "The Kaban Machine",  "perArmy": true},
       {"max": 1, "from": [120]},
 
 	  {"min": 2, "max": 3, "from": [80], "appliesTo": [500]},
@@ -119,10 +123,10 @@
 
       {"min": 1, "max": 1, "from": [20,21], "appliesTo": [520]},
 
-      {"min": 2, "max": 3, "from": [60,61,62,63,65,66,67,68], "appliesTo": [523]},
+      {"min": 2, "max": 2, "from": [60,61,62,63,65,66,67,68], "appliesTo": [523]},
       {"max": 1, "from": [65,66,67,68], "appliesTo": [523]},
 
-      {"min": 1, "max": 1, "from": [70,71,72,73], "appliesTo": [524]},
+      {"min": 1, "max": 1, "from": [70,71,72], "appliesTo": [524]},
 
       {"min": 1, "max": 1, "from": [100,101,102], "appliesTo": [526]},
       {"min": 1, "max": 1, "from": [110,111,112], "appliesTo": [526]},
