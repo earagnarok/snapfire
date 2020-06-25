@@ -13,7 +13,7 @@
 		]},
 		{"name":"BLACK LEGION ELITE FORMATIONS <br/> Max 1 for each Core formation", "formations":[
 			{"id":503, "name":"Chosen", "pts":150, "units":"4 Chosen", "upgrades":[70]},
-			{"id":502, "name":"Chaos Terminators", "ptaws":275, "units":"4 Chaos Terminators", "upgrades":[14,15,41,42,51,70,80]}
+			{"id":502, "name":"Chaos Terminators", "pts":275, "units":"4 Chaos Terminators", "upgrades":[14,15,41,42,51,70,80]}
 		]},
 		{"name":"BLACK LEGION SUPPORT FORMATIONS <br/> Max 2 for each Core formation", "formations":[
 			{"id":505, "name":"Raptor Cult",	"pts":55,  "upgrades":[21,70]},
