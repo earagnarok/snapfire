@@ -5,8 +5,8 @@
    "sections": [
       { "name": "VIOR'LA CADRES",
          "formations": [
-            {"id": 500,"name": "XV8 Crisis Battlesuit Cadre","pts": 300, "upgrades": [9,10, 15,16,17,18]},
-            {"id": 512,"name": "Heavy Battlesuit Cadre","pts": 300, "upgrades": [9,10, 15,16,17,18]}
+            {"id": 500,"name": "XV8 Crisis Battlesuit Cadre","pts": 250, "upgrades": [15,16,17,18]},
+            {"id": 512,"name": "Heavy Battlesuit Cadre","pts": 300, "upgrades": [15,16,17,18]}
          ]
       },
       {"name": "VIOR'LA SUPPORT GROUPS <br/> Max 3 for each Cadre",
@@ -30,8 +30,8 @@
    ],
    "upgrades": [
 
-       {"id": 9,"name": "Shas'el", "pts": 25},
-      {"id": 10,"name": "Shas'o", "pts": 100},
+       {"id": 9,"name": "Shas'el", "pts": 0},
+      {"id": 10,"name": "Shas'o", "pts": 75},
 
       {"id": 15,"name": "2 Missile Drones","pts": 25},
       {"id": 16,"name": "2 Gun Drones","pts": 25},
@@ -55,9 +55,9 @@
       {"id": 34,"name": "6 Gun Drones","pts": 100},
       {"id": 35,"name": "6 Missile Drones","pts": 100},
 
-      {"id": 37,"name": "6 XV8 Crisis Battlesuits","pts": 0},
-      {"id": 38,"name": "7 XV8 Crisis Battlesuits","pts": 50},
-      {"id": 39,"name": "8 XV8 Crisis Battlesuits","pts": 75},
+      {"id": 37,"name": "4 XV8 Crisis Battlesuits","pts": 0},
+      {"id": 38,"name": "6 XV8 Crisis Battlesuits","pts": 75},
+      {"id": 39,"name": "8 XV8 Crisis Battlesuits","pts": 150},
 
       {"id": 40,"name": "3 XV107 R'Varna Battlesuits (Pulse Submunition Cannons)","pts": 0},
       {"id": 41,"name": "4 XV107 R'Varna Battlesuits (Pulse Submunition Cannons)","pts": 75},
@@ -95,7 +95,7 @@
    "upgradeConstraints": [
 		{"max":1, "perArmy":true, "from":[10]},
 
-      {"max": 1, "from": [9,10]},
+      {"min": 1, "max": 1, "from": [9,10], "appliesTo": [500,512]},
       {"max": 1, "from": [15,16,17,18]},
       {"max": 1, "from": [21]},
       {"max": 1, "from": [22]},

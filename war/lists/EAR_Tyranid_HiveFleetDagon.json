@@ -16,13 +16,13 @@
         {
           "id": 502,
           "name": "Tyrant Swarm (2-4 Instinctive Swarms)",
-          "pts": 125,
+          "pts": 150,
           "upgrades": [100,101,102,103,104,105,107,108,109,121,122,111,112,113,114,115,116,117,118,120]
         },
         {
           "id": 503,
           "name": "Assault Swarm (2-4 Instinctive Swarms)",
-          "pts": 100,
+          "pts": 125,
           "upgrades": [100,101,102,103,104,105,107,108,109,121,122,111,112,113,114,115,116,117,118,120]
         }
       ]
@@ -138,8 +138,8 @@
 
 	{"id": 214,"name": "Trygon Prime","pts": 125},
 	{"id": 215,"name": "3 Ravener Alphas","pts": 100},
-	{"id": 216,"name": "Barbed Hierodule Prime","pts": 125},
-	{"id": 217,"name": "Scythed Hierodule Prime","pts": 125},
+	{"id": 216,"name": "Barbed Hierodule Prime","pts": 150},
+	{"id": 217,"name": "Scythed Hierodule Prime","pts": 150},
 	{"id": 218,"name": "Hive Nest","pts": 125},
 
     {"id": 240,"name": "Hive Tyrant","pts": 0},
