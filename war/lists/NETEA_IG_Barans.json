@@ -39,7 +39,7 @@
 		{"id":28, "name":"6 Siege Infantry",	"pts":75},
 		{"id":29, "name":"3 Rapiers",			"pts":75},
 		{"id":30, "name":"3 Thudd Guns",		"pts":75},
-		{"id":31, "name":"3 Hellhounds",		"pts":100},
+		{"id":31, "name":"Hellhound",		"pts":25},
 		{"id":32, "name":"3 Griffons",			"pts":50},
 		{"id":33, "name":"2 Snipers",			"pts":50},
 		{"id":34, "name":"Snipers",				"pts":25}
@@ -59,7 +59,7 @@
 		{"max":1, "from":[28]},
 		{"max":1, "from":[29]},
 		{"max":1, "from":[30]},
-		{"max":1, "from":[31]},
+		{"max":3, "from":[31]},
 		{"max":1, "from":[32]},
 		{"max":1, "from":[34,33]},
 		{"max":1, "from":[35]},

@@ -51,8 +51,11 @@
 		{"id":33, "name":"Laser Blaster",		"pts":50},
 		{"id":34, "name":"Volcano Cannon",		"pts":50},
 		{"id":35, "name":"Plasma Destructor",		"pts":75},
-		{"id":36, "name":"Support Missile",		"pts":75},
-		{"id":37, "name":"Quake Cannon",		"pts":75},
+		{"id":36, "name":"Quake Cannon",		"pts":75},
+		{"id":37, "name":"Support Missile (Vortex)",		"pts":75},
+		{"id":38, "name":"Support Missile (Warp)",		"pts":75},
+		{"id":39, "name":"Support Missile (Deathstrike)",		"pts":75},
+		{"id":40, "name":"Support Missile (Barrage)",		"pts":75},
 
 		{"id":80, "name":"Single Weapon Loadout Surcharge",		"pts":25},
 		{"id":81, "name":"Legate",			"pts":50},
@@ -78,8 +81,8 @@
 		{"min":2, "max":2, "from":[6,1,2,3,4,5,7,8,9,10], "appliesTo":[552]},
 		{"min":3, "max":3, "from":[11,12,13,14,25,26,27,28,29,30,31,32,33,34,35,36,37], "appliesTo":[504]},
 		{"min":4, "max":4, "from":[11,12,13,14,25,26,27,28,29,30,31,32,33,34,35,36,37], "appliesTo":[503]},
-    	{"max":2, "from":[35,36], "appliesTo":[503]},
-    	{"max":1, "from":[35,36], "appliesTo":[504]}
+    	{"max":2, "from":[35,37,38,39,40], "appliesTo":[503]},
+    	{"max":1, "from":[35,37,38,39,40], "appliesTo":[504]}
 
 	]
 }
