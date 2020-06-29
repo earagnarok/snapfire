@@ -10,7 +10,7 @@
       },
       {"name": "NECRON CORE <br/> Max 1 'The Unbidden' formation for each Necron Phalanx",
          "formations": [
-            {"id": 701, "name": "Necron Phalanx", "pts": 225, "units": "6 Necron Warriors", "upgrades": [100,101,102,103,99]},
+            {"id": 701, "name": "Necron Phalanx", "pts": 250, "units": "6 Necron Warriors", "upgrades": [100,101,102,103,99]},
             {"id": 702, "name": "The Unbidden", "pts": 200, "units": "6 Flayed Ones", "upgrades": []}
          ]
       },
@@ -43,7 +43,6 @@
       {"id": 97, "name": "Wraiths", "pts": 25},
       {"id": 99, "name": "C'tan Shard", "pts": 75},
       {"id": 100, "name": "Tomb Spyder", "pts": 50},
-      {"id": 101, "name": "2 Tomb Spyders", "pts": 75},
       {"id": 102, "name": "3 Immortals", "pts": 75},
       {"id": 103, "name": "Wraiths", "pts": 25},
 
@@ -81,7 +80,7 @@
       {"max": 1, "from": [111]},
 
       {"max": 1, "min": 1, "from": [22,107], "appliesTo": [701]},
-      {"max": 1, "from": [100,101], "appliesTo": [701,502]},
+      {"max": 2, "from": [100], "appliesTo": [701,502]},
       {"max": 2, "from": [103], "appliesTo": [701,502]},
 
       {"max": 1, "from": [108,112]},
