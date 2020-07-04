@@ -17,7 +17,7 @@
 			{"id":511, "name":"Chosen", "pts":150, "units":"4 Night Lords Chosen", "upgrades":[]}
 		]},
 		{"name":"NIGHT LORDS SUPPORT FORMATIONS <br/> Max 2 for each Core formation", "formations":[
-			{"id":519, "name":"Destroyers", "pts":200, "units":"4 Chaos Destroyers", "upgrades":[]},
+			{"id":519, "name":"Destroyers", "pts":175, "units":"4 Chaos Destroyers", "upgrades":[]},
 			{"id":520, "name":"Terror Company", "pts":225,  "units":"4 Night Lords Assault Marines", "upgrades":[15,46]},
 			{"id":522, "name":"Support Company", "pts":250,  "units":"6 Chaos Space Marines", "upgrades":[15,44]},
 			{"id":521, "name":"Attack Company",	"pts":250, "units":"6 Chaos Attack Bikes", "upgrades":[15,44]}

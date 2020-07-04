@@ -9,7 +9,7 @@
 		]},
 		{"name":"ALPHA LEGION CORE FORMATIONS <br/> Max 1 Cultist Coven for each Alpha Legion Marines", "formations": [
 				{ "id":501, "name":"Alpha Legion Marines", "pts":200, "upgrades":[30,31,32,33] },
-				{ "id":500, "name":"Cultist Coven", "pts":200, "units":"9 Chaos Cultists",  "upgrades":[16,17,45,46,48] }
+				{ "id":500, "name":"Cultist Coven", "pts":225, "upgrades":[16,17,45,46,48] }
 		]},
 		{"name":"ALPHA LEGION ELITE FORMATIONS <br/> Max 1 for each Alpha Legion Marines", "formations": [
 			{ "id":522, "name":"Destroyers", "pts":200,"units":"4 Alpha Legion Destroyers", "upgrades":[33] },
@@ -49,6 +49,9 @@
 
 		{ "id":20, "name":"4 Alpha Legion Marines plus transport", "pts":0 },
 		{ "id":21, "name":"4 Alpha Legion Havocs plus transport", "pts":50 },
+
+		{ "id":25, "name":"Cultists", "pts":0 },
+		{ "id":26, "name":"Mutants", "pts":0 },
 
 		{ "id":30, "name":"Alpha Legion Dreadnought", "pts":35 },
 		{ "id":31, "name":"Alpha Legion Vindicator", "pts":35 },
@@ -90,6 +93,7 @@
 
 		{"min":1, "max":1, "from":[13,38,14,39], "appliesTo":[500]},
 		{"min":0, "max":6, "from":[16,17], "appliesTo":[500]},
+		{"min":9, "max":9, "from":[25,26], "appliesTo":[500]},
 
 		{"min":1, "max":1, "from":[10,11,12], "appliesTo":[501,521,522,523]},
 		{"max":1, "from":[11,12], "appliesTo":[501,521,523]},

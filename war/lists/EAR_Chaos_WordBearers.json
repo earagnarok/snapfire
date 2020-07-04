@@ -10,7 +10,7 @@
 		]},
 		{"name":"WORD BEARERS CORE FORMATIONS <br/> Max 1 Cultist Coven for each Word Bearers Retinue", "formations":[
 			{"id":500, "name":"Word Bearers Retinue", "pts":350, "units":"Daemonic Pact", "upgrades":[14,40,41,47,80]},
-			{"id":501, "name":"Cultist Coven", "pts":225, "units":"Aspiring Champion, Daemonic Pact", "upgrades":[14,21,17]}
+			{"id":501, "name":"Cultist Coven", "pts":250, "units":"Demagogue, Daemonic Pact", "upgrades":[14,21,16,17]}
 		]},
 		{"name":"WORD BEARERS ELITE FORMATIONS <br/> Max 2 for each Word Bearers Retinue", "formations":[
 			{"id":505, "name":"Iconoclasts",	"pts":225, "units":"Diabolist, 4 Word Bearers Iconoclasts, Daemonic Pact", "upgrades":[14]},
@@ -44,8 +44,9 @@
 
 		{"id":14, "name":"Icon Bearer", "pts":25},
 
+		{"id":16, "name":"Chaos Hounds", "pts":10},
 		{"id":17, "name":"Chaos Spawn", "pts":35},
-		{"id":18, "name":"Chaos Cultists", "pts":0},
+		{"id":18, "name":"Cultists", "pts":0},
 		{"id":19, "name":"Mutants", "pts":0},
 		{"id":20, "name":"Technical", 			"pts":20},
 		{"id":21, "name":"Land Transporter", 			"pts":10},
@@ -98,6 +99,7 @@
 		{"max":1, "perArmy":true, "from":[12,13,10]},
 
 		{"min":0, "max":1, "from":[14]},
+		{"min":0, "max":3, "from":[16]},
 		{"min":0, "max":1, "from":[17]},
 		{"min":0, "max":2, "from":[20]},
 		{"min":0, "max":6, "from":[21]},
