@@ -8,14 +8,14 @@
 			{"id":500, "name":"Questoris", 		"pts":275, "upgrades":[]}
 		]},
 		{"name":"SUPPORT BANNERS <br/> Max 1 per Core Banner", "formations":[
-			{"id":506, "name":"Dominus",	"pts":225,  "upgrades":[]},
+			{"id":506, "name":"Dominus",	"pts":250,  "upgrades":[]},
 			{"id":501, "name":"Cerastus",	"pts":300,  "upgrades":[]}
 		]},
 		{"name":"RECON BANNERS <br/> Max 1 per Core or Support Banner", "formations":[
 			{"id":502, "name":"Arminger",			"pts":175, "upgrades":[106,107]}
 		]},
 		{"name":"RELIC BANNERS <br/> Max 1 Relic Banner for each 1500 points in the army", "formations":[
-			{"id":507, "name":"Armiger Reliquae",	"pts":225, "units":"3 Armiger Relic Knight-Moirax (Volkite Veuglaire, Gyges Siege Claw, Ionic Flare Shield)",  "upgrades":[]},
+			{"id":507, "name":"Armiger Reliquae",	"pts":200, "units":"3 Armiger Relic Knight-Moirax (Volkite Veuglaire, Gyges Siege Claw, Ionic Flare Shield)",  "upgrades":[]},
 			{"id":505, "name":"Cerastus Reliquae",	"pts":225, "units":"Cerastus Relic Knight-Atrapos (Graviton Singularity Cannon, Atrapos Lascutter, Ionic Flare Shield)",  "upgrades":[]},
 			{"id":503, "name":"Questoris Reliquae",	"pts":225,  "upgrades":[]},
 			{"id":504, "name":"Acastus Reliquae",	"pts":300,  "upgrades":[]}
@@ -54,8 +54,8 @@
 		{"id":104, "name":"2 Knight-Wardens (Gatling Cannon, Ironstorm Missiles, Hvy Stubber, Reaper Chainsword)",				"pts":0},
 		{"id":105, "name":"2 Knight-Preceptors (Las-Impulsor, Hvy Stubber, Thunderstrike Gauntlet)",								"pts":0},
 
-		{"id":106, "name":"Knight-Preceptor w/ Seneschal (Las-Impulsor, Hvy Stubber, Thunderstrike Gauntlet)",				"pts":175},
-		{"id":107, "name":"Knight-Preceptor w/ Seneschal, Ionic Flare Shield (Las-Impulsor, Hvy Stubber, Thunderstrike Gauntlet)",				"pts":200},
+		{"id":106, "name":"Knight-Preceptor w/ Seneschal (Las-Impulsor, Hvy Stubber, Thunderstrike Gauntlet)",				"pts":150},
+		{"id":107, "name":"Knight-Preceptor w/ Seneschal, Ionic Flare Shield (Las-Impulsor, Hvy Stubber, Thunderstrike Gauntlet)",				"pts":175},
 
 		{"id":110, "name":"2 Cerastus Knight-Lancer (Cerastus Shock Lance, Ionic Flare Shield)",								"pts":0},
 		{"id":111, "name":"2 Cerastus Knight-Castigator (Castigator Cannon, Tempest Warblade)",									"pts":0},
@@ -66,8 +66,8 @@
 		{"id":122, "name":"3 Knight-Helverins (Twin Autocannons, Hvy Stubber)",																	"pts":0},
 		{"id":123, "name":"4 Knight-Helverins (Twin Autocannons, Hvy Stubber)",																	"pts":50},
 
-		{"id":130, "name":"Knight-Valiant (Conflagration C. Thundercoil H. Siegebreaker C. 4 Shieldbreaker M.)",	"pts":0},
-		{"id":131, "name":"Knight-Castellan (Volcano Lance, Plasma Decimator, 2 Siegebreaker C. 2 Shieldbreaker M.)",		"pts":0},
+		{"id":130, "name":"Knight-Valiant (Conflagration C. Thundercoil H. Siegebreaker C. 4 Shieldbreaker M. Quad Meltaguns)",	"pts":0},
+		{"id":131, "name":"Knight-Castellan (Volcano Lance, Plasma Decimator, 2 Siegebreaker C. 2 Shieldbreaker M. Quad Meltaguns)",		"pts":0},
 
 		{"id":160, "name":"Questoris Relic Knight-Styrix (Volkite Chieroville, Twin Rad Cleanser, Graviton Crusher, Siege Claw, Ionic Flare Shield)",					"pts":0},
 		{"id":161, "name":"Questoris Relic Knight-Magaera (Lightning C, Twin Phased Plasma Fusil, Reaper Chainsword, Ionic Flare Shield)",				"pts":0},
@@ -100,14 +100,14 @@
 	],
 	"upgradeConstraints":[
 
-		{"max":1, "perArmy":true, "from":[8,10]},
+		{"max":1, "perArmy":true, "from":[8,9]},
 
         {"max":1,"from":[13],"appliesTo":[520]},
         {"max":1,"from":[106,107],"appliesTo":[502]},
 		{"max":1, "from":[175,176,177,178]},
 
-		{"min":1, "max":1, "from":[6,7,8,9], "appliesTo":[500,501,506]},
-		{"min":1, "max":1, "from":[6,8], "appliesTo":[503,504,505]},
+		{"min":1, "max":1, "from":[6,7,8,9], "appliesTo":[500,501,506,504]},
+		{"min":1, "max":1, "from":[6,8], "appliesTo":[503,505]},
 
 		{"min":1, "max":1, "from":[100,101,102,103,104,105], "appliesTo":[500]},
 
