@@ -10,16 +10,16 @@
       },
       {"name": "NECRON CORE <br/> Max 1 'The Unbidden' formation for each Necron Phalanx",
          "formations": [
-            {"id": 701, "name": "Necron Phalanx", "pts": 250, "units": "6 Necron Warriors", "upgrades": [100,101,102,103,99]},
+            {"id": 701, "name": "Necron Phalanx", "pts": 250, "units": "6 Necron Warriors", "upgrades": [100,102,103,99]},
             {"id": 702, "name": "The Unbidden", "pts": 200, "units": "6 Flayed Ones", "upgrades": []}
          ]
       },
       {"name": "NECRON SUPPORT <br/> Max 2 for each Necron Phalanx",
          "formations": [
             {"id": 501, "name": "Obelisk Phalanx", "pts": 300, "units": "6 Obelisks", "upgrades": []},
-            {"id": 502, "name": "Destroyer Phalanx", "pts": 75, "upgrades": [100,101,99]},
-            {"id": 503, "name": "Monolith Phalanx", "pts": 275, "units": "3 Monoliths", "upgrades": [104]},
-            {"id": 505, "name": "Monolith Maniple", "pts": 25, "upgrades": [106,105]},
+            {"id": 502, "name": "Destroyer Phalanx", "pts": 75, "upgrades": [100,99]},
+            {"id": 503, "name": "Monolith Phalanx", "pts": 275, "units": "3 Monoliths", "upgrades": [105]},
+            {"id": 505, "name": "Monolith Maniple", "pts": 25, "upgrades": [105]},
             {"id": 504, "name": "Tomb Guardian", "pts": 175, "units":"Pylon", "upgrades": []},
             {"id": 506, "name": "Stalker Maniple", "pts": 175, "upgrades": []}
          ]
@@ -30,7 +30,7 @@
             {"id": 806, "name": "Night Shroud", "units":"Night Shroud Bomber", "pts": 175},
             {"id": 804, "name": "Doom Scythes",  "units":"2 Doom Scythe Fighter-Bombers", "pts": 225, "upgrades": []},
             {"id": 802, "name": "Tomb Ship", "units":"Cairn Class Tomb Ship", "pts": 200},
-            {"id": 805, "name": "Megalith Conduit", "pts": 350, "units":"Megalith", "upgrades": [111]}
+            {"id": 805, "name": "Megalith Conduit", "pts": 350, "units":"Megalith", "upgrades": [105,106]}
          ]
       }
    ],
@@ -53,7 +53,6 @@
       {"id": 108, "name": "Necron Destroyer Lord", "pts": 50},
       {"id": 109, "name": "Destroyers", "pts": 25},
       {"id": 110, "name": "Heavy Destroyers","pts": 25},
-      {"id": 111, "name": "2 Monoliths", "pts": 100},
       {"id": 112, "name": "Necron Destroyer Overlord", "pts": 125}
    ],
    "formationConstraints": [
@@ -76,11 +75,12 @@
 
       {"max": 3, "min": 2, "from": [105], "appliesTo": [505]},
       {"max": 2, "min": 1, "from": [106], "appliesTo": [505]},
+      {"max": 2, "min": 0, "from": [105,106], "appliesTo": [805]},
 
       {"max": 1, "from": [111]},
 
       {"max": 1, "min": 1, "from": [22,107], "appliesTo": [701]},
-      {"max": 2, "from": [100], "appliesTo": [701,502]},
+      {"max": 3, "from": [100], "appliesTo": [701,502]},
       {"max": 2, "from": [103], "appliesTo": [701,502]},
 
       {"max": 1, "from": [108,112]},
