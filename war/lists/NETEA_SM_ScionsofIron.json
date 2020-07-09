@@ -67,8 +67,8 @@
 		{ "id":62, "name":"Land Speeder Tornado", "pts":35 },
 		{ "id":63, "name":"Land Speeder Typhoon", "pts":45 },
 
-		{ "id":81, "name":"Razorback w/ Twin Lascannons)", "pts":25 },
-		{ "id":82, "name":"Razorback w/ Twin Heavy Bolters)", "pts":25 },
+		{ "id":81, "name":"Razorback w/ Twin Lascannon)", "pts":25 },
+		{ "id":82, "name":"Razorback w/ Twin Heavy Bolter)", "pts":25 },
 
 		{ "id":85, "name":"Hunter", "pts":75 },
 

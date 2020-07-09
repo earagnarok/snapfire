@@ -46,8 +46,8 @@
 		{"id":24, "name":"Predator Annihilator",		"pts":0},
 		{"id":25, "name":"Predator Destructor",		"pts":0},
 
-		{"id":26, "name":"Razorback w/ Twin Heavy Bolters",						"pts":25},
-		{"id":27, "name":"Razorback w/ Twin Lascannons",						"pts":25},
+		{"id":26, "name":"Razorback w/ Twin Heavy Bolter",						"pts":25},
+		{"id":27, "name":"Razorback w/ Twin Lascannon",						"pts":25},
 
 		{"id":28, "name":"Landspeeder",		"pts":0},
 		{"id":29, "name":"Landspeeder Tornado",		"pts":0},

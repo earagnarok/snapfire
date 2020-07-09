@@ -72,8 +72,8 @@
         { "id":45, "name":"Space Marine Rapiers", "pts":0 },
         { "id":46, "name":"Space Marine Thunderfires", "pts":0 },
 
-        { "id":50, "name":"Razorback (Twin Heavy Bolters)",  "pts":25},
-        { "id":51, "name":"Razorback (Twin Lascannons)",  "pts":25},
+        { "id":50, "name":"Razorback (Twin Heavy Bolter)",  "pts":25},
+        { "id":51, "name":"Razorback (Twin Lascannon)",  "pts":25},
 
 		{"id":54, "name":"plus transport",	"pts":0},
         { "id":55, "name":"2 Space Marine Rapiers", "pts":50 },
@@ -90,8 +90,8 @@
 
 		{"id":69, "name":"Fellblade",	"pts":250},
 
-        { "id":70, "name":"Tarantula (Twin Heavy Bolters), Gun Emplacement","pts":0 },
-        { "id":71, "name":"Tarantula (Twin Lascannons), Gun Emplacement","pts":0 }
+        { "id":70, "name":"Tarantula (Twin Heavy Bolter), Gun Emplacement","pts":0 },
+        { "id":71, "name":"Tarantula (Twin Lascannon), Gun Emplacement","pts":0 }
 	],
 	"formationConstraints":[
 		{"max":2, "name":"Support Detachments", "from":[510,511,512,513,515,517,518], "forEach":[514,501,502,503,504], "name2":"Core Detachment"},

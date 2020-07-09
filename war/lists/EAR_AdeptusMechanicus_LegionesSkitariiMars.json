@@ -37,7 +37,7 @@
 		{"id":92, "name":"Gorgon",					"pts":100},
 
 		{"id":93, "name":"2 Onager Dunecrawlers (2x Icarus Array)",	"pts":75},
-		{"id":94, "name":"2 Onager Dunecrawlers (2x Twin Heavy Phosphor Blasters)",	"pts":75},
+		{"id":94, "name":"2 Onager Dunecrawlers (2x Twin Heavy Phosphor Blaster)",	"pts":75},
 		{"id":95, "name":"2 Onager Dunecrawlers (2x Neutron Laser)",	"pts":75},
 		{"id":96, "name":"2 Onager Dunecrawlers (2x Eradication Beamer)",	"pts":75},
 		{"id":97, "name":"2 Skorpius Disintegrators",	"pts":75},
@@ -89,7 +89,7 @@
 
 		{"id":170, "name":"4x Eradication Beamer, 2x Icarus Array",				"pts":0},
 		{"id":171, "name":"4x Neutron Laser, 2x Icarus Array",				"pts":0},
-		{"id":172, "name":"4x Twin Heavy Phosphor Blasters, 2x Icarus Array",				"pts":0},
+		{"id":172, "name":"4x Twin Heavy Phosphor Blaster, 2x Icarus Array",				"pts":0},
 
 		{"id":190,"name":"Nemesis Quake Cannon","pts":0},
 	    {"id":191,"name":"Volcano Cannon","pts":0},

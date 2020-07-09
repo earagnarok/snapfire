@@ -65,8 +65,8 @@
     {"id":32, "name":"Land Speeder Typhoon (Planetfall)", "pts":40},
     {"id":33, "name":"Land Speeder Tempest (Planetfall)", "pts":45},
 
-    {"id":34, "name":"Razorback (Twin Heavy Bolters)",						"pts":25},
-    {"id":35, "name":"Razorback (Twin Lascannons)",						"pts":25},
+    {"id":34, "name":"Razorback (Twin Heavy Bolter)",						"pts":25},
+    {"id":35, "name":"Razorback (Twin Lascannon)",						"pts":25},
 
     {"id":40, "name":"Land Speeder", "pts":30},
     {"id":41, "name":"Land Speeder Tornado", "pts":30},

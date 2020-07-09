@@ -29,8 +29,8 @@
 		]}
 		],
 	"upgrades":[
-		{"id":10, "name":"Razorback w/ Twin Heavy Bolters", "pts":25},
-		{"id":11, "name":"Razorback w/ Twin Lascannons", "pts":25},
+		{"id":10, "name":"Razorback w/ Twin Heavy Bolter", "pts":25},
+		{"id":11, "name":"Razorback w/ Twin Lascannon", "pts":25},
 		{"id":12, "name":"8 Grey hunters", "pts":0},
 		{"id":13, "name":"10 Grey hunters", "pts":75},
 		{"id":16, "name":"Wolf Guard Terminators", "pts":75},

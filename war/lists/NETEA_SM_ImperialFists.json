@@ -86,8 +86,8 @@
                { "id":59, "name":"plus enough Rhinos to transport the formation", "pts":0 },
                { "id":60, "name":"2 Bunkers, 50cm Minefields", "pts":0 },
                { "id":61, "name":"2 Bunkers, 50cm Trenches", "pts":0 },
-                { "id":70, "name":"Tarantula (Twin Heavy Bolters), Gun Emplacement","pts":25 },
-                { "id":71, "name":"Tarantula (Twin Lascannons), Gun Emplacement","pts":25 }
+                { "id":70, "name":"Tarantula (Twin Heavy Bolter), Gun Emplacement","pts":25 },
+                { "id":71, "name":"Tarantula (Twin Lascannon), Gun Emplacement","pts":25 }
         ],
         "formationConstraints":[
                 {"maxPercent":33.5, "name":"Static Defenses, Navy and Titan Legion Allies", "from":[521,522,523,531,532,541,542]},

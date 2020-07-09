@@ -32,8 +32,8 @@
 		{"id":101, "name":"Squat Grand Warlord",					"pts":100},
 
 		{"id":105, "name":"Rapier",					"pts":0},
-		{"id":106, "name":"Tarantula (Twin Heavy Bolters)",			"pts":0},
-		{"id":107, "name":"Tarantula (Twin Lascannons)",			"pts":0},
+		{"id":106, "name":"Tarantula (Twin Heavy Bolter)",			"pts":0},
+		{"id":107, "name":"Tarantula (Twin Lascannon)",			"pts":0},
 
 		{"id":111, "name":"Living Ancestor",				"pts":25},
 

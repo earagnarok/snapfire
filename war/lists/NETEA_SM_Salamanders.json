@@ -59,8 +59,8 @@
 		{ "id":77, "name":"4 Land Raider Prometheus", "pts":250 },
 		{ "id":78, "name":"2 Land Raider, 2 Land Raider Prometheus", "pts":250 },
 
-		{ "id":81, "name":"Razorback w/ Twin Lascannons)", "pts":25 },
-		{ "id":82, "name":"Razorback w/ Twin Heavy Bolters)", "pts":25 },
+		{ "id":81, "name":"Razorback w/ Twin Lascannon)", "pts":25 },
+		{ "id":82, "name":"Razorback w/ Twin Heavy Bolter)", "pts":25 },
 
 		{ "id":84, "name":"Salamander Dreadnought", "pts":50 },
 

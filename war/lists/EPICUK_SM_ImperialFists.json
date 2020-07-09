@@ -38,7 +38,7 @@
                 { "id":15, "name":"Techmarine", "pts":25 },
 
                 { "id":16, "name":"Hunter", "pts":75 },
-                { "id":17, "name":"Dreadnought w/ Missile Launcher, Twin Lascannons", "pts":50 },
+                { "id":17, "name":"Dreadnought w/ Missile Launcher, Twin Lascannon", "pts":50 },
                 { "id":18, "name":"Dreadnought w/ Siege Drill, Heavy Flamers", "pts":50 },
 
                 { "id":19, "name":"Land speeder", "pts":0 },
@@ -65,8 +65,8 @@
                 { "id":45, "name":"Imperial Fists Rapier", "pts":25 },
                 { "id":46, "name":"Imperial Fists Thudd Gun", "pts":25 },
 
-                {"id":50, "name":"Razorback w/ Twin Heavy Bolters", "pts":25},
-                {"id":51, "name":"Razorback w/ Twin Lascannons", "pts":25},
+                {"id":50, "name":"Razorback w/ Twin Heavy Bolter", "pts":25},
+                {"id":51, "name":"Razorback w/ Twin Lascannon", "pts":25},
 
                 {"id":55, "name":"4 Predator Destructors", "pts":0},
                 {"id":56, "name":"2 Predator Destructors, 2 Predator Annihilators", "pts":25},
@@ -75,8 +75,8 @@
                { "id":59, "name":"plus transport", "pts":0 },
                { "id":60, "name":"2 Bunkers, 50cm Minefields", "pts":0 },
                { "id":61, "name":"2 Bunkers, 50cm Trenches", "pts":0 },
-                { "id":70, "name":"Tarantula (Twin Heavy Bolters), Gun Emplacement","pts":25 },
-                { "id":71, "name":"Tarantula (Twin Lascannons), Gun Emplacement","pts":25 }
+                { "id":70, "name":"Tarantula (Twin Heavy Bolter), Gun Emplacement","pts":25 },
+                { "id":71, "name":"Tarantula (Twin Lascannon), Gun Emplacement","pts":25 }
         ],
         "formationConstraints":[
                 {"maxPercent":33.5, "name":"Static Defenses, Navy and Titan Legion Allies", "from":[521,522,523,531,532,541,542]},

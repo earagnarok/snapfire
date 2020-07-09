@@ -26,11 +26,11 @@
       },
       {"name": "HARVESTERS <br/> Max 33%",
          "formations": [
+             {"id": 805, "name": "Megalith Conduit", "pts": 350, "units":"Megalith", "upgrades": [105,106]},
             {"id": 803, "name": "Harvester Engine", "pts": 450},
-            {"id": 806, "name": "Night Shroud", "units":"Night Shroud Bomber", "pts": 175},
+            {"id": 806, "name": "Night Shroud", "units":"Night Shroud Bomber", "pts": 200},
             {"id": 804, "name": "Doom Scythes",  "units":"2 Doom Scythe Fighter-Bombers", "pts": 225, "upgrades": []},
-            {"id": 802, "name": "Tomb Ship", "units":"Cairn Class Tomb Ship", "pts": 200},
-            {"id": 805, "name": "Megalith Conduit", "pts": 350, "units":"Megalith", "upgrades": [105,106]}
+            {"id": 802, "name": "Tomb Ship", "units":"Cairn Class Tomb Ship", "pts": 200}
          ]
       }
    ],

@@ -56,8 +56,8 @@
 		{"id":27, "name":"Terminators",									"pts":75},
 		{"id":28, "name":"Assault Terminators",							"pts":75},
 
-		{"id":29, "name":"Blood Angels Razorback (Twin Lascannons)", 				"pts":25},
-		{"id":30, "name":"Blood Angels Razorback (Twin Heavy Bolters)", 			"pts":25},
+		{"id":29, "name":"Blood Angels Razorback (Twin Lascannon)", 				"pts":25},
+		{"id":30, "name":"Blood Angels Razorback (Twin Heavy Bolter)", 			"pts":25},
 
 		{"id":31, "name":"Blood Angels Hunter", 										"pts":75},
 		{"id":32, "name":"Blood Angels Stalker", 									"pts":50},

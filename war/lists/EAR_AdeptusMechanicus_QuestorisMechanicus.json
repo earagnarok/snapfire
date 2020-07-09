@@ -63,11 +63,11 @@
 
 		{"id":120, "name":"3 Knight-Warglaives (Thermal Spear, Reaper Chain-Cleaver, Hvy Stubber)",			 								"pts":0},
 		{"id":121, "name":"4 Knight-Warglaives (Thermal Spear, Reaper Chain-Cleaver, Hvy Stubber)",			 								"pts":50},
-		{"id":122, "name":"3 Knight-Helverins (Twin Autocannons, Hvy Stubber)",																	"pts":0},
-		{"id":123, "name":"4 Knight-Helverins (Twin Autocannons, Hvy Stubber)",																	"pts":50},
+		{"id":122, "name":"3 Knight-Helverins (Twin Autocannon, Hvy Stubber)",																	"pts":0},
+		{"id":123, "name":"4 Knight-Helverins (Twin Autocannon, Hvy Stubber)",																	"pts":50},
 
-		{"id":130, "name":"Knight-Valiant (Conflagration C. Thundercoil H. Siegebreaker C. 4 Shieldbreaker M. Quad Meltaguns)",	"pts":0},
-		{"id":131, "name":"Knight-Castellan (Volcano Lance, Plasma Decimator, 2 Siegebreaker C. 2 Shieldbreaker M. Quad Meltaguns)",		"pts":0},
+		{"id":130, "name":"Knight-Valiant (Conflagration C. Thundercoil H. Siegebreaker C. 4 Shieldbreaker M. Quad Meltagun)",	"pts":0},
+		{"id":131, "name":"Knight-Castellan (Volcano Lance, Plasma Decimator, 2 Siegebreaker C. 2 Shieldbreaker M. Quad Meltagun)",		"pts":0},
 
 		{"id":160, "name":"Questoris Relic Knight-Styrix (Volkite Chieroville, Twin Rad Cleanser, Graviton Crusher, Siege Claw, Ionic Flare Shield)",					"pts":0},
 		{"id":161, "name":"Questoris Relic Knight-Magaera (Lightning C, Twin Phased Plasma Fusil, Reaper Chainsword, Ionic Flare Shield)",				"pts":0},
@@ -77,12 +77,12 @@
 
 		{"id":170, "name":"4x Eradication Beamer, 2x Icarus Array",				"pts":0},
 		{"id":171, "name":"4x Neutron Laser, 2x Icarus Array",				"pts":0},
-		{"id":172, "name":"4x Twin Heavy Phosphor Blasters, 2x Icarus Array",				"pts":0},
+		{"id":172, "name":"4x Twin Heavy Phosphor Blaster, 2x Icarus Array",				"pts":0},
 
 		{"id":175, "name":"2 Onager Dunecrawlers (Icarus Array)",				"pts":75},
 		{"id":176, "name":"2 Onager Dunecrawlers (Eradication Beamer)",				"pts":75},
 		{"id":177, "name":"2 Onager Dunecrawlers (Neutron Laser)",				"pts":75},
-		{"id":178, "name":"2 Onager Dunecrawlers (Twin Heavy Phosphor Blasters)",				"pts":75},
+		{"id":178, "name":"2 Onager Dunecrawlers (Twin Heavy Phosphor Blaster)",				"pts":75},
 
 		{"id":180, "name":"Ordinatus Minoris (Heavy Icarus Array)",	"pts":0},
 		{"id":181, "name":"Ordinatus Minoris (Titan Plasma Cannon)",			"pts":0},

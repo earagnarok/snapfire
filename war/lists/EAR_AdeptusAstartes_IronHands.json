@@ -51,8 +51,8 @@
 		{"id":32, "name":"Bionics",					"pts":25},
 
 		{"id":33, "name":"Razorback",			"pts":[25,25,25,0]},
-		{"id":34, "name":"(Twin Lascannons)",			"pts":0},
-		{"id":35, "name":"(Twin Heavy Bolters)",		"pts":0},
+		{"id":34, "name":"(Twin Lascannon)",			"pts":0},
+		{"id":35, "name":"(Twin Heavy Bolter)",		"pts":0},
 
 		{"id":37, "name":"Sniper",					"pts":25},
 		{"id":38, "name":"2 Hunters",				"pts":125},

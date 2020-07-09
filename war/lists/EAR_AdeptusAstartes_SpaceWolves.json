@@ -58,8 +58,8 @@
 
 		{"id":33, "name":"Land Raider", 					"pts":50},
 
-		{"id":34, "name":"Razorback (Twin Heavy Bolters)",						"pts":25},
-		{"id":35, "name":"Razorback (Twin Lascannons)",						"pts":25},
+		{"id":34, "name":"Razorback (Twin Heavy Bolter)",						"pts":25},
+		{"id":35, "name":"Razorback (Twin Lascannon)",						"pts":25},
 
 		{"id":40, "name":"Land Raider Wrath of Mjalnar", 					"pts":125},
 

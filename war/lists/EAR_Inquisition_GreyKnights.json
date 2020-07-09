@@ -42,8 +42,8 @@
       {"id":15, "name":"4 Scouts plus transport",							"pts":0},
       {"id":16, "name":"4 Scouts with 'Sniper' plus transport",				"pts":25},
 
-      {"id":18, "name":"Razorback (Twin Heavy Bolters)",						"pts":25},
-      {"id":19, "name":"Razorback (Twin Lascannons)",						"pts":25},
+      {"id":18, "name":"Razorback (Twin Heavy Bolter)",						"pts":25},
+      {"id":19, "name":"Razorback (Twin Lascannon)",						"pts":25},
 
       {"id":20, "name":"Assault Bikes",		"pts":0},
       {"id":21, "name":"Attack Bike", 	"pts":0},
