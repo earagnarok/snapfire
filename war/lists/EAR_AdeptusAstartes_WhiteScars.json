@@ -18,7 +18,7 @@
 			{"id":509, "name":"Orbital Support",	"pts":200, "upgrades":[]},
 			{"id":511, "name":"Tacticals",		"pts":275, "units":"6 Tacticals plus transport", "upgrades":[15,16,17,18,38,39,30,31,36,37,32]},
 			{"id":512, "name":"Terminators",		"pts":450, "units":"4 Terminators", "upgrades":[15,16,17,18,30,31,36,37]},
-			{"id":515, "name":"Whirlwinds",		"pts":275, "units":"4 Whirlwinds", "upgrades":[15,16,17,18,30,31]},
+			{"id":515, "name":"Whirlwinds",		"pts":75, "upgrades":[42,36,37,15,16,17,18,30,31]},
 			{"id":505, "name":"Landing Craft",			"pts":350, "upgrades":[]}
 		]},
 		{"name":"WHITE SCARS AIRCRAFT & COLLEGIA TITANICA ALLIES <br/> Max 33%", "formations":[
@@ -37,7 +37,7 @@
 		{"id":12, "name":"White Scars Scout Bikes",		"pts":0},
 		{"id":13, "name":"White Scars Assault Bikes",			"pts":0},
 
-		{"id":15, "name":"Captain",				"pts":25},
+		{"id":15, "name":"Damocles Command Rhino",				"pts":50},
 		{"id":17, "name":"Chaplain", 				"pts":50},
 		{"id":16, "name":"Librarian", 				"pts":25},
 		{"id":18, "name":"Supreme Commander",			"pts":75},
@@ -57,6 +57,8 @@
 		{"id":39, "name":"Razorback w/ Twin Heavy Bolter",				"pts":25},
 		{"id":40, "name":"Strike Cruiser",		"pts":0},
 		{"id":41, "name":"Battle Barge",		"pts":75},
+		{"id":42, "name":"Whirlwind",		"pts":50},
+
 		{"id":50, "name":"Independent",				"pts":50}
 
 	],
@@ -84,6 +86,7 @@
 
 		{"min":1, "max":1, "from":[34,35], "appliesTo": [507]},
 		{"min":1, "max":1, "from":[40,41], "appliesTo": [509]},
+		{"min":3, "max":4, "from":[42], "appliesTo": [515]},
 		{"min":5, "max":5, "from":[12,10,11], "appliesTo": [522]},
 		{"max":1, "from":[10,11], "appliesTo":[522]}
 	]

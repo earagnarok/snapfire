@@ -140,10 +140,6 @@
         {"min":1,"max":1,"from":[70,71,72],"appliesTo":[503]},
 		{"min":2,"max":2,"from":[80,81,82,83,86,84,85],"appliesTo":[503]},
         {"max":1,"from":[82],"appliesTo":[503]},
-        {"max":1,"from":[83],"appliesTo":[503]},
-        {"max":1,"from":[84],"appliesTo":[503]},
-        {"max":1,"from":[85],"appliesTo":[503]},
-        {"max":1,"from":[86],"appliesTo":[503]},
 
         {"min":1,"max":1,"from":[90,91,93,94],"appliesTo":[504]},
         {"min":2,"max":2,"from":[95,96,97,98,99],"appliesTo":[504]},
