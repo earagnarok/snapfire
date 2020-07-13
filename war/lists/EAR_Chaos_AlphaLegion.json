@@ -53,7 +53,7 @@
 		{ "id":25, "name":"Cultists", "pts":0 },
 		{ "id":26, "name":"Mutants", "pts":0 },
 
-		{ "id":30, "name":"Alpha Legion Dreadnought", "pts":35 },
+		{ "id":30, "name":"Alpha Legion Dreadnought", "pts":50 },
 		{ "id":31, "name":"Alpha Legion Vindicator", "pts":35 },
 		{ "id":32, "name":"Alpha Legion Land Raider", "pts":50 },
 		{ "id":33, "name":"Alpha Legion Predator", "pts":50 },

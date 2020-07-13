@@ -10,7 +10,7 @@
       },
       {"name": "NECRON CORE <br/> Max 1 'The Unbidden' formation for each Necron Phalanx",
          "formations": [
-            {"id": 701, "name": "Necron Phalanx", "pts": 250, "units": "6 Necron Warriors", "upgrades": [100,102,103,99]},
+            {"id": 701, "name": "Necron Phalanx", "pts": 275, "units": "6 Necron Warriors", "upgrades": [100,102,103,99]},
             {"id": 702, "name": "The Unbidden", "pts": 200, "units": "6 Flayed Ones", "upgrades": []}
          ]
       },

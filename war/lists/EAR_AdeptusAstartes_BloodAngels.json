@@ -68,7 +68,7 @@
 		{"id":35, "name":"2 Baal Predator Hades",							"pts":100},
 		{"id":36, "name":"2 Baal Predator Infernus",						"pts":100},
 
-		{"id":40, "name":"Furioso Dreadnought",						"pts":[50,25,25]},
+		{"id":40, "name":"Furioso Dreadnought",						"pts":50},
 
 		{"id":42, "name":"Storm Raven",									"pts":75},
 

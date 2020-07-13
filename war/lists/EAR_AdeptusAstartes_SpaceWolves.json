@@ -5,12 +5,12 @@
 
 	"sections":[
 		{"name":"SPACE WOLVES CORE PACKS", "formations":[
-			{"id":500, "name":"Hunting Pack", 							"pts":350,  "units":"plus transport",  "upgrades":[12,13, 17, 27,28,29,30, 31,32, 33, 34,35]},
+			{"id":500, "name":"Hunting Pack", 							"pts":350,  "units":"plus transport",  "upgrades":[12,13, 17, 27,28, 31,32, 33, 34,35]},
 			{"id":501, "name":"Blood Claw Assault Pack", 				"pts":175, "units":"5 Blood Claw Assaults plus transport", "upgrades":[12,13, 34,35]},
 			{"id":502, "name":"Sky Claw Assault Pack",					"pts":175, "units":"5 Sky Claw Assaults", "upgrades":[12,13]}
 		]},
 		{"name":"SPACE WOLVES SUPPORT PACKS <br/> Max 2 Support Packs for each Core Pack", "formations":[
-			{"id":520, "name":"Wolf Guard Terminator Pack",		"pts":400,   "units":"plus transport", "upgrades":[12,13, 27,28,29,30, 33]},
+			{"id":520, "name":"Wolf Guard Terminator Pack",		"pts":400,   "units":"plus transport", "upgrades":[12,13, 27,28, 33]},
 			{"id":521, "name":"Swift Claw Biker Pack", 			"pts":200,  "units":"4 Swift Claw Assault Bikes, 2 Fenrisian Wolves", "upgrades":[12,13]},
 			{"id":522, "name":"Wolf Scout Recon Pack",			"pts":175,  "units":"4 Wolf Scout Veterans plus transport", "upgrades":[12,13, 34,35]},
 			{"id":523, "name":"Land Raider Pack",			"pts":250,  "units":"3 Land Raiders",  "upgrades":[31,32,40]},
@@ -50,8 +50,6 @@
 
 		{"id":27, "name":"Blizzard Dreadnought", 					"pts":50},
 		{"id":28, "name":"Helfrost Dreadnought", 					"pts":50},
-		{"id":29, "name":"2 Blizzard Dreadnoughts", 					"pts":75},
-		{"id":30, "name":"2 Helfrost Dreadnoughts", 				"pts":75},
 
 		{"id":31, "name":"Hunter", 						"pts":75},
 		{"id":32, "name":"Stalker", 						"pts":50},
@@ -83,7 +81,7 @@
 
 		{"min":0, "max":1, "from":[12,13]},
 		{"min":0, "max":3, "from":[17]},
-		{"min":0, "max":1, "from":[27,28,29,30]},
+		{"min":0, "max":2, "from":[27,28]},
 		{"min":0, "max":1, "from":[31,32]},
 		{"min":0, "max":1, "from":[40]},
 
