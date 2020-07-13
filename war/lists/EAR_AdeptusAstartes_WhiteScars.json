@@ -6,24 +6,23 @@
 
 	"sections":[
 		{"name":"WHITE SCARS CORE DETACHMENTS", "formations":[
-			{"id":500, "name":"Assaults", 		"pts":150, "units":"4 Assaults", "upgrades":[15,16,17,18,36,37]},
-			{"id":522, "name":"Scout Bikes",	"pts":150, "upgrades":[15,16,17,18]},
-			{"id":501, "name":"Bikes", 		"pts":325, "upgrades":[15,16,17,18]}
-
+			{"id":511, "name":"Tacticals",		"pts":275, "units":"6 Tacticals plus transport", "upgrades":[15,16,17,18,14,38,39,30,31,36,37,32,33]},
+			{"id":501, "name":"Bikes", 		"pts":325, "upgrades":[15,16,17,18,14]},
+			{"id":512, "name":"Terminators",		"pts":450, "units":"4 Terminators", "upgrades":[15,16,17,18,14,30,31,36,37]}
 		]},
 		{"name":"WHITE SCARS SUPPORT DETACHMENTS <br/> Max 2 for each Core Detachment", "formations":[
+			{"id":500, "name":"Assaults", 		"pts":150, "units":"4 Assaults", "upgrades":[15,16,17,18,14,36,37]},
+			{"id":522, "name":"Scout Bikes",	"pts":150, "upgrades":[15,16,17,18,14]},
 			{"id":504, "name":"Land Speeders",	"pts":200, "upgrades":[15,16,17,18,14]},
-			{"id":506, "name":"Predators",		"pts":250, "upgrades":[15,16,17,18,14,30,31,36,37]},
-			{"id":507, "name":"Scouts",		"pts":150, "upgrades":[15,16,17,18,14,38,39]},
-			{"id":509, "name":"Orbital Support",	"pts":200, "upgrades":[]},
-			{"id":511, "name":"Tacticals",		"pts":275, "units":"6 Tacticals plus transport", "upgrades":[15,16,17,18,14,38,39,30,31,36,37,32]},
-			{"id":512, "name":"Terminators",		"pts":450, "units":"4 Terminators", "upgrades":[15,16,17,18,14,30,31,36,37]},
 			{"id":515, "name":"Whirlwinds",		"pts":75, "upgrades":[42,36,37,15,16,17,18,14,30,31]},
-			{"id":505, "name":"Landing Craft",			"pts":350, "upgrades":[]}
-		]},
-		{"name":"WHITE SCARS AIRCRAFT & COLLEGIA TITANICA ALLIES <br/> Max 33%", "formations":[
-			{"id":513, "name":"Thunderhawk",			"pts":225, "upgrades":[]},
+			{"id":516, "name":"Vindicators",	"pts":225, "upgrades":[20,15,16,17,18,14,30,31]},
+			{"id":506, "name":"Predators",		"pts":250, "upgrades":[15,16,17,18,14,30,31,36,37]},
+			{"id":505, "name":"Landing Craft",			"pts":350, "upgrades":[]},
+			{"id":509, "name":"Orbital Support",	"pts":200, "upgrades":[]}
+			]},
+		{"name":"WHITE SCARS NAVY & COLLEGIA TITANICA ALLIES <br/> Max 33%", "formations":[
 			{"id":517, "name":"Storm Talons",			"pts":200, "units":"2 Storm Talons", "upgrades":[]},
+			{"id":513, "name":"Thunderhawk",			"pts":225, "upgrades":[]},
 			{"id":524, "name":"Warhound Pack",	"units":"2 Warhound Scout Titans",		"pts":500, "upgrades":[50]}
 		]}
 	],
@@ -43,6 +42,9 @@
 		{"id":17, "name":"Chaplain", 				"pts":50},
 		{"id":16, "name":"Librarian", 				"pts":25},
 		{"id":18, "name":"Supreme Commander",			"pts":75},
+
+		{"id":20, "name":"White Scars Vindicator",		"pts":[0,0,0,0,50,25]},
+
 		{"id":24, "name":"Predator Annihilator",				"pts":0},
 		{"id":25, "name":"Predator Destructor",				"pts":0},
 		{"id":28, "name":"Land Speeder",				"pts":0},
@@ -51,6 +53,7 @@
 		{"id":30, "name":"Stalker", 				"pts":50},
 		{"id":31, "name":"Hunter", 				"pts":75},
 		{"id":32, "name":"Land Raider", 			"pts":50},
+		{"id":33, "name":"Land Raider Crusader", 			"pts":50},
 		{"id":34, "name":"4 Scouts plus transport",				"pts":0},
 		{"id":35, "name":"4 Scouts with Sniper, plus transport",			"pts":25},
 		{"id":36, "name":"White Scars Vindicator",		"pts":50},
@@ -66,7 +69,7 @@
 	],
 	"formationConstraints":[
 		{"max":1, "name":"Spacecraft", "from":[509]},
-		{"max":2, "name":"Support Detachment", "from":[504,506,507,509,5010,511,512,515], "forEach":[500,501,522], "name2":"Core Detachment"},
+		{"max":2, "name":"Support Detachment", "from":[500,504,506,515,522,516,509,505], "forEach":[512,511,501], "name2":"Core Detachment"},
 		{"maxPercent": 33.5, "name":"Navy & Titans", "from":[513,517,524]}
 	],
 	"upgradeConstraints":[
@@ -76,9 +79,9 @@
 		{"max":1, "from":[14]},
 		{"max":1, "from":[30,31]},
 		{"max":3, "from":[32]},
+		{"max":2, "from":[33]},
 		{"max":1, "from":[36,37]},
 
-		{"max":4, "from":[38,39], "appliesTo":[507]},
 		{"max":6, "from":[38,39], "appliesTo":[511]},
 
 		{"min":1, "max":1, "from":[5,6,7], "appliesTo":[512]},
@@ -87,9 +90,9 @@
 		{"max":3, "from":[10,11], "appliesTo":[501]},
 		{"min":4, "max":4, "from":[24,25], "appliesTo":[506]},
 
-		{"min":1, "max":1, "from":[34,35], "appliesTo": [507]},
 		{"min":1, "max":1, "from":[40,41], "appliesTo": [509]},
 		{"min":3, "max":4, "from":[42], "appliesTo": [515]},
+		{"min":4, "max":6, "from":[20], "appliesTo": [516]},
 		{"min":5, "max":5, "from":[12,10,11], "appliesTo": [522]},
 		{"max":1, "from":[10,11], "appliesTo":[522]}
 	]

@@ -59,8 +59,8 @@
 		{"id":42, "name":"Land Raider",				"pts":50},
 		{"id":43, "name":"Land Raider Anvilarium",	"pts":50},
 		{"id":44, "name":"Land Raider Helios (Hyperios)",		"pts":75},
-		{"id":45, "name":"Land Raider Prometheus",	"pts":75},
-		{"id":46, "name":"Land Raider Helios (Whirlwind)",		"pts":75},
+		{"id":46, "name":"Land Raider Prometheus",	"pts":75},
+		{"id":45, "name":"Land Raider Helios (Whirlwind)",		"pts":75},
 
 		{"id":48, "name":"Whirlwind",		"pts":[0,0,0,50]},
 
@@ -121,7 +121,7 @@
 		{"max":4, "from":[34,35], "appliesTo":[501,514]},
 		{"max":1, "from":[32], "appliesTo":[500,501]},
 		{"max":1, "from":[56,57,58,59], "appliesTo":[500,501,511,513,515,516]},
-		{"max":1, "from":[45], "appliesTo":[500,501]},
+		{"max":1, "from":[46], "appliesTo":[500,501]},
 
 		{"min":2, "max":2, "from":[54,52,53], "appliesTo":[501]},
 		{"max":2, "from":[50], "appliesTo":[501,511,515]},
