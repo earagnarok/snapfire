@@ -33,24 +33,26 @@
 		{"id":10, "name":"4 Tacticals plus transport",				"pts":0},
 		{"id":11, "name":"4 Iron Hands Devastators plus transport",			"pts":50},
 
+		{"id":12, "name":"3 Razorbacks (Twin Lascannon)",			"pts":0},
+		{"id":13, "name":"2 Razorbacks (Twin Lascannon), Razorback (Twin Heavy Bolter)",			"pts":0},
+		{"id":14, "name":"Razorbacks (Twin Lascannon), 2 Razorbacks (Twin Heavy Bolter)",			"pts":0},
+		{"id":15, "name":"3 Razorbacks (Twin Heavy Bolter)",			"pts":0},
+		{"id":16, "name":"3 Dreadnoughts",			"pts":75},
+		{"id":17, "name":"3 Hellfire Dreadnoughts",			"pts":75},
+		{"id":18, "name":"3 Siege Dreadnoughts",			"pts":75},
+
+
 		{"id":20, "name":"Dreadnought",				"pts":50},
 		{"id":21, "name":"Hellfire Dreadnought",	"pts":50},
 		{"id":22, "name":"Siege Dreadnought",		"pts":50},
 		{"id":23, "name":"Ironclad Dreadnought",	"pts":75},
 
-		{"id":24, "name":"Add a Venerable Dreadnought character to a Dreadnought of any configuration",	"pts":50},
+		{"id":24, "name":"Venerable Dreadnought (add to a Dreadnought of any configuration)",	"pts":50},
 
 		{"id":30, "name":"May deploy in Drop Pods",				"pts":25},
 
 		{"id":31, "name":"Razorback (Twin Lascannon)",			"pts":25},
 		{"id":32, "name":"Razorback (Twin Heavy Bolter)",			"pts":25},
-
-		{"id":33, "name":"3 Razorbacks (Twin Lascannon)",			"pts":0},
-		{"id":34, "name":"2 Razorbacks (Twin Lascannon), Razorback (Twin Heavy Bolter)",			"pts":0},
-		{"id":35, "name":"Razorbacks (Twin Lascannon), 2 Razorbacks (Twin Heavy Bolter)",			"pts":0},
-		{"id":36, "name":"3 Dreadnoughts",			"pts":75},
-		{"id":37, "name":"3 Hellfire Dreadnoughts",			"pts":75},
-		{"id":38, "name":"3 Siege Dreadnoughts",			"pts":75},
 
 		{"id":39, "name":"Land Raider Helios (Hyperios)",		"pts":100},
 		{"id":40, "name":"Land Raider",				"pts":75},
@@ -59,8 +61,8 @@
 		{"id":42, "name":"Land Raider",				"pts":50},
 		{"id":43, "name":"Land Raider Anvilarium",	"pts":50},
 		{"id":44, "name":"Land Raider Helios (Hyperios)",		"pts":75},
-		{"id":46, "name":"Land Raider Prometheus",	"pts":75},
 		{"id":45, "name":"Land Raider Helios (Whirlwind)",		"pts":75},
+		{"id":46, "name":"Land Raider Prometheus",	"pts":75},
 
 		{"id":48, "name":"Whirlwind",		"pts":[0,0,0,50]},
 
@@ -137,7 +139,7 @@
 
 		{"min":4, "max":4, "from":[52,53], "appliesTo":[513]},
 
-		{"min":1,"max":1, "from":[33,34,35,36,37,38], "appliesTo":[514]},
+		{"min":1,"max":1, "from":[12,13,14,15,16,17,18], "appliesTo":[514]},
 
 		{"min":4, "max":6, "from":[55], "appliesTo":[515]},
 
