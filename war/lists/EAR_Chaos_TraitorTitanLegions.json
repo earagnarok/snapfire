@@ -22,11 +22,10 @@
 			{"id":519, "name":"Defilers of Chaos Undivided",				"pts":25, "upgrades":[125]},
 			{"id":520, "name":"Cerberites of Chaos Undivided", "pts":175, "units": "3 Cerberites", "upgrades":[]},
 			{"id":521, "name":"Maulerfiends of Chaos Undivided", "pts":200, "units": "4 Maulerfiends", "upgrades":[]},
-			{"id":522, "name":"Forgefiends of Chaos Undivided", "pts":225, "units":"3 Forgefiends", "upgrades":[]}
-
+			{"id":522, "name":"Forgefiends of Chaos Undivided", "pts":225, "units":"3 Forgefiends", "upgrades":[]},
+			{"id":590, "name":"Hell-Forge Maniple",		"pts":225, "units": "Hellwright, 11 Chaos Squats", "upgrades":[110]}
 		]},
-			{"name":"HELL-FORGE & CHAOS NAVY ALLIES <br/> Max 33%", "formations":[
-			{"id":590, "name":"Hell-Forge Maniple",		"pts":225, "units": "Hellwright, 11 Chaos Squats", "upgrades":[110]},
+			{"name":"CHAOS NAVY <br/> Max 33%", "formations":[
 			{"id":592, "name":"Heldrakes",				"pts":225, "units": "2 Heldrakes", "upgrades":[]},
 			{"id":594, "name":"Harbringer Bomber",				"pts":300, "upgrades":[]},
 			{"id":593, "name":"Despoiler Battleship",				"pts":200, "upgrades":[]}
@@ -126,8 +125,8 @@
 	"formationConstraints":[
 		{"max": 1, "from": [500]},
 		{"max": 1, "from": [593]},
-  	{"max": 4, "name": "Support formations", "from": [513,514,515,516,517,518,519,520,521,522],  "forEach": [500,501,502], "name2": "Battle Titan formation" },
- 		{"maxPercent": 33.5, "name": "Hell-Forge and Chaos Navy Allies", "from": [590,591,592,593,594]}
+  	{"max": 4, "name": "Support formations", "from": [590,513,514,515,516,517,518,519,520,521,522],  "forEach": [500,501,502], "name2": "Battle Titan formation" },
+ 		{"maxPercent": 33.5, "name": "Chaos Navy", "from": [591,592,593,594]}
 
 	],
 	"upgradeConstraints":[
