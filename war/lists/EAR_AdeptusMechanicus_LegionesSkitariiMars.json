@@ -13,9 +13,9 @@
 			{"id":508, "name":"Ranger Cohort",			"pts":150,  "units":"4 Skitarii Rangers",		 "upgrades":[112]},
 			{"id":514, "name":"Kastelan Maniple",		"pts":50, "units":"Tech-Priest", "upgrades":[114]},
 			{"id":511, "name":"Kataphron Maniple",		"pts":250, "units":"Tech-Priest", "upgrades":[]},
-			{"id":512, "name":"Onager Cataphractii", "units":"6 Onager Dunecrawlers",	"pts":325, "upgrades":[]},
-			{"id":513, "name":"Skorpius Cataphractii",		"pts":325, "units":"6 Skorpius Disintegrators", "upgrades":[]},
-			{"id":515, "name":"Minoris Maniple",		"pts":75, "upgrades":[130,131,132,133,135,136,137]},
+			{"id":512, "name":"Onager Maniple", "units":"4 Onager Dunecrawlers",	"pts":225, "upgrades":[]},
+			{"id":513, "name":"Skorpius Maniple",		"pts":225, "units":"4 Skorpius Disintegrators", "upgrades":[]},
+			{"id":515, "name":"Minoris Maniple",		"pts":75, "upgrades":[130,131,132,133,128,129,135,136,137]},
 			{"id":516, "name":"Ordinatus Majoris",		"pts":425, "upgrades":[]}
 		]},
 
@@ -64,6 +64,8 @@
 		{"id":121, "name":"Ordinatus Mars (Sonic Disruptor)",			"pts":0},
 		{"id":122, "name":"Ordinatus Golgotha (Hellfire Missiles)",				"pts":50},
 
+		{"id":128, "name":"Ordinatus Minoris (Gatling Blaster)",		"pts":125},
+		{"id":129, "name":"Ordinatus Minoris (Melta Cannon)",	"pts":125},
 		{"id":130, "name":"Ordinatus Minoris (Heavy Icarus Array)",	"pts":125},
 		{"id":131, "name":"Ordinatus Minoris (Titan Plasma Cannon)",			"pts":125},
 		{"id":132, "name":"Ordinatus Minoris (Turbo-Laser Destructor)",		"pts":125},
@@ -87,9 +89,9 @@
 		{"id":160, "name":"(Paired Turbo-Laser Destructors)",		"pts":0},
 		{"id":161, "name":"(Paired Apocalypse Missile Launchers)",		"pts":0},
 
-		{"id":170, "name":"4x Eradication Beamer, 2x Icarus Array",				"pts":0},
-		{"id":171, "name":"4x Neutron Laser, 2x Icarus Array",				"pts":0},
-		{"id":172, "name":"4x Twin Heavy Phosphor Blaster, 2x Icarus Array",				"pts":0},
+		{"id":170, "name":"3x Eradication Beamer, 1x Icarus Array",				"pts":0},
+		{"id":171, "name":"3x Neutron Laser, 1x Icarus Array",				"pts":0},
+		{"id":172, "name":"3x Twin Heavy Phosphor Blaster, 1x Icarus Array",				"pts":0},
 
 		{"id":190,"name":"Nemesis Quake Cannon","pts":0},
 	    {"id":191,"name":"Volcano Cannon","pts":0},
@@ -127,7 +129,7 @@
 
 		{"max":7, "min":5, "from":[114], "appliesTo":[514]},
 
-		{"min":2, "max":3, "from":[130,131,132,133,135,136,137], "appliesTo":[515]},
+		{"min":2, "max":3, "from":[130,131,132,133,128,129,135,136,137], "appliesTo":[515]},
 		{"max":1, "from":[135,136,137,138], "appliesTo":[515]},
 
 		{"max":1, "min":1, "from":[120,121,122], "appliesTo":[516]},

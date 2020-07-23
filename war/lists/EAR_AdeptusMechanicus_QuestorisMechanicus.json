@@ -42,17 +42,17 @@
 		{"id":51, "name":"3 Chimera",					"pts":0},
 
 		{"id":90, "name":"2 Knight-Paladins (Rapid Fire Battle Cannon, 2 Hvy Stubbers, Reaper Chainsword)",						"pts":0},
-		{"id":91, "name":"3 Knight-Paladins (Rapid Fire Battle Cannon, 2 Hvy Stubbers, Reaper Chainsword)",						"pts":125},
+		{"id":91, "name":"3 Knight-Paladins (Rapid Fire Battle Cannon, 2 Hvy Stubbers, Reaper Chainsword)",						"pts":150},
 		{"id":92, "name":"2 Knight-Errants (Thermal Cannon, Hvy Stubber, Thunderstrike Gauntlet)",								"pts":0},
-		{"id":93, "name":"3 Knight-Errants (Thermal Cannon, Hvy Stubber, Thunderstrike Gauntlet)",								"pts":125},
+		{"id":93, "name":"3 Knight-Errants (Thermal Cannon, Hvy Stubber, Thunderstrike Gauntlet)",								"pts":150},
 		{"id":94, "name":"2 Knight-Crusaders (Rapid Fire Battle Cannon, Gatling Cannon, 2 Hvy Stubbers)",	"pts":0},
 		{"id":95, "name":"3 Knight-Crusaders (Rapid Fire Battle Cannon, Gatling Cannon, 2 Hvy Stubbers)",	"pts":125},
 		{"id":96, "name":"2 Knight-Gallants (Icarus Autocannons, Hvy Stubber, Thunderstrike Gauntlet, Reaper Chainsword)",		"pts":0},
-		{"id":97, "name":"3 Knight-Gallants (Icarus Autocannons, Hvy Stubber, Thunderstrike Gauntlet, Reaper Chainsword)",		"pts":125},
+		{"id":97, "name":"3 Knight-Gallants (Icarus Autocannons, Hvy Stubber, Thunderstrike Gauntlet, Reaper Chainsword)",		"pts":150},
 		{"id":98, "name":"2 Knight-Wardens (Gatling Cannon, Ironstorm Missiles, Hvy Stubber, Reaper Chainsword)",				"pts":0},
-		{"id":99, "name":"3 Knight-Wardens (Gatling Cannon, Ironstorm Missiles, Hvy Stubber, Reaper Chainsword)",				"pts":125},
+		{"id":99, "name":"3 Knight-Wardens (Gatling Cannon, Ironstorm Missiles, Hvy Stubber, Reaper Chainsword)",				"pts":150},
 		{"id":100, "name":"2 Knight-Preceptors (Las-Impulsor, Hvy Stubber, Thunderstrike Gauntlet)",								"pts":0},
-		{"id":101, "name":"3 Knight-Preceptors (Las-Impulsor, Hvy Stubber, Thunderstrike Gauntlet)",								"pts":125},
+		{"id":101, "name":"3 Knight-Preceptors (Las-Impulsor, Hvy Stubber, Thunderstrike Gauntlet)",								"pts":150},
 
 		{"id":106, "name":"Knight-Preceptor w/ Seneschal (Las-Impulsor, Hvy Stubber, Thunderstrike Gauntlet)",				"pts":150},
 
@@ -74,9 +74,9 @@
 		{"id":163, "name":"Acastus Relic Knight-Asterius (2 Conversion Beam Cannons, 2 Volkite Culvertins, Karacnos Mortar Battery)",	"pts":0},
 		{"id":164, "name":"Acastus Relic Knight-Porphyrion (2 Magna Lascannons, 2 Autocannons, Helios Defense Missiles)",  "pts":0},
 
-		{"id":170, "name":"3x Eradication Beamer, Icarus Array",				"pts":0},
-		{"id":171, "name":"3x Neutron Laser, Icarus Array",				"pts":0},
-		{"id":172, "name":"3x Twin Heavy Phosphor Blaster, Icarus Array",				"pts":0}
+		{"id":170, "name":"3x Eradication Beamer, 1x Icarus Array",				"pts":0},
+		{"id":171, "name":"3x Neutron Laser, 1x Icarus Array",				"pts":0},
+		{"id":172, "name":"3x Twin Heavy Phosphor Blaster, 1x Icarus Array",				"pts":0}
     ],
 	"formationConstraints":[
 		{"max":1, "name":"Support Banner", "from":[501,506], "forEach":[500], "name2":"Core Banner"},
