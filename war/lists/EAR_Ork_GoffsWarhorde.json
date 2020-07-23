@@ -7,9 +7,9 @@
       {
          "name": "GOFF WAR HORDES",
          "formations": [
-            {"id": 507, "name": "Blitz Brigade", "pts": 10, "upgrades": [53,54,55,62,59,61,68,69,70,73]},
-            {"id": 508, "name": "Blitz Brigade (Big)", "pts": -30, "upgrades": [53,54,55,62,59,61,68,69,70,73]},
-            {"id": 509, "name": "Blitz Brigade ('Uge)", "pts": -70, "upgrades": [53,54,55,62,59,61,68,69,70,73]},
+            {"id": 507, "name": "Blitz Brigade", "pts": 30, "upgrades": [53,54,55,62,59,61,68,69,70,73]},
+            {"id": 508, "name": "Blitz Brigade (Big)", "pts": 10, "upgrades": [53,54,55,62,59,61,68,69,70,73]},
+            {"id": 509, "name": "Blitz Brigade ('Uge)", "pts": -10, "upgrades": [53,54,55,62,59,61,68,69,70,73]},
             {"id": 504, "name": "Kult of Speed", "pts": 0, "upgrades": [53,54,55,59,61,62,68,69,70]},
             {"id": 505, "name": "Kult of Speed (Big)", "pts": -50, "upgrades": [53,54,55,59,61,62,68,69,70]},
             {"id": 506, "name": "Kult of Speed ('Uge)", "pts": -100, "upgrades": [53,54,55,59,61,62,68,69,70]},
@@ -20,9 +20,9 @@
             {"id": 567, "name": "Mekboy Dreadmob", "pts": -20, "upgrades": [57,60,61]},
             {"id": 503, "name": "Stormboyz Warhorde", "pts": 0, "upgrades": [52,51,53,54,55,59]},
             {"id": 540, "name": "Kommandos Warhorde", "pts": 0, "upgrades": [51,52,53,54,55,59]},
-            {"id": 500, "name": "Warband", "pts": 200, "units": "2 Nobz, 6 Boyz, 2 Grotz", "upgrades": [81,50,82,51,52,53,54,55,56,57,58,59,60,61,62,64,68,69,70,71,74,72,73]},
-            {"id": 501, "name": "Warband (Big)", "pts": 350, "units": "4 Nobz, 12 Boyz, 4 Grotz", "upgrades": [81,50,82,51,52,53,54,55,56,57,58,59,60,61,62,64,68,69,70,71,74,72,73]},
-            {"id": 502, "name": "Warband ('Uge)", "pts": 500, "units": "6 Nobz, 18 Boyz, 6 Grotz", "upgrades": [81,50,82,51,52,53,54,55,56,57,58,59,60,61,62,64,68,69,70,71,74,72,73]}
+            {"id": 500, "name": "Warband", "pts": 200, "units": "2 Nobz, 6 Boyz, 2 Grotz", "upgrades": [81,58,50,82,51,52,53,54,55,56,57,59,61,62,60,64,68,69,70,71,74,72,73]},
+            {"id": 501, "name": "Warband (Big)", "pts": 350, "units": "4 Nobz, 12 Boyz, 4 Grotz", "upgrades": [81,58,50,82,51,52,53,54,55,56,57,59,61,62,60,64,68,69,70,71,74,72,73]},
+            {"id": 502, "name": "Warband ('Uge)", "pts": 500, "units": "6 Nobz, 18 Boyz, 6 Grotz", "upgrades": [81,58,50,82,51,52,53,54,55,56,57,59,61,62,60,64,68,69,70,71,74,72,73]}
          ]
       },
       {
@@ -48,15 +48,15 @@
       {"id": 55, "name": "Skorcha", "pts": 25},
       {"id": 56, "name": "Big Gun", "pts": 25},
       {"id": 57, "name": "Killa Kan", "pts": 25},
-      {"id": 58, "name": "Battlewagon", "pts": 35},
-      {"id": 59, "name": "Deffkopta", "pts": 35},
+      {"id": 58, "name": "Battlewagon", "pts": 20},
+      {"id": 59, "name": "Deffkopta", "pts": 30},
       {"id": 60, "name": "Deff Dread", "pts": 35},
-      {"id": 61, "name": "Flakwagon", "pts": 35},
-      {"id": 62, "name": "Gunwagon", "pts": 35},
+      {"id": 61, "name": "Flakwagon", "pts": 30},
+      {"id": 62, "name": "Gunwagon", "pts": 30},
       {"id": 64, "name": "Nobz", "pts": 35},
       {"id": 68, "name": "Oddboy: Soopagun", "pts": 50},
       {"id": 69, "name": "Oddboy: Supa-Zzap-Gun", "pts": 50},
-      {"id": 70, "name": "Oddboy: D3+1 Powerfields", "pts": 50},
+      {"id": 70, "name": "Oddboy: D3 Powerfields", "pts": 50},
       {"id": 71, "name": "Stompa w/ 3 Big Gunz", "pts": 75},
       {"id": 72, "name": "Battlefortress", "pts": 115},
       {"id": 73, "name": "Gunfortress", "pts": 115},

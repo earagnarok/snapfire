@@ -5,11 +5,11 @@
 	"notes":[],
 	"sections":[
 		{"name":"CORE BANNERS", "formations":[
-			{"id":500, "name":"Questoris", 		"pts":275, "upgrades":[6,7]}
+			{"id":500, "name":"Questoris", 		"pts":300, "upgrades":[6,7]}
 		]},
 		{"name":"SUPPORT BANNERS <br/> Max 1 per Core Banner", "formations":[
 			{"id":506, "name":"Dominus",	"pts":225, "upgrades":[]},
-			{"id":501, "name":"Cerastus",	"pts":300, "upgrades":[6,7]}
+			{"id":501, "name":"Cerastus",	"pts":325, "upgrades":[6,7]}
 		]},
 		{"name":"RECON BANNERS <br/> Max 1 per Core or Support Banner", "formations":[
 			{"id":502, "name":"Arminger",			"pts":175, "upgrades":[106]}

@@ -7,9 +7,9 @@
       {
          "name": "SPEED FREEKS",
          "formations": [
-            {"id": 501, "name": "Evil Sunz Blitz Brigade", "pts": 10, "upgrades": [33,32,31,34,35,36,37]},
-            {"id": 502, "name": "Evil Sunz Blitz Brigade (Big)", "pts": -30, "upgrades": [33,32,31,34,35,36,37]},
-            {"id": 503, "name": "Evil Sunz Blitz Brigade ('Uge)", "pts": -70, "upgrades": [33,32,31,34,35,36,37]},
+            {"id": 501, "name": "Evil Sunz Blitz Brigade", "pts": 30, "upgrades": [33,32,31,34,35,36,37]},
+            {"id": 502, "name": "Evil Sunz Blitz Brigade (Big)", "pts": 10, "upgrades": [33,32,31,34,35,36,37]},
+            {"id": 503, "name": "Evil Sunz Blitz Brigade ('Uge)", "pts": -10, "upgrades": [33,32,31,34,35,36,37]},
 
             {"id": 504, "name": "Evil Sunz Kult of Speed", "pts": 0,  "upgrades": [10,21,20,22,31,32,33]},
             {"id": 505, "name": "Evil Sunz Kult of Speed (Big)", "pts": -50, "upgrades": [10,21,20,22,31,32,33]},
@@ -56,14 +56,14 @@
       {"id": 28, "name": "Nob Warbikes", "pts": 0},
 
       {"id": 29, "name": "Boyz, Trukk", "pts": 25},
-      {"id": 30, "name": "Battlewagon", "pts": 25},
-      {"id": 31, "name": "Deffkopta", "pts": 35},
-      {"id": 32, "name": "Flakwagon", "pts": 35},
-      {"id": 33, "name": "Gunwagon", "pts": 35},
+      {"id": 30, "name": "Battlewagon", "pts": 20},
+      {"id": 31, "name": "Deffkopta", "pts": 30},
+      {"id": 32, "name": "Flakwagon", "pts": 30},
+      {"id": 33, "name": "Gunwagon", "pts": 30},
       {"id": 34, "name": "Spleenrippa", "pts": 50},
-      {"id": 35, "name": "Mekboy Speedsta", "pts": 65},
-      {"id": 36, "name": "Gunwagon w/ Boyz", "pts": 60},
-      {"id": 37, "name": "Flakwagon w/ Boyz", "pts": 60},
+      {"id": 35, "name": "Mekboy Speedsta", "pts": 60},
+      {"id": 36, "name": "Gunwagon w/ Boyz", "pts": 55},
+      {"id": 37, "name": "Flakwagon w/ Boyz", "pts": 55},
 
       {"id": 40, "name": "Speed Freek Oddboy: Lifta-Droppa", "pts": 50},
       {"id": 41, "name": "Speed Freek Oddboy: Deff-Rolla (Walker, EA(+1)) & Red Paint Job (+5cm Speed)", "pts": 50},

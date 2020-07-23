@@ -20,7 +20,7 @@
 		]},
 
 		{"name":"FORGE WORLD NAVY, QUESTORIS MECHANICUS & COLLEGIA TITANICA SUPPORT <br/> Max 33%", "formations":[
-		    {"id":519,"name":"Questoris Banner", "pts":275, "upgrades":[]},
+		    {"id":519,"name":"Questoris Banner", "pts":300, "upgrades":[]},
 
 		    {"id":520,"name":"Warhound Pack","pts":500, "upgrades":[]},
 			{"id":521, "name":"Warbringer Titan",	"pts":650, "upgrades":[]},

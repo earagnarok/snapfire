@@ -42,7 +42,7 @@
       {"id": 11, "name": "Oddboy (Supa-Zzap-Gun)", "pts": 50},
       {"id": 12, "name": "Oddboy (Soopagun)", "pts": 50},
       {"id": 13, "name": "Oddboy (Weirdboy Tower)", "pts": 50},
-      {"id": 14, "name": "Oddboy (D3+1 Powerfields)", "pts": 50},
+      {"id": 14, "name": "Oddboy (D3 Powerfields)", "pts": 50},
 	  {"id": 15, "name": "Oddboy ('Uge Banner of Mork (or possibly Gork))", "pts": 50},
 
 
@@ -50,10 +50,10 @@
 
 	  {"id": 100, "name": "Killa Kan", "pts": 25},
       {"id": 101, "name": "Deff Dread", "pts": 35},
-      {"id": 102, "name": "Flakwagon", "pts": 35},
+      {"id": 102, "name": "Flakwagon", "pts": 30},
       {"id": 103, "name": "Stompa", "pts": 50},
-      {"id": 104, "name": "Deffkopta", "pts": 35},
-      {"id": 105, "name": "Gunwagon", "pts": 35},
+      {"id": 104, "name": "Deffkopta", "pts": 30},
+      {"id": 105, "name": "Gunwagon", "pts": 30},
 
       {"id": 110, "name": "Supa Stompa w/ Gaze of Mork, 3 Soopaguns", "pts": 275},
       {"id": 111, "name": "Supa Stompa w/ Gaze of Mork, 2 Soopaguns, Zzap-Gun", "pts": 275},
