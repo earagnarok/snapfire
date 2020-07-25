@@ -19,7 +19,7 @@
 {"name":"RECON FORMATIONS <br/> Max 2 for each Battle Titan formation",
 "formations":[
 	    {"id":510,"name":"Warhounds","pts":0, "upgrades":[11]},
-		{"id":520,"name":"Questoris Banner","pts":300, "upgrades":[]}
+		{"id":520,"name":"Questoris Banner","pts":325, "upgrades":[]}
 ]},
 {"name":"SUPPORT FORMATIONS <br/> Max 2 for each Battle Titan formation",
 "formations":[
@@ -33,7 +33,7 @@
 "formations":[
         {"id":533,"name":"Lysander Fighter","pts":75 ,"upgrades":[]},
         {"id":532,"name":"Avenger Squadron","pts":175,"units":"2 Avenger Strike Fighters","upgrades":[]},
-		{"id":534,"name":"Ark Mechanicus Battleship","pts":200,"upgrades":[]}
+		{"id":534,"name":"Ark Mechanicus Battleship","pts":225,"upgrades":[]}
 ]}
 
 ],

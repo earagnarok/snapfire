@@ -26,14 +26,14 @@
 		    {"id":522,"name":"Warlord Titan","pts":750, "upgrades":[]},
 
 			{"id":523, "name":"Avenger Squadron",			"pts":175, "units":"2 Avenger Strike Fighters", "upgrades":[]},
-			{"id":525, "name":"Ark Mechanicus Battleship",		"pts":200, "upgrades":[]}
+			{"id":525, "name":"Ark Mechanicus Battleship",		"pts":225, "upgrades":[]}
 		]}
 
 
 	],
 	"upgrades":[
 		{"id":100, "name":"Magos",								"pts":0},
-		{"id":101, "name":"Magos Dominus",						"pts":100},
+		{"id":101, "name":"Magos Dominus",						"pts":75},
 
 		{"id":102, "name":"5 Chimera",							"pts":125},
 		{"id":103, "name":"5 Chimedons",						"pts":125},

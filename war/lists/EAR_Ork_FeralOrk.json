@@ -1,18 +1,18 @@
 {
 	"id":"EA-R Snakebites Clan",
 	"version":"Alpha 0.7.5",
-	"notes":["A Warlord must be selected and assigned to the formation with the most units (WE DC counts as one unit each).", "Transport Capacity: Squiggoths: 4 + 2 Grotz or 1 Squig Catapult. Gargantuan Squiggoth: 8 + 4 Grotz. Orkeosaurus: 16 + 6 Grotz"],
+	"notes":["A Warlord must be selected and assigned to the formation with the most units (WE DC counts as one unit each).", "Transport Capacity: Squiggoths: 4 units of inf + 2 Grotz, 1 Squig Catapult. Gargantuan Squiggoth: 8 inf + 4 Grotz. Orkeosaurus: 16 inf + 6 Grotz"],
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"SNAKEBITES WAR HORDES", "formations":[
-			{"id":500, "name":"Snakebites Warband",				"pts":-20,	"upgrades":[11,39,13,23,52,29,57,60,61,58,67,40,41,42]},
-			{"id":503, "name":"Wildboyz",				"pts": -10, "upgrades":[23,13, 52,29,57,60,58,67]},
-			{"id":504, "name":"Wildboyz (Big)",		"pts":-70,	"upgrades":[23,13, 52,29,57,60,61,58,67]},
+			{"id":500, "name":"Snakebites Warband",				"pts":5,	"upgrades":[11,39,13,23,52,29,57,60,61,58,67,40,41,42]},
+			{"id":503, "name":"Wildboyz",				"pts": 15, "upgrades":[23,13, 52,29,57,60,58,67]},
+			{"id":504, "name":"Wildboyz (Big)",		"pts":-20,	"upgrades":[23,13, 52,29,57,60,61,58,67]},
 			{"id":506, "name":"Boarboyz Horde",		"pts":0,	"upgrades":[29,30,58,67]},
 			{"id":507, "name":"Boarboyz Horde (Big)",	"pts":-50,	"upgrades":[29,30,58,67]},
 			{"id":508, "name":"Boarboyz Horde ('Uge)","pts":-100,	        "upgrades":[29,30,58,67]},
-			{"id":509, "name":"Trappas",				"pts":150,	"units":"6 Wildboyz (with Scout)", "upgrades":[13]},
-			{"id":510, "name":"Madboyz Horde",			"pts":30, 	"upgrades":[35,59]},
+			{"id":509, "name":"Trappas",				"pts":150,	"units":"8 Wildboyz (with Scout)", "upgrades":[13]},
+			{"id":510, "name":"Madboyz Horde",			"pts":0, 	"upgrades":[35,59]},
 			{"id":511, "name":"Junka Brigade",			"pts":25, "upgrades":[12,14,58,67]},
 			{"id":512, "name":"Junka Brigade (Big)",	"pts":-25, "upgrades":[12,14,58,67]},
 			{"id":514, "name":"Steam Gargant",			"pts":50,		"upgrades":[36,37,38,67]}
@@ -27,7 +27,7 @@
 		{"id":23, "name":"Wildboyz",			"pts":15},
 		{"id":29, "name":"Boarboyz",			"pts":25},
 		{"id":30, "name":"Pigdok",				"pts":35},
-		{"id":35, "name":"Madboyz",				"pts":20},
+		{"id":35, "name":"Madboyz",				"pts":25},
 		{"id":36, "name":"Steam Gargant (2 Soopaguns)",		"pts":200},
 		{"id":37, "name":"Steam Gargant (Soopagun and Mega Choppa)",		"pts":200},
 		{"id":38, "name":"Steam Gargant (2 Mega Choppa)",		"pts":200},
@@ -71,9 +71,9 @@
 		{"min":12, "from":[23], "appliesTo":[504]},
 		{"min":18, "from":[23], "appliesTo":[505]},
 
-		{"min":5, "from":[29], "appliesTo":[506]},
-		{"min":10, "from":[29], "appliesTo":[507]},
-		{"min":15, "from":[29], "appliesTo":[508]},
+		{"min":6, "from":[29], "appliesTo":[506]},
+		{"min":12, "from":[29], "appliesTo":[507]},
+		{"min":18, "from":[29], "appliesTo":[508]},
 
 		{"max":1, "from":[30], "appliesTo":[506]},
 		{"max":2, "from":[30], "appliesTo":[507]},

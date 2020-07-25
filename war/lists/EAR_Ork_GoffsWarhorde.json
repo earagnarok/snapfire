@@ -20,9 +20,9 @@
             {"id": 567, "name": "Mekboy Dreadmob", "pts": -20, "upgrades": [57,60,61]},
             {"id": 503, "name": "Stormboyz Warhorde", "pts": 0, "upgrades": [52,51,53,54,55,59]},
             {"id": 540, "name": "Kommandos Warhorde", "pts": 0, "upgrades": [51,52,53,54,55,59]},
-            {"id": 500, "name": "Warband", "pts": 200, "units": "2 Nobz, 6 Boyz, 2 Grotz", "upgrades": [81,58,50,82,51,52,53,54,55,56,57,59,61,62,60,64,68,69,70,71,74,72,73]},
-            {"id": 501, "name": "Warband (Big)", "pts": 350, "units": "4 Nobz, 12 Boyz, 4 Grotz", "upgrades": [81,58,50,82,51,52,53,54,55,56,57,59,61,62,60,64,68,69,70,71,74,72,73]},
-            {"id": 502, "name": "Warband ('Uge)", "pts": 500, "units": "6 Nobz, 18 Boyz, 6 Grotz", "upgrades": [81,58,50,82,51,52,53,54,55,56,57,59,61,62,60,64,68,69,70,71,74,72,73]}
+            {"id": 500, "name": "Warband", "pts": 225, "units": "2 Nobz, 6 Boyz, 2 Grotz", "upgrades": [81,58,50,51,52,53,54,55,56,57,59,61,62,60,64,82,68,69,70,71,74,72,73]},
+            {"id": 501, "name": "Warband (Big)", "pts": 400, "units": "4 Nobz, 12 Boyz, 4 Grotz", "upgrades": [81,58,50,51,52,53,54,55,56,57,59,61,62,60,64,82,68,69,70,71,74,72,73]},
+            {"id": 502, "name": "Warband ('Uge)", "pts": 575, "units": "6 Nobz, 18 Boyz, 6 Grotz", "upgrades": [81,58,50,51,52,53,54,55,56,57,59,61,62,60,64,82,68,69,70,71,74,72,73]}
          ]
       },
       {
@@ -40,7 +40,7 @@
    "upgrades": [
       {"id": 43, "name": "Big Gunz", "pts": 25},
       {"id": 49, "name": "Fighta-Bommer", "pts": 50},
-      {"id": 50, "name": "Boyz", "pts": 25},
+      {"id": 50, "name": "Boyz", "pts": 20},
       {"id": 51, "name": "Kommandos", "pts": 25},
       {"id": 52, "name": "Stormboyz", "pts": 25},
       {"id": 53, "name": "Warbuggy", "pts": 25},
@@ -58,14 +58,14 @@
       {"id": 69, "name": "Oddboy: Supa-Zzap-Gun", "pts": 50},
       {"id": 70, "name": "Oddboy: D3 Powerfields", "pts": 50},
       {"id": 71, "name": "Stompa w/ 3 Big Gunz", "pts": 75},
-      {"id": 72, "name": "Battlefortress", "pts": 115},
-      {"id": 73, "name": "Gunfortress", "pts": 115},
+      {"id": 72, "name": "Battlefortress", "pts": 100},
+      {"id": 73, "name": "Gunfortress", "pts": 100},
       {"id": 74, "name": "Stompa w/ Kombat 'Ammer, 2 Big Gunz", "pts": 75},
       {"id": 77, "name": "Supa-Stompa w/ 3 Soopaguns", "pts": 275},
       {"id": 78, "name": "Supa-Stompa w/ 2 Soopaguns, Killa-Choppa", "pts": 275},
       {"id": 80, "name": "Kill Kroozer", "pts": 0},
       {"id": 81, "name": "Warlord", "pts": 0},
-      {"id": 82, "name": "Boyz + Grotz", "pts": 25},
+      {"id": 82, "name": "Boyz + Grotz", "pts": 35},
 
       {"id": 85, "name": "3 Soopaguns", "pts": 0},
       {"id": 86, "name": "2 Soopaguns, Supa-Zzap-Gun", "pts": 0},

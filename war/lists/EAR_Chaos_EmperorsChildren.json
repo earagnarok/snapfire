@@ -28,6 +28,7 @@
 			{"id":515, "name":"Subjugator",	"pts":275, "upgrades":[]},
 			{"id":518, "name":"Hell Blades",	"pts":200, "units":"3 Hell Blade Interceptors", "upgrades":[]},
 			{"id":519, "name":"Hell Talons",	"pts":225, "units":"2 Hell Talon Fighter-Bombers", "upgrades":[]},
+			{"id":521, "name":"Chaos Thunderhawk",	"pts":225, "upgrades":[]},
 			{"id":520, "name":"Devastation Class Cruiser",	"pts":150,  "upgrades":[]}
 			]}
 	],
@@ -80,7 +81,7 @@
 		{"max":1, "name":"Emperor's Children Elite Formation", "from":[502,503], "forEach":[501], "name2":"Emperor's Children Core Formation"},
 		{"max":2, "name":"Emperor's Children Support Formations", "from":[504,505,506], "forEach":[501], "name2":"Emperor's Children Core Formation"},
 		{"min":1, "max":1, "from":[500]},
-		{"maxPercent": 33.5, "name":"Daemon Engines & Chaos Navy", "from":[511,512,513,514,515,517,518,519,520]}
+		{"maxPercent": 33.5, "name":"Daemon Engines & Chaos Navy", "from":[511,512,513,514,515,517,518,519,520,521]}
 	],
 	"upgradeConstraints":[
 		{"max":1, "perArmy":true, "from":[12,13,16]},

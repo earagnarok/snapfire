@@ -5,23 +5,23 @@
 	"notes":[],
 	"sections":[
 		{"name":"CORE BANNERS", "formations":[
-			{"id":500, "name":"Questoris", 		"pts":300, "upgrades":[6,7]}
+			{"id":500, "name":"Questoris", 		"pts":325, "upgrades":[6,7]}
 		]},
 		{"name":"SUPPORT BANNERS <br/> Max 1 per Core Banner", "formations":[
-			{"id":506, "name":"Dominus",	"pts":225, "upgrades":[]},
-			{"id":501, "name":"Cerastus",	"pts":325, "upgrades":[6,7]}
+			{"id":506, "name":"Dominus",	"pts":250, "upgrades":[]},
+			{"id":501, "name":"Cerastus",	"pts":225, "upgrades":[6,7]}
 		]},
 		{"name":"RECON BANNERS <br/> Max 1 per Core or Support Banner", "formations":[
-			{"id":502, "name":"Arminger",			"pts":175, "upgrades":[106]}
+			{"id":502, "name":"Arminger",			"pts":200, "upgrades":[106]}
 		]},
 		{"name":"RELIC BANNERS <br/> Max 1 Relic Banner for each 1500 points in the army", "formations":[
-			{"id":507, "name":"Armiger Reliquae",	"pts":200, "units":"3 Armiger Relic Knight-Moirax (Volkite Veuglaire, Gyges Siege Claw, Ionic Flare Shield)",  "upgrades":[]},
-			{"id":505, "name":"Cerastus Reliquae",	"pts":200, "units":"Cerastus Relic Knight-Atrapos (Graviton Singularity Cannon, Atrapos Lascutter, Ionic Flare Shield)",  "upgrades":[]},
+			{"id":507, "name":"Armiger Reliquae",	"pts":225, "units":"4 Armiger Relic Knight-Moirax (Volkite Veuglaire, Gyges Siege Claw, Ionic Flare Shield)",  "upgrades":[]},
+			{"id":505, "name":"Cerastus Reliquae",	"pts":250, "units":"Cerastus Relic Knight-Atrapos (Graviton Singularity Cannon, Atrapos Lascutter, Ionic Flare Shield)",  "upgrades":[]},
 			{"id":503, "name":"Questoris Reliquae",	"pts":200,  "upgrades":[]},
 			{"id":504, "name":"Acastus Reliquae",	"pts":275,  "upgrades":[]}
 		]},
 		{"name":"FORGE WORLD ALLIES <br/> Max 33%", "formations":[
-			{"id":510, "name":"Vanguard Maniple",		"pts":225,  "upgrades":[], "units":"6 Skitarii Vanguards"},
+			{"id":510, "name":"Vanguard Maniple",		"pts":300,  "upgrades":[], "units":"Magos, 7 Skitarii Vanguards"},
 
 			{"id":512, "name":"Onager Maniple",		"pts":225, "units":"4 Onager Dunecrawlers", "upgrades":[]},
 
@@ -29,7 +29,7 @@
 
             {"id":514, "name":"Avenger Squadron",				"pts":175,  "upgrades":[], "units":"2 Avenger Strike Fighters"},
 
-			{"id":522, "name":"Ark Mechanicus Battleship", "pts":200, "upgrades":[]}
+			{"id":522, "name":"Ark Mechanicus Battleship", "pts":225, "upgrades":[]}
 
 		]}
 	],
@@ -38,15 +38,15 @@
 		{"id":6,"name":"Seneschal","pts":25},
 		{"id":7,"name":"Baron","pts":75},
 
-		{"id":50, "name":"3 Skorpius Duneriders",	"pts":0},
-		{"id":51, "name":"3 Chimera",					"pts":0},
+		{"id":50, "name":"4 Skorpius Duneriders",	"pts":0},
+		{"id":51, "name":"4 Chimera",					"pts":0},
 
 		{"id":90, "name":"2 Knight-Paladins (Rapid Fire Battle Cannon, 2 Hvy Stubbers, Reaper Chainsword)",						"pts":0},
 		{"id":91, "name":"3 Knight-Paladins (Rapid Fire Battle Cannon, 2 Hvy Stubbers, Reaper Chainsword)",						"pts":150},
 		{"id":92, "name":"2 Knight-Errants (Thermal Cannon, Hvy Stubber, Thunderstrike Gauntlet)",								"pts":0},
 		{"id":93, "name":"3 Knight-Errants (Thermal Cannon, Hvy Stubber, Thunderstrike Gauntlet)",								"pts":150},
-		{"id":94, "name":"2 Knight-Crusaders (Rapid Fire Battle Cannon, Gatling Cannon, 2 Hvy Stubbers)",	"pts":0},
-		{"id":95, "name":"3 Knight-Crusaders (Rapid Fire Battle Cannon, Gatling Cannon, 2 Hvy Stubbers)",	"pts":125},
+		{"id":94, "name":"2 Knight-Crusaders (Rapid Fire Battle Cannon, Gatling Cannon, 2 Hvy Stubbers)",					"pts":0},
+		{"id":95, "name":"3 Knight-Crusaders (Rapid Fire Battle Cannon, Gatling Cannon, 2 Hvy Stubbers)",					"pts":150},
 		{"id":96, "name":"2 Knight-Gallants (Icarus Autocannons, Hvy Stubber, Thunderstrike Gauntlet, Reaper Chainsword)",		"pts":0},
 		{"id":97, "name":"3 Knight-Gallants (Icarus Autocannons, Hvy Stubber, Thunderstrike Gauntlet, Reaper Chainsword)",		"pts":150},
 		{"id":98, "name":"2 Knight-Wardens (Gatling Cannon, Ironstorm Missiles, Hvy Stubber, Reaper Chainsword)",				"pts":0},
@@ -54,16 +54,17 @@
 		{"id":100, "name":"2 Knight-Preceptors (Las-Impulsor, Hvy Stubber, Thunderstrike Gauntlet)",								"pts":0},
 		{"id":101, "name":"3 Knight-Preceptors (Las-Impulsor, Hvy Stubber, Thunderstrike Gauntlet)",								"pts":150},
 
-		{"id":106, "name":"Knight-Preceptor w/ Seneschal (Las-Impulsor, Hvy Stubber, Thunderstrike Gauntlet)",				"pts":150},
+		{"id":106, "name":"Knight-Preceptor w/ Seneschal (Las-Impulsor, Hvy Stubber, Thunderstrike Gauntlet)",				"pts":175},
 
-		{"id":110, "name":"2 Cerastus Knight-Lancer (Cerastus Shock Lance, Ionic Flare Shield)",								"pts":0},
-		{"id":111, "name":"2 Cerastus Knight-Castigator (Castigator Cannon, Tempest Warblade)",									"pts":0},
-		{"id":112, "name":"2 Cerastus Knight-Acheron (Flame Cannon, Reaper Chainfist)",											"pts":0},
+		{"id":110, "name":"Cerastus Knight-Lancer (Cerastus Shock Lance, Ionic Flare Shield)",								"pts":0},
+		{"id":111, "name":"2 Cerastus Knight-Lancers (Cerastus Shock Lance, Ionic Flare Shield)",								"pts":175},
+		{"id":112, "name":"Cerastus Knight-Castigator (Castigator Cannon, Tempest Warblade)",									"pts":0},
+		{"id":113, "name":"2 Cerastus Knight-Castigators (Castigator Cannon, Tempest Warblade)",									"pts":175},
+		{"id":114, "name":"Cerastus Knight-Acheron (Flame Cannon, Reaper Chainfist)",											"pts":0},
+		{"id":115, "name":"2 Cerastus Knight-Acherons (Flame Cannon, Reaper Chainfist)",											"pts":175},
 
-		{"id":120, "name":"3 Knight-Warglaives (Thermal Spear, Reaper Chain-Cleaver, Hvy Stubber)",			 								"pts":0},
-		{"id":121, "name":"4 Knight-Warglaives (Thermal Spear, Reaper Chain-Cleaver, Hvy Stubber)",			 								"pts":50},
-		{"id":122, "name":"3 Knight-Helverins (Twin Autocannon, Hvy Stubber)",																	"pts":0},
-		{"id":123, "name":"4 Knight-Helverins (Twin Autocannon, Hvy Stubber)",																	"pts":50},
+		{"id":120, "name":"4 Knight-Warglaives (Thermal Spear, Reaper Chain-Cleaver, Hvy Stubber)",			 								"pts":0},
+		{"id":121, "name":"4 Knight-Helverins (Twin Autocannon, Hvy Stubber)",																	"pts":0},
 
 		{"id":130, "name":"Knight-Valiant (Conflagration C. Thundercoil H. Siegebreaker C. 4 Shieldbreaker M. Quad Meltagun)",	"pts":0},
 		{"id":131, "name":"Knight-Castellan (Volcano Lance, Plasma Decimator, 2 Siegebreaker C. 2 Shieldbreaker M. Quad Meltagun)",		"pts":0},
@@ -103,11 +104,11 @@
 		{"min":1, "max":1, "from":[130,131], "appliesTo":[506]},
 
 
-		{"min":1, "max":1, "from":[111,110,112], "appliesTo":[501]},
-		{"max":1, "from":[7,9,110], "appliesTo":[501]},
+		{"min":1, "max":1, "from":[110,111,112,113,114,115], "appliesTo":[501]},
+		{"max":1, "from":[7,9], "appliesTo":[501]},
 
 
-		{"min":1, "max":1, "from":[120,121,122,123], "appliesTo":[502]},
+		{"min":1, "max":1, "from":[120,121], "appliesTo":[502]},
 
 
 

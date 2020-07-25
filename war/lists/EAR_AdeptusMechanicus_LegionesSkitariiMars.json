@@ -4,7 +4,7 @@
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"LEGIONES MARS CORE FORMATIONS", "formations":[
-			{"id":501, "name":"Vanguard Maniple",	"pts":200, "upgrades":[90,91,92,93,94,95,96,97]}
+			{"id":501, "name":"Vanguard Maniple",	"pts":300, "upgrades":[97,98,99,130,131,132,133,128,129]}
 		]},
 		{"name":"LEGIONES MARS LINE FORMATIONS <br/> Max 3 for each Core Formation", "formations":[
 			{"id":507, "name":"Sicarian Killclade",			"pts":150, "units":"4 Sicarian Ruststalkers, 2 Sicarian Infiltrators",		 "upgrades":[]},
@@ -20,35 +20,31 @@
 		]},
 
 		{"name":"FORGE WORLD NAVY, QUESTORIS MECHANICUS & COLLEGIA TITANICA SUPPORT <br/> Max 33%", "formations":[
-		    {"id":519,"name":"Questoris Banner", "pts":300, "upgrades":[]},
+		    {"id":519,"name":"Questoris Banner", "pts":325, "upgrades":[]},
 
 		    {"id":520,"name":"Warhound Pack","pts":500, "upgrades":[]},
 			{"id":521, "name":"Warbringer Titan",	"pts":650, "upgrades":[]},
 
 			{"id":523, "name":"Avenger Squadron",			"pts":175, "units":"2 Avenger Strike Fighters", "upgrades":[]},
-			{"id":525, "name":"Ark Mechanicus Battleship",		"pts":200, "upgrades":[]}
+			{"id":525, "name":"Ark Mechanicus Battleship",		"pts":225, "upgrades":[]}
 		]}
 
 
 	],
 	"upgrades":[
-		{"id":90, "name":"5 Skorpius Duneriders",	"pts":125},
-		{"id":91, "name":"5 Termites",				"pts":100},
-		{"id":92, "name":"Gorgon",					"pts":100},
-
-		{"id":93, "name":"2 Onager Dunecrawlers (2x Icarus Array)",	"pts":75},
-		{"id":94, "name":"2 Onager Dunecrawlers (2x Twin Heavy Phosphor Blaster)",	"pts":75},
-		{"id":95, "name":"2 Onager Dunecrawlers (2x Neutron Laser)",	"pts":75},
-		{"id":96, "name":"2 Onager Dunecrawlers (2x Eradication Beamer)",	"pts":75},
-		{"id":97, "name":"2 Skorpius Disintegrators",	"pts":75},
+		{"id":97, "name":"Skorpius Disintegrator",	"pts":50},
+		{"id":98, "name":"2 Skorpius Disintegrators",	"pts":100},
+		{"id":99, "name":"3 Skorpius Disintegrators",	"pts":150},
 
 		{"id":100, "name":"Magos",						"pts":0},
-		{"id":101, "name":"Magos Dominus",					"pts":100},
+		{"id":101, "name":"Magos Dominus",					"pts":75},
 
-		{"id":105, "name":"9 Skitarii Vanguards",						"pts":0},
-		{"id":107, "name":"7 Skitarii Vanguards, 2 Skitarii Rangers",	"pts":25},
-		{"id":106, "name":"6 Skitarii Vanguards, 3 Rapiers",						"pts":0},
-		{"id":108, "name":"4 Skitarii Vanguards, 3 Rapiers, 2 Skitarii Rangers",	"pts":25},
+		{"id":105, "name":"7 Skitarii Vanguards",						"pts":0},
+		{"id":106, "name":"4 Skitarii Vanguards, 3 Rapiers",						"pts":0},
+
+		{"id":107, "name":"4 Chimera",						"pts":0},
+		{"id":108, "name":"4 Skorpius Duneriders",						"pts":0},
+		{"id":109, "name":"4 Termites",						"pts":25},
 
 		{"id":110, "name":"4 Sicarian Ruststalkers, 2 Sicarian Infiltrators",				"pts":0},
 		{"id":111, "name":"2 Sicarian Ruststalkers, 2 Sicarian Infiltrators, 2 Archaeopters",		"pts":0},
@@ -75,12 +71,12 @@
 		{"id":136, "name":"Ordinatus Minoris (Volcano Cannon)",			"pts":150},
 		{"id":137, "name":"Ordinatus Minoris (Plasma Destructor)",		"pts":150},
 
-		{"id":140, "name":"2 Knight-Paladin (Rapid Fire Battle Cannon, 2 Hvy Stubbers, Chainsword)",													"pts":0},
-		{"id":141, "name":"2 Knight-Errant (Thermal Cannon, Hvy Stubber, Gauntlet)",											         				"pts":0},
-		{"id":142, "name":"2 Knight-Crusader (Rapid Fire Battle Cannon, Gatling Cannon, 2 Hvy Stubbers)",							"pts":0},
-		{"id":143, "name":"2 Knight-Gallant (Icarus Autocannons, Hvy Stubber, Gauntlet, Chainsword)",							             			"pts":0},
-		{"id":144, "name":"2 Knight-Warden (Gatling Cannon, Ironstorm Missiles, Hvy Stubber, Chainsword)",		     								     "pts":0},
-		{"id":145, "name":"2 Knight-Preceptor (Las-Impulsor, Hvy Stubber, Gauntlet)",											        				"pts":0},
+		{"id":140, "name":"2 Knight-Paladin (Rapid Fire Battle Cannon, 2 Hvy Stubbers, Chainsword)",												"pts":0},
+		{"id":141, "name":"2 Knight-Errant (Thermal Cannon, Hvy Stubber, Gauntlet)",										         				"pts":0},
+		{"id":142, "name":"2 Knight-Crusader (Rapid Fire Battle Cannon, Gatling Cannon, 2 Hvy Stubbers)",											"pts":0},
+		{"id":143, "name":"2 Knight-Gallant (Icarus Autocannons, Hvy Stubber, Gauntlet, Chainsword)",						             			"pts":0},
+		{"id":144, "name":"2 Knight-Warden (Gatling Cannon, Ironstorm Missiles, Hvy Stubber, Chainsword)",		     							     "pts":0},
+		{"id":145, "name":"2 Knight-Preceptor (Las-Impulsor, Hvy Stubber, Gauntlet)",										        				"pts":0},
 
 		{"id":150, "name":"2 Warhound Titans (Standard Configuration)",		"pts":0},
 		{"id":151, "name":"2 Warhound Titans (Support Configuration)",		"pts":0},
@@ -114,12 +110,11 @@
 	"upgradeConstraints":[
 		{"max":1,  "perArmy":true,  "from":[101]},
 
-		{"max":1, "from":[90,91,92]},
-		{"max":1, "from":[93,94,95,96,97,91]},
-
 		{"max":1, "min":1, "from":[100,101], "appliesTo":[501]},
-		{"max":1, "min":1, "from":[105,106,107,108], "appliesTo":[501]},
-		{"min":0, "max":1, "from":[130,131,132,133], "appliesTo":[501]},
+		{"max":1, "min":1, "from":[105,106], "appliesTo":[501]},
+		{"max":1, "min":1, "from":[107,108,109], "appliesTo":[501]},
+		{"min":0, "max":1, "from":[130,131,132,133,128,129,109], "appliesTo":[501]},
+		{"min":0, "max":1, "from":[97,98,99,109], "appliesTo":[501]},
 
 		{"max":1, "min":0, "from":[112], "appliesTo":[508]},
 
