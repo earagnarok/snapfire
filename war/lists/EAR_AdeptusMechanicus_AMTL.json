@@ -19,7 +19,7 @@
 {"name":"RECON FORMATIONS <br/> Max 2 for each Battle Titan formation",
 "formations":[
 	    {"id":510,"name":"Warhounds","pts":0, "upgrades":[11]},
-		{"id":520,"name":"Questoris Banner","pts":325, "upgrades":[]}
+		{"id":520,"name":"Questoris Banner","pts":300, "upgrades":[]}
 ]},
 {"name":"SUPPORT FORMATIONS <br/> Max 2 for each Battle Titan formation",
 "formations":[
