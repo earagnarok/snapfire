@@ -4,14 +4,12 @@
 	"by":"EA-Ragnarok",
 	"notes":[],
 	"sections":[
-		{"name":"CORE BANNERS", "formations":[
-			{"id":500, "name":"Questoris", 		"pts":325, "upgrades":[6,7]}
+		{"name":"CORE BANNERS <br/> Max 1 Dominus Banner per Questoris Banner", "formations":[
+			{"id":500, "name":"Questoris", 		"pts":325, "upgrades":[6,7]},
+			{"id":506, "name":"Dominus",	"pts":275, "upgrades":[]}
 		]},
-		{"name":"SUPPORT BANNERS <br/> Max 1 per Core Banner", "formations":[
-			{"id":506, "name":"Dominus",	"pts":250, "upgrades":[]},
-			{"id":501, "name":"Cerastus",	"pts":225, "upgrades":[6,7]}
-		]},
-		{"name":"RECON BANNERS <br/> Max 1 per Core or Support Banner", "formations":[
+		{"name":"RECON BANNERS <br/> Max 1 per Core Banner", "formations":[
+			{"id":501, "name":"Cerastus",	"pts":225, "upgrades":[6,7]},
 			{"id":502, "name":"Arminger",			"pts":200, "upgrades":[106]}
 		]},
 		{"name":"RELIC BANNERS <br/> Max 1 Relic Banner for each 1500 points in the army", "formations":[
@@ -25,7 +23,7 @@
 
 			{"id":512, "name":"Onager Maniple",		"pts":225, "units":"4 Onager Dunecrawlers", "upgrades":[]},
 
-			{"id":513, "name":"Skorpius Maniple",		"pts":225, "units":"4 Skorpius Disintegrators", "upgrades":[]},
+			{"id":513, "name":"Skorpius Maniple",		"pts":225, "upgrades":[]},
 
             {"id":514, "name":"Avenger Squadron",				"pts":175,  "upgrades":[], "units":"2 Avenger Strike Fighters"},
 
@@ -40,6 +38,9 @@
 
 		{"id":50, "name":"4 Skorpius Duneriders",	"pts":0},
 		{"id":51, "name":"4 Chimera",					"pts":0},
+
+		{"id":60, "name":"Skorpius Disintegrator (Ferrumite Cannon)",	"pts":0},
+		{"id":61, "name":"Skorpius Disintegrator (Belleros Energy Cannon)",	"pts":0},
 
 		{"id":90, "name":"2 Knight-Paladins (Rapid Fire Battle Cannon, 2 Hvy Stubbers, Reaper Chainsword)",						"pts":0},
 		{"id":91, "name":"3 Knight-Paladins (Rapid Fire Battle Cannon, 2 Hvy Stubbers, Reaper Chainsword)",						"pts":175},
@@ -86,8 +87,8 @@
 		{"id":172, "name":"3x Twin Heavy Phosphor Blaster, 1x Icarus Array",				"pts":0}
     ],
 	"formationConstraints":[
-		{"max":1, "name":"Support Banner", "from":[501,506], "forEach":[500], "name2":"Core Banner"},
-		{"max":1, "name":"Recon Banner", "from":[502], "forEach":[500,501,506], "name2":"Core or Support Banner"},
+		{"max":1, "name":"Dominus Banner", "from":[506], "forEach":[500], "name2":"Questoris Banner"},
+		{"max":1, "name":"Recon Banner", "from":[501,502], "forEach":[500,506], "name2":"Core Banner"},
 		{"maxPercent": 33.5, "name":"Mechanicus Allies", "from":[510,512,513,514,520,521,522,535]},
 		{"max":1, "name":"Relic Banner", "perPoints":1500, "from":[503,504,505,507]},
 		{"max":1, "perArmy":true, "from":[522]}
@@ -101,8 +102,8 @@
         {"max":1,"from":[106,107],"appliesTo":[502]},
 		{"max":1, "from":[175,176,177,178]},
 
-		{"min":0, "max":1, "from":[6,7], "appliesTo":[500]},
-		{"min":1, "max":1, "from":[6,7], "appliesTo":[501,503,505,506,504]},
+		{"min":0, "max":1, "from":[6,7], "appliesTo":[501,500]},
+		{"min":1, "max":1, "from":[6,7], "appliesTo":[503,505,506,504]},
 
 		{"min":1, "max":1, "from":[90,91,92,93,94,95,96,97,98,99,100,101], "appliesTo":[500]},
 
@@ -129,6 +130,8 @@
 		{"min":1, "max":1, "from":[51,50], "appliesTo":[510]},
 
 		{"min":1, "max":1, "from":[170,171,172], "appliesTo":[512]},
+
+		{"min":4, "max":4, "from":[60,61], "appliesTo":[513]},
 
         {"min":1,"max":1,"from":[72,71,70],"appliesTo":[520]},
 

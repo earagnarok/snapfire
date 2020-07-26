@@ -96,7 +96,6 @@
 	"upgradeConstraints":[
 		{"max":1, "perArmy":true, "from":[10,14]},
 		{"max":3, "from":[17]},
-		{"max":1, "from":[25]},
 		{"max":1, "from":[42,43,44]},
 		{"max":1, "from":[45,46]},
 		{"max":1, "from":[53]},
@@ -108,12 +107,14 @@
    		{"min":3, "max":3, "from":[60,61,62,63,64], "appliesTo":[501]},
 
    		{"min":1, "max":1, "from":[54,55], "appliesTo":[503]},
+		{"max":2, "from":[25], "appliesTo":[503]},
 
    		{"min":1, "max":1, "from":[26,28,29,30,27], "appliesTo":[511]},
 
   		{"min":1, "max":1, "from":[37,39,36,34,38], "appliesTo":[512]},
 
  		{"min":1, "max":1, "from":[56,57,58], "appliesTo":[516]},
+		{"max":1, "from":[25], "appliesTo":[516]},
 
   		{"min":1, "max":1, "from":[40,41], "appliesTo":[532]}
 	]

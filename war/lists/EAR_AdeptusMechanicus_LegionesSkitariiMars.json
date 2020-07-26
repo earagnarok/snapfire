@@ -4,17 +4,15 @@
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"LEGIONES MARS CORE FORMATIONS", "formations":[
-			{"id":501, "name":"Vanguard Maniple",	"pts":300, "upgrades":[97,98,99,130,131,132,133,128,129]}
+			{"id":501, "name":"Vanguard Maniple",	"pts":300, "upgrades":[96,97,98,99,130,131,132,133,128,129]}
 		]},
 		{"name":"LEGIONES MARS LINE FORMATIONS <br/> Max 3 for each Core Formation", "formations":[
 			{"id":507, "name":"Sicarian Killclade",			"pts":150, "units":"4 Sicarian Ruststalkers, 2 Sicarian Infiltrators",		 "upgrades":[]},
-			{"id":509, "name":"Dragoon Cohort",			"pts":150, "units":"6 Sydonian Dragoons",	 "upgrades":[]},
-			{"id":510, "name":"Ironstrider Cohort",			"pts":150, "units":"6 Ironstrider Ballistarius",	 "upgrades":[]},
 			{"id":508, "name":"Ranger Cohort",			"pts":150,  "units":"4 Skitarii Rangers",		 "upgrades":[112]},
 			{"id":514, "name":"Kastelan Maniple",		"pts":50, "units":"Tech-Priest", "upgrades":[114]},
 			{"id":511, "name":"Kataphron Maniple",		"pts":250, "units":"Tech-Priest", "upgrades":[]},
-			{"id":512, "name":"Onager Maniple", "units":"4 Onager Dunecrawlers",	"pts":225, "upgrades":[]},
-			{"id":513, "name":"Skorpius Maniple",		"pts":225, "units":"4 Skorpius Disintegrators", "upgrades":[]},
+			{"id":512, "name":"Onager Maniple",			 "units":"4 Onager Dunecrawlers",	"pts":225, "upgrades":[]},
+			{"id":513, "name":"Skorpius Maniple",		"pts":225, "upgrades":[]},
 			{"id":515, "name":"Minoris Maniple",		"pts":75, "upgrades":[130,131,132,133,128,129,135,136,137]},
 			{"id":516, "name":"Ordinatus Majoris",		"pts":425, "upgrades":[]}
 		]},
@@ -32,15 +30,19 @@
 
 	],
 	"upgrades":[
-		{"id":97, "name":"Skorpius Disintegrator",	"pts":50},
-		{"id":98, "name":"2 Skorpius Disintegrators",	"pts":100},
-		{"id":99, "name":"3 Skorpius Disintegrators",	"pts":150},
+		{"id":90, "name":"Skorpius Disintegrator (Ferrumite Cannon)",	"pts":0},
+		{"id":91, "name":"Skorpius Disintegrator (Belleros Energy Cannon)",	"pts":0},
+
+		{"id":96, "name":"2 Onager Dunecrawlers (Icarus Array)",	"pts":75},
+		{"id":97, "name":"2 Onager Dunecrawlers (Neutron Laser)",	"pts":75},
+		{"id":98, "name":"2 Onager Dunecrawlers (Eradication Beamer)",	"pts":75},
+		{"id":99, "name":"2 Onager Dunecrawlers (Twin Hvy Phosphor Blaster)",	"pts":75},
 
 		{"id":100, "name":"Magos",						"pts":0},
 		{"id":101, "name":"Magos Dominus",					"pts":75},
 
 		{"id":105, "name":"7 Skitarii Vanguards",						"pts":0},
-		{"id":106, "name":"4 Skitarii Vanguards, 3 Rapiers",						"pts":0},
+		{"id":106, "name":"4 Skitarii Vanguards, 3 Skitarii Rangers",						"pts":0},
 
 		{"id":107, "name":"4 Chimera",						"pts":0},
 		{"id":108, "name":"4 Skorpius Duneriders",						"pts":0},
@@ -114,13 +116,15 @@
 		{"max":1, "min":1, "from":[105,106], "appliesTo":[501]},
 		{"max":1, "min":1, "from":[107,108,109], "appliesTo":[501]},
 		{"min":0, "max":1, "from":[130,131,132,133,128,129,109], "appliesTo":[501]},
-		{"min":0, "max":1, "from":[97,98,99,109], "appliesTo":[501]},
+		{"min":0, "max":1, "from":[96,97,98,99,109], "appliesTo":[501]},
 
 		{"max":1, "min":0, "from":[112], "appliesTo":[508]},
 
 		{"max":1, "min":1, "from":[170,171,172], "appliesTo":[512]},
 
 		{"max":1, "min":1, "from":[115,116], "appliesTo":[511]},
+
+		{"max":4, "min":4, "from":[90,91], "appliesTo":[513]},
 
 		{"max":7, "min":5, "from":[114], "appliesTo":[514]},
 
