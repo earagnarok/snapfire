@@ -5,7 +5,7 @@
 	"notes":[],
 	"sections":[
 		{"name":"CORE LANCES <br/> Max 1 Dominus Lance per Questoris Lance", "formations":[
-			{"id":500, "name":"Questoris", 		"pts":400, "upgrades":[6,7]},
+			{"id":500, "name":"Questoris", 		"pts":425, "upgrades":[6,7]},
 			{"id":506, "name":"Dominus",	"pts":250, "upgrades":[]}
 		]},
 		{"name":"RECON LANCES <br/> Max 1 per Core Lance", "formations":[
