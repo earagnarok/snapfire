@@ -103,7 +103,6 @@
 		{"id":102, "name":"2 Knight-Crusaders (Rapid Fire Battle Cannon, Gatling Cannon)",							"pts":0},
 		{"id":103, "name":"2 Knight-Gallants (Icarus Autocannons, Gauntlet, Chainsword)",							             			"pts":0},
 		{"id":104, "name":"2 Knight-Wardens (Gatling Cannon, Ironstorm Missiles, Chainsword)",											     "pts":0},
-		{"id":105, "name":"2 Knight-Preceptors (Las-Impulsor, Gauntlet)",											        				"pts":0},
 
     	{"id":130, "name":"Ordinatus Minoris (Heavy Icarus Array)",	"pts":125},
 		{"id":131, "name":"Ordinatus Minoris (Titan Plasma Cannon)",			"pts":125},
@@ -154,7 +153,7 @@
         {"min":2,"max":2,"from":[80,81,95,96,97,98,99],"appliesTo":[504]},
         {"max":1,"from":[98,99],"appliesTo":[504]},
 
-        {"min":1,"max":1,"from":[100,101,102,103,104,105],"appliesTo":[520]},
+        {"min":1,"max":1,"from":[100,101,102,103,104],"appliesTo":[520]},
 
         {"min":10,"max":10,"from":[17,18,19],"appliesTo":[530]},
         {"min":0,"max":4,"from":[19],"appliesTo":[530]},
