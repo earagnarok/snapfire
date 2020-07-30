@@ -12,7 +12,7 @@
 			{"id":514, "name":"Kastelan Maniple",		"pts":50, "units":"Tech-Priest", "upgrades":[114]},
 			{"id":511, "name":"Kataphron Maniple",		"pts":250, "units":"Tech-Priest", "upgrades":[]},
 			{"id":512, "name":"Onager Maniple",			 "units":"4 Onager Dunecrawlers",	"pts":225, "upgrades":[]},
-			{"id":513, "name":"Skorpius Maniple",		"pts":225, "upgrades":[]},
+			{"id":513, "name":"Skorpius Maniple",		"pts":200, "upgrades":[]},
 			{"id":515, "name":"Minoris Maniple",		"pts":75, "upgrades":[130,131,132,133,128,129,135,136,137]},
 			{"id":516, "name":"Ordinatus Majoris",		"pts":425, "upgrades":[]}
 		]},

@@ -15,7 +15,7 @@
 		]},
 		{"name":"RELIC LANCES <br/> Max 1 Relic Lance for each 1500 points in the army", "formations":[
 			{"id":507, "name":"Armiger Reliquae",	"pts":200, "units":"3 Armiger Relic Knight-Moirax (Volkite Veuglaire, Gyges Siege Claw, Ionic Flare Shield)",  "upgrades":[]},
-			{"id":503, "name":"Questoris Reliquae",	"pts":200, "upgrades":[6]},
+			{"id":503, "name":"Questoris Reliquae",	"pts":225, "upgrades":[6]},
 			{"id":505, "name":"Cerastus Reliquae",	"pts":275, "units":"Seneschal, Cerastus Relic Knight-Atrapos (Graviton Singularity Cannon, Atrapos Lascutter, Ionic Flare Shield)",  "upgrades":[]},
 			{"id":504, "name":"Acastus Reliquae",	"pts":300, "upgrades":[6]}
 		]},
@@ -24,7 +24,7 @@
 
 			{"id":512, "name":"Onager Maniple",		"pts":225, "units":"4 Onager Dunecrawlers", "upgrades":[]},
 
-			{"id":513, "name":"Skorpius Maniple",		"pts":225, "upgrades":[]},
+			{"id":513, "name":"Skorpius Maniple",		"pts":200, "upgrades":[]},
 
             {"id":514, "name":"Avenger Squadron",				"pts":175,  "upgrades":[], "units":"2 Avenger Strike Fighters"},
 
@@ -57,11 +57,11 @@
 		{"id":106, "name":"Knight-Preceptor w/ Seneschal (Las-Impulsor, Thunderstrike Gauntlet)",				"pts":175},
 
 		{"id":110, "name":"Cerastus Knight-Lancer (Cerastus Shock Lance, Ionic Flare Shield)",								"pts":0},
-		{"id":111, "name":"2 Cerastus Knight-Lancers (Cerastus Shock Lance, Ionic Flare Shield)",								"pts":175},
+		{"id":111, "name":"2 Cerastus Knight-Lancers (Cerastus Shock Lance, Ionic Flare Shield)",								"pts":150},
 		{"id":112, "name":"Cerastus Knight-Castigator (Castigator Cannon, Tempest Warblade)",									"pts":0},
-		{"id":113, "name":"2 Cerastus Knight-Castigators (Castigator Cannon, Tempest Warblade)",									"pts":175},
+		{"id":113, "name":"2 Cerastus Knight-Castigators (Castigator Cannon, Tempest Warblade)",									"pts":150},
 		{"id":114, "name":"Cerastus Knight-Acheron (Flame Cannon, Reaper Chainfist)",											"pts":0},
-		{"id":115, "name":"2 Cerastus Knight-Acherons (Flame Cannon, Reaper Chainfist)",											"pts":175},
+		{"id":115, "name":"2 Cerastus Knight-Acherons (Flame Cannon, Reaper Chainfist)",											"pts":150},
 
 		{"id":120, "name":"3 Knight-Warglaives (Thermal Spear, Reaper Chain-Cleaver, Hvy Stubber)",			 								"pts":0},
 		{"id":121, "name":"4 Knight-Warglaives (Thermal Spear, Reaper Chain-Cleaver, Hvy Stubber)",			 								"pts":50},
@@ -72,14 +72,14 @@
 		{"id":131, "name":"Knight-Castellan (Volcano Lance, Plasma Decimator, 2 Siegebreaker C. 2 Shieldbreaker M)",		"pts":0},
 
 		{"id":158, "name":"Questoris Relic Knight-Styrix (Volkite Chieroville, Twin Rad Cleanser, Graviton Crusher, Siege Claw, Ionic Flare Shield)",	"pts":0},
-		{"id":159, "name":"2 Questoris Relic Knight-Styrix (Volkite Chieroville, Twin Rad Cleanser, Graviton Crusher, Siege Claw, Ionic Flare Shield)",	"pts":175},
+		{"id":159, "name":"2 Questoris Relic Knight-Styrix (Volkite Chieroville, Twin Rad Cleanser, Graviton Crusher, Siege Claw, Ionic Flare Shield)",	"pts":150},
 		{"id":160, "name":"Questoris Relic Knight-Magaera (Lightning C, Twin Phased Plasma Fusil, Reaper Chainsword, Ionic Flare Shield)",				"pts":0},
-		{"id":161, "name":"2 Questoris Relic Knight-Magaeras (Lightning C, Twin Phased Plasma Fusil, Reaper Chainsword, Ionic Flare Shield)",			"pts":175},
+		{"id":161, "name":"2 Questoris Relic Knight-Magaeras (Lightning C, Twin Phased Plasma Fusil, Reaper Chainsword, Ionic Flare Shield)",			"pts":150},
 
 		{"id":163, "name":"Acastus Relic Knight-Porphyrion (2 Magna Lascannons, 2 Autocannons, Helios Defense Missiles)",  "pts":0},
-		{"id":164, "name":"2 Acastus Relic Knight-Porphyrions (2 Magna Lascannons, 2 Autocannons, Helios Defense Missiles)",  "pts":250},
+		{"id":164, "name":"2 Acastus Relic Knight-Porphyrions (2 Magna Lascannons, 2 Autocannons, Helios Defense Missiles)",  "pts":225},
 		{"id":165, "name":"Acastus Relic Knight-Asterius (2 Conversion Beam Cannons, 2 Volkite Culvertins, Karacnos Mortar Battery)",	"pts":0},
-		{"id":166, "name":"2 Acastus Relic Knight-Asterius (2 Conversion Beam Cannons, 2 Volkite Culvertins, Karacnos Mortar Battery)",	"pts":250},
+		{"id":166, "name":"2 Acastus Relic Knight-Asterius (2 Conversion Beam Cannons, 2 Volkite Culvertins, Karacnos Mortar Battery)",	"pts":225},
 
 		{"id":170, "name":"3x Eradication Beamer, 1x Icarus Array",				"pts":0},
 		{"id":171, "name":"3x Neutron Laser, 1x Icarus Array",				"pts":0},
