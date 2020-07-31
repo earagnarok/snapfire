@@ -4,19 +4,19 @@
 	"by":"EA-Ragnarok",
 	"notes":[],
 	"sections":[
-		{"name":"CORE LANCES <br/> Max 1 Dominus Banner per Questoris Superior or Questoris Banner", "formations":[
+		{"name":"CORE BANNERS <br/> Max 1 Dominus Banner per Questoris Superior or Questoris Banner", "formations":[
 			{"id":499, "name":"Questoris Superior", 		"pts":500, "units":"Lord Seneschal", "upgrades":[]},
 			{"id":500, "name":"Questoris", 		"pts":325, "upgrades":[6]},
 			{"id":506, "name":"Dominus",	"pts":250, "units":"Seneschal", "upgrades":[]}
 		]},
-		{"name":"RECON LANCES <br/> Max 1 per Core Banner", "formations":[
+		{"name":"RECON BANNERS <br/> Max 1 per Core Banner", "formations":[
 			{"id":501, "name":"Cerastus",	"pts":225, "upgrades":[6]},
 			{"id":502, "name":"Arminger",			"pts":175, "upgrades":[106]}
 		]},
-		{"name":"RELIC LANCES <br/> Max 1 Relic Banner for each 1500 points in the army", "formations":[
+		{"name":"RELIC BANNERS <br/> Max 1 Relic Banner for each 1500 points in the army", "formations":[
 			{"id":507, "name":"Armiger Reliquae",	"pts":200, "units":"3 Armiger Relic Knight-Moirax (Volkite Veuglaire, Gyges Siege Claw, Ionic Flare Shield)",  "upgrades":[]},
 			{"id":503, "name":"Questoris Reliquae",	"pts":225, "upgrades":[6]},
-			{"id":505, "name":"Cerastus Reliquae",	"pts":275, "units":"Seneschal, Cerastus Relic Knight-Atrapos (Graviton Singularity Cannon, Atrapos Lascutter, Ionic Flare Shield)",  "upgrades":[]},
+			{"id":505, "name":"Cerastus Reliquae",	"pts":300, "units":"Seneschal, Cerastus Relic Knight-Atrapos (Graviton Singularity Cannon, Atrapos Lascutter, Ionic Flare Shield)",  "upgrades":[]},
 			{"id":504, "name":"Acastus Reliquae",	"pts":300, "upgrades":[6]}
 		]},
 		{"name":"FORGE WORLD ALLIES <br/> Max 33%", "formations":[
@@ -43,7 +43,7 @@
 		{"id":61, "name":"Skorpius Disintegrator (Belleros Energy Cannon)",	"pts":0},
 
 		{"id":90, "name":"2 Knight-Paladins (Rapid Fire Battle Cannon, Reaper Chainsword)",						"pts":0},
-		{"id":91, "name":"2 Knight-Errants (Thermal Cannon, Thunderstrike Gauntlet)",								"pts":0},
+		{"id":91, "name":"2 Knight-Errants (Thermal Cannon, Reaper Chainsword)",								"pts":0},
 		{"id":92, "name":"2 Knight-Crusaders (Rapid Fire Battle Cannon, Gatling Cannon)",					"pts":0},
 		{"id":93, "name":"2 Knight-Gallants (Twin Icarus Autocannon, Thunderstrike Gauntlet, Reaper Chainsword)",		"pts":0},
 		{"id":94, "name":"2 Knight-Wardens (Gatling Cannon, Ironstorm Missiles, Reaper Chainsword)",				"pts":0},
