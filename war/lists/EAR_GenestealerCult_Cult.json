@@ -75,7 +75,7 @@
           "id": 512,
           "name": "Mechanized Neophyte Platoon",
           "units": "Hybrid Iconward, 6 Neophytes, 3 Chimera",
-          "pts": 275,
+          "pts": 250,
           "upgrades": [ 53, 50 ]
       },
     {
