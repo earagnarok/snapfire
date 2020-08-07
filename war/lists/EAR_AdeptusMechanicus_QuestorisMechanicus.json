@@ -16,7 +16,7 @@
 			{"id":507, "name":"Armiger Reliquae",	"pts":175, "units":"3 Armiger Relic Knight-Moirax (Volkite Veuglaire, Gyges Siege Claw, Ionic Flare Shield)",  "upgrades":[]},
 			{"id":503, "name":"Questoris Reliquae",	"pts":225, "units":"Seneschal", "upgrades":[]},
 			{"id":505, "name":"Cerastus Reliquae",	"pts":300, "units":"Seneschal, Cerastus Relic Knight-Atrapos (Graviton Singularity Cannon, Atrapos Lascutter, Ionic Flare Shield)",  "upgrades":[]},
-			{"id":504, "name":"Acastus Reliquae",	"pts":300, "units":"Seneschal", "upgrades":[]}
+			{"id":504, "name":"Acastus Reliquae",	"pts":300, "upgrades":[6]}
 		]},
 		{"name":"FORGE WORLD ALLIES <br/> Max 33%", "formations":[
 			{"id":510, "name":"Skitarii Maniple",		"pts":325,  "upgrades":[], "units":"Magos, 9 Hypaspists"},
@@ -67,8 +67,8 @@
 
 		{"id":120, "name":"4 Knight-Warglaives (Thermal Spear, Reaper Chain-Cleaver)",			 								"pts":0},
 		{"id":121, "name":"5 Knight-Warglaives (Thermal Spear, Reaper Chain-Cleaver)",			 								"pts":50},
-		{"id":122, "name":"4 Knight-Helverins (2 Autocannons)",																	"pts":0},
-		{"id":123, "name":"5 Knight-Helverins (2 Autocannons)",																	"pts":50},
+		{"id":122, "name":"4 Knight-Helverins (Twin Autocannon)",																	"pts":0},
+		{"id":123, "name":"5 Knight-Helverins (Twin Autocannon)",																	"pts":50},
 
 		{"id":130, "name":"Knight-Valiant (Conflagration C. Thundercoil H. 2 Siegebreaker C. 2 Shieldbreaker M)",	"pts":0},
 		{"id":131, "name":"Knight-Castellan (Volcano Lance, Plasma Decimator, Siegebreaker C. 4 Shieldbreaker M)",		"pts":0},
