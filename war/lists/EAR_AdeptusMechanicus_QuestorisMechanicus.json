@@ -6,7 +6,7 @@
 	"sections":[
 		{"name":"CORE BANNERS <br/> Max 1 Dominus Banner per Questoris Banner", "formations":[
 			{"id":500, "name":"Questoris", 		"pts":325, "upgrades":[6,7, 8]},
-			{"id":506, "name":"Dominus",	"pts":250, "upgrades":[6]}
+			{"id":506, "name":"Dominus",	"pts":250, "upgrades":[6,7]}
 		]},
 		{"name":"RECON BANNERS <br/> Max 1 per Core Banner", "formations":[
 			{"id":501, "name":"Cerastus",	"pts":225, "upgrades":[6]},
@@ -59,16 +59,16 @@
 		{"id":106, "name":"Knight-Preceptor w/ Seneschal (Las-Impulsor, Thunderstrike Gauntlet)",				"pts":175},
 
 		{"id":110, "name":"Cerastus Knight-Lancer (Cerastus Shock Lance, Ionic Flare Shield)",								"pts":0},
-		{"id":111, "name":"2 Cerastus Knight-Lancers (Cerastus Shock Lance, Ionic Flare Shield)",								"pts":150},
+		{"id":111, "name":"2 Cerastus Knight-Lancers (Cerastus Shock Lance, Ionic Flare Shield)",								"pts":175},
 		{"id":112, "name":"Cerastus Knight-Castigator (Castigator Cannon, Tempest Warblade)",									"pts":0},
-		{"id":113, "name":"2 Cerastus Knight-Castigators (Castigator Cannon, Tempest Warblade)",									"pts":150},
+		{"id":113, "name":"2 Cerastus Knight-Castigators (Castigator Cannon, Tempest Warblade)",									"pts":175},
 		{"id":114, "name":"Cerastus Knight-Acheron (Cerastus Flame Cannon, Reaper Chainfist)",											"pts":0},
-		{"id":115, "name":"2 Cerastus Knight-Acherons (Cerastus Flame Cannon, Reaper Chainfist)",											"pts":150},
+		{"id":115, "name":"2 Cerastus Knight-Acherons (Cerastus Flame Cannon, Reaper Chainfist)",											"pts":175},
 
 		{"id":120, "name":"4 Knight-Warglaives (Thermal Spear, Reaper Chain-Cleaver)",			 								"pts":0},
 		{"id":121, "name":"5 Knight-Warglaives (Thermal Spear, Reaper Chain-Cleaver)",			 								"pts":50},
-		{"id":122, "name":"4 Knight-Helverins (Twin Autocannon)",																	"pts":0},
-		{"id":123, "name":"5 Knight-Helverins (Twin Autocannon)",																	"pts":50},
+		{"id":122, "name":"4 Knight-Helverins (2 Autocannons)",																	"pts":0},
+		{"id":123, "name":"5 Knight-Helverins (2 Autocannons)",																	"pts":50},
 
 		{"id":130, "name":"Knight-Valiant (Conflagration C. Thundercoil H. 2 Siegebreaker C. 2 Shieldbreaker M)",	"pts":0},
 		{"id":131, "name":"Knight-Castellan (Volcano Lance, Plasma Decimator, Siegebreaker C. 4 Shieldbreaker M)",		"pts":0},
