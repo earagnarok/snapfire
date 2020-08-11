@@ -24,7 +24,7 @@
 		{"name":"BLOOD ANGELS AIRCRAFT AND TITAN ALLIES <br/> Max 33%", "formations":[
 			{"id":520, "name": "Storm Talons", "units":"2 Storm Talons",	"pts":200, "upgrades":[]},
 			{"id":521, "name": "Storm Ravens",										"pts":25, "upgrades":[42]},
-			{"id":522, "name": "Warhound Pack",		"units":"2 Warhounds",	"pts":500, "upgrades":[60]}
+			{"id":522, "name": "Warhounds",	"pts":75, "upgrades":[60]}
 
 		]}
 	],
@@ -81,7 +81,7 @@
 		{"id":50, "name":"Strike Cruiser",								"pts":200},
 		{"id":51, "name":"Battle Barge",								"pts":275},
 
-		{"id":60, "name":"Independent",						"pts":50}
+		{"id":60, "name":"Warhound Titan",						"pts":200}
 
 	],
 	"formationConstraints":[
@@ -90,7 +90,7 @@
 		{"max":1, "perArmy":true, "name":"Spacecraft", "from":[523]},
 
 		{"max":2, "name":"Support Detachments", "from":[507,508,509,510,511,512,513,514,523,515], "forEach":[500,503,505], "name2":"Core Detachment"},
-		{"maxPercent": 33.5, "name":"Aircraft, Navy & Titans", "from":[520,521,522]}
+		{"maxPercent": 33.5, "name":"Aircraft, Navy & Titans", "from":[520,521,522,523]}
 	],
 	"upgradeConstraints":[
 		{"max":1,"perArmy":true, "from":[13,14]},
@@ -115,7 +115,7 @@
 
 		{"min":0, "max":1, "from":[44]},
 
-		{"min":0, "max":1, "from":[60]},
+		{"min":1, "max":2, "from":[60], "appliesTo":[522]},
 
 		{"min":4, "max":4, "from":[48,49], "appliesTo":[508]},
 		{"min":0, "max":3, "from":[33,34], "appliesTo":[503]},

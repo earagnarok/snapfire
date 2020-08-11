@@ -18,7 +18,7 @@
 			{"id":518, "name":"Griffon Battery",				"pts":200,  "units":"4 Griffons", "upgrades":[]}
 		]},
 		{"name":"COLLEGIA TITANICA & IMPERIAL NAVY FORMATIONS <br/> Max 33%", "formations":[
-			{"id":527, "name":"Warhound Pack",			"pts":500, "upgrades":[70], "units":"2 Warhounds"},
+			{"id":527, "name":"Warhounds",			"pts":75, "upgrades":[70]},
 			{"id":530, "name":"Thunderbolt Squadron",	"pts":150, "upgrades":[], "units":"2 Thunderbolt Fighters"},
 			{"id":531, "name":"Marauder Squadron",		"pts":225, "upgrades":[], "units":"2 Marauder Bombers"},
 			{"id":532, "name":"Orbital Support",		"pts":125, "upgrades":[]}
@@ -81,7 +81,7 @@
         {"id":63, "name":"Stormblade",					"pts":0},
 		{"id":64, "name":"Stormsword",					"pts":0},
 
-		{"id":70, "name":"Independent",					"pts":50}
+		{"id":70, "name":"Warhound Titan",					"pts":200}
 
 
 
@@ -116,6 +116,8 @@
 
  		{"min":1, "max":1, "from":[56,57,58], "appliesTo":[516]},
 		{"max":1, "from":[25], "appliesTo":[516]},
+
+  		{"min":1, "max":2, "from":[70], "appliesTo":[527]},
 
   		{"min":1, "max":1, "from":[40,41], "appliesTo":[532]}
 	]

@@ -4,9 +4,9 @@
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"CORE COMPANY FORMATIONS", "formations":[
-			{"id":500, "name":"Regimental HQ", 				"pts":400, "units":"Steel Legion Supreme Commander with a Commissar",  "upgrades":[45,48,50,53,54,57,58,52,55,59,60,61,62,63]},
+			{"id":500, "name":"Regimental HQ", 				"pts":375, "units":"Steel Legion Supreme Commander with a Commissar",  "upgrades":[45,48,50,53,54,57,58,52,55,59,60,61,62,63]},
 			{"id":501, "name":"Infantry Company", 			"pts":225, "units":"Steel Legion Commander with a Commissar", "upgrades":[45,49,51,53,54,57,58,66,56,59,60,61,64,65]},
-			{"id":502, "name":"Mechanized Infantry Company", 	"pts":350, "units":"Steel Legion Commander with a Commissar", "upgrades":[45,48,50,53,54,57,58,52,55,59,60,61,62,63]},
+			{"id":502, "name":"Mechanized Infantry Company", 	"pts":325, "units":"Steel Legion Commander with a Commissar", "upgrades":[45,48,50,53,54,57,58,52,55,59,60,61,62,63]},
 			{"id":503, "name":"Tank Company", 			"pts":600, "units":"Leman Russ Vanquisher with a Commissar, 9 Leman Russ", "upgrades":[45,53,54,57,58]},
 			{"id":504, "name":"Super-Heavy Company", 		"pts":500, "units":"Commissar", "upgrades":[45,52,55,66,56,54,57,58]},
 		 	{"id":505, "name":"Artillery Company", 			"pts":400, "units":"Commissar", "upgrades":[45,40]}
@@ -23,7 +23,7 @@
 			{"id":520, "name":"Mechanized Infantry Platoon", 	"pts":225, "units":"6 Infantry, 3 Chimera", "upgrades":[54,57,58]}
 		]},
 		{"name":"COLLEGIA TITANICA AND IMPERIAL NAVY FORMATIONS <br/> Max 33%", "formations":[
-			{"id":530, "name":"Warhound Pack",		"pts":500, "upgrades":[70], "units":"2 Warhounds"},
+			{"id":530, "name":"Warhounds",		"pts":75, "upgrades":[70]},
 			{"id":531, "name":"Reaver Titan",		"pts":600, "upgrades":[]},
 			{"id":535, "name":"Warlord Titan",		"pts":750, "upgrades":[]},
 			{"id":532, "name":"Thunderbolt Squadron",	"pts":150, "upgrades":[], "units":"2 Thunderbolt Fighters"},
@@ -95,7 +95,7 @@
 
 
 
-		{"id":70, "name":"Independent",					"pts":50}
+		{"id":70, "name":"Warhound Titan",					"pts":200}
 
 	],
 	"formationConstraints":[
@@ -122,7 +122,7 @@
 
 		{"max":1, "from":[59,60,61]},
 
-		{"max":1, "from":[70]},
+		{"min":1, "max":2,  "from":[70], "appliesTo":[530]},
 
    		{"min":1, "max":1, "from":[20,21], "appliesTo":[500]},
    		{"max":3, "from":[21,45,48,50,52,55,53,54,57,58,55,59,60,61,62,63], "appliesTo":[500]},

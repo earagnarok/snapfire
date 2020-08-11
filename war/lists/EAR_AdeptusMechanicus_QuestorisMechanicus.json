@@ -23,7 +23,7 @@
 
 			{"id":512, "name":"Onager Maniple",		"pts":225, "units":"4 Onager Dunecrawlers", "upgrades":[]},
 
-			{"id":513, "name":"Skorpius Maniple",		"pts":225, "upgrades":[]},
+			{"id":513, "name":"Skorpius Maniple",		"pts":25, "upgrades":[60]},
 
             {"id":514, "name":"Avenger Squadron",				"pts":175,  "upgrades":[], "units":"2 Avenger Strike Fighters"},
 
@@ -42,8 +42,7 @@
 		{"id":50, "name":"Gorgon",					"pts":0},
 		{"id":51, "name":"5 Skorpius Duneriders",	"pts":0},
 
-		{"id":60, "name":"Skorpius Disintegrator (Ferrumite Cannon)",	"pts":0},
-		{"id":61, "name":"Skorpius Disintegrator (Belleros Energy Cannon)",	"pts":0},
+		{"id":60, "name":"Skorpius Disintegrator",	"pts":50},
 
 		{"id":90, "name":"2 Knight-Paladins (Rapid Fire Battle Cannon, Reaper Chainsword)",						"pts":0},
 		{"id":91, "name":"3 Knight-Paladins (Rapid Fire Battle Cannon, Reaper Chainsword)",						"pts":125},
@@ -130,7 +129,7 @@
 
 		{"min":1, "max":1, "from":[170,171,172], "appliesTo":[512]},
 
-		{"min":4, "max":4, "from":[60,61], "appliesTo":[513]},
+		{"min":4, "max":6, "from":[60], "appliesTo":[513]},
 
         {"min":1,"max":1,"from":[72,71,70],"appliesTo":[520]},
 

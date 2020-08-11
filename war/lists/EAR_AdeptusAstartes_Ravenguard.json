@@ -24,7 +24,7 @@
       {"id":532, "name":"Storm Talons", "pts":200, "units": "Two Storm Talons"},
       {"id":530, "name":"Storm Eagle", "pts":175},
       {"id":531, "name":"Thunderhawk", "pts":225},
-      {"id":551, "name":"Warhound Pack", "pts":500, "units":"2 Warhound Class Titan", "upgrades":[21]}
+      {"id":551, "name":"Warhounds", "pts":75, "upgrades":[21]}
 
     ]}
   ],
@@ -52,7 +52,8 @@
 
     {"id":17, "name":"All Scouts gain 'Sniper' on their Heavy Bolters", "pts":25},
     {"id":18, "name":"4 Land Speeder Storm", "pts":100},
-    {"id":21, "name":"Independent", "pts":50},
+
+    {"id":21, "name":"Warhound Titan", "pts":200},
 
     {"id":25, "name":"Strike Cruiser", "pts":0},
     {"id":26, "name":"Battle Barge", "pts":75},
@@ -101,7 +102,7 @@
 
     {"min":1, "max":1, "from":[10,11], "appliesTo":[510]},
 
-    {"max":1, "from":[21], "appliesTo":[551]},
+    {"min":1, "max":2, "from":[21], "appliesTo":[551]},
 
     {"min":5,"max":5, "from":[12,13], "appliesTo":[520]},
 

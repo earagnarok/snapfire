@@ -4,7 +4,8 @@
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"LEGIONES MARS CORE FORMATIONS", "formations":[
-			{"id":501, "name":"Vanguard Maniple",	"pts":225, "upgrades":[109,107,108,80,81,82,83,90,91]}
+			{"id":501, "name":"Vanguard Maniple",	"pts":225, "upgrades":[109,107,108,80,81,82,83,90]},
+			{"id":502, "name":"Onager Cataphractii",			 "units":"8 Onager Dunecrawlers",	"pts":450, "upgrades":[]}
 		]},
 		{"name":"LEGIONES MARS LINE FORMATIONS <br/> Max 3 for each Core Formation", "formations":[
 			{"id":507, "name":"Sicarian Killclade",			"pts":175, "units":"4 Sicarian Ruststalkers, 2 Sicarian Infiltrators",		 "upgrades":[]},
@@ -12,7 +13,7 @@
 			{"id":514, "name":"Kastelan Maniple",		"pts":50, "units":"Tech-Priest", "upgrades":[114]},
 			{"id":511, "name":"Kataphron Maniple",		"pts":250, "units":"Tech-Priest", "upgrades":[]},
 			{"id":512, "name":"Onager Maniple",			 "units":"4 Onager Dunecrawlers",	"pts":225, "upgrades":[]},
-			{"id":513, "name":"Skorpius Maniple",		"pts":225, "upgrades":[]},
+			{"id":513, "name":"Skorpius Maniple",		"pts":25, "upgrades":[90]},
 			{"id":515, "name":"Minoris Maniple",		"pts":75, "upgrades":[130,131,132,133,128,129,135,136,137]},
 			{"id":516, "name":"Ordinatus Majoris",		"pts":425, "upgrades":[]}
 		]},
@@ -20,7 +21,7 @@
 		{"name":"FORGE WORLD NAVY, QUESTORIS MECHANICUS & COLLEGIA TITANICA SUPPORT <br/> Max 33%", "formations":[
 		    {"id":519,"name":"Questoris Banner", "pts":325, "upgrades":[]},
 
-		    {"id":520,"name":"Warhound Pack","pts":500, "upgrades":[]},
+		    {"id":520,"name":"Warhound Pack","pts":475, "upgrades":[]},
 			{"id":521, "name":"Warbringer Titan",	"pts":650, "upgrades":[]},
 
 			{"id":523, "name":"Avenger Squadron",			"pts":175, "units":"2 Avenger Strike Fighters", "upgrades":[]},
@@ -36,8 +37,7 @@
 		{"id":82, "name":"Onager Dunecrawler (Eradication Beamer)",	"pts":50},
 		{"id":83, "name":"Onager Dunecrawler (Twin Hvy Phosphor Blaster)",	"pts":50},
 
-		{"id":90, "name":"Skorpius Disintegrator (Ferrumite Cannon)",	"pts":0},
-		{"id":91, "name":"Skorpius Disintegrator (Belleros Energy Cannon)",	"pts":0},
+		{"id":90, "name":"Skorpius Disintegrator",	"pts":50},
 
 		{"id":100, "name":"Magos",						"pts":0},
 		{"id":101, "name":"Magos Dominus",					"pts":75},
@@ -92,6 +92,10 @@
 		{"id":171, "name":"3x Neutron Laser, 1x Icarus Array",				"pts":0},
 		{"id":172, "name":"3x Twin Heavy Phosphor Blaster, 1x Icarus Array",				"pts":0},
 
+		{"id":175, "name":"6x Eradication Beamer, 2x Icarus Array",				"pts":0},
+		{"id":176, "name":"6x Neutron Laser, 2x Icarus Array",				"pts":0},
+		{"id":177, "name":"6x Twin Heavy Phosphor Blaster, 2x Icarus Array",				"pts":0},
+
 		{"id":190,"name":"Nemesis Quake Cannon","pts":0},
 	    {"id":191,"name":"Volcano Cannon","pts":0},
 		{"id":192,"name":"Plasma Destructor","pts":0},
@@ -119,13 +123,15 @@
 		{"min":0, "max":2, "from":[80,81,82,83], "appliesTo":[501]},
 		{"min":0, "max":2, "from":[90,91], "appliesTo":[501]},
 
+		{"max":1, "min":1, "from":[175,176,177], "appliesTo":[502]},
+
 		{"max":1, "min":0, "from":[112,113], "appliesTo":[508]},
 
 		{"max":1, "min":1, "from":[170,171,172], "appliesTo":[512]},
 
 		{"max":1, "min":1, "from":[115,116], "appliesTo":[511]},
 
-		{"max":4, "min":4, "from":[90,91], "appliesTo":[513]},
+		{"max":6, "min":4, "from":[90], "appliesTo":[513]},
 
 		{"max":7, "min":5, "from":[114], "appliesTo":[514]},
 

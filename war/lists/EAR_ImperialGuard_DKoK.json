@@ -21,7 +21,7 @@
 		]},
 
 		{"name":"COLLEGIA TITANICA & IMPERIAL NAVY <br/> Max 33%", "formations":[
-			{ "id":531, "name":"Warhound Pack", "pts":500, "units":"2 Warhounds", "upgrades":[] },
+			{ "id":531, "name":"Warhounds", "pts":75, "upgrades":[70] },
 			{ "id":532, "name":"Thunderbolt Squadron", "pts":150, "units":"2 Thunderbolt Fighters", "upgrades":[] },
 			{ "id":533, "name":"Marauder Squadron", "pts":225, "units":"2 Marauder Bombers",  "upgrades":[] },
 			{ "id":534, "name":"Orbital Support",	"pts":125, "upgrades":[]}
@@ -71,7 +71,9 @@
 		{ "id":53, "name":"Stormsword", "pts":0 },
 
 		{ "id":60, "name":"Lunar Class Cruiser", "pts":0 },
-		{ "id":61, "name":"Emperor Class Battleship", "pts":50 }
+		{ "id":61, "name":"Emperor Class Battleship", "pts":50 },
+
+		{ "id":70, "name":"Warhound Titan", "pts":200 }
 
 	],
 	"formationConstraints":[
@@ -106,6 +108,8 @@
 		{"min":1, "max":1, "from":[46,47], "appliesTo":[519]},
 
 		{"min":1, "max":1, "from":[50,53,51], "appliesTo":[520]},
+
+		{"min":1, "max":2, "from":[70], "appliesTo":[531]},
 
 		{"min":1, "max":1, "from":[60,61], "appliesTo":[534]}
 	]

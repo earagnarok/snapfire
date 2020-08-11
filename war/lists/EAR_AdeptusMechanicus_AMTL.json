@@ -115,9 +115,9 @@
 		{"id":151, "name":"Warhound Titan (Support Configuration)",		"pts":275},
 		{"id":152, "name":"Warhound Titan (Tank Hunter Configuration)",		"pts":300},
 
-        {"id":153, "name":"2 Warhound Titans (Standard Configuration)",		"pts":500},
-		{"id":154, "name":"2 Warhound Titans (Support Configuration)",		"pts":500},
-		{"id":155, "name":"2 Warhound Titans (Tank Hunter Configuration)",		"pts":550}
+        {"id":153, "name":"2 Warhound Titans (Standard Configuration)",		"pts":475},
+		{"id":154, "name":"2 Warhound Titans (Support Configuration)",		"pts":475},
+		{"id":155, "name":"2 Warhound Titans (Tank Hunter Configuration)",		"pts":525}
 
 ],
 "formationConstraints":[

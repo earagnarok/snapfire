@@ -23,7 +23,7 @@
 		{"name":"WHITE SCARS NAVY & COLLEGIA TITANICA ALLIES <br/> Max 33%", "formations":[
 			{"id":517, "name":"Storm Talons",			"pts":200, "units":"2 Storm Talons", "upgrades":[]},
 			{"id":513, "name":"Thunderhawk",			"pts":225, "upgrades":[]},
-			{"id":524, "name":"Warhound Pack",	"units":"2 Warhound Scout Titans",		"pts":500, "upgrades":[50]}
+			{"id":524, "name":"Warhounds",	"pts":75, "upgrades":[50]}
 		]}
 	],
 	"upgrades":[
@@ -64,7 +64,7 @@
 		{"id":41, "name":"Battle Barge",		"pts":75},
 		{"id":42, "name":"Whirlwind",		"pts":50},
 
-		{"id":50, "name":"Independent",				"pts":50}
+		{"id":50, "name":"Warhound Titan",				"pts":200}
 
 	],
 	"formationConstraints":[
@@ -93,6 +93,7 @@
 		{"min":1, "max":1, "from":[40,41], "appliesTo": [509]},
 		{"min":3, "max":4, "from":[42], "appliesTo": [515]},
 		{"min":5, "max":5, "from":[12,10,11], "appliesTo": [522]},
-		{"max":1, "from":[10,11], "appliesTo":[522]}
+		{"max":1, "from":[10,11], "appliesTo":[522]},
+		{"min":1, "max":2, "from":[50], "appliesTo":[524]}
 	]
 }
