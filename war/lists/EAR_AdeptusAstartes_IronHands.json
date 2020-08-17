@@ -4,8 +4,8 @@
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"IRON HANDS CORE DETACHMENTS", "formations":[
-			{"id":500, "name":"Dreadnought Clan", "pts":175, "upgrades":[20,21,22,23,24, 56,57,58,59, 31,32,42,43,44,45,46]},
-			{"id":501, "name":"Mechanized Clan", "pts":275,	"upgrades":[49, 56,57,58,59, 31,32,42,43,44,45,46]}
+			{"id":500, "name":"Dreadnought Clan", "pts":175, "upgrades":[20,21,22,23,24, 56,57,58,59, 31,32,33,42,43,44,45,46]},
+			{"id":501, "name":"Mechanized Clan", "pts":275,	"upgrades":[49, 56,57,58,59, 31,32,33,42,43,44,45,46]}
 		]},
 		{"name":"IRON HANDS SUPPORT DETACHMENTS <br/> Max 2 per Core Detachment", "formations":[
 			{"id":510, "name":"Dreadnought Talon", "pts":25, "upgrades":[20,21,22,23,24, 30]},
@@ -53,6 +53,8 @@
 
 		{"id":31, "name":"Razorback (Twin Lascannon)",			"pts":25},
 		{"id":32, "name":"Razorback (Twin Heavy Bolter)",			"pts":25},
+
+		{"id":33, "name":"May replace Rhinos with Siege Rhinos",			"pts":25},
 
 		{"id":39, "name":"Land Raider Helios (Hyperios)",		"pts":100},
 		{"id":40, "name":"Land Raider",				"pts":75},
@@ -119,6 +121,7 @@
 		{"max":2, "from":[23], "appliesTo":[500]},
 
 		{"max":4, "from":[31,32], "appliesTo":[501]},
+		{"max":1, "from":[33], "appliesTo":[500,501]},
 		{"max":1, "from":[34,35], "appliesTo":[501,514]},
 		{"max":1, "from":[32], "appliesTo":[500,501]},
 		{"max":1, "from":[56,57,58,59], "appliesTo":[500,501,511,513,515,516]},
