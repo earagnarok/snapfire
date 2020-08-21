@@ -5,7 +5,7 @@
 	"sections":[
 		{"name":"MINERVAN COMPANIES", "formations":[
 			{"id":500, "name":"Minervan Tank Company", 			"pts":600, "upgrades":[45,46]},
-			{"id":501, "name":"Minervan Super-Heavy Company", 	"pts":500, "upgrades":[45,46]},
+			{"id":501, "name":"Minervan Super-Heavy Company", 	"pts":525, "upgrades":[45,46]},
 			{"id":503, "name":"Artillery Company", 				"pts":400, "units":"Commissar-Captain", "upgrades":[45,46,25]}
 		]},
 		{"name":"MINERVAN SUPPORT FORMATIONS <br/> Max 3 for each Company", "formations":[
