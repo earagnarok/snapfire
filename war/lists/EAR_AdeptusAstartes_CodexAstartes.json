@@ -21,10 +21,9 @@
 		]},
 
 		{"name":"CODEX ASTARTES, IMPERIAL AIRCRAFT & COLLEGIA TITANICA ALLIES <br/> Max 33%", "formations":[
+			{"id":532, "name":"Thunderbolt Squadron",	"pts":175, "upgrades":[], "units":"2 Thunderbolt Fighters"},
 			{"id":520, "name": "Storm Talons", "units":"2 Storm Talons",		"pts":200, "upgrades":[]},
 			{"id":521, "name": "Thunderhawk",			"pts":225, "upgrades":[]},
-			{"id":532, "name":"Thunderbolt Squadron",	"pts":175, "upgrades":[], "units":"2 Thunderbolt Fighters"},
-			{"id":533, "name":"Marauder Squadron",		"pts":225, "upgrades":[], "units":"2 Marauder Bombers"},
 			{"id":522, "name": "Warhounds",			"pts":75, "upgrades":[60]},
 			{"id":523, "name": "Reaver Titan", 						"pts":600, "upgrades":[]}
 		]}
