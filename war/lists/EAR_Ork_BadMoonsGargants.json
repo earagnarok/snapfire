@@ -13,11 +13,11 @@
 	       ]
       },
 	  {
-		 "name": "BAD MOONS MOBS <br/> Max 4 for each Gargant",
+		 "name": "BAD MOONS BIG MOB MOBS <br/> Max 4 for each Gargant",
          "formations": [
              {"id": 511, "name": "Bad Moons Warband", "pts": 5, "upgrades": [90,91,99,100,101,102,104,105,106,107,108,98,109,103,11,12,13,14]},
              {"id": 512, "name": "Bad Moons Rokkitzmob", "pts": 25, "upgrades": [95,102,109]},
-             {"id": 516, "name": "Bad Moons Fortressmob", "pts": 225, "units":"Flash Gitz, 3 Boyz, Grotz, Gunfortress", "upgrades": [11,12,14,102,104,105]},
+             {"id": 516, "name": "Bad Moons Fortressmob", "pts": 225, "units":"Flash Gitz, 3 Boyz, Grotz, Gunfortress", "upgrades": [11,12,13,14,102,104,105]},
 
             {"id": 510, "name": "Big Mek Stompamob", "pts": 55, "upgrades": [90,91,100,101,102,110,111,112,113,114,115]},
 
@@ -97,7 +97,7 @@
    "formationConstraints": [
       {"max": 1, "name": "Mega Gargant", "from": [501]},
       {"max": 1, "name": "Spacecraft", "from": [532]},
-      {"max": 4, "name": "Big Mek Mobs", "from": [510,513,514,515,516,517,518,519,520,521],  "forEach": [501,502,503], "name2": "Gargant" },
+      {"max": 4, "name": "Bad Moons Big Mob Mobs", "from": [510,511,513,514,515,516,517,518,519,520,521],  "forEach": [501,502,503], "name2": "Gargant" },
       {"maxPercent": 33.5, "name": "Bad Moons 'Craft", "from": [530,531,532]}
    ],
    "upgradeConstraints": [
@@ -107,6 +107,7 @@
       {"min": 4, "from": [107], "appliesTo": [511]},
       {"min": 2, "from": [108], "appliesTo": [511]},
       {"max": 1, "from": [103], "appliesTo": [511]},
+      {"max": 1, "from": [11,12,13,14], "appliesTo": [511]},
 
       {"max": 1, "from": [11,12,13,14,15], "appliesTo": [501,502,503]},
 
