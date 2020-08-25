@@ -31,7 +31,7 @@
             {"id": 517, "name": "Fighta-Bommer Skwadron", "pts": 0, "upgrades": [49]},
             {"id": 518, "name": "Landa", "pts": 225,  "upgrades": []},
             {"id": 522, "name": "Gargant", "pts": 550, "upgrades": [81]},
-            {"id": 523, "name": "Great Gargant", "pts": 700, "upgrades": [81]},
+            {"id": 523, "name": "Great Gargant", "pts": 725, "upgrades": [81]},
             {"id": 520, "name": "Kroozer", "pts": 100, "upgrades": []}
 
          ]

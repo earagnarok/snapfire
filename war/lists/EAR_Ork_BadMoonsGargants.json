@@ -8,7 +8,7 @@
          "name": "BAD MOONS GARGANTS FORMATIONS <br/> At least 1 Mega Gargant or Great Gargant",
          "formations": [
             {"id": 501, "name": "Mega Gargant", "pts": 950, "upgrades": [10,11,12,13,14,15]},
-            {"id": 502, "name": "Great Gargant", "pts": 750, "upgrades": [10,11,12,13,14,15]},
+            {"id": 502, "name": "Great Gargant", "pts": 775, "upgrades": [10,11,12,13,14,15]},
             {"id": 503, "name": "Gargant", "pts": 600, "upgrades": [11,12,13,14,15]}
 	       ]
       },
@@ -17,13 +17,13 @@
          "formations": [
              {"id": 511, "name": "Bad Moons Warband", "pts": 5, "upgrades": [90,91,99,100,101,102,104,105,106,107,108,98,109,103,11,12,13,14]},
              {"id": 512, "name": "Bad Moons Rokkitzmob", "pts": 25, "upgrades": [95,102,109]},
-             {"id": 516, "name": "Bad Moons Fortressmob", "pts": 225, "units":"Flash Gitz, 3 Boyz, Grotz, Gunfortress", "upgrades": [11,12,13,14,102,104,105]},
+             {"id": 516, "name": "Bad Moons Fortressmob", "pts": 250, "units":"Flash Gitz, 3 Boyz, Grotz, Gunfortress", "upgrades": [11,12,13,14,102,104,105]},
 
-            {"id": 510, "name": "Big Mek Stompamob", "pts": 55, "upgrades": [90,91,100,101,102,110,111,112,113,114,115]},
+            {"id": 510, "name": "Big Mek Stompamob", "pts": 55, "upgrades": [90,91,100,101,96,102,110,111,112,113,114,115]},
 
-            {"id": 513, "name": "Big Mek Dreadmob", "pts": 15, "upgrades": [100,101,102]},
-            {"id": 514, "name": "Big Mek Dreadmob (Big)", "pts": -20, "upgrades": [100,101,102]},
-            {"id": 515, "name": "Big Mek Dreadmob ('Uge)", "pts": -55, "upgrades": [100,101,102]}
+            {"id": 513, "name": "Big Mek Dreadmob", "pts": 15, "upgrades": [100,101,102,96]},
+            {"id": 514, "name": "Big Mek Dreadmob (Big)", "pts": -20, "upgrades": [100,101,102,96]},
+            {"id": 515, "name": "Big Mek Dreadmob ('Uge)", "pts": -55, "upgrades": [100,101,102,96]}
 
          ]
       },
@@ -43,13 +43,14 @@
       {"id": 12, "name": "Oddboy (Soopagun)", "pts": 50},
       {"id": 13, "name": "Oddboy (Weirdboy Tower)", "pts": 50},
       {"id": 14, "name": "Oddboy (D3 Powerfields)", "pts": 50},
-	  {"id": 15, "name": "Oddboy ('Uge Banner of Mork (or possibly Gork))", "pts": 50},
+	  {"id": 15, "name": "Oddboy ('Uge Banner of Gork)", "pts": 50},
 
       {"id": 20, "name": "Fighta-Bommer", "pts": 50},
       {"id": 90, "name": "Stompa w/ 3 Big Gunz", "pts": 60},
       {"id": 91, "name": "Stompa w/ Kombat 'Ammer, 2 Big Gunz", "pts": 60},
 
       {"id": 95, "name": "Pulsa Rokkitz", "pts": 25},
+      {"id": 96, "name": "Meka Dread", "pts": 70},
 
       {"id": 98, "name": "Kommandos", "pts": 25},
       {"id": 99, "name": "Big Gunz", "pts": 25},
@@ -97,7 +98,7 @@
    "formationConstraints": [
       {"max": 1, "name": "Mega Gargant", "from": [501]},
       {"max": 1, "name": "Spacecraft", "from": [532]},
-      {"max": 4, "name": "Bad Moons Big Mob Mobs", "from": [510,511,513,514,515,516,517,518,519,520,521],  "forEach": [501,502,503], "name2": "Gargant" },
+      {"max": 4, "name": "Bad Moons Big Mob Mobs", "from": [510,511,512,513,514,515,516],  "forEach": [501,502,503], "name2": "Gargant" },
       {"maxPercent": 33.5, "name": "Bad Moons 'Craft", "from": [530,531,532]}
    ],
    "upgradeConstraints": [
@@ -120,18 +121,22 @@
       {"max": 3, "from": [11,12,13,14], "appliesTo": [521]},
 
       {"min": 2, "from": [90,91], "appliesTo": [510]},
+      {"max": 1, "from": [110,111,112,113,114,115], "appliesTo": [510]},
+      {"max": 1, "from": [96], "appliesTo": [510]},
 
       {"min": 5, "from": [95], "appliesTo": [512]},
       {"max": 1, "from": [109], "appliesTo": [512]},
 
-      {"min": 1, "from": [101], "appliesTo": [513]},
-      {"min": 2, "from": [101], "appliesTo": [514]},
-      {"min": 3, "from": [101], "appliesTo": [515]},
+      {"min": 1, "from": [101,96], "appliesTo": [513]},
+      {"max": 1, "from": [96], "appliesTo": [513]},
+      {"min": 2, "from": [101,96], "appliesTo": [514]},
+      {"max": 2, "from": [96], "appliesTo": [514]},
+      {"min": 3, "from": [101,96], "appliesTo": [515]},
+      {"max": 3, "from": [96], "appliesTo": [515]},
       {"min": 4, "from": [100], "appliesTo": [513]},
       {"min": 8, "from": [100], "appliesTo": [514]},
       {"min": 12, "from": [100], "appliesTo": [515]},
 
-      {"max": 1, "from": [110,111,112,113,114,115], "appliesTo": [510]},
 
       {"min": 1, "max": 1, "from": [120,121,122,123], "appliesTo": [502]},
       {"min": 2, "max": 2, "from": [140,141,142,143], "appliesTo": [502]},
