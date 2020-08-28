@@ -49,9 +49,9 @@
 		{ "id":27, "name":"6 Leman Russ Annihilators", "pts":0},
 		{ "id":28, "name":"6 Leman Russ", "pts":0},
 
-		{ "id":29, "name":"3 Leman Russ Annihilators", "pts":150},
-		{ "id":30, "name":"3 Leman Russ Thunderers", "pts":150},
-		{ "id":31, "name":"3 Leman Russ", "pts":150},
+		{ "id":29, "name":"3 Leman Russ Annihilators", "pts":125},
+		{ "id":30, "name":"3 Leman Russ Thunderers", "pts":125},
+		{ "id":31, "name":"3 Leman Russ", "pts":125},
 
 		{ "id":32, "name":"Hellhound", "pts":25},
 
