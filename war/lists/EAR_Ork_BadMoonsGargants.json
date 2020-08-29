@@ -105,6 +105,7 @@
    "upgradeConstraints": [
       {"max": 1, "from": [10], "perArmy": true},
       {"max": 1, "from": [10,16]},
+      {"max": 1, "from": [15,16]},
 
       {"min": 2, "max": 4, "from": [109], "appliesTo": [511]},
       {"min": 4, "from": [107], "appliesTo": [511]},
