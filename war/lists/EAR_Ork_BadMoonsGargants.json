@@ -1,7 +1,7 @@
 {
    "id": "EA-R Bad Moons Gargants",
-   "version": "Beta 0.6.0",
-   "notes": ["If the army includes a Mega Gargant, the Big Mek must be in one in it. Otherwise the Big Mek has be in a Great Gargant."],
+   "version": "Beta 0.7.0",
+   "notes": ["If the army includes a Mega Gargant, the Big Mek must be in it. Otherwise the Big Mek will be located in a Great Gargant."],
    "by": "Mrdiealot",
    "sections": [
       {
