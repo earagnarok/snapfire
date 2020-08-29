@@ -9,7 +9,7 @@
          "formations": [
             {"id": 501, "name": "Mega Gargant", "pts": 950, "upgrades": [10,11,12,13,14,15]},
             {"id": 502, "name": "Great Gargant", "pts": 775, "upgrades": [10,11,12,13,14,15]},
-            {"id": 503, "name": "Gargant", "pts": 600, "upgrades": [11,12,13,14,15]}
+            {"id": 503, "name": "Gargant", "pts": 600, "upgrades": []}
 	       ]
       },
 	  {
