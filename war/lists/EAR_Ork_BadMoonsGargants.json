@@ -15,9 +15,9 @@
 	  {
 		 "name": "BAD MOONS BIG MOB MOBS <br/> Max 4 for each Gargant",
          "formations": [
-             {"id": 511, "name": "Bad Moons Warband", "pts": 5, "upgrades": [90,91,99,100,101,102,104,105,106,107,108,98,109,103,11,12,13,14]},
+             {"id": 511, "name": "Bad Moons Warband", "pts": 5, "upgrades": [90,91,99,100,101,102,104,105,106,107,108,98,109,103,11,12,13,14,15]},
              {"id": 512, "name": "Bad Moons Rokkitzmob", "pts": 25, "upgrades": [95,102,109]},
-             {"id": 516, "name": "Bad Moons Fortressmob", "pts": 250, "units":"Flash Gitz, 3 Boyz, Grotz, Gunfortress", "upgrades": [11,12,13,14,102,104,105]},
+             {"id": 516, "name": "Bad Moons Fortressmob", "pts": 250, "units":"Flash Gitz, 3 Boyz, Grotz, Gunfortress", "upgrades": [11,12,13,14,15,102,104,105]},
 
             {"id": 510, "name": "Big Mek Stompamob", "pts": 55, "upgrades": [90,91,100,101,96,102,110,111,112,113,114,115]},
 
@@ -84,7 +84,7 @@
 
       {"id": 134, "name": "Supa-Skorcha (Belly)", "pts": 0},
       {"id": 135, "name": "Supa-Zzap-Gun (Belly)", "pts": 0},
-      {"id": 136, "name": "Snapper (Belly)", "pts": 0},
+      {"id": 136, "name": "Snappa (Belly)", "pts": 0},
       {"id": 137, "name": "Soopagun (Belly)", "pts": 0},
 
       {"id": 140, "name": "Twin Soopagun (Arm)", "pts": 0},
@@ -108,7 +108,7 @@
       {"min": 4, "from": [107], "appliesTo": [511]},
       {"min": 2, "from": [108], "appliesTo": [511]},
       {"max": 1, "from": [103], "appliesTo": [511]},
-      {"max": 1, "from": [11,12,13,14], "appliesTo": [511]},
+      {"max": 1, "from": [11,12,13,14,15], "appliesTo": [511]},
 
       {"max": 1, "from": [11,12,13,14,15], "appliesTo": [501,502,503]},
 

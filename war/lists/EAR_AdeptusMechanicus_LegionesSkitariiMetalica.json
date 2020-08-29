@@ -5,7 +5,7 @@
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"LEGIONES METALICA CORE FORMATIONS", "formations":[
-			{"id":501, "name":"Hypaspist Maniple",	"pts":225, "upgrades":[102,103,104,107, 130,131,132,133]}
+			{"id":501, "name":"Hypaspist Maniple",	"pts":225, "upgrades":[102,103,104,107, 130,131,132,133,128,129]}
 		]},
 		{"name":"LEGIONES METALICA LINE FORMATIONS <br/> Max 3 for each Core Formation", "formations":[
 			{"id":510, "name":"Ballistae Cohort",			"pts":150,	 "upgrades":[107,108,109]},
