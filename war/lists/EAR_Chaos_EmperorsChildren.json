@@ -16,7 +16,7 @@
 			{"id":503, "name":"Chosen", "pts":175, "units":"4 Chosen, Daemonic Pact", "upgrades":[]}
 		]},
 		{"name":"EMPERORS CHILDREN SUPPORT FORMATIONS <br/> Max 2 for each Core formation", "formations":[
-			{"id":504, "name":"Bike Company",	"pts":275, "units":"6 Chaos Space Marine Bikes, Daemonic Pact", "upgrades":[14]},
+			{"id":504, "name":"Bike Company",	"pts":250, "units":"6 Chaos Assault Bikes, Daemonic Pact", "upgrades":[14]},
 			{"id":505, "name":"Raptor Cult",	"pts":80, "units":"Daemonic Pact", "upgrades":[17]},
 			{"id":506, "name":"Armoured Company", "pts":0, "upgrades":[44] }
 		]},

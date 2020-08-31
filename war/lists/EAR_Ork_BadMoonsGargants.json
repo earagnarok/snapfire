@@ -9,14 +9,14 @@
          "formations": [
             {"id": 501, "name": "Mega Gargant", "pts": 950, "upgrades": [10,15]},
             {"id": 502, "name": "Great Gargant", "pts": 775, "upgrades": [10,15,16]},
-            {"id": 503, "name": "Gargant", "pts": 600, "upgrades": [16]}
+            {"id": 503, "name": "Gargant", "pts": 575, "upgrades": [16]}
 	       ]
       },
 	  {
 		 "name": "BAD MOONS BIG MOB MOBS <br/> Max 4 for each Gargant",
          "formations": [
              {"id": 511, "name": "Bad Moons Warband", "pts": 5, "upgrades": [90,91,99,100,101,102,104,105,106,107,108,98,109,103,12,13,14]},
-             {"id": 512, "name": "Bad Moons Rokkitzmob", "pts": 25, "upgrades": [95,102,109]},
+             {"id": 512, "name": "Bad Moons Rokkitzmob", "pts": 25, "upgrades": [95,99,102,109,12,13,14]},
              {"id": 516, "name": "Bad Moons Fortressmob", "pts": 250, "units":"Flash Gitz, 3 Boyz, Grotz, Gunfortress", "upgrades": [12,13,14,102,104,105]},
 
             {"id": 510, "name": "Big Mek Stompamob", "pts": 55, "upgrades": [90,91,100,101,96,102,110,111,112,113,114,115]},
@@ -39,9 +39,8 @@
    ],
    "upgrades": [
       {"id": 10, "name": "Big Mek", "pts": 0},
-      {"id": 11, "name": "Oddboy (Supa-Zzap-Gun)", "pts": 50},
+      {"id": 13, "name": "Oddboy (Supa-Zzap-Gun)", "pts": 50},
       {"id": 12, "name": "Oddboy (Soopagun)", "pts": 50},
-      {"id": 13, "name": "Oddboy (Weirdboy Tower)", "pts": 50},
       {"id": 14, "name": "Oddboy (D3 Powerfields)", "pts": 50},
 	  {"id": 15, "name": "'Uge Banner of Gork (Inspiring)", "pts": 50},
       {"id": 16, "name": "Big Banner of Mork (Leader)", "pts": 25},
@@ -51,7 +50,7 @@
       {"id": 91, "name": "Stompa w/ Kombat 'Ammer, 2 Big Gunz", "pts": 60},
 
       {"id": 95, "name": "Pulsa Rokkitz", "pts": 25},
-      {"id": 96, "name": "Meka Dread", "pts": 70},
+      {"id": 96, "name": "Meka Dread", "pts": 60},
 
       {"id": 98, "name": "Kommandos", "pts": 25},
       {"id": 99, "name": "Big Gunz", "pts": 25},
@@ -66,22 +65,23 @@
       {"id": 108, "name": "Boyz + Grotz", "pts": 35},
       {"id": 109, "name": "Flash Gitz", "pts": 35},
 
-      {"id": 110, "name": "Supa Stompa w/ Gaze of Mork, 3 Soopaguns", "pts": 275},
-      {"id": 111, "name": "Supa Stompa w/ Gaze of Mork, 2 Soopaguns, Zzap-Gun", "pts": 275},
-      {"id": 112, "name": "Supa Stompa w/ Gaze of Mork, Soopagun, Killa-Choppa, Zzap-Gun", "pts": 275},
-      {"id": 113, "name": "Supa Stompa w/ Gaze of Mork, 2 Soopaguns, Killa-Choppa", "pts": 275},
-      {"id": 114, "name": "Supa Stompa w/ Gaze of Mork, 2 Soopaguns, Dakka Kannon", "pts": 275},
-      {"id": 115, "name": "Supa Stompa w/ Gaze of Mork, Soopagun, Killa-Choppa, Dakka Kannon", "pts": 275},
+      {"id": 110, "name": "Supa Stompa w/ Gaze of Mork, 3 Soopaguns", "pts": 250},
+      {"id": 111, "name": "Supa Stompa w/ Gaze of Gork, 3 Soopaguns", "pts": 250},
+      {"id": 112, "name": "Supa Stompa w/ Gaze of Mork, 2 Soopaguns, Killa-Choppa", "pts": 250},
+      {"id": 113, "name": "Supa Stompa w/ Gaze of Gork, 2 Soopaguns, Killa-Choppa", "pts": 250},
+      {"id": 114, "name": "Supa Stompa w/ Gaze of Mork, 2 Soopaguns, Dakka Kannon", "pts": 250},
+      {"id": 115, "name": "Supa Stompa w/ Gaze of Gork, 2 Soopaguns, Dakka Kannon", "pts": 250},
+      {"id": 116, "name": "Supa Stompa w/ Gaze of Mork, Soopagun, Killa-Choppa, Dakka Kannon", "pts": 250},
+      {"id": 117, "name": "Supa Stompa w/ Gaze of Gorks, Soopagun, Killa-Choppa, Dakka Kannon", "pts": 250},
 
-      {"id": 120, "name": "Gaze of Mork ('Ed)", "pts": 0},
-      {"id": 121, "name": "Flak Gun ('Ed)", "pts": 0},
-      {"id": 122, "name": "D3 Power Fields ('Ed)", "pts": 0},
-      {"id": 123, "name": "Grot-Guided Missile ('Ed)", "pts": 0},
 
       {"id": 130, "name": "Soopagun (Arm)", "pts": 0},
       {"id": 131, "name": "Dakka Kannon (Arm)", "pts": 0},
       {"id": 132, "name": "Mega-Choppa (Arm)", "pts": 0},
       {"id": 133, "name": "Zzap-Gun (Arm)", "pts": 0},
+
+      {"id": 120, "name": "Gaze of Mork ('Ed)", "pts": 0},
+      {"id": 121, "name": "Gaze of Gork ('Ed)", "pts": 0},
 
       {"id": 134, "name": "Supa-Skorcha (Belly)", "pts": 0},
       {"id": 135, "name": "Supa-Zzap-Gun (Belly)", "pts": 0},
@@ -124,28 +124,29 @@
       {"max": 3, "from": [11,12,13,14], "appliesTo": [521]},
 
       {"min": 2, "from": [90,91], "appliesTo": [510]},
-      {"max": 1, "from": [110,111,112,113,114,115], "appliesTo": [510]},
+      {"max": 1, "from": [110,111,112,113,114,115,116,117], "appliesTo": [510]},
       {"max": 1, "from": [96], "appliesTo": [510]},
 
       {"min": 5, "from": [95], "appliesTo": [512]},
       {"max": 1, "from": [109], "appliesTo": [512]},
+      {"max": 1, "from": [12,13,14], "appliesTo": [512]},
 
-      {"min": 1, "from": [101,96], "appliesTo": [513]},
+      {"min": 1, "from": [101], "appliesTo": [513]},
       {"max": 1, "from": [96], "appliesTo": [513]},
-      {"min": 2, "from": [101,96], "appliesTo": [514]},
+      {"min": 2, "from": [101], "appliesTo": [514]},
       {"max": 2, "from": [96], "appliesTo": [514]},
-      {"min": 3, "from": [101,96], "appliesTo": [515]},
+      {"min": 3, "from": [101], "appliesTo": [515]},
       {"max": 3, "from": [96], "appliesTo": [515]},
       {"min": 4, "from": [100], "appliesTo": [513]},
       {"min": 8, "from": [100], "appliesTo": [514]},
       {"min": 12, "from": [100], "appliesTo": [515]},
 
 
-      {"min": 1, "max": 1, "from": [120,121,122,123], "appliesTo": [502]},
+      {"min": 1, "max": 1, "from": [120,121], "appliesTo": [502]},
       {"min": 2, "max": 2, "from": [140,141,142,143], "appliesTo": [502]},
       {"min": 1, "max": 1, "from": [137,134,135,136], "appliesTo": [502]},
 
-      {"min": 1, "max": 1, "from": [120,121,122,123], "appliesTo": [503]},
+      {"min": 1, "max": 1, "from": [120,121], "appliesTo": [503]},
       {"min": 2, "max": 2, "from": [130,131,132,133], "appliesTo": [503]},
       {"min": 1, "max": 1, "from": [137,134,135,136], "appliesTo": [503]},
 

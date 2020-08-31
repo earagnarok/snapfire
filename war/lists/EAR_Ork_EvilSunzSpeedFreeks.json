@@ -19,9 +19,9 @@
             {"id": 508, "name": "Evil Sunz Gunfortress Mob (Big)", "pts": 450, "units":"2 Nobz, 6 Boyz, 2 Grotz, 2 Gunfortress", "upgrades": [10,32,33,40,41,42]},
             {"id": 509, "name": "Evil Sunz Gunfortress Mob ('Uge)", "pts": 650, "units":"3 Nobz, 9 Boyz, 3 Grotz, 3 Gunfortress", "upgrades": [10,32,33,40,41,42]},
 
-            {"id": 510, "name": "Evil Sunz Battlefortress Mob", "pts": 300, "units":"2 Nobz, 6 Boyz, 2 Grotz, Battlefortress", "upgrades": [10,32,33,40,41,42]},
-            {"id": 511, "name": "Evil Sunz Battlefortress Mob (Big)", "pts": 550, "units":"4 Nobz, 12 Boyz, 4 Grotz, 2 Battlefortress", "upgrades": [10,32,33,40,41,42]},
-            {"id": 512, "name": "Evil Sunz Battlefortress Mob ('Uge)", "pts": 800, "units":"6 Nobz, 18 Boyz, 6 Grotz, 3 Battlefortress", "upgrades": [10,32,33,40,41,42]},
+            {"id": 510, "name": "Evil Sunz Battlefortress Mob", "pts": 325, "units":"2 Nobz, 6 Boyz, 2 Grotz, Battlefortress", "upgrades": [10,32,33,40,41,42]},
+            {"id": 511, "name": "Evil Sunz Battlefortress Mob (Big)", "pts": 600, "units":"4 Nobz, 12 Boyz, 4 Grotz, 2 Battlefortress", "upgrades": [10,32,33,40,41,42]},
+            {"id": 512, "name": "Evil Sunz Battlefortress Mob ('Uge)", "pts": 875, "units":"6 Nobz, 18 Boyz, 6 Grotz, 3 Battlefortress", "upgrades": [10,32,33,40,41,42]},
 
             {"id": 513, "name": "Evil Sunz Warband", "pts": 25, "upgrades": [10,20,21,22,29,32]},
             {"id": 514, "name": "Evil Sunz Warband (Big)", "pts": 0, "upgrades": [10,20,21,22,29,32]},
