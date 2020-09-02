@@ -15,7 +15,7 @@
 			{ "id":522, "name":"Destroyers", "pts":200,"units":"4 Alpha Legion Destroyers", "upgrades":[33] },
 			{ "id":521, "name":"Headhunters", "pts":250, "units":"4 Alpha Legion Headhunters plus transport", "upgrades":[31] },
 			{ "id":523, "name":"Lernaean Terminators", "pts":275,"units":"4 Lernaean Terminators plus transport", "upgrades":[30] },
-			{ "id":520, "name":"Sicarians", "pts":300, "units":"4 Alpha Legion Sicarian Battle Tanks", "upgrades":[31] }
+			{ "id":520, "name":"Sicarians", "pts":275, "units":"4 Alpha Legion Sicarian Battle Tanks", "upgrades":[31] }
 
 		]},
 		{"name":"ALPHA LEGION CULTIST SUPPORT FORMATIONS <br/> Max 2 for each Cultist Coven", "formations": [

@@ -28,7 +28,7 @@
             {"id": 518, "name": "Phantom Titan", "pts": 700, "upgrades": []},
             {"id": 519, "name": "Revenant Titans", "pts": 650, "units": "2 Revenant Titans", "upgrades": []},
             {"id": 520, "name": "Nightwing Aerie", "pts": 75, "upgrades": [54]},
-            {"id": 521, "name": "Phoenix Aerie", "pts": 325, "units": "3 Phoenix Bombers",  "upgrades": [53]},
+            {"id": 521, "name": "Phoenix Aerie", "pts": 325, "units": "3 Phoenix Bombers",  "upgrades": []},
             {"id": 522, "name": "Vampire Raider", "pts": 200, "upgrades": []}
          ]}
    ],

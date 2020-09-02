@@ -27,7 +27,7 @@
             {"id": 516, "name": "Dragonship", "pts": 300, "upgrades": []},
             {"id": 519, "name": "Revenants", "pts": 650, "units": "2 Revenant Titans", "upgrades": [90]},
             {"id": 520, "name": "Nightwing Aerie", "pts": 75, "upgrades": [67]},
-            {"id": 521, "name": "Phoenix Aerie", "pts": 325, "units": "3 Phoenix Bombers",  "upgrades": [66]},
+            {"id": 521, "name": "Phoenix Aerie", "pts": 325, "units": "3 Phoenix Bombers",  "upgrades": []},
             {"id": 522, "name": "Vampire Hunter", "pts": 225, "upgrades": []}
          ]}
    ],
