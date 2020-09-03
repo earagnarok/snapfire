@@ -53,7 +53,7 @@
 		{ "id":30, "name":"3 Leman Russ Thunderers", "pts":125},
 		{ "id":31, "name":"3 Leman Russ", "pts":125},
 
-		{ "id":32, "name":"Hellhound", "pts":25},
+		{ "id":32, "name":"Bane Wolf", "pts":25},
 
 		{ "id":35, "name":"2 Malcadors", "pts":175},
 		{ "id":36, "name":"2 Malcador Annihilators", "pts":175},
@@ -90,7 +90,7 @@
 
 		{"max":1, "from":[21]},
 		{"max":1, "from":[31,30,29]},
-		{"max":3, "from":[32]},
+		{"max":2, "from":[32]},
 		{"max":1, "from":[35,36]},
 
 		{"min":1, "max":1, "from":[13,15], "appliesTo":[501]},
