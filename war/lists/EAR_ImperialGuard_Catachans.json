@@ -19,8 +19,8 @@
 			{"id":519, "name":"Sniper Platoon", "pts":100, "upgrades":[21], "units":"4 Snipers"}
 		]},
 		{"name":"IMPERIAL NAVY SUPPORT <br/> Max 25%", "formations":[
-			{"id":520, "name":"Thunderbolt Squadron", "pts":150, "upgrades":[], "units":"2 Thunderbolt Fighters"},
-			{"id":523, "name":"Marauder Squadron", "pts":225, "upgrades":[]},
+			{"id":520, "name":"Thunderbolt Squadron", "pts":175, "upgrades":[], "units":"2 Thunderbolt Fighters"},
+			{"id":523, "name":"Marauder Squadron", "pts":250, "upgrades":[]},
 			{"id":522, "name":"Orbital Support",	"pts":150, "upgrades":[]}
 		]}
 	],

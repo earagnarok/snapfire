@@ -30,7 +30,7 @@
       {
          "name": "BAD MOONS 'CRAFT <br/> Max 33%",
          "formations": [
-            {"id": 530, "name": "Fighta-Bommer Skwadron", "pts": 0, "upgrades": [20]},
+            {"id": 530, "name": "Fighta-Bommer Skwadron", "pts": 25, "upgrades": [20]},
             {"id": 531, "name": "Bommer", "pts": 175, "upgrades": []},
             {"id": 532, "name": "Kroozer", "pts": 0, "upgrades": []}
 

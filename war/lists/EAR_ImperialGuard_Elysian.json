@@ -18,10 +18,10 @@
 		]},
 		{"name":"STATIC DEFENSES & IMPERIAL NAVY <br/> Max 33% <br/> Max 1 Tarantula formation for each Tauros Recon Squadron", "formations":[
 			{"id":520, "name":"Tarantula", "pts":100, "upgrades":[]},
-			{"id":521, "name":"Thunderbolt Squadron", "pts":150, "upgrades":[], "units":"2 Thunderbolt Fighters"},
-			{"id":525, "name":"Lightning Squadron", "pts":150, "upgrades":[], "units":"2 Lightning Interceptors"},
+			{"id":525, "name":"Lightning Squadron", "pts":175, "upgrades":[], "units":"2 Lightning Interceptors"},
+			{"id":521, "name":"Thunderbolt Squadron", "pts":175, "upgrades":[], "units":"2 Thunderbolt Fighters"},
 			{"id":523, "name":"Marauder Destroyer", "pts":175, "upgrades":[]},
-			{"id":522, "name":"Marauder Squadron", "pts":225, "upgrades":[], "units":"2 Marauder Bombers"},
+			{"id":522, "name":"Marauder Squadron", "pts":250, "upgrades":[], "units":"2 Marauder Bombers"},
 			{"id":524, "name":"Orbital Support", "pts":150, "upgrades":[]}
 		]}
 	],
