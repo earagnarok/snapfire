@@ -84,9 +84,9 @@
 		{"id":57, "name":"2 Hellhounds",				"pts":50},
 		{"id":58, "name":"3 Hellhounds",				"pts":75},
 
-		{"id":59, "name":"3 Leman Russ Punishers",		"pts":125},
-		{"id":60, "name":"3 Leman Russ Demolishers",	"pts":125},
-		{"id":61, "name":"3 Leman Russ",		"pts":125},
+		{"id":59, "name":"3 Leman Russ Punishers",		"pts":150},
+		{"id":60, "name":"3 Leman Russ Demolishers",	"pts":150},
+		{"id":61, "name":"3 Leman Russ",		"pts":150},
 
 		{"id":62, "name":"Sniper, Chimera",			"pts":50},
 		{"id":63, "name":"2 Snipers, Chimera",		"pts":75},
