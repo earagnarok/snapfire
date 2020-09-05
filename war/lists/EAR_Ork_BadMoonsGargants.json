@@ -5,7 +5,7 @@
    "by": "Mrdiealot",
    "sections": [
       {
-         "name": "BAD MOONS GARGANTS FORMATIONS <br/> At least 1 Mega Gargant or Great Gargant",
+         "name": "BAD MOONS BIG MOB GARGANTS <br/> At least 1 Mega Gargant or Great Gargant",
          "formations": [
             {"id": 501, "name": "Mega Gargant", "pts": 950, "upgrades": [10,15]},
             {"id": 502, "name": "Great Gargant", "pts": 775, "upgrades": [10,15,16]},
