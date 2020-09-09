@@ -16,7 +16,7 @@
 			{ "id":514, "name":"Griffon Battery", "pts":200, "upgrades":[] },
 			{ "id":515, "name":"Siege Infantry Company", "pts":300, "units":"DKoK Commander with a Commissar, 9 Siege Infantry, 40cm Trenches, 40cm Razor Wire", "upgrades":[16,17,18,19] },
 			{ "id":519, "name":"Flak Emplacement", "pts":175, "upgrades":[] },
-			{ "id":520, "name":"Super-Heavy Platoon", "pts":175, "upgrades":[] },
+			{ "id":520, "name":"Super-Heavy Platoon", "pts":200, "upgrades":[] },
 			{ "id":521, "name":"Armoured Sentinel Squadron", "pts":125, "units":"4 Armoured Sentinels", "upgrades":[] }
 		]},
 
@@ -67,7 +67,7 @@
 		{ "id":47, "name":"4 Heavy AA Guns, 4 Trojans", "pts":25},
 
 		{ "id":50, "name":"Baneblade", "pts":0 },
-		{ "id":51, "name":"Shadowsword", "pts":25 },
+		{ "id":51, "name":"Shadowsword", "pts":0 },
 		{ "id":53, "name":"Stormsword", "pts":0 },
 
 		{ "id":60, "name":"Lunar Class Cruiser", "pts":0 },
