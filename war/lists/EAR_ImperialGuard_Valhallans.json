@@ -4,8 +4,8 @@
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"VALHALLAN CORE COMPANIES", "formations":[
-			{"id":500, "name":"Regimental HQ", 				"pts":300, "units":"Valhallan Supreme Commander with a Ministorum Priest, 11 Valhallan Infantry", "upgrades":[45,46,47,49,51,53,64,65,70,21,60]},
-			{"id":501, "name":"Infantry Company", 			"pts":225, "units":"Valhallan Commander with a Ministorum Priest, 11 Valhallan Infantry", "upgrades":[45,46,47,49,51,53,64,65,70,21]},
+			{"id":500, "name":"Regimental HQ", 				"pts":300, "units":"Valhallan Supreme Commander with a Ministorum Priest, 11 Valhallan Infantry", "upgrades":[45,46,47,49,51,53,64,65,70,60]},
+			{"id":501, "name":"Infantry Company", 			"pts":200, "units":"Valhallan Commander with a Ministorum Priest, 7 Valhallan Infantry", "upgrades":[45,46,47,49,51,53,64,65,70,21]},
 	 		{"id":502, "name":"Artillery Company", 			"pts":400, "units":"Ministorum Priest", "upgrades":[45,60]}
 		]},
 		{"name":"VALHALLAN SUPPORT FORMATIONS <br/> Max 2 for each Core Company", "formations":[
@@ -26,7 +26,7 @@
 	],
 	"upgrades":[
 		{"id":20, "name":"2 Moles",					"pts":75},
-		{"id":21, "name":"Stormlord",					"pts":125},
+		{"id":21, "name":"Stormlord",					"pts":150},
 
 		{"id":26, "name":"Baneblade",					"pts":0},
 		{"id":27, "name":"Shadowsword",					"pts":0},
