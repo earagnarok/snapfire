@@ -34,7 +34,7 @@
       {
          "name": "SPEED FREEK 'CRAFT <br/> Max 33%",
          "formations": [
-            {"id": 519, "name": "Dakkajet Skwadron", "pts": 25, "upgrades": [50]},
+            {"id": 519, "name": "Dakkajet Skwadron", "pts": 0, "upgrades": [50]},
             {"id": 520, "name": "Blitza Skwadron", "pts": 175, "units":"3 Blitza Bommers", "upgrades": []},
             {"id": 521, "name": "Landa", "pts": 225, "upgrades": []},
             {"id": 522, "name": "Kroozer", "pts": 100, "upgrades": []}
@@ -111,7 +111,7 @@
 
   	  {"min": 2, "from": [32], "appliesTo": [517]},
 
-      {"max": 9, "min": 3, "from": [50], "appliesTo": [519]},
+      {"max": 8, "min": 4, "from": [50], "appliesTo": [519]},
 
       {"max": 1, "min": 1, "from": [80,91], "appliesTo": [522]}
    ]

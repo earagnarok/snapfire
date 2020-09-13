@@ -11,22 +11,22 @@
         {"name": "SORORITAS SUPPORT FORMATIONS <br/> Max 2 for each Core Formation", "formations": [
         {"id": 515, "name": "Immolation", "pts": 275, "units": "Three Celestian Sisters, three Sororitas Immolators", "upgrades": [15]},
 	    {"id": 510, "name": "Exorcism", "pts": 250, "upgrades": [16]},
-	    {"id": 511, "name": "Seraphim", "pts": 225,  "upgrades": []},
-	    {"id": 512, "name": "Retribution", "pts":200, "units": "4 Retribution Sisters, 2 Sororitas Repressors", "upgrades": [15]},
-        {"id": 514, "name": "Repentance", "pts": 150, "units": "4 Repentia Sisters, 2 Sororitas Repressors", "upgrades": []},
-        {"id": 513, "name": "Dominion", "pts": 150, "units": "4 Dominion Sisters", "upgrades": [10,11,12]}
+	    {"id": 511, "name": "Seraph", "pts": 225,  "upgrades": []},
+	    {"id": 512, "name": "Retribution", "pts":225, "units": "4 Retributor Sisters, 2 Sororitas Repressors", "upgrades": [15]},
+        {"id": 513, "name": "Dominus", "pts": 175, "units": "4 Dominion Sisters, 2 Sororitas Rhinos", "upgrades": []},
+        {"id": 514, "name": "Repentance", "pts": 150, "units": "4 Repentia Sisters, 2 Sororitas Repressors", "upgrades": []}
 
          ]},
         {"name": "ORDO HERETICUS FORMATIONS <br/> Max 2 for each Core Formation", "formations": [
-            {"id": 520, "name": "0-1 Ordo Hereticus Inquisitor Retinue", "pts": 175, "upgrades": [25,37]},
+            {"id": 520, "name": "Ordo Hereticus Inquisitor Retinue", "pts": 175, "upgrades": [25]},
             {"id": 523, "name": "Penitence", "pts": 200, "units": "5 Penitent Engines", "upgrades": []},
-            {"id": 522, "name": "Flagellant", "pts": 200, "units": "6 Arco-Flagellants", "upgrades": [20]},
-	        {"id": 521, "name": "Redemption", "pts": 200, "units": "Ministorum Priest, 8 Redemptionists, 4 Ordo Hereticus Land Transporters", "upgrades": []}
+            {"id": 522, "name": "Flagellance", "pts": 200, "units": "6 Arco-Flagellants", "upgrades": [20]},
+	        {"id": 521, "name": "Redemption", "pts": 200, "units": "Ministorum Priest, 8 Redemptionists, 4 Ordo Hereticus Land Transporters", "upgrades": [25]}
          ]},
         {"name": "IMPERIAL NAVY <br/> Max 25%", "formations": [
             {"id": 532, "name": "Lightning Squadron", "pts": 175, "units": "2 Lightning Interceptors", "upgrades": [] },
             {"id": 533, "name": "Marauder Destroyer", "pts": 175, "upgrades": [] },
-	        {"id": 534, "name": "Orbital Support", "pts": 150, "units": "Lunar Class Cruiser", "upgrades": [] }
+	        {"id": 534, "name": "Orbital Support", "pts": 150, "upgrades": [] }
          ]}
    ],
    "upgrades": [
@@ -46,7 +46,7 @@
       {"id": 10, "name": "Sororitas Rhino","pts": 10},
       {"id": 11, "name": "Sororitas Repressor","pts": 20},
       {"id": 12, "name": "Sororitas Immolator","pts": 40},
-      {"id": 13, "name": "Sororitas Stormlord","pts": 175},
+      {"id": 13, "name": "Sororitas Stormlord","pts": 150},
 
       {"id": 15, "name": "Palatine","pts": 25},
 
@@ -64,9 +64,13 @@
 	  {"id": 30, "name": "4 Exorcist Prioris","pts": 0},
 	  {"id": 31, "name": "4 Exorcist Sanctorum","pts": 0},
 
-	  {"id": 35, "name": "3 Chimera","pts": 75},
+	  {"id": 35, "name": "3 Storm Chimeras","pts": 100},
 	  {"id": 36, "name": "3 Valkyries","pts": 100},
-	  {"id": 37, "name": "Vendetta","pts": 50}
+	  {"id": 37, "name": "Vendetta","pts": 50},
+
+      {"id": 50, "name": "Lunar Class Cruiser","pts": 0},
+	  {"id": 51, "name": "Emperor Class Battleship","pts": 50}
+
 
    ],
    "formationConstraints": [
@@ -104,7 +108,9 @@
 
 	  {"min": 1, "max": 1, "from": [30,31], "appliesTo": [510] },
 
-	  {"min": 1, "max": 1, "from": [35,36], "appliesTo": [520] }
+	  {"min": 1, "max": 1, "from": [36,35], "appliesTo": [520] },
+
+      {"min": 1, "max": 1, "from": [50,51], "appliesTo": [534] }
 
    ]
 }
