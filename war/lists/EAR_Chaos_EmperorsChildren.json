@@ -28,7 +28,6 @@
 			{"id":515, "name":"Subjugator",	"pts":275, "upgrades":[]},
 			{"id":518, "name":"Hell Blades",	"pts":200, "units":"3 Hell Blade Interceptors", "upgrades":[]},
 			{"id":519, "name":"Hell Talons",	"pts":225, "units":"2 Hell Talon Fighter-Bombers", "upgrades":[]},
-			{"id":521, "name":"Chaos Thunderhawk",	"pts":225, "upgrades":[]},
 			{"id":520, "name":"Devastation Class Cruiser",	"pts":150,  "upgrades":[]}
 			]}
 	],
