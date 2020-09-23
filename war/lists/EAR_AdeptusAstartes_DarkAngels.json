@@ -14,7 +14,7 @@
 		]},
 		{"name":"DARK ANGELS SUPPORT DETACHMENTS <br/> Max 3 for each Core Detachment", "formations":[
 			{"id":502, "name":"Land Raiders",				"pts":25, "upgrades":[10,11,12,13, 30,31,32, 35]},
-			{"id":509, "name":"Assaults", 						"pts":225, "units":"Dark Angels Captain, 6 Assaults", "upgrades":[]},
+			{"id":509, "name":"Assaults", 						"pts":250, "units":"Dark Angels Captain, 6 Assaults", "upgrades":[]},
 			{"id":504, "name":"Devastators",				"pts":250, "units":"4 Dark Angels Devastators plus transport", "upgrades":[10,11,12,13, 30,31,32, 33, 36,37]},
 			{"id":510, "name":"Scouts",							"pts":150, "upgrades":[36,37]},
 			{"id":511, "name":"Whirlwinds",						"pts":275, "units":"4 Whirlwinds", "upgrades":[30,31,32]},

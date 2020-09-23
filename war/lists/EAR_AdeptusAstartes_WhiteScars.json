@@ -12,7 +12,7 @@
 			{"id":512, "name":"Terminators",		"pts":450, "units":"4 Terminators", "upgrades":[15,16,17,18,14,30,31,36,37]}
 		]},
 		{"name":"WHITE SCARS SUPPORT DETACHMENTS <br/> Max 2 for each Core Detachment", "formations":[
-			{"id":500, "name":"Assaults", 		"pts":150, "units":"4 Assaults", "upgrades":[15,16,17,18,14,36,37]},
+			{"id":500, "name":"Assaults", 		"pts":175, "units":"4 Assaults", "upgrades":[15,16,17,18,14,36,37]},
 			{"id":522, "name":"Scout Bikes",	"pts":150, "upgrades":[15,16,17,18,14]},
 			{"id":504, "name":"Land Speeders",	"pts":200, "upgrades":[15,16,17,18,14]},
 			{"id":515, "name":"Whirlwinds",		"pts":75, "upgrades":[42,36,37,15,16,17,18,14,30,31]},

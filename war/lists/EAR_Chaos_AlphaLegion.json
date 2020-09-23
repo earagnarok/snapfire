@@ -22,7 +22,7 @@
 			{ "id":534, "name":"Rough Rider Platoon", "pts":150, "units":"6 Rough Riders", "upgrades":[19] },
 			{ "id":532, "name":"Salamander Squadron", "pts":150, "units":"4 Salamander Scout Tanks", "upgrades":[] },
 		{ "id":535, "name":"Flak Battery", "pts":150, "units":"3 Hydras",  "upgrades":[] },
-		{ "id":533, "name":"Griffon Battery", "pts":200, "units":"4 Griffons", "upgrades":[] }
+		{ "id":533, "name":"Griffon Battery", "pts":175, "units":"3 Griffons", "upgrades":[] }
 
 	]},
 			{"name":"ALPHA LEGION NAVY <br/> Max 33%", "formations": [
