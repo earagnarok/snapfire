@@ -16,7 +16,7 @@
       {"id":511, "name":"Terminators", "pts":350, "units": "4 Terminators", "upgrades":[1,2,3,4]}
     ]},
     {"name":"RAVEN GUARD SUPPORT DETACHMENTS <br/> Max 1 for each Raven Guard Core Detachment", "formations":[
-        {"id":523, "name":"Scouts", "pts":150, "units": "4 Raven Guard Scouts", "upgrades":[1,2,3,4,34,35,40,41,42,43]},
+        {"id":523, "name":"Scouts", "pts":150, "units": "4 Raven Guard Scouts plus transport", "upgrades":[1,2,3,4,17,34,35,40,41,42,43]},
       {"id":520, "name":"Bikes", "pts":200, "upgrades":[1,2,3,4]},
       {"id":521, "name":"Land Speeders", "pts":50, "upgrades":[1,2,3,4]},
       {"id":522, "name":"Orbital Support", "pts":200, "upgrades":[]}
@@ -109,7 +109,6 @@
 
     {"min":1, "max":1, "from":[25,26], "appliesTo":[522]},
 
-    {"min":1, "max":1, "from":[10,18], "appliesTo":[502]},
-    {"max":1, "from":[17], "appliesTo":[502]}
+    {"max":1, "from":[17], "appliesTo":[523]}
   ]
 }

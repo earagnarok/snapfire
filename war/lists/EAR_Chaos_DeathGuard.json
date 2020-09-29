@@ -28,7 +28,7 @@
             {"id": 552, "name": "Plaguehound", "pts": 275, "upgrades": []},
             {"id": 553, "name": "Repugnant Titan", "pts": 600,  "upgrades": []},
             {"id": 554, "name": "Heldrakes", "pts": 225, "units": "2 Heldrakes", "upgrades": []},
-            {"id": 556, "name": "Blightbringer Bomber", "pts": 300, "upgrades": []},
+            {"id": 556, "name": "Harbringer Bomber", "pts": 300, "upgrades": []},
             {"id": 557, "name": "Plagueship", "pts": 100, "upgrades": []}
          ]}
    ],

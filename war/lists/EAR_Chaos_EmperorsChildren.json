@@ -21,7 +21,7 @@
 			{"id":506, "name":"Armoured Company", "pts":0, "upgrades":[44] }
 		]},
 		{"name":"DARK MECHANICUS DAEMON ENGINES & CHAOS NAVY FORMATIONS <br/> Max 33%", "formations":[
-			{"id":510, "name":"Hell-Striders of Slaanesh",	"pts":225, "units":"4 Hell-Striders", "upgrades":[]},
+			{"id":510, "name":"Hell-Striders",	"pts":225, "units":"4 Hell-Striders", "upgrades":[]},
 			{"id":511, "name":"Hell-Knights",	"pts":350, "units":"3 Hell-Knights",  "upgrades":[]},
 			{"id":512, "name":"Hell-Scourges", "pts":350,  "units":"3 Hell-Scourges", "upgrades":[]},
 			{"id":513, "name":"Slaneesh Defiler Pack", "pts":25, "upgrades":[50]},
