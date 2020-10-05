@@ -9,7 +9,7 @@
 			{"id":500, "name":"Daemon Pool", "pts":0, "upgrades":[71,72,73]}
 		]},
 		{"name":"THOUSAND SONS CORE FORMATIONS <br/> Max 1 Thousand Sons Terminators for each Thousand Sons Retinue", "formations":[
-			{"id":501, "name":"Thousand Sons Retinue", "pts":350, "units": "5 Rubric Marines, Daemonic Pact", "upgrades":[15,16, 20,21, 30, 40]},
+			{"id":501, "name":"Thousand Sons Retinue", "pts":350, "units": "4 Rubric Marines, Daemonic Pact", "upgrades":[15,16, 20,21, 30, 40]},
 			{"id":502, "name":"Thousand Sons Terminators", "pts":400, "units": "3 Scarab Occult Terminators, Daemonic Pact", "upgrades":[15, 22]}
 		]},
 		{"name":"THOUSAND SONS SUPPORT FORMATIONS <br/> Max 3 for each Core formation", "formations":[
@@ -40,8 +40,8 @@
 
 		{"id":17, "name":"Warphound Titan", 			"pts":25},
 
-		{"id":18, "name":"4 Thousand Sons Marines", 			"pts":0},
-		{"id":19, "name":"4 Thousand Sons Havocs", 			"pts":50},
+		{"id":18, "name":"5 Thousand Sons Marines", 			"pts":0},
+		{"id":19, "name":"5 Thousand Sons Havocs", 			"pts":50},
 
 		{"id":20, "name":"Chaos Rhino", 	"pts":10},
 		{"id":21, "name":"Thousand Sons Land Raider", 	"pts":50},
