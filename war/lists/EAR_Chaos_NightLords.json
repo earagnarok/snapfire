@@ -2,7 +2,7 @@
 	"id":"EA-R Night Lords",
 	"version":"0.6.0",
 	"notes":
-		["Add one free Lesser Daemon to the Lesser Daemon pool per Daemonic Pact"],
+		["Add one free Lesser Daemon to the Lesser Daemon pool per Night Lords Captain, First Captain or Daemon Prince"],
 		"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"DAEMONS", "formations":[
