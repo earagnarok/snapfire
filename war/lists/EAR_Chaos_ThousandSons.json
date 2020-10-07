@@ -22,7 +22,7 @@
 		]},
 		{"name":"DARK MECHANICUS AND THOUSAND SONS NAVY FORMATIONS <br/> Max 33%", "formations":[
 			{"id":512, "name":"Warphound", "pts":275,  "upgrades":[]},
-			{"id":513, "name":"Warp Palace",	"pts":500,  "upgrades":[]},
+			{"id":513, "name":"Warp Palace",	"pts":450,  "upgrades":[]},
 			{"id":510, "name":"Doomwings of Tzeench",	"pts":175, "units": "3 Doomwings", "upgrades":[]},
 			{"id":511, "name":"Firelords of Tzeench", "pts":50, "upgrades":[50]},
 			{"id":514, "name":"Devastation Class Cruiser",	"pts":150, "upgrades":[]}
