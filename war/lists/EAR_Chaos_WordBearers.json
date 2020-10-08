@@ -19,9 +19,9 @@
 			{"id":502, "name":"Chaos Terminators", "pts":150, "units":"Daemonic Pact", "upgrades":[50,14,41,47,80]}
 		]},
 		{"name":"DAEMON ENGINE FORMATIONS <br/> Max 2 for each Cultist Coven", "formations":[
-			{"id":512, "name":"Cerberites", "pts":175, "units": "3 Cerberites", "upgrades":[]},
+			{"id":512, "name":"Cerberites", "pts":200, "units": "3 Cerberites", "upgrades":[]},
 			{"id":513, "name":"Maulerfiends", "pts":200, "units": "4 Maulerfiends", "upgrades":[]},
-            {"id":515, "name":"Forgefiends", "pts": 225, "units": "3 Forgefiends", "upgrades": []},
+            {"id":515, "name":"Forgefiends", "pts": 250, "units": "3 Forgefiends", "upgrades": []},
 			{"id":514, "name":"Defilers", "pts":225, "units": "4 Defilers", "upgrades":[]}
 		]},
 		{"name":"WAR ENGINES & CHAOS NAVY FORMATIONS <br/> Max 33%", "formations":[

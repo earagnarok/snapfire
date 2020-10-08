@@ -20,7 +20,8 @@
             {"id": 506, "name": "Void Spinner", "pts": 50, "upgrades": [54]},
             {"id": 530, "name": "Fire Prism Troupe", "pts": 250, "units": "3 Fire Prisms", "upgrades": []},
             {"id": 531, "name": "Mounted Aspect Warrior Troupe", "pts": 325,  "units": "3 Wave Serpents", "upgrades": [39]},
-            {"id": 532, "name": "Mounted Guardian Troupe", "pts": 250, "units": "3 Wave Serpents", "upgrades": []}
+            {"id": 532, "name": "Mounted Guardian Troupe", "pts": 250, "units": "3 Wave Serpents", "upgrades": []},
+            {"id": 509, "name": "War Walker Troupe", "pts": 50, "upgrades": [55]}
          ]},
       {"name": "SPACESHIPS, AIRCRAFT &amp; TITANS <br/> Max 33%", "formations": [
             {"id": 515, "name": "Wraithship", "pts": 150, "upgrades": []},
@@ -48,6 +49,8 @@
       {"id": 53, "name": "Storm Serpent", "pts": 200},
 
       {"id": 54, "name": "Void Spinner", "pts": 250},
+
+      {"id": 55, "name": "War Walker", "pts": 25},
 
       {"id": 67, "name": "Nightwing Interceptors", "pts": 75},
       {"id": 80, "name": "Saim-Hann Hornet", "pts": 50},
@@ -94,6 +97,8 @@
       {"max": 9, "from": [125], "appliesTo": [513]},
 
       {"max": 3, "min": 2, "from": [67], "appliesTo": [520]},
+
+      {"max": 6, "min": 4, "from": [55], "appliesTo": [509]},
 
       {"max": 9, "min": 9, "from": [81,82,49,84], "appliesTo": [511]},
       {"max": 1, "min": 0, "from": [49], "appliesTo": [511]},

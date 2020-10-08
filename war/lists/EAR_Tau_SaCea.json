@@ -27,7 +27,7 @@
             {"id": 521,"name": "Barracuda Squadron","pts": 150,"units": "2 Barracuda Fighters","upgrades": []},
             {"id": 522,"name": "Tiger Shark Bombers","pts": 175,"units": "2 Tiger Shark Bombers","upgrades": [70]},
             {"id": 523,"name": "AX-1-0 Squadron","pts": 350,"units": "2 Tiger Shark AX-1-0","upgrades": []},
-            {"id": 525,"name": "Spacecraft","pts": 175,"upgrades": []}
+            {"id": 525,"name": "Spacecraft","pts": 200,"upgrades": []}
          ]
       }
    ],

@@ -4,17 +4,18 @@
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"MINERVAN COMPANIES", "formations":[
-			{"id":500, "name":"Minervan Tank Company", 			"pts":600, "upgrades":[45,46]},
-			{"id":501, "name":"Minervan Super-Heavy Company", 	"pts":550, "upgrades":[45,46]},
-			{"id":503, "name":"Artillery Company", 				"pts":400, "units":"Commissar-Captain", "upgrades":[45,46,25]}
+			{"id":500, "name":"Minervan Tank Company", 			"pts":500, "upgrades":[45]},
+			{"id":501, "name":"Minervan Super-Heavy Company", 	"pts":525, "upgrades":[45]},
+			{"id":503, "name":"Artillery Company", 				"pts":400, "units":"Commissar-Captain", "upgrades":[45,25]}
 		]},
 		{"name":"MINERVAN SUPPORT FORMATIONS <br/> Max 3 for each Company", "formations":[
 			{"id":512, "name":"Leman Russ Squadron", 					"pts":275, "upgrades":[17]},
-			{"id":509, "name":"Mechanized Infantry Platoon", 			"pts":225, "units":"Six Infantry, three Chimeras", "upgrades":[17]},
+			{"id":509, "name":"Mechanized Infantry Platoon", 			"pts":225, "units":"6 Infantry, 3 Chimeras", "upgrades":[17]},
 			{"id":516, "name":"Artillery Battery",						"pts":225, "upgrades":[25]},
 			{"id":513, "name":"Tank Hunter Squadron",					"pts":200,  "units":"3 Leman Russ Destroyers", "upgrades":[]},
 			{"id":511, "name":"Super-Heavy Platoon", 					"pts":200, "upgrades":[]},
 			{"id":515, "name":"Salamander Squadron",					"pts":150, "units":"4 Salamander Scout Tanks", "upgrades":[]},
+			{"id":517, "name":"Flak Battery",					"pts":150, "units":"3 Hydras", "upgrades":[]},
 			{"id":518, "name":"Griffon Battery",				"pts":175,  "units":"3 Griffons", "upgrades":[]}
 		]},
 		{"name":"COLLEGIA TITANICA & IMPERIAL NAVY FORMATIONS <br/> Max 33%", "formations":[
@@ -35,8 +36,8 @@
 
 		{"id":17, "name":"Hellhound",		       	  "pts":25},
 
-		{"id":20, "name":"9 Leman Russ",				"pts":0},
-		{"id":21, "name":"9 Leman Russ Thunderers",	"pts":0},
+		{"id":20, "name":"7 Leman Russ",				"pts":0},
+		{"id":21, "name":"7 Leman Russ Thunderers",	"pts":0},
 
 		{"id":25, "name":"Deathstrike",					"pts":50},
 
@@ -62,7 +63,6 @@
 		{"id":44, "name":"3 Leman Russ Punishers",	"pts":125},
 
 		{"id":45, "name":"Hydra",		"pts":50},
-		{"id":46, "name":"2 Hydras",	"pts":75},
 
 		{"id":50, "name":"3 Basilisks",					"pts":0},
 		{"id":51, "name":"3 Bombards",					"pts":0},
@@ -90,7 +90,7 @@
 
 	],
 	"formationConstraints":[
-		{"max":3, "name":"Support Formations", "from":[509,510,511,512,513,514,515,516,518], "forEach":[500,501,503], "name2":"Minervan Company"},
+		{"max":3, "name":"Support Formations", "from":[509,510,511,512,513,514,515,516,517,518], "forEach":[500,501,503], "name2":"Minervan Company"},
 		{"maxPercent": 33.5, "name":"Collegia Titanica & Imperial Navy", "from":[527,530,531,532]},
 		{"max":1, "from":[510]},
 		{"max":1, "from":[532]}
