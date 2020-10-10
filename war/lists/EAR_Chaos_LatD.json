@@ -13,8 +13,8 @@
 		]},
 		{"name":"LOST AND THE DAMNED SUPPORT COVEN FORMATIONS <br/> Max 2 for each Cultist Coven <br/> Max 1 of each formation for each part of 1000 points in the army <br/> Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
 			{"id":510, "name":"Chaos Space Marines of Chaos Undivided", "pts":275, "units":"6 Chaos Space Marines, 3 Chaos Rhinos, Daemonic Pact", "upgrades":[9]},
-			{"id":511, "name":"Cerberites of Chaos Undivided", "pts":200, "units": "3 Cerberites", "upgrades":[]},
-			{"id":512, "name":"Forgefiends of Chaos Undivided", "pts":250, "units":"3 Forgefiends", "upgrades":[]},
+			{"id":511, "name":"Cerberites of Chaos Undivided", "pts":175, "units": "3 Cerberites", "upgrades":[]},
+			{"id":512, "name":"Forgefiends of Chaos Undivided", "pts":225, "units":"3 Forgefiends", "upgrades":[]},
 			{"id":513, "name":"Defilers of Chaos Undivided",	"pts":225, "units":"4 Defilers", "upgrades":[]},
 			{"id":514, "name":"Heldrakes of Chaos Undivided", "pts": 225, "units": "2 Heldrakes", "upgrades": []},
 			{"id":515, "name":"Hell-Striders of Slaanesh",	"pts":225, "units":"4 Hell-Striders", "upgrades":[]},
