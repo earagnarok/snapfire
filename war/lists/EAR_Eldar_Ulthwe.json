@@ -24,8 +24,8 @@
             {"id": 534, "name": "Fire Prism Troupe", "pts": 250, "units": "3 Fire Prisms", "upgrades": []}
          ]},
       {"name": "ULTHWÉ SPACECRAFT, AIRCRAFT &amp; TITANS <br/> Max 33%","formations": [
-            {"id": 540, "name": "Fire Gales", "pts": 300, "units": "2 Fire Gale Knights", "upgrades": []},
-            {"id": 547, "name": "Wraithknights", "pts": 325, "units": "3 Wraithknights", "upgrades": []},
+          {"id": 540, "name": "Wraithknights", "pts": 325, "upgrades": []},
+            {"id": 547, "name": "Revenant Titans", "pts": 650, "units": "2 Revenant Titans", "upgrades": []},
             {"id": 541, "name": "Warlock Titan", "pts": 850, "upgrades": []},
             {"id": 542, "name": "Nightwing Aerie", "pts": 75, "upgrades": [67]},
             {"id": 543, "name": "Hemlock Aerie", "pts": 225, "units": "2 Hemlock Wraithfighters", "upgrades": []},
@@ -61,7 +61,12 @@
        {"id": 30, "name": "5 Eldar Guardians, 3 Wave Serpents", "pts": 0},
        {"id": 31, "name": "3 Eldar Guardians, 2 Wraithguards, 4 Wave Serpents", "pts": 100},
 
-      {"id": 39, "name": "Exarch", "pts": 50},
+       {"id": 35, "name": "3 Wraithknights (Twin Heavy Wraithcannon)", "pts": 0},
+       {"id": 36, "name": "3 Wraithknights (Ghostglaive and Scattershield)", "pts": 0},
+       {"id": 37, "name": "3 Wraithknights (Suncannon)", "pts": 0},
+
+
+      {"id": 39, "name": "Exarch", "pts": 25},
 
       {"id": 41, "name": "4 Wave Serpents", "pts": 150},
       {"id": 42, "name": "3 Wave Serpents", "pts": 100},
@@ -122,6 +127,8 @@
       {"max": 6, "min": 4, "from": [26], "appliesTo": [531]},
 
       {"max": 3, "min": 1, "from": [47,48,49], "appliesTo": [533]},
+
+      {"max": 1, "min": 1, "from": [35,36,37], "appliesTo": [540]},
 
       {"max": 3, "min": 2, "from": [67], "appliesTo": [542]}
 

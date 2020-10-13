@@ -4,7 +4,7 @@
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"LUGGANATH SPECIALS", "formations":[
-			{"id":500, "name":"Wraithgate",	"pts":0, 		"upgrades":[]},
+			{"id":500, "name":"Wraithgates",	"pts":-75, 		"upgrades":[60]},
 			{"id":501, "name":"Avatar",		"pts":50, 		"upgrades":[]}
 		]},
 
@@ -31,10 +31,10 @@
 		]},
 
 		{"name":"CRAFTWORLD TITANS & NAVY <br/> Max 33%", "formations":[
-			{"id":540, "name":"Nightwing Aerie",	"pts":75, "upgrades":[60]},
+			{"id":540, "name":"Skathach Wraithknights",	"pts":300, "upgrades":[]},
+			{"id":540, "name":"Crimson Hunters",	"pts":250, "units":"2 Nightshade Interceptors", "upgrades":[]},
 			{"id":542, "name":"Corsair Vampire Hunter","pts":225, "units":"Corsair Vampire Hunter", "upgrades":[]},
 			{"id":544, "name":"Hemlock Wraithfighters",	"pts":225, "units":"2 Hemlock Wraithfighters", "upgrades":[]},
-			{"id":543, "name":"Revenant Titans",	"pts":650, "units":"2 Revenant Titans", "upgrades":[]},
 			{"id":545, "name":"Wraithship",	"pts":150, "upgrades":[]},
 			{"id":546, "name":"Dragonship",	"pts":300, "upgrades":[]}
 		]}
@@ -64,7 +64,11 @@
 		{"id":51, "name":"Storm Serpent", 			"pts":200},
 		{"id":52, "name":"Scorpion", 				"pts":200},
 
-		{"id":60, "name":"Nightwing", 				"pts":75}
+		{"id":60, "name":"Wraithgate", 				"pts":75},
+
+		{"id": 75, "name": "2 Skathach Wraithknights (Twin Deathshroud Cannon)", "pts": 0},
+        {"id": 76, "name": "2 Skathach Wraithknights (Twin Inferno Lance)", "pts": 0}
+
 	],
 
 	"formationConstraints":[
@@ -72,8 +76,8 @@
 		{"max":1, "from":[501]},
 
 		{"max":1, "name":"Wraithhost", "from":[511], "forEach":[510], "name2":"Warhost"},
-		{"max":1, "name":"Troupes", "from":[520,521,522,524,525], "forEach":[510,511], "name2":"Warhost/Wraithhost"},
-		{"max":1, "name":"Veiled Path Saedaths", "from":[530,531,532,533,534], "forEach":[510,511], "name2":"Warhost/Wraithhost"},
+		{"max":1, "name":"Troupes", "from":[520,521,522,524,525], "forEach":[510,511], "name2":"Warhost / Wraithhost"},
+		{"max":1, "name":"Veiled Path Saedaths", "from":[530,531,532,533,534], "forEach":[510,511], "name2":"Warhost / Wraithhost"},
 		{"max":1, "from":[534]},
 		{"max":1, "from":[535]},
 
@@ -82,6 +86,8 @@
 	],
 	"upgradeConstraints":[
 		{"max":1, "perArmy":true, "from":[10]},
+
+		{"min":1, "max":2, "from":[60], "appliesTo":[500]},
 
 		{"max":3, "from":[20,21], "appliesTo":[510]},
 
@@ -94,7 +100,7 @@
 
 		{"min":1, "max":3, "from":[50,51,52], "appliesTo":[525]},
 
-		{"min":2, "max":3, "from":[60], "appliesTo":[540]}
+		{"min":1, "max":1, "from":[75,76], "appliesTo":[540]}
 
 
 

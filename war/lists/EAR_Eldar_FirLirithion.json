@@ -12,19 +12,17 @@
             {"id": 512, "name": "Phantom Titan", "pts": 700, "upgrades": [11]}
          ]},
       {"name": "FIR LIRITHION SCOUT TITANS <br/> Max 2 for each Battle Titan", "formations": [
-            {"id": 521, "name": "2 Revenant Titans", "pts": 650, "upgrades": [25]}
+            {"id": 521, "name": "Revenant Titans", "pts": 650, "upgrades": [25]}
 
 	 ]},
       {"name": "FIR LIRITHION TROUPES <br/> Max 3 for each Battle or Scout Titan formation", "formations": [
 	    {"id": 531, "name": "Engines of Vaul", "pts": 50, "upgrades": [17,18,19, 11]},
-        {"id": 532, "name": "Fire Gale Troupe", "pts": 300, "units": "Two Fire Gale Knights", "upgrades": []},
-        {"id": 533, "name": "Bright Stallion Troupe", "pts": 250, "units": "Two Bright Stallion Knights", "upgrades": []},
-	    {"id": 534, "name": "Wraithknight Troupe", "pts": 325, "units": "Three Wraithknights", "upgrades": []},
+	    {"id": 534, "name": "Wraithknights", "pts": 325, "upgrades": []},
         {"id": 535, "name": "Spirit Guard Wraithhost", "pts": 225, "units": "Spiritseer", "upgrades": [41,47,48,49,55]}
 	]},
       {"name": "CRAFTWORLD NAVY <br/> Max 25%", "formations": [
           {"id": 540, "name": "Nightwing Aerie", "pts": 75, "upgrades": [20]},
-          {"id": 541, "name": "Phoenix Aerie", "pts": 100,  "upgrades": [21]},
+          {"id": 541, "name": "Vampire Hunter", "pts": 225, "upgrades": []},
           {"id": 542, "name": "Vampire Raider", "pts": 200, "upgrades": []},
           {"id": 550, "name": "Wraithship", "pts": 150, "upgrades": []},
           {"id": 551, "name": "Dragonship", "pts": 300, "upgrades": []}
@@ -54,7 +52,12 @@
       {"id": 63, "name": "Titan D-Cannon", "pts": 0},
       {"id": 64, "name": "Vibro Cannon", "pts": 0},
       {"id": 65, "name": "Eldar Titan Power Fist", "pts": 0},
-      {"id": 66, "name": "Ashuna-Valcry'le", "pts": 0}
+      {"id": 66, "name": "Ashuna-Valcry'le", "pts": 0},
+
+      {"id": 75, "name": "3 Wraithknights (Twin Heavy Wraithcannon)", "pts": 0},
+      {"id": 76, "name": "3 Wraithknights (Ghostglaive and Scattershield)", "pts": 0},
+      {"id": 77, "name": "3 Wraithknights (Suncannon)", "pts": 0}
+
    ],
    "formationConstraints": [
       {"max": 1, "from": [500]},
@@ -78,10 +81,11 @@
 
       {"max": 3, "min": 1, "from": [17,18,19], "appliesTo": [531]},
 
+      {"max": 1, "min": 1, "from": [75,76,77], "appliesTo": [534]},
+
       {"max": 1, "min": 1, "from": [45,46], "appliesTo": [535]},
 
       {"max": 3, "min": 2, "from": [20], "appliesTo": [540]},
-      {"max": 3, "min": 2, "from": [21], "appliesTo": [541]},
       {"max": 1, "min": 0, "from": [25], "appliesTo": [521]}
 
 

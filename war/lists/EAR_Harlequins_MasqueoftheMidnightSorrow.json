@@ -5,7 +5,7 @@
 	"notes":["No Raider / Tantalus / Barge of Pleasure transport space may be left over if possible."],
 	"sections":[
 		{"name":"WRAITHKIND SPECIALS", "formations":[
-			{"id":561, "name":"Wraithgate", "pts":0, "upgrades":[]}
+			{"id":561, "name":"Wraithgates", "pts":-75, "upgrades":[75]}
 		]},
 		{"name":"WRAITHKIND KABALS", "formations":[
 			{"id":511, "name":"Wraithkind Coterie", "pts":225, "upgrades":[57,61,69,70,71]},
@@ -30,11 +30,11 @@
 		]},
 
 		{"name":"COMMORRAGH NAVY & WAR ENGINES <br/> Max 33%", "formations":[
-			{"id":522, "name":"Torture Class Cruiser", "pts":300, "upgrades":[]},
+			{"id":528, "name":"Tormentor Titan", "pts":350, "upgrades":[]},
 			{"id":523, "name":"Slavebringer Assault Boat", "pts":200, "upgrades":[]},
 			{"id":526, "name":"Razorwing Cast", "pts":200, "units":"2 Razorwing Interceptors", "upgrades":[]},
 			{"id":527, "name":"Voidraven Cast", "pts":225, "units":"2 Voidraven Interdictors", "upgrades":[]},
-			{"id":528, "name":"Tormentor Titan", "pts":350, "upgrades":[]}
+			{"id":522, "name":"Torture Class Cruiser", "pts":300, "upgrades":[]}
 		]}
 	],
 	"upgrades":[
@@ -58,12 +58,15 @@
 		{"id":61, "name":"Ravager", "pts":50},
 		{"id":62, "name":"Warp Beasts", "pts":25},
 
+		{"id":63, "name":"4 Wyches", "pts":0},
+		{"id":64, "name":"6 Wyches", "pts":50},
+
 		{"id":69, "name":"Raider", "pts":0},
 		{"id":70, "name":"Tantalus", "pts":25},
 		{"id":71, "name":"Barge of Pleasure", "pts":125},
 
-		{"id":63, "name":"4 Wyches", "pts":0},
-		{"id":64, "name":"6 Wyches", "pts":50},
+
+		{"id":75, "name":"Wraithgate", "pts":75},
 
 		{"id":83, "name":"Reaver Jet Bikes", "pts":25}
 
@@ -76,7 +79,7 @@
 		{"max":1, "from":[535]},
 		{"min":1, "max":1, "from":[511]},
 		{"max":1, "name":"Partisans", "from":[501,502,503,504,505,506,507,508], "forEach":[511,512,513], "name2":"Kabal"},
-		{"max":1, "name":"Midnight Sorrow Saedaths", "from":[530,531,532,533,534], "forEach":[511,512,513], "name2":"Kabal"},
+		{"max":1, "name":"Midnight Sorrow Saedaths", "from":[530,531,532,533,534,535], "forEach":[511,512,513], "name2":"Kabal"},
 		{"max":1, "name":"Spacecraft", "from":[522]}
 	],
 	"upgradeConstraints":[
@@ -98,7 +101,8 @@
 		{"max":2, "from":[61], "appliesTo":[511,512,513]},
 		{"min":1, "max":1, "from":[17,2], "appliesTo":[512]},
 		{"max":1, "from":[55]},
-		{"max":1, "from":[57]}
+		{"max":1, "from":[57]},
+		{"min":1, "max":2, "from":[75], "appliesTo":[561]}
 
 	]
 }
