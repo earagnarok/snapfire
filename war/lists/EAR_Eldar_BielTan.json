@@ -13,7 +13,7 @@
          ]},
       {"name": "TROUPES <br/> Max 2 for each Warhost", "formations": [
             {"id": 500, "name": "Rangers", "pts": 0, "upgrades": [11]},
-            {"id": 501, "name": "War Walker Troupe", "pts": 50, "upgrades": [42]},
+            {"id": 501, "name": "War Walker Troupe", "pts": 150, "units": "4 War Walkers", "upgrades": [42]},
             {"id": 502, "name": "Wind Rider Troupe", "pts": 200, "upgrades": []},
             {"id": 503, "name": "Swords of Vaul", "pts": 250, "upgrades": []},
             {"id": 504, "name": "Night Spinner Troupe", "pts": 175, "units": "3 Night Spinners", "upgrades": []},
@@ -100,7 +100,6 @@
       {"max": 1, "from": [46], "appliesTo": [501,502,503,504,505,506,530]},
       {"max": 6, "min": 6, "from": [27,28], "appliesTo": [502]},
       {"max": 3, "min": 2, "from": [54], "appliesTo": [520]},
-      {"max": 6, "min": 4, "from": [42], "appliesTo": [501]},
       {"max": 1, "min": 1, "from": [30,31,32,33], "appliesTo": [503]},
       {"max": 3, "min": 1, "from": [34,35,36], "appliesTo": [505]},
       {"max": 3, "min": 1, "from": [37], "appliesTo": [506]},

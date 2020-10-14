@@ -18,7 +18,7 @@
             ]},
       {"name": "ULTHWÉ LINE TROUPES <br/> Max 2 for each Warhost", "formations": [
             {"id": 530, "name": "Ranger Troupe", "pts": 0, "upgrades": [11]},
-            {"id": 531, "name": "War Walker Troupe", "pts": 50, "upgrades": [26]},
+            {"id": 531, "name": "War Walker Troupe", "pts": 150, "units": "4 War Walkers", "upgrades": [26]},
             {"id": 532, "name": "Night Spinner Troupe", "pts": 175, "units": "3 Night Spinners", "upgrades": []},
             {"id": 533, "name": "Engines of Vaul Troupe", "pts": 50, "upgrades": [47,48,49]},
             {"id": 534, "name": "Fire Prism Troupe", "pts": 250, "units": "3 Fire Prisms", "upgrades": []}
@@ -123,8 +123,6 @@
 
 
       {"max": 6, "min": 5, "from": [11], "appliesTo": [530]},
-
-      {"max": 6, "min": 4, "from": [26], "appliesTo": [531]},
 
       {"max": 3, "min": 1, "from": [47,48,49], "appliesTo": [533]},
 

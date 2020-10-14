@@ -15,7 +15,7 @@
       {"name": "TROUPES <br/> Max 2 for each Wraithhost", "formations": [
             {"id": 612, "name": "Guardian Warhost", "pts": 150, "units": "Farseer", "upgrades": [14,41,44,51,52,53,55]},
             {"id": 613, "name": "Rangers", "pts": 0, "upgrades": [11]},
-       	    {"id": 614, "name": "War Walker Troupe", "pts": 50,"upgrades": [71]},
+       	    {"id": 614, "name": "War Walker Troupe", "pts": 150, "units": "4 War Walkers", "upgrades": [71]},
             {"id": 615, "name": "Windrider Troupe", "pts": 200, "upgrades": []},
             {"id": 616, "name": "Swords of Vaul", "pts": 250, "upgrades": []},
             {"id": 617, "name": "Night Spinner Troupe", "pts": 175, "units": "3 Night Spinners", "upgrades": []},
@@ -117,7 +117,6 @@
 
       {"max": 6, "min": 5, "from": [11], "appliesTo": [613]},
       {"max": 1, "from": [46], "appliesTo": [501,502,503,504,505,530]},
-      {"max": 6, "min": 4, "from": [71], "appliesTo": [614]},
       {"max": 6, "min": 6, "from": [27,28], "appliesTo": [615]},
       {"max": 1, "min": 1, "from": [30,31,32,33], "appliesTo": [616]},
       {"max": 3, "min": 1, "from": [47,48,49], "appliesTo": [618]},
