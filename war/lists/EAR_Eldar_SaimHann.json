@@ -14,7 +14,7 @@
          ]},
       {"name": "TROUPES <br/> Max 3 per Warhost", "formations": [
             {"id": 502, "name": "Hornet Troupe", "pts": 0, "upgrades": [80]},
-            {"id": 503, "name": "Swords of Vaul", "pts": 250, "upgrades": []},
+            {"id": 503, "name": "Swords of Vaul", "pts": 250, "upgrades": [33]},
             {"id": 504, "name": "Fire Spinner Troupe", "pts": 225, "units": "3 Night Spinners, Firestorm", "upgrades": []},
             {"id": 505, "name": "Engines of Vaul", "pts": 50, "upgrades": [51,52,53]},
             {"id": 506, "name": "Void Spinner", "pts": 50, "upgrades": [54]},
@@ -39,7 +39,7 @@
       {"id": 30, "name": "5 Falcons", "pts": 0},
       {"id": 31, "name": "4 Falcons, Firestorm", "pts": 0},
       {"id": 32, "name": "3 Falcons, 2 Firestorms", "pts": 0},
-      {"id": 33, "name": "5 Falcons, 5 Guardians", "pts": 50},
+      {"id": 33, "name": "5 Guardians", "pts": 50},
       {"id": 39, "name": "Exarch", "pts": 25},
 
       {"id": 49, "name": "Mounted Farseer", "pts": 25},
@@ -107,7 +107,8 @@
       {"max": 6, "min": 4, "from": [80], "appliesTo": [502]},
       {"max": 1, "from": [46], "appliesTo": [501,503,504,505,530]},
       {"max": 2, "from": [31], "appliesTo": [503]},
-      {"max": 1, "min": 1, "from": [30,31,32,33], "appliesTo": [503]},
+      {"max": 1, "min": 1, "from": [30,31,32], "appliesTo": [503]},
+      {"max": 1, "from": [33], "appliesTo": [503]},
       {"max": 3, "min": 1, "from": [51,52,53], "appliesTo": [505]},
       {"max": 6, "min": 6, "from": [131,132,133,134,135], "appliesTo": [531]},
       {"max": 6, "min": 6, "from": [85,86], "appliesTo": [532]},

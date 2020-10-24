@@ -8,14 +8,15 @@
          "name": "BAD MOONS BIG MOB GARGANTS <br/> At least 1 Mega Gargant or Great Gargant",
          "formations": [
             {"id": 501, "name": "Mega Gargant", "pts": 950, "upgrades": [10,15]},
-            {"id": 502, "name": "Great Gargant", "pts": 775, "upgrades": [10,15,16]},
-            {"id": 503, "name": "Gargant", "pts": 575, "upgrades": [16]}
+            {"id": 502, "name": "Great Gargant", "pts": 750, "upgrades": [10,15,16]},
+            {"id": 503, "name": "Gargant", "pts": 550, "upgrades": [16]}
 	       ]
       },
 	  {
 		 "name": "BAD MOONS BIG MOB MOBS <br/> Max 3 for each Gargant",
          "formations": [
              {"id": 511, "name": "Bad Moons Warband", "pts": 5, "upgrades": [90,91,99,100,101,102,104,105,106,107,108,98,109,103,12,13,14]},
+             {"id": 517, "name": "Bad Moons Blitz Brigade", "pts": 30, "upgrades": [102,104,105,73,13,12,14,109]},
              {"id": 512, "name": "Bad Moons Rokkitzmob", "pts": 0, "upgrades": [95,99,102,109,12,13,14]},
              {"id": 516, "name": "Bad Moons Fortressmob", "pts": 250, "units":"Flash Gitz, 3 Boyz, Grotz, Gunfortress", "upgrades": [12,13,14,102,104,105]},
 
@@ -46,6 +47,9 @@
       {"id": 16, "name": "Big Banner of Mork (Leader)", "pts": 25},
 
       {"id": 20, "name": "Fighta-Bommer", "pts": 50},
+
+      {"id": 73, "name": "Gunfortress", "pts": 100},
+
       {"id": 90, "name": "Stompa w/ 3 Big Gunz", "pts": 60},
       {"id": 91, "name": "Stompa w/ Kombat 'Ammer, 2 Big Gunz", "pts": 60},
 
@@ -65,14 +69,14 @@
       {"id": 108, "name": "Boyz + Grotz", "pts": 35},
       {"id": 109, "name": "Flash Gitz", "pts": 35},
 
-      {"id": 110, "name": "Supa Stompa w/ Gaze of Mork, 3 Soopaguns", "pts": 250},
-      {"id": 111, "name": "Supa Stompa w/ Gaze of Gork, 3 Soopaguns", "pts": 250},
-      {"id": 112, "name": "Supa Stompa w/ Gaze of Mork, 2 Soopaguns, Killa-Choppa", "pts": 250},
-      {"id": 113, "name": "Supa Stompa w/ Gaze of Gork, 2 Soopaguns, Killa-Choppa", "pts": 250},
-      {"id": 114, "name": "Supa Stompa w/ Gaze of Mork, 2 Soopaguns, Dakka Kannon", "pts": 250},
-      {"id": 115, "name": "Supa Stompa w/ Gaze of Gork, 2 Soopaguns, Dakka Kannon", "pts": 250},
-      {"id": 116, "name": "Supa Stompa w/ Gaze of Mork, Soopagun, Killa-Choppa, Dakka Kannon", "pts": 250},
-      {"id": 117, "name": "Supa Stompa w/ Gaze of Gorks, Soopagun, Killa-Choppa, Dakka Kannon", "pts": 250},
+      {"id": 110, "name": "Supa Stompa w/ Gaze of Mork, 3 Soopaguns", "pts": 225},
+      {"id": 111, "name": "Supa Stompa w/ Gaze of Gork, 3 Soopaguns", "pts": 225},
+      {"id": 112, "name": "Supa Stompa w/ Gaze of Mork, 2 Soopaguns, Killa-Choppa", "pts": 225},
+      {"id": 113, "name": "Supa Stompa w/ Gaze of Gork, 2 Soopaguns, Killa-Choppa", "pts": 225},
+      {"id": 114, "name": "Supa Stompa w/ Gaze of Mork, 2 Soopaguns, Dakka Kannon", "pts": 225},
+      {"id": 115, "name": "Supa Stompa w/ Gaze of Gork, 2 Soopaguns, Dakka Kannon", "pts": 225},
+      {"id": 116, "name": "Supa Stompa w/ Gaze of Mork, Soopagun, Killa-Choppa, Dakka Kannon", "pts": 225},
+      {"id": 117, "name": "Supa Stompa w/ Gaze of Gorks, Soopagun, Killa-Choppa, Dakka Kannon", "pts": 225},
 
 
       {"id": 130, "name": "Soopagun (Arm)", "pts": 0},
@@ -141,6 +145,8 @@
       {"min": 8, "from": [100], "appliesTo": [514]},
       {"min": 12, "from": [100], "appliesTo": [515]},
 
+      {"min": 4, "from": [102,104,105], "appliesTo": [517]},
+      {"max": 1, "from": [109], "appliesTo": [517]},
 
       {"min": 1, "max": 1, "from": [120,121], "appliesTo": [502]},
       {"min": 2, "max": 2, "from": [140,141,142,143], "appliesTo": [502]},
