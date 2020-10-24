@@ -90,7 +90,8 @@
 
       {"id": 102, "name": "Farseer", "pts": 0},
       {"id": 103, "name": "Seer Council", "pts": 50}
-   ],
+
+  ],
    "formationConstraints": [
       {"max": 1, "min": 0, "from": [500]},
       {"max": 1, "min": 1, "from": [501]},
@@ -100,7 +101,7 @@
       {"max": 2, "name": "Troupes", "from": [528,529,530,531,532,533,534], "forEach": [510,511,512], "name2": "Ulthwé Warhost"}
 	  ],
    "upgradeConstraints": [
-      {"max": 1, "perArmy": true, "from": [103]},
+      {"max": 1, "perArmy": true, "from": [101,103]},
 
       {"max": 1, "from": [10]},
       {"max": 1, "from": [39]},
@@ -109,7 +110,7 @@
       {"max": 3, "from": [51]},
 
       {"max": 1, "min": 1, "from": [100,101], "appliesTo": [510]},
-      {"max": 7, "min": 7, "from": [24,25], "appliesTo": [510]},
+      {"max": 6, "min": 6, "from": [24,25], "appliesTo": [510]},
       {"max": 3, "min": 0, "from": [25], "appliesTo": [510]},
 
       {"max": 1, "min": 1, "from": [102,103], "appliesTo": [511]},
