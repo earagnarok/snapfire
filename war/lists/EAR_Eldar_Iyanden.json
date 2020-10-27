@@ -13,7 +13,6 @@
             {"id": 512, "name": "Spirit Walker Wraithhost", "pts": 325,  "units": "5 Wraithlords",  "upgrades": []}
         ]},
       {"name": "TROUPES <br/> Max 2 for each Wraithhost", "formations": [
-            {"id": 612, "name": "Guardian Warhost", "pts": 150, "units": "Farseer", "upgrades": [14,41,44,51,52,53,55]},
             {"id": 613, "name": "Rangers", "pts": 0, "upgrades": [11]},
        	    {"id": 614, "name": "War Walker Troupe", "pts": 150, "units": "4 War Walkers", "upgrades": []},
             {"id": 616, "name": "Swords of Vaul", "pts": 250, "upgrades": [33]},
@@ -27,7 +26,7 @@
             {"id": 519, "name": "Revenant Titans", "pts": 650, "units": "2 Revenant Titans", "upgrades": []},
             {"id": 518, "name": "Phantom Titan", "pts": 700, "upgrades": []},
             {"id": 520, "name": "Nightwing Aerie", "pts": 75, "upgrades": [67]},
-            {"id": 521, "name": "Hemlock Wraithfighters", "pts": 225,  "units": "2 Hemlock Wraithfighters",  "upgrades": []},
+            {"id": 521, "name": "Hemlock Aerie", "pts": 225,  "units": "2 Hemlock Wraithfighters",  "upgrades": []},
             {"id": 522, "name": "Vampire Raider", "pts": 200, "upgrades": []},
             {"id": 515, "name": "Wraithship", "pts": 150, "upgrades": []},
             {"id": 516, "name": "Dragonship", "pts": 300, "upgrades": []}
