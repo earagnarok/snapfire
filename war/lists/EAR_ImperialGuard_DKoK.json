@@ -13,6 +13,7 @@
 			{ "id":511, "name":"Leman Russ Platoon", "pts":375, "upgrades":[32] },
 			{ "id":512, "name":"Macharius Company", "pts":375, "units":"2 Macharius", "upgrades":[] },
 			{ "id":513, "name":"Artillery Emplacement", "pts":250, "upgrades":[21] },
+			{"id":509, "name":"Deathstrike Battery", "pts":225, "units":"2 Deathstrike", "upgrades":[]},
 			{ "id":514, "name":"Griffon Battery", "pts":200, "upgrades":[] },
 			{ "id":515, "name":"Siege Infantry Company", "pts":300, "units":"DKoK Commander with a Commissar, 9 Siege Infantry, 40cm Trenches, 40cm Razor Wire", "upgrades":[16,17,18,19] },
 			{ "id":519, "name":"Flak Emplacement", "pts":175, "upgrades":[] },
@@ -78,7 +79,7 @@
 	],
 	"formationConstraints":[
 		{"maxPercent": 33.5, "name":"Titans & Navy", "from":[531,532,533,534]},
-		{"max":3, "name":"Support Formations", "from":[510,511,512,513,514,515,516,517,518,519,520,521], "forEach":[501,502,503], "name2":"Core Company"},
+		{"max":3, "name":"Support Formations", "from":[509,510,511,512,513,514,515,516,517,518,519,520,521], "forEach":[501,502,503], "name2":"Core Company"},
 		{"max":1, "from":[534]},
 		{"max":1, "from":[518]},
 		{"max":1, "from":[501]}

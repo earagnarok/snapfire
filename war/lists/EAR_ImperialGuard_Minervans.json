@@ -6,12 +6,13 @@
 		{"name":"MINERVAN COMPANIES", "formations":[
 			{"id":500, "name":"Minervan Tank Company", 			"pts":500, "upgrades":[42,53,17]},
 			{"id":501, "name":"Minervan Super-Heavy Company", 	"pts":525, "upgrades":[42, 43,44,45,46,47,48,49]},
-			{"id":503, "name":"Artillery Company", 				"pts":400, "units":"Commissar-Captain", "upgrades":[42,25]}
+			{"id":503, "name":"Artillery Company", 				"pts":400, "units":"Commissar-Captain", "upgrades":[42]}
 		]},
 		{"name":"MINERVAN SUPPORT FORMATIONS <br/> Max 3 for each Company", "formations":[
 			{"id":512, "name":"Leman Russ Squadron", 					"pts":275, "upgrades":[17, 42]},
 			{"id":509, "name":"Mechanized Infantry Platoon", 			"pts":225, "units":"6 Infantry, 3 Chimeras", "upgrades":[17, 43,44,45,46,47,48,49]},
-			{"id":516, "name":"Artillery Battery",						"pts":225, "upgrades":[25]},
+			{"id":516, "name":"Artillery Battery",						"pts":225, "upgrades":[]},
+			{"id":514, "name":"Deathstrike Battery", "pts":225, "units":"2 Deathstrike", "upgrades":[]},
 			{"id":513, "name":"Tank Hunter Squadron",					"pts":200,  "units":"3 Leman Russ Destroyers", "upgrades":[]},
 			{"id":511, "name":"Super-Heavy Platoon", 					"pts":200, "upgrades":[]},
 			{"id":515, "name":"Salamander Squadron",					"pts":150, "units":"4 Salamander Scout Tanks", "upgrades":[]},
