@@ -5,7 +5,7 @@
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"SNAKEBITES WAR HORDES", "formations":[
-			{"id":500, "name":"Snakebites Warband",				"pts":5,	"upgrades":[11,39,13,23,52,29,57,60,61,58,67,40,41,42]},
+			{"id":500, "name":"Snakebites Warband",				"pts":-5,	"upgrades":[11,39,13,23,52,29,57,60,61,58,67,40,41,42]},
 			{"id":503, "name":"Wildboyz",				"pts": 15, "upgrades":[23,13, 52,29,57,60,58,67]},
 			{"id":504, "name":"Wildboyz (Big)",		"pts":-20,	"upgrades":[23,13, 52,29,57,60,61,58,67]},
 			{"id":506, "name":"Boarboyz Horde",		"pts":0,	"upgrades":[29,30,58,67]},
@@ -19,7 +19,7 @@
 		]}
 	],
 	"upgrades":[
-		{"id":11, "name":"Boyz",				"pts":25},
+		{"id":11, "name":"Boyz",				"pts":20},
 		{"id":12, "name":"Boyz + Junkatrukk",	"pts":25},
 		{"id":13, "name":"Nobz",				"pts":35},
 		{"id":14, "name":"Nobz + Junkatrukk",	"pts":35},

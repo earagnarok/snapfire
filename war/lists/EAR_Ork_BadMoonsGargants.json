@@ -15,7 +15,7 @@
 	  {
 		 "name": "BAD MOONS BIG MOB MOBS <br/> Max 3 for each Gargant",
          "formations": [
-             {"id": 511, "name": "Bad Moons Warband", "pts": 5, "upgrades": [90,91,99,100,101,102,104,105,106,107,108,98,109,103,12,13,14]},
+             {"id": 511, "name": "Bad Moons Warband", "pts": -5, "upgrades": [90,91,99,100,101,102,104,105,106,107,108,98,109,103,12,13,14]},
              {"id": 517, "name": "Bad Moons Blitz Brigade", "pts": 30, "upgrades": [102,104,105,73,13,12,14,109]},
              {"id": 512, "name": "Bad Moons Rokkitzmob", "pts": 0, "upgrades": [95,99,102,109,12,13,14]},
              {"id": 516, "name": "Bad Moons Fortressmob", "pts": 250, "units":"Flash Gitz, 3 Boyz, Grotz, Gunfortress", "upgrades": [12,13,14,102,104,105]},
