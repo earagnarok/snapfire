@@ -4,10 +4,10 @@
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"CORE COMPANY FORMATIONS", "formations":[
-			{"id":500, "name":"Regimental HQ", 				"pts":375, "units":"Steel Legion Supreme Commander with a Commissar",  "upgrades":[45,48,50,53,54,57,58,52,55,59,60,61,62,63]},
-			{"id":501, "name":"Infantry Company", 			"pts":250, "units":"Steel Legion Commander with a Commissar", "upgrades":[45,49,51,53,54,57,58,66,56,59,60,61,64,65]},
-			{"id":502, "name":"Mechanized Infantry Company", 	"pts":325, "units":"Steel Legion Commander with a Commissar", "upgrades":[45,48,50,53,54,57,58,52,55,59,60,61,62,63]},
-			{"id":503, "name":"Tank Company", 			"pts":500, "units":"Leman Russ Vanquisher with a Commissar, 7 Leman Russ", "upgrades":[45,53,54,57,58]},
+			{"id":500, "name":"Regimental HQ", 				"pts":375, "units":"Steel Legion Supreme Commander with a Commissar",  "upgrades":[45,48,50,54,57,58,52,55,59,60,61,62,63]},
+			{"id":501, "name":"Infantry Company", 			"pts":250, "units":"Steel Legion Commander with a Commissar", "upgrades":[45,49,51,54,57,58,66,56,59,60,61,64,65]},
+			{"id":502, "name":"Mechanized Infantry Company", 	"pts":325, "units":"Steel Legion Commander with a Commissar", "upgrades":[45,48,50,54,57,58,52,55,59,60,61,62,63]},
+			{"id":503, "name":"Tank Company", 			"pts":500, "units":"Leman Russ Vanquisher with a Commissar, 7 Leman Russ", "upgrades":[45,54,57,58]},
 			{"id":504, "name":"Super-Heavy Company", 		"pts":525, "units":"Commissar", "upgrades":[45,52,55,66,56,54,57,58]},
 		 	{"id":505, "name":"Artillery Company", 			"pts":400, "units":"Commissar", "upgrades":[45]}
 		]},
@@ -21,7 +21,8 @@
 			{"id":517, "name":"Leman Russ Platoon", 			"pts":375, "upgrades":[]},
 			{"id":518, "name":"Flak Battery",				"pts":150, "upgrades":[], "units":"3 Hydras"},
 			{"id":519, "name":"Vulture Squadron",				"pts":300, "units":"4 Vultures", "upgrades":[]},
-			{"id":520, "name":"Mechanized Infantry Platoon", 	"pts":225, "units":"6 Infantry, 3 Chimera", "upgrades":[54,57,58]}
+			{"id":520, "name":"Mechanized Infantry Platoon", 	"pts":225, "units":"6 Infantry, 3 Chimera", "upgrades":[54,57,58]},
+			{"id":521, "name":"Griffon Battery",				"pts":175,  "units":"3 Griffons", "upgrades":[]}
 		]},
 		{"name":"COLLEGIA TITANICA AND IMPERIAL NAVY FORMATIONS <br/> Max 33%", "formations":[
 			{"id":530, "name":"Warhounds",		"pts":75, "upgrades":[70]},
@@ -100,7 +101,7 @@
 
 	],
 	"formationConstraints":[
-		{"max":2, "name":"Support Formations", "from":[509,510,511,512,514,515,516,517,518,519,520], "forEach":[500,501,502,503,504,505], "name2":"Company"},
+		{"max":2, "name":"Support Formations", "from":[509,510,511,512,514,515,516,517,518,519,520,521], "forEach":[500,501,502,503,504,505], "name2":"Company"},
 		{"maxPercent": 33.5, "name":"Titans & Navy", "from":[530,531,532,533,534,535]},
 		{"max":1, "from":[500]},
 		{"max":1, "from":[515]},

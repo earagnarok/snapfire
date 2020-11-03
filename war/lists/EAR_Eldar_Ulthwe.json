@@ -10,7 +10,7 @@
       {"name": "ULTHWÉ WARHOSTS", "formations": [
             {"id": 510, "name": "Black Guardian Warhost", "pts": 175, "upgrades": [43,44,51]},
             {"id": 511, "name": "Mounted Black Guardian Warhost", "pts": 275,  "upgrades": []},
-            {"id": 512, "name": "Swords of Ulthwé", "pts": 275,  "units": "4 Guardians", "upgrades": []}
+            {"id": 512, "name": "Swords of Ulthwé", "pts": 300,  "units": "4 Guardians", "upgrades": []}
          ]},
       {"name": "ULTHWÉ TROUPES <br/> Max 2 for each Warhost", "formations": [
             {"id": 528, "name": "Windriders", "pts": 200, "upgrades": []},

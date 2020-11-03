@@ -4,7 +4,7 @@
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"MINERVAN COMPANIES", "formations":[
-			{"id":500, "name":"Minervan Tank Company", 			"pts":500, "upgrades":[42,53,17]},
+			{"id":500, "name":"Minervan Tank Company", 			"pts":500, "upgrades":[42,17]},
 			{"id":501, "name":"Minervan Super-Heavy Company", 	"pts":525, "upgrades":[42, 43,44,45,46,47,48,49]},
 			{"id":503, "name":"Artillery Company", 				"pts":400, "units":"Commissar-Captain", "upgrades":[42]}
 		]},
@@ -104,6 +104,7 @@
 	],
 	"upgradeConstraints":[
 		{"max":1, "perArmy":true, "from":[10,12,14]},
+		{"max":1, "from":[42]},
 		{"max":3, "from":[17]},
 		{"max":1, "from":[43,44,45,46,47,48,49]},
 		{"max":1, "from":[53]},

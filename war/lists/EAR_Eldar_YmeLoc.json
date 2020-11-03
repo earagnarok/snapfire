@@ -9,7 +9,7 @@
 		]},
 		{"name":"VAULHOSTS", "formations":[
 			{"id":510, "name":"Engines of Vaul", "pts":50, "upgrades":[40,34,35,36]},
-			{"id":511, "name":"Swords of Vaul",	"pts":300, "upgrades":[]}
+			{"id":511, "name":"Swords of Vaul",	"pts":300, "upgrades":[29]}
 
 		]},
 		{"name":"TROUPES <br/> Max 2 for each Vaulhost", "formations":[
@@ -46,7 +46,7 @@
         {"id":26, "name":"6 Falcons",		"pts":0},
 		{"id":27, "name":"5 Falcons, Fire Storm",	"pts":0},
         {"id":28, "name":"4 Falcons, 2 Fire Storms",	"pts":0},
-        {"id":29, "name":"6 Falcons, 6 Guardians",	"pts":50},
+        {"id":29, "name":"6 Guardians",	"pts":75},
 
 		{"id":32, "name":"Hornet",	"pts":50},
 
@@ -72,10 +72,11 @@
 	],
 	"upgradeConstraints":[
  		{"max":1, "from":[39]},
+		{"max":1, "from":[29]},
 		{"max":1, "perArmy":true, "from":[40]},
 
 		{"min":1, "max":3, "from":[34,35,36], "appliesTo":[510]},
-		{"min":1, "max":1, "from":[26,27,28,29], "appliesTo":[511]},
+		{"min":1, "max":1, "from":[26,27,28], "appliesTo":[511]},
 		{"min":5, "max":5, "from":[24,25], "appliesTo":[524]},
         {"max":3, "from":[25]},
 
