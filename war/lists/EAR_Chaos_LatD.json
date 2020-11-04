@@ -32,10 +32,11 @@
          ]}
    ],
 	"upgrades":[
+		{"id":8, "name":"Aspiring Champion with Arch-Heretic", 		"pts":50},
 		{"id":9, "name":"Champion of Chaos", 		"pts":50},
 		{"id":10, "name":"Aspiring Champion", 		"pts":0},
 		{"id":11, "name":"Demagogue", 		"pts":25},
-		{"id":12, "name":"Demagogue with Arch-Heretic", 		"pts":50},
+		{"id":12, "name":"Demagogue with Arch-Heretic", 		"pts":75},
 		{"id":13, "name":"Daemon Prince", 		"pts":100},
 		{"id":14, "name":"Icon Bearer", "pts":25},
 
@@ -83,10 +84,9 @@
 		{"min":1, "max":1, "from":[500]}
 	],
 	"upgradeConstraints":[
-		{"max":1, "perArmy":true, "from":[12,13]},
+		{"max":1, "perArmy":true, "from":[8,12,13]},
 
-		{"min":1, "from":[10,11,12,13], "appliesTo":[501]},
-		{"max":1, "from":[10,11,12,13], "appliesTo":[501]},
+		{"min":1, "max":1, "from":[10,11,8,12,13], "appliesTo":[501]},
 		{"max":1, "from":[14], "appliesTo":[501]},
 		{"min":9, "max":13, "from":[20,21,22], "appliesTo":[501]},
 		{"max":4, "from":[22], "appliesTo":[501]},
