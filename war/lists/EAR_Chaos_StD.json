@@ -16,9 +16,9 @@
 			{"id":502, "name":"Sentinel Squadron", "pts":100, "units":"4 Sentinels", "upgrades":[]},
 			{"id":503, "name":"Rough Rider Platoon", "pts":150, "units":"6 Rough Riders", "upgrades":[35]},
 			{"id":504, "name":"Artillery Battery", "pts":225, "units":"3 Basilisks", "upgrades":[]},
+			{"id":509, "name":"Griffon Battery",				"pts":175,  "units":"3 Griffons", "upgrades":[]},
 			{"id":506, "name":"Super-Heavy Platoon", "pts":200, "upgrades":[]},
-			{"id":507, "name":"Leman Russ Squadron", "pts":275, "upgrades":[]},
-			{"id":509, "name":"Griffon Battery",				"pts":175,  "units":"3 Griffons", "upgrades":[]}
+			{"id":507, "name":"Leman Russ Squadron", "pts":275, "upgrades":[]}
 	]},
 		{"name":"SLAVES TO DARKNESS CHAOS ALLIES <br/> Max 33% <br/> Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
 			{"id":531, "name":"Hell Blade Squadron", "pts":200, "units":"3 Hell Blade Interceptors", "upgrades":[]},
