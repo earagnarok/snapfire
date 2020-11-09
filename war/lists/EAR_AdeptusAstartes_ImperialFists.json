@@ -1,21 +1,22 @@
 {
 	"id":"<a href=\"https://magnusdurr.github.io/list-view/site.html\">EA-R</a> Imperial Fists",
-	"version":"Alpha 0.5.2 <a href=\"https://magnusdurr.github.io/list-view/index.html?race=SM&list=imperialfists\">Listview</a>",
+	"version":"Beta 0.6.0 <a href=\"https://magnusdurr.github.io/list-view/index.html?race=SM&list=imperialfists\">Listview</a>",
+	"notes":["Up to one formation in the army may take the Land Raider Achilles upgrade"],
 	"by":"EA-Ragnarok",
 
 	"sections":[
 		{"name":"IMPERIAL FISTS CORE DETACHMENTS", "formations":[
-			{"id":501, "name":"Tacticals",					"pts":275, "units":"6 Tacticals", "upgrades":[10,11,12,13, 15,16, 26,27, 28,29, 50,51]},
-            {"id":502, "name":"Devastators",				"pts":250, "units":"4 Devastators", "upgrades":[10,11,12,13, 15,16, 26,27, 28,29, 50,51]},
+			{"id":501, "name":"Tacticals",					"pts":275, "units":"6 Tacticals", "upgrades":[10,11,12,13, 15,16, 26,27, 28,29,30, 50,51]},
+            {"id":502, "name":"Devastators",				"pts":250, "units":"4 Devastators", "upgrades":[10,11,12,13, 15,16, 26,27, 28,29,30, 50,51]},
 			{"id":514, "name":"Whirlwinds",						"pts":275, "upgrades":[10,11,12,13, 15,16]},
-            {"id":503, "name":"Land Raiders",		     	"pts":250, "units":"3 Land Raiders", "upgrades":[15,16, 26,27]},
+            {"id":503, "name":"Land Raiders",		     	"pts":25, "upgrades":[10,11,12,13, 15,16, 26,27, 35,36]},
             {"id":504, "name":"Vindicators",		      	"pts":225, "upgrades":[10,11,12,13, 15,16]}
 
 		]},
 		{"name":"IMPERIAL FISTS SUPPORT DETACHMENTS <br/> Max 2 for each Core Detachment", "formations":[
             {"id":510, "name":"Land Speeders",	         		"pts":200, "upgrades":[10,11,12,13]},
-            {"id":511, "name":"Terminators",	               	"pts":350, "units":"4 Terminators", "upgrades":[10,11,12,13, 26,27, 28,29]},
-            {"id":512, "name":"Centurions",		                "pts":275, "upgrades":[10,11,12,13, 26,27, 28,29]},
+            {"id":511, "name":"Terminators",	               	"pts":350, "units":"4 Terminators", "upgrades":[10,11,12,13, 26,27, 28,29,30]},
+            {"id":512, "name":"Centurions",		                "pts":275, "upgrades":[10,11,12,13, 26,27, 28,29,30]},
 			{"id":513, "name":"Scouts",							"pts":150, "units":"4 Scouts plus transport",  "upgrades":[26,27, 44, 50,51]},
 			{"id":515, "name":"Predators",						"pts":250, "upgrades":[10,11,12,13, 15,16]},
 			{"id":516, "name":"Support Battery",				"pts":250, "upgrades":[10,11,12,13, 65,66,67]},
@@ -27,8 +28,8 @@
             { "id":522, "name":"Tarantula Emplacement",      "pts":125, "upgrades": [] },
             { "id":521, "name":"Hyperios Emplacement",       "pts":125,  "units":"3 Hyperios Sentries, 3 Gun Emplacements",     "upgrades":[] },
 			{"id":524, "name":"Bastion",	         		 "pts":225, "upgrades":[]},
-            { "id":523, "name":"Storm Talons",               "pts":200, "units":"2 Storm Talons", "upgrades":[] },
-            { "id":525, "name":"Reaver Titan",               "pts":600, "upgrades":[] }
+            { "id":525, "name":"Reaver Titan",               "pts":600, "upgrades":[] },
+			{ "id":523, "name":"Storm Talons",               "pts":200, "units":"2 Storm Talons", "upgrades":[] }
 		]}
 	],
 	"upgrades":[
@@ -100,7 +101,7 @@
 	],
 	"upgradeConstraints":[
         {"max":1, "perArmy":true, "from":[13]},
-        {"max":1, "name":"Leader", "from":[10,11,12,13,30]},
+        {"max":1, "from":[10,11,12,13]},
 
 
         {"max":1, "from":[15,16]},
@@ -109,7 +110,7 @@
         {"max":2, "from":[65,66,67]},
 
         {"min":1, "max":1, "from":[54,55,56,57,58], "appliesTo":[501,502]},
-        {"min":0, "max":1, "from":[36], "appliesTo":[503]},
+        {"min":3, "max":4, "from":[35,36], "appliesTo":[503]},
         {"min":1, "max":1, "from":[23,24,25], "appliesTo":[504]},
         {"min":5, "max":5, "from":[19,20,21], "appliesTo":[510]},
 		{"min":0, "max":4, "from":[28], "appliesTo":[512]},
