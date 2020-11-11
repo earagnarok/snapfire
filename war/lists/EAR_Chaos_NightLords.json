@@ -23,7 +23,7 @@
 			{"id":521, "name":"Attack Company",	"pts":250, "units":"6 Chaos Attack Bikes", "upgrades":[15,44]}
 		]},
 		{"name":"NIGHT LORDS STATIC DEFENSES & NAVY <br/> Max 33% <br/> Max 1 Tarantula formation for each Chosen formation", "formations":[
-			{"id":529, "name":"Tarantula",	"pts":100, "units":"4 Chaos Tarantulas", "upgrades":[]},
+			{"id":529, "name":"Tarantula",	"pts":125, "units":"4 Chaos Tarantulas", "upgrades":[]},
 			{"id":531, "name":"Chaos Fire Raptor",	"pts":175,  "upgrades":[]},
 			{"id":530, "name":"Xiphon Squadron",	"pts":225, "units":"2 Chaos Xiphon Interceptors", "upgrades":[]},
 			{"id":533, "name":"Chaos Thunderhawk", "pts":225, "upgrades":[] },
