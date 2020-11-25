@@ -4,13 +4,13 @@
 		"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"IRON WARRIORS CORE FORMATIONS", "formations":[
-			{"id":500, "name":"Iron Warriors Retinue", "pts":225, "upgrades":[39,40,41,43,44,52,53,54,55,80]},
-			{"id":501, "name":"Iron Warriors Armoured Company", "pts":250, "upgrades":[44] },
-			{"id":502, "name":"Havocs",	"pts":300, "units":"4 Havocs, 2 Chaos Land Raiders", "upgrades":[43,44]}
+			{"id":500, "name":"Iron Warriors Retinue", "pts":225, "upgrades":[39,40,41,43,42,52,53,54,55,80]},
+			{"id":501, "name":"Iron Warriors Armoured Company", "pts":250, "upgrades":[] },
+			{"id":502, "name":"Havocs",	"pts":300, "units":"4 Havocs, 2 Chaos Land Raiders", "upgrades":[43]}
 		]},
 		{"name":"IRON WARRIORS ELITE FORMATIONS <br/> Max 1 for each Core formation", "formations":[
 			{"id":510, "name":"Chosen", "pts":125, "units":"4 Chosen", "upgrades":[43]},
-			{"id":511, "name":"Bezashk Destroyers",	"pts":200, "units":"4 Bezashk Destroyers", "upgrades":[43]},
+			{"id":511, "name":"Bezashk Destroyers",	"pts":200, "units":"Warpsmith, 4 Bezashk Destroyers", "upgrades":[43]},
 			{"id":512, "name":"Dreadnought Assault Pack", "pts":250, "upgrades":[54,55,80]},
 			{"id":513, "name":"Tyrant Terminators", "pts":275, "units":"4 Tyrant Siege Terminators",  "upgrades":[42,52,53,54,55,80]}
 		]},
@@ -23,7 +23,7 @@
 		{"name":"DARK MECHANICUS & CHAOS NAVY FORMATIONS <br/> Max 33%", "formations":[
 			{"id":532, "name":"Maulerfiends", "pts":200, "units":"4 Maulerfiends", "upgrades":[]},
 			{"id":533, "name":"Ordinatus Hereticus", "pts":325, "upgrades":[]},
-			{"id":534, "name":"Ordinatus Cyclothrathe", "pts":475, "upgrades":[]},
+			{"id":534, "name":"Ordinatus Cyclothrathe", "pts":450, "upgrades":[]},
 			{"id":537, "name":"Heldrakes",	"pts":225, "units":"2 Heldrakes", "upgrades":[]},
 			{"id":536, "name":"Harbringer Bomber", 	"pts":300, "upgrades":[]},
 			{"id":538, "name":"Devastation Class Cruiser",	"pts":150, "upgrades":[]},
@@ -50,7 +50,7 @@
 		{"id":37, "name":"2 Chaos Rhinos", 	"pts":25},
 		{"id":38, "name":"2 Chaos Siege Rhinos", 	"pts":25},
 
-		{"id":39, "name":"Chaos Siege Rhino", 	"pts":10},
+		{"id":39, "name":"Chaos Siege Rhino", 	"pts":15},
 		{"id":40, "name":"Chaos Rhino", 	"pts":10},
 		{"id":41, "name":"Chaos Land Raider", 	"pts":50},
 

@@ -8,7 +8,8 @@
 		{"name":"WHITE SCARS CORE DETACHMENTS", "formations":[
 			{"id":511, "name":"Tacticals",		"pts":275, "units":"6 Tacticals plus transport", "upgrades":[15,16,17,18,14,38,39,30,31,36,37,32,33]},
 			{"id":516, "name":"Vindicators",	"pts":300, "units":"6 White Scars Vindicators", "upgrades":[15,16,17,18,14,30,31]},
-			{"id":501, "name":"Bikes", 		"pts":325, "upgrades":[15,16,17,18,14]}
+			{"id":501, "name":"Bikes", 		"pts":325, "upgrades":[15,16,17,18,14]},
+			{"id":512, "name":"Terminators",		"pts":425, "units":"4 Terminators", "upgrades":[15,16,17,18,14,30,31,36,37]}
 		]},
 		{"name":"WHITE SCARS SUPPORT DETACHMENTS <br/> Max 3 for each Core Detachment", "formations":[
 			{"id":500, "name":"Assaults", 		"pts":175, "units":"4 Assaults", "upgrades":[15,16,17,18,14,36,37]},
@@ -17,7 +18,6 @@
 			{"id":515, "name":"Whirlwinds",		"pts":75, "upgrades":[42,36,37,15,16,17,18,14,30,31]},
 			{"id":506, "name":"Predators",		"pts":250, "upgrades":[15,16,17,18,14,30,31,36,37]},
 			{"id":505, "name":"Landing Craft",			"pts":350, "upgrades":[]},
-			{"id":512, "name":"Terminators",		"pts":425, "units":"4 Terminators", "upgrades":[15,16,17,18,14,30,31,36,37]},
 			{"id":509, "name":"Orbital Support",	"pts":200, "upgrades":[]}
 			]},
 		{"name":"WHITE SCARS NAVY & COLLEGIA TITANICA ALLIES <br/> Max 33%", "formations":[
@@ -69,7 +69,7 @@
 	],
 	"formationConstraints":[
 		{"max":1, "name":"Spacecraft", "from":[509]},
-		{"max":3, "name":"Support Detachment", "from":[512,500,504,506,515,522,509,505], "forEach":[511,501,516], "name2":"Core Detachment"},
+		{"max":3, "name":"Support Detachment", "from":[500,504,506,515,522,509,505], "forEach":[512,511,501,516], "name2":"Core Detachment"},
 		{"maxPercent": 33.5, "name":"Navy & Titans", "from":[513,517,524]}
 	],
 	"upgradeConstraints":[
