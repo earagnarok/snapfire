@@ -9,7 +9,7 @@
 		]},
 		{"name":"IRON HANDS SUPPORT DETACHMENTS <br/> Max 2 per Core Detachment", "formations":[
 			{"id":510, "name":"Dreadnought Talon", "pts":50, "units":"plus transport", "upgrades":[20,21,22,23,24]},
-			{"id":511, "name":"Land Raiders", "pts":25,"upgrades":[40,39,41, 56,57,58,59, 50]},
+			{"id":511, "name":"Land Raiders", "pts":125,"upgrades":[40,39,41, 56,57,58,59, 50]},
 			{"id":513, "name":"Predators", "pts":250, "upgrades":[56,57,58,59]},
 			{"id":514, "name":"Scouts", "pts":175, "units":"3 Scouts", "upgrades":[]},
 			{"id":518, "name":"Siege Scouts", "pts":250, "units":"4 Scouts, 2 Siege Rhinos, 2 Vindicators", "upgrades":[]},
@@ -56,9 +56,9 @@
 
 		{"id":33, "name":"May replace Rhinos with Siege Rhinos",			"pts":25},
 
-		{"id":39, "name":"Land Raider Helios (Hyperios)",		"pts":100},
-		{"id":40, "name":"Land Raider",				"pts":75},
-		{"id":41, "name":"Land Raider Helios (Whirlwind)",		"pts":100},
+		{"id":39, "name":"Land Raider Helios (Hyperios)",		"pts":75},
+		{"id":40, "name":"Land Raider",				"pts":50},
+		{"id":41, "name":"Land Raider Helios (Whirlwind)",		"pts":75},
 
 		{"id":42, "name":"Land Raider",				"pts":50},
 		{"id":43, "name":"Land Raider Anvilarium",	"pts":50},

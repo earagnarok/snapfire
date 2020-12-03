@@ -8,7 +8,7 @@
 		{"name":"IMPERIAL FISTS CORE DETACHMENTS", "formations":[
 			{"id":501, "name":"Tacticals",					"pts":275, "units":"6 Tacticals", "upgrades":[10,11,12,13, 15,16, 26,27, 28,29,30, 50,51]},
             {"id":502, "name":"Devastators",				"pts":225, "units":"4 Devastators", "upgrades":[10,11,12,13, 15,16, 26,27, 28,29,30, 50,51, 65,66,67]},
-            {"id":503, "name":"Land Raiders",		     	"pts":25, "upgrades":[15,16, 26,27, 35,36]},
+            {"id":503, "name":"Land Raiders",		     	"pts":125, "upgrades":[15,16, 26,27, 35,36]},
             {"id":504, "name":"Vindicators",		      	"pts":225, "upgrades":[15,16]}
 
 		]},
@@ -56,8 +56,8 @@
         { "id":29, "name":"Land Raider Crusader", "pts":50 },
         { "id":30, "name":"Land Raider Achilles", "pts":75 },
 
-        { "id":35, "name":"Land Raider", "pts":75 },
-        { "id":36, "name":"Land Raider Achilles", "pts":100 },
+        { "id":35, "name":"Land Raider", "pts":50 },
+        { "id":36, "name":"Land Raider Achilles", "pts":75 },
 
         { "id":38, "name":"4 Whirlwinds", "pts":0 },
         { "id":39, "name":"6 Whirlwinds", "pts":75 },
