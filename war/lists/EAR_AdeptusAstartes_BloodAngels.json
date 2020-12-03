@@ -12,10 +12,10 @@
 		]},
 		{"name":"BLOOD ANGELS SUPPORT DETACHMENTS <br/> Max 2 for each Core Detachment", "formations":[
 			{"id":507, "name":"Whirlwinds",						"pts":275, "units":"4 Blood Angels Whirlwinds", "upgrades":[31,32]},
-			{"id":508, "name":"Land Raiders",					"pts":25,  "upgrades":[31,32]},
+			{"id":508, "name":"Land Raiders",					"pts":125,  "upgrades":[48,49,31,32]},
 			{"id":510, "name":"Bikes",							"pts":200, "upgrades":[10,11,12,13]},
 			{"id":511, "name":"Devastators",					"pts":250, "units":"4 Devastators plus transport", "upgrades":[10,11,12,13, 31,32, 33,34, 35,36, 40]},
-			{"id":512, "name":"Blood Angels Terminators",		"pts":50, "upgrades":[10,11,12,13, 33,34, 40]},
+			{"id":512, "name":"Terminators",		"pts":50, "upgrades":[10,11,12,13, 33,34, 40]},
 			{"id":513, "name":"Scouts",							"pts":150, "upgrades":[29,30]},
 			{"id":514, "name":"Land Speeders",					"pts":200, "upgrades":[]},
 			{"id":523, "name": "Orbital Support",											"pts":0, "upgrades":[]}
@@ -75,8 +75,8 @@
 		{"id":44, "name":"4 Assaults",									"pts":0},
 		{"id":45, "name":"6 Assaults",									"pts":50},
 
-		{"id":48, "name":"Land Raider", 								"pts":75},
-		{"id":49, "name":"Land Raider Redeemer",						"pts":75},
+		{"id":48, "name":"Land Raider", 								"pts":50},
+		{"id":49, "name":"Land Raider Redeemer",						"pts":50},
 
 		{"id":50, "name":"Strike Cruiser",								"pts":200},
 		{"id":51, "name":"Battle Barge",								"pts":275},
@@ -127,7 +127,7 @@
 
 		{"min":1, "max":2, "from":[60], "appliesTo":[522]},
 
-		{"min":4, "max":4, "from":[48,49], "appliesTo":[508]},
+		{"min":3, "max":4, "from":[48,49], "appliesTo":[508]},
 		{"min":0, "max":3, "from":[33,34], "appliesTo":[503]},
 		{"min":0, "max":2, "from":[33,34], "appliesTo":[511]},
 

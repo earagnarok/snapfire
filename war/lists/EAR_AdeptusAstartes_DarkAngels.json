@@ -13,8 +13,8 @@
 
 		]},
 		{"name":"DARK ANGELS SUPPORT DETACHMENTS <br/> Max 3 for each Core Detachment", "formations":[
-			{"id":500, "name":"Assaults", 				"pts":175, "units":"4 Assaults", "upgrades":[10,11,12,13]},
-			{"id":502, "name":"Land Raiders",				"pts":25, "upgrades":[30,31,32, 35]},
+			{"id":500, "name":"Assaults", 				"pts":175, "units":"4 Assaults", "upgrades":[10,11,12,13, 45,46]},
+			{"id":502, "name":"Land Raiders",				"pts":125, "upgrades":[30,31,32, 35]},
 			{"id":504, "name":"Devastators",				"pts":250, "units":"4 Dark Angels Devastators plus transport", "upgrades":[30,31,32, 33, 36,37]},
 			{"id":510, "name":"Scouts",							"pts":150, "upgrades":[36,37]},
 			{"id":511, "name":"Whirlwinds",						"pts":275, "units":"4 Whirlwinds", "upgrades":[30,31,32]},
@@ -62,12 +62,15 @@
 
 		{"id":33, "name":"Land Raider", 								"pts":50},
 
-		{"id":35, "name":"Land Raider", 								"pts":75},
+		{"id":35, "name":"Land Raider", 								"pts":50},
 
 		{"id":36, "name":"Razorback w/ Twin Heavy Bolter",				"pts":25},
 		{"id":37, "name":"Razorback w/ Twin Lascannon",					"pts":25},
 
 		{"id":42, "name":"Glaive",	"pts":250},
+
+		{"id":45, "name":"Vindicator",								"pts":50},
+		{"id":46, "name":"2 Vindicators",								"pts":75},
 
 		{"id":50, "name":"Strike Cruiser",								"pts":200},
 		{"id":51, "name":"Hunter Class Destroyer",						"pts":75}
@@ -82,6 +85,8 @@
 		{"max":1, "perArmy":true, "from":[13]},
 
 		{"min":0, "max":1, "from":[10,11,12,13]},
+
+		{"max":1, "from":[45,46], "appliesTo":[500]},
 
 		{"min":3, "max":4, "from":[35], "appliesTo":[502]},
 
