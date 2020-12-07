@@ -11,8 +11,8 @@
 		]},
 		{"name":"DARK ANGELS SUPPORT DETACHMENTS <br/> Max 3 for each Core Detachment", "formations":[
 			{"id":502, "name":"Land Raiders",				"pts":125, "upgrades":[30,31,32, 35]},
-			{"id":514, "name":"Ares Siege",				"pts":350, "units":"3 Land Raider Ares",  "upgrades":[]},
-			{"id":515, "name":"Deathwing Armour",			"pts":425,  "units":"3 Land Raiders, 3 Terminators", "upgrades":[10,11,12,13]},
+			{"id":514, "name":"Ares Siege",				"pts":375, "units":"3 Land Raider Ares",  "upgrades":[]},
+			{"id":515, "name":"Deathwing Armour",			"pts":450,  "units":"3 Land Raiders, 3 Terminators", "upgrades":[10,11,12,13]},
 			{"id":504, "name":"Devastators",				"pts":250, "units":"4 Dark Angels Devastators plus transport", "upgrades":[30,31,32, 33, 36,37]},
 			{"id":510, "name":"Scouts",							"pts":150, "upgrades":[36,37]},
 			{"id":500, "name":"Assaults", 				"pts":175, "units":"4 Assaults", "upgrades":[10,11,12,13, 45,46]},
@@ -72,7 +72,7 @@
 		{"id":46, "name":"2 Vindicators",								"pts":75},
 
 		{"id":50, "name":"Strike Cruiser",								"pts":200},
-		{"id":51, "name":"Hunter Class Destroyer",						"pts":75}
+		{"id":51, "name":"Hunter Class Destroyer",						"pts":100}
 	],
 	"formationConstraints":[
 		{"max":3, "name":"Support Detachments", "from":[504,500,502,509,510,511,512,513,514,515,516,517], "forEach":[501,503,505], "name2":"Core Detachment"},

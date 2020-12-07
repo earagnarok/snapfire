@@ -1,24 +1,24 @@
 {
 	"id":"<a href=\"https://magnusdurr.github.io/list-view/site.html\">EA-R</a> Imperial Fists",
 	"version":"Beta 0.6.0 <a href=\"https://magnusdurr.github.io/list-view/index.html?race=SM&list=imperialfists\">Listview</a>",
-	"notes":["Up to one formation in the army may take the Land Raider Achilles upgrade"],
+	"notes":[],
 	"by":"EA-Ragnarok",
 
 	"sections":[
 		{"name":"IMPERIAL FISTS CORE DETACHMENTS", "formations":[
-			{"id":501, "name":"Tacticals",					"pts":275, "units":"6 Tacticals", "upgrades":[10,11,12,13, 15,16, 26,27, 28,29,30, 50,51]},
-            {"id":502, "name":"Devastators",				"pts":225, "units":"4 Devastators", "upgrades":[10,11,12,13, 15,16, 26,27, 28,29,30, 50,51, 65,66,67]},
-            {"id":503, "name":"Land Raiders",		     	"pts":125, "upgrades":[15,16, 26,27, 35,36]},
-            {"id":504, "name":"Vindicators",		      	"pts":225, "upgrades":[15,16]}
+			{"id":501, "name":"Tacticals",					"pts":275, "units":"6 Tacticals", "upgrades":[10,11,12,13,14, 15,16, 26,27, 28,29, 50,51]},
+            {"id":502, "name":"Devastators",				"pts":225, "units":"4 Devastators", "upgrades":[10,11,12,13,14, 15,16, 26,27, 28,29, 50,51, 65,66,67]},
+            {"id":503, "name":"Land Raiders",		     	"pts":125, "upgrades":[15,16, 26,27, 35]},
+			{"id":516, "name":"Support Battery",				"pts":250, "upgrades":[65,66,67]}
 
 		]},
 		{"name":"IMPERIAL FISTS SUPPORT DETACHMENTS <br/> Max 2 for each Core Detachment", "formations":[
             {"id":510, "name":"Land Speeders",	         		"pts":200, "upgrades":[]},
-            {"id":511, "name":"Terminators",	               	"pts":325, "units":"4 Terminators", "upgrades":[10,11,12,13, 26,27, 28,29,30]},
-            {"id":512, "name":"Centurions",		                "pts":275, "upgrades":[10,11,12,13, 26,27, 28,29,30]},
-			{"id":513, "name":"Scouts",							"pts":150, "units":"4 Scouts plus transport",  "upgrades":[44, 50,51]},
+            {"id":511, "name":"Terminators",	               	"pts":325, "units":"4 Terminators", "upgrades":[10,11,12,13,14, 26,27, 28,29]},
+            {"id":512, "name":"Centurions",		                "pts":275, "upgrades":[26,27, 28,29]},
+			{"id":513, "name":"Scouts",							"pts":150, "units":"4 Scouts",  "upgrades":[44, 50,51]},
 			{"id":515, "name":"Predators",						"pts":250, "upgrades":[15,16]},
-			{"id":516, "name":"Support Battery",				"pts":250, "upgrades":[65,66,67]},
+            {"id":504, "name":"Vindicators",		      	"pts":225, "upgrades":[15,16]},
 			{"id":514, "name":"Whirlwinds",						"pts":275, "upgrades":[15,16]},
 			{"id":517, "name":"Fellblade Relics",	         	"pts":50, "upgrades":[69]}
 	]},
@@ -37,6 +37,7 @@
         { "id":12, "name":"Chaplain", "pts":50 },
         { "id":11, "name":"Librarian", "pts":25 },
         { "id":13, "name":"Supreme Commander", "pts":75 },
+        { "id":14, "name":"Land Raider Achilles", "pts":75 },
 
         { "id":15, "name":"Stalker", "pts":50 },
         { "id":16, "name":"Hunter", "pts":75 },
@@ -54,10 +55,8 @@
 
         { "id":28, "name":"Land Raider", "pts": 50},
         { "id":29, "name":"Land Raider Crusader", "pts":50 },
-        { "id":30, "name":"Land Raider Achilles", "pts":75 },
 
         { "id":35, "name":"Land Raider", "pts":50 },
-        { "id":36, "name":"Land Raider Achilles", "pts":75 },
 
         { "id":38, "name":"4 Whirlwinds", "pts":0 },
         { "id":39, "name":"6 Whirlwinds", "pts":75 },
@@ -77,10 +76,11 @@
         { "id":51, "name":"Razorback (Twin Lascannon)",  "pts":25},
 
 		{"id":54, "name":"plus transport",	"pts":0},
-        { "id":55, "name":"2 Space Marine Rapiers", "pts":50 },
-        { "id":56, "name":"2 Space Marine Thunderfires", "pts":50 },
-        { "id":57, "name":"4 Space Marine Rapiers", "pts":125 },
-        { "id":58, "name":"4 Space Marine Thunderfires", "pts":125 },
+		{"id":55, "name":"plus transport (Siege Rhinos)",	"pts":25},
+        { "id":56, "name":"2 Space Marine Rapiers", "pts":50 },
+        { "id":57, "name":"2 Space Marine Thunderfires", "pts":50 },
+        { "id":58, "name":"4 Space Marine Rapiers", "pts":125 },
+        { "id":59, "name":"4 Space Marine Thunderfires", "pts":125 },
 
 		{ "id":60, "name":"w/ Rapier Laser Destructors", "pts":0 },
         { "id":61, "name":"w/ Thunderfires", "pts":0 },
@@ -111,14 +111,14 @@
 
 	],
 	"formationConstraints":[
-		{"max":2, "name":"Support Detachments", "from":[510,511,512,513,514,515,516,517,518], "forEach":[501,502,503,504], "name2":"Core Detachment"},
+		{"max":2, "name":"Support Detachments", "from":[510,511,512,513,514,515,517,518,504], "forEach":[516,501,502,503], "name2":"Core Detachment"},
 		{"max":1, "name":"Tarantula or Hyperios", "from":[521,522], "forEach":[513], "name2":"Scouts Detachment"},
 		{"max":1,"perArmy":true, "name":"Fellblade Relics", "from":[517]},
 		{"maxPercent": 33.5, "name":"Imperial Fist Static Defenses, Navy and Collegia Titanica Allies", "from":[520,521,522,523,524,525,526]}
 	],
 	"upgradeConstraints":[
         {"max":1, "perArmy":true, "from":[13]},
-        {"max":1, "from":[10,11,12,13]},
+        {"max":1, "from":[10,11,12,13,14]},
 
 
         {"max":1, "from":[15,16]},
@@ -126,8 +126,8 @@
         {"max":1, "from":[44]},
         {"max":2, "from":[65,66,67]},
 
-        {"min":1, "max":1, "from":[54,55,56,57,58], "appliesTo":[501,502]},
-        {"min":3, "max":4, "from":[35,36], "appliesTo":[503]},
+        {"min":1, "max":1, "from":[54,55,56,57,58,59], "appliesTo":[501,502,513]},
+        {"min":3, "max":4, "from":[35], "appliesTo":[503]},
         {"min":1, "max":1, "from":[23,24,25], "appliesTo":[504]},
         {"min":5, "max":5, "from":[19,20,21], "appliesTo":[510]},
 		{"min":0, "max":4, "from":[28], "appliesTo":[512]},
