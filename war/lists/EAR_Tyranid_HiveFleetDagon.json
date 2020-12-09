@@ -1,6 +1,6 @@
 {
   "id": "EA-R Hive Fleet Dagon",
-  "version": "1.0.0",
+  "version": "Beta 1.0.0",
   "by": "EA-Ragnarok",
   "sections": [
     {
@@ -22,7 +22,7 @@
         {
           "id": 503,
           "name": "Assault Swarm (2-4 Instinctive Swarms)",
-          "pts": 125,
+          "pts": 100,
           "upgrades": [100,101,102,103,104,105,107,108,109,121,122,111,112,113,114,115,116,117,118,120]
         }
       ]
@@ -34,7 +34,7 @@
           "id": 512,
           "name": "Nest Swarm (1-2 Instinctive Swarms)",
           "units": "Hive Nest",
-          "pts": 125,
+          "pts": 150,
           "upgrades": [100,101,102,103,104,105,108,109,111,112]
 		},
 	    {
@@ -68,8 +68,9 @@
     {
           "id": 507,
           "name": "Lictor Swarm",
-          "pts": 100,
-          "upgrades": [142]
+            "units": "Four Lictors",
+          "pts": 225,
+          "upgrades": []
         }
       ]
     },
@@ -92,23 +93,23 @@
     }
   ],
   "upgrades": [
-    {"id": 100,"name": "Gaunts (5 Termagants)","pts": 50},
-    {"id": 101,"name": "Gaunts (4 Termagants, Hormagaunts)","pts": 50},
-    {"id": 102,"name": "Gaunts (3 Termagants, 2 Hormagaunts)","pts": 50},
-    {"id": 103,"name": "Gaunts (2 Termagants, 3 Hormagaunts)","pts": 50},
-    {"id": 104,"name": "Gaunts (Termagants, 4 Hormagaunts)","pts": 50},
-    {"id": 105,"name": "Gaunts (5 Hormagaunts)","pts": 50},
+    {"id": 100,"name": "Gaunts (5 Termagants)","pts": 75},
+    {"id": 101,"name": "Gaunts (4 Termagants, Hormagaunts)","pts": 75},
+    {"id": 102,"name": "Gaunts (3 Termagants, 2 Hormagaunts)","pts": 75},
+    {"id": 103,"name": "Gaunts (2 Termagants, 3 Hormagaunts)","pts": 75},
+    {"id": 104,"name": "Gaunts (Termagants, 4 Hormagaunts)","pts": 75},
+    {"id": 105,"name": "Gaunts (5 Hormagaunts)","pts": 75},
     {"id": 107,"name": "Bio-Flyer (3 Harpies)","pts": 125},
     {"id": 108,"name": "Biovores (4 Biovores)","pts": 75},
-    {"id": 109,"name": "Gargoyles (4 Gargoyles)","pts": 50},
+    {"id": 109,"name": "Gargoyles (4 Gargoyles)","pts": 75},
     {"id": 111,"name": "Bio-Support (3 Dactylis)","pts": 150},
     {"id": 112,"name": "Bio-Support (4 Exocrine)","pts": 150},
     {"id": 113,"name": "Bio-Attack (2 Haruspex)","pts": 75},
     {"id": 114,"name": "Bio-Attack (2 Malefactors)","pts": 75},
     {"id": 115,"name": "Breacher (Barbed Hierodule)","pts": 125},
     {"id": 116,"name": "Breacher (Scythed Hierodule)","pts": 125},
-    {"id": 117,"name": "Burrower (2 Trygons)","pts": 100},
-	{"id": 118,"name": "Burrower (5 Raveners)","pts": 100},
+    {"id": 117,"name": "Burrower (2 Trygons)","pts": 125},
+	{"id": 118,"name": "Burrower (5 Raveners)","pts": 125},
     {"id": 120,"name": "Mycetic Spore <br/> May transport Termagants, Hormagaunts, Biovores, Carnifex, Raveners, Hive Tyrant, Dagon Overlord, Tyranid Warriors, Zoanthropes. Transported units may not have Wings.","pts": 50},
     {"id": 121,"name": "Carnifex (3 Barbed Carnifex)",      "pts": 125    },
     {"id": 122,"name": "Carnifex (3 Screamer-Killer Carnifex)",      "pts": 125    },
@@ -120,14 +121,14 @@
     {"id": 161,"name": "Hydraphant","pts": 500},
     {"id": 170,"name": "Razorfiend (May carry 2 Mycetic Spores including cargo)","pts": 150},
     {"id": 171,"name": "Hive Ship (May carry 5 Mycetic Spores including cargo)","pts": 250},
-    {"id": 179,"name": "Gaunts (5 Termagants)","pts": 50},
-    {"id": 180,"name": "Gaunts (4 Termagants, Hormagaunts)","pts": 50},
-	{"id": 181,"name": "Gaunts (3 Termagants, 2 Hormagaunts)","pts": 50},
-    {"id": 182,"name": "Gaunts (2 Termagants, 3 Hormagaunts)","pts": 50},
-    {"id": 183,"name": "Gaunts (Termagants, 4 Hormagaunts)","pts": 50},
-    {"id": 184,"name": "Gaunts (5 Hormagaunts)","pts": 50},
+    {"id": 179,"name": "Gaunts (5 Termagants)","pts": 75},
+    {"id": 180,"name": "Gaunts (4 Termagants, Hormagaunts)","pts": 75},
+	{"id": 181,"name": "Gaunts (3 Termagants, 2 Hormagaunts)","pts": 75},
+    {"id": 182,"name": "Gaunts (2 Termagants, 3 Hormagaunts)","pts": 75},
+    {"id": 183,"name": "Gaunts (Termagants, 4 Hormagaunts)","pts": 75},
+    {"id": 184,"name": "Gaunts (5 Hormagaunts)","pts": 75},
 	{"id": 185,"name": "Biovores (4 Biovores)","pts": 75},
-    {"id": 186,"name": "Gargoyles (4 Gargoyles)","pts": 50},
+    {"id": 186,"name": "Gargoyles (4 Gargoyles)","pts": 75},
 
     {"id": 201,"name": "Tyranid Warriors","pts": 0},
     {"id": 202,"name": "Zoanthrope","pts": 0},
@@ -136,8 +137,8 @@
 	{"id": 210,"name": "Scythed Hierodule","pts": 0},
     {"id": 211,"name": "Tyranid Warrior Shrikes (Wings)","pts": 0},
 
-	{"id": 214,"name": "Trygon Prime","pts": 125},
-	{"id": 215,"name": "3 Ravener Alphas","pts": 100},
+	{"id": 214,"name": "Trygon Prime","pts": 150},
+	{"id": 215,"name": "2 Ravener Alphas","pts": 100},
 	{"id": 216,"name": "Barbed Hierodule Prime","pts": 150},
 	{"id": 217,"name": "Scythed Hierodule Prime","pts": 150},
 	{"id": 218,"name": "Hive Nest","pts": 125},
@@ -167,7 +168,7 @@
 	{"min": 2,"max": 4,"from": [100,101,102,103,104,105,107,108,109,121,122,111,112,113,114,115,116,117,118],"appliesTo": [501]},
     {"max": 1,"min": 1,"from": [240,241,242,243],"appliesTo": [502]},
     {"max": 4,"min": 2,"from": [100,101,102,103,104,105,107,108,109,121,122,111,112,113,114,115,116,117,118,120],"appliesTo": [502]},
-    {"max": 3,"min": 3,"from": [201,202,211],"appliesTo": [503]},
+    {"max": 2,"min": 2,"from": [201,202,211],"appliesTo": [503]},
     {"max": 3,"min": 1,"from": [100,101,102,103,104,105,107,108,109,121,122,111,112,113,114,115,116,117,118,120],"appliesTo": [503]},
 	{"max": 1,"min": 1,"from": [179,180,181,182,183,184,185,186],"appliesTo": [503]},
 	{"max": 2,"min": 1,"from": [100,101,102,103,104,105,108,109],"appliesTo": [512]},
@@ -179,7 +180,6 @@
     {"max": 2,"min": 1,"from": [130],"appliesTo": [505]},
     {"max": 2,"min": 1,"from": [109,107],"appliesTo": [505]},
     {"max": 9,"min": 6,"from": [140],"appliesTo": [506]},
-    {"max": 7,"min": 5,"from": [142],"appliesTo": [507]},
     {"max": 1,"min": 1,"from": [160,161],"appliesTo": [510]},
     {"max": 1,"min": 1,"from": [170,171],"appliesTo": [511]}
   ]
