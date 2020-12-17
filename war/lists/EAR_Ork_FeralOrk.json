@@ -13,14 +13,14 @@
 			{"id":508, "name":"Boarboyz Horde ('Uge)","pts":-175, "units":"3 Pigdok",	        "upgrades":[29,58,67]}
 		]},
 		{"name":"SNAKEBITES SUPPORT MOBS (Max 1 for each Snakebites War Horde)", "formations":[
-			{"id":503, "name":"Wildboyz",				"pts": -10, "upgrades":[23,13, 52,29,57,60,61,62,58,67]},
-			{"id":504, "name":"Wildboyz (Big)",		"pts":-70,	"upgrades":[23,13, 52,29,57,60,61,62,63,58,67]},
+			{"id":503, "name":"Wildboyz",				"pts": -10, "upgrades":[23,13, 52,29,60,61,62,58,67]},
+			{"id":504, "name":"Wildboyz (Big)",		"pts":-70,	"upgrades":[23,13, 52,29,60,61,62,63,58,67]},
 			{"id":509, "name":"Boarboyz Outriders",				"pts":175,	"units":"6 Boarboyz (with Scout)", "upgrades":[]},
 			{"id":510, "name":"Madboyz Horde",			"pts":0, 	"upgrades":[35,59]},
 			{"id":513, "name":"Trappas Mob",			"pts":0, "upgrades":[17]},
 			{"id":515, "name":"Lobba Mob",			"pts":125, "units":"6 Lobbas",	"upgrades":[13]},
-			{"id":511, "name":"Junka Brigade",			"pts":25, "upgrades":[12,14,58,67]},
-			{"id":512, "name":"Junka Brigade (Big)",	"pts":0, "upgrades":[12,14,58,67]},
+			{"id":511, "name":"Junka Brigade",			"pts":25, "upgrades":[12,14,57,67]},
+			{"id":512, "name":"Junka Brigade (Big)",	"pts":0, "upgrades":[12,14,57,67]},
 			{"id":514, "name":"Steam Gargant",			"pts":250,		"upgrades":[]}
 		]}
 	],
@@ -39,8 +39,9 @@
 		{"id":52, "name":"Squig Katapult",		"pts":25},
 		{"id":55, "name":"Squiggoth",			"pts":30},
 
-		{"id":58, "name":"Wyrdboy",				"pts":50},
-		{"id":59, "name":"Wyrdboy",				"pts":35},
+		{"id":57, "name":"Feral Nobz w/ Wyrdboy + Junkatrukk",				"pts":70},
+		{"id":58, "name":"Wyrdboy",				"pts":35},
+		{"id":59, "name":"Wyrdboy",				"pts":25},
 
 		{"id":60, "name":"Gargantuan Squiggoth", "pts":100},
 		{"id":61, "name":"Orkeosaurus",			"pts":200},
@@ -70,8 +71,8 @@
 
 		{"max":1, "from":[13], "appliesTo":[509]},
 
-		{"max":1, "from":[14], "appliesTo":[511]},
-		{"max":2, "from":[14], "appliesTo":[512]},
+		{"max":1, "from":[14,57], "appliesTo":[511]},
+		{"max":2, "from":[14,57], "appliesTo":[512]},
 
 		{"max":2, "from":[15], "appliesTo":[500,503]},
 		{"max":4, "from":[15], "appliesTo":[501,504]},
@@ -108,9 +109,9 @@
 		{"max":6, "from":[52], "appliesTo":[501]},
 		{"max":9, "from":[52], "appliesTo":[502]},
 
-		{"max":1, "from":[58], "appliesTo":[511,506,503,500]},
-		{"max":2, "from":[58], "appliesTo":[512,507,504,501]},
-		{"max":3, "from":[58], "appliesTo":[513,510,508,505,502]},
+		{"max":1, "from":[58], "appliesTo":[506,503,500]},
+		{"max":2, "from":[58], "appliesTo":[507,504,501]},
+		{"max":3, "from":[58], "appliesTo":[510,508,505,502]},
 
 		{"max":3, "from":[59], "appliesTo":[510]},
 
