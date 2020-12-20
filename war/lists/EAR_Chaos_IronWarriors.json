@@ -48,7 +48,7 @@
 
 		{"id":36, "name":"2 Chaos Land Raiders", 	"pts":100},
 		{"id":37, "name":"2 Chaos Rhinos", 	"pts":25},
-		{"id":38, "name":"2 Chaos Siege Rhinos", 	"pts":25},
+		{"id":38, "name":"2 Chaos Siege Rhinos", 	"pts":35},
 
 		{"id":39, "name":"Chaos Siege Rhino", 	"pts":15},
 		{"id":40, "name":"Chaos Rhino", 	"pts":10},

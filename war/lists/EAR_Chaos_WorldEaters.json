@@ -30,7 +30,7 @@
           {"id": 551, "name": "Greater Brass Scorpions", "pts": 50, "upgrades": [34]},
             {"id": 552, "name": "Lord of Battles", "pts": 425, "upgrades": []},
             {"id": 553, "name": "Tower of Skulls", "pts": 600, "upgrades": []},
-            {"id":554, "name":"Hell Blade Squadron",	"pts":200, "units":"3 Hell Blade Fighters", "upgrades":[]},
+            {"id":554, "name":"Hell Blade Squadron",	"pts":175, "units":"3 Hell Blade Fighters", "upgrades":[]},
 			{"id":555, "name":"Hell Talon Squadron",	"pts":225, "units":"2 Hell Talon Fighter-Bombers", "upgrades":[]},
             {"id": 557, "name": "Orbital Support", "pts": 150, "upgrades": []}
          ]}

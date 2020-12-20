@@ -13,7 +13,7 @@
 			{"id":513, "name":"Black Heart Flotilla", "pts":25, "upgrades":[61]}
 		]},
 		{"name":"BLACK HEART PARTISANS <br/> Max 2 for each Kabal", "formations":[
-			{"id":505, "name":"Reaver Gang", "pts":25, "upgrades":[83]},
+			{"id":505, "name":"Reaver Gang", "pts":50, "upgrades":[83]},
 			{"id":503, "name":"Wych Cult", "pts":200, "units":"4 Wyches", "upgrades":[70,40,41,72]},
 			{"id":504, "name":"Hellion Murder", "pts":200, "units":"6 Hellions", "upgrades":[62]},
 			{"id":506, "name":"Mandrake Throng", "pts":200, "units":"6 Mandrakes", "upgrades":[]},
