@@ -6,12 +6,12 @@
 
    "sections": [
         {"name": "SORORITAS CORE FORMATIONS", "formations": [
-            {"id": 500, "name": "Mission", "pts": 225, "upgrades": [10,11,12,16,13]}
+            {"id": 500, "name": "Mission", "pts": 200, "upgrades": [10,11,12,16,13]}
 	  ]},
         {"name": "SORORITAS SUPPORT FORMATIONS <br/> Max 2 for each Core Formation", "formations": [
-        {"id": 515, "name": "Immolation", "pts": 300, "units": "Palatine, 3 Celestian Sisters, 3 Sororitas Immolators", "upgrades": []},
-	    {"id": 510, "name": "Exorcism", "pts": 250, "upgrades": [16]},
-	    {"id": 511, "name": "Seraph", "pts": 250,  "upgrades": []},
+        {"id": 515, "name": "Immolation", "pts": 275, "units": "Palatine, 3 Celestian Sisters, 3 Sororitas Immolators", "upgrades": []},
+	    {"id": 510, "name": "Exorcism", "pts": 225, "upgrades": [16]},
+	    {"id": 511, "name": "Seraph", "pts": 225,  "upgrades": []},
 	    {"id": 512, "name": "Retribution", "pts":225, "units": "Palatine, 4 Retributor Sisters", "upgrades": []},
         {"id": 521, "name": "Repentance", "pts": 200, "units": "3 Repentia Sisters, 3 Mortifiers", "upgrades": []},
         {"id": 513, "name": "Dominus", "pts": 175, "units": "Palatine, 4 Dominion Sisters", "upgrades": []}
@@ -20,7 +20,6 @@
             {"id": 520, "name": "Ordo Hereticus Inquisitor Retinue", "pts": 300, "units": "5 Storm Troopers, 3 Chimeras", "upgrades": [25,26]},
 	        {"id": 522, "name": "Redemption", "pts": 175, "units": "Ministorum Priest, 6 Redemptionists", "upgrades": [25]},
             {"id": 523, "name": "Infernus", "pts": 175, "units": "4 Hellhounds", "upgrades": []}
-
          ]},
         {"name": "IMPERIAL NAVY <br/> Max 25%", "formations": [
             {"id": 532, "name": "Lightning Squadron", "pts": 175, "units": "2 Lightning Interceptors", "upgrades": [] },
@@ -62,7 +61,7 @@
       {"id": 26, "name": "Hydra","pts": 50},
 
 	  {"id": 30, "name": "4 Exorcist Prioris","pts": 0},
-	  {"id": 31, "name": "4 Exorcist Sanctorum","pts": 0},
+	  {"id": 31, "name": "4 Exorcist Sanctorum","pts": 25},
 
       {"id": 39, "name": "Anchorite","pts": 75},
 
