@@ -17,7 +17,7 @@
 			{"id":510, "name":"Scouts",							"pts":150, "upgrades":[36,37]},
 			{"id":500, "name":"Assaults", 				"pts":175, "units":"4 Assaults", "upgrades":[10,11,12,13, 45,46]},
 			{"id":511, "name":"Whirlwinds",						"pts":275, "units":"4 Whirlwinds", "upgrades":[30,31,32]},
-			{"id":513, "name":"Predators",						"pts":250, "upgrades":[30,31,32]},
+			{"id":513, "name":"Predators",						"pts":225, "upgrades":[30,31,32]},
 			{"id":512, "name":"Ravenwing Support",				"pts":175, "upgrades":[]},
 			{"id":517, "name":"Dreadwing Relics",	  		"pts":50, "upgrades":[42]}
 
@@ -45,8 +45,8 @@
 		{"id":20, "name":"Ravenwing Assault Bikes",						"pts":0},
 		{"id":21, "name":"Ravenwing Attack Bike", 						"pts":0},
 
-		{"id":22, "name":"Predator Annihilator",						"pts":0},
-		{"id":23, "name":"Predator Destructor",						"pts":0},
+		{"id":23, "name":"4 Predator Annihilators",		"pts":25},
+		{"id":22, "name":"4 Predator Destructors",		"pts":0},
 
 		{"id":25, "name":"4 Ravenwing Land Speeder Tornado",			"pts":0},
 		{"id":26, "name":"4 Ravenwing Land Speeder Venegance",			"pts":50},
@@ -95,7 +95,7 @@
 
 		{"min":4, "max":4, "from":[20,21], "appliesTo":[501]},
 
-		{"min":4, "max":4, "from":[22,23], "appliesTo":[513]},
+		{"min":1, "max":1, "from":[22,23], "appliesTo":[513]},
 
 		{"min":1, "max":1, "from":[25,26], "appliesTo":[512]},
 

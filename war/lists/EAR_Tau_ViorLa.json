@@ -6,7 +6,7 @@
       { "name": "VIOR'LA CADRES",
          "formations": [
             {"id": 500,"name": "XV8 Crisis Battlesuit Cadre","pts": 300, "upgrades": [15,16,17,18]},
-            {"id": 512,"name": "Heavy Battlesuit Cadre","pts": 300, "upgrades": [15,16,17,18]}
+            {"id": 512,"name": "Heavy Battlesuit Cadre","pts": 325, "upgrades": [15,16,17,18]}
          ]
       },
       {"name": "VIOR'LA SUPPORT GROUPS <br/> Max 3 for each Cadre",
@@ -50,7 +50,7 @@
       {"id": 31,"name": "6 Fire Warriors, 3 Devilfish","pts": 0},
 
       {"id": 32,"name": "6 XV15 Stealth Battlesuits","pts": 0},
-      {"id": 33,"name": "3 XV15 Stealth Battlesuits, 3 XV95 Ghostkeel Battlesuit","pts": 50},
+      {"id": 33,"name": "3 XV15 Stealth Battlesuits, 3 XV95 Ghostkeel Battlesuit","pts": 75},
 
       {"id": 34,"name": "6 Gun Drones","pts": 100},
       {"id": 35,"name": "8 Gun Drones","pts": 100},
