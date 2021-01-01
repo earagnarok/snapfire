@@ -16,7 +16,7 @@
 			{"id":512, "name":"Assault Terminators",		"pts":325, "units":"4 Assault Terminators", "upgrades":[10,11,12, 33,34, 40,41,42]},
 			{"id":513, "name":"Scouts",							"pts":150, "upgrades":[29,30, 46,47]},
 			{"id":514, "name":"Land Speeders",					"pts":200, "upgrades":[]},
-			{"id":516, "name":"Whirlwinds",				"pts":275, "units":"4 Whirlwinds", "upgrades":[31,32]},
+			{"id":516, "name":"Whirlwinds",				"pts":275, "units":"4 Blood Angels Whirlwinds", "upgrades":[31,32]},
 			{"id":523, "name": "Orbital Support",											"pts":0, "upgrades":[]}
 		]},
 
