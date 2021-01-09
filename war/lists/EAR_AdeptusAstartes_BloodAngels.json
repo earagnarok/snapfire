@@ -85,8 +85,8 @@
 
 		{"id":54, "name":"6 Assaults",		"pts":0},
 		{"id":55, "name":"Supreme Commander, 2 Sanguinary Guards, 4 Assaults",		"pts":125},
-		{"id":56, "name":"6 Tacticals", 		"pts":0},
-		{"id":57, "name":"Supreme Commander, 2 Sanguinary Guards, 4 Tacticals", 		"pts":125},
+		{"id":56, "name":"6 Tacticals plus transport", 		"pts":0},
+		{"id":57, "name":"Supreme Commander, 2 Sanguinary Guards, 4 Tacticals plus transport", 		"pts":125},
 
 
 		{"id":60, "name":"Warhound Titan",						"pts":200}
