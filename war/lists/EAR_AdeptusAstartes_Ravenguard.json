@@ -65,7 +65,7 @@
     {"id":30, "name":"Land Speeder (Planetfall)", "pts":30},
     {"id":31, "name":"Land Speeder Tornado (Planetfall)", "pts":30},
     {"id":32, "name":"Land Speeder Typhoon (Planetfall)", "pts":40},
-    {"id":33, "name":"Land Speeder Tempest (Planetfall)", "pts":45},
+    {"id":33, "name":"Land Speeder Tempest (Planetfall)", "pts":40},
 
     {"id":34, "name":"Razorback (Twin Heavy Bolter)",						"pts":25},
     {"id":35, "name":"Razorback (Twin Lascannon)",						"pts":25},
@@ -73,7 +73,7 @@
     {"id":40, "name":"Land Speeder", "pts":30},
     {"id":41, "name":"Land Speeder Tornado", "pts":30},
     {"id":42, "name":"Land Speeder Typhoon", "pts":40},
-    {"id":43, "name":"Land Speeder Tempest", "pts":45}
+    {"id":43, "name":"Land Speeder Tempest", "pts":40}
   ],
   "formationConstraints":[
     {"max":1, "name":"Terminators", "from":[511]},
