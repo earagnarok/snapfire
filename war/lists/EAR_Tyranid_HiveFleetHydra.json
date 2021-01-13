@@ -8,20 +8,20 @@
       "formations": [
         {
           "id": 501,
-          "name": "Nexus Spawn Swarm (2-4 Instinctive Swarms)",
+          "name": "Nexus Spawn Swarm (1-4 Instinctive Swarms)",
           "pts": 450,
 		  "units": "Hydra Dominatrix",
-          "upgrades": [100,101,102,103,104,105,107,108,109,121,122,111,118,113,114,115,116,117]},
+          "upgrades": [100,101,102,103,104,105,106,107,108,109,121,122,111,118,113,115,116,117]},
         {
           "id": 502,
           "name": "Tyrant Swarm (2-4 Instinctive Swarms)",
           "pts": 150,
-          "upgrades": [100,101,102,103,104,105,107,108,109,121,122,113,114,115,116,117,120]},
+          "upgrades": [100,101,102,103,104,105,106,107,108,109,121,122,113,115,116,117,120]},
         {
           "id": 503,
           "name": "Assault Swarm (2-4 Instinctive Swarms)",
           "pts": 100,
-          "upgrades": [100,101,102,103,104,105,107,108,109,121,122,113,114,115,116,117,120]}
+          "upgrades": [100,101,102,103,104,105,106,107,108,109,121,122,113,115,116,117,120]}
       ]
     },
 	{
@@ -32,7 +32,7 @@
           "name": "Tervigon Spawn Swarm (1-2 Instinctive Swarms)",
           "units": "Tervigon Prime",
           "pts": 175,
-          "upgrades": [100,101,102,103,104,105,121,122,111,118,113,114]},
+          "upgrades": [100,101,102,103,104,105,121,122,111,118,113]},
 	    {
           "id": 509,
           "name": "Breacher Swarm (1-2 Instinctive Swarms)",
@@ -47,7 +47,7 @@
           "id": 505,
           "name": "Harridan Spawn Swarm (0-2 Instinctive Swarms)",
           "pts": 200,
-          "upgrades": [107]}
+          "upgrades": [106,107]}
       ]
     },
     {
@@ -92,7 +92,8 @@
     {"id": 103,      "name": "Gaunts (2 Termagants, 3 Hormagaunts)",      "pts": 75    },
     {"id": 104,      "name": "Gaunts (Termagants, 4 Hormagaunts)",      "pts": 75    },
     {"id": 105,      "name": "Gaunts (5 Hormagaunts)",      "pts": 75    },
-    {"id": 107,      "name": "Bio-Flyer (3 Hive Crones)",      "pts": 125    },
+    {"id": 106,      "name": "Bio-Flyer (3 Harpies)",      "pts": 100    },
+    {"id": 107,      "name": "Bio-Flyer (3 Hive Crones)",      "pts": 100    },
     {"id": 108,      "name": "Biovores (4 Biovores)",      "pts": 75    },
     {"id": 109,      "name": "Gargoyles (4 Gargoyles)",      "pts": 75    },
     {"id": 111,      "name": "Spawner (Tervigon, 2 Termagants)",      "pts": 100    },
@@ -101,9 +102,9 @@
     {"id": 114,      "name": "Bio-Support (4 Exocrine)","pts": 150},
     {"id": 115,      "name": "Breacher (Barbed Hierodule)",      "pts": 125    },
     {"id": 116,      "name": "Breacher (Scythed Hierodule)",      "pts": 125    },
-    {"id": 117,      "name": "Burrower (2 Trygons)",      "pts": 125    },
+    {"id": 117,      "name": "Burrower (2 Trygons)",      "pts": 100    },
     {"id": 118,      "name": "Spawner (Tervigon, 2 Hormagaunts)",      "pts": 100    },
-    {"id": 120,      "name": "Mycetic Spore <br/> May transport Termagants, Hormagaunts, Biovores, Carnifex, Raveners, Hive Tyrant, Swarmlord, Tyranid Warriors, Zoanthropes. Transported units may not have Wings.",      "pts": 50    },
+    {"id": 120,      "name": "Mycetic Spore <br/> May transport Termagants, Hormagaunts, Biovores, Carnifex, Raveners, Hive Tyrant, Swarmlord, Tyranid Warriors, Zoanthropes. Transported units may not be Shrikes (Jump Packs).",      "pts": 50    },
     {"id": 121,      "name": "Carnifex (3 Barbed Carnifex)",      "pts": 125    },
     {"id": 122,      "name": "Carnifex (3 Screamer-Killer Carnifex)",      "pts": 125    },
     {"id": 130,      "name": "Hive Harridan, 4 Gargoyles",      "pts": 0    },
@@ -132,11 +133,11 @@
     {"id": 202,      "name": "Zoanthrope",      "pts": 0    },
     {"id": 203,      "name": "Hive Tyrant",      "pts": 0    },
     {"id": 204,      "name": "Swarmlord",      "pts": 75    },
-	{"id": 205,      "name": "Swarmlord Shrike (Wings)",      "pts": 75    },
+	{"id": 205,      "name": "Swarmlord Shrike",      "pts": 75    },
 	{"id": 209,      "name": "Barbed Hierodule",      "pts": 0    },
 	{"id": 210,      "name": "Scythed Hierodule",      "pts": 0    },
-    {"id": 211,      "name": "Tyranid Warrior Shrikes (Wings)",      "pts": 0    },
-    {"id": 213,      "name": "Hive Tyrant Shrike (Wings)",      "pts": 0    },
+    {"id": 211,      "name": "Tyranid Warrior Shrikes",      "pts": 0    },
+    {"id": 213,      "name": "Hive Tyrant Shrike",      "pts": 0    },
 	{"id": 216,      "name": "Barbed Hierodule Prime",      "pts": 0    },
 	{"id": 217,      "name": "Scythed Hierodule Prime",      "pts": 0    }
 
@@ -156,13 +157,13 @@
 	{"max": 1,"perArmy": true,"from": [204,205]},
 	{"max": 1,"perArmy": true,"from": [300,301]},
     {"max": 1,"min": 1,"from": [179,180,181,182,183,184,186],"appliesTo": [501]},
-	{"min": 1,"max": 3,"from": [100,101,102,103,104,105,107,108,109,121,122,111,118,113,114,115,116,117],"appliesTo": [501]},
+	{"min": 0,"max": 3,"from": [100,101,102,103,104,105,106,107,108,109,121,122,111,118,113,115,116,117],"appliesTo": [501]},
 
     {"max": 1,"min": 1,"from": [203,204,205,213],"appliesTo": [502]},
-    {"max": 4,"min": 2,"from": [100,101,102,103,104,105,107,108,109,121,122,113,114,115,116,117,120],"appliesTo": [502]},
+    {"max": 4,"min": 2,"from": [100,101,102,103,104,105,106,107,108,109,121,122,113,115,116,117,120],"appliesTo": [502]},
 
     {"max": 2,"min": 2,"from": [201,202,211],"appliesTo": [503]},
-    {"max": 3,"min": 1,"from": [100,101,102,103,104,105,107,108,109,121,122,113,114,115,116,117,120],"appliesTo": [503]},
+    {"max": 3,"min": 1,"from": [100,101,102,103,104,105,106,107,108,109,121,122,113,115,116,117,120],"appliesTo": [503]},
 	{"max": 1,"min": 1,"from": [179,180,181,182,183,184,185,186], "appliesTo": [503]},
 
 	{"max": 1,"min": 1,"from": [216,217],"appliesTo": [509]},
@@ -172,7 +173,7 @@
     {"max": 2,"min": 1,"from": [117],"appliesTo": [504]},
 
     {"max": 1,"min": 1,"from": [130,131],"appliesTo": [505]},
-    {"max": 2,"min": 0,"from": [107],"appliesTo": [505]},
+    {"max": 2,"min": 0,"from": [106,107],"appliesTo": [505]},
 
     {"max": 9,"min": 6,"from": [140],"appliesTo": [506]},
 
@@ -182,7 +183,7 @@
     {"max": 1,"min": 1,"from": [170,171],"appliesTo": [511]},
 
     {"max": 1,"min": 1,"from": [179,180,181,182,183,184],"appliesTo": [512]},
-	{"max": 1,"min": 0,"from": [100,101,102,103,104,105,121,122,111,118,113,114],"appliesTo": [512]}
+	{"max": 1,"min": 0,"from": [100,101,102,103,104,105,121,122,111,118,113],"appliesTo": [512]}
 
   ]
 }
