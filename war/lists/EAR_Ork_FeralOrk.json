@@ -21,7 +21,7 @@
 			{"id":515, "name":"Lobba Mob",			"pts":125, "units":"6 Lobbas",	"upgrades":[13]},
 			{"id":511, "name":"Junka Brigade",			"pts":25, "upgrades":[12,14,57,67]},
 			{"id":512, "name":"Junka Brigade (Big)",	"pts":0, "upgrades":[12,14,57,67]},
-			{"id":514, "name":"Steam Gargant",			"pts":250,		"upgrades":[]}
+			{"id":514, "name":"Steam Gargant",			"pts":275,		"upgrades":[]}
 		]}
 	],
 	"upgrades":[
