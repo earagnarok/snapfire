@@ -9,7 +9,7 @@
 			{"id":500, "name":"Daemon Pool", "pts":0, "upgrades":[72,73]}
 		]},
 		{"name":"SLAVES TO DARKNESS CORE FORMATIONS", "formations":[
-			{"id":501, "name":"Traitor Guard", "pts":175, "units":"7 Infantry", "upgrades":[16,18,19,20,15,21,22,17,23,24,40,41,42,43]}
+			{"id":501, "name":"Traitor Guard", "pts":175, "units":"7 Infantry", "upgrades":[16,18,19,20,15,21,22,17,23,24,40,41,42,43,44,45]}
 		]},
 		{"name":"SLAVES TO DARKNESS SUPPORT FORMATIONS <br/> Max 1 for each Slaves to Darkness Core formation", "formations":[
 			{"id":508, "name":"Flak Battery", "pts":150, "units":"3 Hydras", "upgrades":[]},
@@ -72,14 +72,17 @@
 		{"id":31, "name":"Shadowsword", "pts":0},
 		{"id":32, "name":"Leman Russ", "pts":0},
 		{"id":33, "name":"Leman Russ Demolisher", "pts":0},
+		{"id":34, "name":"Leman Russ Thunderer", "pts":0},
 
 		{"id":35, "name":"Daemonic Icon", "pts":75},
 		{"id":36, "name":"Daemonic Pact", "pts":25},
 
 		{"id":40, "name":"Leman Russ", "pts":50},
 		{"id":41, "name":"Leman Russ Demolisher", "pts":50},
-		{"id":42, "name":"3 Leman Russ", "pts":150},
-		{"id":43, "name":"3 Leman Russ Demolishers", "pts":150},
+		{"id":42, "name":"Leman Russ Thunderer", "pts":50},
+		{"id":43, "name":"3 Leman Russ", "pts":150},
+		{"id":44, "name":"3 Leman Russ Demolishers", "pts":150},
+		{"id":45, "name":"3 Leman Russ Thunderers", "pts":150},
 
 		{"id":72, "name":"Lesser Daemon Pool point", "pts":15},
 		{"id":73, "name":"Lesser Daemon Pool point (Daemonic Icon / Daemonic Pact)", "pts":0}
@@ -88,25 +91,7 @@
 	],
 	"formationConstraints":[
 		{"max":1, "name":"Slaves to Darkness Support Formations", "from":[508,502,503,504,506,507,509], "forEach":[501], "name2":"Core Formation"},
-		{"maxPercent": 33.5, "name": "Slaves to Darkness Air Support and Chaos Allies", "from": [510,511,512,513,514,515,516,517,518,519,520,521,522,523,530,531,532]},
-		{"max":1, "from":[510]},
-		{"max":1, "from":[511]},
-		{"max":1, "from":[512]},
-		{"max":1, "from":[513]},
-		{"max":1, "from":[514]},
-		{"max":1, "from":[515]},
-		{"max":1, "from":[516]},
-		{"max":1, "from":[517]},
-		{"max":1, "from":[518]},
-		{"max":1, "from":[519]},
-		{"max":1, "from":[520]},
-		{"max":1, "from":[521]},
-		{"max":1, "from":[522]},
-		{"max":1, "from":[523]},
-		{"max":1, "from":[524]},
-		{"max":1, "from":[500]},
-		{"max":1, "from":[554]},
-		{"max":1, "from":[555]}
+		{"maxPercent": 33.5, "name": "Slaves to Darkness Air Support and Chaos Allies", "from": [510,511,512,513,514,515,516,517,518,519,520,521,522,523,530,531,532]}
 	],
 	"upgradeConstraints":[
 		{"max":1, "perArmy":true, "from":[5,6,8,9,11,12]},
@@ -120,7 +105,7 @@
 		{"max":1, "from":[20,29], "appliesTo":[501]},
 		{"max":4, "from":[23], "appliesTo":[501]},
 		{"max":1, "from":[24], "appliesTo":[501]},
-		{"max":1, "from":[40,41,42,43], "appliesTo":[501]},
+		{"max":1, "from":[40,41,42,43,44,45], "appliesTo":[501]},
 		{"max":1, "from":[35]},
 		{"max":1, "from":[36]},
 
@@ -128,7 +113,7 @@
 
 		{"max":1, "from":[22], "appliesTo":[501,504,507]},
 		{"min": 1, "max": 1, "from": [30,31], "appliesTo": [506]},
-		{"min": 4, "max": 4, "from": [32,33], "appliesTo": [507]},
+		{"min": 4, "max": 4, "from": [32,33,34], "appliesTo": [507]},
 
 	{"max":1, "from":[13], "appliesTo":[530]}
 
