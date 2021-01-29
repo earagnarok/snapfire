@@ -12,7 +12,7 @@
           "name": "Broodcoven",
           "units": "Genestealer Patriarch, 8 Acolyte Praetorians",
           "pts": 275,
-          "upgrades": [ 21, 19, 30, 31, 16]
+          "upgrades": [ 21, 19, 30, 31, 60]
         },
         {
           "id": 501,
@@ -47,7 +47,7 @@
           {
             "id": 511,
             "name": "Outrider Squadron",
-            "units": "Hybrid Iconward",
+            "units": "Hybrid Iconward, 6 Neophyte Outriders",
             "pts": 150,
             "upgrades": [ 33 ]
           },
@@ -128,7 +128,7 @@
   ],
   "upgradeConstraints": [
 
-		{"min": 0, "max": 4, "from": [ 16 ], "appliesTo": [ 500 ] },
+		{"min": 0, "max": 3, "from": [ 60 ], "appliesTo": [ 500 ] },
 
 		{"min": 1, "max": 1, "from": [ 10, 11, 12 ], "appliesTo": [ 501 ] },
 		{"min": 7, "max": 11, "from": [ 16, 13, 14 ], "appliesTo": [ 501 ] },
@@ -136,7 +136,6 @@
 		{"min": 0, "max": 1, "from": [ 15, 11 ], "appliesTo": [ 501 ] },
 		{"min": 0, "max": 1, "from": [ 15, 12 ], "appliesTo": [ 501 ] },
 
-		{"min": 6, "max": 6, "from": [ 32 ], "appliesTo": [ 511 ] },
 		{"min": 0, "max": 3, "from": [ 33 ], "appliesTo": [ 511 ] },
 
     {"min": 6, "max": 9, "from": [ 60 ], "appliesTo": [ 530 ] },
