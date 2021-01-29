@@ -37,8 +37,8 @@
 		{"id":20, "name":"9 Infantry, 5 Chimeras",		"pts":0},
 		{"id":21, "name":"15 Infantry, 8 Chimeras",		"pts":125},
 
-		{"id":22, "name":"11 Infantry",					"pts":0},
-		{"id":23, "name":"17 Infantry",					"pts":75},
+		{"id":22, "name":"12 Infantry",					"pts":0},
+		{"id":23, "name":"18 Infantry",					"pts":75},
 
 		{"id":24, "name":"Leman Russ",					"pts":0},
 		{"id":25, "name":"Leman Russ Vanquisher",		"pts":0},
