@@ -22,9 +22,9 @@
 
             {"id": 510, "name": "Big Mek Stompamob", "pts": 55, "upgrades": [90,91,100,101,96,102,110,111,112,113,114,115]},
 
-            {"id": 513, "name": "Big Mek Dreadmob", "pts": 15, "upgrades": [100,101,102,96]},
-            {"id": 514, "name": "Big Mek Dreadmob (Big)", "pts": -20, "upgrades": [100,101,102,96]},
-            {"id": 515, "name": "Big Mek Dreadmob ('Uge)", "pts": -55, "upgrades": [100,101,102,96]}
+            {"id": 513, "name": "Big Mek Dreadmob", "pts": -10, "upgrades": [100,101,102,96]},
+            {"id": 514, "name": "Big Mek Dreadmob (Big)", "pts": -45, "upgrades": [100,101,102,96]},
+            {"id": 515, "name": "Big Mek Dreadmob ('Uge)", "pts": -80, "upgrades": [100,101,102,96]}
 
          ]
       },
@@ -147,6 +147,7 @@
 
       {"min": 4, "from": [102,104,105], "appliesTo": [517]},
       {"max": 1, "from": [109], "appliesTo": [517]},
+      {"max": 1, "from": [12,13,14], "appliesTo": [517]},
 
       {"min": 1, "max": 1, "from": [120,121], "appliesTo": [502]},
       {"min": 2, "max": 2, "from": [140,141,142,143], "appliesTo": [502]},
