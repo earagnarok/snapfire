@@ -19,16 +19,16 @@
 			{"id":510, "name":"Madboyz Mob",			"pts":0, 	"upgrades":[35,59]},
 			{"id":513, "name":"Trappas Mob",			"pts":0, "upgrades":[17]},
 			{"id":515, "name":"Lobba Mob",			"pts":150, "units":"6 Lobbas",	"upgrades":[13]},
-			{"id":511, "name":"Junka Brigade",			"pts":50, "upgrades":[12,14,57,67]},
-			{"id":512, "name":"Junka Brigade (Big)",	"pts":50, "upgrades":[12,14,57,67]},
+			{"id":511, "name":"Junka Brigade",			"pts":20, "upgrades":[12,14,57,67]},
+			{"id":512, "name":"Junka Brigade (Big)",	"pts":-10, "upgrades":[12,14,57,67]},
 			{"id":514, "name":"Steam Gargant",			"pts":275,		"upgrades":[]}
 		]}
 	],
 	"upgrades":[
 		{"id":11, "name":"Huntas",				"pts":15},
-		{"id":12, "name":"Junkas + Junkatrukk",	"pts":25},
+		{"id":12, "name":"Junkas + Junkatrukk",	"pts":30},
 		{"id":13, "name":"Brutes",				"pts":35},
-		{"id":14, "name":"Brutes + Junkatrukk",	"pts":35},
+		{"id":14, "name":"Brutes + Junkatrukk",	"pts":50},
 		{"id":16, "name":"Lobbas",				"pts":25},
 		{"id":17, "name":"Trappas",				"pts":25},
 		{"id":39, "name":"Huntas + Grotz",		"pts":35},
@@ -39,7 +39,7 @@
 		{"id":52, "name":"Squig Katapult",		"pts":25},
 		{"id":55, "name":"Squiggoth",			"pts":30},
 
-		{"id":57, "name":"Brutes w/ Wyrdboy + Junkatrukk",				"pts":70},
+		{"id":57, "name":"Brutes w/ Wyrdboy + Junkatrukk",				"pts":75},
 		{"id":58, "name":"Wyrdboy",				"pts":35},
 		{"id":59, "name":"Wyrdboy",				"pts":35},
 
