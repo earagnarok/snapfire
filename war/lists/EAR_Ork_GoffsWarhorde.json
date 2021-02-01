@@ -40,7 +40,7 @@
    "upgrades": [
       {"id": 43, "name": "Big Gunz", "pts": 25},
       {"id": 49, "name": "Fighta-Bommer", "pts": 50},
-      {"id": 50, "name": "Boyz", "pts": 20},
+      {"id": 50, "name": "Boyz", "pts": 15},
       {"id": 51, "name": "Kommandos", "pts": 25},
       {"id": 52, "name": "Stormboyz", "pts": 25},
       {"id": 53, "name": "Warbuggy", "pts": 25},
@@ -56,7 +56,7 @@
       {"id": 64, "name": "Nobz", "pts": 35},
       {"id": 68, "name": "Oddboy: Soopagun", "pts": 50},
       {"id": 69, "name": "Oddboy: Supa-Zzap-Gun", "pts": 50},
-      {"id": 70, "name": "Oddboy: D3 Powerfields", "pts": 50},
+      {"id": 70, "name": "Oddboy: 2 Powerfields", "pts": 50},
       {"id": 71, "name": "Stompa w/ 3 Big Gunz", "pts": 60},
       {"id": 72, "name": "Battlefortress", "pts": 100},
       {"id": 73, "name": "Gunfortress", "pts": 100},
@@ -65,7 +65,7 @@
       {"id": 78, "name": "Supa-Stompa w/ 2 Soopaguns, Killa-Choppa", "pts": 225},
       {"id": 80, "name": "Kill Kroozer", "pts": 0},
       {"id": 81, "name": "Warlord", "pts": 0},
-      {"id": 82, "name": "Boyz + Grotz", "pts": 40},
+      {"id": 82, "name": "Boyz + Grotz", "pts": 35},
 
       {"id": 85, "name": "3 Soopaguns", "pts": 0},
       {"id": 86, "name": "2 Soopaguns, Supa-Zzap-Gun", "pts": 0},
