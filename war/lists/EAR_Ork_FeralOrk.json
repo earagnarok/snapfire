@@ -5,9 +5,9 @@
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"SNAKEBITES WAR HORDES", "formations":[
-			{"id":500, "name":"Snakebites Warband",				"pts":0, "units":"Grotz",	"upgrades":[11,23,39,13,52,29,55,60,61,62,58,67]},
-			{"id":501, "name":"Snakebites Warband (Big)",				"pts":-50, "units":"2 Grotz",	"upgrades":[11,39,13,52,29,55,60,62,63,61,58,67]},
-			{"id":502, "name":"Snakebites Warband ('Uge)",				"pts":-100, "units":"3 Grotz",	"upgrades":[11,39,13,52,29,55,60,61,62,63,64,58,67]},
+			{"id":500, "name":"Snakebites Warband",				"pts":-20, 	"upgrades":[11,23,39,13,52,29,55,60,61,62,58,67]},
+			{"id":501, "name":"Snakebites Warband (Big)",				"pts":-90, 	"upgrades":[11,39,13,52,29,55,60,62,63,61,58,67]},
+			{"id":502, "name":"Snakebites Warband ('Uge)",				"pts":-160, 	"upgrades":[11,39,13,52,29,55,60,61,62,63,64,58,67]},
 			{"id":506, "name":"Boarboyz Horde",		"pts": 0, "units":"Pigdok",	"upgrades":[29,58,67]},
 			{"id":507, "name":"Boarboyz Horde (Big)",	"pts":-50, "units":"2 Pigdok",	"upgrades":[29,58,67]},
 			{"id":508, "name":"Boarboyz Horde ('Uge)","pts":-100, "units":"3 Pigdok",	        "upgrades":[29,58,67]}
@@ -58,9 +58,9 @@
 
 		{"max":1, "from":[62,63,64]},
 
-		{"min":4, "from":[11], "appliesTo":[500]},
-		{"min":8, "from":[11], "appliesTo":[501]},
-		{"min":12, "from":[11], "appliesTo":[502]},
+		{"min":3, "from":[11], "appliesTo":[500]},
+		{"min":6, "from":[11], "appliesTo":[501]},
+		{"min":9, "from":[11], "appliesTo":[502]},
 
 		{"min":6, "from":[12], "appliesTo":[511]},
 		{"min":12, "from":[12], "appliesTo":[512]},
@@ -97,9 +97,9 @@
 		{"max":2, "from":[40,41,42], "appliesTo":[501]},
 		{"max":3, "from":[40,41,42], "appliesTo":[502]},
 
-		{"min":2, "from":[39], "appliesTo":[500]},
-		{"min":4, "from":[39], "appliesTo":[501]},
-		{"min":6, "from":[39], "appliesTo":[502]},
+		{"min":3, "from":[39], "appliesTo":[500]},
+		{"min":6, "from":[39], "appliesTo":[501]},
+		{"min":9, "from":[39], "appliesTo":[502]},
 
 		{"max":3, "from":[52], "appliesTo":[503,500]},
 		{"max":6, "from":[52], "appliesTo":[504,501]},
