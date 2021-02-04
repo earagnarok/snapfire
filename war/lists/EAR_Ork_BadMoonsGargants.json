@@ -18,6 +18,7 @@
              {"id": 511, "name": "Bad Moons Warband", "pts": 0, "upgrades": [90,91,99,100,101,102,104,105,106,107,108,98,109,103,12,13,14]},
              {"id": 517, "name": "Bad Moons Blitz Brigade", "pts": 30, "upgrades": [102,104,105,73,13,12,14,109]},
              {"id": 512, "name": "Bad Moons Rokkitzmob", "pts": 0, "upgrades": [95,99,102,109,12,13,14]},
+             {"id": 518, "name": "Bad Moons Gunzmob", "pts": 25, "upgrades": [99, 102, 109, 90,91, 12,13,14]},
              {"id": 516, "name": "Bad Moons Fortressmob", "pts": 225, "units":"Flash Gitz, 3 Boyz, Grotz, Gunfortress", "upgrades": [12,13,14,102,104,105]},
 
             {"id": 510, "name": "Big Mek Stompamob", "pts": 55, "upgrades": [90,91,100,101,96,102,110,111,112,113,114,115]},
@@ -57,7 +58,7 @@
       {"id": 96, "name": "Meka Dread", "pts": 60},
 
       {"id": 98, "name": "Kommandos", "pts": 25},
-      {"id": 99, "name": "Big Gunz", "pts": 25},
+      {"id": 99, "name": "Big Gunz", "pts": 20},
 	  {"id": 100, "name": "Killa Kan", "pts": 25},
       {"id": 101, "name": "Deff Dread", "pts": 35},
       {"id": 102, "name": "Flakwagon", "pts": 30},
@@ -103,7 +104,7 @@
    "formationConstraints": [
       {"max": 1, "name": "Mega Gargant", "from": [501]},
       {"max": 1, "name": "Spacecraft", "from": [532]},
-      {"max": 3, "name": "Bad Moons Big Mob Mobs", "from": [510,511,512,513,514,515,516],  "forEach": [501,502,503], "name2": "Gargant" },
+      {"max": 3, "name": "Bad Moons Big Mob Mobs", "from": [510,511,512,513,514,515,516,518],  "forEach": [501,502,503], "name2": "Gargant" },
       {"maxPercent": 33.5, "name": "Bad Moons 'Craft", "from": [530,531,532]}
    ],
    "upgradeConstraints": [
@@ -120,12 +121,10 @@
       {"max": 1, "from": [15,16], "appliesTo": [501,502,503]},
 
       {"max": 1, "from": [11,12,13,14], "appliesTo": [516]},
-      {"max": 2, "from": [11,12,13,14], "appliesTo": [517]},
-      {"max": 3, "from": [11,12,13,14], "appliesTo": [518]},
 
-      {"max": 1, "from": [11,12,13,14], "appliesTo": [519]},
-      {"max": 2, "from": [11,12,13,14], "appliesTo": [520]},
-      {"max": 3, "from": [11,12,13,14], "appliesTo": [521]},
+      {"max": 1, "from": [11,12,13,14], "appliesTo": [518]},
+      {"min": 5, "from": [99], "appliesTo": [518]},
+      {"max": 1, "from": [109], "appliesTo": [518]},
 
       {"min": 2, "from": [90,91], "appliesTo": [510]},
       {"max": 1, "from": [110,111,112,113,114,115,116,117], "appliesTo": [510]},
