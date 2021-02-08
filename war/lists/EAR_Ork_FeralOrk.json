@@ -1,7 +1,7 @@
 {
 	"id":"EA-R Snakebites Clan",
 	"version":"Beta 0.7.5",
-	"notes":["A Warlord must be selected and assigned to the most expensive formation in the army.", "Transport Capacity: Squiggoths: 4 units of inf + 2 Grotz, 1 Squig Catapult. Gargantuan Squiggoth: 8 inf + 4 Grotz. Orkeosaurus: 16 inf + 6 Grotz"],
+	"notes":["The Warlord must be assigned to the most expensive formation in the army.", "Transport Capacity: Squiggoths: 4 units of inf + 2 Grotz, 1 Squig Catapult. Gargantuan Squiggoth: 8 inf + 4 Grotz. Orkeosaurus: 16 inf + 6 Grotz"],
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"SNAKEBITES WAR HORDES", "formations":[
@@ -19,10 +19,15 @@
 			{"id":510, "name":"Madboyz Mob",			"pts":0, 	"upgrades":[35,59]},
 			{"id":513, "name":"Trappas Mob",			"pts":0, "upgrades":[17]},
 			{"id":515, "name":"Lobba Mob",			"pts":150, "units":"6 Lobbas",	"upgrades":[13]},
-			{"id":511, "name":"Junka Brigade",			"pts":20, "upgrades":[12,14,57,67]},
-			{"id":512, "name":"Junka Brigade (Big)",	"pts":-10, "upgrades":[12,14,57,67]},
-			{"id":514, "name":"Steam Gargant",			"pts":275,		"upgrades":[]}
-		]}
+			{"id":511, "name":"Junka Brigade",			"pts":0, "upgrades":[12,14,57,67]},
+			{"id":512, "name":"Junka Brigade (Big)",	"pts":-50, "upgrades":[12,14,57,67]}
+		]},
+		{
+           "name": "GARGANTS <br/> Max 33%",
+           "formations": [
+			   {"id":514, "name":"Snakebites Gargant Mob",			"pts":50,		"upgrades":[67, 70]}
+           ]
+        }
 	],
 	"upgrades":[
 		{"id":11, "name":"Huntas",				"pts":15},
@@ -39,7 +44,7 @@
 		{"id":52, "name":"Squig Katapult",		"pts":25},
 		{"id":55, "name":"Squiggoth",			"pts":30},
 
-		{"id":57, "name":"Brutes w/ Wyrdboy + Junkatrukk",				"pts":75},
+		{"id":57, "name":"Brutes w/ Wyrdboy + Junkatrukk",				"pts":85},
 		{"id":58, "name":"Wyrdboy",				"pts":35},
 		{"id":59, "name":"Wyrdboy",				"pts":35},
 
@@ -48,10 +53,13 @@
 		{"id":62, "name":"3 Squiggoth Supa-Lobbas", "pts":100},
 		{"id":63, "name":"6 Squiggoth Supa-Lobbas", "pts":200},
 		{"id":64, "name":"9 Squiggoth Supa-Lobbas", "pts":300},
-				{"id":67, "name":"Warlord",			"pts":0}
+				{"id":67, "name":"Warlord",			"pts":0},
+
+				{"id":70, "name":"Steam Gargant",			"pts":225}
 	],
 	"formationConstraints":[
-      {"max": 1,"name": "Support Mob","from": [503,504,509,510,511,512,513,514,515,516],"forEach": [500,501,502,506,507,508],"name2": "War Horde"}
+      {"max": 1,"name": "Support Mob","from": [503,504,509,510,511,512,513,515,516],"forEach": [500,501,502,506,507,508],"name2": "War Horde"},
+      {"maxPercent": 33.5, "name": "Gargants", "from": [514]}
 	],
 	"upgradeConstraints":[
 		{"max":1, "perArmy":true, "from":[67]},
@@ -62,8 +70,10 @@
 		{"min":6, "from":[11], "appliesTo":[501]},
 		{"min":9, "from":[11], "appliesTo":[502]},
 
-		{"min":6, "from":[12], "appliesTo":[511]},
-		{"min":12, "from":[12], "appliesTo":[512]},
+		{"min":1, "from":[14,57], "appliesTo":[511]},
+		{"min":5, "from":[12], "appliesTo":[511]},
+		{"min":2, "from":[14,57], "appliesTo":[512]},
+		{"min":10, "from":[12], "appliesTo":[512]},
 
 		{"min":2, "max":3, "from":[13], "appliesTo":[500,503]},
 		{"min":4, "max":6, "from":[13], "appliesTo":[501,504]},
@@ -116,6 +126,8 @@
 		{"max":3, "from":[59], "appliesTo":[510]},
 
 		{"min":6, "from":[17], "appliesTo":[513]},
+
+		{"min":1, "max":2, "from":[70], "appliesTo":[514]},
 
 		{"max":1, "from":[60], "appliesTo":[500,503]},
 		{"max":2, "from":[60], "appliesTo":[501,504]},
