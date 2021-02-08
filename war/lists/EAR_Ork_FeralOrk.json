@@ -13,8 +13,8 @@
 			{"id":508, "name":"Boarboyz Horde ('Uge)","pts":-100, "units":"3 Pigdok",	        "upgrades":[29,58,67]}
 		]},
 		{"name":"SNAKEBITES SUPPORT MOBS (Max 1 for each Snakebites War Horde)", "formations":[
-			{"id":503, "name":"Wildboyz Mob",				"pts": -15, "upgrades":[23,13, 52,29,60,61,62,58,67]},
-			{"id":504, "name":"Wildboyz Mob (Big)",		"pts":-80,	"upgrades":[23,13, 52,29,60,61,62,63,58,67]},
+			{"id":503, "name":"Wildboyz Mob",				"pts": -15, "upgrades":[23,13, 52,29,55,60,61,62,58,67]},
+			{"id":504, "name":"Wildboyz Mob (Big)",		"pts":-80,	"upgrades":[23,13, 52,29,55,60,61,62,63,58,67]},
 			{"id":509, "name":"Boarboyz Outrider Mob",				"pts":175,	"units":"6 Boarboyz (with Scout)", "upgrades":[]},
 			{"id":510, "name":"Madboyz Mob",			"pts":0, 	"upgrades":[35,59]},
 			{"id":513, "name":"Trappas Mob",			"pts":0, "upgrades":[17]},
@@ -37,7 +37,7 @@
 		{"id":30, "name":"Pigdok",				"pts":0},
 		{"id":35, "name":"Madboyz",				"pts":25},
 		{"id":52, "name":"Squig Katapult",		"pts":25},
-		{"id":55, "name":"Squiggoth",			"pts":30},
+		{"id":55, "name":"Squiggoth",			"pts":35},
 
 		{"id":57, "name":"Brutes w/ Wyrdboy + Junkatrukk",				"pts":75},
 		{"id":58, "name":"Wyrdboy",				"pts":35},
