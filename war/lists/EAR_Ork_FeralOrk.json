@@ -44,7 +44,7 @@
 		{"id":52, "name":"Squig Katapult",		"pts":25},
 		{"id":55, "name":"Squiggoth",			"pts":30},
 
-		{"id":57, "name":"Brutes w/ Wyrdboy + Junkatrukk",				"pts":85},
+		{"id":57, "name":"Wyrdboy",				"pts":35},
 		{"id":58, "name":"Wyrdboy",				"pts":35},
 		{"id":59, "name":"Wyrdboy",				"pts":35},
 
@@ -70,9 +70,9 @@
 		{"min":6, "from":[11], "appliesTo":[501]},
 		{"min":9, "from":[11], "appliesTo":[502]},
 
-		{"min":1, "from":[14,57], "appliesTo":[511]},
+		{"min":1, "max":2, "from":[14], "appliesTo":[511]},
 		{"min":5, "from":[12], "appliesTo":[511]},
-		{"min":2, "from":[14,57], "appliesTo":[512]},
+		{"min":2, "max":4, "from":[14], "appliesTo":[512]},
 		{"min":10, "from":[12], "appliesTo":[512]},
 
 		{"min":2, "max":3, "from":[13], "appliesTo":[500,503]},
@@ -81,8 +81,8 @@
 
 		{"max":1, "from":[13], "appliesTo":[509]},
 
-		{"max":1, "from":[14,57], "appliesTo":[511]},
-		{"max":2, "from":[14,57], "appliesTo":[512]},
+		{"max":1, "from":[57], "appliesTo":[511]},
+		{"max":2, "from":[57], "appliesTo":[512]},
 
 		{"max":2, "from":[15], "appliesTo":[500,503]},
 		{"max":4, "from":[15], "appliesTo":[501,504]},
