@@ -52,7 +52,7 @@
         {
           "id": 505,
           "name": "Harasser Swarm (1-2 Instinctive Swarms)",
-          "pts": 0,
+          "pts": 25,
           "upgrades": [130,109,106,107]
         }
       ]
