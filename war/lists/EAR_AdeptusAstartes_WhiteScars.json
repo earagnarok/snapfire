@@ -13,7 +13,7 @@
 		]},
 		{"name":"WHITE SCARS SUPPORT DETACHMENTS <br/> Max 3 for each Core Detachment", "formations":[
 			{"id":500, "name":"Assaults", 		"pts":175, "units":"4 Assaults", "upgrades":[15,16,17,18,14,36,37]},
-			{"id":522, "name":"Scout Bikes",	"pts":150, "upgrades":[15,16,17,18,14]},
+			{"id":522, "name":"Scout Bikes",	"pts":150, "upgrades":[]},
 			{"id":504, "name":"Land Speeders",	"pts":200, "upgrades":[]},
 			{"id":515, "name":"Whirlwinds",		"pts":75, "upgrades":[42,36,37,30,31]},
 			{"id":506, "name":"Predators",		"pts":250, "upgrades":[30,31,36,37]},
