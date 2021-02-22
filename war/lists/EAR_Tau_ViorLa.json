@@ -20,7 +20,7 @@
       { "name": "VIOR'LA WAR ENGINES & AIR CASTE <br/> Max 33%",
          "formations": [
              {"id": 511,"name": "KV128 Stormsurge Ballistic Suit","pts": 225, "upgrades": []},
-            {"id": 519,"name": "Supremacy Armour", "pts": 475, "units": "Shas'el, KX139 Ta'unar", "upgrades": []},
+            {"id": 519,"name": "Supremacy Armour", "pts": 500, "units": "Shas'el, KX139 Ta'unar Supremacy Armour", "upgrades": []},
             {"id": 524,"name": "Barracuda Squadron","pts": 150, "units": "2 Barracudas", "upgrades": []},
             {"id": 520,"name": "Tiger Shark Squadron","pts": 175,"units": "2 Tiger Shark Bombers","upgrades": [34]},
             {"id": 523,"name": "Spacecraft","pts": 200,"upgrades": []}
