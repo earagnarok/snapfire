@@ -5,7 +5,7 @@
    "sections": [
       { "name": "VIOR'LA CADRES",
          "formations": [
-            {"id": 500,"name": "XV8 Crisis Battlesuit Cadre","pts": 300, "upgrades": [15,16,17,18]},
+            {"id": 500,"name": "XV8 Crisis Battlesuit Cadre","pts": 325, "upgrades": [15,16,17,18]},
             {"id": 512,"name": "Heavy Battlesuit Cadre","pts": 325, "upgrades": [15,16,17,18]}
          ]
       },
@@ -35,7 +35,7 @@
       {"id": 15,"name": "2 Missile Drones","pts": 25},
       {"id": 16,"name": "2 Gun Drones","pts": 25},
       {"id": 17,"name": "2 Shield Drones","pts": 25},
-      {"id": 18,"name": "2 Marker Drones","pts": 50},
+      {"id": 18,"name": "2 Marker Drones","pts": 25},
 
 
       {"id": 22,"name": "3 XV88 Broadsides","pts": 125},
@@ -77,7 +77,7 @@
 
       {"id": 60,"name": "6 Gun Drones, 2 Missile Drones","pts": 100},
       {"id": 61,"name": "6 Gun Drones, 2 Shield Drones","pts": 100},
-      {"id": 62,"name": "6 Gun Drones, 2 Marker Drones","pts": 125},
+      {"id": 62,"name": "6 Gun Drones, 2 Marker Drones","pts": 100},
 
       {"id": 110,"name": "Protector Class Cruiser","pts": 0},
       {"id": 111,"name": "Custodian Class Battleship","pts": 25}
