@@ -146,8 +146,8 @@
 
     {"id": 240,"name": "Hive Tyrant","pts": 0},
     {"id": 241,"name": "Hive Tyrant Shrike","pts": 0},
-    {"id": 242,"name": "Dagon Overlord","pts": 100},
-	{"id": 243,"name": "Dagon Overlord Shrike","pts": 100}
+    {"id": 242,"name": "Dagon Overlord","pts": 75},
+	{"id": 243,"name": "Dagon Overlord Shrike","pts": 75}
   ],
 
   "formationConstraints": [

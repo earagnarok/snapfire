@@ -12,7 +12,7 @@
       {"name": "VIOR'LA SUPPORT GROUPS <br/> Max 3 for each Cadre",
          "formations": [
              {"id": 501,"name": "Fire Warrior Strike Group","pts": 225,"upgrades": [22,25, 15,16,17,18]},
-             {"id": 502,"name": "Drone Group","pts": 75, "upgrades": []},
+             {"id": 502,"name": "Drone Group","pts": 50, "upgrades": []},
             {"id": 516,"name": "Stealth Group","pts": 225, "upgrades": [15,16,17,18]},
             {"id": 517,"name": "Skysweep Support Group","pts": 250,"units": "3 Sky Ray Gunships","upgrades": [15,16,17,18]},
             {"id": 514,"name": "XV88 Broadside Group","pts": 300, "units": "6 XV88 Broadside Battlesuits", "upgrades": [15,16,17,18]}         ]
@@ -22,7 +22,7 @@
              {"id": 511,"name": "KV128 Stormsurge Ballistic Suit","pts": 225, "upgrades": []},
             {"id": 519,"name": "Supremacy Armour", "pts": 500, "units": "Shas'el, KX139 Ta'unar Supremacy Armour", "upgrades": []},
             {"id": 524,"name": "Barracuda Squadron","pts": 150, "units": "2 Barracudas", "upgrades": []},
-            {"id": 520,"name": "Tiger Shark Squadron","pts": 175,"units": "2 Tiger Shark Bombers","upgrades": [34]},
+            {"id": 520,"name": "Tiger Shark Squadron","pts": 175,"units": "2 Tiger Shark Bombers","upgrades": [34,35]},
             {"id": 523,"name": "Spacecraft","pts": 200,"upgrades": []}
          ]
       }
@@ -35,7 +35,7 @@
       {"id": 15,"name": "2 Missile Drones","pts": 25},
       {"id": 16,"name": "2 Gun Drones","pts": 25},
       {"id": 17,"name": "2 Shield Drones","pts": 25},
-      {"id": 18,"name": "2 Marker Drones","pts": 25},
+      {"id": 18,"name": "2 Marker Drones","pts": 50},
 
 
       {"id": 22,"name": "3 XV88 Broadsides","pts": 125},
@@ -52,7 +52,7 @@
       {"id": 33,"name": "3 XV15 Stealth Battlesuits, 3 XV95 Ghostkeel Battlesuit","pts": 75},
 
       {"id": 34,"name": "6 Gun Drones","pts": 100},
-      {"id": 35,"name": "8 Gun Drones","pts": 100},
+      {"id": 35,"name": "6 Missile Drones","pts": 100},
 
       {"id": 38,"name": "6 XV8 Crisis Battlesuits","pts": 0},
       {"id": 39,"name": "8 XV8 Crisis Battlesuits","pts": 75},
@@ -75,9 +75,10 @@
       {"id": 55,"name": "Standard Configuration (Pulse Driver Cannon, Destroyer Missiles)","pts": 0},
       {"id": 56,"name": "Support Configuration (Pulse Blastcannon, Twin Smart Missiles Systems)","pts": 0},
 
+      {"id": 59,"name": "8 Gun Drones","pts": 100},
       {"id": 60,"name": "6 Gun Drones, 2 Missile Drones","pts": 100},
       {"id": 61,"name": "6 Gun Drones, 2 Shield Drones","pts": 100},
-      {"id": 62,"name": "6 Gun Drones, 2 Marker Drones","pts": 100},
+      {"id": 62,"name": "6 Gun Drones, 2 Marker Drones","pts": 125},
 
       {"id": 110,"name": "Protector Class Cruiser","pts": 0},
       {"id": 111,"name": "Custodian Class Battleship","pts": 25}
@@ -92,8 +93,7 @@
 		{"max":1, "perArmy":true, "from":[10]},
 
       {"min": 1, "max": 1, "from": [9,10], "appliesTo": [500,512]},
-      {"max": 1, "from": [15,16]},
-      {"max": 1, "from": [17,18]},
+      {"max": 1, "from": [15,16,17,18]},
       {"max": 1, "from": [21]},
       {"max": 1, "from": [22]},
       {"max": 1, "from": [23,24]},
@@ -109,7 +109,7 @@
 
       {"max": 1,"min": 1,"from": [30,31],"appliesTo": [501]},
 
-      {"max": 1,"min": 1,"from": [35,60,61,62],"appliesTo": [502]},
+      {"max": 1,"min": 1,"from": [59,60,61,62],"appliesTo": [502]},
 
       {"max": 1,"min": 1,"from": [40,41,42,43,44,45,46,47,48],"appliesTo": [512]},
 
