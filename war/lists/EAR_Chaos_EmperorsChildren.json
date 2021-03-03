@@ -9,7 +9,7 @@
 			{"id":500, "name":"Daemon Pool", "pts":0, "upgrades":[71,72,74]}
 		]},
 			{"name":"EMPERORS CHILDREN CORE FORMATIONS", "formations":[
-			{"id":501, "name":"Emperor's Children Retinue", "pts":275, "units": "3 Chaos Space Marines, Daemonic Pact", "upgrades":[14,15,30,31,35,44,80]}
+			{"id":501, "name":"Emperor's Children Retinue", "pts":300, "units": "3 Chaos Space Marines, Daemonic Pact", "upgrades":[14,15,30,31,35,44,80]}
 		]},
 		{"name":"EMPERORS CHILDREN ELITE FORMATIONS <br/> Max 1 for each Core formation", "formations":[
 			{"id":502, "name":"Emperor's Children Terminators", "pts":400, "units": "4 Sirenshriek Terminators, Daemonic Pact", "upgrades":[14,15,32,35,80]},
@@ -24,7 +24,7 @@
 			{"id":510, "name":"Hell-Striders",	"pts":225, "units":"4 Hell-Striders", "upgrades":[]},
 			{"id":511, "name":"Hell-Knights",	"pts":350, "units":"3 Hell-Knights",  "upgrades":[]},
 			{"id":512, "name":"Hell-Scourges", "pts":350,  "units":"3 Hell-Scourges", "upgrades":[]},
-			{"id":513, "name":"Slaneesh Defiler Pack", "pts":25, "upgrades":[50]},
+			{"id":513, "name":"Slaneesh Defiler Pack",  "units":"4 Debasers", "pts":250, "upgrades":[]},
 			{"id":514, "name":"Questor",	"pts":275, "upgrades":[]},
 			{"id":515, "name":"Subjugator",	"pts":275, "upgrades":[]},
 			{"id":518, "name":"Hell Blades",	"pts":175, "units":"3 Hell Blade Interceptors", "upgrades":[]},
@@ -111,9 +111,7 @@
 
 		{"min":1, "max":1, "from":[40,41], "appliesTo":[506]},
 
-		{"min":0, "max":1, "from":[44], "appliesTo":[501,506]},
-
-		{"min":4, "max":6, "from":[50], "appliesTo":[513]}
+		{"min":0, "max":1, "from":[44], "appliesTo":[501,506]}
 
 	]
 }

@@ -25,7 +25,7 @@
 			{"id":532, "name":"Hell Talon Squadron", "pts":225, "units":"2 Hell Talon Fighter-Bombers", "upgrades":[]},
 			{"id":530, "name":"Chaos Space Marines", "pts":250, "units":"6 Chaos Space Marines, 3 Chaos Rhinos", "upgrades":[36]},
 			{"id":510, "name":"Decimator", "pts":225, "upgrades":[]},
-			{"id":512, "name":"Defilers",	"pts":225, "units":"4 Defilers", "upgrades":[]},
+			{"id":512, "name":"Defilers",	"pts":250, "units":"4 Defilers", "upgrades":[]},
 			{"id":511, "name":"Death Wheel", "pts":300, "upgrades":[]},
 			{"id":514, "name":"Subjugator of Slaanesh", "pts":275, "upgrades":[] },
 			{"id":515, "name":"Questor of Slaanesh", "pts":275, "upgrades":[]},

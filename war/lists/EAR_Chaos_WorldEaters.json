@@ -20,8 +20,8 @@
        ]},
 
       {"name": "WORLD EATERS SUPPORT FORMATIONS <br/> Max 2 for each World Eaters Core Formation", "formations": [
-          {"id": 544, "name": "Doomblasters", "pts": 175, "units": "3 Doomblasters", "upgrades": []},
-            {"id": 541, "name": "Khorne Defiler Pack", "pts": 0, "upgrades": [35]},
+          {"id": 544, "name": "Doomblasters", "pts": 200, "units": "3 Doomblasters", "upgrades": []},
+            {"id": 541, "name": "Khorne Defiler Pack", "pts": 25, "upgrades": [35]},
           {"id": 543, "name": "Cannons of Khorne", "pts": 225, "units": "4 Cannons of Khorne", "upgrades": []},
             {"id": 542, "name": "Daemonic Assault Engines", "pts": 225, "units": "4 Daemonic Assault Engines",  "upgrades": []}
        ]},
@@ -103,7 +103,7 @@
       {"min": 1, "max": 1, "from": [15,13,14], "appliesTo": [521,531,532]},
       {"min": 1, "max": 1, "from": [15,13,14], "appliesTo": [533]},
       {"min": 1, "max": 1, "from": [50,51], "appliesTo": [536]},
-      {"min": 4, "max": 6, "from": [35], "appliesTo": [541]},
+      {"min": 4, "max": 7, "from": [35], "appliesTo": [541]},
       {"min": 1, "max": 3, "from": [34], "appliesTo": [551]}
 
    ]

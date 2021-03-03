@@ -24,7 +24,7 @@
 		]},
 		{"name":"BLACK LEGION DAEMON ENGINE, TITAN AND CHAOS NAVY FORMATIONS <br/> Max 33%", "formations":[
 			{"id":512, "name":"Decimator", "pts":225, "upgrades":[]},
-			{"id":513, "name":"Defilers", "pts":25, "upgrades":[63]},
+			{"id":513, "name":"Defilers", "pts":250, "units":"4 Defilers", "upgrades":[]},
 			{"id":514, "name":"Chaos Warhound",	"pts":275, "upgrades":[]},
 			{"id":511, "name":"Death Wheel",	"pts":300, "upgrades":[]},
 			{"id":515, "name":"Chaos Reaver Titan",		"pts":600, "upgrades":[]},
@@ -136,9 +136,7 @@
 		{"min":0, "max":2, "from":[43], "appliesTo":[499,501,506,507]},
 		{"min":0, "max":1, "from":[44], "appliesTo":[499,501,506,507]},
 
-		{"min":1, "max":1, "from":[38,39], "appliesTo":[507]},
-
-		{"min":4, "max":6, "from":[63], "appliesTo":[513]}
+		{"min":1, "max":1, "from":[38,39], "appliesTo":[507]}
 
 	]
 }

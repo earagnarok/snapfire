@@ -21,7 +21,7 @@
 			{"id":508, "name":"Silver Towers of Tzeench",	"pts":300, "units":"4 Silver Towers", "upgrades":[]}
 		]},
 		{"name":"DARK MECHANICUS AND THOUSAND SONS NAVY FORMATIONS <br/> Max 33%", "formations":[
-			{"id":512, "name":"Warphound", "pts":275,  "upgrades":[]},
+			{"id":512, "name":"Warphound", "pts":300,  "upgrades":[]},
 			{"id":513, "name":"Warp Palace",	"pts":450,  "upgrades":[]},
 			{"id":510, "name":"Doomwings of Tzeench",	"pts":175, "units": "3 Doomwings", "upgrades":[]},
 			{"id":511, "name":"Firelords of Tzeench", "pts":50, "upgrades":[50]},

@@ -8,24 +8,23 @@
       ]},
 
       {"name": "DEATH GUARD CORE FORMATIONS", "formations": [
-            {"id": 521, "name": "Death Guard Retinue", "pts": 300,  "units": "4 Plague Marines, Daemonic Pact", "upgrades": [22,23,24,33,26,27,28,30]}
+            {"id": 521, "name": "Death Guard Retinue", "pts": 325,  "units": "4 Plague Marines, Daemonic Pact", "upgrades": [22,23,24,33,26,27,28,30]}
        ]},
       {"name": "DEATH GUARD ELITE FORMATIONS <br/> Max 1 for each Death Guard Core Formation", "formations": [
             {"id": 531, "name": "Chosen", "pts": 175, "units": "4 Chosen, Daemonic Pact", "upgrades": [30]},
-            {"id": 533, "name": "Armored Company", "pts": 225, "upgrades": [28]},
-            {"id": 532, "name": "Death Guard Terminators", "pts": 350, "units": "4 Blightlord Terminators, Daemonic Pact", "upgrades": [22,26,27,30,32,33]}
+            {"id": 533, "name": "Armored Company", "pts": 250, "upgrades": [28]},
+            {"id": 532, "name": "Death Guard Terminators", "pts": 375, "units": "4 Blightlord Terminators, Daemonic Pact", "upgrades": [22,26,27,30,32,33]}
        ]},
       {"name": "DEATH GUARD SUPPORT FORMATIONS <br/> Max 2 for each Death Guard Core Formation. Max 1 Plague Zombie Infestation for each part of 1500 points in the army", "formations": [
-          {"id": 551, "name": "Plague Zombie Infestation", "pts": 175, "units": "7 Plague Zombies", "upgrades": []},
+          {"id": 551, "name": "Plague Zombie Infestation", "pts": 200, "units": "7 Plague Zombies", "upgrades": []},
           {"id": 540, "name": "Plague Reaper", "pts": 225, "upgrades": []},
-          {"id": 544, "name": "Nurgle Defiler Pack", "pts": 25, "upgrades": [21]},
+          {"id": 544, "name": "Nurgle Defiler Pack", "pts": 225, "units": "4 Desecrators", "upgrades": []},
             {"id": 542, "name": "Blight Drones", "pts": 250, "units": "7 Blight Drones", "upgrades": []},
             {"id": 543, "name": "Plague Tower", "pts": 275, "upgrades": []},
             {"id": 541, "name": "Contagion Engines", "pts": 325, "units": "4 Contagion Engines", "upgrades": []}
-
        ]},
       {"name": "TRAITOR TITANS & CHAOS NAVY <br/> Max 33%", "formations": [
-            {"id": 552, "name": "Plaguehound", "pts": 275, "upgrades": []},
+            {"id": 552, "name": "Plaguehound", "pts": 300, "upgrades": []},
             {"id": 553, "name": "Repugnant Titan", "pts": 600,  "upgrades": []},
             {"id": 554, "name": "Heldrakes", "pts": 225, "units": "2 Heldrakes", "upgrades": []},
             {"id": 556, "name": "Harbringer Bomber", "pts": 300, "upgrades": []},
@@ -50,8 +49,8 @@
       {"id": 27, "name": "Icon Bearer ", "pts": 25},
       {"id": 28, "name": "Death Guard Stalker ", "pts": 50},
       {"id": 29, "name": "Plague Reaper", "pts": 175},
-      {"id": 30, "name": "2 Death Guard Vindicators", "pts": 75},
-      {"id": 31, "name": "Death Guard Vindicator", "pts": 35},
+      {"id": 30, "name": "2 Death Guard Vindicators", "pts": 100},
+      {"id": 31, "name": "Death Guard Vindicator", "pts": 50},
 
       {"id": 32, "name": "2 Chaos Spartan Assault Tanks", "pts": 150},
       {"id": 33, "name": "4 Chaos Land Raiders", "pts": 200},
@@ -60,8 +59,8 @@
       {"id": 36, "name": "2 Chaos Dreadnoughts", "pts": 75},
 
       {"id": 40, "name": "5 Death Guard Vindicators", "pts": 0},
-      {"id": 41, "name": "4 Chaos Land Raiders", "pts": 50},
-      {"id": 42, "name": "7 Death Guard Vindicators", "pts": 75},
+      {"id": 41, "name": "4 Chaos Land Raiders", "pts": 25},
+      {"id": 42, "name": "7 Death Guard Vindicators", "pts": 100},
       {"id": 43, "name": "4 Chaos Land Raiders, 2 Death Guard Vindicators", "pts": 125},
 
       {"id":55,	"name":"Rot Cannon",	"pts":0},
@@ -101,7 +100,6 @@
       {"min": 1, "max": 1, "from": [17,18], "appliesTo": [521]},
       {"min": 1, "max": 1, "from": [35,36], "appliesTo": [531]},
       {"min": 1, "max": 1, "from": [40,41,42,43], "appliesTo": [533]},
-      {"min": 4, "max": 5, "from": [21], "appliesTo": [544]},
       {"min": 1, "max": 1, "from": [55,56,57], "appliesTo": [553]}
 
    ]
