@@ -5,7 +5,7 @@
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"WODANAZ STRONGHOLD BROTHERHOODS", "formations":[
-			{"id":501, "name":"Warrior Brotherhood",	"pts":200,  "upgrades":[133,140,141,142,143,144,145,100,101]},
+			{"id":501, "name":"Warrior Brotherhood",	"pts":200,  "upgrades":[140,141,142,143,144,145,100,101]},
 			{"id":509, "name":"Berserker Brotherhood",	"pts":200, "units":"Squat Hearthguards, 7 Squat Berserkers", "upgrades":[]}
 		]},
 		{"name":"WODANAZ STRONGHOLD SUPPORT <br/> Max 2 for each Brotherhood", "formations":[
@@ -19,8 +19,8 @@
 		]},
 
 		{"name":"WODANAZ STRONGHOLD WAR ENGINES <br/> Max 33% <br/> Max 1 Hellbore for each Warrior Brotherhood formation with the 'Hellbore Transport' upgrade", "formations":[
-			{"id":521, "name":"Hellbore",			"pts":150, "upgrades":[]},
-			{"id":512, "name":"Overlord",			"pts":250, "upgrades":[]},
+			{"id":521, "name":"Hellbore",			"pts":150, "upgrades":[111]},
+			{"id":512, "name":"Overlord",			"pts":250, "upgrades":[111]},
 		    {"id":520, "name":"Goliath Battery",		"pts":350, "units":"2 Goliath Mega Cannons", "upgrades":[]},
 			{"id":525, "name":"Land Train",			"pts":200, "units":"Land Train Engine", "upgrades":[111, 120,121,122,123]},
 			{"id":524, "name":"Cyclops",			"pts":425, "upgrades":[111]},
@@ -56,11 +56,12 @@
 
 		{"id":124, "name":"Kastelan Robot",					"pts":25},
 
-		{"id":129, "name":"Squat Hearthguards, 10 Squat Warriors, 3 Rapiers",	"pts":75},
-		{"id":130, "name":"Squat Hearthguards, 6 Squat Warriors, 3 Rapiers",	"pts":0},
+		{"id":129, "name":"Squat Hearthguards, 11 Squat Warriors, 4 Rapiers",	"pts":100},
+		{"id":130, "name":"Squat Hearthguards, 7 Squat Warriors, 4 Rapiers",	"pts":25},
 		{"id":131, "name":"Squat Hearthguards, 9 Squat Warriors",				"pts":0},
 		{"id":132, "name":"Squat Hearthguards, 13 Squat Warriors",				"pts":75},
-		{"id":133, "name":"2 Squat Thunderers",				"pts":50},
+		{"id":133, "name":"Squat Hearthguards, 7 Squat Warriors, 2 Thunderers",	"pts":25},
+		{"id":134, "name":"Squat Hearthguards, 11 Squat Warriors, 2 Thunderers",	"pts":100},
 
 		{"id":135, "name":"2 Squat Rhinos",				"pts":0},
 		{"id":136, "name":"2 Termites",				"pts":0},
@@ -90,7 +91,7 @@
 		{"max":2, "from":[141]},
 		{"max":1, "from":[143,144,145]},
 
-  		{"max":1, "min":1, "from":[131,130,132,129], "appliesTo":[501]},
+  		{"max":1, "min":1, "from":[131,130,133,132,129,134], "appliesTo":[501]},
 
 		{"max":1, "min":1, "from":[118,119], "appliesTo":[509]},
 
