@@ -56,8 +56,8 @@
 
 		{"id":124, "name":"Kastelan Robot",					"pts":25},
 
-		{"id":129, "name":"Squat Hearthguards, 11 Squat Warriors, 4 Rapiers",	"pts":100},
-		{"id":130, "name":"Squat Hearthguards, 7 Squat Warriors, 4 Rapiers",	"pts":25},
+		{"id":129, "name":"Squat Hearthguards, 11 Squat Warriors, 3 Rapiers",	"pts":100},
+		{"id":130, "name":"Squat Hearthguards, 7 Squat Warriors, 3 Rapiers",	"pts":25},
 		{"id":131, "name":"Squat Hearthguards, 9 Squat Warriors",				"pts":0},
 		{"id":132, "name":"Squat Hearthguards, 13 Squat Warriors",				"pts":75},
 		{"id":133, "name":"Squat Hearthguards, 7 Squat Warriors, 2 Thunderers",	"pts":25},
