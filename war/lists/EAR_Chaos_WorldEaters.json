@@ -21,7 +21,7 @@
 
       {"name": "WORLD EATERS SUPPORT FORMATIONS <br/> Max 2 for each World Eaters Core Formation", "formations": [
           {"id": 544, "name": "Doomblasters", "pts": 200, "units": "3 Doomblasters", "upgrades": []},
-            {"id": 541, "name": "Khorne Defiler Pack", "pts": 25, "upgrades": [35]},
+            {"id": 541, "name": "Khorne Defiler Pack", "pts": 50, "upgrades": [35]},
           {"id": 543, "name": "Cannons of Khorne", "pts": 225, "units": "4 Cannons of Khorne", "upgrades": []},
             {"id": 542, "name": "Daemonic Assault Engines", "pts": 225, "units": "4 Daemonic Assault Engines",  "upgrades": []}
        ]},
