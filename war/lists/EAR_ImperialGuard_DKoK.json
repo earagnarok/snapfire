@@ -9,7 +9,7 @@
 			{ "id":503, "name":"Death Rider Company", "pts":300, "units":"Commissar, 12 Death Riders", "upgrades":[32] }
 		]},
 		{"name":"SUPPORT FORMATIONS <br/> Max 2 for each Core Company", "formations":[
-			{ "id":510, "name":"Grenadier Company", "pts":325, "units":"DKoK Commander with a Commissar, 7 Grenadiers", "upgrades":[32] },
+			{ "id":510, "name":"Grenadier Company", "pts":350, "units":"DKoK Commander with a Commissar, 7 Grenadiers", "upgrades":[32] },
 			{ "id":511, "name":"Leman Russ Platoon", "pts":375, "upgrades":[32] },
 			{ "id":512, "name":"Macharius Company", "pts":375, "units":"2 Macharius", "upgrades":[] },
 			{ "id":513, "name":"Artillery Emplacement", "pts":250, "upgrades":[21] },
@@ -60,12 +60,12 @@
 		{ "id":36, "name":"2 Malcador Annihilators", "pts":175},
 
 		{ "id":42, "name":"4 Medusa Guns, 4 Gun Emplacements", "pts":0},
-		{ "id":43, "name":"4 Medusa Guns, 4 Trojans", "pts":25},
+		{ "id":43, "name":"4 Medusa Guns, 4 Trojans", "pts":0},
 		{ "id":44, "name":"4 Earthshaker Guns, 4 Gun Emplacements", "pts":25},
-		{ "id":45, "name":"4 Earthshaker Guns, 4 Trojans", "pts":50},
+		{ "id":45, "name":"4 Earthshaker Guns, 4 Trojans", "pts":25},
 
-		{ "id":46, "name":"4 Heavy AA Guns, 4 Gun Emplacements", "pts":0},
-		{ "id":47, "name":"4 Heavy AA Guns, 4 Trojans", "pts":25},
+		{ "id":46, "name":"3 Heavy AA Guns, 3 Gun Emplacements", "pts":0},
+		{ "id":47, "name":"3 Heavy AA Guns, 3 Trojans", "pts":0},
 
 		{ "id":50, "name":"Baneblade", "pts":0 },
 		{ "id":51, "name":"Shadowsword", "pts":0 },

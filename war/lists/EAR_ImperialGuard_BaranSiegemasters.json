@@ -15,7 +15,7 @@
 			{"id":511, "name":"Siege Artillery Emplacement", 	"pts":250, "upgrades":[15]},
 			{"id":519, "name":"Super-Heavy Platoon", 			"pts":200, "upgrades":[]},
 			{"id":510, "name":"Howitzer Emplacement", 			"pts":250, "upgrades":[], "units":"4 Howitzers, 4 Gun Emplacements"},
-			{"id":514, "name":"Flak Emplacement", 				"pts":175, "upgrades":[], "units":"4 Heavy AA Guns, 4 Gun Emplacements"},
+			{"id":514, "name":"Flak Emplacement", 				"pts":175, "upgrades":[], "units":"3 Heavy AA Guns, 3 Gun Emplacements"},
 			{"id":517, "name":"Death Rider Platoon",			"pts":150, "upgrades":[], "units":"6 Death Riders"},
 			{"id":516, "name":"Siege Recon Squadron",			"pts":150, "upgrades":[], "units":"4 Siegfried Light Tanks"}
 		]},
