@@ -104,7 +104,7 @@
     {"id": 116,      "name": "Breacher (Scythed Hierodule)",      "pts": 125    },
     {"id": 117,      "name": "Burrower (2 Trygons)",      "pts": 100    },
     {"id": 118,      "name": "Spawner (Tervigon, 2 Hormagaunts)",      "pts": 100    },
-    {"id": 120,      "name": "Mycetic Spore <br/> May transport one Instinctive Swarm. May transport Termagants, Hormagaunts, Biovores, Carnifex, Raveners, Hive Tyrants, Hive Tyrant Shrike, Swarmlord, Swarmlord Shrike, Tyranid Warriors, Tyranid Warrior Shrikes, Zoanthropes.",      "pts": 50    },
+    {"id": 120,      "name": "Mycetic Spore <br/> May carry units chosen from Termagants, Hormagaunts, Biovores, Carnifex, Raveners, Hive Tyrant, Dagon Overlord, Tyranid Warriors, Zoanthropes. No Shrikes of any type may be taken.",      "pts": 50    },
     {"id": 121,      "name": "Carnifex (3 Barbed Carnifex)",      "pts": 125    },
     {"id": 122,      "name": "Carnifex (3 Screamer-Killer Carnifex)",      "pts": 125    },
     {"id": 130,      "name": "Hive Harridan, 4 Gargoyles",      "pts": 0    },

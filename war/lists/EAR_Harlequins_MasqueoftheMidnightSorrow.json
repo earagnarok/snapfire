@@ -32,8 +32,8 @@
 		{"name":"COMMORRAGH NAVY & WAR ENGINES <br/> Max 33%", "formations":[
 			{"id":528, "name":"Tormentor Titan", "pts":350, "upgrades":[]},
 			{"id":523, "name":"Slavebringer Assault Boat", "pts":200, "upgrades":[]},
-			{"id":526, "name":"Razorwing Cast", "pts":200, "units":"2 Razorwing Interceptors", "upgrades":[]},
-			{"id":527, "name":"Voidraven Cast", "pts":225, "units":"2 Voidraven Interdictors", "upgrades":[]},
+			{"id":526, "name":"Razorwing Cast", "pts":225, "units":"2 Razorwing Interceptors", "upgrades":[]},
+			{"id":527, "name":"Voidraven Cast", "pts":250, "units":"2 Voidraven Interdictors", "upgrades":[]},
 			{"id":522, "name":"Torture Class Cruiser", "pts":300, "upgrades":[]}
 		]}
 	],
