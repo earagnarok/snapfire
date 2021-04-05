@@ -5,7 +5,7 @@
 	"sections":[
 		{"name":"IRON WARRIORS CORE FORMATIONS", "formations":[
 			{"id":500, "name":"Iron Warriors Retinue", "pts":225, "upgrades":[39,40,41,43,42,52,53,54,55,80]},
-			{"id":501, "name":"Iron Warriors Armoured Company", "pts":250, "upgrades":[] },
+			{"id":501, "name":"Iron Warriors Armoured Company", "pts":275, "upgrades":[] },
 			{"id":502, "name":"Havocs",	"pts":300, "units":"4 Havocs, 2 Chaos Land Raiders", "upgrades":[43]}
 		]},
 		{"name":"IRON WARRIORS ELITE FORMATIONS <br/> Max 1 for each Core formation", "formations":[
@@ -36,8 +36,8 @@
 		{"id":13, "name":"Daemon Prince (replaces a unit of Chaos Space Marines, Havocs, or Tyrant Terminators)", 		"pts":100},
 
 		{"id":20, "name":"6 Chaos Vindicators", "pts":0},
-		{"id":21, "name":"6 Chaos Predators", "pts":50},
-		{"id":22, "name":"6 Chaos Land Raiders", "pts":150},
+		{"id":21, "name":"6 Chaos Predators", "pts":25},
+		{"id":22, "name":"6 Chaos Land Raiders", "pts":125},
 
 		{"id":25, "name":"Iron Warriors Stormsword", "pts":0},
 		{"id":26, "name":"2 Iron Warriors Stormswords", "pts":150},
