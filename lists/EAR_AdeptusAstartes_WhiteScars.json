@@ -11,11 +11,11 @@
 			{"id":501, "name":"Bikes", 		"pts":325, "upgrades":[15,16,17,18,14]},
 			{"id":512, "name":"Terminators",		"pts":425, "units":"4 Terminators", "upgrades":[15,16,17,18,14,30,31,36,37]}
 		]},
-		{"name":"WHITE SCARS SUPPORT DETACHMENTS <br/> Max 3 for each Core Detachment", "formations":[
+		{"name":"WHITE SCARS SUPPORT DETACHMENTS <br/> Max 2 for each Core Detachment", "formations":[
 			{"id":500, "name":"Assaults", 		"pts":175, "units":"4 Assaults", "upgrades":[15,16,17,18,14,36,37]},
 			{"id":522, "name":"Scout Bikes",	"pts":150, "upgrades":[]},
 			{"id":504, "name":"Land Speeders",	"pts":200, "upgrades":[]},
-			{"id":515, "name":"Whirlwinds",		"pts":75, "upgrades":[42,36,37,30,31]},
+			{"id":515, "name":"Whirlwinds",		"pts":275, "units":"4 Whirlwinds", "upgrades":[36,37,30,31]},
 			{"id":506, "name":"Predators",		"pts":250, "upgrades":[30,31,36,37]},
 			{"id":505, "name":"Landing Craft",			"pts":350, "upgrades":[]},
 			{"id":509, "name":"Orbital Support",	"pts":200, "upgrades":[]}
@@ -69,7 +69,7 @@
 	],
 	"formationConstraints":[
 		{"max":1, "name":"Spacecraft", "from":[509]},
-		{"max":3, "name":"Support Detachment", "from":[500,504,506,515,522,509,505], "forEach":[512,511,501,516], "name2":"Core Detachment"},
+		{"max":2, "name":"Support Detachment", "from":[500,504,506,515,522,509,505], "forEach":[512,511,501,516], "name2":"Core Detachment"},
 		{"maxPercent": 33.5, "name":"Navy & Titans", "from":[513,517,524]}
 	],
 	"upgradeConstraints":[
@@ -91,7 +91,6 @@
 		{"min":4, "max":4, "from":[24,25], "appliesTo":[506]},
 
 		{"min":1, "max":1, "from":[40,41], "appliesTo": [509]},
-		{"min":3, "max":4, "from":[42], "appliesTo": [515]},
 		{"min":5, "max":5, "from":[12,10,11], "appliesTo": [522]},
 		{"max":1, "from":[10,11], "appliesTo":[522]},
 		{"min":1, "max":2, "from":[50], "appliesTo":[524]}
