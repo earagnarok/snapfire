@@ -12,7 +12,7 @@
 			{ "id":510, "name":"Grenadier Company", "pts":350, "units":"DKoK Commander with a Commissar, 7 Grenadiers", "upgrades":[32] },
 			{ "id":511, "name":"Leman Russ Platoon", "pts":375, "upgrades":[32] },
 			{ "id":512, "name":"Macharius Company", "pts":375, "units":"2 Macharius", "upgrades":[] },
-			{ "id":513, "name":"Artillery Emplacement", "pts":250, "upgrades":[21] },
+			{ "id":513, "name":"Artillery Emplacement", "pts":225, "upgrades":[21] },
 			{"id":509, "name":"Deathstrike Battery", "pts":225, "units":"2 Deathstrike", "upgrades":[]},
 			{ "id":514, "name":"Griffon Battery", "pts":175, "units":"3 Griffons", "upgrades":[] },
 			{ "id":515, "name":"Siege Infantry Company", "pts":300, "units":"DKoK Commander with a Commissar, 9 Siege Infantry, 40cm Trenches, 40cm Razor Wire", "upgrades":[16,17,18,19] },
@@ -61,11 +61,11 @@
 
 		{ "id":42, "name":"4 Medusa Guns, 4 Gun Emplacements", "pts":0},
 		{ "id":43, "name":"4 Medusa Guns, 4 Trojans", "pts":0},
-		{ "id":44, "name":"4 Earthshaker Guns, 4 Gun Emplacements", "pts":25},
-		{ "id":45, "name":"4 Earthshaker Guns, 4 Trojans", "pts":25},
+		{ "id":44, "name":"4 Earthshaker Guns, 4 Gun Emplacements", "pts":50},
+		{ "id":45, "name":"4 Earthshaker Guns, 4 Trojans", "pts":50},
 
-		{ "id":46, "name":"3 Heavy AA Guns, 3 Gun Emplacements", "pts":0},
-		{ "id":47, "name":"3 Heavy AA Guns, 3 Trojans", "pts":0},
+		{ "id":46, "name":"4 Heavy AA Guns, 4 Gun Emplacements", "pts":0},
+		{ "id":47, "name":"4 Heavy AA Guns, 4 Trojans", "pts":0},
 
 		{ "id":50, "name":"Baneblade", "pts":0 },
 		{ "id":51, "name":"Shadowsword", "pts":0 },
