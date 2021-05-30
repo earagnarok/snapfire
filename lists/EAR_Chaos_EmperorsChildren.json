@@ -29,7 +29,8 @@
 			{"id":515, "name":"Subjugator",	"pts":275, "upgrades":[]},
 			{"id":518, "name":"Hell Blades",	"pts":175, "units":"3 Hell Blade Interceptors", "upgrades":[]},
 			{"id":519, "name":"Hell Talons",	"pts":225, "units":"2 Hell Talon Fighter-Bombers", "upgrades":[]},
-			{"id":520, "name":"Devastation Class Cruiser",	"pts":150,  "upgrades":[]}
+			{"id":520, "name":"Devastation Class Cruiser",	"pts":150,  "upgrades":[]},
+			{"id":521, "name":"Despoiler Class Battleship","pts":200, "upgrades":[]}
 			]}
 	],
 	"upgrades":[
@@ -77,7 +78,7 @@
 
 	],
 	"formationConstraints":[
-		{"max":1, "name":"Spacecraft", "from":[520]},
+		{"max":1, "name":"Spacecraft", "from":[520,521]},
 		{"max":1, "name":"Emperor's Children Elite Formation", "from":[502,503], "forEach":[501], "name2":"Emperor's Children Core Formation"},
 		{"max":2, "name":"Emperor's Children Support Formations", "from":[504,505,506], "forEach":[501], "name2":"Emperor's Children Core Formation"},
 		{"min":1, "max":1, "from":[500]},
