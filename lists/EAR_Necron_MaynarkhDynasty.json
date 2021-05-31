@@ -32,8 +32,8 @@
          "formations": [
              {"id": 805, "name": "Megalith Conduit", "pts": 350, "units":"Megalith", "upgrades": [105,106]},
             {"id": 803, "name": "Harvester Engine", "pts": 450},
+            {"id": 804, "name": "Doom Scythes",  "units":"2 Doom Scythe Fighters", "pts": 200, "upgrades": []},
             {"id": 806, "name": "Night Shroud", "units":"Night Shroud Bomber", "pts": 225},
-            {"id": 804, "name": "Doom Scythes",  "units":"2 Doom Scythe Fighters", "pts": 225, "upgrades": []},
             {"id": 802, "name": "Tomb Ship", "units":"Cairn Class Tomb Ship", "pts": 200}
          ]
       }
