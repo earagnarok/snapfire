@@ -12,6 +12,7 @@
             {"id": 511, "name": "Spirit Blade Wraithhost", "pts": 200, "upgrades": [44,51,52,53,55]}
         ]},
       {"name": "TROUPES <br/> Max 2 for each Wraithhost", "formations": [
+            {"id": 513, "name": "Guardians", "pts": 150, "units": "Farseer", "upgrades": [14,8,9,55,51,52,53]},
             {"id": 613, "name": "Rangers", "pts": 0, "upgrades": [11]},
        	    {"id": 614, "name": "War Walker Troupe", "pts": 175, "units": "4 War Walkers", "upgrades": []},
             {"id": 616, "name": "Swords of Vaul", "pts": 250, "upgrades": []},
@@ -33,6 +34,8 @@
          ]}
    ],
    "upgrades": [
+      {"id": 8, "name": "2 Wraithblades", "pts": 50},
+      {"id": 9, "name": "2 Wraithguards", "pts": 75},
       {"id": 11, "name": "Eldar Rangers", "pts": 25},
       {"id": 12, "name": "Guardians", "pts": 0},
       {"id": 13, "name": "Heavy Weapon Platform", "pts": 0},
@@ -95,6 +98,16 @@
       {"max": 1, "min": 1, "from": [40,62], "appliesTo": [511]},
 
       {"max": 1, "min": 1, "from": [42], "appliesTo": [511]},
+
+      {"max": 7, "min": 7, "from": [12,13], "appliesTo": [513]},
+      {"max": 3, "from": [13], "appliesTo": [513]},
+      {"max": 1, "from": [14], "appliesTo": [513]},
+      {"max": 1, "from": [8,9], "appliesTo": [513]},
+      {"max": 1, "from": [51,52,53], "appliesTo": [513]},
+      {"max": 1, "from": [55,14], "appliesTo": [513]},
+      {"max": 1, "from": [55,51,52,53], "appliesTo": [513]},
+      {"max": 1, "from": [55,8,9], "appliesTo": [513]},
+
 
       {"max": 7, "min": 7, "from": [12,13], "appliesTo": [612]},
       {"max": 3, "from": [13]},

@@ -14,7 +14,7 @@
 		{"name":"IYANDEN CRAFTWORLD TROUPES <br/> Max 2 for each Warhost", "formations":[
 			{"id":701, "name":"Aspect Warrior Troupe", 						"pts":175,	"upgrades":[60,61,97]},
 			{"id":702, "name":"Ranger Troupe",								"pts":0, "upgrades":[22]},
-			{"id":703, "name":"Guardian Troupe",							"pts":150, 	"upgrades":[25,11,12,13,60]},
+			{"id":703, "name":"Guardian Troupe",							"pts":150, 	"upgrades":[25,13,60,30,31,32,33]},
 			{"id":704, "name":"Windrider Troupe",							"pts":200, 	"upgrades":[]},
 			{"id":705, "name":"War Walker Troupe",							"pts":50, 	"upgrades":[28]},
 			{"id":706, "name":"Swords of Vaul Troupe",						"pts":0, "upgrades":[61]},
@@ -66,6 +66,10 @@
 		{"id":27, "name":"Vyper",								"pts":0},
 		{"id":28, "name":"War Walker",							"pts":25},
 
+		{"id":30, "name":"2 Wraithblades",							"pts":100},
+		{"id":31, "name":"3 Wraithblades",							"pts":150},
+		{"id":32, "name":"2 Wraithguards",							"pts":100},
+		{"id":33, "name":"3 Wraithguards",							"pts":150},
 
 
 		{"id":60, "name":"Wave Serpent",					"pts":50},
@@ -113,8 +117,9 @@
 		{"min":7, "max":7, "from":[23,24], "appliesTo":[703]},
 		{"min":0, "max":3, "from":[24], "appliesTo":[703]},
 		{"min":0, "max":1, "from":[25], "appliesTo":[703]},
-		{"min":0, "max":3, "from":[11,12], "appliesTo":[703]},
+		{"min":0, "max":3, "from":[13], "appliesTo":[703]},
 		{"min":0, "max":4, "from":[60], "appliesTo":[703]},
+		{"min":0, "max":1, "from":[30,31,32,33], "appliesTo":[703]},
 
 		{"min":6, "max":6, "from":[26,27], "appliesTo":[704]},
 		{"min":4, "max":6, "from":[28], "appliesTo":[705]},
