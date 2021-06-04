@@ -1,8 +1,8 @@
 {
-	"id":"EA-R Traitor Titan Legions",
-	"version":"0.8.0",
-	"notes":[],
+	"id":"<a href=\"https://earagnarok.github.io/list-view/site.html?content=intro\">EA-R</a> Traitor Titan Legion",
+	"version":"Alpha 0.7.0 <a href=\"https://earagnarok.github.io/list-view/site.html?content=list&race=DM&list=TTL\">Listview</a>",
 	"by":"EA-Ragnarok",
+	"notes":[],
 	"sections":[
 		{"name":"BATTLE TITAN FORMATIONS <br/> Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations ", "formations":[
 			{"id":500, "name":"Chaos Emperor Titan",	"pts":875, "upgrades":[]},

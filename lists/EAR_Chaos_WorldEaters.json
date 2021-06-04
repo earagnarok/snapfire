@@ -1,7 +1,7 @@
 {
-   "id": "EA-R World Eaters",
-   "version": "Beta 0.7.6",
-   "by": "EA-Ragnarok",
+    "id":"<a href=\"https://earagnarok.github.io/list-view/site.html?content=intro\">EA-R</a> World Eaters",
+	"version":"Approved 1.0.Beta <a href=\"https://earagnarok.github.io/list-view/site.html?content=list&race=Chaos&list=worldeaters\">Listview</a>",
+	"by":"EA-Ragnarok",
    "sections": [
       {"name": "DAEMONS", "formations": [
 	    {"id": 501, "name": "Daemon Pool", "pts": 0, "upgrades": [71,72,74]}

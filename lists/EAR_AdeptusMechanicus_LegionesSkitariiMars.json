@@ -1,6 +1,6 @@
 {
-	"id":"<a href=\"https://magnusdurr.github.io/list-view/site.html\">EA-R</a> Legiones Skitarii: Mars",
-	"version":"Alpha v0.6.0 <a href=\"https://magnusdurr.github.io/list-view/index.html?race=AM&list=legionesskitariimars\">Listview</a>",
+	"id":"<a href=\"https://earagnarok.github.io/list-view/site.html?content=intro\">EA-R</a> Legiones Skitarii: Mars",
+	"version":"Alpha v0.6.0 <a href=\"https://earagnarok.github.io/list-view/site.html?content=list&race=AM&list=legionesskitariimars\">Listview</a>",
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"LEGIONES MARS CORE FORMATIONS", "formations":[

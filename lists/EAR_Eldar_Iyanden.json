@@ -1,8 +1,8 @@
 {
-   "id": "EA-R Iyanden Craftworld",
-   "version": "1.0.Beta",
-   "by": "EA-Ragnarok",
-   "sections": [
+    "id":"<a href=\"https://earagnarok.github.io/list-view/site.html?content=intro\">EA-R</a> Craftworld Iyanden",
+	"version":"Approved 1.0.Beta <a href=\"https://earagnarok.github.io/list-view/site.html?content=list&race=EL&list=iyanden\">Listview</a>",
+	"by":"EA-Ragnarok",
+  "sections": [
       {"name": "INDIVIDUALS", "formations": [
           {"id": 507, "name": "Wraithgate", "pts": 50,  "upgrades": []},
   	    {"id": 508, "name": "Avatar", "pts": 0, "upgrades": []}

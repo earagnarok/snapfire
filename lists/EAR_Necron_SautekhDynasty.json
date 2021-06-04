@@ -1,7 +1,7 @@
 {
-   "id": "EA-R Necrons Sautekh Dynasty",
-   "version": "0.5.0",
-   "by": "EA Ragnarok Team",
+    "id":"<a href=\"https://earagnarok.github.io/list-view/site.html?content=intro\">EA-R</a> Sautekh Dynasty",
+	"version":"Experimental 0.5.0 <a href=\"https://earagnarok.github.io/list-view/site.html?content=list&race=NC&list=sautekhdynasty\">Listview</a>",
+	"by":"EA-Ragnarok",
    "sections": [
       {"name": "INDIVIDUALS", "formations": [
             {"id": 501, "name": "Tomb Complex", "pts": 25, "upgrades": []}

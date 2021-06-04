@@ -1,7 +1,7 @@
 {
-   "id": "EA-R Fir Lirithion",
-   "version": "0.6.0",
-   "by": "EA-Ragnarok",
+    "id":"<a href=\"https://earagnarok.github.io/list-view/site.html?content=intro\">EA-R</a> Fir Lirithion",
+	"version":"Alpha 0.6.0 <a href=\"https://earagnarok.github.io/list-view/site.html?content=list&race=EL&list=firlirithion\">Listview</a>",
+	"by":"EA-Ragnarok",
    "sections": [
       {"name": "FIR LIRITHION SPECIALS", "formations": [
 	    {"id": 500, "name": "Wraithgate", "pts": 50, "upgrades": []},

@@ -1,7 +1,7 @@
 {
-   "id": "EA-R Saim-Hann Craftworld",
-   "version": "Alpha 0.8.4",
-   "by": "EA-Ragnarok",
+    "id":"<a href=\"https://earagnarok.github.io/list-view/site.html?content=intro\">EA-R</a> Craftworld Saim-Hann",
+	"version":"Alpha 0.8.4 <a href=\"https://earagnarok.github.io/list-view/site.html?content=list&race=EL&list=saimhann\">Listview</a>",
+	"by":"EA-Ragnarok",
    "sections": [
       {"name": "INDIVIDUALS","formations": [
             {"id": 507, "name": "Wraithgate", "pts": 50, "upgrades": []},

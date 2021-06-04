@@ -1,7 +1,7 @@
 {
-   "id": "EA-R Ulthw&eacute; Craftworld",
-   "version": "Approved 1.0.Beta",
-   "by": "EA-Ragnarok",
+    "id":"<a href=\"https://earagnarok.github.io/list-view/site.html?content=intro\">EA-R</a> Craftworld Ulthwé",
+	"version":"Approved 1.0.Beta <a href=\"https://earagnarok.github.io/list-view/site.html?content=list&race=EL&list=ulthwe\">Listview</a>",
+	"by":"EA-Ragnarok",
    "sections": [
       {"name": "ULTHWÉ SPECIALS", "formations": [
             {"id": 500, "name": "Wraithgate", "pts": 50, "upgrades": []},
