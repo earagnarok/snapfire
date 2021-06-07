@@ -5,7 +5,7 @@
    "notes": [],
    "sections": [
       {"name": "MAYNARKH DYNASTY SPECIALS", "formations": [
-            {"id": 601, "name": "Necron Tomb Complex", "pts": 50, "units":"Tomb Complex", "upgrades": []}
+            {"id": 601, "name": "Necron Tomb Complex", "pts": 75, "units":"Tomb Complex", "upgrades": []}
          ]
       },
       {"name": "NECRON CORE",
