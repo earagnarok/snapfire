@@ -29,7 +29,7 @@
             {"id": 520, "name": "Nightwing Aerie", "pts": 75, "upgrades": [67]},
             {"id": 521, "name": "Hemlock Aerie", "pts": 250,  "units": "2 Hemlock Wraithfighters",  "upgrades": []},
             {"id": 522, "name": "Vampire Raider", "pts": 200, "upgrades": []},
-            {"id": 515, "name": "Wraithship", "pts": 150, "upgrades": []},
+            {"id": 515, "name": "Wraithship", "pts": 175, "upgrades": []},
             {"id": 516, "name": "Dragonship", "pts": 300, "upgrades": []}
          ]}
    ],

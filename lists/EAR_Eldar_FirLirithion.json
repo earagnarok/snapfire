@@ -24,7 +24,7 @@
           {"id": 540, "name": "Nightwing Aerie", "pts": 75, "upgrades": [20]},
           {"id": 541, "name": "Vampire Hunter", "pts": 225, "upgrades": []},
           {"id": 542, "name": "Vampire Raider", "pts": 200, "upgrades": []},
-          {"id": 550, "name": "Wraithship", "pts": 150, "upgrades": []},
+          {"id": 550, "name": "Wraithship", "pts": 175, "upgrades": []},
           {"id": 551, "name": "Dragonship", "pts": 300, "upgrades": []}
         ]}
    ],

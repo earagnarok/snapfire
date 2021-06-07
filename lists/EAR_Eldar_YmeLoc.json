@@ -23,7 +23,7 @@
 			{"id":528, "name":"Hornet Troupe", "pts":0,  "upgrades":[32]}
 		]},
 		{"name":"CRAFTWORLD NAVY & TITANS <br/> Max 33%", "formations":[
-			{"id":530, "name":"Wraithship",	"pts":150, "upgrades":[]},
+			{"id":530, "name":"Wraithship",	"pts":175, "upgrades":[]},
 			{"id":531, "name":"Dragonship",	"pts":300, "upgrades":[]},
 		 	{"id":532, "name":"Warlock Titan",	"pts":850, "upgrades":[]},
 			{"id":533, "name":"Phantom Titan",	"pts":700, "upgrades":[40]},

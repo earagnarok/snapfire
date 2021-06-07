@@ -28,7 +28,7 @@
             {"id": 542, "name": "Nightwing Aerie", "pts": 75, "upgrades": [67]},
             {"id": 544, "name": "Phoenix Aerie", "pts": 325, "units": "3 Phoenix Bombers",  "upgrades": []},
             {"id": 543, "name": "Vampire Raider", "pts": 200, "upgrades": []},
-            {"id": 545, "name": "Wraithship", "pts": 150, "upgrades": []},
+            {"id": 545, "name": "Wraithship", "pts": 175, "upgrades": []},
             {"id": 546, "name": "Dragonship", "pts": 300, "upgrades": []}
 
          ]}

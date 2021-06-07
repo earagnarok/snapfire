@@ -35,7 +35,7 @@
 			{"id":540, "name":"Crimson Aerie",	"pts":250, "units":"2 Nightshade Interceptors", "upgrades":[]},
 			{"id":544, "name":"Hemlock Aerie",	"pts":225, "units":"2 Hemlock Wraithfighters", "upgrades":[]},
 			{"id":542, "name":"Corsair Vampire Hunter","pts":225, "units":"Corsair Vampire Hunter", "upgrades":[]},
-			{"id":545, "name":"Wraithship",	"pts":150, "upgrades":[]},
+			{"id":545, "name":"Wraithship",	"pts":175, "upgrades":[]},
 			{"id":546, "name":"Dragonship",	"pts":300, "upgrades":[]}
 		]}
 	],
