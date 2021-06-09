@@ -14,7 +14,7 @@
       {"name": "TROUPES <br/> Max 2 for each Warhost", "formations": [
             {"id": 500, "name": "Rangers", "pts": 0, "upgrades": [11]},
             {"id": 501, "name": "War Walker Troupe", "pts": 175, "units": "4 War Walkers", "upgrades": []},
-            {"id": 502, "name": "Wind Rider Troupe", "pts": 200, "upgrades": []},
+            {"id": 502, "name": "Windrider Troupe", "pts": 200, "upgrades": []},
             {"id": 503, "name": "Swords of Vaul", "pts": 250, "upgrades": []},
             {"id": 504, "name": "Night Spinner Troupe", "pts": 175, "units": "3 Night Spinners", "upgrades": []},
             {"id": 505, "name": "Engines of Vaul", "pts": 50, "upgrades": [34,35,36]},

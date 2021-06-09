@@ -19,7 +19,7 @@
 			{"id":521, "name":"Fire Spinner Troupe", "pts":225, "units":"3 Night Spinners, Firestorm", "upgrades":[]},
 			{"id":525, "name":"Fire Prism Troupe", "units":"3 Fire Prisms",	"pts":250, "upgrades":[]},
 			{"id":526, "name":"Warp Hunter Troupe", "units":"3 Warp Hunters", "pts":175, "upgrades":[]},
-			{"id":527, "name":"Wind Rider Troupe", "units":"6 Vypers",	"pts":200, "upgrades":[]},
+			{"id":527, "name":"Windrider Troupe", "units":"6 Vypers",	"pts":200, "upgrades":[]},
 			{"id":528, "name":"Hornet Troupe", "pts":0,  "upgrades":[32]}
 		]},
 		{"name":"CRAFTWORLD NAVY & TITANS <br/> Max 33%", "formations":[

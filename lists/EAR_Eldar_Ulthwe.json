@@ -13,7 +13,7 @@
             {"id": 512, "name": "Swords of Ulthwé", "pts": 300,  "units": "4 Guardians", "upgrades": []}
          ]},
       {"name": "ULTHWÉ TROUPES <br/> Max 1 for each Warhost", "formations": [
-            {"id": 528, "name": "Windriders", "pts": 200, "upgrades": []},
+            {"id": 528, "name": "Windrider Troupe", "pts": 200, "upgrades": []},
             {"id": 529, "name": "Aspect Warrior Troupe", "pts": 225, "upgrades": [39]},
             {"id": 530, "name": "Ranger Troupe", "pts": 0, "upgrades": [11]},
             {"id": 531, "name": "War Walker Troupe", "pts": 175, "units": "4 War Walkers", "upgrades": []},
