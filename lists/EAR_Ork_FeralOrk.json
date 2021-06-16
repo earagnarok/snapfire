@@ -13,8 +13,8 @@
 			{"id":508, "name":"Boarboyz Horde ('Uge)","pts":-100, "units":"3 Pigdok",	        "upgrades":[29,58,67]}
 		]},
 		{"name":"SNAKEBITES SUPPORT MOBS (Max 1 for each Snakebites War Horde)", "formations":[
-			{"id":503, "name":"Wildboyz Mob",				"pts": -15, "upgrades":[23,13, 52,29,55,60,61,62,58,67]},
-			{"id":504, "name":"Wildboyz Mob (Big)",		"pts":-80,	"upgrades":[23,13, 52,29,55,60,61,62,63,58,67]},
+			{"id":503, "name":"Wildboyz Mob",				"pts": -25, "upgrades":[23,13, 52,29,55,60,61,62,58,67]},
+			{"id":504, "name":"Wildboyz Mob (Big)",		"pts":-100,	"upgrades":[23,13, 52,29,55,60,61,62,63,58,67]},
 			{"id":509, "name":"Boarboyz Outrider Mob",				"pts":175,	"units":"6 Boarboyz (with Scout)", "upgrades":[]},
 			{"id":510, "name":"Madboyz Mob",			"pts":0, 	"upgrades":[35,59]},
 			{"id":513, "name":"Trappas Mob",			"pts":0, "upgrades":[17]},
@@ -75,9 +75,12 @@
 		{"min":2, "max":4, "from":[14], "appliesTo":[512]},
 		{"min":10, "from":[12], "appliesTo":[512]},
 
-		{"min":2, "max":3, "from":[13], "appliesTo":[500,503]},
-		{"min":4, "max":6, "from":[13], "appliesTo":[501,504]},
-		{"min":6, "max":9, "from":[13], "appliesTo":[502,505]},
+		{"min":2, "max":3, "from":[13], "appliesTo":[500]},
+		{"min":4, "max":6, "from":[13], "appliesTo":[501]},
+		{"min":6, "max":9, "from":[13], "appliesTo":[502]},
+
+		{"min":1, "max":2, "from":[13], "appliesTo":[503]},
+		{"min":2, "max":4, "from":[13], "appliesTo":[504]},
 
 		{"max":1, "from":[13], "appliesTo":[509]},
 
@@ -89,9 +92,8 @@
 		{"max":6, "from":[15], "appliesTo":[502]},
 
 
-		{"min":6, "from":[23], "appliesTo":[503]},
-		{"min":12, "from":[23], "appliesTo":[504]},
-		{"min":18, "from":[23], "appliesTo":[505]},
+		{"min":7, "from":[23], "appliesTo":[503]},
+		{"min":14, "from":[23], "appliesTo":[504]},
 
 		{"min":8, "from":[29], "appliesTo":[506]},
 		{"min":16, "from":[29], "appliesTo":[507]},
