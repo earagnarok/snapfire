@@ -6,16 +6,16 @@
       { "name": "VIOR'LA CADRES",
          "formations": [
             {"id": 500,"name": "XV8 Crisis Battlesuit Cadre","pts": 325, "upgrades": [15,16,17,18]},
-            {"id": 512,"name": "Heavy Battlesuit Cadre","pts": 325, "upgrades": [15,16,17,18]}
+            {"id": 512,"name": "Heavy Battlesuit Cadre","pts": 325, "upgrades": [15,16,17,18]},
+            {"id": 514,"name": "XV88 Broadside Group","pts": 300, "units": "6 XV88 Broadside Battlesuits", "upgrades": [15,16,17,18]}         ]
          ]
       },
-      {"name": "VIOR'LA SUPPORT GROUPS <br/> Max 3 for each Cadre",
+      {"name": "VIOR'LA SUPPORT GROUPS <br/> Max 2 for each Cadre",
          "formations": [
              {"id": 501,"name": "Fire Warrior Strike Group","pts": 225,"upgrades": [22,25, 15,16,17,18]},
              {"id": 502,"name": "Drone Group","pts": 50, "upgrades": []},
             {"id": 516,"name": "Stealth Group","pts": 225, "upgrades": [15,16,17,18]},
-            {"id": 517,"name": "Skysweep Support Group","pts": 250,"units": "3 Sky Ray Gunships","upgrades": [15,16,17,18]},
-            {"id": 514,"name": "XV88 Broadside Group","pts": 300, "units": "6 XV88 Broadside Battlesuits", "upgrades": [15,16,17,18]}         ]
+            {"id": 517,"name": "Skysweep Support Group","pts": 250,"units": "3 Sky Ray Gunships","upgrades": [15,16,17,18]}
       },
       { "name": "VIOR'LA WAR ENGINES & AIR CASTE <br/> Max 33%",
          "formations": [
@@ -87,7 +87,7 @@
    "formationConstraints": [
       {"max": 1,"from": [523]},
       {"maxPercent": 33.5,"name": "War Engines & Air Caste","from": [511,519,520,521,522,523,524]},
-      {"max": 3,"name": "Support Groups","from": [502,510,501,513,514,515,516],"forEach": [500,512],"name2": "Cadre"}
+      {"max": 2,"name": "Support Groups","from": [502,510,501,513,515,516],"forEach": [514,500,512],"name2": "Cadre"}
    ],
    "upgradeConstraints": [
 		{"max":1, "perArmy":true, "from":[10]},
