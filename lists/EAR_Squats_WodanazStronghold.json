@@ -70,7 +70,7 @@
 		{"id":140, "name":"Squat Rhino",				"pts":10},
 		{"id":141, "name":"Land Raider",				"pts":50},
 		{"id":142, "name":"Termite",				"pts":15},
-		{"id":143, "name":"Hellbore Transport",				"pts":25},
+		{"id":143, "name":"Hellbore Transport",				"pts":0},
 		{"id":144, "name":"Leviathan",				"pts":275},
 		{"id":145, "name":"Leviathan w/ Living Ancestor",				"pts":300}
 
