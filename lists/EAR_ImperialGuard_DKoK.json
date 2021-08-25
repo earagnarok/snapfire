@@ -15,7 +15,7 @@
 			{ "id":513, "name":"Artillery Emplacement", "pts":225, "upgrades":[21] },
 			{"id":509, "name":"Deathstrike Battery", "pts":225, "units":"2 Deathstrike", "upgrades":[]},
 			{ "id":514, "name":"Griffon Battery", "pts":175, "units":"3 Griffons", "upgrades":[] },
-			{ "id":515, "name":"Siege Infantry Company", "pts":300, "units":"DKoK Commander with a Commissar, 9 Siege Infantry, 40cm Trenches, 40cm Razor Wire", "upgrades":[16,17,18,19] },
+			{ "id":515, "name":"Siege Infantry Company", "pts":275, "units":"DKoK Commander with a Commissar, 9 Siege Infantry, 40cm Trenches, 40cm Razor Wire", "upgrades":[16,17,18,19] },
 			{ "id":519, "name":"Flak Emplacement", "pts":175, "upgrades":[] },
 			{ "id":520, "name":"Super-Heavy Platoon", "pts":200, "upgrades":[] },
 			{ "id":521, "name":"Armoured Sentinel Squadron", "pts":125, "units":"4 Armoured Sentinels", "upgrades":[] }
