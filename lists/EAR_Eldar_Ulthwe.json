@@ -16,7 +16,7 @@
             {"id": 528, "name": "Windrider Troupe", "pts": 200, "upgrades": []},
             {"id": 529, "name": "Aspect Warrior Troupe", "pts": 225, "upgrades": [39]},
             {"id": 530, "name": "Ranger Troupe", "pts": 0, "upgrades": [11]},
-            {"id": 531, "name": "War Walker Troupe", "pts": 175, "units": "4 War Walkers", "upgrades": []},
+            {"id": 531, "name": "War Walker Troupe", "pts": 200, "units": "6 War Walkers", "upgrades": []},
             {"id": 532, "name": "Night Spinner Troupe", "pts": 175, "units": "3 Night Spinners", "upgrades": []},
             {"id": 533, "name": "Engines of Vaul Troupe", "pts": 50, "upgrades": [47,48,49]},
             {"id": 534, "name": "Fire Prism Troupe", "pts": 250, "units": "3 Fire Prisms", "upgrades": []}

@@ -13,12 +13,12 @@
          ]},
       {"name": "TROUPES <br/> Max 2 for each Warhost", "formations": [
             {"id": 500, "name": "Rangers", "pts": 0, "upgrades": [11]},
-            {"id": 501, "name": "War Walker Troupe", "pts": 175, "units": "4 War Walkers", "upgrades": []},
+            {"id": 501, "name": "War Walker Troupe", "pts": 200, "units": "6 War Walkers", "upgrades": []},
             {"id": 502, "name": "Windrider Troupe", "pts": 200, "upgrades": []},
             {"id": 503, "name": "Swords of Vaul", "pts": 250, "upgrades": []},
             {"id": 504, "name": "Night Spinner Troupe", "pts": 175, "units": "3 Night Spinners", "upgrades": []},
             {"id": 505, "name": "Engines of Vaul", "pts": 50, "upgrades": [34,35,36]},
-	        {"id": 506, "name": "Void Spinners", "pts": 50, "upgrades": [37]},
+	        {"id": 506, "name": "Void Spinner", "pts": 275, "upgrades": []},
             {"id": 530, "name": "Fire Prism Troupe", "pts": 250, "units": "3 Fire Prisms", "upgrades": []}
 			]},
       {"name": "SPACESHIPS, AIRCRAFT &amp; TITANS <br/> Max 33%", "formations": [

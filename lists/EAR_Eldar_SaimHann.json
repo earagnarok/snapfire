@@ -21,7 +21,7 @@
             {"id": 530, "name": "Fire Prism Troupe", "pts": 250, "units": "3 Fire Prisms", "upgrades": []},
             {"id": 531, "name": "Mounted Aspect Warrior Troupe", "pts": 325,  "units": "3 Wave Serpents", "upgrades": [39]},
             {"id": 532, "name": "Mounted Guardian Troupe", "pts": 250, "units": "3 Wave Serpents", "upgrades": []},
-            {"id": 509, "name": "War Walker Troupe", "pts": 175, "units": "4 War Walkers", "upgrades": [55]}
+            {"id": 509, "name": "War Walker Troupe", "pts": 200, "units": "6 War Walkers", "upgrades": []}
          ]},
       {"name": "SPACESHIPS, AIRCRAFT &amp; TITANS <br/> Max 33%", "formations": [
             {"id": 519, "name": "Revenants", "pts": 650, "units": "2 Revenant Titans", "upgrades": [90]},

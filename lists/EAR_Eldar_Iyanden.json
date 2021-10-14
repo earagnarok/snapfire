@@ -14,7 +14,7 @@
       {"name": "TROUPES <br/> Max 2 for each Wraithhost", "formations": [
             {"id": 513, "name": "Guardians", "pts": 150, "units": "Farseer", "upgrades": [14,8,9,55,51,52,53]},
             {"id": 613, "name": "Rangers", "pts": 0, "upgrades": [11]},
-       	    {"id": 614, "name": "War Walker Troupe", "pts": 175, "units": "4 War Walkers", "upgrades": []},
+       	    {"id": 614, "name": "War Walker Troupe", "pts": 200, "units": "6 War Walkers", "upgrades": []},
             {"id": 616, "name": "Swords of Vaul", "pts": 250, "upgrades": []},
             {"id": 617, "name": "Night Spinner Troupe", "pts": 175, "units": "3 Night Spinners", "upgrades": []},
             {"id": 618, "name": "Engines of Vaul", "pts": 50, "upgrades": [47,48,49]},
