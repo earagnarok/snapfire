@@ -34,7 +34,7 @@
 			{"id":516, "name":"Plague Tower of Nurgle", "pts":275, "upgrades":[]},
 			{"id":520, "name":"Daemonic Assault Engines of Khorne",	"pts":225, "units":"4 Daemonic Assault Engines", "upgrades":[]},
 			{"id":521, "name":"Khorne Lord of Battles", "pts":425, "upgrades":[]},
-			{"id":522, "name":"Silver Towers of Tzeentch",	"pts":300, "units":"4 Silver Towers", "upgrades":[]},
+			{"id":522, "name":"Silver Towers of Tzeentch",	"pts":250, "units":"4 Silver Towers", "upgrades":[]},
 			{"id":523, "name":"Warp Palace of Tzeentch", "pts":450, "upgrades":[]}
          ]
       }
