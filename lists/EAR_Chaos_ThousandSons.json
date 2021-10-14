@@ -19,22 +19,22 @@
 			{"id":503, "name":"Havocs", "pts":225,  "units": "4 Thousand Sons Havocs, 2 Thousand Sons Rhinos, Daemonic Pact", "upgrades":[15, 30]},
 			{"id":504, "name":"Armoured Company", "pts":0, "upgrades":[]},
 			{"id":507, "name":"Disc Riders", "pts":250, "units": "5 Sorcerer Disc Riders, Daemonic Pact", "upgrades":[15,16] },
-			{"id":508, "name":"Silver Towers of Tzeench",	"pts":250, "units":"4 Silver Towers", "upgrades":[]}
+			{"id":508, "name":"Silver Towers of Tzeentch",	"pts":250, "units":"4 Silver Towers", "upgrades":[]}
 		]},
 		{"name":"DARK MECHANICUS AND THOUSAND SONS NAVY FORMATIONS <br/> Max 33%", "formations":[
 			{"id":512, "name":"Warphound", "pts":300,  "upgrades":[]},
 			{"id":513, "name":"Warp Palace",	"pts":450,  "upgrades":[]},
-			{"id":510, "name":"Doomwings of Tzeench",	"pts":175, "units": "3 Doomwings", "upgrades":[]},
-			{"id":511, "name":"Firelords of Tzeench", "pts":50, "upgrades":[50]},
-			{"id":514, "name":"Warpship",	"pts":150, "upgrades":[]}
+			{"id":510, "name":"Doomwings of Tzeentch",	"pts":175, "units": "3 Doomwings", "upgrades":[]},
+			{"id":511, "name":"Firelords of Tzeentch", "pts":50, "upgrades":[50]},
+			{"id":514, "name":"Warpship",	"pts":100, "upgrades":[]}
 			]}
 	],
 	"upgrades":[
 		{"id":10, "name":"Aspiring Sorcerer", 				"pts":0},
 		{"id":11, "name":"Scarab Occult Terminators with Aspiring Sorcerer", 	"pts":0},
 		{"id":12, "name":"Exalted Sorcerer", 				"pts":50},
-		{"id":13, "name":"Daemon Prince of Tzeentch (Replaces the Aspiring Sorcerer and its unit)", 	"pts":50},
-		{"id":14, "name":"Daemon Prince of Tzeentch (Replaces the Aspiring Sorcerer and its unit)", 	"pts":100},
+		{"id":13, "name":"Daemon Prince of Tzeentch", 	"pts":50},
+		{"id":14, "name":"Daemon Prince of Tzeentch (Replaces the Aspiring Sorcerer and its unit. Formation may not contain AV units without Walker.)", 	"pts":100},
 
 		{"id":15, "name":"Icon Bearer", 			"pts":25},
 		{"id":16, "name":"Champion of Chaos", 			"pts":50},
