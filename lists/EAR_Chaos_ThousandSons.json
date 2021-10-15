@@ -16,7 +16,7 @@
 		{"name":"THOUSAND SONS SUPPORT FORMATIONS <br/> Max 3 for each Core formation", "formations":[
 			{"id":505, "name":"Tzaangor Host",	"pts":200, "units":"8 Tzaangors, Daemonic Pact", "upgrades":[]},
 			{"id":506, "name":"Defilers of Tzeentch",	"pts":200, "units":"3 Decievers", "upgrades":[]},
-			{"id":503, "name":"Havocs", "pts":225,  "units": "4 Thousand Sons Havocs, 2 Thousand Sons Rhinos, Daemonic Pact", "upgrades":[15, 30]},
+			{"id":503, "name":"Havocs", "pts":225,  "units": "Aspiring Sorcerer, 4 Thousand Sons Havocs, 2 Thousand Sons Rhinos, Daemonic Pact", "upgrades":[15, 30]},
 			{"id":504, "name":"Armoured Company", "pts":0, "upgrades":[]},
 			{"id":507, "name":"Disc Riders", "pts":250, "units": "5 Sorcerer Disc Riders, Daemonic Pact", "upgrades":[15,16] },
 			{"id":508, "name":"Silver Towers of Tzeentch",	"pts":250, "units":"4 Silver Towers", "upgrades":[]}
@@ -30,6 +30,10 @@
 			]}
 	],
 	"upgrades":[
+		{"id":7, "name":"Daemon Prince of Tzeentch", 	"pts":100},
+		{"id":8, "name":"Sorcerer Disc Riders with Aspiring Sorcerer", 				"pts":0},
+		{"id":9, "name":"Sorcerer Disc Riders with Exalted Sorcerer", 				"pts":50},
+
 		{"id":10, "name":"Aspiring Sorcerer", 				"pts":0},
 		{"id":11, "name":"Scarab Occult Terminators with Aspiring Sorcerer", 	"pts":0},
 		{"id":12, "name":"Exalted Sorcerer", 				"pts":50},
@@ -80,7 +84,7 @@
 		{"maxPercent": 33.5, "name":"Dark Mechanicus and Thousand Sons Navy", "from":[509,510,511,512,513,514]}
 	],
 	"upgradeConstraints":[
-		{"max":1, "perArmy":true, "from":[12,13,14]},
+		{"max":1, "perArmy":true, "from":[7,9,12,13,14]},
 
 		{"min":0, "max":1, "from":[15]},
 		{"min":0, "max":1, "from":[16]},
@@ -103,7 +107,7 @@
 
 		{"min":1, "max":1, "from":[41,42], "appliesTo":[505]},
 
-		{"min":1, "max":1, "from":[10,12,14], "appliesTo":[507]},
+		{"min":1, "max":1, "from":[8,9,7], "appliesTo":[507]},
 
 		{"min":2, "max":3, "from":[50], "appliesTo":[511]},
 
