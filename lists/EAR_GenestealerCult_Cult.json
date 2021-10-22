@@ -54,28 +54,28 @@
           "id": 513,
           "name": "Cult Artillery Battery",
           "units": "3 Basilisks",
-          "pts": 250,
+          "pts": 225,
           "upgrades": [ ]
         },
         {
           "id": 515,
           "name": "Cult Flak Battery",
           "units": "3 Hydras",
-          "pts": 175,
+          "pts": 150,
           "upgrades": [ ]
         },
         {
           "id": 516,
           "name": "Cult Leman Russ Squadron",
           "units": "4 Leman Russ",
-          "pts": 300,
+          "pts": 275,
           "upgrades": [ ]
         },
         {
           "id": 514,
           "name": "Cult Sentinel Squadron",
           "units": "4 Sentinels",
-          "pts": 125,
+          "pts": 100,
           "upgrades": [ ]
         },
         {
