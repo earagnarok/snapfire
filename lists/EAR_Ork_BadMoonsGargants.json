@@ -9,7 +9,7 @@
          "formations": [
             {"id": 501, "name": "Mega Gargant", "pts": 950, "upgrades": [10,15]},
             {"id": 502, "name": "Great Gargant", "pts": 750, "upgrades": [10,15,16]},
-            {"id": 503, "name": "Gargant", "pts": 550, "upgrades": [16]}
+            {"id": 503, "name": "Gargant", "pts": 575, "upgrades": [16]}
 	       ]
       },
 	  {
@@ -63,7 +63,7 @@
       {"id": 101, "name": "Deff Dread", "pts": 35},
       {"id": 102, "name": "Flakwagon", "pts": 30},
       {"id": 103, "name": "Battlefortress", "pts": 100},
-      {"id": 104, "name": "Deffkopta", "pts": 30},
+      {"id": 104, "name": "Deffkopta", "pts": 35},
       {"id": 105, "name": "Gunwagon", "pts": 30},
       {"id": 106, "name": "Battlewagon", "pts": 20},
       {"id": 107, "name": "Boyz", "pts": 15},
