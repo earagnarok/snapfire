@@ -128,7 +128,7 @@
     { "id":35, "name":"Ridgerunner w. Seismic Heavy Cannon", "pts": 20 },
 
     { "id":42, "name":"2 Neophyte Fire Supports", "pts": 50 },
-    { "id":43, "name":"3 Neophyte Mortars", "pts": 75 },
+    { "id":43, "name":"3 Cult Heavy Mortar", "pts": 75 },
 
     { "id":50, "name":"Hydra", "pts": 50 },
     { "id":53, "name":"Hellhound", "pts": 25 },
