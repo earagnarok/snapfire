@@ -135,7 +135,7 @@
 
     { "id":60, "name":"Genestealers", "pts": 25 },
 
-    { "id":71, "name":"Assault Excavator", "pts": 225 },
+    { "id":71, "name":"Assault Excavator", "pts": 150 },
     { "id":72, "name":"Haul Truck Cannon", "pts": 150 },
 
     { "id":81, "name":"Hybrid Iconward", "pts": 0 },
