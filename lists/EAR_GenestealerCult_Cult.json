@@ -41,7 +41,7 @@
         {
           "id": 532,
           "name": "Shock Assault Coven",
-          "units": "4 Aberrants, 4 Goliath Rock Grinders",
+          "units": "4 Aberrants",
           "pts": 300,
           "upgrades": [ 21 ]
         }
@@ -119,6 +119,9 @@
     { "id":20, "name":"Land Transporter", "pts": 10 },
     { "id":21, "name":"Technical", "pts": 20 },
 
+    { "id":25, "name":"4 Goliath Trucks", "pts": 0 },
+    { "id":26, "name":"4 Goliath Rockgrinders", "pts": 0 },
+
     { "id":30, "name":"Goliath Truck", "pts": 25 },
     { "id":31, "name":"Goliath Rockgrinder", "pts": 25 },
 
@@ -162,6 +165,7 @@
     {"max": 5, "from": [ 34 ], "appliesTo": [ 531 ] },
 
     {"min": 1, "max": 1, "from": [ 81, 82, 83 ], "appliesTo": [ 532 ] },
+    {"min": 1, "max": 1, "from": [ 25, 26 ], "appliesTo": [ 532 ] },
 
     {"min": 1, "max": 1, "from": [ 81, 82, 83 ], "appliesTo": [ 510 ] },
     {"min": 1, "max": 1, "from": [ 81, 82, 83 ], "appliesTo": [ 512 ] },
