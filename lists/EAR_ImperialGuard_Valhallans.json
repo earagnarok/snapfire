@@ -13,7 +13,7 @@
 			{"id":509, "name":"Macharius Company", 					"pts":375,  "units":"2 Macharius", "upgrades":[45]},
 			{"id":511, "name":"Deathstrike Battery", "pts":225, "units":"2 Deathstrike", "upgrades":[]},
 			{"id":512, "name":"Super-Heavy Platoon", 				"pts":200, "upgrades":[]},
-			{"id":515, "name":"Hellhound Squadron", 				"pts":175, "units":"4 Hellhounds", "upgrades":[45]},
+			{"id":515, "name":"Hellhound Squadron", 				"pts":200, "units":"4 Hellhounds", "upgrades":[]},
 			{"id":510, "name":"Armoured Sentinel Squadron",					"pts":125, "units":"4 Armoured Sentinels", "upgrades":[]}
 		]},
 		{"name":"ADEPTUS MINISTORUM & IMPERIAL NAVY ALLIES <br/> Max 25%", "formations":[
