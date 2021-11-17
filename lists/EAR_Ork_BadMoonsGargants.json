@@ -9,7 +9,7 @@
          "formations": [
             {"id": 501, "name": "Mega Gargant", "pts": 950, "upgrades": [10,15]},
             {"id": 502, "name": "Great Gargant", "pts": 750, "upgrades": [10,15,16]},
-            {"id": 503, "name": "Gargant", "pts": 575, "upgrades": [16]}
+            {"id": 503, "name": "Gargant", "pts": 550, "upgrades": [16]}
 	       ]
       },
 	  {
@@ -17,7 +17,7 @@
          "formations": [
              {"id": 511, "name": "Bad Moons Warband", "pts": 0, "upgrades": [90,91,99,100,101,102,104,105,106,107,108,98,109,103,12,13,14]},
              {"id": 517, "name": "Bad Moons Blitz Brigade", "pts": 30, "upgrades": [102,104,105,73,13,12,14,109]},
-             {"id": 512, "name": "Bad Moons Rokkitzmob", "pts": 0, "upgrades": [95,99,102,109,12,13,14]},
+             {"id": 512, "name": "Bad Moons Rokkitzmob", "pts": -30, "upgrades": [95,99,102,109,12,13,14]},
              {"id": 518, "name": "Bad Moons Gunzmob", "pts": 25, "upgrades": [99, 102, 109, 90,91, 12,13,14]},
              {"id": 516, "name": "Bad Moons Fortressmob", "pts": 225, "units":"Flash Gitz, 3 Boyz, Grotz, Gunfortress", "upgrades": [12,13,14,102,104,105]},
 
@@ -131,7 +131,7 @@
       {"max": 1, "from": [110,111,112,113,114,115,116,117], "appliesTo": [510]},
       {"max": 1, "from": [96], "appliesTo": [510]},
 
-      {"min": 5, "from": [95], "appliesTo": [512]},
+      {"min": 6, "from": [95], "appliesTo": [512]},
       {"max": 1, "from": [109], "appliesTo": [512]},
       {"max": 1, "from": [12,13,14], "appliesTo": [512]},
 
