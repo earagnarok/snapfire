@@ -56,7 +56,7 @@
         {"id": 506,
           "name": "Genestealer Swarm",
           "units": "Broodlord",
-          "pts": 25,
+          "pts": 50,
           "upgrades": [140]},
     {
           "id": 507,
