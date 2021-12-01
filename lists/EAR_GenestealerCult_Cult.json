@@ -82,7 +82,7 @@
           "id": 512,
           "name": "Mechanized Neophyte Platoon",
           "units": "6 Neophytes, 3 Chimera",
-          "pts": 225,
+          "pts": 200,
           "upgrades": [ 53, 50 ]
         },
         {
