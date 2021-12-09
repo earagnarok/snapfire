@@ -120,7 +120,7 @@
     {"id": 160,      "name": "Hierophant",      "pts": 375    },
     {"id": 161,      "name": "Hydraphant",      "pts": 475    },
     {"id": 170,      "name": "Razorfiend (May carry 2 Mycetic Spores including cargo)",      "pts": 150    },
-    {"id": 171,      "name": "Hive Ship (May carry 3 Mycetic Spores including cargo)",      "pts": 200    },
+    {"id": 171,      "name": "Hive Ship (May carry 3 Mycetic Spores including cargo)",      "pts": 150    },
     {"id": 179,      "name": "Gaunts (5 Termagants)",      "pts": 75    },
     {"id": 180,      "name": "Gaunts (4 Termagants, Hormagaunts)",      "pts": 75    },
 	{"id": 181,      "name": "Gaunts (3 Termagants, 2 Hormagaunts)",      "pts": 75    },
