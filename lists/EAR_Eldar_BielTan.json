@@ -10,7 +10,7 @@
       {"name": "WARHOSTS", "formations": [
          {"id": 510, "name": "Aspect Warrior Warhost", "pts": 300, "upgrades": [39,40]},
          {"id": 512, "name": "Mounted Aspect Warrior Warhost", "pts": 450, "upgrades": [39,40]},
-         {"id": 511, "name": "Guardian Warhost", "pts": 150, "upgrades": [13,43,44,45]}
+         {"id": 511, "name": "Guardian Warhost", "pts": 150, "upgrades": [13,44,45]}
       ]},
       {"name": "TROUPES <br/> Max 2 for each Warhost", "formations": [
          {"id": 505, "name": "Engines of Vaul", "pts": 50, "upgrades": [34,35,36]},
@@ -35,24 +35,24 @@
    ],
    "upgrades": [
       {"id": 11, "name": "Rangers", "pts": 25},
-      {"id": 13, "name": "4x Wave Serpents", "pts": 150},
+      {"id": 13, "name": "4 Wave Serpents", "pts": 150},
 
-      {"id": 15, "name": "8x Dire Avengers", "pts": 0},
-      {"id": 16, "name": "8x Striking Scorpions", "pts": 0},
-      {"id": 17, "name": "8x Howling Banshees", "pts": 0},
-      {"id": 18, "name": "8x Fire Dragons", "pts": 0},
-      {"id": 19, "name": "8x Warp Spiders", "pts": 0},
-      {"id": 20, "name": "8x Dark Reapers", "pts": 0},
-      {"id": 21, "name": "8x Swooping Hawks", "pts": 0},
-      {"id": 22, "name": "8x Shining Spears", "pts": 0},
+      {"id": 15, "name": "8 Dire Avengers", "pts": 0},
+      {"id": 16, "name": "8 Striking Scorpions", "pts": 0},
+      {"id": 17, "name": "8 Howling Banshees", "pts": 0},
+      {"id": 18, "name": "8 Fire Dragons", "pts": 0},
+      {"id": 19, "name": "8 Warp Spiders", "pts": 0},
+      {"id": 20, "name": "8 Dark Reapers", "pts": 0},
+      {"id": 21, "name": "8 Swooping Hawks", "pts": 0},
+      {"id": 22, "name": "8 Shining Spears", "pts": 0},
 
       {"id": 24, "name": "Guardians", "pts": 0},
       {"id": 25, "name": "Heavy Weapon Platform", "pts": 0},
       {"id": 27, "name": "Jetbikes", "pts": 0},
       {"id": 28, "name": "Vyper", "pts": 0},
-      {"id": 30, "name": "5x Falcons", "pts": 0},
-      {"id": 31, "name": "4x Falcons, Firestorm", "pts": 0},
-      {"id": 32, "name": "3x Falcons, 2x Firestorms", "pts": 0},
+      {"id": 30, "name": "5 Falcons", "pts": 0},
+      {"id": 31, "name": "4 Falcons, Firestorm", "pts": 0},
+      {"id": 32, "name": "3 Falcons, 2 Firestorms", "pts": 0},
 
       {"id": 34, "name": "Cobra", "pts": 200},
       {"id": 35, "name": "Scorpion", "pts": 200},
@@ -64,13 +64,16 @@
 
       {"id": 42, "name": "War Walker", "pts": 25},
 
-      {"id": 43, "name": "3x Support Weapon Platforms", "pts": 50},
-      {"id": 44, "name": "2x Wraithguards", "pts": 75},
+
+      {"id": 44, "name": "2 Wraithguards", "pts": 75},
       {"id": 45, "name": "Wraithlord", "pts": 50},
 
       {"id": 46, "name": "Wave Serpent", "pts": 0},
       {"id": 47, "name": "2 Falcons", "pts": 50},
       {"id": 48, "name": "2 Firestorms", "pts": 50},
+
+      {"id": 49, "name": "Support Weapon Platform (Support D-Cannon)", "pts": 25},
+      {"id": 50, "name": "Support Weapon Platform (Vibro Cannon)", "pts": 25},
 
       {"id": 52, "name": "Farseer", "pts": 0},
       {"id": 54, "name": "Nightwing Interceptors", "pts": 75},
@@ -93,15 +96,16 @@
       {"max": 2, "from": [39], "appliesTo": [510,512], "name": "Exarch"},
 
       {"max": 1, "min": 1, "from": [52], "appliesTo": [511]},
-      {"max": 7, "min": 7, "from": [24,25], "appliesTo": [511]},
+      {"max": 7, "min": 7, "from": [24,25,49,50], "appliesTo": [511]},
       {"max": 1, "from": [13], "appliesTo": [511]},
       {"max": 3, "from": [25], "appliesTo": [511]},
-      {"max": 1, "from": [43], "appliesTo": [511]},
+      {"max": 3, "from": [49,50], "appliesTo": [511]},
       {"max": 1, "from": [44], "appliesTo": [511]},
       {"max": 3, "from": [45], "appliesTo": [511]},
 
       {"max": 1, "min": 1, "from": [15,16,17,18,20,21], "appliesTo": [512]},
       {"max": 4, "min": 4, "from": [46,47,48], "appliesTo": [512]},
+      {"max": 1, "min": 0, "from": [48], "appliesTo": [512]},
 
       {"max": 6, "min": 5, "from": [11], "appliesTo": [500]},
       {"max": 6, "min": 6, "from": [27,28], "appliesTo": [502]},

@@ -15,7 +15,7 @@
         {"id": 620, "name": "Aspect Warrior Troupe", "pts": 225, "upgrades": [39]},
         {"id": 618, "name": "Engines of Vaul", "pts": 50, "upgrades": [47,48,49]},
         {"id": 619, "name": "Fire Prism Troupe", "pts": 250, "units": "3 Fire Prisms", "upgrades": []},
-        {"id": 513, "name": "Guardians", "pts": 150, "units": "Farseer", "upgrades": [14,8,9,55,51,52,53]},
+        {"id": 513, "name": "Guardians", "pts": 150, "units": "Farseer", "upgrades": [8,9,55,51,52,53]},
         {"id": 617, "name": "Night Spinner Troupe", "pts": 175, "units": "3 Night Spinners", "upgrades": []},
         {"id": 613, "name": "Rangers", "pts": 0, "upgrades": [11]},
         {"id": 512, "name": "Spirit Walker Troupe", "pts": 250,  "units": "4 Wraithlords",  "upgrades": []},
@@ -39,16 +39,18 @@
       {"id": 11, "name": "Eldar Rangers", "pts": 25},
       {"id": 12, "name": "Guardians", "pts": 0},
       {"id": 13, "name": "Heavy Weapon Platform", "pts": 0},
-      {"id": 14, "name": "3 Support Weapon Platforms", "pts": 50},
 
-      {"id": 15, "name": "6x Dire Avengers", "pts": 0},
-      {"id": 16, "name": "6x Striking Scorpions", "pts": 0},
-      {"id": 17, "name": "6x Howling Banshees", "pts": 0},
-      {"id": 18, "name": "6x Fire Dragons", "pts": 0},
-      {"id": 19, "name": "6x Warp Spiders", "pts": 0},
-      {"id": 20, "name": "6x Dark Reapers", "pts": 0},
-      {"id": 21, "name": "6x Swooping Hawks", "pts": 0},
-      {"id": 22, "name": "6x Shining Spears", "pts": 0},
+      {"id": 15, "name": "6 Dire Avengers", "pts": 0},
+      {"id": 16, "name": "6 Striking Scorpions", "pts": 0},
+      {"id": 17, "name": "6 Howling Banshees", "pts": 0},
+      {"id": 18, "name": "6 Fire Dragons", "pts": 0},
+      {"id": 19, "name": "6 Warp Spiders", "pts": 0},
+      {"id": 20, "name": "6 Dark Reapers", "pts": 0},
+      {"id": 21, "name": "6 Swooping Hawks", "pts": 0},
+      {"id": 22, "name": "6 Shining Spears", "pts": 0},
+
+      {"id": 24, "name": "Support Weapon Platform (Support D-Cannon)", "pts": 25},
+      {"id": 25, "name": "Support Weapon Platform (Vibro Cannon)", "pts": 25},
 
       {"id": 27, "name": "Jetbikes", "pts": 0},
       {"id": 28, "name": "Vyper", "pts": 0},
@@ -81,7 +83,7 @@
       {"id": 76, "name": "2 Wraithknights (Ghostglaive and Scattershield)", "pts": 0},
       {"id": 77, "name": "2 Wraithknights (Suncannon)", "pts": 0},
 
-      {"id": 80, "name": "2x Titan Pulsars", "pts": 0},
+      {"id": 80, "name": "2 Titan Pulsars", "pts": 0},
       {"id": 81, "name": "Titan Pulsar, Titan Powerfist", "pts": 0}
    ],
    "formationConstraints": [
@@ -101,9 +103,9 @@
 
       {"max": 1, "min": 1, "from": [42], "appliesTo": [511]},
 
-      {"max": 7, "min": 7, "from": [12,13], "appliesTo": [513]},
+      {"max": 7, "min": 7, "from": [12,13,24,25], "appliesTo": [513]},
       {"max": 3, "from": [13], "appliesTo": [513]},
-      {"max": 1, "from": [14], "appliesTo": [513]},
+      {"max": 3, "from": [24,25], "appliesTo": [513]},
       {"max": 1, "from": [8,9], "appliesTo": [513]},
       {"max": 1, "from": [51,52,53], "appliesTo": [513]},
       {"max": 1, "from": [55,14], "appliesTo": [513]},
