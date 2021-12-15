@@ -12,7 +12,7 @@
         {"id": 510, "name": "Spirit Guard Wraithhost", "pts": 250, "upgrades": [51,52,53,55]}
       ]},
       {"name": "TROUPES <br/> Max 2 for each Wraithhost", "formations": [
-        {"id": 620, "name": "Aspect Warrior Troupe", "pts": 225, "upgrades": [39]},
+        {"id": 620, "name": "Aspect Warrior Troupe", "pts": 250, "upgrades": [39]},
         {"id": 618, "name": "Engines of Vaul", "pts": 50, "upgrades": [47,48,49]},
         {"id": 619, "name": "Fire Prism Troupe", "pts": 250, "units": "3 Fire Prisms", "upgrades": []},
         {"id": 513, "name": "Guardians", "pts": 150, "units": "Farseer", "upgrades": [8,9,55,51,52,53]},
@@ -20,13 +20,13 @@
         {"id": 613, "name": "Rangers", "pts": 0, "upgrades": [11]},
         {"id": 512, "name": "Spirit Walker Troupe", "pts": 250,  "units": "4 Wraithlords",  "upgrades": []},
         {"id": 616, "name": "Swords of Vaul", "pts": 250, "upgrades": []},
-        {"id": 614, "name": "War Walker Troupe", "pts": 200, "units": "6 War Walkers", "upgrades": []}
+        {"id": 614, "name": "War Walker Troupe", "pts": 50, "upgrades": []}
       ]},
       {"name": "SPACESHIPS, AIRCRAFT &amp; TITANS <br/> Max 33%", "formations": [
         {"id": 520, "name": "Nightwing Aerie", "pts": 75, "upgrades": [67]},
         {"id": 521, "name": "Hemlock Aerie", "pts": 250,  "units": "2 Hemlock Wraithfighters",  "upgrades": []},
         {"id": 522, "name": "Vampire Raider", "pts": 200, "upgrades": []},
-        {"id": 523, "name": "Wraithknights", "pts": 350, "upgrades": []},
+        {"id": 523, "name": "Wraithknights", "pts": 300, "upgrades": []},
         {"id": 519, "name": "Revenant Titans", "pts": 650, "units": "2 Revenant Titans", "upgrades": []},
         {"id": 518, "name": "Phantom Titan", "pts": 700, "upgrades": []},
         {"id": 515, "name": "Wraithship", "pts": 150, "upgrades": []},
@@ -120,6 +120,8 @@
       {"max": 1, "from": [43]},
       {"max": 1, "from": [44]},
       {"max": 1, "from": [33]},
+
+      {"max": 6, "min": 5, "from": [71], "appliesTo": [614]},
 
       {"max": 1, "from": [39], "appliesTo": [620]},
 
