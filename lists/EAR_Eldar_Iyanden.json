@@ -10,17 +10,18 @@
       {"name": "WRAITHHOSTS", "formations": [
         {"id": 511, "name": "Spirit Blade Wraithhost", "pts": 200, "upgrades": [44,51,52,53,55]},
         {"id": 510, "name": "Spirit Guard Wraithhost", "pts": 250, "upgrades": [51,52,53,55]}
+
       ]},
       {"name": "TROUPES <br/> Max 2 for each Wraithhost", "formations": [
         {"id": 620, "name": "Aspect Warrior Troupe", "pts": 250, "upgrades": [39]},
         {"id": 618, "name": "Engines of Vaul", "pts": 50, "upgrades": [47,48,49]},
         {"id": 619, "name": "Fire Prism Troupe", "pts": 250, "units": "3 Fire Prisms", "upgrades": []},
-        {"id": 513, "name": "Guardians", "pts": 150, "units": "Farseer", "upgrades": [8,9,55,51,52,53]},
         {"id": 617, "name": "Night Spinner Troupe", "pts": 175, "units": "3 Night Spinners", "upgrades": []},
-        {"id": 613, "name": "Rangers", "pts": 0, "upgrades": [11]},
+        {"id": 613, "name": "Rangers", "pts": 100, "units": "4 Eldar Rangers", "upgrades": []},
         {"id": 512, "name": "Spirit Walker Troupe", "pts": 250,  "units": "4 Wraithlords",  "upgrades": []},
         {"id": 616, "name": "Swords of Vaul", "pts": 250, "upgrades": []},
-        {"id": 614, "name": "War Walker Troupe", "pts": 50, "upgrades": []}
+        {"id": 614, "name": "War Walker Troupe", "pts": 50, "upgrades": [71]},
+        {"id": 513, "name": "Guardians", "pts": 150, "units": "Farseer", "upgrades": [8,9,55,51,52,53]}
       ]},
       {"name": "SPACESHIPS, AIRCRAFT &amp; TITANS <br/> Max 33%", "formations": [
         {"id": 520, "name": "Nightwing Aerie", "pts": 75, "upgrades": [67]},
@@ -92,7 +93,7 @@
       {"max": 1, "name": "Spacecraft", "from": [515,516]},
       {"max": 1, "from": [517]},
       {"maxPercent": 33.5, "name": "War Engines & Allies", "from": [515,516,517,518,519,520,521,522,523]},
-      {"max": 2, "name": "Troupes", "from": [612,613,614,615,616,617,618,619,620,512], "forEach": [510,511], "name2": "Wraithhost"}
+      {"max": 2, "name": "Troupes", "from": [612,613,614,615,616,617,618,619,620,512,513], "forEach": [510,511], "name2": "Wraithhost"}
    ],
    "upgradeConstraints": [
       {"max": 1, "perArmy": true, "from": [62]},
@@ -121,7 +122,7 @@
       {"max": 1, "from": [44]},
       {"max": 1, "from": [33]},
 
-      {"max": 6, "min": 5, "from": [71], "appliesTo": [614]},
+      {"max": 6, "min": 4, "from": [71], "appliesTo": [614]},
 
       {"max": 1, "from": [39], "appliesTo": [620]},
 
@@ -138,7 +139,6 @@
       {"max": 1, "from": [55,14]},
       {"max": 1, "from": [55,51,52,53]},
 
-      {"max": 6, "min": 5, "from": [11], "appliesTo": [613]},
       {"max": 1, "from": [46], "appliesTo": [501,502,503,504,505,530]},
       {"max": 6, "min": 6, "from": [27,28], "appliesTo": [615]},
       {"max": 1, "min": 1, "from": [30,31,32], "appliesTo": [616]},

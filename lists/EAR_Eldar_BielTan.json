@@ -7,19 +7,19 @@
          {"id": 507, "name": "Webway Portal", "pts": 50,  "upgrades": []},
          {"id": 508, "name": "Avatar", "pts": 0, "units": "with a Court of the Young King character", "upgrades": []}
       ]},
-      {"name": "WARHOSTS", "formations": [
+      {"name": "WARHOSTS <br/> Max one Guardian Warhost for each Aspect or Mounted Aspect Warhost", "formations": [
          {"id": 510, "name": "Aspect Warrior Warhost", "pts": 300, "upgrades": [39,40]},
          {"id": 512, "name": "Mounted Aspect Warrior Warhost", "pts": 450, "upgrades": [39,40]},
          {"id": 511, "name": "Guardian Warhost", "pts": 150, "upgrades": [13,44,45]}
       ]},
-      {"name": "TROUPES <br/> Max 2 for each Warhost", "formations": [
+      {"name": "TROUPES <br/> Max 3 for each Warhost", "formations": [
          {"id": 505, "name": "Engines of Vaul", "pts": 50, "upgrades": [34,35,36]},
          {"id": 530, "name": "Fire Prism Troupe", "pts": 250, "units": "3 Fire Prisms", "upgrades": []},
          {"id": 504, "name": "Night Spinner Troupe", "pts": 175, "units": "3 Night Spinners", "upgrades": []},
-         {"id": 500, "name": "Rangers", "pts": 0, "upgrades": [11]},
+         {"id": 500, "name": "Rangers", "pts": 100, "units": "4 Eldar Rangers", "upgrades": []},
          {"id": 503, "name": "Swords of Vaul", "pts": 250, "upgrades": []},
          {"id": 506, "name": "Void Spinner", "pts": 0, "upgrades": []},
-         {"id": 501, "name": "War Walker Troupe", "pts": 50, "upgrades": []},
+         {"id": 501, "name": "War Walker Troupe", "pts": 50, "upgrades": [42]},
          {"id": 502, "name": "Windrider Troupe", "pts": 200, "upgrades": []}
       ]},
       {"name": "SPACESHIPS, AIRCRAFT &amp; TITANS <br/> Max 33%", "formations": [
@@ -87,7 +87,8 @@
       {"max": 1, "name": "Spacecraft", "from": [515,516]},
       {"max": 1, "from": [517]},
       {"maxPercent": 33.5, "name": "War Engines & Allies", "from": [515,516,517,518,519,520,521,522]},
-      {"max": 2, "name": "Troupes", "from": [500,501,502,503,504,505,506,530],  "forEach": [510,511,512], "name2": "Warhost" }
+      {"max": 3, "name": "Troupes", "from": [500,501,502,503,504,505,506,530],  "forEach": [510,511,512], "name2": "Warhost" },
+      {"max": 1, "name": "Guardian Warhost", "from": [511],  "forEach": [510,512], "name2": "Aspect Warhost" }
    ],
    "upgradeConstraints": [
       {"max": 1, "perArmy": true, "from": [40]},
@@ -95,7 +96,7 @@
       {"max": 1, "min": 1, "from": [15,16,17,18,19,20,21,22], "appliesTo": [510]},
       {"max": 2, "from": [39], "appliesTo": [510,512], "name": "Exarch"},
 
-      {"max": 6, "min": 5, "from": [42], "appliesTo": [501]},
+      {"max": 6, "min": 4, "from": [42], "appliesTo": [501]},
 
       {"max": 1, "min": 1, "from": [52], "appliesTo": [511]},
       {"max": 7, "min": 7, "from": [24,25,49,50], "appliesTo": [511]},
@@ -109,7 +110,6 @@
       {"max": 4, "min": 4, "from": [46,47,48], "appliesTo": [512]},
       {"max": 1, "min": 0, "from": [48], "appliesTo": [512]},
 
-      {"max": 6, "min": 5, "from": [11], "appliesTo": [500]},
       {"max": 6, "min": 6, "from": [27,28], "appliesTo": [502]},
       {"max": 3, "min": 2, "from": [54], "appliesTo": [520]},
       {"max": 1, "min": 1, "from": [30,31,32], "appliesTo": [503]},
