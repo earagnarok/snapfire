@@ -100,6 +100,7 @@
 	],
 	"upgradeConstraints":[
       {"max":1,"perArmy":true, "from":[13]},
+	  {"max":1,"perArmy":true, "from":[71,72,81,82,84,85]},
       {"min":0, "max":1, "from":[10,11,12,13]},
 
       {"min":1, "max":1, "from":[1,2], "appliesTo":[500]},
