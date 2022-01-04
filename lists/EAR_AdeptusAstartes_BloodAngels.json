@@ -76,15 +76,15 @@
 
 		{"id":60, "name":"Warhound Titan",						"pts":200},
 
-		{"id":70, "name":"6 Tacticals", "pts":0},
-		{"id":71, "name":"5 Tacticals, 1 Sanguinary Guard", "pts":25},
-		{"id":72, "name":"4 Tacticals, 2 Sanguinary Guards", "pts":50},
+		{"id":70, "name":"6 Tacticals plus transport", "pts":0},
+		{"id":71, "name":"5 Tacticals, 1 Sanguinary Guards, plus transport", "pts":25},
+		{"id":72, "name":"4 Tacticals, 2 Sanguinary Guards, plus transport", "pts":50},
 
 		{"id":80, "name":"4 Assaults", "pts":0},
-		{"id":81, "name":"3 Assaults, 1 Sanguinary Guard", "pts":25},
+		{"id":81, "name":"3 Assaults, 1 Sanguinary Guards", "pts":25},
 		{"id":82, "name":"2 Assaults, 2 Sanguinary Guards", "pts":50},
 		{"id":83, "name":"6 Assaults", "pts":75},
-		{"id":84, "name":"5 Assaults, 1 Sanguinary Guard", "pts":100},
+		{"id":84, "name":"5 Assaults, 1 Sanguinary Guards", "pts":100},
 		{"id":85, "name":"4 Assaults, 2 Sanguinary Guards", "pts":125},
 
 		{"id":90, "name":"4 Assault Terminators", "pts":0},
