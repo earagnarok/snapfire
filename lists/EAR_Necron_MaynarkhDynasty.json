@@ -20,7 +20,7 @@
       },
       {"name": "NECRON SUPPORT <br/> Max 2 for each Necron Phalanx",
          "formations": [
-            {"id": 702, "name": "The Unbidden", "pts": 200, "units": "6 Flayed Ones", "upgrades": []},
+            {"id": 702, "name": "The Unbidden", "pts": 200, "units": "7 Flayed Ones", "upgrades": []},
             {"id": 501, "name": "Obelisk Phalanx", "pts": 275, "units": "5 Obelisks", "upgrades": []},
             {"id": 502, "name": "Destroyer Phalanx", "pts": 100, "upgrades": []},
             {"id": 504, "name": "Tomb Guardian", "pts": 200, "units":"Pylon", "upgrades": []},
