@@ -21,11 +21,11 @@
       },
       {"name": "NECRON SUPPORT <br/> Max 2 for each Necron Phalanx",
          "formations": [
-            {"id": 702, "name": "The Unbidden", "pts": 200, "units": "6 Flayed Ones", "upgrades": []},
-            {"id": 501, "name": "Obelisk Phalanx", "pts": 275, "units": "6 Obelisks", "upgrades": []},
-            {"id": 502, "name": "Destroyer Phalanx", "pts": 75, "upgrades": [100,99]},
+            {"id": 702, "name": "The Unbidden", "pts": 175, "units": "5 Flayed Ones", "upgrades": []},
+            {"id": 501, "name": "Obelisk Phalanx", "pts": 225, "units": "5 Obelisks", "upgrades": []},
+            {"id": 502, "name": "Destroyer Phalanx", "pts": 75, "upgrades": [103]},
             {"id": 504, "name": "Tomb Guardian", "pts": 175, "units":"Pylon", "upgrades": []},
-            {"id": 506, "name": "Stalker Maniple", "pts": 175, "upgrades": []}
+            {"id": 506, "name": "Canoptek Swarm", "pts": 175, "units":"Canoptek Spyder, 4 Canoptek Scarabs", "upgrades": [103]}
          ]
       },
       {"name": "HARVESTERS & NECRON NAVY <br/> Max 33%",
@@ -42,13 +42,10 @@
       {"id": 20, "name": "Abattoir", "pts": 0},
       {"id": 21, "name": "Æonic Orb", "pts": 0},
       {"id": 22, "name": "Necron Lord", "pts": 0},
-      {"id": 87, "name": "Triarch Stalker", "pts": 0},
-      {"id": 88, "name": "Seraptek Heavy Construct", "pts": 75},
-      {"id": 97, "name": "Wraiths", "pts": 25},
-      {"id": 99, "name": "C'tan Shard", "pts": 75},
-      {"id": 100, "name": "Tomb Spyder", "pts": 50},
+      {"id": 99, "name": "Pariahs", "pts": 50},
+      {"id": 100, "name": "Canoptek Spyder", "pts": 50},
       {"id": 102, "name": "3 Immortals", "pts": 75},
-      {"id": 103, "name": "Wraiths", "pts": 25},
+      {"id": 103, "name": "Canoptek Wraiths", "pts": 25},
 
       {"id": 104, "name": "3 Obelisks", "pts": 125},
       {"id": 105, "name": "Obelisk", "pts": 50},
@@ -71,11 +68,11 @@
    ],
    "upgradeConstraints": [
       {"max": 1, "from": [107,112], "perArmy": true},
-      {"max": 1, "from": [99], "perArmy": true},
+      {"max": 1, "from": [99]},
       {"max": 1, "from": [104]},
       {"max": 1, "from": [102]},
+       {"max": 2, "from": [103]},
       {"max": 2, "from": [88]},
-      {"max": 4, "min": 4, "from": [87,88], "appliesTo": [506]},
 
       {"max": 1, "from": [105], "appliesTo": [503]},
       {"max": 3, "min": 2, "from": [105], "appliesTo": [505]},
@@ -85,12 +82,10 @@
       {"max": 1, "from": [111]},
 
       {"max": 1, "min": 1, "from": [22,107], "appliesTo": [701]},
-      {"max": 3, "from": [100], "appliesTo": [701,502]},
-      {"max": 2, "from": [103], "appliesTo": [701,502]},
+      {"max": 1, "from": [100], "appliesTo": [701,502]},
 
       {"max": 1, "from": [108,112]},
-      {"max": 3, "from": [97]},
-      {"max": 6, "min": 6, "from": [109,110,108,112,97], "appliesTo": [502]},
+      {"max": 5, "min": 5, "from": [109,110,108,112], "appliesTo": [502]},
 
       {"min": 1, "max": 1, "from": [21,20], "appliesTo": [803]}
    ]
