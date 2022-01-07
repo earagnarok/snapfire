@@ -10,20 +10,19 @@
       },
       {"name": "NECRON CORE",
          "formations": [
-            {"id": 701, "name": "Necron Phalanx", "pts": 300, "upgrades": [100,103,99]}
+            {"id": 701, "name": "Necron Phalanx", "pts": 300, "upgrades": [100,103]}
          ]
       },
       {"name": "NECRON PORTALS <br/> Max 1 for each Necron Phalanx",
          "formations": [
-            {"id": 503, "name": "Monolith Phalanx", "pts": 300, "units": "4 Monoliths", "upgrades": []},
-            {"id": 505, "name": "Monolith Maniple", "pts": 225, "units": "Monolith, 3 Obelisks", "upgrades": []}
+            {"id": 503, "name": "Portal Phalanx", "pts": 200, "upgrades": []}
          ]
       },
       {"name": "NECRON SUPPORT <br/> Max 2 for each Necron Phalanx",
          "formations": [
-            {"id": 702, "name": "The Unbidden", "pts": 225, "units": "7 Flayed Ones", "upgrades": []},
-            {"id": 501, "name": "Obelisk Phalanx", "pts": 300, "units": "7 Obelisks", "upgrades": []},
-            {"id": 502, "name": "Destroyer Phalanx", "pts": 100, "upgrades": [103]},
+            {"id": 702, "name": "The Unbidden", "pts": 200, "units": "6 Flayed Ones", "upgrades": []},
+            {"id": 501, "name": "Obelisk Phalanx", "pts": 275, "units": "5 Obelisks", "upgrades": []},
+            {"id": 502, "name": "Destroyer Phalanx", "pts": 100, "upgrades": [103,100]},
             {"id": 504, "name": "Tomb Guardian", "pts": 200, "units":"Pylon", "upgrades": []},
             {"id": 506, "name": "Canoptek Swarm", "pts": 200, "units":"Canoptek Spyder, 6 Canoptek Scarabs", "upgrades": [103]}
          ]
@@ -34,7 +33,7 @@
             {"id": 803, "name": "Harvester Engine", "pts": 450},
             {"id": 804, "name": "Doom Scythes",  "units":"2 Doom Scythe Fighters", "pts": 200, "upgrades": []},
             {"id": 806, "name": "Night Shroud", "units":"Night Shroud Bomber", "pts": 225},
-            {"id": 802, "name": "Tomb Ship", "units":"Cairn Class Tomb Ship", "pts": 175}
+            {"id": 802, "name": "Tomb Ship", "units":"Cairn Class Tomb Ship", "pts": 200}
          ]
       }
    ],
@@ -44,8 +43,6 @@
       {"id": 22, "name": "Necron Lord", "pts": 0},
       {"id": 99, "name": "Pariahs", "pts": 50},
       {"id": 100, "name": "Canoptek Spyder", "pts": 50},
-      {"id": 101, "name": "8 Necron Warriors", "pts": 0},
-      {"id": 102, "name": "5 Necron Warriors, 3 Immortals", "pts": 50},
       {"id": 103, "name": "Canoptek Wraiths", "pts": 25},
 
       {"id": 104, "name": "3 Obelisks", "pts": 125},
@@ -55,7 +52,16 @@
       {"id": 108, "name": "Necron Destroyer Lord", "pts": 50},
       {"id": 109, "name": "Destroyers", "pts": 25},
       {"id": 110, "name": "Heavy Destroyers","pts": 25},
-      {"id": 112, "name": "Necron Destroyer Overlord", "pts": 125}
+      {"id": 112, "name": "Necron Destroyer Overlord", "pts": 125},
+
+      {"id": 120, "name": "Monolith, 2 Obelisks", "pts": 0},
+      {"id": 121, "name": "2 Monoliths, Obelisk", "pts": 25},
+      {"id": 122, "name": "3 Monoliths", "pts": 50},
+
+      {"id": 130, "name": "8 Necron Warriors", "pts": 0},
+      {"id": 131, "name": "7 Necron Warriors, 2 Pariahs", "pts": 25},
+      {"id": 132, "name": "5 Necron Warriors, 3 Immortals", "pts": 50},
+      {"id": 133, "name": "3 Necron Warriors, 2 Pariahs, 3 Immortals", "pts": 75}
    ],
    "formationConstraints": [
       {"min": 1, "from": [702]},
@@ -75,17 +81,19 @@
        {"max": 2, "from": [103]},
       {"max": 2, "from": [88]},
 
-      {"max": 1, "from": [105], "appliesTo": [503]},
+
       {"max": 2, "min": 0, "from": [105,106], "appliesTo": [805]},
 
       {"max": 1, "from": [111]},
 
       {"max": 1, "min": 1, "from": [22,107], "appliesTo": [701]},
-      {"max": 1, "min": 1, "from": [101,102], "appliesTo": [701]},
+      {"max": 1, "min": 1, "from": [130,131,132,133], "appliesTo": [701]},
       {"max": 1, "from": [100], "appliesTo": [701,502]},
 
       {"max": 1, "from": [108,112]},
       {"max": 7, "min": 7, "from": [109,110,108,112], "appliesTo": [502]},
+
+      {"max": 1, "min": 1, "from": [120,121,122], "appliesTo": [503]},
 
       {"min": 1, "max": 1, "from": [21,20], "appliesTo": [803]}
    ]
