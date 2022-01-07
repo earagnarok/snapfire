@@ -55,11 +55,11 @@
 		{"id":25, "name":"Land Speeder Tornado", "pts":0},
 		{"id":26, "name":"Land Speeder Typhoon", "pts":10},
 
-		{"id":29, "name":"Razorback (Twin Lascannon)", "pts":25},
-		{"id":30, "name":"Razorback (Twin Heavy Bolter)", "pts":25},
+		{"id":29, "name":"Blood Angels Razorback (Twin Lascannon)", "pts":25},
+		{"id":30, "name":"Blood Angels Razorback (Twin Heavy Bolter)", "pts":25},
 
-		{"id":31, "name":"Hunter", "pts":75},
-		{"id":32, "name":"Stalker", "pts":50},
+		{"id":31, "name":"Blood Angels Hunter", "pts":75},
+		{"id":32, "name":"Blood Angels Stalker", "pts":50},
 
 		{"id":33, "name":"Land Raider", "pts":50},
 		{"id":34, "name":"Land Raider Redeemer", "pts":50},
