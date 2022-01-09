@@ -1,7 +1,7 @@
 {
   "id":"EA-R Raven Guard",
-  "id":"<a href=\"https://earagnarok.github.io/list-view/site.html?content=intro\">EA-R</a> Raven Guard",
-  "version":"Approved 1.0.Beta <a href=\"https://earagnarok.github.io/list-view/site.html?content=list&race=SM&list=ravenguard\">Listview</a>",
+  "id":"<a href=\"../list-view/site.html?content=intro\">EA-R</a> Raven Guard",
+  "version":"Approved 1.0.Beta <a href=\"../list-view/site.html?content=list&race=SM&list=ravenguard\">Listview</a>",
   "by":"EA-Ragnarok",
   "sections":[
     {"name":"RAVEN GUARD CORE DETACHMENTS", "formations":[

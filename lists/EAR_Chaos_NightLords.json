@@ -1,6 +1,6 @@
 {
-	"id":"<a href=\"https://earagnarok.github.io/list-view/site.html?content=intro\">EA-R</a> Night Lords",
-	"version":"Alpha 0.6.0 <a href=\"https://earagnarok.github.io/list-view/site.html?content=list&race=Chaos&list=nightlords\">Listview</a>",
+	"id":"<a href=\"../list-view/site.html?content=intro\">EA-R</a> Night Lords",
+	"version":"Alpha 0.6.0 <a href=\"../list-view/site.html?content=list&race=Chaos&list=nightlords\">Listview</a>",
 	"by":"EA-Ragnarok",
 	"notes":
 		["Add one free Lesser Daemon to the Lesser Daemon pool per Night Lords Captain, First Captain or Daemon Prince"],

@@ -1,6 +1,6 @@
 {
-  "id":"<a href=\"https://earagnarok.github.io/list-view/site.html?content=intro\">EA-R</a> Cult of the Rusted Claw",
-  "version":"Approved 1.0.Beta <a href=\"https://earagnarok.github.io/list-view/site.html?content=list&race=NID&list=gscult\">Listview</a>",
+  "id":"<a href=\"../list-view/site.html?content=intro\">EA-R</a> Cult of the Rusted Claw",
+  "version":"Approved 1.0.Beta <a href=\"../list-view/site.html?content=list&race=NID&list=gscult\">Listview</a>",
   "by":"EA-Ragnarok",
   "notes":["No more transports than needed to transport the formation."],
   "sections": [
