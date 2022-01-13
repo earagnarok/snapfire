@@ -27,7 +27,7 @@
         {"id": 520, "name": "Nightwing Aerie", "pts": 75, "upgrades": [67]},
         {"id": 521, "name": "Hemlock Aerie", "pts": 250,  "units": "2 Hemlock Wraithfighters",  "upgrades": []},
         {"id": 522, "name": "Vampire Raider", "pts": 200, "upgrades": []},
-        {"id": 523, "name": "Wraithknights", "pts": 300, "upgrades": []},
+        {"id": 523, "name": "Wraithknights", "pts": 325, "upgrades": []},
         {"id": 519, "name": "Revenant Titans", "pts": 650, "units": "2 Revenant Titans", "upgrades": []},
         {"id": 518, "name": "Phantom Titan", "pts": 700, "upgrades": []},
         {"id": 515, "name": "Wraithship", "pts": 150, "upgrades": []},
