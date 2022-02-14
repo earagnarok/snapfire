@@ -38,7 +38,7 @@
 		{"id":30, "name":"5 Gun Servitors",		"pts":0},
 		{"id":31, "name":"5 Rapier Laser Destroyers",	"pts":25},
 
-		{"id":40, "name":"5 Chimedons",			"pts":175},
+		{"id":40, "name":"10 Chimedons",			"pts":175},
 		{"id":41, "name":"Hydra",			"pts":50},
 
 		{"id":50, "name":"Mars (Sonic Disruption Cannon)",		"pts":0},
