@@ -49,9 +49,9 @@
 		{"id":55, "name":"Squiggoth",			"pts":30},
 		{"id":56, "name":"Squiggoth Flakka",	"pts":40},
 
-		{"id":57, "name":"Wyrdboy",				"pts":35},
-		{"id":58, "name":"Wyrdboy",				"pts":35},
-		{"id":59, "name":"Wyrdboy",				"pts":35},
+		{"id":57, "name":"Wyrdboy",				"pts":25},
+		{"id":58, "name":"Wyrdboy",				"pts":25},
+		{"id":59, "name":"Wyrdboy",				"pts":25},
 
 		{"id":60, "name":"Gargantuan Squiggoth", "pts":100},
 		{"id":61, "name":"Orkeosaurus",			"pts":175},
