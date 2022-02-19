@@ -30,14 +30,14 @@
    "upgrades": [
 	  {"id": 1, "name": "8 Battle Sisters","pts": 0},
 	  {"id": 2, "name": "Palatine, 8 Battle Sisters","pts": 25},
-      {"id": 3, "name": "Canoness, 8 Battle Sisters","pts": 100},
+      {"id": 3, "name": "Canoness, 8 Battle Sisters","pts": 75},
 
       {"id": 4, "name": "Palatine, 6 Seraphim Sisters","pts": 0},
 	  {"id": 5, "name": "Living Saint, 5 Seraphim Sisters","pts": 50},
 
-      {"id": 6, "name": "6 Battle Sisters, two Exorcist Prioris","pts": 25},
-      {"id": 7, "name": "Palatine, 6 Battle Sisters, two Exorcist Prioris","pts": 50},
-      {"id": 8, "name": "Canoness, 6 Battle Sisters, two Exorcist Prioris","pts": 125},
+      {"id": 6, "name": "6 Battle Sisters, two Exorcist Prioris","pts": 35},
+      {"id": 7, "name": "Palatine, 6 Battle Sisters, two Exorcist Prioris","pts": 60},
+      {"id": 8, "name": "Canoness, 6 Battle Sisters, two Exorcist Prioris","pts": 110},
 
 	  {"id": 9, "name": "Ministorum Priest","pts": 25},
 
