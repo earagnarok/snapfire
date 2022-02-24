@@ -14,13 +14,13 @@
 			{"id":514, "name":"Scouts", "pts":200, "units":"3 Scouts", "upgrades":[]},
 			{"id":518, "name":"Siege Scouts", "pts":250, "units":"4 Scouts, 2 Siege Rhinos, 2 Vindicators", "upgrades":[]},
 			{"id":515, "name":"Vindicators", "pts":225,  "upgrades":[55, 56,57,58,59]},
-			{"id":516, "name":"Whirlwinds", "pts":225, "upgrades":[48, 56,57,58,59]},
-			{"id":517, "name":"Orbital Support", "pts":200, "upgrades":[]}
+			{"id":516, "name":"Whirlwinds", "pts":225, "upgrades":[48, 56,57,58,59]}
 
 		]},
-		{"name":"IRON HANDS AIRCRAFT & IMPERIAL ALLIES <br/> Max 33%", "formations":[
+		{"name":"IRON HANDS NAVY & IMPERIAL ALLIES <br/> Max 33%", "formations":[
 			{"id":520, "name":"Storm Talons", "pts":200, "units":"2 Storm Talons",	"upgrades":[]},
 			{"id":521, "name":"Thunderhawk Transporters", "units":"2 Thunderhawk Transporters", "pts":275, "upgrades":[]},
+			{"id":517, "name":"Orbital Support", "pts":200, "upgrades":[]},
 			{"id":522, "name":"Warhound Pack", "pts":475, "upgrades":[]},
 			{"id":523, "name":"Reaver Titan (Hun Class)", "pts":625, "upgrades":[]}
 		]}
@@ -110,9 +110,9 @@
 		{"max":1, "from":[517]},
 
 
-		{"max":2, "name":"Support Detachments", "from":[510,511,512,513,514,515,516,517,518], "forEach":[500,501], "name2":"Core Detachments"},
+		{"max":2, "name":"Support Detachments", "from":[510,511,512,513,514,515,516,518], "forEach":[500,501], "name2":"Core Detachments"},
 
-		{"maxPercent": 33.5, "name":"Aircraft and Imperial Allies", "from":[520,521,522,523]}
+		{"maxPercent": 33.5, "name":"Aircraft and Imperial Allies", "from":[517,520,521,522,523]}
 	],
 	"upgradeConstraints":[
 		{"max":1, "perArmy":true, "name":"Supreme Commander", "from":[4]},

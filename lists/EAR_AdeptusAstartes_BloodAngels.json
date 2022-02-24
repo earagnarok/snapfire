@@ -15,14 +15,14 @@
 			{"id":510, "name":"Bikes", "pts":200, "upgrades":[10,11,12,13]},
 			{"id":511, "name":"Devastators","pts":250, "units":"4 Devastators plus transport", "upgrades":[10,11,12,13, 31,32, 33,34, 36,38, 40,42, 7]},
 			{"id":513, "name":"Scouts",	"pts":150, "upgrades":[29,30]},
-			{"id":514, "name":"Land Speeders", "pts":200},
-			{"id":523, "name":"Orbital Support", "pts":0},
-			{"id":517, "name":"Landing Craft", "pts":350}
+			{"id":514, "name":"Land Speeders", "pts":200}
 		]},
 
-		{"name":"BLOOD ANGELS AIRCRAFT AND TITAN ALLIES <br/> Max 33%", "formations":[
+		{"name":"BLOOD ANGELS NAVY AND TITAN ALLIES <br/> Max 33%", "formations":[
 			{"id":520, "name": "Storm Talons", "units":"2 Storm Talons", "pts":200},
-			{"id":522, "name": "Warhounds",	"pts":75, "upgrades":[60]}
+			{"id":522, "name": "Warhounds",	"pts":75, "upgrades":[60]},
+			{"id":523, "name":"Orbital Support", "pts":0},
+			{"id":517, "name":"Landing Craft", "pts":325}
 
 		]}
 	],
@@ -95,8 +95,8 @@
 	"formationConstraints":[
 		{"max":1, "min":1, "perArmy":true, "name":"Death Company", "from":[500]},
 		{"max":1, "perArmy":true, "name":"Spacecraft", "from":[523]},
-		{"max":2, "name":"Support Detachments", "from":[509,507,508,510,511,513,514,523,515,516,517,523], "forEach":[500,503,505,512], "name2":"Core Detachment"},
-		{"maxPercent": 33.5, "name":"Aircraft, Navy & Titans", "from":[520,521,522]}
+		{"max":2, "name":"Support Detachments", "from":[509,507,508,510,511,513,514,523,515,516], "forEach":[500,503,505,512], "name2":"Core Detachment"},
+		{"maxPercent": 33.5, "name":"Aircraft, Navy & Titans", "from":[520,521,522,517,523]}
 	],
 	"upgradeConstraints":[
       {"max":1,"perArmy":true, "from":[13]},
