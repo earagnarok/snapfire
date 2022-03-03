@@ -13,10 +13,10 @@
 			{"id":513, "name":"Black Heart Flotilla", "pts":25, "upgrades":[61]}
 		]},
 		{"name":"BLACK HEART PARTISANS <br/> Max 2 for each Kabal", "formations":[
+			{"id":506, "name":"Mandrake Throng", "pts":25, "upgrades":[84]},
+			{"id":504, "name":"Hellion Murder", "pts":50, "upgrades":[82,62]},
 			{"id":505, "name":"Reaver Gang", "pts":50, "upgrades":[83]},
 			{"id":503, "name":"Wych Cult", "pts":200, "units":"4 Wyches", "upgrades":[70,40,41,72]},
-			{"id":504, "name":"Hellion Murder", "pts":200, "units":"6 Hellions", "upgrades":[62]},
-			{"id":506, "name":"Mandrake Throng", "pts":200, "units":"6 Mandrakes", "upgrades":[]},
 			{"id":501, "name":"Haemonculi Coven", "pts":225, "units":"2 Haemonculi, 4 Wracks", "upgrades":[65,70,40,41,72,73,74]},
 			{"id":502, "name":"Talos Swarm", "pts":225, "upgrades":[]},
 			{"id":507, "name":"Scourge Flight", "pts":250, "units":"6 Scourges", "upgrades":[]},
@@ -68,7 +68,8 @@
 		{"id":76, "name":"5 Talos", "pts":50},
 		{"id":77, "name":"6 Talos", "pts":75},
 		{"id":82, "name":"Hellion Skyboards", "pts":25},
-		{"id":83, "name":"Reaver Jet Bikes", "pts":25}
+		{"id":83, "name":"Reaver Jet Bikes", "pts":25},
+		{"id":84, "name":"Mandrakes", "pts":25}
 
 	],
 	"formationConstraints":[
@@ -92,7 +93,9 @@
 		{"min":1, "max":1, "from":[58,59], "appliesTo":[512]},
 		{"min":4, "max":6, "name":"Ravagers", "from":[61], "appliesTo":[513]},
 		{"min":1, "max":1, "from":[75,76,77], "appliesTo":[502]},
+		{"min":4, "max":6, "name":"Hellion Skyboards", "from":[82], "appliesTo":[504]},
 		{"min":6, "max":8, "name":"Reaver Jet Bikes", "from":[83], "appliesTo":[505]},
+		{"min":4, "max":6, "name":"Mandrakes", "from":[84], "appliesTo":[506]},
 		{"max":2, "from":[62],  "appliesTo":[504]},
 		{"max":1, "from":[72]},
 		{"max":1, "from":[73,74]},
