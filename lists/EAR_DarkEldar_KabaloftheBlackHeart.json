@@ -57,7 +57,7 @@
 		{"id":62, "name":"Warp Beasts", "pts":25},
 		{"id":63, "name":"4 Dark Eldar Wyches", "pts":0},
 		{"id":64, "name":"6 Dark Eldar Wyches", "pts":50},
-		{"id":65, "name":"2 Grotesques", "pts":50},
+		{"id":65, "name":"Grotesques", "pts":25},
 		{"id":70, "name":"Raider", "pts":0},
 		{"id":71, "name":"2 Venoms", "pts":25},
 		{"id":72, "name":"Barge of Pleasure", "pts":125},
@@ -103,7 +103,7 @@
 
 		{"max":1, "from":[55]},
 		{"max":1, "from":[57]},
-		{"max":1, "from":[65]}
+		{"max":2, "from":[65]}
 
 	]
 }
