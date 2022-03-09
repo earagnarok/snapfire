@@ -15,13 +15,13 @@
       },
       {"name": "NECRON PORTALS <br/> Max 1 for each Necron Phalanx",
          "formations": [
-            {"id": 503, "name": "Portal Phalanx", "pts": 200, "upgrades": []}
+            {"id": 503, "name": "Portal Phalanx", "pts": 175, "upgrades": []}
          ]
       },
       {"name": "NECRON SUPPORT <br/> Max 2 for each Necron Phalanx",
          "formations": [
             {"id": 702, "name": "The Unbidden", "pts": 200, "units": "7 Flayed Ones", "upgrades": []},
-            {"id": 501, "name": "Obelisk Phalanx", "pts": 250, "units": "4 Obelisks", "upgrades": []},
+            {"id": 501, "name": "Obelisk Phalanx", "pts": 225, "units": "4 Obelisks", "upgrades": []},
             {"id": 502, "name": "Destroyer Phalanx", "pts": 100, "upgrades": []},
             {"id": 504, "name": "Tomb Guardian", "pts": 200, "units":"Pylon", "upgrades": []},
             {"id": 506, "name": "Canoptek Swarm", "pts": 200, "units":"Canoptek Spyder, 6 Canoptek Scarabs", "upgrades": [103]}
