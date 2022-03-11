@@ -18,8 +18,8 @@
 			{"id":507, "name":"Dreadnought Assault Pack", "pts":250,  "units":"4 Emperor's Children Dreadnoughts", "upgrades":[80]}
 		]},
 		{"name":"EMPERORS CHILDREN SUPPORT FORMATIONS <br/> Max 2 for each Core formation", "formations":[
-			{"id":504, "name":"Bike Company",	"pts":250, "units":"6 Chaos Assault Bikes, Daemonic Pact", "upgrades":[36]},
-			{"id":505, "name":"Raptor Cult",	"pts":200, "units":"4 Raptors, Daemonic Pact", "upgrades":[36]},
+			{"id":504, "name":"Bike Company",	"pts":250, "units":"Noise Lord, 6 Chaos Assault Bikes, Daemonic Pact", "upgrades":[36]},
+			{"id":505, "name":"Raptor Cult",	"pts":200, "units":"Noise Lord, 4 Raptors, Daemonic Pact", "upgrades":[36]},
 			{"id":506, "name":"Armoured Company", "pts":0, "upgrades":[44] }
 		]},
 		{"name":"DARK MECHANICUS DAEMON ENGINES & CHAOS NAVY FORMATIONS <br/> Max 33%", "formations":[
@@ -37,8 +37,8 @@
 	],
 	"upgrades":[
 	{"id":10, "name":"Noise Lord", 		"pts":0},
-		{"id":11, "name":"Sorcerer of Slaanesh", 		"pts":0},
-		{"id":12, "name":"Emperor's Children Warlord", 		"pts":50},
+		{"id":11, "name":"Slaanesh Sorcerer", 		"pts":0},
+		{"id":12, "name":"Noise Warlord", 		"pts":50},
 		{"id":13, "name":"Daemon Prince (replaces one unit of Chaos Space Marines)", 		"pts":100},
 		{"id":16, "name":"Daemon Prince (replaces one unit of Emperor's Children Terminators)", 		"pts":100},
 
@@ -98,7 +98,7 @@
 
 		{"min":0, "max":1, "from":[70], "appliesTo":[501,502,503,504,505]},
 
-		{"min":1, "max":1, "from":[10,11,12,13], "appliesTo":[501]},
+		{"min":1, "max":1, "from":[10,12,13], "appliesTo":[501]},
 		{"min":0, "max":1, "from":[14], "appliesTo":[501,502,504]},
 		{"min":0, "max":1, "from":[15], "appliesTo":[501,502]},
 
@@ -109,10 +109,8 @@
 		{"min":0, "max":3, "from":[30,31], "appliesTo":[501]},
 		{"min":0, "max":8, "from":[80], "appliesTo":[501,502]},
 
-		{"min":1, "max":1, "from":[10,11,12,16], "appliesTo":[502]},
+		{"min":1, "max":1, "from":[10,12,16], "appliesTo":[502]},
 		{"min":1, "max":1, "from":[32,33], "appliesTo":[502]},
-
-		{"min":1, "max":1, "from":[10,11], "appliesTo":[504,505]},
 
 		{"min":1, "max":1, "from":[40,41], "appliesTo":[506]},
 
