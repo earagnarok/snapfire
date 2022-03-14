@@ -18,7 +18,7 @@
          ]},
         {"name": "ORDO HERETICUS FORMATIONS <br/> Max 1 for each Core Formation or Inquisitor Retinue", "formations": [
             {"id": 520, "name": "Ordo Hereticus Inquisitor Retinue", "pts": 250, "units": "5 Storm Troopers, 3 Chimeras", "upgrades": [25,26]},
-	        {"id": 522, "name": "Redemption", "pts": 150, "units": "Ministorum Priest, 6 Redemptionists", "upgrades": [25]},
+	        {"id": 522, "name": "Redemption", "pts": 150, "units": "Ministorum Priest, 8 Redemptionists", "upgrades": [25]},
             {"id": 523, "name": "Infernus", "pts": 200, "units": "4 Hellhounds", "upgrades": []},
             {"id":524, "name":"Vulture",				"pts":300, "units":"4 Vultures", "upgrades":[]}
 
@@ -66,9 +66,9 @@
 
       {"id": 39, "name": "Anchorite","pts": 75},
 
-      {"id": 40, "name": "3 Ordo Hereticus Land Transporters","pts": 0},
-      {"id": 41, "name": "3 Arco-Flagellants","pts": 25},
-      {"id": 42, "name": "2 Penitent Engines","pts": 25},
+      {"id": 40, "name": "4 Ordo Hereticus Land Transporters","pts": 0},
+      {"id": 41, "name": "3 Arco-Flagellants","pts": 0},
+      {"id": 42, "name": "2 Penitent Engines","pts": 0},
 
       {"id": 44, "name": "Arco-Flagellants","pts": 25},
       {"id": 45, "name": "Penitent Engine","pts": 35},
