@@ -7,7 +7,7 @@
    "sections": [
         {"name": "SORORITAS CORE FORMATIONS", "formations": [
             {"id": 500, "name": "Mission", "pts": 225, "upgrades": [10,11,12,16,13]},
-            {"id": 520, "name": "Ordo Hereticus Inquisitor Retinue", "pts": 250, "units": "5 Storm Troopers, 3 Chimeras", "upgrades": [25,26]}
+            {"id": 520, "name": "Ordo Hereticus Inquisitor Retinue", "pts": 250, "units": "5 Storm Troopers", "upgrades": [25,26]}
 	  ]},
         {"name": "SORORITAS SUPPORT FORMATIONS <br/> Max 2 for each Core Formation", "formations": [
         {"id": 515, "name": "Immolation", "pts": 250, "units": "Palatine, 3 Celestian Sisters, 3 Sororitas Immolators", "upgrades": []},
@@ -60,6 +60,9 @@
 
 	  {"id": 25, "name": "Hellhound","pts": 25},
       {"id": 26, "name": "Hydra","pts": 50},
+
+      {"id": 27, "name": "3 Chimeras","pts": 0},
+      {"id": 28, "name": "3 Valkyries","pts": 50},
 
 	  {"id": 30, "name": "4 Exorcist Prioris","pts": 0},
 	  {"id": 31, "name": "4 Exorcist Sanctorum","pts": 25},
@@ -115,6 +118,7 @@
       {"min": 1, "max": 1, "from": [18,19], "appliesTo": [513,512] },
 
       {"min": 1, "max": 1, "from": [23,24], "appliesTo": [520] },
+      {"min": 1, "max": 1, "from": [27,28], "appliesTo": [520] },
 
       {"min": 1, "max": 1, "from": [40,41,42], "appliesTo": [522] },
 
