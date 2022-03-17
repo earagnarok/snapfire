@@ -18,7 +18,7 @@
         {"id": 513, "name": "Dominus", "pts": 175, "units": "Palatine, 4 Dominion Sisters", "upgrades": []}
          ]},
         {"name": "ORDO HERETICUS FORMATIONS <br/> Max 1 for each Core Formation", "formations": [
-	        {"id": 522, "name": "Redemption", "pts": 150, "units": "Ministorum Priest", "upgrades": []},
+	        {"id": 522, "name": "Redemption", "pts": 175, "units": "Ministorum Priest", "upgrades": []},
             {"id": 523, "name": "Infernus", "pts": 200, "units": "4 Hellhounds", "upgrades": []},
             {"id":524, "name":"Vulture",				"pts":300, "units":"4 Vultures", "upgrades":[]}
 
@@ -70,8 +70,8 @@
       {"id": 39, "name": "Anchorite","pts": 75},
 
       {"id": 40, "name": "8 Redemptionists, 4 Ordo Hereticus Land Transporters","pts": 0},
-      {"id": 41, "name": "4 Redemptionists, 6 Arco-Flagellants","pts": 75},
-      {"id": 42, "name": "4 Redemptionists, 4 Penitent Engines","pts": 75},
+      {"id": 41, "name": "4 Redemptionists, 6 Arco-Flagellants","pts": 50},
+      {"id": 42, "name": "4 Redemptionists, 4 Penitent Engines","pts": 50},
 
       {"id": 44, "name": "Arco-Flagellants","pts": 25},
       {"id": 45, "name": "Penitent Engine","pts": 35},
