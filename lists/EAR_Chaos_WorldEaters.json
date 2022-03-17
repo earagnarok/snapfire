@@ -66,7 +66,7 @@
       {"id": 51, "name": "3 Chaos Land Raiders", "pts": 125},
 
 		{"id":71, "name":"Greater Daemon Pool point", "pts":50},
-		{"id":72, "name":"Lesser Daemon Pool point", "pts":15},
+		{"id":72, "name":"Lesser Daemon Pool point", "pts":20},
 		{"id":73, "name":"Greater Daemon Pool point (Free)", "pts":0},
 		{"id":74, "name":"Lesser Daemon Pool point (Daemonic Pact)", "pts":0}
    ],
