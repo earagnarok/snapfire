@@ -10,7 +10,7 @@
 			{"id":500, "name":"Daemon Pool", "pts":0, "upgrades":[72,73]}
 		]},
 		{"name":"SLAVES TO DARKNESS CORE FORMATIONS", "formations":[
-			{"id":501, "name":"Traitor Guard", "pts":175, "units":"7 Infantry", "upgrades":[16,18,19,20,15,21,22,17,23,24,40,41,42,43,44,45]}
+			{"id":501, "name":"Traitor Guard", "pts":200, "upgrades":[16,18,19,20,15,21,22,17,23,24,40,41,42,43,44,45]}
 		]},
 		{"name":"SLAVES TO DARKNESS SUPPORT FORMATIONS <br/> Max 1 for each Slaves to Darkness Core formation", "formations":[
 			{"id":508, "name":"Flak Battery", "pts":150, "units":"3 Hydras", "upgrades":[]},
@@ -85,6 +85,11 @@
 		{"id":44, "name":"3 Leman Russ Demolishers", "pts":150},
 		{"id":45, "name":"3 Leman Russ Thunderers", "pts":150},
 
+
+		{"id":50, "name":"9 Infantry", "pts":0},
+		{"id":51, "name":"7 Infantry, 4 Land Transporters", "pts":25},
+		{"id":52, "name":"5 Infantry, 3 Chimeras", "pts":25},
+
 		{"id":72, "name":"Lesser Daemon Pool point", "pts":15},
 		{"id":73, "name":"Lesser Daemon Pool point (Daemonic Icon / Daemonic Pact)", "pts":0}
 
@@ -98,10 +103,11 @@
 		{"max":1, "perArmy":true, "from":[5,6,8,9,11,12]},
 
 		{"min":1, "max":1, "from":[10,13,5,11,6,12], "appliesTo":[501]},
+		{"min":1, "max":1, "from":[50,51,52], "appliesTo":[501]},
 
 		{"max":2, "from":[15], "appliesTo":[501]},
 		{"max":2, "from":[21], "appliesTo":[501]},
-		{"max":2, "from":[16], "appliesTo":[501]},
+		{"max":1, "from":[16], "appliesTo":[501]},
 		{"max":2, "from":[17], "appliesTo":[501]},
 		{"max":1, "from":[20,29], "appliesTo":[501]},
 		{"max":4, "from":[23], "appliesTo":[501]},
