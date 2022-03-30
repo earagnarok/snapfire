@@ -1,6 +1,6 @@
 {
-	"id":"<a href=\"../list-view/site.html?content=intro\">EA-R</a> Catachan Jungle Fighters",
-	"version":"Alpha 0.7.2 <a href=\"../list-view/site.html?content=list&race=IG&list=catachandeathworld\">Listview</a>",
+	"id":"<a href=\"../list-view/?content=intro\">EA-R</a> Catachan Jungle Fighters",
+	"version":"Alpha 0.7.2 <a href=\"../list-view/?content=list&race=IG&list=catachandeathworld\">Listview</a>",
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"CATACHAN CORE COMPANY FORMATIONS", "formations":[

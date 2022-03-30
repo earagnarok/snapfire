@@ -1,6 +1,6 @@
 {
-	"id":"<a href=\"../list-view/site.html?content=intro\">EA-R</a> Daemonic Incursion",
-	"version":"Alpha 0.6.0 <a href=\"../list-view/site.html?content=list&race=Cultists&list=DI\">Listview</a>",
+	"id":"<a href=\"../list-view/?content=intro\">EA-R</a> Daemonic Incursion",
+	"version":"Alpha 0.6.0 <a href=\"../list-view/?content=list&race=Cultists&list=DI\">Listview</a>",
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"DAEMONS", "formations":[

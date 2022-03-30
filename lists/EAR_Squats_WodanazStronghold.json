@@ -1,6 +1,6 @@
 {
-	"id":"<a href=\"../list-view/site.html?content=intro\">EA-R</a> Wodanaz Stronghold",
-	"version":"Approved 1.0.Beta <a href=\"../list-view/site.html?content=list&race=SQ&list=squats\">Listview</a>",
+	"id":"<a href=\"../list-view/?content=intro\">EA-R</a> Wodanaz Stronghold",
+	"version":"Approved 1.0.Beta <a href=\"../list-view/?content=list&race=SQ&list=squats\">Listview</a>",
 	"notes":["No more transports than needed to carry the formation with no space left over.", "Leviathans and Hellbores may transport 12 units, and may only be taken if the transported formation fits inside. Squat Warlords and Grand Warlords counts as two units each.", "Hellbores are bought separately from their transported formation."],
 	"by":"EA-Ragnarok",
 	"sections":[

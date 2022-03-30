@@ -1,6 +1,6 @@
 {
-	"id":"<a href=\"../list-view/site.html?content=intro\">EA-R</a> Iron Warriors",
-	"version":"Approved 1.0.Beta <a href=\"../list-view/site.html?content=list&race=Chaos&list=ironwarriors\">Listview</a>",
+	"id":"<a href=\"../list-view/?content=intro\">EA-R</a> Iron Warriors",
+	"version":"Approved 1.0.Beta <a href=\"../list-view/?content=list&race=Chaos&list=ironwarriors\">Listview</a>",
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"IRON WARRIORS CORE FORMATIONS", "formations":[

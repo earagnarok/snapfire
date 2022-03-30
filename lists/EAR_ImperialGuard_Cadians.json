@@ -1,6 +1,6 @@
 {
-	"id":"<a href=\"../list-view/site.html?content=intro\">EA-R</a> Cadian Shock Troops",
-	"version":"Experimental 0.6.2 <a href=\"../list-view/site.html?content=list&race=IG&list=cadianshocktroops\">Listview</a>",
+	"id":"<a href=\"../list-view/?content=intro\">EA-R</a> Cadian Shock Troops",
+	"version":"Experimental 0.6.2 <a href=\"../list-view/?content=list&race=IG&list=cadianshocktroops\">Listview</a>",
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"CADIAN CORE COMPANIES", "formations":[

@@ -1,6 +1,6 @@
 {
-    "id":"<a href=\"../list-view/site.html?content=intro\">EA-R</a> Fir Lirithion",
-	"version":"Alpha 0.6.0 <a href=\"../list-view/site.html?content=list&race=EL&list=firlirithion\">Listview</a>",
+    "id":"<a href=\"../list-view/?content=intro\">EA-R</a> Fir Lirithion",
+	"version":"Alpha 0.6.0 <a href=\"../list-view/?content=list&race=EL&list=firlirithion\">Listview</a>",
 	"by":"EA-Ragnarok",
    "sections": [
       {"name": "FIR LIRITHION SPECIALS", "formations": [

@@ -1,6 +1,6 @@
 {
-	"id":"<a href=\"../list-view/site.html?content=intro\">EA-R</a> Word Bearers",
-	"version":"Alpha 0.6.0 <a href=\"../list-view/site.html?content=list&race=Chaos&list=wordbearers\">Listview</a>",
+	"id":"<a href=\"../list-view/?content=intro\">EA-R</a> Word Bearers",
+	"version":"Alpha 0.6.0 <a href=\"../list-view/?content=list&race=Chaos&list=wordbearers\">Listview</a>",
 	"by":"EA-Ragnarok",
 	"notes":
 		["Add one free Lesser Daemon to the Lesser Daemon pool per Daemonic Pact"],

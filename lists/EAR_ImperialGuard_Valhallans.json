@@ -1,6 +1,6 @@
 {
-	"id":"<a href=\"../list-view/site.html?content=intro\">EA-R</a> Valhallan Ice Warriors",
-	"version":"Alpha 0.6.0 <a href=\"../list-view/site.html?content=list&race=IG&list=valhallanicewarriors\">Listview</a>",
+	"id":"<a href=\"../list-view/?content=intro\">EA-R</a> Valhallan Ice Warriors",
+	"version":"Alpha 0.6.0 <a href=\"../list-view/?content=list&race=IG&list=valhallanicewarriors\">Listview</a>",
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"VALHALLAN CORE COMPANIES", "formations":[

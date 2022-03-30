@@ -1,6 +1,6 @@
 {
-    "id":"<a href=\"../list-view/site.html?content=intro\">EA-R</a> Bad Moons Clan, Nazdreg Ug Urdgrub's Gargant Big Mob",
-	"version":"Approved 1.0.Beta <a href=\"../list-view/site.html?content=list&race=O&list=gargants\">Listview</a>",
+    "id":"<a href=\"../list-view/?content=intro\">EA-R</a> Bad Moons Clan, Nazdreg Ug Urdgrub's Gargant Big Mob",
+	"version":"Approved 1.0.Beta <a href=\"../list-view/?content=list&race=O&list=gargants\">Listview</a>",
    "notes": ["If the army includes a Mega Gargant, the Big Mek must be in it. Otherwise the Big Mek will be located in a Great Gargant."],
    "by": "Mrdiealot",
    "sections": [

@@ -1,6 +1,6 @@
 {
-    "id":"<a href=\"../list-view/site.html?content=intro\">EA-R</a> Clan Goffs Warhorde, WAAAGH! Ghazghkull",
-	"version":"Approved 1.0.Beta <a href=\"../list-view/site.html?content=list&race=O&list=goffsclan\">Listview</a>",
+    "id":"<a href=\"../list-view/?content=intro\">EA-R</a> Clan Goffs Warhorde, WAAAGH! Ghazghkull",
+	"version":"Approved 1.0.Beta <a href=\"../list-view/?content=list&race=O&list=goffsclan\">Listview</a>",
    "notes": ["If the army includes any Great Gargants, the Warlord must be in one of them. Otherwise the Warlord will join a Nobz or Gargant unit."],
    "by": "EA-Ragnarok",
    "sections": [

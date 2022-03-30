@@ -1,6 +1,6 @@
 {
-	"id":"<a href=\"../list-view/site.html?content=intro\">EA-R</a> Kabal of the Black Heart",
-	"version":"Approved 1.0.Beta <a href=\"../list-view/site.html?content=list&race=EL&list=kabaloftheblackheart\">Listview</a>",
+	"id":"<a href=\"../list-view/?content=intro\">EA-R</a> Kabal of the Black Heart",
+	"version":"Approved 1.0.Beta <a href=\"../list-view/?content=list&race=EL&list=kabaloftheblackheart\">Listview</a>",
 	"by":"EA-Ragnarok",
 	"notes":["Raiders / Venoms may carry Incubi, Warrior, Wych, Haemonculi and Wrack units. No Raider / Venom / Barge of Pleasure transport space may be left over if possible."],
 	"sections":[

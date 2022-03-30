@@ -1,6 +1,6 @@
 {
-	"id":"<a href=\"../list-view/site.html?content=intro\">EA-R</a> Snakebite Clan, WAAAGH! Ghazghkull",
-	"version":"Approved 1.0.Beta <a href=\"../list-view/site.html?content=list&race=O&list=snakebiteclan\">Listview</a>",
+	"id":"<a href=\"../list-view/?content=intro\">EA-R</a> Snakebite Clan, WAAAGH! Ghazghkull",
+	"version":"Approved 1.0.Beta <a href=\"../list-view/?content=list&race=O&list=snakebiteclan\">Listview</a>",
 	"notes":["The Warlord must be assigned to the formation with the most units + War Engine DC in the army.", "Transport Capacity: Squiggoths: 4 units of inf + 2 Grotz. Gargantuan Squiggoth: 8 inf + 4 Grotz. Orkeosaurus: 16 inf + 6 Grotz"],
 	"by":"EA-Ragnarok",
 	"sections":[
