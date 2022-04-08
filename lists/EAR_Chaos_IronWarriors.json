@@ -4,9 +4,9 @@
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"IRON WARRIORS CORE FORMATIONS", "formations":[
-			{"id":500, "name":"Iron Warriors Retinue", "pts":225, "upgrades":[39,40,41,43,42,52,53,54,55,80]},
+			{"id":500, "name":"Iron Warriors Retinue", "pts":225, "upgrades":[39,40,41,56,43,42,52,53,54,55,80]},
 			{"id":501, "name":"Iron Warriors Armoured Company", "pts":275, "upgrades":[] },
-			{"id":502, "name":"Havocs",	"pts":300, "units":"4 Havocs, 2 Chaos Land Raiders", "upgrades":[43]}
+			{"id":502, "name":"Havocs",	"pts":200, "units":"4 Havocs", "upgrades":[43]}
 		]},
 		{"name":"IRON WARRIORS ELITE FORMATIONS <br/> Max 1 for each Core formation", "formations":[
 			{"id":510, "name":"Chosen", "pts":125, "units":"4 Chosen", "upgrades":[43]},
@@ -39,7 +39,8 @@
 
 		{"id":20, "name":"6 Chaos Vindicators", "pts":0},
 		{"id":21, "name":"6 Chaos Predators", "pts":25},
-		{"id":22, "name":"6 Chaos Land Raiders", "pts":125},
+		{"id":22, "name":"3 Chaos Spartan Assault Tanks", "pts":75},
+		{"id":23, "name":"6 Chaos Land Raiders", "pts":125},
 
 		{"id":25, "name":"Iron Warriors Stormsword", "pts":0},
 		{"id":26, "name":"2 Iron Warriors Stormswords", "pts":150},
@@ -72,6 +73,7 @@
 		{"id":54, "name":"Chaos Siege Dreadnought", "pts":50},
 		{"id":55, "name":"2 Chaos Siege Dreadnoughts", "pts":100},
 
+		{"id":56, "name":"Chaos Spartan Assault Tank", "pts":75},
 		{"id":57, "name":"Chaos Typhon Heavy Siege Tank", "pts":125},
 
 		{"id":61, "name":"Decimator", "pts":175},
@@ -102,7 +104,9 @@
 
 		{"min":0, "max":5, "from":[39,40,41], "appliesTo":[500]},
 
-		{"min":1, "max":1, "from":[20,21,22], "appliesTo":[501]},
+		{"min":1, "max":1, "from":[20,21,22,23], "appliesTo":[501]},
+
+		{"min":1, "max":1, "from":[56,36], "appliesTo":[502]},
 
 		{"min":1, "max":1, "from":[10,11], "appliesTo":[504,505,507]},
 
