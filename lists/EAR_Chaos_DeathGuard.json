@@ -8,7 +8,7 @@
       ]},
 
       {"name": "DEATH GUARD CORE FORMATIONS", "formations": [
-            {"id": 521, "name": "Death Guard Retinue", "pts": 300,  "units": "4 Plague Marines, Daemonic Pact", "upgrades": [22,23,33,26,27,28,30]},
+            {"id": 521, "name": "Death Guard Retinue", "pts": 300,  "units": "4 Plague Marines, Daemonic Pact", "upgrades": [22,23,32,33,26,27,28,30]},
             {"id": 532, "name": "Death Guard Terminators", "pts": 400, "units": "Daemonic Pact", "upgrades": [22,26,27,30]}
        ]},
       {"name": "DEATH GUARD ELITE FORMATIONS <br/> Max 1 for each Death Guard Core Formation", "formations": [
@@ -16,11 +16,10 @@
             {"id": 533, "name": "Armored Company", "pts": 250, "upgrades": [28]}
        ]},
       {"name": "DEATH GUARD SUPPORT FORMATIONS <br/> Max 2 for each Death Guard Core Formation", "formations": [
-          {"id": 551, "name": "Poxwalker Infestation", "pts": 150, "units": "7 Poxwalkers", "upgrades": []},
+          {"id": 551, "name": "Poxwalker Infestation", "pts": 125, "units": "7 Poxwalkers", "upgrades": []},
           {"id": 540, "name": "Plague Reaper", "pts": 200, "upgrades": []},
-          {"id": 544, "name": "Nurgle Defiler Pack", "pts": 275, "units": "4 Desecrators", "upgrades": []},
+          {"id": 544, "name": "Nurgle Defiler Pack", "pts": 250, "units": "4 Desecrators", "upgrades": []},
             {"id": 542, "name": "Blight Drones", "pts": 250, "units": "7 Blight Drones", "upgrades": []},
-            {"id": 543, "name": "Plague Tower", "pts": 225, "upgrades": []},
             {"id": 541, "name": "Contagion Engines", "pts": 325, "units": "4 Contagion Engines", "upgrades": []}
        ]},
       {"name": "TRAITOR TITANS & CHAOS NAVY <br/> Max 33%", "formations": [
@@ -52,7 +51,7 @@
       {"id": 30, "name": "Death Guard Vindicator", "pts": 40},
       {"id": 31, "name": "2 Death Guard Vindicators", "pts": 100},
 
-      {"id": 32, "name": "2 Chaos Spartan Assault Tanks", "pts": 150},
+      {"id": 32, "name": "Plague Tower", "pts": 175},
       {"id": 33, "name": "4 Death Guard Land Raiders", "pts": 200},
 
       {"id": 35, "name": "2 Death Guard Rhinos", "pts": 25},
@@ -66,7 +65,7 @@
 
       {"id": 45, "name": "4 Blightlord Terminators", "pts": 0},
       {"id": 46, "name": "3 Blightlord Terminators, 3 Death Guard Land Raiders", "pts": 100},
-      {"id": 47, "name": "4 Blightlord Terminators, 2 Chaos Spartan Assault Tanks", "pts": 150},
+      {"id": 47, "name": "4 Blightlord Terminators, Plague Tower", "pts": 175},
 
       {"id":55,	"name":"Rot Cannon",	"pts":0},
       {"id":56,	"name":"Turbo Blaster",	"pts":0},
@@ -92,14 +91,14 @@
       {"min": 1, "max": 1, "from": [73], "appliesTo": [501]},
       {"max": 2, "from": [22]},
       {"max": 1, "from": [23,24,33], "appliesTo": [521]},
-      {"min": 1, "max": 1, "from": [45,46], "appliesTo": [532]},
+      {"min": 1, "max": 1, "from": [45,46,47], "appliesTo": [532]},
 
       {"max": 1, "from": [25]},
       {"max": 1, "from": [26]},
       {"max": 1, "from": [27]},
       {"max": 1, "from": [28]},
       {"max": 2, "from": [30]},
-      {"max": 1, "from": [32,33]},
+      {"max": 1, "from": [23,32,33]},
       {"max": 1, "from": [42]},
 
 

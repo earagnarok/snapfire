@@ -20,7 +20,7 @@
 			{"id":515, "name":"Hell-Striders of Slaanesh",	"pts":225, "units":"4 Hell-Striders", "upgrades":[]},
 			{"id":516, "name":"Subjugators of Slaanesh", "pts":75, "upgrades":[31] },
 			{"id":517, "name":"Questors of Slaanesh",	"pts":75, "upgrades":[32]},
-			{"id":518, "name":"Poxwalkers of Nurgle",	"pts":125, "units":"7 Poxwalkers", "upgrades":[]},
+			{"id":518, "name":"Poxwalkers of Nurgle",	"pts":100, "units":"7 Poxwalkers", "upgrades":[]},
 			{"id":519, "name":"Plague Tower of Nurgle", "pts":225, "upgrades":[]},
 			{"id":520, "name":"Contagion Engines of Nurgle", "pts":325, "units":"4 Contagion Engines", "upgrades":[]},
 			{"id":521, "name":"Cannons of Khorne", "pts":225, "units":"4 Cannons of Khorne", "upgrades":[]},
