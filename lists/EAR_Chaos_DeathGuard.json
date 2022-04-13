@@ -51,7 +51,7 @@
       {"id": 30, "name": "Death Guard Vindicator", "pts": 40},
       {"id": 31, "name": "2 Death Guard Vindicators", "pts": 100},
 
-      {"id": 32, "name": "Plague Tower", "pts": 175},
+      {"id": 32, "name": "Plague Tower", "pts": 150},
       {"id": 33, "name": "4 Death Guard Land Raiders", "pts": 200},
 
       {"id": 35, "name": "2 Death Guard Rhinos", "pts": 25},
@@ -65,7 +65,7 @@
 
       {"id": 45, "name": "4 Blightlord Terminators", "pts": 0},
       {"id": 46, "name": "3 Blightlord Terminators, 3 Death Guard Land Raiders", "pts": 100},
-      {"id": 47, "name": "4 Blightlord Terminators, Plague Tower", "pts": 175},
+      {"id": 47, "name": "4 Blightlord Terminators, Plague Tower", "pts": 150},
 
       {"id":55,	"name":"Rot Cannon",	"pts":0},
       {"id":56,	"name":"Turbo Blaster",	"pts":0},

@@ -31,7 +31,7 @@
 			{"id":514, "name":"Hell Scourges of Slaanesh", "pts":325, "units":"3 Hell Scourges", "upgrades":[] },
 			{"id":515, "name":"Hell Knights of Slaanesh", "pts":325, "units":"3 Hell Knights", "upgrades":[]},
 			{"id":517, "name":"Plague Reaper of Nurgle", "pts":200, "upgrades":[]},
-			{"id":516, "name":"Plague Tower of Nurgle", "pts":225, "upgrades":[]},
+			{"id":516, "name":"Plague Tower of Nurgle", "pts":200, "upgrades":[]},
 			{"id":520, "name":"Daemonic Assault Engines of Khorne",	"pts":225, "units":"4 Daemonic Assault Engines", "upgrades":[]},
 			{"id":521, "name":"Khorne Lord of Battles", "pts":425, "upgrades":[]},
 			{"id":522, "name":"Silver Towers of Tzeentch",	"pts":250, "units":"4 Silver Towers", "upgrades":[]},
