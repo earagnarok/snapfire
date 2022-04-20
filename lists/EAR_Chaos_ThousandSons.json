@@ -19,7 +19,7 @@
 			{"id":503, "name":"Havocs", "pts":225,  "units": "Aspiring Sorcerer, 4 Thousand Sons Havocs, Daemonic Pact", "upgrades":[15, 30]},
 			{"id":504, "name":"Armoured Company", "pts":0, "upgrades":[]},
 			{"id":507, "name":"Disc Riders", "pts":250, "units": "5 Sorcerer Disc Riders, Daemonic Pact", "upgrades":[15,16] },
-			{"id":508, "name":"Silver Towers of Tzeentch",	"pts":250, "units":"4 Silver Towers", "upgrades":[]}
+			{"id":508, "name":"Silver Towers of Tzeentch",	"pts":275, "units":"4 Silver Towers", "upgrades":[]}
 		]},
 		{"name":"DARK MECHANICUS AND THOUSAND SONS NAVY FORMATIONS <br/> Max 33%", "formations":[
 			{"id":512, "name":"Warphound", "pts":300,  "upgrades":[]},

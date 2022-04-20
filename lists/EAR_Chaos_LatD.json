@@ -26,7 +26,7 @@
 			{"id":521, "name":"Cannons of Khorne", "pts":225, "units":"4 Cannons of Khorne", "upgrades":[]},
 			{"id":521, "name":"Daemonic Assault Engines of Khorne",	"pts":225, "units":"4 Daemonic Assault Engines", "upgrades":[]},
 			{"id":522, "name":"Khorne Lord of Battles", 	"pts":425, "upgrades":[]},
-			{"id":523, "name":"Silver Towers of Tzeentch",	"pts":250, "units":"4 Silver Towers", "upgrades":[]},
+			{"id":523, "name":"Silver Towers of Tzeentch",	"pts":275, "units":"4 Silver Towers", "upgrades":[]},
 			{"id":524, "name":"Warp Palace of Tzeentch",	"pts":450, "upgrades":[]},
 			{"id":525, "name":"Firelords of Tzeentch", "pts":50, "upgrades":[33] }
 

@@ -34,18 +34,18 @@
 			{"id":516, "name":"Plague Tower of Nurgle", "pts":200, "upgrades":[]},
 			{"id":520, "name":"Daemonic Assault Engines of Khorne",	"pts":225, "units":"4 Daemonic Assault Engines", "upgrades":[]},
 			{"id":521, "name":"Khorne Lord of Battles", "pts":425, "upgrades":[]},
-			{"id":522, "name":"Silver Towers of Tzeentch",	"pts":250, "units":"4 Silver Towers", "upgrades":[]},
+			{"id":522, "name":"Silver Towers of Tzeentch",	"pts":275, "units":"4 Silver Towers", "upgrades":[]},
 			{"id":523, "name":"Warp Palace of Tzeentch", "pts":450, "upgrades":[]}
          ]
       }
    ],
 	"upgrades":[
-		{"id":10, "name":"Fallen Commander", 		"pts":0},
-		{"id":13, "name":"Fallen Commander with Daemonic Icon", 		"pts":25},
-		{"id":5, "name":"Fallen Commander with Arch-Heretic", 		"pts":50},
-		{"id":11, "name":"Fallen Commander with Daemonic Icon and Arch-Heretic", 		"pts":75},
-		{"id":6, "name":"Daemon Prince", 		"pts":100},
-		{"id":12, "name":"Daemon Prince with Daemonic Icon", 		"pts":125},
+		{"id":10, "name":"Fallen Commander, 9 Infantry", 		"pts":0},
+		{"id":13, "name":"Fallen Commander with Daemonic Icon, 9 Infantry", 		"pts":25},
+		{"id":5, "name":"Fallen Commander with Arch-Heretic, 9 Infantry", 		"pts":50},
+		{"id":11, "name":"Fallen Commander with Daemonic Icon and Arch-Heretic, 9 Infantry", 		"pts":75},
+		{"id":6, "name":"Daemon Prince, 9 Infantry", 		"pts":100},
+		{"id":12, "name":"Daemon Prince with Daemonic Icon, 9 Infantry", 		"pts":125},
 
 
 		{"id":14, "name":"Daemonic Icon", "pts":25},
@@ -86,10 +86,6 @@
 		{"id":45, "name":"3 Leman Russ Thunderers", "pts":150},
 
 
-		{"id":50, "name":"9 Infantry", "pts":0},
-		{"id":51, "name":"7 Infantry, 4 Land Transporters", "pts":25},
-		{"id":52, "name":"5 Infantry, 3 Chimeras", "pts":25},
-
 		{"id":72, "name":"Lesser Daemon Pool point", "pts":15},
 		{"id":73, "name":"Lesser Daemon Pool point (Daemonic Icon / Daemonic Pact)", "pts":0}
 
@@ -103,7 +99,6 @@
 		{"max":1, "perArmy":true, "from":[5,6,8,9,11,12]},
 
 		{"min":1, "max":1, "from":[10,13,5,11,6,12], "appliesTo":[501]},
-		{"min":1, "max":1, "from":[50,51,52], "appliesTo":[501]},
 
 		{"max":2, "from":[15], "appliesTo":[501]},
 		{"max":2, "from":[21], "appliesTo":[501]},
