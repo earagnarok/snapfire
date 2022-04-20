@@ -59,7 +59,7 @@
 		{"id":70, "name":"Daemonic Pact", "pts":25},
 
 		{"id":71, "name":"Greater Daemon Pool point", "pts":75},
-		{"id":72, "name":"Lesser Daemon Pool point", "pts":15},
+		{"id":72, "name":"Lesser Daemon Pool point", "pts":20},
 		{"id":73, "name":"Lesser Daemon Pool point (Daemonic Pact)", "pts":0}
 
 
