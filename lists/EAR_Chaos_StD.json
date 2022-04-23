@@ -1,6 +1,6 @@
 {
 	"id":"<a href=\"../list-view/?content=intro\">EA-R</a> Slaves to Darkness",
-	"version":"Approved 1.0.Beta <a href=\"../list-view/?content=list&race=Cultists&list=StD\">Listview</a>",
+	"version":"Approved 1.0.Beta-2 <a href=\"../list-view/?content=list&race=Cultists&list=StD\">Listview</a>",
 	"by":"EA-Ragnarok",
 	"notes":
 		["Add one free Lesser Daemon to the Lesser Daemon Pool per Daemonic Pact, Daemonic Icon.", "No more Land Transporters / Chimeras than needed to transport the formation.", "Max 5 different upgrades per formation (Land Transporters & Chimeras counts as a single upgrade)."],
