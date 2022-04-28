@@ -1,7 +1,7 @@
 {
 	"id":"<a href=\"../list-view/?content=intro\">EA-R</a> Snakebite Clan, WAAAGH! Ghazghkull",
 	"version":"Approved 1.0.Beta <a href=\"../list-view/?content=list&race=O&list=snakebiteclan\">Listview</a>",
-	"notes":["The Warlord must be assigned to the formation with the most units + War Engine DC in the army.", "Transport Capacity: Squiggoths: 4 units of inf + 2 Grotz. Gargantuan Squiggoth: 8 inf + 4 Grotz. Orkeosaurus: 16 inf + 6 Grotz"],
+	"notes":["The Warlord must be assigned to a unit of Brutes in the formation with the most units + War Engine DC in the army.", "Transport Capacity: Squiggoths: 4 units of inf + 2 Grotz. Gargantuan Squiggoth: 8 inf + 4 Grotz. Orkeosaurus: 16 inf + 6 Grotz"],
 	"by":"EA-Ragnarok",
 	"sections":[
 		{
@@ -11,9 +11,9 @@
 				{"id":501, "name":"Snakebites Warband (Big)", "pts":-90, "upgrades":[11,23,29,52,13,58,39,56,62,63,55,60,61,67]},
 				{"id":502, "name":"Snakebites Warband ('Uge)", "pts":-160, "upgrades":[11,23,29,52,13,58,39,56,62,63,64,55,60,61,67]},
 
-				{"id":506, "name":"Boarboyz Horde", "pts": 0, "units":"Pigdok", "upgrades":[29,58,67]},
-				{"id":507, "name":"Boarboyz Horde (Big)", "pts":-50, "units":"2 Pigdok", "upgrades":[29,58,67]},
-				{"id":508, "name":"Boarboyz Horde ('Uge)", "pts":-100, "units":"3 Pigdok", "upgrades":[29,58,67]}
+				{"id":506, "name":"Boarboyz Horde", "pts": 0, "units":"Pigdok", "upgrades":[29,58]},
+				{"id":507, "name":"Boarboyz Horde (Big)", "pts":-50, "units":"2 Pigdok", "upgrades":[29,58]},
+				{"id":508, "name":"Boarboyz Horde ('Uge)", "pts":-100, "units":"3 Pigdok", "upgrades":[29,58]}
 		]},
 		{
 			"name":"SNAKEBITES SUPPORT MOBS (Max 1 for each Snakebites War Horde)",
@@ -29,7 +29,7 @@
 		{
            "name": "GARGANTS <br/> Max 25%",
            "formations": [
-			   {"id":514, "name":"Snakebites Gargant Mob", "pts":50, "upgrades":[67, 70]}
+			   {"id":514, "name":"Snakebites Gargant Mob", "pts":50, "upgrades":[70]}
            ]
         }
 	],
