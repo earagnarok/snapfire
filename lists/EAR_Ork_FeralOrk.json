@@ -22,7 +22,7 @@
 				{"id":512, "name":"Junka Brigade (Big)", "pts":0, "upgrades":[12,14,57,67]},
 				{"id":515, "name":"Lobba Mob", "pts":150, "units":"6 Lobbas", "upgrades":[13]},
 				{"id":510, "name":"Madboyz Mob", "pts":0, "upgrades":[35,59]},
-				{"id":513, "name":"Trappas Mob", "pts":0, "upgrades":[17]},
+				{"id":513, "name":"Trappas Mob", "pts":-25, "upgrades":[17]},
 				{"id":503, "name":"Wildboyz Mob", "pts": 10, "upgrades":[23,13,58, 56,62, 55,60,61,67]},
 				{"id":504, "name":"Wildboyz Mob (Big)", "pts":-30, "upgrades":[23,13,58, 56,62,63, 55,60,61,67]}
 			]},
@@ -126,7 +126,7 @@
 
 		{"max":3, "from":[59], "appliesTo":[510]},
 
-		{"min":6, "from":[17], "appliesTo":[513]},
+		{"min":8, "from":[17], "appliesTo":[513]},
 
 		{"min":1, "max":2, "from":[70], "appliesTo":[514]},
 		{"max":1, "from":[13], "appliesTo":[515]}
