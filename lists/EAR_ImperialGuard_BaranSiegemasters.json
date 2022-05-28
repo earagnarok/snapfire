@@ -4,8 +4,8 @@
 	"by":"EA-Ragnarok",
 	"sections":[
 		{"name":"CORE COMPANIES", "formations":[
-			{"id":501, "name":"1 Siegemaster Regimental HQ", "pts":325, "upgrades":[18,20,21,24,27,44,45,46,15], "units":"Baran Siegemaster with a Commissar, 9 Siege Infantry"},
-		 	{"id":502, "name":"Siege Infantry Company", "pts":275, "upgrades":[18,20,21,24,27,44,45,46,15], "units":"Baran Commander with a Commissar, 9 Siege Infantry"},
+			{"id":501, "name":"1 Siegemaster Regimental HQ", "pts":325, "upgrades":[18,20,21,24,27,44,45,46,15], "units":"Baran Siegemaster with a Commissar"},
+		 	{"id":502, "name":"Siege Infantry Company", "pts":275, "upgrades":[18,20,21,24,27,44,45,46,15], "units":"Baran Commander with a Commissar"},
 			{"id":515, "name":"Heavy Tank Emplacement",			"pts":400, "upgrades":[]}
 
 		]},
@@ -42,14 +42,14 @@
 		{"id":18, "name":"3 Mole Launcher Squads, 12cm Trenches",					"pts":75},
 		{"id":20, "name":"4 Rapiers, 16cm Trenches",								"pts":75},
 		{"id":21, "name":"3 Thudd Guns, 12cm Trenches",							"pts":75},
-		{"id":19, "name":"2 Baran Fire Support Squads, 8cm Trenches",					"pts":50},
-		{"id":22, "name":"4 Baran Fire Support Squads, 16cm Trenches",					"pts":100},
 
 		{"id":23, "name":"Bane Wolf",								"pts":25},
 		{"id":24, "name":"Snipers",									"pts":25},
+
+		{"id":25, "name":"9 Siege Infantry, 40cm Razor Wire, 40cm Trenches",		"pts":0},
 		{"id":27, "name":"2 Snipers",								"pts":50},
-		{"id":25, "name":"40cm Razor Wire, 40cm Trenches",		"pts":0},
-		{"id":28, "name":"40cm Razor Wire, 20cm Trenches, 2 Bunkers",		"pts":25},
+		{"id":28, "name":"9 Siege Infantry, 40cm Razor Wire, 20cm Trenches, 2 Bunkers",		"pts":25},
+		{"id":29, "name":"14 Siege Infantry",		"pts":0},
 
 		{"id":30, "name":"4 Howitzers, 4 Gun Emplacements",		"pts":0},
 		{"id":31, "name":"6 Howitzers, 6 Gun Emplacements",		"pts":75},
@@ -64,16 +64,16 @@
 	],
 	"formationConstraints":[
 		{"maxPercent": 33.5, "name":"Imperial Navy", "from":[530,531]},
-		{"max":2, "name":"Support Formations", "from":[510,511,513,514,515,516,517,518,519,520], "forEach":[501,502], "name2":"Regiment Company"},
+		{"max":2, "name":"Support Formations", "from":[510,511,513,514,516,517,518,519,520], "forEach":[501,502,515], "name2":"Regiment Company"},
 		{"max":1, "from":[513]},
 		{"min":1, "max":1, "from":[501]}
 
 	],
 	"upgradeConstraints":[
 
-		{"max":3, "from":[18,20,21,19,22,24,27,28,44,45,46,15], "appliesTo":[501,502]},
+		{"max":3, "from":[18,20,21,19,22,24,27,28,44,45,46,15,29], "appliesTo":[501,502]},
 
-		{"min":1, "max":1, "from":[25,28], "appliesTo":[501,502]},
+		{"min":1, "max":1, "from":[25,29,28], "appliesTo":[501,502]},
 
 		{"min":1, "max":1, "from":[30,31], "appliesTo":[510]},
 
@@ -89,7 +89,6 @@
 		{"max":1, "from":[15]},
 		{"max":1, "from":[18,20,21]},
 		{"max":1, "from":[19,22]},
-		{"max":1, "from":[23]},
 		{"max":1, "from":[24,27]},
 		{"max":1, "from":[25,26]},
 		{"max":1, "from":[44,45,46]}
