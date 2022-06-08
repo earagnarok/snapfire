@@ -23,7 +23,7 @@
 		{"name":"MIDNIGHT SORROW SAEDATHS <br/> Max 1 for each Wraithkind Kabal", "formations":[
 			{"id":530, "name":"Asuryan's Wager",	"pts":200, "units":"2 Harlequin Troupes, Death Jesters, 3 Starweavers", "upgrades":[25]},
 			{"id":532, "name":"Serpent's Blood",	"pts":225, "units":"3 Skyweaver Jetbikes, 3 Voidweavers", "upgrades":[25]},
-			{"id":533, "name":"Cegorach's Revenge",	"pts":250, "units":"2 Harlequin Troupes, Death Jesters, 3 Starweavers, 3 Skyweaver Jetbikes", "upgrades":[25]},
+			{"id":533, "name":"Cegorach's Revenge",	"pts":275, "units":"2 Harlequin Troupes, Death Jesters, 3 Starweavers, 3 Skyweaver Jetbikes", "upgrades":[25]},
 			{"id":534, "name":"Devourer's Feast",	"pts":300, "units":"Solitaire, 6 Mimes", "upgrades":[]}
 		]},
 
