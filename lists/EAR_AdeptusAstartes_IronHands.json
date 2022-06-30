@@ -98,7 +98,7 @@
         {"id":81,"name":"Gatling Blaster","pts":0},
 	    {"id":83,"name":"Titan Power Fist","pts":0},
         {"id":84,"name":"Laser Burner","pts":0},
-	    {"id":85,"name":"Melta Cannon","pts":0},
+	    {"id":85,"name":"Titan Melta Cannon","pts":0},
         {"id":86,"name":"Titan Chainfist","pts":0},
 
 		{"id":100, "name":"2 Warhounds (Standard Configuration)",	"pts":0},

@@ -47,7 +47,7 @@
 		{"id":29, "name":"Gatling Blaster",		"pts":25},
 		{"id":30, "name":"Apocalypse Missile Launcher",	"pts":25},
 		{"id":31, "name":"Close Combat Weapon",		"pts":25},
-		{"id":32, "name":"Melta Cannon",		"pts":50},
+		{"id":32, "name":"Titan Melta Cannon",		"pts":50},
 		{"id":33, "name":"Laser Blaster",		"pts":50},
 		{"id":34, "name":"Volcano Cannon",		"pts":50},
 		{"id":35, "name":"Plasma Destructor",		"pts":75},

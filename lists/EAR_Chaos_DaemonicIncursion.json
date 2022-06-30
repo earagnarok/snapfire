@@ -43,10 +43,10 @@
 		{"id":32, "name":"Exalted Bloodthirster", "pts":0},
 		{"id":33, "name":"Exalted Lord of Change", "pts":0},
 
-		{"id":40, "name":"Keeper of Secrets", "pts":150},
-		{"id":41, "name":"Great Unclean One", "pts":150},
-		{"id":42, "name":"Bloodthirster", "pts":150},
-		{"id":43, "name":"Lord of Change", "pts":150},
+		{"id":40, "name":"Keeper of Secrets", "pts":125},
+		{"id":41, "name":"Great Unclean One", "pts":125},
+		{"id":42, "name":"Bloodthirster", "pts":125},
+		{"id":43, "name":"Lord of Change", "pts":125},
 
 		{"id":50, "name":"3 Heralds of Slaanesh", "pts":0},
 		{"id":51, "name":"3 Heralds of Slaanesh on Seeker Chariots", "pts":0},
@@ -57,7 +57,7 @@
 		{"id":56, "name":"3 Heralds of Tzeentch", "pts":0},
 		{"id":57, "name":"3 Heralds of Tzeentch on Burning Chariots", "pts":0},
 
-		{"id":60, "name":"Soul Grinder", "pts":75},
+		{"id":60, "name":"Soul Grinder", "pts":50},
 
 		{"id":71, "name":"Lesser Daemon Pool point (Cultist Coven)", "pts":0},
 		{"id":72, "name":"Lesser Daemon Pool point", "pts":20},
@@ -90,7 +90,7 @@
 		{"min":1, "max":1, "from":[56,57,43], "appliesTo":[669]},
 
 		{"max":1, "from":[26]},
-		{"max":1, "from":[60]},
+		{"max":2, "from":[60]},
 
 		{"min":9, "max":13, "from":[20,21,22], "appliesTo":[501]},
 		{"max":1, "from":[23], "appliesTo":[501]},

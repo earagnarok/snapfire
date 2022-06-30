@@ -49,7 +49,7 @@
 	    {"id":30,"name":"Paired Gatling Blasters","pts":0},
 	    {"id":31,"name":"Paired Apocalypse Missile Launchers","pts":0},
 	    {"id":32,"name":"Paired Turbo-Laser Destructors","pts":0},
-	    {"id":33,"name":"Paired Melta Cannons","pts":0},
+	    {"id":33,"name":"Paired Titan Melta Cannons","pts":0},
         {"id":34,"name":"Paired Laser Blasters","pts":0},
 
 	    {"id":40,"name":"Gatling Blaster","pts":0},
@@ -81,7 +81,7 @@
         {"id":81,"name":"Gatling Blaster","pts":0},
 	    {"id":83,"name":"Titan Power Fist","pts":0},
         {"id":84,"name":"Laser Burner","pts":0},
-	    {"id":85,"name":"Melta Cannon","pts":0},
+	    {"id":85,"name":"Titan Melta Cannon","pts":0},
         {"id":86,"name":"Titan Chainfist","pts":0},
 
 	    {"id":90,"name":"Warp Missile","pts":0},
@@ -118,7 +118,7 @@
 		{"id":132, "name":"Ordinatus Minoris (Turbo-Laser Destructor)",		"pts":125},
 		{"id":133, "name":"Ordinatus Minoris (Apocalypse Missile Launcher)",	"pts":125},
         {"id":134, "name":"Ordinatus Minoris (Gatling Blaster)",		"pts":125},
-		{"id":135, "name":"Ordinatus Minoris (Melta Cannon)",	"pts":125},
+		{"id":135, "name":"Ordinatus Minoris (Titan Melta Cannon)",	"pts":125},
 
 		{"id":150, "name":"Warhound Titan (Standard Configuration)",		"pts":275},
 		{"id":151, "name":"Warhound Titan (Support Configuration)",		"pts":275},
