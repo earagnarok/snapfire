@@ -11,7 +11,7 @@
 		{"name":"SUPPORT FORMATIONS <br/> Max 2 for each Core Company", "formations":[
 			{"id":515, "name":"Heavy Tank Company",			"pts":375, "upgrades":[]},
 			{"id":520, "name":"Macharius Company", 				"pts":350, "units":"2 Macharius", "upgrades":[20,21,22]},
-			{"id":518, "name":"Sapper Company",					"pts":250, "upgrades":[], "units":"Baran Commander with a Commissar, 7 Sappers, Hades Breaching Drill"},
+			{"id":518, "name":"Sapper Company",					"pts":225, "upgrades":[], "units":"Baran Commander with a Commissar, 7 Sappers, Hades Breaching Drill"},
 			{"id":511, "name":"Siege Artillery Emplacement", 	"pts":225, "upgrades":[]},
 			{"id":510, "name":"Howitzer Emplacement", 			"pts":200, "upgrades":[32]},
 			{"id":514, "name":"Flak Emplacement", 				"pts":175, "upgrades":[], "units":"3 Heavy AA Guns, 3 Gun Emplacements"},
