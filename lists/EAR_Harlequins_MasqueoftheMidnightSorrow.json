@@ -9,22 +9,19 @@
 		]},
 		{"name":"WRAITHKIND KABALS", "formations":[
 			{"id":511, "name":"Wraithkind Coterie", "pts":225, "upgrades":[57,61,69,70,71]},
-			{"id":512, "name":"Wraithkind Syndicate", "pts":200,	"upgrades":[61,69,70,71,17]},
+			{"id":512, "name":"Wraithkind Syndicate", "pts":200,	"upgrades":[61,69,70,71]},
 			{"id":513, "name":"Wraithkind Flotilla", "pts":250, "units":"4 Reapers", "upgrades":[61]}
 		]},
 		{"name":"WRAITHKIND PARTISANS <br/> Max 1 for each Wraithkind Kabal", "formations":[
-			{"id":504, "name":"Hellion Murder", "pts":150,  "units":"4 Hellions", "upgrades":[62]},
-			{"id":503, "name":"Wych Cult", "pts":175, "units":"4 Wyches",  "upgrades":[69,70,71]},
-			{"id":505, "name":"Reaver Gang", "pts":50, "upgrades":[83]},
+			{"id":506, "name":"Mandrake Throng", "pts":25, "upgrades":[62]},
+			{"id":501, "name":"Haemonculi Coven", "pts":225, "units":"2 Haemonculi, 4 Wracks", "upgrades":[65,69,70,71]},
+			{"id":502, "name":"Talos Swarm", "pts":225, "upgrades":[]},
 			{"id":507, "name":"Scourge Flight", "pts":250, "units":"6 Scourges", "upgrades":[]},
 			{"id":508, "name":"Vessel of Pain", "pts":250, "upgrades":[]}
 		]},
 
-		{"name":"MIDNIGHT SORROW SAEDATHS <br/> Max 1 for each Wraithkind Kabal", "formations":[
-			{"id":530, "name":"Asuryan's Wager",	"pts":200, "units":"2 Harlequin Troupes, Death Jesters, 3 Starweavers", "upgrades":[25]},
-			{"id":532, "name":"Serpent's Blood",	"pts":225, "units":"3 Skyweaver Jetbikes, 3 Voidweavers", "upgrades":[25]},
-			{"id":533, "name":"Cegorach's Revenge",	"pts":275, "units":"2 Harlequin Troupes, Death Jesters, 3 Starweavers, 3 Skyweaver Jetbikes", "upgrades":[25]},
-			{"id":534, "name":"Devourer's Feast",	"pts":300, "units":"Solitaire, 6 Mimes", "upgrades":[]}
+		{"name":"HARLEQUIN MASQUES <br/> Max 1 for each Wraithkind Kabal", "formations":[
+			{"id":530, "name":"Harlequin Masque",	"pts":225, "units":"Shadowseer, 2 Harlequin Troupes, Death Jesters, 3 Starweavers", "upgrades":[83,84,25]}
 		]},
 
 		{"name":"COMMORRAGH NAVY & WAR ENGINES <br/> Max 33%", "formations":[
@@ -37,19 +34,19 @@
 	"upgrades":[
 		{"id":1, "name":"Archon w/ Portable Webway Portal", "pts":50},
 		{"id":2, "name":"Dracon w/ Portable Webway Portal", "pts":100},
-		{"id":3, "name":"Succubus w/ Portable Webway Portal", "pts":50},
+		{"id":3, "name":"Haemonculus Ancient w/ Portable Webway Portal", "pts":50},
 		{"id":4, "name":"Harlequin Avatar w/ Portable Webway Portal", "pts":50},
 		{"id":5, "name":"Master Mime w/ Portable Webway Portal", "pts":50},
 
 		{"id":15, "name":"Master Mime", "pts":0},
 		{"id":16, "name":"Archon", "pts":0},
 		{"id":17, "name":"Dracon", "pts":50},
-		{"id":18, "name":"Succubus", "pts":0},
+		{"id":18, "name":"Haemonculus Ancient", "pts":0},
 		{"id":19, "name":"Harlequin Avatar", "pts":0},
 
 		{"id":20, "name":"Vessel of Pain", "pts":200},
 
-		{"id":25, "name":"Shadowseer", "pts":50},
+		{"id":25, "name":"Solitaire", "pts":75},
 
 		{"id":55, "name":"4 Incubi", "pts":0},
 		{"id":56, "name":"6 Incubi", "pts":75},
@@ -57,53 +54,59 @@
 		{"id":58, "name":"6 Dark Eldar Warriors", "pts":0},
 		{"id":59, "name":"8 Dark Eldar Warriors", "pts":50},
 		{"id":61, "name":"Ravager", "pts":50},
-		{"id":62, "name":"Warp Beasts", "pts":25},
+		{"id":62, "name":"Mandrakes", "pts":25},
 
-		{"id":63, "name":"4 Wyches", "pts":0},
-		{"id":64, "name":"6 Wyches", "pts":50},
+		{"id":65, "name":"Grotesques", "pts":25},
 
 		{"id":69, "name":"Raider", "pts":0},
 		{"id":70, "name":"Tantalus", "pts":25},
 		{"id":71, "name":"Barge of Pleasure", "pts":125},
+		{"id":73, "name":"Talos", "pts":50},
+		{"id":74, "name":"2 Talos", "pts":75},
 
+		{"id":75, "name":"4 Talos", "pts":0},
+		{"id":76, "name":"5 Talos", "pts":50},
+		{"id":77, "name":"6 Talos", "pts":75},
 
-		{"id":75, "name":"Wraithgate", "pts":75},
-
-		{"id":83, "name":"Reaver Jet Bikes", "pts":25}
+		{"id":83, "name":"Skyweaver Jetbikes", "pts":25},
+		{"id":84, "name":"Voidweaver", "pts":25}
 
 	],
 	"formationConstraints":[
 		{"maxPercent": 33.5, "name": "Commorragh Navy & War Engines", "from":[523,526,527,528]},
 		{"max":1, "from":[562]},
 		{"max":1, "min":0, "from":[561]},
-		{"max":1, "from":[534]},
 		{"min":1, "max":1, "from":[511]},
 		{"max":1, "name":"Partisans", "from":[501,502,503,504,505,506,507,508], "forEach":[511,512,513], "name2":"Kabal"},
-		{"max":1, "name":"Midnight Sorrow Saedaths", "from":[530,531,532,533,534,535], "forEach":[511,512,513], "name2":"Kabal"},
+		{"max":1, "name":"Harlequin Masque", "from":[530,531,532,533,534,535], "forEach":[511,512,513], "name2":"Kabal"},
 		{"max":1, "name":"Spacecraft", "from":[522]}
 	],
 	"upgradeConstraints":[
 			{"max":1, "perArmy":true, "from":[1,2,3,4]},
+			{"max":1, "perArmy":true, "from":[25]},
+
 			{"min":1, "max":1, "from":[16,1], "appliesTo":[511]},
 			{"max":1, "from":[17,2], "appliesTo":[512]},
-			{"min":1, "max":1, "from":[18,3], "appliesTo":[503]},
-			{"min":1, "max":1, "from":[19,4], "appliesTo":[530,531,532,533,535]},
-			{"min":1, "max":1, "from":[15,5], "appliesTo":[534]},
+
+			{"min":1, "max":1, "from":[18,3], "appliesTo":[501]},
+
 		{"max":1, "from":[40,41,42,43]},
 		{"max":1, "name":"Dracon", "from":[17]},
 		{"max":1, "name":"Succubus", "from":[18]},
 		{"min":1, "max":1, "from":[55,56], "appliesTo":[511]},
 		{"min":1, "max":1, "from":[58,59], "appliesTo":[512]},
 		{"min":1, "max":1, "from":[75,76,77], "appliesTo":[502]},
-		{"min":6, "max":8, "name":"Reaver Jet Bikes", "from":[83], "appliesTo":[505]},
-		{"max":2, "from":[62],  "appliesTo":[504]},
+		{"min":4, "max":6, "name":"Mandrakes", "from":[62], "appliesTo":[506]},
 		{"max":1, "from":[71]},
 		{"max":1, "from":[73,74]},
 		{"max":2, "from":[61], "appliesTo":[511,512,513]},
+		{"max":2, "from":[65]},
 		{"min":1, "max":1, "from":[17,2], "appliesTo":[512]},
 		{"max":1, "from":[55]},
 		{"max":1, "from":[57]},
-		{"min":0, "max":1, "from":[75], "appliesTo":[561]}
+		{"min":0, "max":1, "from":[75], "appliesTo":[561]},
+		{"max":3, "from":[83]},
+		{"max":3, "from":[84]}
 
 	]
 }
