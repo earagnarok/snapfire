@@ -14,7 +14,7 @@
 		]},
 		{"name":"WRAITHKIND PARTISANS <br/> Max 1 for each Wraithkind Kabal", "formations":[
 			{"id":506, "name":"Mandrake Throng", "pts":25, "upgrades":[62]},
-			{"id":501, "name":"Haemonculi Coven", "pts":225, "units":"2 Haemonculi, 4 Wracks", "upgrades":[65,69,70,71]},
+			{"id":501, "name":"Haemonculi Coven", "pts":225, "units":"2 Haemonculi, 4 Wracks", "upgrades":[65,69,70,71,73,74]},
 			{"id":502, "name":"Talos Swarm", "pts":225, "upgrades":[]},
 			{"id":507, "name":"Scourge Flight", "pts":250, "units":"6 Scourges", "upgrades":[]},
 			{"id":508, "name":"Vessel of Pain", "pts":250, "upgrades":[]}
