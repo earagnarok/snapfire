@@ -65,7 +65,7 @@
 		{ "id":46, "name":"Chaos Spawn", "pts":35 },
 		{ "id":48, "name":"Hydra", "pts":50 },
 
-		{ "id":50, "name":"Lesser Daemon Pool Point", "pts":15 },
+		{ "id":50, "name":"Lesser Daemon Pool Point", "pts":20 },
 		{ "id":51, "name":"Lesser Daemon Pool Point (Daemonic Icon)", "pts":0 }
 	],
 	"formationConstraints":[
