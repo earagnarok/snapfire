@@ -15,6 +15,7 @@
 			{"id":511, "name":"Siege Artillery Emplacement", 	"pts":225, "upgrades":[]},
 			{"id":510, "name":"Howitzer Emplacement", 			"pts":200, "upgrades":[32]},
 			{"id":514, "name":"Flak Emplacement", 				"pts":175, "upgrades":[], "units":"3 Heavy AA Guns, 3 Gun Emplacements"},
+			{"id":519, "name":"Light Artillery Emplacement", 	"pts":200, "upgrades":[]},
 			{"id":521, "name":"Griffon Battery",				"pts":175, "upgrades":[20,21,22], "units":"3 Griffons"},
 			{"id":517, "name":"Death Rider Platoon",			"pts":150, "upgrades":[20,21,22], "units":"6 Death Riders"},
 			{"id":516, "name":"Siege Recon Squadron",			"pts":150, "upgrades":[20,21,22], "units":"4 Siegfried Light Tanks"}
@@ -60,7 +61,11 @@
 		{ "id":55, "name":"3 Ragnarok Heavy Tanks",	"pts":150},
 		{ "id":56, "name":"2 Malcadors", "pts":150},
 		{ "id":57, "name":"2 Malcador Defenders", "pts":150},
-		{ "id":58, "name":"Defense Laser", "pts":150}
+		{ "id":58, "name":"Defense Laser", "pts":150},
+
+		{"id":60, "name":"5 Rapiers, 20cm Trenches",								"pts":0},
+		{"id":61, "name":"5 Mole Launcher Squads, 20cm Trenches",					"pts":0},
+		{"id":62, "name":"5 Thudd Guns, 20cm Trenches",							"pts":0}
 
 	],
 	"formationConstraints":[
@@ -73,7 +78,7 @@
 
 		{"min":1, "max":3, "from":[45,46, 47,48,49, 50,51,52,53, 55,56,57,58], "appliesTo":[501,502]},
 		{"max":1, "from":[45,46], "appliesTo":[501,502]},
-		{"max":1, "from":[47,48], "appliesTo":[501,502]},
+		{"max":1, "from":[47,48,49], "appliesTo":[501,502]},
 		{"max":1, "from":[50,51,52,53], "appliesTo":[501,502]},
 		{"max":1, "from":[55,56,57,58], "appliesTo":[501,502]},
 
@@ -83,7 +88,7 @@
 
 		{"min":1, "max":1, "from":[6,8,9,7], "appliesTo":[515]},
 
-		{"min":1, "max":1, "from":[16,17,26], "appliesTo":[519]},
+		{"min":1, "max":1, "from":[60,61,62], "appliesTo":[519]},
 
 		{"min":1, "max":1, "from":[40,41], "appliesTo":[520]},
 
