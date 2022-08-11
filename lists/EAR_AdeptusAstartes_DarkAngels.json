@@ -13,7 +13,7 @@
 			{"id":502, "name":"Land Raiders",				"pts":125, "upgrades":[30,31,32, 35]},
 			{"id":514, "name":"Ares Siege",				"pts":375, "units":"3 Land Raider Ares",  "upgrades":[]},
 			{"id":515, "name":"Deathwing Armour",			"pts":450,  "units":"3 Land Raiders, 3 Terminators", "upgrades":[10,11,12,13]},
-			{"id":504, "name":"Devastators",				"pts":250, "units":"4 Dark Angels Devastators plus transport", "upgrades":[30,31,32, 33, 36,37]},
+			{"id":504, "name":"Devastators",				"pts":250, "units":"4 Dark Angels Devastators plus transport", "upgrades":[10,11,12,13, 30,31,32, 33, 36,37]},
 			{"id":510, "name":"Scouts",							"pts":150, "upgrades":[36,37]},
 			{"id":500, "name":"Assaults", 				"pts":175, "units":"4 Assaults", "upgrades":[10,11,12,13, 45,46]},
 			{"id":511, "name":"Whirlwinds",						"pts":275, "units":"4 Whirlwinds", "upgrades":[30,31,32]},
