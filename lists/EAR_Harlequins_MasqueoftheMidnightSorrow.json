@@ -20,8 +20,9 @@
 			{"id":508, "name":"Vessel of Pain", "pts":250, "upgrades":[]}
 		]},
 
-		{"name":"HARLEQUIN MASQUES <br/> Max 1 for each Wraithkind Kabal", "formations":[
-			{"id":530, "name":"Harlequin Masque",	"pts":275, "units":"Shadowseer, 3 Harlequin Troupes, Death Jesters, 4 Starweavers", "upgrades":[83,84,25]}
+		{"name":"HARLEQUINS <br/> Max 1 Harlequin formation for each Wraithkind Kabal <br/> Max 1 Harlequin Support for each Harlequin Masque", "formations":[
+			{"id":530, "name":"Harlequin Masque",	"pts":275, "upgrades":[83,25]},
+			{"id":531, "name":"Harlequin Support",	"pts":250, "units":"4 Voidweavers", "upgrades":[83]}
 		]},
 
 		{"name":"COMMORRAGH NAVY & WAR ENGINES <br/> Max 33%", "formations":[
@@ -69,7 +70,9 @@
 		{"id":77, "name":"6 Talos", "pts":75},
 
 		{"id":83, "name":"Skyweaver Jetbikes", "pts":25},
-		{"id":84, "name":"Voidweaver", "pts":25}
+		{"id":84, "name":"Shadowseer, 3 Harlequin Troupes, Death Jesters, 4 Starweavers", "pts":0},
+		{"id":85, "name":"Shadowseer, 4 Harlequin Troupes, 2 Death Jesters", "pts":0}
+
 
 	],
 	"formationConstraints":[
@@ -78,7 +81,8 @@
 		{"max":1, "min":0, "from":[561]},
 		{"min":1, "max":1, "from":[511]},
 		{"max":1, "name":"Partisans", "from":[501,502,503,504,505,506,507,508], "forEach":[511,512,513], "name2":"Kabal"},
-		{"max":1, "name":"Harlequin Masque", "from":[530,531,532,533,534,535], "forEach":[511,512,513], "name2":"Kabal"},
+		{"max":1, "name":"Harlequins", "from":[530,531], "forEach":[511,512,513], "name2":"Kabal"},
+		{"max":1, "name":"Harlequin Support", "from":[531], "forEach":[530], "name2":"Harlequin Masque"},
 		{"max":1, "name":"Spacecraft", "from":[522]}
 	],
 	"upgradeConstraints":[
@@ -105,8 +109,8 @@
 		{"max":1, "from":[55]},
 		{"max":1, "from":[57]},
 		{"min":0, "max":1, "from":[75], "appliesTo":[561]},
-		{"max":3, "from":[83]},
-		{"max":3, "from":[84]}
+		{"min":1, "max":1, "from":[84,85], "appliesTo":[530]},
+		{"max":3, "from":[83]}
 
 	]
 }
