@@ -13,10 +13,10 @@
 			{"id":665, "name":"Exalted Greater Daemon", "pts":350, "upgrades":[60]}
 		]},
 		{"name":"DAEMON LEGIONS <br/> Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations", "formations":[
-			{"id":666, "name":"Slaneesh Legion of Excess", "pts":250, "units":"5 Lesser Daemon Pool points",  "upgrades":[60]},
-			{"id":667, "name":"Nurgle Plague Legion", "pts":250, "units":"5 Lesser Daemon Pool points", "upgrades":[60]},
-			{"id":668, "name":"Khorne Blood Legion", "pts":250, "units":"5 Lesser Daemon Pool points", "upgrades":[60]},
-			{"id":669, "name":"Tzeentch Scintillating Legion", "pts":250, "units":"5 Lesser Daemon Pool points", "upgrades":[60]}
+			{"id":666, "name":"Slaneesh Legion of Excess", "pts":200, "units":"5 Lesser Daemon Pool points",  "upgrades":[60]},
+			{"id":667, "name":"Nurgle Plague Legion", "pts":200, "units":"5 Lesser Daemon Pool points", "upgrades":[60]},
+			{"id":668, "name":"Khorne Blood Legion", "pts":200, "units":"5 Lesser Daemon Pool points", "upgrades":[60]},
+			{"id":669, "name":"Tzeentch Scintillating Legion", "pts":200, "units":"5 Lesser Daemon Pool points", "upgrades":[60]}
 		]},
 		{"name":"MORTALS <br/> Max 50%", "formations":[
 			{"id":501, "name":"Cultist Coven", "pts":110, "units":"Daemonic Pact, Aspiring Champion",   "upgrades":[20,21,24,23,25,26,27,28]}
@@ -43,19 +43,19 @@
 		{"id":32, "name":"Exalted Bloodthirster", "pts":0},
 		{"id":33, "name":"Exalted Lord of Change", "pts":0},
 
-		{"id":40, "name":"Keeper of Secrets", "pts":100},
-		{"id":41, "name":"Great Unclean One", "pts":100},
-		{"id":42, "name":"Bloodthirster", "pts":100},
-		{"id":43, "name":"Lord of Change", "pts":100},
+		{"id":40, "name":"Keeper of Secrets", "pts":125},
+		{"id":41, "name":"Great Unclean One", "pts":125},
+		{"id":42, "name":"Bloodthirster", "pts":150},
+		{"id":43, "name":"Lord of Change", "pts":150},
 
-		{"id":50, "name":"3 Heralds of Slaanesh", "pts":0},
-		{"id":51, "name":"3 Heralds of Slaanesh on Seeker Chariots", "pts":0},
-		{"id":52, "name":"3 Heralds of Nurgle on Palanquins", "pts":0},
-		{"id":53, "name":"3 Heralds of Nurgle on Blight Flies", "pts":0},
-		{"id":54, "name":"3 Heralds of Khorne on Juggernauts", "pts":0},
-		{"id":55, "name":"3 Heralds of Khorne on Skull Cannons", "pts":0},
-		{"id":56, "name":"3 Heralds of Tzeentch", "pts":0},
-		{"id":57, "name":"3 Heralds of Tzeentch on Burning Chariots", "pts":0},
+		{"id":50, "name":"2 Heralds of Slaanesh", "pts":0},
+		{"id":51, "name":"2 Heralds of Slaanesh on Seeker Chariots", "pts":25},
+		{"id":52, "name":"2 Heralds of Nurgle on Palanquins", "pts":0},
+		{"id":53, "name":"2 Heralds of Nurgle on Blight Flies", "pts":25},
+		{"id":54, "name":"2 Heralds of Khorne on Juggernauts", "pts":0},
+		{"id":55, "name":"2 Heralds of Khorne on Skull Cannons", "pts":25},
+		{"id":56, "name":"2 Heralds of Tzeentch", "pts":0},
+		{"id":57, "name":"2 Heralds of Tzeentch on Burning Chariots", "pts":25},
 
 		{"id":60, "name":"Soul Grinder", "pts":50},
 
