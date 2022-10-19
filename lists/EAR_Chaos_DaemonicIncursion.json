@@ -18,8 +18,9 @@
 			{"id":668, "name":"Khorne Blood Legion", "pts":200, "units":"5 Lesser Daemon Pool points", "upgrades":[60]},
 			{"id":669, "name":"Tzeentch Scintillating Legion", "pts":200, "units":"5 Lesser Daemon Pool points", "upgrades":[60]}
 		]},
-		{"name":"MORTALS <br/> Max 50%", "formations":[
-			{"id":501, "name":"Cultist Coven", "pts":110, "units":"Daemonic Pact, Aspiring Champion",   "upgrades":[20,21,24,23,25,26,27,28]}
+		{"name":"MORTALS & DAEMON ENGINES <br/> Max 50%", "formations":[
+			{"id":501, "name":"Cultist Coven", "pts":110, "units":"Daemonic Pact, Aspiring Champion",   "upgrades":[20,21,24,23,25,26,27,28]},
+			{"id":502, "name":"Heldrakes", "pts":225, "units":"2 Heldrakes",   "upgrades":[]}
 
         ]}
    ],
@@ -69,7 +70,7 @@
 		{"min":1, "max":1, "from":[500]},
 		{"min":1, "max":1, "from":[499]},
 		{"min":1, "from":[665]},
-		{"maxPercent": 50.5, "name": "Mortals", "from": [501,502]}
+		{"maxPercent": 50.5, "name": "Mortals & Daemon Engines", "from": [501,502]}
 
 	],
 	"upgradeConstraints":[
