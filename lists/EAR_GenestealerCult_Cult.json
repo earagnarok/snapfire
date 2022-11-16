@@ -17,7 +17,7 @@
         {
           "id": 501,
           "name": "Acolyte Coven",
-          "pts": 95,
+          "pts": 70,
           "upgrades": [ 15, 16, 14, 20, 21, 30, 31, 71, 72]
         }
       ]
@@ -28,7 +28,7 @@
         {
           "id": 531,
           "name": "Atalan Jackals",
-          "pts": 250,
+          "pts": 225,
           "upgrades": [ 21 ]
         },
         {
@@ -42,7 +42,7 @@
           "id": 532,
           "name": "Shock Assault Coven",
           "units": "4 Aberrants",
-          "pts": 300,
+          "pts": 275,
           "upgrades": [ 21 ]
       },
       {
