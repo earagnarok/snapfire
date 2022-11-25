@@ -9,15 +9,15 @@
 		]},
 		{"name":"ELYSIAN SUPPORT FORMATIONS <br/> Max 2 for each Core Company Formation", "formations":[
 			{"id":511, "name":"Sentinel Squadron", "pts":100, "upgrades":[]},
-			{"id":512, "name":"Sky Talon Squadron", "pts":175, "upgrades":[], "units": "4 Sky Talons"},
+			{"id":512, "name":"Drop Sentinel Squadron", "pts":175, "upgrades":[36], "units": "6 Drop Sentinels"},
 			{"id":513, "name":"Storm Trooper Company", "pts":350, "upgrades":[], "units": "Eight Elysian Storm Troopers, one with a Commissar"},
 			{"id":514, "name":"Support Platoon", "pts":200, "upgrades":[]},
-			{"id":515, "name":"Tauros Recon Squadron", "pts":150, "upgrades":[], "units": "4 Tauros"},
+			{"id":515, "name":"Tauros Recon Squadron", "pts":150, "upgrades":[], "units": "5 Tauros"},
 			{"id":516, "name":"Tauros Venator Squadron", "pts":50, "upgrades":[35]},
 			{"id":517, "name":"Vulture Squadron", "pts":300, "upgrades":[], "units": "4 Vultures"}
 		]},
 		{"name":"STATIC DEFENSES & IMPERIAL NAVY ALLIES<br/> Max 33% <br/> Max 1 Tarantula formation for each Tauros Recon Squadron", "formations":[
-			{"id":521, "name":"Tarantulas", "pts":100, "upgrades":[]},
+			{"id":521, "name":"Tarantulas", "pts":125, "upgrades":[]},
 			{"id":522, "name":"Lightning Squadron", "pts":150, "units": "2 Lightning Interceptors"},
 			{"id":523, "name":"Marauder Destroyer", "pts":175, "units": "1 Marauder Destroyer"},
 			{"id":524, "name":"Marauder Squadron", "pts":225, "units": "2 Marauder Bombers"},
@@ -27,21 +27,20 @@
 	],
 	"upgrades":[
 		{"id":10, "name":"7 Elysian Drop Troops, 4 Valkyries", "pts":0},
-		{"id":11, "name":"5 Elysian Drop Troops, 3 Valkyries, 2 Drop Sentinels, 1 Sky Talon", "pts":25},
-		{"id":12, "name":"5 Elysian Drop Troops, 3 Valkyries, 2 Elysian Fire Support Squads, 1 Vendetta", "pts":50},
-		{"id":13, "name":"3 Elysian Drop Troops, 2 Valkyries, 2 Elysian Fire Support Squads, 1 Vendetta, 2 Drop Sentinels, 1 Sky Talon", "pts":75},
+		{"id":11, "name":"5 Elysian Drop Troops, 3 Valkyries, 2 Drop Sentinels, 1 Sky Talon", "pts":0},
+		{"id":12, "name":"5 Elysian Drop Troops, 3 Valkyries, 2 Elysian Fire Support Squads, 1 Vendetta", "pts":25},
+		{"id":13, "name":"3 Elysian Drop Troops, 2 Valkyries, 2 Elysian Fire Support Squads, 1 Vendetta, 2 Drop Sentinels, 1 Sky Talon", "pts":25},
 		{"id":14, "name":"9 Elysian Drop Troops, 5 Valkyries", "pts":75},
-		{"id":15, "name":"7 Elysian Drop Troops, 4 Valkyries, 2 Drop Sentinels, 1 Sky Talon", "pts":100},
-		{"id":16, "name":"7 Elysian Drop Troops, 4 Valkyries, 2 Elysian Fire Support Squads, 1 Vendetta", "pts":125},
-		{"id":17, "name":"5 Elysian Drop Troops, 3 Valkyries, 2 Elysian Fire Support Squads, 1 Vendetta, 2 Drop Sentinels, 1 Sky Talon", "pts":150},
+		{"id":15, "name":"7 Elysian Drop Troops, 4 Valkyries, 2 Drop Sentinels, 1 Sky Talon", "pts":75},
+		{"id":16, "name":"7 Elysian Drop Troops, 4 Valkyries, 2 Elysian Fire Support Squads, 1 Vendetta", "pts":100},
+		{"id":17, "name":"5 Elysian Drop Troops, 3 Valkyries, 2 Elysian Fire Support Squads, 1 Vendetta, 2 Drop Sentinels, 1 Sky Talon", "pts":100},
 
 		{"id":20, "name":"4 Sentinels", "pts":0},
 		{"id":21, "name":"4 Armoured Sentinels", "pts":25},
 		{"id":22, "name":"4 Support Sentinels", "pts":75},
-		{"id":27, "name":"6 Drop Sentinels", "pts":100},
 
 		{"id":23, "name":"4 Valkyries", "pts":0},
-		{"id":24, "name":"4 Vendettas", "pts":50},
+		{"id":24, "name":"4 Vendettas", "pts":75},
 		{"id":25, "name":"2 Valkyries", "pts":0},
 		{"id":26, "name":"2 Vendettas", "pts":25},
 
@@ -49,6 +48,7 @@
 		{"id":32, "name":"4 Elysian Mortar Squads", "pts":0},
 
 		{"id":35, "name":"Tauros Venator", "pts":25},
+		{"id":36, "name":"3 Sky Talons", "pts":75},
 
 		{"id":41, "name":"Tarantula (Twin Lascannon)", "pts":0},
 		{"id":42, "name":"Tarantula (Twin Heavy Bolter)", "pts":0},
@@ -64,11 +64,12 @@
 	],
 	"upgradeConstraints":[
 		{"max":1, "min":1, "from":[10,11,12,13,14,15,16,17], "appliesTo": [501,502]},
-		{"max":1, "min":1, "from":[20,21,22,27], "appliesTo": [511]},
+		{"max":1, "min":1, "from":[20,21,22], "appliesTo": [511]},
 		{"max":1, "min":1, "from":[23,24], "appliesTo": [513]},
 		{"max":1, "min":1, "from":[31,32], "appliesTo": [514]},
 		{"max":1, "min":1, "from":[25,26], "appliesTo": [514]},
 		{"max":6, "min":4, "from":[35], "appliesTo": [516]},
+		{"max":1, "from":[36], "appliesTo": [512]},
 		{"max":4, "min":4, "from":[41,42], "appliesTo": [521]},
 		{"max":1, "min":1, "from":[43,44], "appliesTo": [525]}
 	]
