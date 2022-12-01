@@ -1,6 +1,6 @@
 {
     "id":"<a href=\"../list-view/?content=intro\">EA-R</a> Adepta Sororitas",
-	"version":"Approved 1.0.Beta <a href=\"../list-view/?content=list&race=IQ&list=adeptasororitas\">Listview</a>",
+	"version":"Approved 1.0.Beta-2 <a href=\"../list-view/?content=list&race=IQ&list=adeptasororitas\">Listview</a>",
   "by": "EA-Ragnarok",
    "notes":["No more transports than needed to carry the formation with no space left over."],
 
@@ -24,7 +24,7 @@
 
          ]},
         {"name": "IMPERIAL NAVY <br/> Max 33%", "formations": [
-            {"id": 532, "name": "Lightning Squadron", "pts": 175, "units": "2 Lightning Interceptors", "upgrades": [] },
+            {"id": 532, "name": "Lightning Squadron", "pts": 150, "units": "2 Lightning Interceptors", "upgrades": [] },
             {"id": 533, "name": "Marauder Destroyer", "pts": 175, "upgrades": [] },
 	        {"id": 534, "name": "Orbital Support", "pts": 125, "upgrades": [] }
          ]}
