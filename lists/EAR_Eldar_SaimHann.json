@@ -9,14 +9,14 @@
          ]},
       {"name": "WARHOSTS <br/> Max 1 Aspect Warrior Warhost and 1 Mounted Guardian Warhost for each Wild Rider Warhost", "formations": [
         { "id": 511, "name": "Wild Rider Warhost", "pts": 325, "units": "Mounted Farseer",  "upgrades": [80] },
-        {"id": 512, "name": "Mounted Guardian Warhost", "pts": 250, "units": "3 Wave Serpents, Farseer", "upgrades": [80]},
+        {"id": 512, "name": "Mounted Guardian Warhost", "pts": 250, "units": "3 Wave Serpents, Farseer", "upgrades": []},
         {"id": 510, "name": "Aspect Warrior Warhost", "pts":300, "upgrades": [39]}
 
          ]},
       {"name": "TROUPES <br/> Max 3 per Warhost", "formations": [
              { "id": 501, "name": "Wild Rider Troupe", "pts": 200, "upgrades": [80] },
             {"id": 502, "name": "Hornet Troupe", "pts": 175, "units": "3 Saim-Hann Hornets",  "upgrades": []},
-            {"id": 503, "name": "Swords of Vaul", "pts": 250, "upgrades": [33,34,35,36]},
+            {"id": 503, "name": "Swords of Vaul", "pts": 200, "upgrades": []},
             {"id": 504, "name": "Night Spinner Troupe", "pts": 175, "upgrades": []},
             {"id": 505, "name": "Engines of Vaul", "pts": 50, "upgrades": [51,52,53,54]},
             {"id": 530, "name": "Fire Prism Troupe", "pts": 250, "units": "3 Fire Prisms", "upgrades": []},
@@ -36,13 +36,11 @@
       {"id": 22, "name": "Shining Spears", "pts": 0},
       {"id": 23, "name": "Swooping Hawks", "pts": 0},
 
-      {"id": 30, "name": "5 Falcons", "pts": 0},
-      {"id": 31, "name": "4 Falcons, Firestorm", "pts": 0},
-      {"id": 32, "name": "3 Falcons, 2 Firestorms", "pts": 0},
-      {"id": 33, "name": "Farseer, 4 Guardians", "pts": 75},
-      {"id": 34, "name": "Farseer, 3 Guardians, Heavy Weapon Platform", "pts": 75},
-      {"id": 35, "name": "Farseer, 2 Guardians, 2 Heavy Weapon Platforms", "pts": 75},
-      {"id": 36, "name": "Farseer, 1 Guardians, 3 Heavy Weapon Platforms", "pts": 75},
+      {"id": 30, "name": "3 Falcons", "pts": 0},
+      {"id": 31, "name": "2 Falcons, Firestorm", "pts": 0},
+
+      {"id": 33, "name": "Guardians", "pts": 0},
+      {"id": 34, "name": "Heavy Weapon Platform", "pts": 0},
 
       {"id": 39, "name": "Exarch", "pts": 25},
 
@@ -56,6 +54,8 @@
       {"id": 57, "name": "3 Night Spinners", "pts": 0},
       {"id": 58, "name": "4 Night Spinners", "pts": 75},
 
+      {"id": 60, "name": "Wave Serpent, Wraihguard", "pts": 50},
+
       {"id": 67, "name": "Nightwing Interceptors", "pts": 75},
 
       {"id": 80, "name": "Saim-Hann Hornet", "pts": 50},
@@ -66,8 +66,9 @@
 
       {"id": 84, "name": "Wild Rider Chieftain", "pts": 50},
 
-      {"id": 85, "name": "Guardians", "pts": 0},
-      {"id": 86, "name": "Heavy Weapon Platform", "pts": 0},
+      {"id": 85, "name": "5 Guardians", "pts": 0},
+      {"id": 86, "name": "3 Guardians, 2 Heavy Weapon Platform", "pts": 0},
+      {"id": 87, "name": "3 Guardians, Wraithguards", "pts": 25},
 
       {"id": 90, "name": "Independent Twins", "pts": 50},
 
@@ -99,17 +100,15 @@
       {"max": 4, "min": 0, "from": [82,83], "appliesTo": [511]},
       {"max": 1, "perArmy": true, "from": [84]},
 
-      {"max": 5, "min": 5, "from": [85,86], "appliesTo": [512]},
-      {"max": 3, "min": 0, "from": [86], "appliesTo": [512]},
-
+      {"max": 1, "min": 1, "from": [85,86,87], "appliesTo": [512]},
 
       {"max": 6, "min": 6, "from": [81,82,83], "appliesTo": [501]},
       {"max": 3, "min": 0, "from": [82,83], "appliesTo": [501]},
 
-      {"max": 1, "from": [80]},
+      {"max": 2, "from": [80]},
 
-      {"max": 1, "min": 1, "from": [30,31,32], "appliesTo": [503]},
-      {"max": 1, "min": 0, "from": [33,34,35,36], "appliesTo": [503]},
+      {"max": 1, "min": 1, "from": [30,31], "appliesTo": [503]},
+      {"max": 3, "min": 3, "from": [33,34], "appliesTo": [503]},
 
       {"max": 1, "min": 1, "from": [57,58], "appliesTo": [504]},
 
