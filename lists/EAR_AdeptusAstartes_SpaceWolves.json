@@ -5,18 +5,18 @@
 
 	"sections":[
 		{"name":"SPACE WOLVES CORE PACKS", "formations":[
-			{"id":501, "name":"Hunting Pack", "pts":250, "units":"plus transport", "upgrades":[29,31,32,33,34,35,36,37]},
-			{"id":502, "name":"Blood Claw Assault Pack", "pts":200, "units":"6 Blood Claw Assaults", "upgrades":[10,19,29,36,37]},
-			{"id":503, "name":"Sky Claw Assault Pack", "pts":200, "units":"6 Sky Claw Assaults", "upgrades":[10,29]},
+			{"id":501, "name":"Hunting Pack", "pts":250, "units":"Wolf Standard, 6 Grey Hunters, plus transport", "upgrades":[29,31,32,33,34,35,36,37,30]},
+			{"id":502, "name":"Blood Claw Assault Pack", "pts":225, "units":"6 Blood Claw Assaults", "upgrades":[10,19,29,36,37]},
+			{"id":503, "name":"Sky Claw Assault Pack", "pts":225, "units":"6 Sky Claw Assaults", "upgrades":[10,29]},
 			{"id":504, "name":"Swift Claw Bikes Pack", "pts":200, "units":"6 Swift Claw Assault Bikes", "upgrades":[10,29]}
 		]},
 		{"name":"SPACE WOLVES ELITE PACKS <br/> Max 1 Elite Pack for each Hunting Pack", "formations":[
-			{"id":511, "name":"Long Fang Pack", "pts":275, "units":"4 Long Fang Devastators plus transport", "upgrades":[29,31,32,33,34,35,36,37]},
-			{"id":512, "name":"Thunderwolf Cavalry", "pts":275, "units":"4 Thunderwolf Cavalry", "upgrades":[29]},
+			{"id":511, "name":"Long Fang Pack", "pts":250, "units":"4 Long Fang Devastators plus transport", "upgrades":[29,31,32,33,34,35,36,37,30]},
+			{"id":512, "name":"Thunderwolf Cavalry", "pts":250, "units":"4 Thunderwolf Cavalry", "upgrades":[29]},
 			{"id":513, "name":"Wolf Guard Terminator Pack", "pts":350, "units":"4 Wolf Guard Terminators plus transport", "upgrades":[36,37]},
-			{"id":514, "name":"Wolf Scout Pack", "pts":175, "units":"4 Wolf Scouts plus transport", "upgrades":[29]}
+			{"id":514, "name":"Wolf Scout Pack", "pts":175, "units":"4 Wolf Scouts plus transport", "upgrades":[10,29]}
 		]},
-		{"name":"SPACE WOLVES SUPPORT PACKS <br/> Max 2 Support Packs for each Hunting Pack", "formations":[
+		{"name":"SPACE WOLVES SUPPORT PACKS <br/> Max 1 Support Pack for each Core formation", "formations":[
 			{"id":521, "name":"Land Raiders", "pts":125, "upgrades":[33,31,32]},
 			{"id":522, "name":"Land Speeders", "pts":200, "upgrades":[]},
 			{"id":523, "name":"Predators", "pts":250, "upgrades":[31,32]},
@@ -26,8 +26,8 @@
 		{"name":"SPACE WOLVES NAVY AND COLLEGIA TITANICA ALLIES <br/> Max 33%", "formations":[
 			{"id":530, "name": "Orbital Support", "pts":0, "upgrades":[]},
 			{"id":531, "name": "Storm Talon Pack", "units":"2 Storm Talons", "pts":200, "upgrades":[]},
-			{"id":532, "name": "Stormwolf Assault Boat", "units":"1 Stormwolf Assault Boat", "pts":200, "upgrades":[]},
-			{"id":533, "name": "Stormfang Gunship", "units":"1 Stormfang Gunship", "pts":175, "upgrades":[]},
+			{"id":532, "name": "Stormwolf Assault Boat", "pts":225, "upgrades":[]},
+			{"id":533, "name": "Stormfang Gunship", "pts":175, "upgrades":[]},
 			{"id":534, "name": "Warhounds", "pts":75, "upgrades":[52]}
 		]}
 	],
@@ -40,12 +40,13 @@
 		{"id":21, "name":"Long Fang Devastators", "pts":25},
 		{"id":29, "name":"Fenrisian Wolves", "pts":25},
 
+		{"id":30, "name":"Leman Russ Exterminator", "pts":50},
 		{"id":31, "name":"Hunter", "pts":75},
 		{"id":32, "name":"Stalker", "pts":50},
 		{"id":33, "name":"Land Raider", "pts":50},
-		{"id":34, "name":"Razorback (Heavy Bolter)", "pts":25},
-		{"id":35, "name":"Razorback (Lascannon)", "pts":25},
-		{"id":36, "name":"Drednought", "pts":50},
+		{"id":34, "name":"Razorback (Twin Heavy Bolter)", "pts":25},
+		{"id":35, "name":"Razorback (Twin Lascannon)", "pts":25},
+		{"id":36, "name":"Dreadnought", "pts":50},
 		{"id":37, "name":"Wulfen Dreadnought", "pts":75},
 		{"id":38, "name":"Predator Annihilator", "pts":0},
 		{"id":39, "name":"Predator Destructor", "pts":0},
@@ -60,7 +61,7 @@
 	],
 	"formationConstraints":[
 		{"max":1, "name":"Elite Pack", "from":[511,512,513,514], "forEach":[501], "name2":"Hunting Pack"},
-		{"max":2, "name":"Support Pack", "from":[521,522,523,524,525], "forEach":[501], "name2":"Hunting Pack"},
+		{"max":1, "name":"Support Pack", "from":[521,522,523,524,525], "forEach":[501,502,503,504], "name2":"Core Formation"},
 		{"maxPercent": 33.5, "name":"Space Wolf Navy & Collegia Titanica Allies", "from":[530,531,532,527,533,534,535,536,528]},
 		{"max":1, "name":"spacecraft", "from":[530]}
 	],
@@ -69,12 +70,11 @@
 		{"max":1, "from":[19]},
 		{"max":1, "perArmy":true, "from":[11], "name":"supreme commander"},
 		{"max":1, "from":[31,32], "name":"anti-air"},
-		{"max":2, "from":[36,37], "name":"drednought"},
+		{"max":2, "from":[36,37], "name":"dreadnought"},
 		{"max":2, "from":[29], "name":"wolves"},
+		{"max":2, "from":[30], "name":"Exterminators"},
 
 		{"min":1, "max":1, "from":[10,11], "appliesTo": [501,511,512,513]},
-		{"min":1, "max":1, "from":[10], "appliesTo": [514]},
-		{"min":6, "max":6, "from":[20,21], "appliesTo": [501]},
 		{"max":2, "from":[21], "appliesTo": [501]},
 
 		{"min":3,"max":4,"from":[33], "appliesTo": [521]},
