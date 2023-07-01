@@ -42,7 +42,7 @@
 		{"id":21, "name":"4 Armoured Sentinels", "pts":25},
 		{"id":22, "name":"4 Support Sentinels", "pts":50},
 
-		{"id":31, "name":"4 Elysian Fire Support Squads", "pts":0},
+		{"id":31, "name":"4 Rapiers", "pts":0},
 		{"id":32, "name":"4 Elysian Mortar Squads", "pts":0},
 
 		{"id":35, "name":"Tauros Venator", "pts":25},
