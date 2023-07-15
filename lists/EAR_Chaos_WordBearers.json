@@ -26,7 +26,7 @@
 			{"id":514, "name":"Defilers", "pts":250, "units": "4 Defilers", "upgrades":[]}
 		]},
 		{"name":"WAR ENGINES & CHAOS NAVY FORMATIONS <br/> Max 33%", "formations":[
-			{"id":518, "name":"Dreadblade", "pts":275, "units": "Daemonic Pact", "upgrades":[]},
+			{"id":518, "name":"Dreadblade", "pts":250, "units": "Daemonic Pact", "upgrades":[]},
 			{"id":517, "name":"Decimator", "pts":225, "upgrades":[]},
 			{"id":511, "name":"Death Wheel",	"pts":300, "upgrades":[]},
             {"id":516, "name":"Heldrakes", "pts": 225, "units": "2 Heldrakes", "upgrades": []},
