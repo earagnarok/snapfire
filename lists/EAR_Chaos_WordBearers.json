@@ -14,8 +14,8 @@
 			{"id":501, "name":"Cultist Host", "pts":225, "units":"Word Bearers Coryphaus, Daemonic Pact", "upgrades":[14,21,17]}
 		]},
 		{"name":"WORD BEARERS ELITE FORMATIONS <br/> Max 1 for each Retinue", "formations":[
-			{"id":505, "name":"Iconoclasts",	"pts":225, "units":"Word Bearers Coryphaus, 4 Word Bearers Iconoclasts, Daemonic Pact", "upgrades":[14]},
-			{"id":507, "name":"Havocs",	"pts":225, "units":"Word Bearers Coryphaus, Daemonic Pact", "upgrades":[14]},
+			{"id":505, "name":"Iconoclasts",	"pts":225, "units":"Word Bearers Coryphaus, 4 Word Bearers Iconoclasts, Daemonic Pact", "upgrades":[14,46]},
+			{"id":507, "name":"Havocs",	"pts":225, "units":"Word Bearers Coryphaus, Daemonic Pact", "upgrades":[14,45,46]},
 			{"id":504, "name":"Armoured Company",	"pts":200, "upgrades":[45]},
 			{"id":502, "name":"The Anointed", "pts":400, "units":"Word Bearers Coryphaus, Daemonic Pact", "upgrades":[11,12,45,46,14]}
 		]},
@@ -50,14 +50,14 @@
 
 		{"id":22, "name":"6 Chaos Space Marines", 		"pts":0},
 		{"id":23, "name":"4 Chaos Space Marines, 2 Havocs", "pts":25},
-		{"id":24, "name":"4 Chaos Space Marines, 2 Word Bearers Possessed", "pts":25},
-		{"id":25, "name":"2 Chaos Space Marines, 2 Havocs, 2 Word Bearers Possessed", "pts":50},
+		{"id":24, "name":"4 Chaos Space Marines, 2 Daemonkin", "pts":25},
+		{"id":25, "name":"2 Chaos Space Marines, 2 Havocs, 2 Daemonkin", "pts":50},
 
 		{"id":26, "name":"4 Havocs", "pts":0},
-		{"id":27, "name":"2 Havocs, 2 Word Bearers Possessed", "pts":0},
+		{"id":27, "name":"2 Havocs, 2 Daemonkin", "pts":0},
 
 		{"id":29, "name":"3 Chaos Terminators", "pts":0},
-		{"id":30, "name":"2 Chaos Terminators, 2 Word Bearers Possessed", "pts":0},
+		{"id":30, "name":"2 Chaos Terminators, 2 Daemonkin", "pts":0},
 
 		{"id":32, "name":"3 Chaos Land Raiders", 	"pts":0},
 		{"id":33, "name":"3 Chaos Dreadnoughts", 	"pts":0},
@@ -73,7 +73,8 @@
 		{"id":47, "name":"Chaos Dreadnought", "pts":50},
 
 		{"id":51, "name":"4 Chaos Predators", 	"pts":0},
-		{"id":52, "name":"4 Chaos Land Raiders", 	"pts":75},
+		{"id":52, "name":"4 Chaos Vindicators", 	"pts":0},
+		{"id":53, "name":"4 Chaos Land Raiders", 	"pts":75},
 
 		{"id":71, "name":"Greater Daemon Pool point", "pts":50},
 		{"id":72, "name":"Lesser Daemon Pool point", "pts":20},
@@ -109,7 +110,7 @@
 		{"min":1, "max":1, "from":[29,30], "appliesTo":[502]},
 		{"min":1, "max":1, "from":[32,33], "appliesTo":[502]},
 
-		{"min":1, "max":1, "from":[51,52], "appliesTo":[504]},
+		{"min":1, "max":1, "from":[51,52,53], "appliesTo":[504]},
 
 		{"min":1, "max":1, "from":[26,27], "appliesTo":[507]},
 		{"min":1, "max":1, "from":[37,38,39], "appliesTo":[507]},
