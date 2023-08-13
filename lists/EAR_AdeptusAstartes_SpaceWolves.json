@@ -10,7 +10,7 @@
 			{"id":503, "name":"Sky Claw Assault Pack", "pts":225, "units":"6 Sky Claw Assaults", "upgrades":[10,29]},
 			{"id":504, "name":"Swift Claw Bikes Pack", "pts":200, "units":"6 Swift Claw Assault Bikes", "upgrades":[10,29]}
 		]},
-		{"name":"SPACE WOLVES ELITE PACKS <br/> Max 1 Elite Pack for each Hunting Pack", "formations":[
+		{"name":"SPACE WOLVES ELITE PACKS <br/> You may not have more Elite Packs of any one type than you have Hunting Packs", "formations":[
 			{"id":511, "name":"Long Fang Pack", "pts":250, "units":"4 Long Fang Devastators plus transport", "upgrades":[29,31,32,33,34,35,36,37,30]},
 			{"id":512, "name":"Thunderwolf Cavalry", "pts":250, "units":"4 Thunderwolf Cavalry", "upgrades":[29]},
 			{"id":513, "name":"Wolf Guard Terminator Pack", "pts":350, "units":"4 Wolf Guard Terminators plus transport", "upgrades":[36,37]},
@@ -60,7 +60,10 @@
 		{"id":52, "name":"Warhound Titan", "pts":200}
 	],
 	"formationConstraints":[
-		{"max":1, "name":"Elite Pack", "from":[511,512,513,514], "forEach":[501], "name2":"Hunting Pack"},
+		{"max":1, "name":"Long Fang Pack", "from":[511], "forEach":[501], "name2":"Hunting Pack"},
+		{"max":1, "name":"Thunderwolf Cavalry", "from":[512], "forEach":[501], "name2":"Hunting Pack"},
+		{"max":1, "name":"Wolf Guard Terminator Pack", "from":[513], "forEach":[501], "name2":"Hunting Pack"},
+		{"max":1, "name":"Wolf Scout Pack", "from":[514], "forEach":[501], "name2":"Hunting Pack"},
 		{"max":1, "name":"Support Pack", "from":[521,522,523,524,525], "forEach":[501,502,503,504], "name2":"Core Formation"},
 		{"maxPercent": 33.5, "name":"Space Wolf Navy & Collegia Titanica Allies", "from":[530,531,532,527,533,534,535,536,528]},
 		{"max":1, "name":"spacecraft", "from":[530]}
