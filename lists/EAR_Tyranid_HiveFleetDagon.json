@@ -1,6 +1,6 @@
 {
     "id":"<a href=\"../list-view/?content=intro\">EA-R</a> Hive Fleet Dagon",
-	"version":"Approved 1.0.Beta <a href=\"../list-view/?content=list&race=NID&list=dagon\">Listview</a>",
+	"version":"Approved 1.0.Beta-2 <a href=\"../list-view/?content=list&race=NID&list=dagon\">Listview</a>",
 	"by":"EA-Ragnarok",
   "sections": [
     {
@@ -103,7 +103,7 @@
     {"id": 107,"name": "Bio-Flyer (3 Hive Crones)","pts": 100},
     {"id": 108,"name": "Biovores (4 Biovores)","pts": 75},
     {"id": 109,"name": "Gargoyles (4 Gargoyles)","pts": 75},
-    {"id": 111,"name": "Bio-Support (3 Dactylis)","pts": 150},
+    {"id": 111,"name": "Bio-Support (3 Dactylis)","pts": 125},
     {"id": 112,"name": "Bio-Attack (2 Exocrines)","pts": 75},
     {"id": 113,"name": "Bio-Attack (2 Haruspex)","pts": 75},
     {"id": 114,"name": "Bio-Attack (2 Malefactors)","pts": 75},
