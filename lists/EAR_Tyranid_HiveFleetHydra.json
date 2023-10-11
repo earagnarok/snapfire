@@ -93,7 +93,7 @@
           "id": 511,
           "name": "Swarm Pool",
           "pts": 0,
-          "upgrades": [130,131,132,133]
+          "upgrades": [130]
         }
       ]
     }
@@ -124,10 +124,7 @@
     {"id": 125, "name": "Razorfiend", "pts": 150},
     {"id": 126, "name": "Hive Ship", "pts": 150},
 
-    {"id": 130, "name": "Barbgaunt", "pts": 10},
-    {"id": 131, "name": "Gargoyle", "pts": 10},
-    {"id": 132, "name": "Hormagaunt", "pts": 10},
-    {"id": 133, "name": "Termagant", "pts": 10},
+    {"id": 130, "name": "Gaunt", "pts": 10},
 
     {"id": 150, "name": "Gaunts (5 Termagants)", "pts": 75 },
     {"id": 151, "name": "Gaunts (5 Hormagaunts)", "pts": 75},
