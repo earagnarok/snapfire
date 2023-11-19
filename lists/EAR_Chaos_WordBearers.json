@@ -10,14 +10,14 @@
 			{"id":666, "name":"Daemon Pool", "pts":0, "upgrades":[71,72,73]}
 		]},
 		{"name":"WORD BEARERS CORE FORMATIONS <br/> Max 2 Cultist Hosts for each Retinue", "formations":[
-			{"id":500, "name":"Word Bearers Retinue", "pts":300, "units":"Word Bearers Coryphaus, Daemonic Pact", "upgrades":[11,12,14,40,41,45,46,47]},
+			{"id":500, "name":"Word Bearers Retinue", "pts":275, "units":"Word Bearers Coryphaus, Daemonic Pact", "upgrades":[11,12,14,40,41,45,46,47]},
 			{"id":501, "name":"Cultist Host", "pts":225, "units":"Word Bearers Coryphaus, Daemonic Pact", "upgrades":[14,21,17]}
 		]},
 		{"name":"WORD BEARERS ELITE FORMATIONS <br/> Max 1 for each Retinue", "formations":[
 			{"id":505, "name":"Iconoclasts",	"pts":225, "units":"Word Bearers Coryphaus, 4 Word Bearers Iconoclasts, Daemonic Pact", "upgrades":[14,46]},
 			{"id":507, "name":"Havocs",	"pts":225, "units":"Word Bearers Coryphaus, Daemonic Pact", "upgrades":[14,45,46]},
 			{"id":504, "name":"Armoured Company",	"pts":200, "upgrades":[45]},
-			{"id":502, "name":"The Anointed", "pts":400, "units":"Word Bearers Coryphaus, Daemonic Pact", "upgrades":[11,12,45,46,14]}
+			{"id":502, "name":"The Anointed", "pts":375, "units":"Word Bearers Coryphaus, Daemonic Pact", "upgrades":[11,12,45,46,14]}
 		]},
 		{"name":"DAEMON ENGINE FORMATIONS <br/> Max 1 for each Cultist Host", "formations":[
 		    {"id":512, "name":"Cerberites", "pts": 200, "units": "3 Cerberites", "upgrades": []},
