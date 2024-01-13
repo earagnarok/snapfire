@@ -20,7 +20,7 @@
         {"id":526, "name":"Colossal Carnosaur", "pts":375, "upgrades":[], "units": "One Colossal Carnosaur"}
       ]},
       {"name":"Eldar Knight & Corsairs Support<br/> Max 33%", "formations":[
-        {"id":533, "name":"Corsairs Raiding Party", "pts":150, "upgrades":[52,53,54,55], "units": "Felarch"},
+        {"id":533, "name":"Corsairs Raiding Party", "pts":150, "upgrades":[52,53,54,55], "units": "Felarch, 4 Corsair Warriors"},
         {"id":534, "name":"Corsairs Fire Support", "pts":200, "upgrades":[], "units": "4 Wasp Walkers"},
         {"id":532, "name":"Corsairs Vampire", "pts":200, "upgrades":[], "units": "One Corsair Vampire Raider"},
         {"id":535, "name":"Exodite Knights", "pts":0, "upgrades":[]}
@@ -92,7 +92,6 @@
       {"max":3, "min":1, "from":[40], "appliesTo":[525]},
       {"max":3, "min":2, "from":[50], "appliesTo":[531]},
 
-      {"max":4, "min":4, "from":[51], "appliesTo":[533]},
       {"max":2, "from":[52], "appliesTo":[533]},
       {"max":2, "from":[53], "appliesTo":[533]},
       {"max":2, "from":[54], "appliesTo":[533]},
