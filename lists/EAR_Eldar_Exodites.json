@@ -11,7 +11,7 @@
 			{"id":510, "name":"Dragon Knight Warhost", "pts":300, "upgrades":[3]},
 			{"id":511, "name":"Wind Knight Warhost", "pts":300, "upgrades":[3]}
 		]},
-      {"name":"Troupes", "formations":[
+      {"name":"Troupes <br/> Max 3 for each Warhost", "formations":[
         {"id":521, "name":"Outrider Troupe", "pts":125, "upgrades":[], "units": "4 Dragon Outriders"},
         {"id":522, "name":"Skyward Dragon Troupe", "pts":200, "upgrades":[]},
         {"id":523, "name":"Exodite Militia Troupe", "pts":175, "upgrades":[33], "units": "Worldsinger"},
@@ -23,7 +23,7 @@
         {"id":533, "name":"Corsairs Raiding Party", "pts":150, "upgrades":[52,53,54,55], "units": "Felarch"},
         {"id":534, "name":"Corsairs Fire Support", "pts":200, "upgrades":[], "units": "4 Wasp Walkers"},
         {"id":532, "name":"Corsairs Vampire", "pts":200, "upgrades":[], "units": "One Corsair Vampire Raider"},
-        {"id":535, "name":"Exodite Knights", "pts":75, "upgrades":[60,61,62]}
+        {"id":535, "name":"Exodite Knights", "pts":0, "upgrades":[]}
       ]}
 	],
 	"upgrades":[
@@ -57,12 +57,17 @@
       {"id":54, "name":"Corsair Wasp Walker", "pts":25},
       {"id":55, "name":"Corsair Venom", "pts":25},
 
-      {"id":60, "name":"Bright Stallion Knight", "pts":100},
-      {"id":61, "name":"Fire Gale Knight", "pts":100},
-      {"id":62, "name":"Towering Destroyer Knight", "pts":100}
+      {"id":60, "name":"2 Bright Stallion Knights", "pts":275},
+      {"id":61, "name":"3 Bright Stallion Knights", "pts":375},
+      {"id":62, "name":"2 Fire Gale Knights", "pts":275},
+      {"id":63, "name":"3 Fire Gale Knights", "pts":375},
+      {"id":64, "name":"2 Towering Destroyer Knights", "pts":275},
+      {"id":65, "name":"3 Towering Destroyer Knights", "pts":375}    
+     
+      
     ],
 	"formationConstraints":[
-		{"max":2, "name":"Troupes", "from":[521,522,523,524,525,526], "forEach":[510,511], "name2":"Warhost"},
+		{"max":3, "name":"Troupes", "from":[521,522,523,524,525,526], "forEach":[510,511], "name2":"Warhost"},
 		{"max":1, "name":"Corsairs Fire Support", "from":[534], "forEach":[533], "name2":"Corsair Raiding Party"},
 		{"max":1, "name":"Corsairs Vampire", "from":[532], "forEach":[533], "name2":"Corsair Raiding Party"},
 		{"max":1, "from":[502]},
@@ -92,6 +97,6 @@
       {"max":2, "from":[53], "appliesTo":[533]},
       {"max":2, "from":[54], "appliesTo":[533]},
 
-      {"max":3, "min": 2, "from":[60,61,62], "appliesTo":[535]}
+      {"max":1, "min": 1, "from":[60,61,62,63,64,65], "appliesTo":[535]}
     ]
 }
