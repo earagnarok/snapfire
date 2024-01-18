@@ -101,7 +101,7 @@
     {"id": 105, "name": "Gargoyles (4 Gargoyles)", "pts": 50},
     {"id": 106, "name": "Bio-Attack (2 Exocrines)", "pts": 75},
     {"id": 107, "name": "Bio-Attack (2 Malefactors)", "pts": 75},
-    {"id": 108, "name": "Nest-Guard (3 Hive Guard)", "pts": 75},
+    {"id": 108, "name": "Nest-Guard (2 Hive Guard)", "pts": 50},
     {"id": 109, "name": "Bio-Flyers (3 Harpies)", "pts": 100},
     {"id": 110, "name": "Bio-Flyers (3 Hive Crones)", "pts": 100},
     {"id": 111, "name": "Bio-Support (3 Dactylis)", "pts": 150},
