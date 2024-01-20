@@ -1,6 +1,6 @@
 {
     "id":"<a href=\"../list-view/?content=intro\">EA-R</a> Hive Fleet Dagon",
-	"version":"Approved 1.0.Beta-2 <a href=\"../list-view/?content=list&race=NID&list=dagon\">Listview</a>",
+	"version":"Approved 1.0.Beta-3 <a href=\"../list-view/?content=list&race=NID&list=dagon\">Listview</a>",
 	"by":"EA-Ragnarok",
   "sections": [
     {
@@ -22,7 +22,7 @@
         {
           "id": 503,
           "name": "Assault Swarm (1-2 Instinctive Swarms)",
-          "pts": 125,
+          "pts": 100,
           "upgrades": [100,101,102,106,107,108,109,121,122,111,112,113,114,115,116,117,118,120]
         }
       ]
@@ -93,14 +93,14 @@
     }
   ],
   "upgrades": [
-    {"id": 100,"name": "Gaunts (5 Termagants)","pts": 50},
-    {"id": 101,"name": "Gaunts (5 Barbgaunts)","pts": 50},
-    {"id": 102,"name": "Gaunts (5 Hormagaunts)","pts": 50},
+    {"id": 100,"name": "Gaunts (5 Termagants)","pts": 75},
+    {"id": 101,"name": "Gaunts (5 Barbgaunts)","pts": 75},
+    {"id": 102,"name": "Gaunts (5 Hormagaunts)","pts": 75},
     {"id": 106,"name": "Bio-Flyer (3 Harpies)","pts": 100},
     {"id": 107,"name": "Bio-Flyer (3 Hive Crones)","pts": 100},
     {"id": 108,"name": "Biovores (4 Biovores)","pts": 75},
-    {"id": 109,"name": "Gargoyles (4 Gargoyles)","pts": 50},
-    {"id": 111,"name": "Bio-Support (3 Dactylis)","pts": 150},
+    {"id": 109,"name": "Gargoyles (4 Gargoyles)","pts": 75},
+    {"id": 111,"name": "Bio-Support (3 Dactylis)","pts": 125},
     {"id": 112,"name": "Bio-Attack (2 Exocrines)","pts": 75},
     {"id": 113,"name": "Bio-Attack (2 Haruspex)","pts": 75},
     {"id": 114,"name": "Bio-Attack (2 Malefactors)","pts": 75},
@@ -109,8 +109,8 @@
     {"id": 117,"name": "Burrower (2 Trygons)","pts": 100},
 	{"id": 118,"name": "Burrower (5 Raveners)","pts": 100},
     {"id": 120,"name": "Mycetic Spore <br/> May carry units chosen from Termagants, Hormagaunts, Biovores, Carnifex, Raveners, Hive Tyrant, Dagon Overlord, Tyranid Warriors, Zoanthropes. No Shrikes of any type may be taken.","pts": 50},
-    {"id": 121,"name": "Carnifex (3 Barbed Carnifex)",      "pts": 125    },
-    {"id": 122,"name": "Carnifex (3 Screamer-Killer Carnifex)",      "pts": 125    },
+    {"id": 121,"name": "Carnifex (2 Barbed Carnifex)",      "pts": 75},
+    {"id": 122,"name": "Carnifex (2 Screamer-Killer Carnifex)",      "pts": 75},
     {"id": 130,"name": "Harridan","pts": 150},
     {"id": 140,"name": "Genestealers","pts": 25},
     {"id": 141,"name": "Broodlord","pts": 25},
@@ -119,15 +119,15 @@
     {"id": 161,"name": "Hydraphant","pts": 425},
     {"id": 170,"name": "Razorfiend (May carry 2 Mycetic Spores including cargo)","pts": 150},
     {"id": 171,"name": "Hive Ship (May carry 3 Mycetic Spores including cargo)","pts": 150},
-    {"id": 179,"name": "Gaunts (5 Termagants)","pts": 50},
-    {"id": 180,"name": "Gaunts (5 Barbgaunts)","pts": 50},
-    {"id": 181,"name": "Gaunts (5 Hormagaunts)","pts": 50},
+    {"id": 179,"name": "Gaunts (5 Termagants)","pts": 75},
+    {"id": 180,"name": "Gaunts (5 Barbgaunts)","pts": 75},
+    {"id": 181,"name": "Gaunts (5 Hormagaunts)","pts": 75},
 	{"id": 185,"name": "Biovores (4 Biovores)","pts": 75},
-    {"id": 186,"name": "Gargoyles (4 Gargoyles)","pts": 50},
+    {"id": 186,"name": "Gargoyles (4 Gargoyles)","pts": 75},
 
-    {"id": 200,"name": "Tyranid Warriors","pts": 0},
-    {"id": 201,"name": "Tyranid Warrior Shrikes","pts": 0},
-    {"id": 202,"name": "Zoanthrope","pts": 0},
+    {"id": 200,"name": "2 Tyranid Warriors","pts": 0},
+    {"id": 201,"name": "2 Tyranid Warrior Shrikes","pts": 0},
+    {"id": 202,"name": "2 Zoanthropes","pts": 25},
 
 	{"id": 209,"name": "Barbed Hierodule","pts": 0},
 	{"id": 210,"name": "Scythed Hierodule","pts": 0},
@@ -139,7 +139,7 @@
 	{"id": 218,"name": "Hive Nest","pts": 125},
 
     {"id": 240,"name": "Hive Tyrant","pts": 0},
-    {"id": 241,"name": "Hive Tyrant Shrike","pts": 0},
+    {"id": 241,"name": "Hive Tyrant Shrike","pts": 25},
     {"id": 242,"name": "Dagon Overlord","pts": 75},
 	{"id": 243,"name": "Dagon Overlord Shrike","pts": 75}
   ],
@@ -163,7 +163,7 @@
 	{"min": 1,"max": 4,"from": [100,101,102,106,107,108,109,121,122,111,112,113,114,115,116,117,118],"appliesTo": [501]},
     {"max": 1,"min": 1,"from": [240,241,242,243],"appliesTo": [502]},
     {"max": 4,"min": 2,"from": [100,101,102,106,107,108,109,121,122,111,112,113,114,115,116,117,118,120],"appliesTo": [502]},
-    {"max": 2,"min": 2,"from": [200,201,202],"appliesTo": [503]},
+    {"max": 1,"min": 1,"from": [200,201,202],"appliesTo": [503]},
     {"max": 1,"min": 0,"from": [100,101,102,106,107,108,109,121,122,111,112,113,114,115,116,117,118,120],"appliesTo": [503]},
 	{"max": 1,"min": 1,"from": [179,180,181,185,186],"appliesTo": [503]},
 	{"max": 2,"min": 1,"from": [100,101,102,103,104,105,108,109],"appliesTo": [512]},
