@@ -52,7 +52,7 @@
         {
           "id": 505,
           "name": "Harasser Swarm (1-2 Instinctive Swarms)",
-          "pts": 25,
+          "pts": 75,
           "upgrades": [130,109,106,107]
         }
       ]
@@ -96,22 +96,22 @@
     {"id": 100,"name": "Gaunts (5 Termagants)","pts": 75},
     {"id": 101,"name": "Gaunts (5 Barbgaunts)","pts": 75},
     {"id": 102,"name": "Gaunts (5 Hormagaunts)","pts": 75},
-    {"id": 106,"name": "Bio-Flyer (3 Harpies)","pts": 100},
-    {"id": 107,"name": "Bio-Flyer (3 Hive Crones)","pts": 100},
     {"id": 108,"name": "Biovores (4 Biovores)","pts": 75},
     {"id": 109,"name": "Gargoyles (4 Gargoyles)","pts": 75},
-    {"id": 111,"name": "Bio-Support (3 Dactylis)","pts": 125},
     {"id": 112,"name": "Bio-Attack (2 Exocrines)","pts": 75},
     {"id": 113,"name": "Bio-Attack (2 Haruspex)","pts": 75},
     {"id": 114,"name": "Bio-Attack (2 Malefactors)","pts": 75},
+    {"id": 121,"name": "Carnifex (2 Barbed Carnifex)", "pts": 75},
+    {"id": 122,"name": "Carnifex (2 Screamer-Killer Carnifex)", "pts": 75},
+    {"id": 106,"name": "Bio-Flyer (3 Harpies)","pts": 100},
+    {"id": 107,"name": "Bio-Flyer (3 Hive Crones)","pts": 100},
+    {"id": 111,"name": "Bio-Support (3 Dactylis)","pts": 125},
     {"id": 115,"name": "Breacher (Barbed Hierodule)","pts": 125},
     {"id": 116,"name": "Breacher (Scythed Hierodule)","pts": 125},
     {"id": 117,"name": "Burrower (2 Trygons)","pts": 100},
-	{"id": 118,"name": "Burrower (5 Raveners)","pts": 100},
+    {"id": 118,"name": "Burrower (5 Raveners)","pts": 100},
     {"id": 120,"name": "Mycetic Spore <br/> May carry units chosen from Termagants, Hormagaunts, Biovores, Carnifex, Raveners, Hive Tyrant, Dagon Overlord, Tyranid Warriors, Zoanthropes. No Shrikes of any type may be taken.","pts": 50},
-    {"id": 121,"name": "Carnifex (2 Barbed Carnifex)",      "pts": 75},
-    {"id": 122,"name": "Carnifex (2 Screamer-Killer Carnifex)",      "pts": 75},
-    {"id": 130,"name": "Harridan","pts": 150},
+    {"id": 130,"name": "Harridan","pts": 100},
     {"id": 140,"name": "Genestealers","pts": 25},
     {"id": 141,"name": "Broodlord","pts": 25},
     {"id": 142,"name": "Lictor","pts": 25},
@@ -139,7 +139,7 @@
 	{"id": 218,"name": "Hive Nest","pts": 125},
 
     {"id": 240,"name": "Hive Tyrant","pts": 0},
-    {"id": 241,"name": "Hive Tyrant Shrike","pts": 25},
+    {"id": 241,"name": "Hive Tyrant Shrike","pts": 0},
     {"id": 242,"name": "Dagon Overlord","pts": 75},
 	{"id": 243,"name": "Dagon Overlord Shrike","pts": 75}
   ],
