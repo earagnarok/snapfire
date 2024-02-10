@@ -56,7 +56,7 @@
 	],
 	"formationConstraints":[
 		{"max":1, "from": [505], "name":"Orbital Support", "perArmy": true},
-		{"max":1, "name": "Imperial Guard", "from":[601,602,603,604,605], "forEach":[501,502,503,504,505,506,507], "name2":"Deathwatch Detachment"},
+		{"max":1, "name": "Imperial Guard", "from":[601,602,603,604,605], "forEach":[501,502,503,504,505,506,507,508], "name2":"Deathwatch Detachment"},
 		{"maxPercent": 34, "name": "Imperial Ally and Deathwatch Aircraft Formations", "from": [701,702,703,704,705,706]}
 	],
 	"upgradeConstraints":[
