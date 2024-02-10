@@ -1,0 +1,76 @@
+{
+	"id":"ORDO XENOS INQUISITION",
+	"version":"2023-07-05",
+	"sections":[
+		{"name":"DEATHWATCH DETACHMENTS", "formations":[
+			{"id":501, "name":"Assault", "pts":225, "upgrades":[1,2,3,4,10], "units": "4 Deathwatch Assaults"},
+			{"id":502, "name":"Bikes", "pts":225, "upgrades":[1,2,3,4,10], "units": "4 Deathwatch Bikes"},
+			{"id":503, "name":"Land Speeders", "pts":200, "upgrades":[1,2,3,4]},
+			{"id":504, "name":"Landing Craft", "pts":350, "upgrades":[]},
+			{"id":505, "name":"Orbital Support", "pts":0, "upgrades":[]},
+			{"id":506, "name":"Scouts", "pts":250, "upgrades":[1,2,3,4,10,13,14], "units": "4 Deathwatch Scouts plus transport"},
+			{"id":507, "name":"Terminators", "pts":350, "upgrades":[1,2,3,4,10,15,16], "units": "4 Deathwatch Terminators"},
+			{"id":508, "name":"Veterans", "pts":225, "upgrades":[1,2,3,4,10,15,13,14,16], "units": "4 Deathwatch Veterans plus transport"}
+		]},
+		{"name":"INDUCTED IMPERIAL GUARD AND INQUISITORIAL SUPPORT FORMATIONS <br/> Max 1 for each Deathwatch detachment", "formations":[
+			{"id":601, "name":"Infantry", "pts":250, "upgrades":[32,42,41], "units": "12 Infantry units"},
+			{"id":602, "name":"Rough Riders", "pts":150, "upgrades":[32], "units": "6 Rough Riders"},
+			{"id":603, "name":"Sentinels", "pts":100, "upgrades":[32], "units": "4 Sentinels"},
+			{"id":604, "name":"Storm Troopers", "pts":200, "upgrades":[32], "units": "8 Storm Troopers"},
+			{"id":605, "name":"Leman Russ", "pts":400, "upgrades":[32,42], "units": "6 Leman Russ"}
+		]},
+		{"name":"IMPERIAL ALLY AND DEATHWATCH AIRCRAFT FORMATIONS <br/> Up to a third of the points available may be spent on these formations.", "formations":[
+			{"id":701, "name":"Marauder Bombers", "pts":250, "units":"2 Marauder Bombers"},
+			{"id":702, "name":"Thunderbolt Fighters", "pts":175, "units":"2 Thunderbolt Fighters"},
+			{"id":703, "name":"Thunderhawk", "pts":200, "units":"1 Thunderhawk Gunship"},
+			{"id":704, "name":"Reaver", "pts":650, "units":"Reaver Titan"},
+			{"id":705, "name":"Warhounds", "pts":50, "upgrades": [50]},
+			{"id":706, "name":"Warlord", "pts":850, "units":"Warlord Titan"}
+		]}
+	],
+	"upgrades":[
+		{"id":1, "name":"Supreme Commander", "pts":100},
+		{"id":2, "name":"Captain", "pts":50},
+		{"id":3, "name":"Chaplain", "pts":50},
+		{"id":4, "name":"Librarian", "pts":50},
+		{"id":10, "name":"Corvus Blackstar", "pts":50},
+		{"id":11, "name":"Land Speeder Tornado", "pts":0},
+		{"id":12, "name":"Land Speeder Typhoon", "pts":10},
+		{"id":13, "name":"Razorback (Lascannon)", "pts":25},
+		{"id":14, "name":"Razorback (Heavy Bolter)", "pts":25},
+		{"id":15, "name":"Venerable Dreadnought", "pts":75},
+		{"id":16, "name":"Land Raider", "pts":[75,50]},
+		{"id":20, "name":"Strike Cruiser", "pts":200},
+		{"id":21, "name":"Battle Barge", "pts":350},
+
+		{"id":30, "name":"Ordo Xenox Inquisitor", "pts":0},
+		{"id":31, "name":"Ordo Xenox Inquisitor w. Lord", "pts":50},
+		{"id":32, "name":"Commisar", "pts":25},
+		{"id":41, "name":"7 Chimeras", "pts":150},
+		{"id":42, "name":"Hydra", "pts":50},
+		{"id":43, "name":"4 Rhinos", "pts":0},
+		{"id":44, "name":"4 Chimeras", "pts":100},
+		{"id":45, "name":"4 Valkyries", "pts":150},
+
+		{"id":50, "name":"Warhound Titan", "pts":225}
+	],
+	"formationConstraints":[
+		{"max":1, "from": [505], "name":"Orbital Support", "perArmy": true},
+		{"max":1, "name": "Imperial Guard", "from":[601,602,603,604,605], "forEach":[501,502,503,504,505,506,507], "name2":"Deathwatch Detachment"},
+		{"maxPercent": 34, "name": "Imperial Ally and Deathwatch Aircraft Formations", "from": [701,702,703,704,705,706]}
+	],
+	"upgradeConstraints":[
+		{"max":1, "perArmy":true, "from":[1]},
+		{"max":1, "perArmy":true, "from":[31]},
+    	{"max":1, "from":[1,2,3,4]},
+    	{"max":2, "from":[15]},
+    	{"max":1, "from":[32]},
+    	{"max":1, "from":[41]},
+    	{"max":1, "from":[42]},
+    	{"max":5, "min": 5, "from":[11,12], "appliesTo": [503]},
+    	{"max":1, "min": 1, "from":[20,21], "appliesTo": [505]},
+    	{"max":1, "min": 1, "from":[30,31], "appliesTo": [601,604]},
+    	{"max":1, "min": 1, "from":[43,44,45], "appliesTo": [604]},
+    	{"max":2, "min": 1, "from":[50], "appliesTo": [705]}
+	]
+}
