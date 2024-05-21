@@ -51,7 +51,7 @@
         },
         {
           "id": 505,
-          "name": "Harasser Swarm (1-2 Instinctive Swarms)",
+          "name": "Harasser Swarm (0-2 Instinctive Swarms)",
           "pts": 75,
           "upgrades": [130,109,106,107]
         }
@@ -63,7 +63,7 @@
           {"id": 506,
             "name": "Genestealer Swarm",
             "units": "Broodlord",
-            "pts": 50,
+            "pts": 25,
             "upgrades": [140]},
     {
           "id": 507,
@@ -134,8 +134,8 @@
 
 	{"id": 214,"name": "Trygon Prime","pts": 150},
 	{"id": 215,"name": "3 Ravener Alphas","pts": 150},
-	{"id": 216,"name": "Barbed Hierodule Prime","pts": 150},
-	{"id": 217,"name": "Scythed Hierodule Prime","pts": 150},
+	{"id": 216,"name": "Barbed Hierodule Prime","pts": 125},
+	{"id": 217,"name": "Scythed Hierodule Prime","pts": 125},
 	{"id": 218,"name": "Hive Nest","pts": 125},
 
     {"id": 240,"name": "Hive Tyrant","pts": 0},
@@ -162,17 +162,17 @@
 	{"max": 1,"perArmy": true,"from": [300,301]},
 	{"min": 1,"max": 4,"from": [100,101,102,106,107,108,109,121,122,111,112,113,114,115,116,117,118],"appliesTo": [501]},
     {"max": 1,"min": 1,"from": [240,241,242,243],"appliesTo": [502]},
-    {"max": 4,"min": 2,"from": [100,101,102,106,107,108,109,121,122,111,112,113,114,115,116,117,118,120],"appliesTo": [502]},
+    {"max": 4,"min": 2,"from": [100,101,102,106,107,108,109,121,122,111,112,113,114,115,116,117,118],"appliesTo": [502]},
     {"max": 1,"min": 1,"from": [200,201,202],"appliesTo": [503]},
-    {"max": 1,"min": 0,"from": [100,101,102,106,107,108,109,121,122,111,112,113,114,115,116,117,118,120],"appliesTo": [503]},
+    {"max": 1,"min": 0,"from": [100,101,102,106,107,108,109,121,122,111,112,113,114,115,116,117,118],"appliesTo": [503]},
 	{"max": 1,"min": 1,"from": [179,180,181,185,186],"appliesTo": [503]},
 	{"max": 2,"min": 1,"from": [100,101,102,108,109,111],"appliesTo": [512]},
 	{"max": 1,"min": 1,"from": [216,217],"appliesTo": [509]},
-	{"max": 2,"min": 1,"from": [100,101,102,109,117,118,121,122,113,114],"appliesTo": [509]},
+	{"max": 2,"min": 1,"from": [100,101,102,109,117,118,121,122,112,113,114],"appliesTo": [509]},
 	{"max": 1,"min": 1,"from": [215,214],"appliesTo": [504]},
     {"max": 2,"min": 1,"from": [118,117],"appliesTo": [504]},
     {"max": 2,"min": 1,"from": [130],"appliesTo": [505]},
-    {"max": 2,"min": 1,"from": [109,106,107],"appliesTo": [505]},
+    {"max": 2,"min": 0,"from": [109,106,107],"appliesTo": [505]},
     {"max": 9,"min": 6,"from": [140],"appliesTo": [506]},
     {"max": 1,"min": 1,"from": [160,161],"appliesTo": [510]},
     {"max": 1,"min": 1,"from": [170,171],"appliesTo": [511]}

@@ -6,7 +6,7 @@
 		{"name":"MINERVAN COMPANIES", "formations":[
 			{"id":500, "name":"Minervan Tank Company", 			"pts":500, "upgrades":[42,17]},
 			{"id":501, "name":"Minervan Super-Heavy Company", 	"pts":500, "upgrades":[42, 43,44,45,46,47,48,49]},
-			{"id":503, "name":"Artillery Company", 				"pts":400, "units":"Commissar-Captain", "upgrades":[42]}
+			{"id":503, "name":"Artillery Company", 				"pts":400, "upgrades":[42]}
 		]},
 		{"name":"MINERVAN SUPPORT FORMATIONS <br/> Max 3 for each Company", "formations":[
 			{"id":512, "name":"Leman Russ Squadron", 					"pts":275, "upgrades":[17, 42]},
@@ -116,6 +116,7 @@
    		{"min":1, "max":1, "from":[13,14], "appliesTo":[501]},
    		{"min":3, "max":3, "from":[60,61,62,63,64], "appliesTo":[501]},
 
+		{"min":1, "max":1, "from":[13,14], "appliesTo":[503]},
    		{"min":1, "max":1, "from":[54,55], "appliesTo":[503]},
 		{"max":2, "from":[25], "appliesTo":[503]},
 

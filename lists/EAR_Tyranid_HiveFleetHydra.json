@@ -38,7 +38,7 @@
         },
         {
           "id": 505,
-          "name": "Harridan Spawn Swarm (1-2 Instinctive Swarms)",
+          "name": "Harridan Spawn Swarm (0-2 Instinctive Swarms)",
           "pts": 75,
           "upgrades": [208,105,109,110]
         },
@@ -58,7 +58,7 @@
           "id": 507,
           "name": "Genestealer Swarm",
           "units": "Broodlord",
-          "pts": 50,
+          "pts": 25,
           "upgrades": [120]
         },
         {
@@ -161,7 +161,7 @@
     {"min": 0, "max": 1, "name": "Instinctive Swarms", "from": [100,101,102,103,104,105,106,107,109,110,111,112,113,114],"appliesTo": [504]},
 
     {"min": 1, "max": 2, "name": "Harridan", "from": [208],"appliesTo": [505]},
-    {"min": 1, "max": 2, "name": "Instinctive Swarms", "from": [105,109,110],"appliesTo": [505]},
+    {"min": 0, "max": 2, "name": "Instinctive Swarms", "from": [105,109,110],"appliesTo": [505]},
 
     {"min": 1, "max": 2, "name": "Instinctive Swarms", "from": [100,101,102,103,104,105,108,111,112],"appliesTo": [506]},
 
