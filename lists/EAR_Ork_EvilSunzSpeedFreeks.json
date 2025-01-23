@@ -7,9 +7,9 @@
       {
          "name": "SPEED FREEKS",
          "formations": [
-            {"id": 501, "name": "Evil Sunz Blitz Brigade", "pts": 30, "upgrades": [10,33,32,31,34,35,36,37,38,39,40,41,42]},
-            {"id": 502, "name": "Evil Sunz Blitz Brigade (Big)", "pts": 10, "upgrades": [10,33,32,31,34,35,36,37,38,39,40,41,42]},
-            {"id": 503, "name": "Evil Sunz Blitz Brigade ('Uge)", "pts": -10, "upgrades": [10,33,32,31,34,35,36,37,38,39,40,41,42]},
+            {"id": 501, "name": "Evil Sunz Blitz Brigade", "pts": 30, "upgrades": [10,33,32,28,34,35,36,37,38,39,40,41,42]},
+            {"id": 502, "name": "Evil Sunz Blitz Brigade (Big)", "pts": 10, "upgrades": [10,33,32,28,34,35,36,37,38,39,40,41,42]},
+            {"id": 503, "name": "Evil Sunz Blitz Brigade ('Uge)", "pts": -10, "upgrades": [10,33,32,28,34,35,36,37,38,39,40,41,42]},
 
             {"id": 504, "name": "Evil Sunz Kult of Speed", "pts": 0,  "upgrades": [10,21,20,22,32,33,31,24,25]},
             {"id": 505, "name": "Evil Sunz Kult of Speed (Big)", "pts": -50, "upgrades": [10,21,20,22,32,33,31,24,25]},
@@ -52,6 +52,7 @@
 
       {"id": 27, "name": "Nobz, Trukk", "pts": 35},
 
+      {"id": 28, "name": "Deffkopta", "pts": 30},
       {"id": 29, "name": "Boyz, Trukk", "pts": 25},
       {"id": 30, "name": "Battlewagon", "pts": 20},
       {"id": 31, "name": "Deffkopta", "pts": 35},
@@ -61,6 +62,7 @@
       {"id": 35, "name": "Mekboy Speedsta", "pts": 60},
       {"id": 36, "name": "Gunwagon w/ Boyz", "pts": 45},
       {"id": 37, "name": "Flakwagon w/ Boyz", "pts": 45},
+     
 
       {"id": 38, "name": "Gunfortress", "pts": 100},
       {"id": 39, "name": "Battlefortress", "pts": 100},
@@ -82,15 +84,15 @@
       {"max": 1, "from": [10], "perArmy": true},
       {"max": 2, "from": [12]},
 
-	  {"min": 4, "from": [33,32,31,34,35,36,37], "appliesTo": [501]},
+	  {"min": 4, "from": [33,32,28,34,35,36,37], "appliesTo": [501]},
       {"max": 1, "from": [35], "appliesTo": [501]},
       {"max": 1, "from": [38,39], "appliesTo": [501]},
       {"max": 1, "from": [40,41,42], "appliesTo": [501]},
-  	  {"min": 8, "from": [33,32,31,34,35,36,37], "appliesTo": [502]},
+  	  {"min": 8, "from": [33,32,28,34,35,36,37], "appliesTo": [502]},
       {"max": 2, "from": [35], "appliesTo": [502]},
       {"max": 2, "from": [38,39], "appliesTo": [502]},
       {"max": 2, "from": [40,41,42], "appliesTo": [502]},
-  	  {"min": 12, "from": [33,32,31,34,35,36,37], "appliesTo": [503]},
+  	  {"min": 12, "from": [33,32,28,34,35,36,37], "appliesTo": [503]},
       {"max": 3, "from": [35], "appliesTo": [503]},
       {"max": 3, "from": [38,39], "appliesTo": [503]},
       {"max": 3, "from": [40,41,42], "appliesTo": [503]},
